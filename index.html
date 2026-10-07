@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>منبر الهلال</title>
+<meta name="description" content="منبر الهلال — نتائج ومباريات الهلال، ترتيب دوري روشن، مباريات اليوم حول العالم، وآخر الأخبار.">
+<meta name="theme-color" content="#1C3BE8">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="logo" role="img" aria-label="شعار منبر الهلال"></div>
+    <div class="brand"><b>منبر الهلال</b><span>MNBRALHILAL</span></div>
+    <nav class="nav" aria-label="الأقسام">
+      <a href="#hilal">الهلال</a><a href="#table">الترتيب</a><a href="#today">مباريات اليوم</a><a href="#news">الأخبار</a>
+    </nav>
+  </div>
+</header>
+
+<div class="ticker" aria-label="شريط الأخبار">
+  <div class="wrap"><span class="tag">عاجل</span>
+    <div class="tick-track"><div class="tick-inner" id="tick"></div></div>
+  </div>
+</div>
+
+<div class="hero" id="hilal">
+  <div class="wrap">
+    <article class="next" aria-label="المباراة القادمة" id="nextCard">
+      <div class="empty">جاري تحميل المباراة القادمة…</div>
+    </article>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div class="col">
+      <section class="box">
+        <h2>مباريات الهلال</h2>
+        <div class="form"><span>آخر ٥ مباريات</span><span id="formStrip" style="display:flex;gap:6px"></span></div>
+        <div class="tabs" role="tablist">
+          <button role="tab" id="tabUp" aria-selected="true">القادمة</button>
+          <button role="tab" id="tabRes" aria-selected="false">النتائج</button>
+        </div>
+        <div id="hilalList"></div>
+      </section>
+
+      <section class="box" id="today">
+        <h2>مباريات اليوم حول العالم <span class="note" id="todayDate"></span></h2>
+        <div id="todayList"></div>
+      </section>
+
+      <section class="box">
+        <h2>نتائج أمس</h2>
+        <div id="ydayList"></div>
+      </section>
+    </div>
+
+    <div class="col">
+      <section class="box">
+        <h2>الهلال هذا الموسم</h2>
+        <div class="mini" id="mini"></div>
+      </section>
+
+      <section class="box" id="table">
+        <h2>ترتيب دوري روشن</h2>
+        <div class="tbl"><table>
+          <thead><tr><th>#</th><th style="text-align:right">الفريق</th><th>لعب</th><th>ف</th><th>ت</th><th>خ</th><th>+/-</th><th>نقاط</th></tr></thead>
+          <tbody id="spl"></tbody>
+        </table></div>
+        <div class="legend"><span><i style="background:var(--royal)"></i>دوري أبطال آسيا للنخبة</span><span><i style="background:var(--loss)"></i>الهبوط</span></div>
+      </section>
+
+      <section class="box">
+        <h2>الدوري الإنجليزي</h2>
+        <div class="tbl"><table>
+          <thead><tr><th>#</th><th style="text-align:right">الفريق</th><th>لعب</th><th>نقاط</th></tr></thead>
+          <tbody id="epl"></tbody>
+        </table></div>
+      </section>
+
+      <section class="box" id="news">
+        <h2>الأخبار</h2>
+        <div class="news" id="newsList"></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span style="display:flex;align-items:center;gap:10px"><span class="logo" aria-hidden="true"></span>منبر الهلال · المركز الرياضي</span>
+    <span class="demo"><span class="dot"></span><span id="updated">جاري التحديث…</span></span>
+  </div>
+</footer>
+
+<script src="assets/names.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
