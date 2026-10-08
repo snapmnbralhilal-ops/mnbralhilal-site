@@ -12,14 +12,14 @@
 <link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="assets/fonts/ExpoArabic-SemiBold.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
-<link rel="stylesheet" href="assets/style.css?v=202610082220">
-<link rel="stylesheet" href="assets/v3/style.css?v=202610082220">
+<link rel="stylesheet" href="assets/style.css?v=202610082235">
+<link rel="stylesheet" href="assets/v3/style.css?v=202610082235">
 <style>
 /* إخفاء كل عناصر التصميم الحالي في المعاينة فقط */
 .mast, .tabbar, footer, .sponsors:not(.mn-sponsors), .follow:not(.mn-follow), .install-bar, .ticker, .page-home .hero, .wrap { display: none !important }
 .page { padding: 0 !important }
 body { background: #000 !important }
-.push-btn, .push-tip, .install-bar { display: none !important }
+.push-btn, .push-tip, .install-bar, [data-push] { display: none !important }
 </style>
 </head>
 <body class="mn" data-page="home" data-section="home">
@@ -29,7 +29,6 @@ body { background: #000 !important }
   <div class="mn-top-in">
     <a class="mn-brand" href="index.html"><span class="mn-logo"></span><span><b>منبر الهلال</b><br><em>MNBRALHILAL</em></span></a>
     <div class="mn-top-right">
-      <button type="button" class="mn-ib" data-push aria-label="تنبيهات" hidden><svg width="22" height="22" aria-hidden="true"><use href="#i2-bell"/></svg></button>
       <a class="mn-ib" href="matchday.html" aria-label="مركز المباراة"><svg width="22" height="22" aria-hidden="true"><use href="#i2-live"/></svg></a>
     </div>
   </div>
@@ -108,9 +107,9 @@ body { background: #000 !important }
   // تحميل الأيقونات
   if (window.ICON) window.ICON.inject();
 </script>
-<script src="assets/names.js?v=202610082220"></script>
-<script src="assets/v3/home.js?v=202610082220"></script>
-<script src="assets/social.js?v=202610082220"></script>
-<script src="assets/push.js?v=202610082220"></script>
+<script src="assets/names.js?v=202610082235"></script>
+<script src="assets/v3/home.js?v=202610082235"></script>
+<script src="assets/social.js?v=202610082235"></script>
+<script src="assets/push.js?v=202610082235"></script>
 </body>
 </html>
