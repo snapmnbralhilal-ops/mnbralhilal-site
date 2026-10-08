@@ -9,7 +9,7 @@ workers_dev = true
 crons = ["* * * * *"]   # كل دقيقة يشيك: فيه مباراة للهلال الحين؟
 
 [vars]
-SITE = "https://snapmnbralhilal-ops.github.io/mnbralhilal-site"
+SITE = "https://mnbralhilal.net"
 # كل كم ثانية يسحب النتيجة وقت مباراة الهلال.
 # الخطة المجانية (100 طلب باليوم): 180  — باقة Pro: 15
 LIVE_INTERVAL = "15"

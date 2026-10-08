@@ -533,7 +533,7 @@ async function sendPush(sub, payload, signKey, pubB64) {
   // توقيع VAPID
   const aud = new URL(sub.endpoint).origin;
   const h = b64u(te.encode(JSON.stringify({ typ: "JWT", alg: "ES256" })));
-  const c = b64u(te.encode(JSON.stringify({ aud, exp: Math.floor(Date.now() / 1000) + 12 * 3600, sub: "https://snapmnbralhilal-ops.github.io/mnbralhilal-site" })));
+  const c = b64u(te.encode(JSON.stringify({ aud, exp: Math.floor(Date.now() / 1000) + 12 * 3600, sub: "https://mnbralhilal.net" })));
   const sig = b64u(await crypto.subtle.sign({ name: "ECDSA", hash: "SHA-256" }, signKey, te.encode(`${h}.${c}`)));
   return fetch(sub.endpoint, { method: "POST", body: concat(header, ct), headers: {
     authorization: `vapid t=${h}.${c}.${sig}, k=${pubB64}`, "content-encoding": "aes128gcm", "content-type": "application/octet-stream", ttl: "3600", urgency: "high" } });
