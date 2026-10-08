@@ -17,6 +17,30 @@
         "commentators": "فارس عوض - عبدالله الحربي",
         "channel": "ثمانية"
       }
+    },
+    {
+      "id": "2026-10-10-hilal-ittihad-biggest-win",
+      "type": "تاريخ المواجهات",
+      "title": "أكبر انتصار: الهلال 5-0 الاتحاد (ديسمبر 2009)",
+      "date": "2026-10-08",
+      "image": "assets/designs/2026-10-10-hilal-ittihad-biggest-win.jpg",
+      "thumb": "assets/designs/2026-10-10-hilal-ittihad-biggest-win-thumb.jpg"
+    },
+    {
+      "id": "2026-10-10-hilal-ittihad-h2h-league",
+      "type": "تاريخ المواجهات",
+      "title": "المواجهات في الدوري: 44 فوز للهلال · 29 تعادل · 27 للاتحاد",
+      "date": "2026-10-08",
+      "image": "assets/designs/2026-10-10-hilal-ittihad-h2h-league.jpg",
+      "thumb": "assets/designs/2026-10-10-hilal-ittihad-h2h-league-thumb.jpg"
+    },
+    {
+      "id": "2026-10-10-hilal-ittihad-h2h-all",
+      "type": "تاريخ المواجهات",
+      "title": "كل المسابقات: 77 فوز للهلال · 47 تعادل · 44 للاتحاد",
+      "date": "2026-10-08",
+      "image": "assets/designs/2026-10-10-hilal-ittihad-h2h-all.jpg",
+      "thumb": "assets/designs/2026-10-10-hilal-ittihad-h2h-all-thumb.jpg"
     }
   ]
 }
