@@ -71,3 +71,10 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "رابط التحديث المباشر"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done
+
+      - name: فحص العامل بعد الرفع
+        continue-on-error: true
+        run: |
+          sleep 10
+          H=$(curl -s "https://mnbr-live.snapmnbralhilal.workers.dev/health?refresh=1")
+          echo "::notice::health: $H"
