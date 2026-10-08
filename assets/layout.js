@@ -7,6 +7,7 @@
   // روابط القائمة: [المعرّف، الاسم، الرابط، الأيقونة، يظهر في شريط الجوال السفلي؟]
   const NAV = [
     ["home", "الرئيسية", "index.html", "home", true],
+    ["founding", "69 عاماً", "founding.html", "star", false],
     ["matches", "المباريات", "matches.html", "cal", true],
     ["standings", "الترتيب", "standings.html", "trophy", true],
     ["designs", "التصاميم", "designs.html", "image", true],
@@ -14,7 +15,7 @@
     ["news", "الأخبار", "news.html", "news", false],
     ["youth", "الفئات السنية", "youth.html", "users", false]
   ];
-  const TITLES = { home: "كرة القدم", matches: "المباريات", standings: "الترتيب", designs: "التصاميم", videos: "فيديو", news: "الأخبار", youth: "الفئات السنية" };
+  const TITLES = { founding: "ذكرى التأسيس", home: "كرة القدم", matches: "المباريات", standings: "الترتيب", designs: "التصاميم", videos: "فيديو", news: "الأخبار", youth: "الفئات السنية" };
 
   const SPRITE = `<svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></symbol>
@@ -35,6 +36,14 @@
   <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
 </svg>`;
+
+  // التطبيق (PWA): ملف التعريف + أيقونة الآيفون + شريط التثبيت — لكل الصفحات من مكان واحد
+  (function () {
+    const h = document.head;
+    if (!h.querySelector('link[rel="manifest"]')) h.insertAdjacentHTML("beforeend",
+      '<link rel="manifest" href="manifest.webmanifest"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="منبر الهلال">');
+    const s = document.createElement("script"); s.src = "assets/pwa.js?v=2"; s.defer = true; h.appendChild(s);
+  })();
 
   const icon = (n) => `<svg class="i"><use href="#i-${n}"/></svg>`;
   const cur = (id) => (id === PAGE ? ' aria-current="page"' : "");

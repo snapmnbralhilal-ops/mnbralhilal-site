@@ -159,6 +159,31 @@
     renderDesigns();
   }
 
+
+  /* ---------- أضف للتقويم (.ics) ---------- */
+  const icsDate = (d) => new Date(d).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  const icsEsc = (t) => String(t || "").replace(/[\\,;]/g, (c) => "\\" + c).replace(/\n/g, "\\n");
+  function icsEvent(m) {
+    const start = new Date(m.date), end = new Date(start.getTime() + 2 * 3600e3);
+    const title = `${arTeam(m.home.name)} × ${arTeam(m.away.name)}`;
+    return ["BEGIN:VEVENT", `UID:mnbr-${m.id || start.getTime()}@mnbralhilal`, `DTSTAMP:${icsDate(Date.now())}`,
+      `DTSTART:${icsDate(start)}`, `DTEND:${icsDate(end)}`, `SUMMARY:${icsEsc("⚽ " + title)}`,
+      `DESCRIPTION:${icsEsc(arLeague(m.league) + " — من منبر الهلال")}`, m.venue ? `LOCATION:${icsEsc(m.venue)}` : "",
+      "BEGIN:VALARM", "TRIGGER:-PT1H", "ACTION:DISPLAY", `DESCRIPTION:${icsEsc("باقي ساعة: " + title)}`, "END:VALARM", "END:VEVENT"].filter(Boolean).join("\r\n");
+  }
+  function downloadIcs(matches, name) {
+    const body = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Mnbralhilal//AR", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:مباريات الهلال — منبر",
+      ...matches.map(icsEvent), "END:VCALENDAR"].join("\r\n");
+    const url = URL.createObjectURL(new Blob([body], { type: "text/calendar;charset=utf-8" }));
+    const a = document.createElement("a"); a.href = url; a.download = name; document.body.appendChild(a); a.click();
+    setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 1500);
+  }
+  let CAL_NEXT = null, CAL_ALL = [];
+  document.addEventListener("click", (e) => {
+    if (e.target.closest("#calNext") && CAL_NEXT) downloadIcs([CAL_NEXT], "hilal-match.ics");
+    if (e.target.closest("#calAll") && CAL_ALL.length) downloadIcs(CAL_ALL, "hilal-matches.ics");
+  });
+
   /* ---------- البطاقة الرئيسية: المباراة القادمة ---------- */
   let countTimer = null;
   function renderNext(m) {
@@ -182,7 +207,8 @@
         <div class="mid">${mid}</div>
         <div class="t">${crest(m.away, "crest lg")}${esc(arTeam(m.away.name))}</div>
       </div>
-      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${matchSponsorHtml()}`;
+      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${live ? "" : `<div class="cal-row"><button type="button" class="cal-btn" id="calNext">📅 أضف للتقويم</button></div>`}${matchSponsorHtml()}`;
+    CAL_NEXT = live ? null : m;
     clearInterval(countTimer);
     if (live) return;
     const tick = () => {
@@ -205,6 +231,8 @@
       $("tabRes").setAttribute("aria-selected", !up);
       const arr = up ? upcoming : results;
       list.innerHTML = arr.length ? arr.map((m) => row(m)).join("") : `<div class="empty">${up ? "لا توجد مباريات قادمة مسجلة" : "لا توجد نتائج بعد"}</div>`;
+      CAL_ALL = upcoming.filter((m) => !LIVE.includes(m.status));
+      if (up && CAL_ALL.length) list.innerHTML += `<button type="button" class="cal-btn cal-all" id="calAll">📅 أضف ${CAL_ALL.length > 1 ? "كل مباريات الهلال القادمة" : "المباراة"} للتقويم</button>`;
     };
     $("tabUp").onclick = () => show(true);
     $("tabRes").onclick = () => show(false);
@@ -432,6 +460,13 @@
     }
   }).observe(document.body, { childList: true, subtree: true, characterData: true });
   document.title = toArabic(document.title);
+
+  (function () {
+    const now = new Date(), y = now.getFullYear();
+    const from = new Date(`${y}-10-01T00:00:00+03:00`), to = new Date(`${y}-10-21T00:00:00+03:00`);
+    const el = document.getElementById("fdWrap");
+    if (el) el.hidden = !(now >= from && now < to);
+  })();
 
   Promise.all([loadAds(), loadDesigns()]).then(load).then(loadYouth);
   setInterval(load, 10 * 60 * 1000); // يعيد القراءة كل ١٠ دقائق
