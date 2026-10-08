@@ -1,6 +1,8 @@
-/* يجلب البيانات من API-Football ويكتب data/site.json
+/* يجلب البيانات من API-Football ويكتب data/site.json (+ data/stats.json بباقة Pro)
    التشغيل: API_FOOTBALL_KEY=xxxx node scripts/fetch-data.js
-   كل تشغيلة تستهلك ٥ طلبات تقريباً (الخطة المجانية = ١٠٠ طلب باليوم). */
+   يتعرف على الباقة تلقائياً:
+   - Pro: جدول الهلال كامل + الترتيب الرسمي + إحصائيات اللاعبين (≈ 10 طلبات بكل تشغيلة)
+   - المجانية: أرشيف يومي ويحسب الترتيب من النتائج */
 const fs = require("fs");
 const path = require("path");
 const { arTeam, arLeague, arRound } = require("../assets/names.js");
@@ -245,6 +247,13 @@ async function main() {
   const season = seasonFor();
   const todayYmd = riyadhDate(0), ydayYmd = riyadhDate(-1);
 
+  // الباقة؟
+  const st = await api("status", {});
+  const plan = st?.subscription?.plan || "";
+  const pro = !!plan && !/free/i.test(plan) && st?.subscription?.active !== false;
+  console.log(`الباقة: ${plan || "؟"} — الطلبات اليوم ${st?.requests?.current ?? "?"}/${st?.requests?.limit_day ?? "?"}`);
+  if (pro) return mainPro(prev, season, todayYmd, ydayYmd, plan);
+
   // ١) اليوم وأمس — كل تشغيلة
   const today = await apiSlow("fixtures", { date: todayYmd, timezone: TZ });
   const yday = await apiSlow("fixtures", { date: ydayYmd, timezone: TZ });
@@ -304,6 +313,102 @@ async function main() {
   fs.writeFileSync(OUT, JSON.stringify(data, null, 1));
   console.log(`✅ تم التحديث — ${requests} طلبات، ${errors.length} أخطاء، أيام ناقصة بالأرشيف: ${Math.max(0, stillMissing)}`);
   for (const e of errors) console.log("⚠️", e.endpoint, JSON.stringify(e.params), JSON.stringify(e.error));
+}
+
+/* ---------- باقة Pro ---------- */
+const SQUAD = path.join(__dirname, "..", "data", "squad.json");
+const STATS = path.join(__dirname, "..", "data", "stats.json");
+const fold = (x) => String(x || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/-/g, " ").replace(/\s+/g, " ").trim();
+function matchPlayer(sq, name) {
+  const nm = fold(name);
+  if (!nm) return null;
+  const w = nm.split(" ").filter((x) => x !== "al"), first = w[0].replace(/\.$/, "");
+  return sq.find((x) => {
+    if (!x.en) return false;
+    const t = fold(x.en).split(" ").filter((y) => y !== "al");
+    if (!w.includes(t[t.length - 1])) return false;
+    return t.length < 2 || w.length < 2 || (first.length === 1 ? t[0][0] === first : t[0] === first);
+  }) || null;
+}
+const POS = { Goalkeeper: "GK", Defender: "DF", Midfielder: "MF", Attacker: "FW" };
+
+async function mainPro(prev, season, todayYmd, ydayYmd, plan) {
+  const [hil, today, yday, spl, epl] = await Promise.all([
+    api("fixtures", { team: HILAL_ID, season, timezone: TZ }),
+    api("fixtures", { date: todayYmd, timezone: TZ }),
+    api("fixtures", { date: ydayYmd, timezone: TZ }),
+    api("standings", { league: SPL_ID, season }),
+    api("standings", { league: EPL_ID, season })
+  ]);
+  const data = { ...prev, teamName: "الهلال", plan, updated: new Date().toISOString(), season };
+  delete data.archiveComplete; delete data.lookahead;
+
+  if (hil) {
+    const all = hil.map(slim);
+    const live = all.filter((m) => LIVE.includes(m.status));
+    const up = all.filter((m) => !LIVE.includes(m.status) && !DONE.includes(m.status) && !["CANC", "ABD", "AWD", "WO"].includes(m.status))
+      .filter((m) => new Date(m.date) > Date.now() - 3 * 3600e3).sort((a, b) => a.date.localeCompare(b.date));
+    const res = all.filter((m) => DONE.includes(m.status) && m.goals).sort((a, b) => b.date.localeCompare(a.date));
+    data.hilal = { teamId: HILAL_ID, upcoming: [...live, ...up].slice(0, 10), results: res.slice(0, 15) };
+  }
+  if (today) data.today = { date: todayYmd, groups: groupByLeague(today) };
+  if (yday) data.yesterday = { date: ydayYmd, groups: groupByLeague(yday.filter((f) => DONE.includes(f.fixture.status.short))) };
+  data.standings = { ...(prev.standings || {}) };
+  const s1 = standingRows(spl), s2 = standingRows(epl);
+  if (s1) data.standings.spl = { season, rows: s1 };
+  if (s2) data.standings.epl = { season, rows: s2 };
+
+  // إحصائيات لاعبين الهلال (كل البطولات) + هدافين دوري روشن
+  try { await buildStats(season); } catch (e) { errors.push({ endpoint: "stats", error: String(e) }); }
+
+  data.news = writeNews(data);
+  data.errors = errors;
+  data.requests = requests;
+  fs.writeFileSync(OUT, JSON.stringify(data, null, 1));
+  console.log(`✅ تم التحديث (Pro) — ${requests} طلبات، ${errors.length} أخطاء`);
+  for (const e of errors) console.log("⚠️", e.endpoint, JSON.stringify(e.params), JSON.stringify(e.error));
+}
+
+async function buildStats(season) {
+  let sq = [];
+  try { sq = JSON.parse(fs.readFileSync(SQUAD, "utf8")).players || []; } catch {}
+  const rows = [];
+  for (let page = 1, total = 1; page <= total && page <= 4; page++) {
+    const url = `https://${HOST}/players?` + new URLSearchParams({ team: HILAL_ID, season, page });
+    requests++;
+    const r = await fetch(url, { headers: { "x-apisports-key": KEY } }).then((x) => x.json()).catch(() => null);
+    if (!r || !Array.isArray(r.response)) { errors.push({ endpoint: "players", params: { page } }); break; }
+    total = r.paging?.total || 1;
+    rows.push(...r.response);
+  }
+  const num = (v) => (typeof v === "number" ? v : 0);
+  const players = rows.map(({ player, statistics }) => {
+    const st = (statistics || []).filter((x) => x.team?.id === HILAL_ID);
+    const sum = (f) => st.reduce((n, x) => n + num(f(x)), 0);
+    const apps = sum((x) => x.games?.appearences), mins = sum((x) => x.games?.minutes);
+    const rated = st.filter((x) => x.games?.rating && x.games?.minutes);
+    const rating = rated.length ? rated.reduce((n, x) => n + parseFloat(x.games.rating) * x.games.minutes, 0) / rated.reduce((n, x) => n + x.games.minutes, 0) : null;
+    const me = matchPlayer(sq, player.name) || matchPlayer(sq, `${player.firstname || ""} ${player.lastname || ""}`);
+    return {
+      api: player.id, sid: me?.id || null, name: me?.name || player.name, en: player.name, n: me?.n ?? st.find((x) => x.games?.number)?.games?.number ?? null,
+      pos: me?.pos || POS[st[0]?.games?.position] || "", photo: player.photo, age: player.age, nat: player.nationality,
+      apps, starts: sum((x) => x.games?.lineups), mins, goals: sum((x) => x.goals?.total), assists: sum((x) => x.goals?.assists),
+      saves: sum((x) => x.goals?.saves), conceded: sum((x) => x.goals?.conceded), shots: sum((x) => x.shots?.total), shotsOn: sum((x) => x.shots?.on),
+      keyPasses: sum((x) => x.passes?.key), passes: sum((x) => x.passes?.total), tackles: sum((x) => x.tackles?.total), interceptions: sum((x) => x.tackles?.interceptions),
+      dribbles: sum((x) => x.dribbles?.success), yellow: sum((x) => x.cards?.yellow), red: sum((x) => x.cards?.red) + sum((x) => x.cards?.yellowred),
+      penScored: sum((x) => x.penalty?.scored), rating: rating ? Math.round(rating * 100) / 100 : null,
+      comps: st.filter((x) => num(x.games?.appearences)).map((x) => ({ league: x.league?.name, apps: num(x.games.appearences), goals: num(x.goals?.total), assists: num(x.goals?.assists) }))
+    };
+  }).filter((p) => p.apps > 0 || p.sid);
+
+  const tops = await api("players/topscorers", { league: SPL_ID, season });
+  const splScorers = (tops || []).slice(0, 10).map(({ player, statistics }) => ({
+    name: player.name, photo: player.photo, team: team(statistics[0].team), goals: num(statistics[0].goals?.total), assists: num(statistics[0].goals?.assists), apps: num(statistics[0].games?.appearences)
+  })).map((x) => { if (x.team.id === HILAL_ID) { const me = matchPlayer(sq, x.name); if (me) x.name = me.name; } return x; });
+
+  if (!players.length && fs.existsSync(STATS)) return; // لا نمسح القديم لو صار خطأ
+  fs.writeFileSync(STATS, JSON.stringify({ season, updated: new Date().toISOString(), players, splScorers }, null, 1));
+  console.log(`📊 إحصائيات: ${players.length} لاعب (${players.filter((p) => p.sid).length} مطابق مع القائمة)`);
 }
 
 main();
