@@ -13,8 +13,8 @@
   const fmt = (opts) => new Intl.DateTimeFormat("ar-SA-u-ca-gregory-nu-latn", { timeZone: TZ, ...opts });
   const fTime = fmt({ hour: "2-digit", minute: "2-digit", hour12: false });
   const fDay = fmt({ weekday: "long", day: "numeric", month: "long" });
-  const fShort = fmt({ weekday: "short", day: "numeric", month: "numeric" });
-  const fDM = fmt({ day: "numeric", month: "numeric" });
+  const fShort = fmt({ weekday: "long", day: "numeric", month: "long" });
+  const fDM = fmt({ day: "numeric", month: "long" });
 
   let HILAL_ID = null;
 
@@ -206,6 +206,44 @@
       : "بانتظار أول تحديث للبيانات";
   }
 
+  /* ---------- الفئات السنية (data/youth.json — تعبئة يدوية) ---------- */
+  const HILAL_LOGO = "https://media.api-sports.io/football/teams/2932.png";
+  const yTeam = (name) => (name === "الهلال" ? { id: 2932, name, logo: HILAL_LOGO } : { id: null, name, logo: "" });
+  function renderYouth(y) {
+    const box = $("youth");
+    if (!y || (!(y.upcoming || []).length && !(y.results || []).length && !(y.table || []).length)) { box.hidden = true; return; }
+    box.hidden = false;
+    $("yTitle").textContent = y.title || "الهلال تحت 21";
+    $("yComp").textContent = [y.competition, y.season].filter(Boolean).join(" · ");
+    const toMatch = (m, done) => ({
+      date: m.date, status: done ? "FT" : "NS",
+      home: yTeam(m.home), away: yTeam(m.away),
+      goals: done ? [m.homeGoals, m.awayGoals] : null,
+      league: { name: [m.round, m.venue].filter(Boolean).join(" · ") }
+    });
+    const now = Date.now();
+    const up = (y.upcoming || []).filter((m) => new Date(m.date) > now - 3 * 3600e3).sort((a, b) => a.date.localeCompare(b.date)).map((m) => toMatch(m, false));
+    const res = (y.results || []).slice().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5).map((m) => toMatch(m, true));
+    const list = [...up.slice(0, 3), ...res];
+    $("yMatches").innerHTML = list.length ? list.map((m) => row(m)).join("") : `<div class="empty">لا توجد مباريات مسجلة</div>`;
+
+    const t = (y.table || []).slice(0, 8);
+    $("yTableHead").hidden = !t.length;
+    $("yTable").closest(".tbl").hidden = !t.length;
+    $("yUpdated").textContent = y.updated ? "حتى " + fmt({ day: "numeric", month: "long" }).format(new Date(y.updated + "T12:00:00+03:00")) : "";
+    $("yTable").innerHTML = t.map((r, i) => `<tr class="${r.team === "الهلال" ? "hl" : ""}"><td class="pos num">${i + 1}</td><td class="team"><div>${crest(yTeam(r.team))}<span>${esc(r.team)}</span></div></td><td class="num">${r.played}</td><td class="num">${r.win}</td><td class="num">${r.draw}</td><td class="num">${r.lose}</td><td class="num" style="direction:ltr">${r.gf}:${r.ga}</td><td class="pts">${r.points}</td></tr>`).join("");
+
+    const news = y.news || [];
+    $("yNewsWrap").hidden = !news.length;
+    $("yNews").innerHTML = news.map((n) => `<a href="${esc(n.link || "#youth")}"><span class="k">${esc(n.tag || "تحت 21")}</span><div><h3>${esc(n.title)}</h3><p>${esc(n.body || "")}</p></div></a>`).join("");
+  }
+  async function loadYouth() {
+    try {
+      const r = await fetch("data/youth.json?t=" + Date.now(), { cache: "no-store" });
+      renderYouth(r.ok ? await r.json() : null);
+    } catch (e) { renderYouth(null); }
+  }
+
   async function loadAds() {
     try {
       const r = await fetch("data/ads.json?t=" + Date.now(), { cache: "no-store" });
@@ -253,6 +291,6 @@
   }).observe(document.body, { childList: true, subtree: true, characterData: true });
   document.title = toArabic(document.title);
 
-  loadAds().then(load);
+  loadAds().then(load).then(loadYouth);
   setInterval(load, 10 * 60 * 1000); // يعيد القراءة كل ١٠ دقائق
 })();

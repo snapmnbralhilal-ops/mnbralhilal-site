@@ -1,0 +1,21 @@
+{
+  "title": "الهلال تحت 21",
+  "competition": "دوري النخبة تحت 21",
+  "season": "2026/27",
+  "updated": "2026-10-08",
+  "upcoming": [
+    { "date": "2026-10-12T18:05:00+03:00", "home": "الهلال", "away": "الوطن", "round": "الجولة 6", "venue": "ملعب نادي الهلال" }
+  ],
+  "results": [],
+  "table": [
+    { "team": "الاتحاد", "played": 5, "win": 4, "draw": 1, "lose": 0, "gf": 11, "ga": 2,  "points": 13 },
+    { "team": "الفتح",   "played": 5, "win": 4, "draw": 0, "lose": 1, "gf": 12, "ga": 4,  "points": 12 },
+    { "team": "الأهلي",  "played": 5, "win": 3, "draw": 2, "lose": 0, "gf": 13, "ga": 6,  "points": 11 },
+    { "team": "الهلال",  "played": 5, "win": 3, "draw": 1, "lose": 1, "gf": 12, "ga": 6,  "points": 10 },
+    { "team": "الرياض",  "played": 5, "win": 3, "draw": 1, "lose": 1, "gf": 10, "ga": 6,  "points": 10 },
+    { "team": "الاتفاق", "played": 5, "win": 3, "draw": 0, "lose": 2, "gf": 21, "ga": 8,  "points": 9 },
+    { "team": "الخلود",  "played": 4, "win": 3, "draw": 0, "lose": 1, "gf": 7,  "ga": 3,  "points": 9 },
+    { "team": "الفيحاء", "played": 5, "win": 3, "draw": 0, "lose": 2, "gf": 11, "ga": 8,  "points": 9 }
+  ],
+  "news": []
+}
