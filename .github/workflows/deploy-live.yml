@@ -28,16 +28,27 @@ jobs:
           if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
             echo "::warning::أضف CLOUDFLARE_API_TOKEN و CLOUDFLARE_ACCOUNT_ID في إعدادات المستودع (Secrets) ثم شغّل هذا مرة ثانية"; exit 1; fi
 
+      - name: فحص المفتاح والحساب
+        run: |
+          V=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" https://api.cloudflare.com/client/v4/user/tokens/verify)
+          echo "::notice::token verify: $(echo "$V" | jq -c '{success, status: .result.status, errors: [.errors[]?.message]}')"
+          A=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts?per_page=50")
+          echo "::notice::accounts visible to token: $(echo "$A" | jq -c '[.result[]? | {id, name}]') errors: $(echo "$A" | jq -c '[.errors[]?.message]')"
+
       - name: مساحة التخزين (KV) — تنسوى أول مرة لحالها
         working-directory: workers/live
         run: |
           API="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/storage/kv/namespaces"
           AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
-          ID=$(curl -s -H "$AUTH" "$API?per_page=100" | jq -r '.result[]? | select(.title=="mnbr-live") | .id' | head -1)
+          L=$(curl -s -H "$AUTH" "$API?per_page=100")
+          echo "::notice::kv list: $(echo "$L" | jq -c '{success, errors: [.errors[]? | "\(.code) \(.message)"]}')"
+          ID=$(echo "$L" | jq -r '.result[]? | select(.title=="mnbr-live") | .id' | head -1)
           if [ -z "$ID" ]; then
-            ID=$(curl -s -X POST -H "$AUTH" -H "Content-Type: application/json" -d '{"title":"mnbr-live"}' "$API" | jq -r '.result.id')
+            C=$(curl -s -X POST -H "$AUTH" -H "Content-Type: application/json" -d '{"title":"mnbr-live"}' "$API")
+            echo "::notice::kv create: $(echo "$C" | jq -c '{success, errors: [.errors[]? | "\(.code) \(.message)"]}')"
+            ID=$(echo "$C" | jq -r '.result.id // empty')
           fi
-          if [ -z "$ID" ] || [ "$ID" = "null" ]; then echo "::error::ما قدرت أسوي مساحة KV — تأكد إن المفتاح من قالب Edit Cloudflare Workers"; exit 1; fi
+          if [ -z "$ID" ]; then echo "::error::ما قدرت أسوي مساحة KV — شوف الملاحظات فوق"; exit 1; fi
           sed -i "s/__KV_ID__/$ID/" wrangler.toml
 
       - name: رفع العامل
