@@ -415,6 +415,63 @@
       <div class="last-foot">${word ? `<span class="res-word ${o}">${word}</span>` : ""}${form ? `<span class="form-mini"><small>آخر 5</small>${form}</span>` : ""}</div>`);
   }
 
+
+  /* ---------- مباريات الشهر (تقويم + شريط مختصر) — تتعبّى تلقائياً من بيانات الهلال ---------- */
+  const ymdR = (d) => fmt({ year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date(d)).reduce((o, p) => (o[p.type] = p.value, o), {});
+  const compKind = (m) => { const n = (m.league?.name || "").toLowerCase(); return /afc|asia|champions|elite/.test(n) ? "c" : /cup|كأس|super/.test(n) ? "o" : "l"; };
+  const COMP_SHORT = { l: "الدوري", c: "آسيا", o: "كأس" };
+  function renderMonth(h) {
+    if (!$("monthCal") && !$("monthStrip")) return;
+    const all = [...(h?.results || []), ...(h?.upcoming || [])];
+    const seen = new Set(), list = [];
+    all.forEach((m) => { const k = m.date.slice(0, 16); if (!seen.has(k)) { seen.add(k); list.push(m); } });
+    const now = ymdR(Date.now()), Y = +now.year, M = +now.month;
+    const month = list.filter((m) => { const p = ymdR(m.date); return +p.year === Y && +p.month === M; }).sort((a, b) => a.date.localeCompare(b.date));
+    const box = $("month") || $("monthBox");
+    if (box) box.hidden = !month.length;
+    if (!month.length) return;
+    const mName = fmt({ month: "long" }).format(new Date(month[0].date));
+    document.querySelectorAll("#monthTitle").forEach((el) => (el.textContent = `مباريات الهلال في ${mName}`));
+    const info = (m) => {
+      const home = m.home.id === HILAL_ID, opp = home ? m.away : m.home, k = compKind(m);
+      const done = DONE.includes(m.status) && m.goals, live = LIVE.includes(m.status);
+      const o = done ? outcome(m) : null;
+      const sc = done || live ? `${m.goals?.[0] ?? 0} - ${m.goals?.[1] ?? 0}` : "";
+      return { home, opp, k, done, live, o, sc, day: +ymdR(m.date).day, time: fTime.format(new Date(m.date)) };
+    };
+    const kinds = new Set(month.map(compKind));
+    document.querySelectorAll(".mo-legend [data-k]").forEach((el) => (el.hidden = !kinds.has(el.dataset.k)));
+    const ha = (home) => `<svg class="i"><use href="#i-${home ? "home" : "plane"}"/></svg>`;
+    // التقويم
+    if ($("monthCal")) {
+      const first = new Date(`${Y}-${String(M).padStart(2, "0")}-01T12:00:00+03:00`);
+      const lead = new Date(first.toLocaleString("en-US", { timeZone: TZ })).getDay(); // الأحد = 0
+      const days = new Date(Y, M, 0).getDate();
+      const byDay = {}; month.forEach((m) => { const x = info(m); byDay[x.day] = { m, x }; });
+      const today = +now.day;
+      let cells = ["الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"].map((d) => `<div class="mo-dn">${d}</div>`).join("");
+      for (let i = 0; i < lead; i++) cells += `<div class="mo-d empty"></div>`;
+      for (let d = 1; d <= days; d++) {
+        const e = byDay[d], t = d === today ? " today" : "";
+        if (!e) { cells += `<div class="mo-d${t}${d < today ? " past" : ""}"><span class="n">${d}</span></div>`; continue; }
+        const { x } = e;
+        cells += `<div class="mo-d match k-${x.k}${t}${x.done ? " done" : ""}">
+          <span class="n">${d}</span><span class="ha">${ha(x.home)}</span>
+          <span class="cr">${crest(x.opp)}</span>
+          <span class="tm num">${x.done || x.live ? `<b class="res-dot ${x.o || ""}">${x.sc}</b>` : x.time}</span>
+          <span class="nm">${esc(arTeam(x.opp.name))}</span></div>`;
+      }
+      put("monthCal", cells);
+    }
+    // قائمة (للجوال) + الشريط المختصر في الرئيسية
+    const card = (m, cls) => { const x = info(m); return `<a class="${cls} k-${x.k}${x.done ? " done" : ""}" href="matches.html#month">
+      <span class="mc-top"><span>${esc(fmt({ weekday: "short", day: "numeric", month: "short" }).format(new Date(m.date)))}</span><span class="ha">${ha(x.home)}</span></span>
+      <span class="mc-mid">${crest(x.opp, "crest")}<b>${esc(arTeam(x.opp.name))}</b></span>
+      <span class="mc-bot"><span class="cp">${COMP_SHORT[x.k]}</span>${x.done || x.live ? `<b class="num res-dot ${x.o || ""}">${x.sc}</b>` : `<span class="num">${x.time}</span>`}</span></a>`; };
+    put("monthList", month.map((m) => card(m, "mo-card")).join(""));
+    put("monthStrip", month.map((m) => card(m, "mo-card")).join(""));
+  }
+
   function render(data) {
     HILAL_ID = data.hilal?.teamId ?? null;
     let h = data.hilal || {};
@@ -425,6 +482,7 @@
     startLive();
     renderHilal(h);
     renderLast(h);
+    renderMonth(h);
     if ($("todayDate")) $("todayDate").textContent = data.today?.date ? fDay.format(new Date(data.today.date + "T12:00:00+03:00")) : "";
     renderDay($("todayList"), data.today, "لا توجد مباريات اليوم في الدوريات المتابعة", 14);
     renderDay($("ydayList"), data.yesterday, "لا توجد نتائج لأمس", 10);

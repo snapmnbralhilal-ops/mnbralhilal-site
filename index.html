@@ -12,10 +12,10 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
 <link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
-<link rel="stylesheet" href="assets/style.css?v=202610081830">
+<link rel="stylesheet" href="assets/style.css?v=202610090210">
 </head>
 <body data-page="home">
-<script src="assets/layout.js?v=202610081830"></script>
+<script src="assets/layout.js?v=202610090210"></script>
 
 <div class="strip" id="stripWrap" hidden aria-label="مباريات اليوم">
   <div class="wrap"><div class="strip-row" id="strip"></div></div>
@@ -47,6 +47,10 @@
   <a href="matchday.html"><b>⚡ مركز المباراة</b><small>كل شي عن المباراة بمكان واحد</small></a>
 </div>
 <button type="button" class="push-btn" data-push hidden>🔔 فعّل تنبيهات المباريات والأهداف</button></div>
+<div class="wrap month-wrap"><section class="box sec-month" id="monthBox" hidden>
+  <h2><span class="ic"><svg class="i"><use href="#i-cal"/></svg></span><span id="monthTitle">مباريات الشهر</span><a class="see-all" href="matches.html#month">التقويم<svg class="i"><use href="#i-arrow"/></svg></a></h2>
+  <div class="mo-strip" id="monthStrip"></div>
+</section></div>
 <div class="wrap ad-wrap"><div class="ad-slot" data-slot="top" hidden></div></div>
 
 <div class="wrap grid home-grid">
@@ -94,7 +98,7 @@
 
 <script>LAYOUT.foot()</script>
 <script src="assets/names.js?v=202610081830"></script>
-<script src="assets/app.js?v=202610081830"></script>
+<script src="assets/app.js?v=202610090210"></script>
 <script src="assets/social.js?v=202610081830"></script>
 <script src="assets/push.js?v=202610081830"></script>
 <script src="assets/occasions.js?v=202610081830"></script>

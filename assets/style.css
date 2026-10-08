@@ -489,3 +489,51 @@ footer .wrap{row-gap:14px}
 .oc-day.is-today{background:rgba(47,91,255,.1);border-radius:14px;border-bottom-color:transparent}
 .oc-day.is-today .oc-num{background:var(--royal);color:#fff}
 .oc-day.is-today .oc-num small{color:#DCE4FF}
+
+/* ================= مباريات الشهر ================= */
+.page>.month-wrap{padding-block:22px 0}
+.page>.month-wrap+.wrap{padding-top:22px}
+.month-wrap:has(> section[hidden]){display:none}
+.mo-legend{display:flex;flex-wrap:wrap;gap:8px 18px;padding:0 18px 14px;font-size:12.5px;color:var(--muted);font-family:var(--display);font-weight:600}
+.mo-legend span{display:inline-flex;align-items:center;gap:6px}
+.mo-legend i{width:12px;height:12px;border-radius:4px;display:inline-block}
+.mo-legend .i{width:14px;height:14px}
+.lg-l,.k-l{--k:#2F5BFF}.lg-c,.k-c{--k:#0B2A7A}.lg-o,.k-o{--k:#7A5CFF}
+.lg-l{background:#2F5BFF}.lg-c{background:#0B2A7A;box-shadow:inset 0 0 0 1px #3354b8}.lg-o{background:#7A5CFF}
+.mo-cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;padding:0 12px 14px}
+.mo-dn{text-align:center;font:700 12.5px var(--display);color:var(--muted);padding:2px 0 6px}
+.mo-d{position:relative;min-height:112px;border-radius:12px;background:var(--surface-2);padding:8px}
+.mo-d.empty{background:transparent}
+.mo-d.past{opacity:.45}
+.mo-d .n{font:700 15px var(--display);color:#8a8a8a}
+.mo-d.today{box-shadow:inset 0 0 0 2px #fff}
+.mo-d.match{background:var(--k);color:#fff;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
+.mo-d.match .n{position:absolute;top:7px;right:9px;color:#fff}
+.mo-d .ha{position:absolute;top:7px;left:8px;width:24px;height:24px;border-radius:7px;background:rgba(255,255,255,.18);display:grid;place-items:center}
+.mo-d .ha .i{width:14px;height:14px}
+.mo-d .cr{margin-top:22px;width:44px;height:44px;border-radius:12px;background:#fff;display:grid;place-items:center}
+.mo-d .cr .crest{width:32px;height:32px}
+.mo-d .tm{font:700 14px var(--display)}
+.mo-d .nm{font:600 11.5px var(--display);opacity:.85;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mo-d.done{filter:saturate(.75)}
+.res-dot{padding:1px 7px;border-radius:6px;background:rgba(0,0,0,.35)}
+.res-dot.w{background:var(--win)}.res-dot.d{background:var(--draw)}.res-dot.l{background:var(--loss)}
+.mo-list{display:none}
+/* البطاقات (قائمة الجوال + شريط الرئيسية) */
+.mo-strip{display:flex;gap:10px;overflow-x:auto;padding:0 12px 14px;scroll-snap-type:x proximity;scrollbar-width:none}
+.mo-strip::-webkit-scrollbar{display:none}
+.mo-card{flex:none;width:168px;scroll-snap-align:start;display:flex;flex-direction:column;gap:10px;padding:12px;border-radius:14px;background:var(--surface-2);box-shadow:inset 0 3px 0 var(--k);transition:background .15s}
+.mo-card:hover{background:var(--surface-3)}
+.mo-card.done{opacity:.6}
+.mc-top{display:flex;justify-content:space-between;align-items:center;font:600 12px var(--display);color:var(--muted)}
+.mc-top .ha .i{width:16px;height:16px;color:#fff}
+.mc-mid{display:flex;align-items:center;gap:10px}
+.mc-mid .crest{width:38px;height:38px;padding:5px;background:#fff;border-radius:11px}
+.mc-mid b{font:700 15px var(--display);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mc-bot{display:flex;justify-content:space-between;align-items:center;font:700 14px var(--display)}
+.mc-bot .cp{font-size:11.5px;font-weight:700;color:#fff;background:var(--k);padding:2px 9px;border-radius:6px}
+@media (max-width:760px){
+  .mo-cal{display:none}
+  .mo-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:0 12px 14px}
+  .mo-list .mo-card{width:auto}
+}
