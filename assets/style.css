@@ -223,3 +223,19 @@ a.brand,a.logo{color:inherit}
 .v-profile .note{color:var(--royal)}
 .v-note{font-size:12px;color:var(--muted);margin:4px 0 0;text-align:center}
 .empty.box{padding:40px 16px}
+
+/* --- تابعنا --- */
+.follow{background:var(--bg)}
+.follow .wrap{padding-block:20px 24px;text-align:center}
+.follow h2{font:700 15px var(--display);margin:0 0 12px;color:var(--ink)}
+.social{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.soc{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:999px;color:#fff;font:600 13px var(--display);transition:transform .15s,filter .15s}
+.soc:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.soc i{width:18px;height:18px;background:currentColor;-webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat;flex:none}
+.soc-x{background:#000}
+.soc-instagram{background:linear-gradient(45deg,#F58529,#DD2A7B 50%,#8134AF)}
+.soc-tiktok{background:#111}
+.soc-snapchat{background:#FFFC00;color:#111}
+.soc-whatsapp{background:#25D366;color:#073}
+.soc-whatsapp{color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .soc-x,:root:not([data-theme="light"]) .soc-tiktok{box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}}
