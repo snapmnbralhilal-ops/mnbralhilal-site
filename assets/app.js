@@ -3,6 +3,8 @@
   const { arTeam, arLeague, arRound } = window.MNB;
   const TZ = "Asia/Riyadh";
   const $ = (id) => document.getElementById(id);
+  const put = (id, html) => { const el = $(id); if (el) el.innerHTML = html; return el; };
+  const lim = (id, def) => { const el = $(id); return el && el.dataset.limit ? +el.dataset.limit : def; };
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const ar = (n) => String(n);
 
@@ -87,6 +89,7 @@
       el.hidden = false;
     });
     const sp = activeAds("sponsors");
+    if (!$("sponsors")) return;
     $("sponsors").hidden = !sp.length;
     $("spList").innerHTML = sp.map((a) => adLink(a, `<img src="${esc(a.image)}" alt="${esc(a.title || "")}" title="${esc(a.title || "")}" loading="lazy">`)).join("");
   }
@@ -122,8 +125,10 @@
   }
   function renderDesigns() {
     const box = $("designs");
-    const list = DESIGNS.slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
-    box.hidden = !list.length;
+    if (!box || !$("dList")) return;
+    const list = DESIGNS.slice().sort((a, b) => (b.date || "").localeCompare(a.date || "")).slice(0, lim("dList", 999));
+    box.hidden = !list.length && !box.dataset.keep;
+    if (!list.length) { $("dList").innerHTML = `<div class="empty">قريباً — تصاميم منبر</div>`; return; }
     $("dList").innerHTML = list.map((d) => `<button type="button" class="d-item" data-design="${esc(d.id)}">
       <img src="${esc(d.thumb || d.image)}" alt="${esc(d.title || "")}" loading="lazy" width="270" height="360">
       <span class="d-meta"><b>${esc(d.type || "تصميم")}</b><small>${esc(d.title || "")}</small></span></button>`).join("");
@@ -158,6 +163,7 @@
   let countTimer = null;
   function renderNext(m) {
     const card = $("nextCard");
+    if (!card) return;
     if (!m) { card.innerHTML = `<div class="empty"><svg class="i"><use href="#i-ball"/></svg>لا توجد مباراة قادمة مسجلة حالياً</div>`; return; }
     const d = new Date(m.date);
     const live = LIVE.includes(m.status);
@@ -193,6 +199,7 @@
   function renderHilal(h) {
     const upcoming = h?.upcoming || [], results = h?.results || [];
     const list = $("hilalList");
+    if (!list) return;
     const show = (up) => {
       $("tabUp").setAttribute("aria-selected", up);
       $("tabRes").setAttribute("aria-selected", !up);
@@ -207,6 +214,7 @@
 
   /* ---------- مباريات اليوم / أمس ---------- */
   function renderDay(el, day, emptyMsg, limit) {
+    if (!el) return;
     const groups = day?.groups || [];
     if (!groups.length) { el.innerHTML = `<div class="empty">${emptyMsg}</div>`; return; }
     let shown = 0, html = "", rest = "";
@@ -223,10 +231,13 @@
 
   /* ---------- شريط النتائج أعلى الصفحة ---------- */
   function renderStrip(day) {
+    if (!$("strip")) return;
+    // الأولوية: مباريات الهلال ثم المباشر ثم الدوري السعودي ثم الباقي
     const all = [];
     (day?.groups || []).forEach((g) => g.matches.forEach((m) => all.push([g, m])));
-    all.sort((x, y) => (LIVE.includes(y[1].status) - LIVE.includes(x[1].status)));
-    const list = all.slice(0, 16);
+    const score = ([g, m]) => (m.home.id === HILAL_ID || m.away.id === HILAL_ID ? 8 : 0) + (LIVE.includes(m.status) ? 4 : 0) + ((m.league?.country || "") === "Saudi-Arabia" ? 2 : 0);
+    all.sort((x, y) => score(y) - score(x));
+    const list = all.slice(0, 14);
     $("stripWrap").hidden = !list.length;
     $("strip").innerHTML = list.map(([g, m]) => {
       const live = LIVE.includes(m.status), done = DONE.includes(m.status);
@@ -235,7 +246,7 @@
         : `<span>${esc(arLeague(g.league))}</span><span class="num">${fTime.format(new Date(m.date))}</span>`;
       const g0 = m.goals ? (m.goals[0] ?? 0) : "", g1 = m.goals ? (m.goals[1] ?? 0) : "";
       const hl = m.home.id === HILAL_ID || m.away.id === HILAL_ID ? " hl" : "";
-      return `<a class="sc-card${hl}" href="#today"><div class="sc-top">${top}</div>
+      return `<a class="sc-card${hl}" href="matches.html#today"><div class="sc-top">${top}</div>
         <div class="sc-t">${crest(m.home)}<span>${esc(arTeam(m.home.name))}</span><b class="num">${g0}</b></div>
         <div class="sc-t">${crest(m.away)}<span>${esc(arTeam(m.away.name))}</span><b class="num">${g1}</b></div></a>`;
     }).join("");
@@ -245,16 +256,28 @@
   function renderTables(st) {
     const spl = st?.spl?.rows || [];
     const n = spl.length;
-    $("spl").innerHTML = spl.length ? spl.map((r) => {
+    const cls = (r) => {
+      const desc = (r.description || "").toLowerCase();
+      return desc.includes("relegation") ? "rel" : (desc.includes("champions") || desc.includes("afc")) ? "acl" : (r.rank <= 3 ? "acl" : r.rank > n - 3 ? "rel" : "");
+    };
+    // جدول مختصر للرئيسية: أول ٥ + الهلال لو كان برا
+    if ($("splMini")) {
+      let rows = spl.slice(0, 5);
+      const meRow = spl.find((r) => r.team.id === HILAL_ID);
+      if (meRow && !rows.includes(meRow)) rows = [...rows.slice(0, 4), meRow];
+      put("splMini", rows.length ? rows.map((r) => `<tr class="${cls(r)}${r.team.id === HILAL_ID ? " hl" : ""}"><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num" style="direction:ltr">${r.gd > 0 ? "+" : ""}${r.gd}</td><td class="pts">${r.points}</td></tr>`).join("")
+        : `<tr><td colspan="5" class="empty">الترتيب غير متوفر حالياً</td></tr>`);
+    }
+    if ($("spl")) $("spl").innerHTML = spl.length ? spl.map((r) => {
       const desc = (r.description || "").toLowerCase();
       const cls = desc.includes("relegation") ? "rel" : (desc.includes("champions") || desc.includes("afc")) ? "acl" : (r.rank <= 3 ? "acl" : r.rank > n - 3 ? "rel" : "");
       return `<tr class="${cls}${r.team.id === HILAL_ID ? " hl" : ""}"><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num">${r.win}</td><td class="num">${r.draw}</td><td class="num">${r.lose}</td><td class="num" style="direction:ltr">${r.gd > 0 ? "+" : ""}${r.gd}</td><td class="pts">${r.points}</td></tr>`;
     }).join("") : `<tr><td colspan="8" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
 
-    const epl = (st?.epl?.rows || []).slice(0, 6);
-    $("epl").innerHTML = epl.length ? epl.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="pts">${r.points}</td></tr>`).join("")
+    const epl = (st?.epl?.rows || []).slice(0, lim("epl", 99));
+    if ($("epl")) $("epl").innerHTML = epl.length ? epl.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="pts">${r.points}</td></tr>`).join("")
       : `<tr><td colspan="4" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
-
+    if (!$("mini")) return;
     const me = spl.find((r) => r.team.id === HILAL_ID);
     $("mini").innerHTML = me
       ? `<div><b class="num">${ar(me.rank)}</b><small>الترتيب</small></div><div><b class="num">${ar(me.points)}</b><small>نقطة</small></div><div><b class="num" style="direction:ltr">${me.gd > 0 ? "+" : me.gd < 0 ? "-" : ""}${ar(Math.abs(me.gd))}</b><small>فارق الأهداف</small></div>`
@@ -262,13 +285,43 @@
   }
 
   /* ---------- الأخبار ---------- */
+  // روابط الأخبار القديمة كانت تشير لأقسام داخل الرئيسية؛ الحين كل قسم له صفحة
+  const LINKS = { "#today": "matches.html#today", "#yesterday": "matches.html#yesterday", "#hilal": "matches.html", "#table": "standings.html", "#youth": "youth.html", "#news": "news.html", "#designs": "designs.html" };
+  const fixLink = (l) => LINKS[l] || l || "news.html";
   function renderNews(news) {
     news = news || [];
+    // شريط عاجل يظهر بس لو فيه خبر عاجل فعلاً ("breaking": true أو تصنيف "عاجل")
+    const breaking = news.filter((n) => n.breaking || n.tag === "عاجل");
+    const tk = document.querySelector(".ticker");
+    if (tk) {
+      tk.hidden = !breaking.length;
+      const t = breaking.map((n) => `<span>● ${esc(n.title)}</span>`).join("");
+      put("tick", t + t);
+    }
+    if (!$("newsList")) return;
+    news = news.slice(0, lim("newsList", 999));
     $("newsList").innerHTML = news.length ? news.map((n) =>
-      `<a href="${esc(n.link || "#")}"><span class="k${n.tag === "عالمي" ? " world" : ""}">${esc(n.tag)}</span><div><h3>${esc(n.title)}</h3><p>${esc(n.body)}</p></div></a>`).join("")
+      `<a href="${esc(fixLink(n.link))}"><span class="k${n.tag === "عالمي" ? " world" : ""}">${esc(n.tag)}</span><div><h3>${esc(n.title)}</h3><p>${esc(n.body)}</p></div></a>`).join("")
       : `<div class="empty">لا توجد أخبار حالياً</div>`;
-    const t = news.map((n) => `<span>● ${esc(n.title)}</span>`).join("") || "<span>منبر الهلال — كل جديد الأزرق</span>";
-    $("tick").innerHTML = t + t;
+  }
+
+  /* ---------- آخر نتيجة للهلال (الرئيسية) ---------- */
+  function renderLast(h) {
+    if (!$("lastCard")) return;
+    const results = h?.results || [];
+    const m = results[0];
+    const form = results.slice(0, 5).reverse().map((x) => { const o = outcome(x); return o ? `<span class="res ${o}">${lbl[o]}</span>` : ""; }).join("");
+    if (!m) { put("lastCard", `<div class="empty">لا توجد نتائج مسجلة بعد هذا الموسم</div>`); return; }
+    const o = outcome(m);
+    const word = { w: "فوز", d: "تعادل", l: "خسارة" }[o] || "";
+    put("lastCard", `
+      <div class="last-head"><span>${esc(arLeague(m.league))}</span><span>${esc(fDM.format(new Date(m.date)))}</span></div>
+      <div class="last-vs">
+        <div class="t">${crest(m.home, "crest md")}<span>${esc(arTeam(m.home.name))}</span></div>
+        <div class="last-sc num">${m.goals?.[0] ?? "-"} <i>-</i> ${m.goals?.[1] ?? "-"}</div>
+        <div class="t">${crest(m.away, "crest md")}<span>${esc(arTeam(m.away.name))}</span></div>
+      </div>
+      <div class="last-foot">${word ? `<span class="res-word ${o}">${word}</span>` : ""}${form ? `<span class="form-mini"><small>آخر 5</small>${form}</span>` : ""}</div>`);
   }
 
   function render(data) {
@@ -278,13 +331,14 @@
     if (!(h.upcoming || []).length && fb) h = { ...h, upcoming: [fb] };
     renderNext((h.upcoming || [])[0]);
     renderHilal(h);
-    $("todayDate").textContent = data.today?.date ? fDay.format(new Date(data.today.date + "T12:00:00+03:00")) : "";
+    renderLast(h);
+    if ($("todayDate")) $("todayDate").textContent = data.today?.date ? fDay.format(new Date(data.today.date + "T12:00:00+03:00")) : "";
     renderDay($("todayList"), data.today, "لا توجد مباريات اليوم في الدوريات المتابعة", 14);
     renderDay($("ydayList"), data.yesterday, "لا توجد نتائج لأمس", 10);
     renderTables(data.standings);
     renderStrip(data.today);
     renderNews(data.news);
-    $("updated").textContent = data.updated
+    if ($("updated")) $("updated").textContent = data.updated
       ? "آخر تحديث: " + fmt({ day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(data.updated))
       : "بانتظار أول تحديث للبيانات";
   }
@@ -294,7 +348,12 @@
   const yTeam = (name) => (name === "الهلال" ? { id: 2932, name, logo: HILAL_LOGO } : { id: null, name, logo: "" });
   function renderYouth(y) {
     const box = $("youth");
-    if (!y || (!(y.upcoming || []).length && !(y.results || []).length && !(y.table || []).length)) { box.hidden = true; return; }
+    if (!box) return;
+    if (!y || (!(y.upcoming || []).length && !(y.results || []).length && !(y.table || []).length)) {
+      box.hidden = !box.dataset.keep;
+      put("yMatches", `<div class="empty">لا توجد بيانات للفئات السنية حالياً</div>`);
+      return;
+    }
     box.hidden = false;
     $("yTitle").textContent = y.title || "الهلال تحت 21";
     $("yComp").textContent = [y.competition, y.season].filter(Boolean).join(" · ");
@@ -318,7 +377,7 @@
 
     const news = y.news || [];
     $("yNewsWrap").hidden = !news.length;
-    $("yNews").innerHTML = news.map((n) => `<a href="${esc(n.link || "#youth")}"><span class="k">${esc(n.tag || "تحت 21")}</span><div><h3>${esc(n.title)}</h3><p>${esc(n.body || "")}</p></div></a>`).join("");
+    $("yNews").innerHTML = news.map((n) => `<a href="${esc(n.link || "youth.html")}"><span class="k">${esc(n.tag || "تحت 21")}</span><div><h3>${esc(n.title)}</h3><p>${esc(n.body || "")}</p></div></a>`).join("");
   }
   async function loadYouth() {
     try {
@@ -342,7 +401,7 @@
       render(await res.json());
     } catch (e) {
       render({});
-      $("updated").textContent = "تعذّر تحميل البيانات";
+      if ($("updated")) $("updated").textContent = "تعذّر تحميل البيانات";
     }
   }
   /* ---------- كل الأرقام والرموز بالأرقام العربية الأصلية: ٠-٩ ← 0-9 ، ٪ ← % ---------- */

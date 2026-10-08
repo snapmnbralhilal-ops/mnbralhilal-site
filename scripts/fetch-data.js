@@ -108,7 +108,7 @@ function writeNews(d) {
   const live = upcoming.find((m) => LIVE.includes(m.status));
   if (live) {
     const opp = live.home.id === HILAL_ID ? live.away : live.home;
-    news.push({ tag: H, title: `مباشر: الهلال ${live.home.id === HILAL_ID ? "يستضيف" : "يحل ضيفاً على"} ${arTeam(opp.name)} الآن`, body: `النتيجة ${score(live)} في ${arLeague(live.league)}.`, link: "#hilal" });
+    news.push({ tag: H, title: `مباشر: الهلال ${live.home.id === HILAL_ID ? "يستضيف" : "يحل ضيفاً على"} ${arTeam(opp.name)} الآن`, body: `النتيجة ${score(live)} في ${arLeague(live.league)}.`, link: "#hilal", breaking: true });
   }
 
   const last = results[0];

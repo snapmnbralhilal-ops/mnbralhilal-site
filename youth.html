@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>الفئات السنية — منبر الهلال</title>
+<meta name="description" content="مباريات وترتيب وأخبار الهلال تحت 21.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png?v=2">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
+<link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=202610080700">
+</head>
+<body data-page="youth">
+<script src="assets/layout.js?v=202610080700"></script>
+
+<main id="main" class="page page-youth">
+<h1 class="sr-only">الفئات السنية</h1>
+
+<div class="wrap narrow">
+  <section class="box" id="youth" data-keep="1">
+    <h2><span class="ic"><svg class="i"><use href="#i-users"/></svg></span><span id="yTitle">الهلال تحت 21</span> <span class="note" id="yComp"></span></h2>
+    <div class="sub">المباريات</div>
+    <div id="yMatches"></div>
+    <div class="sub" id="yTableHead">الترتيب <span id="yUpdated" style="margin-inline-start:auto;font-size:11px"></span></div>
+    <div class="tbl"><table>
+      <thead><tr><th>#</th><th style="text-align:right">الفريق</th><th>لعب</th><th>ف</th><th>ت</th><th>خ</th><th>الأهداف</th><th>نقاط</th></tr></thead>
+      <tbody id="yTable"></tbody>
+    </table></div>
+    <div id="yNewsWrap" hidden><div class="sub">أخبار الفئات السنية</div><div class="news" id="yNews"></div></div>
+  </section>
+</div>
+
+</main>
+
+<script>LAYOUT.foot()</script>
+<script src="assets/names.js?v=202610080700"></script>
+<script src="assets/app.js?v=202610080700"></script>
+<script src="assets/social.js?v=202610080700"></script>
+</body>
+</html>

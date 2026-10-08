@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>الترتيب — منبر الهلال</title>
+<meta name="description" content="ترتيب دوري روشن السعودي والدوري الإنجليزي.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png?v=2">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
+<link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=202610080700">
+</head>
+<body data-page="standings">
+<script src="assets/layout.js?v=202610080700"></script>
+
+<main id="main" class="page page-standings">
+<h1 class="sr-only">الترتيب</h1>
+
+<div class="wrap grid">
+  <div class="col">
+    <section class="box" id="table">
+      <h2><span class="ic"><svg class="i"><use href="#i-trophy"/></svg></span>ترتيب دوري روشن</h2>
+      <div class="tbl"><table><thead><tr><th>#</th><th style="text-align:right">الفريق</th><th>لعب</th><th>ف</th><th>ت</th><th>خ</th><th>+/-</th><th>نقاط</th></tr></thead><tbody id="spl"></tbody></table></div>
+      <div class="legend"><span><i style="background:var(--royal)"></i>دوري أبطال آسيا للنخبة</span><span><i style="background:var(--loss)"></i>الهبوط</span></div>
+    </section>
+  </div>
+  <div class="col">
+    <section class="box">
+      <h2><span class="ic"><svg class="i"><use href="#i-chart"/></svg></span>الهلال هذا الموسم</h2>
+      <div class="mini" id="mini"></div>
+    </section>
+    <section class="box" id="epl-box">
+      <h2><span class="ic"><svg class="i"><use href="#i-list"/></svg></span>الدوري الإنجليزي</h2>
+      <div class="tbl"><table>
+        <thead><tr><th>#</th><th style="text-align:right">الفريق</th><th>لعب</th><th>نقاط</th></tr></thead>
+        <tbody id="epl"></tbody>
+      </table></div>
+    </section>
+    <div class="ad-slot" data-slot="sidebar" hidden></div>
+  </div>
+</div>
+
+</main>
+
+<script>LAYOUT.foot()</script>
+<script src="assets/names.js?v=202610080700"></script>
+<script src="assets/app.js?v=202610080700"></script>
+<script src="assets/social.js?v=202610080700"></script>
+</body>
+</html>

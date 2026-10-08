@@ -12,31 +12,15 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
 <link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
-<link rel="stylesheet" href="assets/style.css?v=202610080650">
+<link rel="stylesheet" href="assets/style.css?v=202610080700">
 </head>
-<body>
+<body data-page="videos">
+<script src="assets/layout.js?v=202610080700"></script>
 
-<header class="mast">
-  <div class="wrap top">
-    <a href="index.html" class="brandlink" aria-label="منبر الهلال — الرئيسية">
-      <span class="logo" role="img" aria-label="شعار منبر الهلال"></span>
-      <span class="brand"><b>منبر الهلال</b><span>MNBRALHILAL</span></span>
-    </a>
-  </div>
-  <div class="subnav"><div class="wrap">
-    <strong class="sect">فيديو</strong>
-    <nav class="nav" aria-label="الأقسام">
-      <a href="index.html">الرئيسية</a><a href="index.html#hilal">الهلال</a><a href="index.html#designs">التصاميم</a><a href="videos.html" aria-current="page">فيديو</a>
-    </nav>
-  </div></div>
-</header>
 
-<main class="vpage">
+<main id="main" class="vpage page">
   <div class="wrap">
-    <div class="v-head">
-      <h1>فيديو منبر</h1>
-      <a class="back" href="index.html">→ الرئيسية</a>
-    </div>
+    <h1 class="sr-only">فيديو منبر</h1>
 
     <div class="tabs" role="tablist" id="vTabs">
       <button role="tab" aria-selected="true" data-tab="mnbr">إنتاج منبر</button>
@@ -64,17 +48,11 @@
   </div>
 </main>
 
-<section class="follow" aria-label="تابعنا">
-  <div class="wrap"><h2>تابعنا</h2><div class="social" hidden></div></div>
-</section>
+<script>LAYOUT.foot()</script>
 
-<footer>
-  <div class="wrap">
-    <span style="display:flex;align-items:center;gap:10px"><span class="logo" aria-hidden="true"></span>منبر الهلال · المركز الرياضي</span>
-  </div>
-</footer>
-
-<script src="assets/videos.js?v=202610080545"></script>
-<script src="assets/social.js?v=202610080545"></script>
+<script src="assets/names.js?v=202610080700"></script>
+<script src="assets/app.js?v=202610080700"></script>
+<script src="assets/videos.js?v=202610080700"></script>
+<script src="assets/social.js?v=202610080700"></script>
 </body>
 </html>
