@@ -71,7 +71,8 @@
     foot() {
       const html = `
 <section class="sponsors" id="sponsors" hidden aria-label="رعاة منبر الهلال">
-  <div class="wrap"><h2>${icon("star")}رعاة منبر الهلال</h2><div class="sp-list" id="spList"></div></div>
+  <div class="wrap"><h2>${icon("star")}رعاة منبر الهلال</h2></div>
+  <div class="sp-marquee"><div class="sp-track" id="spList"></div></div>
 </section>
 <section class="follow" aria-label="تابعنا">
   <div class="wrap"><h2>تابعنا</h2><div class="social" hidden></div></div>

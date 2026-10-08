@@ -420,3 +420,21 @@ footer .wrap{row-gap:14px}
 .goal-toast span{font:600 14px var(--display)}
 .goal-toast.out{opacity:0;transform:translateY(-20px);transition:.6s}
 @keyframes gtin{from{transform:translateY(-120%) scale(.9)}}
+
+/* ---------- الرعاة: شريط متحرك ---------- */
+.sponsors .wrap{padding-block:26px 6px}
+.sp-marquee{overflow:hidden;padding:14px 0 30px;-webkit-mask:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.sp-track{display:flex;width:max-content;animation:sp-roll 38s linear infinite}
+.sp-marquee:hover .sp-track{animation-play-state:paused}
+.sp-set{display:flex;align-items:center;flex:none}
+.sp-item{flex:none;padding:0 38px;display:flex;align-items:center}
+.sp-item a,.sp-item>img{display:block;opacity:.72;transition:opacity .2s,transform .2s}
+.sp-item a:hover,.sp-item>img:hover{opacity:1;transform:scale(1.06)}
+.sp-item img{height:46px;width:auto;max-width:170px;object-fit:contain;display:block;background:none;padding:0;border-radius:0;box-shadow:none}
+/* الشعارات المربعة (مثل يلو وتاسومة) تاخذ ارتفاع أكبر عشان تتوازن مع العرضية */
+.sp-item img.sq{height:66px}
+.sp-item img.sq2{height:86px;max-width:90px}
+@media (max-width:520px){.sp-item img.sq{height:52px}.sp-item img.sq2{height:68px}}
+@keyframes sp-roll{from{transform:translateX(0)}to{transform:translateX(50%)}}
+@media (max-width:520px){.sp-item{padding:0 24px}.sp-item img{height:36px;max-width:130px}.sp-track{animation-duration:28s}}
+@media (prefers-reduced-motion:reduce){.sp-track{animation:none;flex-wrap:wrap;width:auto;justify-content:center}.sp-set[aria-hidden]{display:none}.sp-set{flex-wrap:wrap;justify-content:center;row-gap:20px}}
