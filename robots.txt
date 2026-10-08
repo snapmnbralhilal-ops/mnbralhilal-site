@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /assets/designs/
+Disallow: /data/
+
+Sitemap: https://mnbralhilal.net/sitemap.xml

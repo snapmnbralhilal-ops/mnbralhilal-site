@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://mnbralhilal.net/</loc><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mnbralhilal.net/matchday.html</loc><changefreq>always</changefreq><priority>0.95</priority></url>
+  <url><loc>https://mnbralhilal.net/matches.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mnbralhilal.net/play.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mnbralhilal.net/standings.html</loc><changefreq>daily</changefreq><priority>0.85</priority></url>
+  <url><loc>https://mnbralhilal.net/stats.html</loc><changefreq>daily</changefreq><priority>0.85</priority></url>
+  <url><loc>https://mnbralhilal.net/designs.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mnbralhilal.net/videos.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mnbralhilal.net/news.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mnbralhilal.net/youth.html</loc><changefreq>daily</changefreq><priority>0.75</priority></url>
+  <url><loc>https://mnbralhilal.net/occasions.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mnbralhilal.net/founding.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>
