@@ -59,6 +59,7 @@
     brazil: "البرازيل", argentina: "الأرجنتين", france: "فرنسا", spain: "إسبانيا", england: "إنجلترا",
     germany: "ألمانيا", portugal: "البرتغال", italy: "إيطاليا", netherlands: "هولندا",
     usa: "أمريكا", unitedstates: "أمريكا", mexico: "المكسيك", canada: "كندا", japan: "اليابان",
+    benin: "بنين", peru: "بيرو", colombia: "كولومبيا", chile: "تشيلي", uruguay: "الأوروغواي", belgium: "بلجيكا", croatia: "كرواتيا", nigeria: "نيجيريا", senegal: "السنغال", ghana: "غانا", cameroon: "الكاميرون", ivorycoast: "ساحل العاج",
     southkorea: "كوريا الجنوبية", koreasouth: "كوريا الجنوبية", australia: "أستراليا", iran: "إيران"
   };
 

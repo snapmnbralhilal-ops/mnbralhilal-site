@@ -224,6 +224,32 @@
       $("updated").textContent = "تعذّر تحميل البيانات";
     }
   }
+  /* ---------- كل الأرقام والرموز بالعربي: 0-9 ← ٠-٩ ، % ← ٪ ---------- */
+  const AR_DIGITS = "٠١٢٣٤٥٦٧٨٩";
+  const toArabic = (t) => t.replace(/[0-9]/g, (d) => AR_DIGITS[d]).replace(/%/g, "٪");
+  const NEEDS = /[0-9%]/;
+  function arabizeNode(node) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      if (NEEDS.test(node.nodeValue)) node.nodeValue = toArabic(node.nodeValue);
+      return;
+    }
+    if (node.nodeType !== Node.ELEMENT_NODE || node.closest("script,style")) return;
+    const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT);
+    let n;
+    while ((n = walker.nextNode())) {
+      if (n.parentElement && n.parentElement.closest("script,style")) continue;
+      if (NEEDS.test(n.nodeValue)) n.nodeValue = toArabic(n.nodeValue);
+    }
+  }
+  arabizeNode(document.body);
+  new MutationObserver((muts) => {
+    for (const m of muts) {
+      if (m.type === "characterData") arabizeNode(m.target);
+      else m.addedNodes.forEach(arabizeNode);
+    }
+  }).observe(document.body, { childList: true, subtree: true, characterData: true });
+  document.title = toArabic(document.title);
+
   loadAds().then(load);
   setInterval(load, 10 * 60 * 1000); // يعيد القراءة كل ١٠ دقائق
 })();
