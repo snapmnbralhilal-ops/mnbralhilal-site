@@ -13,13 +13,12 @@
     return `<div class="v-card">${title}<blockquote class="tiktok-embed" cite="${esc(url)}" data-video-id="${id}" style="max-width:605px;min-width:288px;margin:0"><section><a target="_blank" rel="noopener" href="${esc(url)}">مشاهدة على تيك توك</a></section></blockquote></div>`;
   }
 
-  let scriptLoaded = false;
+  // سكربت تيك توك يحوّل كل الروابط (حتى اللي بالتبويب المخفي) لمشغّلات — نحمّله مرة وحدة بس
   function loadTikTok() {
-    // سكربت تيك توك يحوّل الروابط لمشغّلات؛ نعيد تحميله عشان يلتقط الجديد
-    const old = document.getElementById("tt-embed"); if (old) old.remove();
+    if (document.getElementById("tt-embed")) return;
     const s = document.createElement("script");
     s.id = "tt-embed"; s.async = true; s.src = "https://www.tiktok.com/embed.js";
-    document.body.appendChild(s); scriptLoaded = true;
+    document.body.appendChild(s);
   }
 
   function render(d) {
@@ -32,6 +31,8 @@
     if (user) {
       $("vProfileBox").hidden = false;
       $("vFollow").href = `https://www.tiktok.com/@${encodeURIComponent(user)}`;
+      $("vOpen").href = `https://www.tiktok.com/@${encodeURIComponent(user)}`;
+      $("vOpenUser").textContent = "@" + user;
       $("vProfile").innerHTML = `<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@${esc(user)}" data-unique-id="${esc(user)}" data-embed-type="creator" style="max-width:780px;min-width:288px;margin:0 auto"><section><a target="_blank" rel="noopener" href="https://www.tiktok.com/@${esc(user)}?refer=creator_embed">@${esc(user)}</a></section></blockquote>`;
     }
     $("vEmpty").hidden = !!(user || featured.length);
@@ -44,7 +45,6 @@
     document.querySelectorAll("#vTabs button").forEach((x) => x.setAttribute("aria-selected", x === b));
     $("tab-mnbr").hidden = b.dataset.tab !== "mnbr";
     $("tab-clips").hidden = b.dataset.tab !== "clips";
-    if (scriptLoaded) loadTikTok();
   }));
   if (location.hash === "#clips") document.querySelector('#vTabs [data-tab="clips"]').click();
 
