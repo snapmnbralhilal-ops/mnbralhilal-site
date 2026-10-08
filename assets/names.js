@@ -24,7 +24,8 @@
     // الخليج والعرب
     sadd: "السد", gharafa: "الغرافة", duhail: "الدحيل", rayyan: "الريان", wakrah: "الوكرة",
     qatarsc: "قطر", shamal: "الشمال", sailiya: "السيلية", umsalal: "أم صلال", khor: "الخور",
-    ain: "العين", jazira: "الجزيرة", shababalahli: "شباب الأهلي", shababahlidubai: "شباب الأهلي",
+    ain: "العين", jazira: "الجزيرة", shababalahli: "شباب الأهلي", shababahlidubai: "شباب الأهلي", shababalahlidubai: "شباب الأهلي", ahlidoha: "الأهلي القطري",
+    mamelodisundowns: "صن داونز", mcalger: "مولودية الجزائر", coventry: "كوفنتري", hullcity: "هال سيتي",
     sharjah: "الشارقة", wasl: "الوصل", nasr: "النصر الإماراتي", baniyas: "بني ياس",
     ahly: "الأهلي المصري", ahlycairo: "الأهلي المصري", zamalek: "الزمالك", pyramids: "بيراميدز",
     wydad: "الوداد", rajacasablanca: "الرجاء", esperancetunis: "الترجي",
