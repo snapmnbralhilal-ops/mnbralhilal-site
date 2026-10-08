@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T14:32:24.514Z",
+ "updated": "2026-10-08T15:31:00.171Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1597937,
       "date": "2026-10-08T17:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 45,
       "venue": "Gray Shamal",
       "league": {
        "id": 305,
@@ -838,7 +838,10 @@
        "ar": "الدحيل",
        "logo": "https://media.api-sports.io/football/teams/2904.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1597935,
@@ -3017,18 +3020,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 307,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
