@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>فيديو — منبر الهلال</title>
+<meta name="description" content="فيديوهات منبر الهلال من تيك توك، ولقطات المباريات.">
+<meta name="theme-color" content="#1C3BE8">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=202610080514">
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <a href="index.html" class="logo" role="img" aria-label="شعار منبر الهلال — الرئيسية"></a>
+    <a href="index.html" class="brand"><b>منبر الهلال</b><span>MNBRALHILAL</span></a>
+    <nav class="nav" aria-label="الأقسام">
+      <a href="index.html">الرئيسية</a><a href="index.html#hilal">الهلال</a><a href="index.html#designs">التصاميم</a><a href="videos.html" aria-current="page">فيديو</a>
+    </nav>
+  </div>
+</header>
+
+<main class="vpage">
+  <div class="wrap">
+    <div class="v-head">
+      <h1>فيديو منبر</h1>
+      <a class="back" href="index.html">→ الرئيسية</a>
+    </div>
+
+    <div class="tabs" role="tablist" id="vTabs">
+      <button role="tab" aria-selected="true" data-tab="mnbr">إنتاج منبر</button>
+      <button role="tab" aria-selected="false" data-tab="clips">لقطات المباريات</button>
+    </div>
+
+    <section id="tab-mnbr">
+      <div id="vFeatured" class="v-grid"></div>
+      <div class="box v-profile" id="vProfileBox" hidden>
+        <h2>آخر فيديوهات منبر على تيك توك <a class="note" id="vFollow" target="_blank" rel="noopener">تابعنا</a></h2>
+        <div id="vProfile"></div>
+      </div>
+      <div class="empty box" id="vEmpty" hidden>قريباً — فيديوهات منبر</div>
+    </section>
+
+    <section id="tab-clips" hidden>
+      <div id="vClips" class="v-grid"></div>
+      <div class="empty box" id="vClipsEmpty" hidden>لا توجد لقطات حالياً</div>
+      <p class="v-note">اللقطات معروضة من الحسابات الرسمية على تيك توك، وحقوقها لأصحابها.</p>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span style="display:flex;align-items:center;gap:10px"><span class="logo" aria-hidden="true"></span>منبر الهلال · المركز الرياضي</span>
+  </div>
+</footer>
+
+<script src="assets/videos.js?v=202610080514"></script>
+</body>
+</html>
