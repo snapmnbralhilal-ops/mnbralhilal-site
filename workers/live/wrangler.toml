@@ -1,5 +1,6 @@
 # عامل التحديث المباشر لمنبر الهلال — يرفعه GitHub تلقائياً (.github/workflows/deploy-live.yml)
 name = "mnbr-live"
+account_id = "9500d0ffd063be8bb000048d1c6c2c75"
 main = "worker.js"
 compatibility_date = "2024-09-01"
 workers_dev = true

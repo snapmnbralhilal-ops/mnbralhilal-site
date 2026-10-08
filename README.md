@@ -117,7 +117,7 @@ API-Football ما يغطي دوري تحت 21، فالقسم يقرأ من `data
 
 ## التحديث المباشر (Cloudflare Worker)
 - الكود في `workers/live/` — يرفعه GitHub تلقائياً لـ Cloudflare (`.github/workflows/deploy-live.yml`) ويحفظ رابطه في `data/live.json`.
-- يحتاج أسرار المستودع: `CLOUDFLARE_API_TOKEN` (من قالب Edit Cloudflare Workers) و`CLOUDFLARE_ACCOUNT_ID` و`API_FOOTBALL_KEY`.
+- يحتاج أسرار المستودع: `CLOUDFLARE_API_TOKEN` (من قالب Edit Cloudflare Workers) و`API_FOOTBALL_KEY`. (رقم الحساب مكتوب في `wrangler.toml`.)
 - يشتغل **وقت مباريات الهلال بس**: يسحب النتيجة كل `LIVE_INTERVAL` ثانية (في `workers/live/wrangler.toml`):
   - الخطة المجانية: `180` (مباراة كاملة ≈ 36 طلب).
   - باقة Pro: غيّرها لـ `15`.
