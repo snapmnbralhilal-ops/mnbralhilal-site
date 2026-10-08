@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T08:12:58.272Z",
+ "updated": "2026-10-08T08:14:54.281Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -19,11 +19,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2938,
      "name": "Al-Ittihad FC",
+     "ar": "الاتحاد",
      "logo": "https://media.api-sports.io/football/teams/2938.png"
     },
     "goals": null
@@ -44,11 +46,13 @@
     "home": {
      "id": 2895,
      "name": "Al Sadd",
+     "ar": "السد",
      "logo": "https://media.api-sports.io/football/teams/2895.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": null
@@ -69,11 +73,13 @@
     "home": {
      "id": 10511,
      "name": "Al Riyadh",
+     "ar": "الرياض",
      "logo": "https://media.api-sports.io/football/teams/10511.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": null
@@ -94,11 +100,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2945,
      "name": "Al-Hazm",
+     "ar": "الحزم",
      "logo": "https://media.api-sports.io/football/teams/2945.png"
     },
     "goals": null
@@ -119,11 +127,13 @@
     "home": {
      "id": 2933,
      "name": "Al-Qadisiyah FC",
+     "ar": "القادسية",
      "logo": "https://media.api-sports.io/football/teams/2933.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": null
@@ -144,11 +154,13 @@
     "home": {
      "id": 2916,
      "name": "Al Shamal",
+     "ar": "الشمال",
      "logo": "https://media.api-sports.io/football/teams/2916.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": null
@@ -169,11 +181,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2931,
      "name": "Al-Fateh",
+     "ar": "الفتح",
      "logo": "https://media.api-sports.io/football/teams/2931.png"
     },
     "goals": null
@@ -194,11 +208,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2870,
      "name": "Shabab Al Ahli Dubai",
+     "ar": "Shabab Al Ahli Dubai",
      "logo": "https://media.api-sports.io/football/teams/2870.png"
     },
     "goals": null
@@ -219,11 +235,13 @@
     "home": {
      "id": 2934,
      "name": "Al-Ettifaq",
+     "ar": "الاتفاق",
      "logo": "https://media.api-sports.io/football/teams/2934.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": null
@@ -244,11 +262,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 26738,
      "name": "Al Diriyah",
+     "ar": "الدرعية",
      "logo": "https://media.api-sports.io/football/teams/26738.png"
     },
     "goals": null
@@ -271,11 +291,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2903,
      "name": "Al-Gharafa",
+     "ar": "الغرافة",
      "logo": "https://media.api-sports.io/football/teams/2903.png"
     },
     "goals": [
@@ -299,11 +321,13 @@
     "home": {
      "id": 2936,
      "name": "Al Taawon",
+     "ar": "التعاون",
      "logo": "https://media.api-sports.io/football/teams/2936.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
@@ -327,11 +351,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 10513,
      "name": "NEOM",
+     "ar": "نيوم",
      "logo": "https://media.api-sports.io/football/teams/10513.png"
     },
     "goals": [
@@ -355,11 +381,13 @@
     "home": {
      "id": 2940,
      "name": "Al Shabab",
+     "ar": "الشباب",
      "logo": "https://media.api-sports.io/football/teams/2940.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
@@ -383,11 +411,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2929,
      "name": "Al-Ahli Jeddah",
+     "ar": "الأهلي",
      "logo": "https://media.api-sports.io/football/teams/2929.png"
     },
     "goals": [
@@ -411,11 +441,13 @@
     "home": {
      "id": 2928,
      "name": "Al Khaleej Saihat",
+     "ar": "الخليج",
      "logo": "https://media.api-sports.io/football/teams/2928.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
@@ -439,11 +471,13 @@
     "home": {
      "id": 2944,
      "name": "Al-Fayha",
+     "ar": "الفيحاء",
      "logo": "https://media.api-sports.io/football/teams/2944.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
@@ -467,11 +501,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2930,
      "name": "Al-Faisaly FC",
+     "ar": "الفيصلي",
      "logo": "https://media.api-sports.io/football/teams/2930.png"
     },
     "goals": [
@@ -495,11 +531,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2896,
      "name": "Al Ahli Doha",
+     "ar": "Al Ahli Doha",
      "logo": "https://media.api-sports.io/football/teams/2896.png"
     },
     "goals": [
@@ -523,11 +561,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 906,
      "name": "MC Alger",
+     "ar": "MC Alger",
      "logo": "https://media.api-sports.io/football/teams/906.png"
     },
     "goals": [
@@ -551,11 +591,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2699,
      "name": "Mamelodi Sundowns",
+     "ar": "Mamelodi Sundowns",
      "logo": "https://media.api-sports.io/football/teams/2699.png"
     },
     "goals": [
@@ -579,11 +621,13 @@
     "home": {
      "id": 8251,
      "name": "Sturm Graz II",
+     "ar": "Sturm Graz II",
      "logo": "https://media.api-sports.io/football/teams/8251.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
@@ -607,11 +651,13 @@
     "home": {
      "id": 10509,
      "name": "Al Kholood",
+     "ar": "الخلود",
      "logo": "https://media.api-sports.io/football/teams/10509.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
@@ -635,11 +681,13 @@
     "home": {
      "id": 2929,
      "name": "Al-Ahli Jeddah",
+     "ar": "الأهلي",
      "logo": "https://media.api-sports.io/football/teams/2929.png"
     },
     "away": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
@@ -663,11 +711,13 @@
     "home": {
      "id": 2932,
      "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "away": {
      "id": 2931,
      "name": "Al-Fateh",
+     "ar": "الفتح",
      "logo": "https://media.api-sports.io/football/teams/2931.png"
     },
     "goals": [
@@ -743,11 +793,13 @@
       "home": {
        "id": 2977,
        "name": "Al Okhdood",
+       "ar": "الأخدود",
        "logo": "https://media.api-sports.io/football/teams/2977.png"
       },
       "away": {
        "id": 26357,
        "name": "Al Ula",
+       "ar": "العُلا",
        "logo": "https://media.api-sports.io/football/teams/26357.png"
       },
       "goals": null
@@ -777,11 +829,13 @@
       "home": {
        "id": 2916,
        "name": "Al Shamal",
+       "ar": "الشمال",
        "logo": "https://media.api-sports.io/football/teams/2916.png"
       },
       "away": {
        "id": 2904,
        "name": "Al-Duhail SC",
+       "ar": "الدحيل",
        "logo": "https://media.api-sports.io/football/teams/2904.png"
       },
       "goals": null
@@ -802,11 +856,13 @@
       "home": {
        "id": 2900,
        "name": "Al Wakrah",
+       "ar": "الوكرة",
        "logo": "https://media.api-sports.io/football/teams/2900.png"
       },
       "away": {
        "id": 2903,
        "name": "Al-Gharafa",
+       "ar": "الغرافة",
        "logo": "https://media.api-sports.io/football/teams/2903.png"
       },
       "goals": null
@@ -836,11 +892,13 @@
       "home": {
        "id": 14806,
        "name": "UTS Rabat",
+       "ar": "UTS Rabat",
        "logo": "https://media.api-sports.io/football/teams/14806.png"
       },
       "away": {
        "id": 962,
        "name": "Renaissance Berkane",
+       "ar": "Renaissance Berkane",
        "logo": "https://media.api-sports.io/football/teams/962.png"
       },
       "goals": null
@@ -861,11 +919,13 @@
       "home": {
        "id": 969,
        "name": "FAR Rabat",
+       "ar": "FAR Rabat",
        "logo": "https://media.api-sports.io/football/teams/969.png"
       },
       "away": {
        "id": 3458,
        "name": "Widad Témara",
+       "ar": "Widad Témara",
        "logo": "https://media.api-sports.io/football/teams/3458.png"
       },
       "goals": null
@@ -886,11 +946,13 @@
       "home": {
        "id": 3449,
        "name": "CR Khemis Zemamra",
+       "ar": "CR Khemis Zemamra",
        "logo": "https://media.api-sports.io/football/teams/3449.png"
       },
       "away": {
        "id": 973,
        "name": "Hassania Agadir",
+       "ar": "Hassania Agadir",
        "logo": "https://media.api-sports.io/football/teams/973.png"
       },
       "goals": null
@@ -911,11 +973,13 @@
       "home": {
        "id": 3453,
        "name": "Maghreb Fès",
+       "ar": "Maghreb Fès",
        "logo": "https://media.api-sports.io/football/teams/3453.png"
       },
       "away": {
        "id": 976,
        "name": "Raja Casablanca",
+       "ar": "الرجاء",
        "logo": "https://media.api-sports.io/football/teams/976.png"
       },
       "goals": null
@@ -950,11 +1014,13 @@
       "home": {
        "id": 26,
        "name": "Argentina",
+       "ar": "الأرجنتين",
        "logo": "https://media.api-sports.io/football/teams/26.png"
       },
       "away": {
        "id": 1516,
        "name": "Benin",
+       "ar": "بنين",
        "logo": "https://media.api-sports.io/football/teams/1516.png"
       },
       "goals": [
@@ -978,11 +1044,13 @@
       "home": {
        "id": 8,
        "name": "Colombia",
+       "ar": "كولومبيا",
        "logo": "https://media.api-sports.io/football/teams/8.png"
       },
       "away": {
        "id": 30,
        "name": "Peru",
+       "ar": "بيرو",
        "logo": "https://media.api-sports.io/football/teams/30.png"
       },
       "goals": [
@@ -1006,11 +1074,13 @@
       "home": {
        "id": 2384,
        "name": "USA",
+       "ar": "أمريكا",
        "logo": "https://media.api-sports.io/football/teams/2384.png"
       },
       "away": {
        "id": 5529,
        "name": "Canada",
+       "ar": "كندا",
        "logo": "https://media.api-sports.io/football/teams/5529.png"
       },
       "goals": [
@@ -1034,11 +1104,13 @@
       "home": {
        "id": 16,
        "name": "Mexico",
+       "ar": "المكسيك",
        "logo": "https://media.api-sports.io/football/teams/16.png"
       },
       "away": {
        "id": 2383,
        "name": "Chile",
+       "ar": "تشيلي",
        "logo": "https://media.api-sports.io/football/teams/2383.png"
       },
       "goals": [
@@ -1071,11 +1143,13 @@
       "home": {
        "id": 1607,
        "name": "Chicago Fire",
+       "ar": "Chicago Fire",
        "logo": "https://media.api-sports.io/football/teams/1607.png"
       },
       "away": {
        "id": 1603,
        "name": "Vancouver Whitecaps",
+       "ar": "Vancouver Whitecaps",
        "logo": "https://media.api-sports.io/football/teams/1603.png"
       },
       "goals": [
@@ -1096,6 +1170,7 @@
      "team": {
       "id": 2932,
       "name": "Al-Hilal Saudi FC",
+      "ar": "الهلال",
       "logo": "https://media.api-sports.io/football/teams/2932.png"
      },
      "points": 18,
@@ -1111,6 +1186,7 @@
      "team": {
       "id": 2938,
       "name": "Al-Ittihad FC",
+      "ar": "الاتحاد",
       "logo": "https://media.api-sports.io/football/teams/2938.png"
      },
      "points": 17,
@@ -1126,6 +1202,7 @@
      "team": {
       "id": 2939,
       "name": "Al-Nassr",
+      "ar": "النصر",
       "logo": "https://media.api-sports.io/football/teams/2939.png"
      },
      "points": 16,
@@ -1141,6 +1218,7 @@
      "team": {
       "id": 2933,
       "name": "Al-Qadisiyah FC",
+      "ar": "القادسية",
       "logo": "https://media.api-sports.io/football/teams/2933.png"
      },
      "points": 16,
@@ -1156,6 +1234,7 @@
      "team": {
       "id": 10513,
       "name": "NEOM",
+      "ar": "نيوم",
       "logo": "https://media.api-sports.io/football/teams/10513.png"
      },
      "points": 15,
@@ -1171,6 +1250,7 @@
      "team": {
       "id": 2929,
       "name": "Al-Ahli Jeddah",
+      "ar": "الأهلي",
       "logo": "https://media.api-sports.io/football/teams/2929.png"
      },
      "points": 12,
@@ -1186,6 +1266,7 @@
      "team": {
       "id": 10509,
       "name": "Al Kholood",
+      "ar": "الخلود",
       "logo": "https://media.api-sports.io/football/teams/10509.png"
      },
      "points": 12,
@@ -1201,6 +1282,7 @@
      "team": {
       "id": 26738,
       "name": "Al Diriyah",
+      "ar": "الدرعية",
       "logo": "https://media.api-sports.io/football/teams/26738.png"
      },
      "points": 11,
@@ -1216,6 +1298,7 @@
      "team": {
       "id": 2934,
       "name": "Al-Ettifaq",
+      "ar": "الاتفاق",
       "logo": "https://media.api-sports.io/football/teams/2934.png"
      },
      "points": 11,
@@ -1231,6 +1314,7 @@
      "team": {
       "id": 2945,
       "name": "Al-Hazm",
+      "ar": "الحزم",
       "logo": "https://media.api-sports.io/football/teams/2945.png"
      },
      "points": 8,
@@ -1246,6 +1330,7 @@
      "team": {
       "id": 10511,
       "name": "Al Riyadh",
+      "ar": "الرياض",
       "logo": "https://media.api-sports.io/football/teams/10511.png"
      },
      "points": 8,
@@ -1261,6 +1346,7 @@
      "team": {
       "id": 2944,
       "name": "Al-Fayha",
+      "ar": "الفيحاء",
       "logo": "https://media.api-sports.io/football/teams/2944.png"
      },
      "points": 6,
@@ -1276,6 +1362,7 @@
      "team": {
       "id": 2928,
       "name": "Al Khaleej Saihat",
+      "ar": "الخليج",
       "logo": "https://media.api-sports.io/football/teams/2928.png"
      },
      "points": 5,
@@ -1291,6 +1378,7 @@
      "team": {
       "id": 2940,
       "name": "Al Shabab",
+      "ar": "الشباب",
       "logo": "https://media.api-sports.io/football/teams/2940.png"
      },
      "points": 4,
@@ -1306,6 +1394,7 @@
      "team": {
       "id": 2931,
       "name": "Al-Fateh",
+      "ar": "الفتح",
       "logo": "https://media.api-sports.io/football/teams/2931.png"
      },
      "points": 3,
@@ -1321,6 +1410,7 @@
      "team": {
       "id": 2930,
       "name": "Al-Faisaly FC",
+      "ar": "الفيصلي",
       "logo": "https://media.api-sports.io/football/teams/2930.png"
      },
      "points": 3,
@@ -1336,6 +1426,7 @@
      "team": {
       "id": 2936,
       "name": "Al Taawon",
+      "ar": "التعاون",
       "logo": "https://media.api-sports.io/football/teams/2936.png"
      },
      "points": 3,
@@ -1351,6 +1442,7 @@
      "team": {
       "id": 2951,
       "name": "Abha",
+      "ar": "أبها",
       "logo": "https://media.api-sports.io/football/teams/2951.png"
      },
      "points": 2,
@@ -1371,6 +1463,7 @@
      "team": {
       "id": 50,
       "name": "Manchester City",
+      "ar": "مانشستر سيتي",
       "logo": "https://media.api-sports.io/football/teams/50.png"
      },
      "points": 15,
@@ -1386,6 +1479,7 @@
      "team": {
       "id": 42,
       "name": "Arsenal",
+      "ar": "آرسنال",
       "logo": "https://media.api-sports.io/football/teams/42.png"
      },
      "points": 12,
@@ -1401,6 +1495,7 @@
      "team": {
       "id": 51,
       "name": "Brighton",
+      "ar": "برايتون",
       "logo": "https://media.api-sports.io/football/teams/51.png"
      },
      "points": 10,
@@ -1416,6 +1511,7 @@
      "team": {
       "id": 55,
       "name": "Brentford",
+      "ar": "برينتفورد",
       "logo": "https://media.api-sports.io/football/teams/55.png"
      },
      "points": 9,
@@ -1431,6 +1527,7 @@
      "team": {
       "id": 63,
       "name": "Leeds",
+      "ar": "ليدز",
       "logo": "https://media.api-sports.io/football/teams/63.png"
      },
      "points": 9,
@@ -1446,6 +1543,7 @@
      "team": {
       "id": 40,
       "name": "Liverpool",
+      "ar": "ليفربول",
       "logo": "https://media.api-sports.io/football/teams/40.png"
      },
      "points": 9,
@@ -1461,6 +1559,7 @@
      "team": {
       "id": 45,
       "name": "Everton",
+      "ar": "إيفرتون",
       "logo": "https://media.api-sports.io/football/teams/45.png"
      },
      "points": 9,
@@ -1476,6 +1575,7 @@
      "team": {
       "id": 64,
       "name": "Hull City",
+      "ar": "Hull City",
       "logo": "https://media.api-sports.io/football/teams/64.png"
      },
      "points": 8,
@@ -1491,6 +1591,7 @@
      "team": {
       "id": 34,
       "name": "Newcastle",
+      "ar": "نيوكاسل",
       "logo": "https://media.api-sports.io/football/teams/34.png"
      },
      "points": 8,
@@ -1506,6 +1607,7 @@
      "team": {
       "id": 49,
       "name": "Chelsea",
+      "ar": "تشيلسي",
       "logo": "https://media.api-sports.io/football/teams/49.png"
      },
      "points": 7,
@@ -1521,6 +1623,7 @@
      "team": {
       "id": 57,
       "name": "Ipswich",
+      "ar": "إبسويتش",
       "logo": "https://media.api-sports.io/football/teams/57.png"
      },
      "points": 6,
@@ -1536,6 +1639,7 @@
      "team": {
       "id": 33,
       "name": "Manchester United",
+      "ar": "مانشستر يونايتد",
       "logo": "https://media.api-sports.io/football/teams/33.png"
      },
      "points": 5,
@@ -1551,6 +1655,7 @@
      "team": {
       "id": 65,
       "name": "Nottingham Forest",
+      "ar": "نوتنغهام فورست",
       "logo": "https://media.api-sports.io/football/teams/65.png"
      },
      "points": 5,
@@ -1566,6 +1671,7 @@
      "team": {
       "id": 746,
       "name": "Sunderland",
+      "ar": "سندرلاند",
       "logo": "https://media.api-sports.io/football/teams/746.png"
      },
      "points": 4,
@@ -1581,6 +1687,7 @@
      "team": {
       "id": 52,
       "name": "Crystal Palace",
+      "ar": "كريستال بالاس",
       "logo": "https://media.api-sports.io/football/teams/52.png"
      },
      "points": 4,
@@ -1596,6 +1703,7 @@
      "team": {
       "id": 66,
       "name": "Aston Villa",
+      "ar": "أستون فيلا",
       "logo": "https://media.api-sports.io/football/teams/66.png"
      },
      "points": 4,
@@ -1611,6 +1719,7 @@
      "team": {
       "id": 35,
       "name": "Bournemouth",
+      "ar": "بورنموث",
       "logo": "https://media.api-sports.io/football/teams/35.png"
      },
      "points": 3,
@@ -1626,6 +1735,7 @@
      "team": {
       "id": 1346,
       "name": "Coventry",
+      "ar": "Coventry",
       "logo": "https://media.api-sports.io/football/teams/1346.png"
      },
      "points": 3,
@@ -1641,6 +1751,7 @@
      "team": {
       "id": 36,
       "name": "Fulham",
+      "ar": "فولهام",
       "logo": "https://media.api-sports.io/football/teams/36.png"
      },
      "points": 2,
@@ -1656,6 +1767,7 @@
      "team": {
       "id": 47,
       "name": "Tottenham",
+      "ar": "توتنهام",
       "logo": "https://media.api-sports.io/football/teams/47.png"
      },
      "points": 2,

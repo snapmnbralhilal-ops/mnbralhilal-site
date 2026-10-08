@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-08T08:12:58.671Z",
+ "updated": "2026-10-08T08:14:54.846Z",
  "players": [
   {
    "api": 156,
@@ -1224,6 +1224,7 @@
    "team": {
     "id": 2929,
     "name": "Al-Ahli Jeddah",
+    "ar": "الأهلي",
     "logo": "https://media.api-sports.io/football/teams/2929.png"
    },
    "goals": 10,
@@ -1236,6 +1237,7 @@
    "team": {
     "id": 10513,
     "name": "NEOM",
+    "ar": "نيوم",
     "logo": "https://media.api-sports.io/football/teams/10513.png"
    },
    "goals": 5,
@@ -1248,6 +1250,7 @@
    "team": {
     "id": 2938,
     "name": "Al-Ittihad FC",
+    "ar": "الاتحاد",
     "logo": "https://media.api-sports.io/football/teams/2938.png"
    },
    "goals": 4,
@@ -1260,6 +1263,7 @@
    "team": {
     "id": 10509,
     "name": "Al Kholood",
+    "ar": "الخلود",
     "logo": "https://media.api-sports.io/football/teams/10509.png"
    },
    "goals": 4,
@@ -1272,6 +1276,7 @@
    "team": {
     "id": 2932,
     "name": "Al-Hilal Saudi FC",
+    "ar": "الهلال",
     "logo": "https://media.api-sports.io/football/teams/2932.png"
    },
    "goals": 4,
@@ -1284,6 +1289,7 @@
    "team": {
     "id": 10513,
     "name": "NEOM",
+    "ar": "نيوم",
     "logo": "https://media.api-sports.io/football/teams/10513.png"
    },
    "goals": 4,
@@ -1296,6 +1302,7 @@
    "team": {
     "id": 2938,
     "name": "Al-Ittihad FC",
+    "ar": "الاتحاد",
     "logo": "https://media.api-sports.io/football/teams/2938.png"
    },
    "goals": 4,
@@ -1308,6 +1315,7 @@
    "team": {
     "id": 2938,
     "name": "Al-Ittihad FC",
+    "ar": "الاتحاد",
     "logo": "https://media.api-sports.io/football/teams/2938.png"
    },
    "goals": 4,
@@ -1320,6 +1328,7 @@
    "team": {
     "id": 2933,
     "name": "Al-Qadisiyah FC",
+    "ar": "القادسية",
     "logo": "https://media.api-sports.io/football/teams/2933.png"
    },
    "goals": 4,
@@ -1332,6 +1341,7 @@
    "team": {
     "id": 2933,
     "name": "Al-Qadisiyah FC",
+    "ar": "القادسية",
     "logo": "https://media.api-sports.io/football/teams/2933.png"
    },
    "goals": 3,
