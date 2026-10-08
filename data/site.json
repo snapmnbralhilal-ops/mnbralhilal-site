@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T00:08:24.665Z",
+ "updated": "2026-10-08T00:13:15.122Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [],
@@ -394,36 +394,26 @@
  "standings": {},
  "errors": [
   {
-   "endpoint": "standings",
+   "endpoint": "fixtures",
    "params": {
-    "league": 307,
-    "season": 2026
+    "date": "2026-10-06",
+    "timezone": "Asia/Riyadh"
    },
    "error": [
-    "Free plans do not have access to this season, try from 2022 to 2024."
+    "Free plans do not have access to this date, try from 2026-10-07 to 2026-10-09."
    ]
   },
   {
    "endpoint": "fixtures",
    "params": {
-    "team": 2932,
-    "season": 2026,
+    "date": "2026-10-10",
     "timezone": "Asia/Riyadh"
    },
    "error": [
-    "Free plans do not have access to this season, try from 2022 to 2024."
-   ]
-  },
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 39,
-    "season": 2026
-   },
-   "error": [
-    "Free plans do not have access to this season, try from 2022 to 2024."
+    "Free plans do not have access to this date, try from 2026-10-07 to 2026-10-09."
    ]
   }
  ],
- "requests": 5
+ "requests": 5,
+ "archiveComplete": false
 }
