@@ -1,0 +1,22 @@
+{
+  "designs": [
+    {
+      "id": "2026-10-10-hilal-ittihad-match-card",
+      "type": "بطاقة المباراة",
+      "title": "الهلال × الاتحاد",
+      "date": "2026-10-08",
+      "image": "assets/designs/2026-10-10-hilal-ittihad-match-card.jpg",
+      "thumb": "assets/designs/2026-10-10-hilal-ittihad-match-card-thumb.jpg",
+      "match": {
+        "date": "2026-10-10T21:00:00+03:00",
+        "home": "الهلال",
+        "away": "الاتحاد",
+        "competition": "دوري روشن السعودي",
+        "round": "الجولة 8",
+        "venue": "ملعب المملكة أرينا",
+        "commentators": "فارس عوض - عبدالله الحربي",
+        "channel": "ثمانية"
+      }
+    }
+  ]
+}

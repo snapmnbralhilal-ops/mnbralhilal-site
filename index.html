@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" href="assets/logo.png">
 <link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
-<link rel="stylesheet" href="assets/style.css?v=202610080418">
+<link rel="stylesheet" href="assets/style.css?v=202610080459">
 </head>
 <body>
 
@@ -18,7 +18,7 @@
     <div class="logo" role="img" aria-label="شعار منبر الهلال"></div>
     <div class="brand"><b>منبر الهلال</b><span>MNBRALHILAL</span></div>
     <nav class="nav" aria-label="الأقسام">
-      <a href="#hilal">الهلال</a><a href="#table">الترتيب</a><a href="#youth">الفئات السنية</a><a href="#today">مباريات اليوم</a><a href="#news">الأخبار</a>
+      <a href="#hilal">الهلال</a><a href="#table">الترتيب</a><a href="#youth">الفئات السنية</a><a href="#designs">التصاميم</a><a href="#today">مباريات اليوم</a><a href="#news">الأخبار</a>
     </nav>
   </div>
 </header>
@@ -61,6 +61,11 @@
           <tbody id="yTable"></tbody>
         </table></div>
         <div id="yNewsWrap" hidden><div class="sub">أخبار الفئات السنية</div><div class="news" id="yNews"></div></div>
+      </section>
+
+      <section class="box" id="designs" hidden>
+        <h2>تصاميم منبر</h2>
+        <div class="d-list" id="dList"></div>
       </section>
 
       <section class="box" id="today">
@@ -120,7 +125,21 @@
   </div>
 </footer>
 
-<script src="assets/names.js?v=202610080418"></script>
-<script src="assets/app.js?v=202610080418"></script>
+
+<dialog id="lightbox" aria-label="عرض التصميم">
+  <div class="lb-inner">
+    <div class="lb-top"><b id="lbTitle"></b><button type="button" id="lbClose" aria-label="إغلاق">✕</button></div>
+    <img id="lbImg" alt="">
+    <div class="lb-actions">
+      <a id="lbDownload" class="lb-btn primary" download>تحميل</a>
+      <button type="button" id="lbShare" class="lb-btn">مشاركة</button>
+      <a id="lbWa" class="lb-btn" target="_blank" rel="noopener">واتساب</a>
+      <a id="lbX" class="lb-btn" target="_blank" rel="noopener">X</a>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/names.js?v=202610080459"></script>
+<script src="assets/app.js?v=202610080459"></script>
 </body>
 </html>

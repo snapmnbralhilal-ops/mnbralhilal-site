@@ -94,6 +94,63 @@
     return `<div class="match-sp">المباراة برعاية ${adLink(a, `<img src="${esc(a.image)}" alt="${esc(a.title || "")}">`)}</div>`;
   }
 
+
+  /* ---------- تصاميم منبر (data/designs.json) ---------- */
+  let DESIGNS = [];
+  const TEAM_IDS = { "الهلال": 2932, "الاتحاد": 2938, "النصر": 2939, "الأهلي": 2929 };
+  const teamObj = (name) => ({ id: TEAM_IDS[name] ?? null, name, logo: TEAM_IDS[name] ? `https://media.api-sports.io/football/teams/${TEAM_IDS[name]}.png` : "" });
+  const sameDay = (a, b) => fmt({ year: "numeric", month: "numeric", day: "numeric" }).format(new Date(a)) === fmt({ year: "numeric", month: "numeric", day: "numeric" }).format(new Date(b));
+  const designForMatch = (m) => m && DESIGNS.find((d) => d.match && d.match.date && sameDay(d.match.date, m.date));
+  // لو API ما عطانا المباراة القادمة، ناخذها من بطاقة المباراة
+  function nextFromDesigns() {
+    const now = Date.now();
+    const d = DESIGNS.filter((x) => x.match && x.match.date && new Date(x.match.date) > now - 3 * 3600e3)
+      .sort((a, b) => a.match.date.localeCompare(b.match.date))[0];
+    if (!d) return null;
+    const mm = d.match;
+    return { date: mm.date, status: "NS", venue: mm.venue || "", league: { name: mm.competition || "" }, home: teamObj(mm.home), away: teamObj(mm.away), goals: null };
+  }
+  function nextExtrasHtml(m) {
+    const d = designForMatch(m);
+    if (!d) return "";
+    const mm = d.match || {};
+    const info = [mm.round, mm.commentators ? "التعليق: " + mm.commentators : "", mm.channel ? "الناقل: " + mm.channel : ""].filter(Boolean).map(esc).join(" · ");
+    return `<div class="next-extra">${info ? `<span>${info}</span>` : ""}<button type="button" class="card-btn" data-design="${esc(d.id)}">بطاقة المباراة</button></div>`;
+  }
+  function renderDesigns() {
+    const box = $("designs");
+    const list = DESIGNS.slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    box.hidden = !list.length;
+    $("dList").innerHTML = list.map((d) => `<button type="button" class="d-item" data-design="${esc(d.id)}">
+      <img src="${esc(d.thumb || d.image)}" alt="${esc(d.title || "")}" loading="lazy" width="270" height="360">
+      <span class="d-meta"><b>${esc(d.type || "تصميم")}</b><small>${esc(d.title || "")}</small></span></button>`).join("");
+  }
+  function openDesign(id) {
+    const d = DESIGNS.find((x) => x.id === id); if (!d) return;
+    const abs = new URL(d.image, location.href).href;
+    const text = [d.type, d.title].filter(Boolean).join(": ") + " — منبر الهلال";
+    $("lbImg").src = d.image; $("lbImg").alt = d.title || "";
+    $("lbTitle").textContent = [d.type, d.title].filter(Boolean).join(": ");
+    $("lbDownload").href = d.image; $("lbDownload").setAttribute("download", (d.id || "design") + ".jpg");
+    $("lbWa").href = "https://wa.me/?text=" + encodeURIComponent(text + "\n" + abs);
+    $("lbX").href = "https://x.com/intent/post?text=" + encodeURIComponent(text) + "&url=" + encodeURIComponent(abs);
+    $("lbShare").hidden = !navigator.share;
+    $("lbShare").onclick = () => navigator.share({ title: text, url: abs }).catch(() => {});
+    const dlg = $("lightbox");
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", "");
+  }
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-design]"); if (b) { openDesign(b.dataset.design); return; }
+    if (e.target.id === "lightbox" || e.target.closest("#lbClose")) $("lightbox").close();
+  });
+  async function loadDesigns() {
+    try {
+      const r = await fetch("data/designs.json?t=" + Date.now(), { cache: "no-store" });
+      DESIGNS = r.ok ? ((await r.json()).designs || []) : [];
+    } catch (e) { DESIGNS = []; }
+    renderDesigns();
+  }
+
   /* ---------- البطاقة الرئيسية: المباراة القادمة ---------- */
   let countTimer = null;
   function renderNext(m) {
@@ -116,7 +173,7 @@
         <div class="mid">${mid}</div>
         <div class="t">${crest(m.away, "crest lg")}${esc(arTeam(m.away.name))}</div>
       </div>
-      <div class="count num" id="count" aria-live="polite"></div>${matchSponsorHtml()}`;
+      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${matchSponsorHtml()}`;
     clearInterval(countTimer);
     if (live) return;
     const tick = () => {
@@ -193,7 +250,9 @@
 
   function render(data) {
     HILAL_ID = data.hilal?.teamId ?? null;
-    const h = data.hilal || {};
+    let h = data.hilal || {};
+    const fb = nextFromDesigns();
+    if (!(h.upcoming || []).length && fb) h = { ...h, upcoming: [fb] };
     renderNext((h.upcoming || [])[0]);
     renderHilal(h);
     $("todayDate").textContent = data.today?.date ? fDay.format(new Date(data.today.date + "T12:00:00+03:00")) : "";
@@ -291,6 +350,6 @@
   }).observe(document.body, { childList: true, subtree: true, characterData: true });
   document.title = toArabic(document.title);
 
-  loadAds().then(load).then(loadYouth);
+  Promise.all([loadAds(), loadDesigns()]).then(load).then(loadYouth);
   setInterval(load, 10 * 60 * 1000); // يعيد القراءة كل ١٠ دقائق
 })();
