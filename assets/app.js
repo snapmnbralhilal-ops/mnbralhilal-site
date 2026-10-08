@@ -184,6 +184,53 @@
     if (e.target.closest("#calAll") && CAL_ALL.length) downloadIcs(CAL_ALL, "hilal-matches.ics");
   });
 
+
+  /* ---------- التحديث المباشر (Cloudflare Worker — data/live.json فيه الرابط) ---------- */
+  let NEXT_BASE = null, LIVE_M = null, LIVE_URL = null, liveTimer = null, lastGoals = null;
+  const sameMatch = (a, b) => Math.abs(new Date(a.date) - new Date(b.date)) < 6 * 3600e3;
+  function goalToast(text) {
+    const t = document.createElement("div");
+    t.className = "goal-toast"; t.setAttribute("role", "status");
+    t.innerHTML = `<b>⚽ هدف!</b><span>${esc(text)}</span>`;
+    document.body.appendChild(t);
+    setTimeout(() => t.classList.add("out"), 5200); setTimeout(() => t.remove(), 6000);
+  }
+  async function pollLive() {
+    if (!LIVE_URL || !NEXT_BASE) return;
+    let d;
+    try { d = await (await fetch(LIVE_URL, { cache: "no-store" })).json(); } catch (e) { return; }
+    if (!d || !d.match || !sameMatch(d.match, NEXT_BASE)) return;
+    const lm = d.match;
+    const m = { ...NEXT_BASE, id: lm.id, status: lm.status, elapsed: lm.elapsed, goals: lm.goals,
+      home: { ...NEXT_BASE.home, id: lm.home.id, logo: NEXT_BASE.home.logo || lm.home.logo },
+      away: { ...NEXT_BASE.away, id: lm.away.id, logo: NEXT_BASE.away.logo || lm.away.logo } };
+    // هدف جديد للهلال؟
+    const hilalHome = lm.home.id === 2932;
+    const ours = hilalHome ? lm.goals[0] : lm.goals[1];
+    if (lastGoals !== null && ours > lastGoals) {
+      const g = (lm.events || []).filter((e) => e.type === "Goal" && e.team === 2932).pop();
+      goalToast(g ? `${g.player || ""} ${g.min ? g.min + "'" : ""} — الهلال ${lm.goals[0]}-${lm.goals[1]}` : `الهلال ${lm.goals[0]}-${lm.goals[1]}`);
+    }
+    lastGoals = ours;
+    LIVE_M = m;
+    renderNext(m);
+    if (d.status === "done") { clearInterval(liveTimer); liveTimer = null; }
+  }
+  async function startLive() {
+    if (liveTimer || !NEXT_BASE) return;
+    const k = new Date(NEXT_BASE.date).getTime(), now = Date.now();
+    if (now < k - 10 * 60e3 || now > k + 160 * 60e3) {
+      // نرجع نشيك قبل المباراة بدقائق لو الصفحة مفتوحة
+      if (now < k && k - now < 6 * 3600e3) setTimeout(startLive, Math.max(30e3, k - 10 * 60e3 - now));
+      return;
+    }
+    if (!LIVE_URL) {
+      try { LIVE_URL = (await (await fetch("data/live.json?t=" + Date.now(), { cache: "no-store" })).json()).url; } catch (e) { return; }
+    }
+    if (!LIVE_URL) return;
+    pollLive(); liveTimer = setInterval(pollLive, 30e3);
+  }
+
   /* ---------- البطاقة الرئيسية: المباراة القادمة ---------- */
   let countTimer = null;
   function renderNext(m) {
@@ -357,7 +404,9 @@
     let h = data.hilal || {};
     const fb = nextFromDesigns();
     if (!(h.upcoming || []).length && fb) h = { ...h, upcoming: [fb] };
-    renderNext((h.upcoming || [])[0]);
+    NEXT_BASE = (h.upcoming || [])[0] || null;
+    renderNext(LIVE_M && NEXT_BASE && sameMatch(LIVE_M, NEXT_BASE) ? LIVE_M : NEXT_BASE);
+    startLive();
     renderHilal(h);
     renderLast(h);
     if ($("todayDate")) $("todayDate").textContent = data.today?.date ? fDay.format(new Date(data.today.date + "T12:00:00+03:00")) : "";

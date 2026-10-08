@@ -1,0 +1,18 @@
+# عامل التحديث المباشر لمنبر الهلال — يرفعه GitHub تلقائياً (.github/workflows/deploy-live.yml)
+name = "mnbr-live"
+main = "worker.js"
+compatibility_date = "2024-09-01"
+workers_dev = true
+
+[triggers]
+crons = ["* * * * *"]   # كل دقيقة يشيك: فيه مباراة للهلال الحين؟
+
+[vars]
+SITE = "https://snapmnbralhilal-ops.github.io/mnbralhilal-site"
+# كل كم ثانية يسحب النتيجة وقت مباراة الهلال.
+# الخطة المجانية (100 طلب باليوم): 180  — باقة Pro: 15
+LIVE_INTERVAL = "180"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "__KV_ID__"
