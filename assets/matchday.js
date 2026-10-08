@@ -190,7 +190,7 @@
     // وقت المباراة نحدّث كل 30 ثانية، وغيره كل دقيقتين
     const loop = () => { const k = MATCH ? new Date(MATCH.date).getTime() : 0, now = Date.now();
       const hot = k && now > k - 15 * 60e3 && now < k + 3 * 3600e3;
-      setTimeout(async () => { if (!document.hidden) await refresh(); loop(); }, hot ? 30e3 : 120e3); };
+      setTimeout(async () => { if (!document.hidden) await refresh(); loop(); }, hot ? 15e3 : 120e3); };
     loop();
   })();
 })();

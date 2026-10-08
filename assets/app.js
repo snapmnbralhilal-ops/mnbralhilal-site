@@ -231,7 +231,7 @@
       try { LIVE_URL = (await (await fetch("data/live.json?t=" + Date.now(), { cache: "no-store" })).json()).url; } catch (e) { return; }
     }
     if (!LIVE_URL) return;
-    pollLive(); liveTimer = setInterval(pollLive, 30e3);
+    pollLive(); liveTimer = setInterval(pollLive, 15e3);
   }
 
   /* ---------- البطاقة الرئيسية: المباراة القادمة ---------- */

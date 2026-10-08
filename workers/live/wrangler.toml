@@ -12,7 +12,7 @@ crons = ["* * * * *"]   # كل دقيقة يشيك: فيه مباراة للهل
 SITE = "https://snapmnbralhilal-ops.github.io/mnbralhilal-site"
 # كل كم ثانية يسحب النتيجة وقت مباراة الهلال.
 # الخطة المجانية (100 طلب باليوم): 180  — باقة Pro: 15
-LIVE_INTERVAL = "180"
+LIVE_INTERVAL = "15"
 # لوحة التحكم: بصمة كلمة المرور (SHA-256) — مو كلمة المرور نفسها
 ADMIN_HASH = "3c1483ed250569b057268440ef593c2f08ebafff09dc6cadae5c1d76b5804bc9"
 

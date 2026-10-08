@@ -12,12 +12,13 @@
     ["play", "العب", "play.html", "ball", true],
     ["matchday", "مركز المباراة", "matchday.html", "bolt", false],
     ["standings", "الترتيب", "standings.html", "trophy", false],
+    ["stats", "الإحصائيات", "stats.html", "chart", false],
     ["designs", "التصاميم", "designs.html", "image", true],
     ["videos", "فيديو", "videos.html", "play", true],
     ["news", "الأخبار", "news.html", "news", false],
     ["youth", "الفئات السنية", "youth.html", "users", false]
   ];
-  const TITLES = { admin: "لوحة التحكم", matchday: "مركز المباراة", play: "العب مع منبر", founding: "ذكرى التأسيس", home: "كرة القدم", matches: "المباريات", standings: "الترتيب", designs: "التصاميم", videos: "فيديو", news: "الأخبار", youth: "الفئات السنية" };
+  const TITLES = { stats: "إحصائيات اللاعبين", admin: "لوحة التحكم", matchday: "مركز المباراة", play: "العب مع منبر", founding: "ذكرى التأسيس", home: "كرة القدم", matches: "المباريات", standings: "الترتيب", designs: "التصاميم", videos: "فيديو", news: "الأخبار", youth: "الفئات السنية" };
 
   const SPRITE = `<svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></symbol>

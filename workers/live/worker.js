@@ -73,12 +73,16 @@ async function schedule(env, force = false) {
   } catch (e) { errors.push(String(e.message || e)); }
   try {
     const s = await site(env, "data/site.json");
-    for (const m of s?.hilal?.upcoming || []) matches.push({ date: m.date, home: m.home?.id === HILAL ? "الهلال" : null, away: m.away?.id === HILAL ? "الهلال" : null });
+    for (const m of s?.hilal?.upcoming || []) matches.push({ id: m.id, date: m.date, home: m.home?.id === HILAL ? "الهلال" : null, away: m.away?.id === HILAL ? "الهلال" : null });
   } catch (e) { errors.push(String(e.message || e)); }
   // لو تعذّر جلب ملفات الموقع نحتفظ بالجدول السابق بدل ما يفضى
   if (errors.length && cached?.matches?.length) matches.push(...cached.matches);
   const seen = new Set(), uniq = [];
-  for (const m of matches) { const k = new Date(m.date).getTime(); if (!seen.has(k)) { seen.add(k); uniq.push({ ...m, home: m.home || "الهلال", away: m.away || "الخصم" }); } }
+  for (const m of matches) {
+    const k = new Date(m.date).getTime();
+    if (!seen.has(k)) { seen.add(k); uniq.push({ ...m, home: m.home || "الهلال", away: m.away || "الخصم" }); }
+    else if (m.id) { const u = uniq.find((x) => new Date(x.date).getTime() === k); if (u && !u.id) u.id = m.id; }
+  }
   const prev = JSON.stringify(cached?.matches || []) + JSON.stringify(cached?.errors || []);
   // نكتب في KV بس لو تغيّر شي أو مرّت 6 ساعات (حد KV المجاني 1000 كتابة باليوم)
   if (!cached || prev !== JSON.stringify(uniq) + JSON.stringify(errors) || Date.now() - cached.at > 6 * 3600e3)
@@ -92,9 +96,7 @@ async function schedule(env, force = false) {
 /* ============ التحديث المباشر ============ */
 async function api(env, params) {
   const res = await fetch("https://v3.football.api-sports.io/fixtures?" + new URLSearchParams(params), { headers: { "x-apisports-key": env.API_FOOTBALL_KEY } });
-  const key = "usage:" + today();
-  const u = (await env.KV.get(key, "json")) || { n: 0 };
-  u.n++; await env.KV.put(key, JSON.stringify(u), { expirationTtl: 3 * 86400 });
+  env._calls = (env._calls || 0) + 1;   // ينحفظ مرة وحدة آخر الدقيقة (حد الكتابة في KV)
   const body = await res.json();
   return Array.isArray(body?.response) ? body.response : [];
 }
@@ -115,12 +117,14 @@ const oppGoals = (m) => (m ? (m.home.id === HILAL ? m.goals[1] : m.goals[0]) : 0
 
 async function pollOnce(env, win) {
   const now = Date.now();
-  const last = (await env.KV.get("live", "json")) || {};
+  const last = env._live || (await env.KV.get("live", "json")) || {};
   const interval = Math.max(10, +env.LIVE_INTERVAL || 180) * 1000;
   if (last.kickoff === win.kickoff && DONE.includes(last.match?.status)) return;
   if (last.kickoff === win.kickoff && last.fetchedAt && now - last.fetchedAt < interval - 2000) return;
 
-  let fx = (await api(env, { live: "all" })).find(isHilal);
+  // لو نعرف رقم المباراة نسحبها مباشرة (فيها الأحداث وتشتغل حتى بعد النهاية)
+  let fx = win.id ? (await api(env, { id: win.id }))[0] : null;
+  if (!fx) fx = (await api(env, { live: "all" })).find(isHilal);
   if (!fx && now - win.kickoff > 100 * 60e3) fx = (await api(env, { date: today(), timezone: TZ })).find(isHilal);
   const out = { kickoff: win.kickoff, fetchedAt: now, updated: new Date(now).toISOString() };
   const prev = last.kickoff === win.kickoff ? last.match : null;
@@ -129,7 +133,12 @@ async function pollOnce(env, win) {
     if (!out.match.events.length && prev?.events?.length) out.match.events = prev.events;
     out.status = DONE.includes(fx.fixture.status.short) ? "done" : "live";
   } else { out.status = now < win.kickoff + 10 * 60e3 ? "starting" : (prev ? last.status : "waiting"); if (prev) out.match = prev; }
-  await env.KV.put("live", JSON.stringify(out));
+  // نكتب بس لو تغيّر شي (نتيجة/دقيقة/حالة/أحداث) أو مرّت دقيقة — عشان حد الكتابة اليومي في KV
+  const sig = (o) => JSON.stringify([o.status, o.match?.status, o.match?.elapsed, o.match?.goals, o.match?.events?.length]);
+  if (last.kickoff !== win.kickoff || sig(out) !== sig(last) || now - (last.savedAt || 0) > 55e3) {
+    out.savedAt = now; env._live = out;
+    await env.KV.put("live", JSON.stringify(out));
+  } else { out.savedAt = last.savedAt; env._live = out; }
 
   // تنبيهات: هدف للهلال، ونهاية المباراة
   const opp = win.home === "الهلال" ? win.away : win.home;
@@ -146,6 +155,7 @@ async function pollOnce(env, win) {
 }
 
 async function tick(env) {
+  env._live = null; env._calls = 0;
   const now = Date.now();
   const matches = (await schedule(env)).map((x) => ({ ...x, kickoff: new Date(x.date).getTime() }));
   // تنبيه قبل المباراة بساعة
@@ -162,11 +172,20 @@ async function tick(env) {
   }
   const interval = Math.max(10, +env.LIVE_INTERVAL || 180);
   const loops = interval < 60 ? Math.floor(55 / interval) + 1 : 1;
-  for (let i = 0; i < loops; i++) {
-    if (i) await new Promise((r) => setTimeout(r, interval * 1000));
-    await pollOnce(env, m);
-  }
+  try {
+    for (let i = 0; i < loops; i++) {
+      if (i) await new Promise((r) => setTimeout(r, interval * 1000));
+      await pollOnce(env, m);
+    }
+  } finally { await flushUsage(env); }
   await settle(env, m.kickoff);
+}
+async function flushUsage(env) {
+  if (!env._calls) return;
+  const key = "usage:" + today();
+  const u = (await env.KV.get(key, "json")) || { n: 0 };
+  u.n += env._calls; env._calls = 0;
+  await env.KV.put(key, JSON.stringify(u), { expirationTtl: 3 * 86400 });
 }
 
 /* ============ احتساب نقاط دوري التوقعات ============ */

@@ -330,6 +330,8 @@ function matchPlayer(sq, name) {
     return t.length < 2 || w.length < 2 || (first.length === 1 ? t[0][0] === first : t[0] === first);
   }) || null;
 }
+// لاعبين لعبوا للهلال هالموسم وما هم في القائمة الحالية
+const EXTRA_AR = { "Malcom": "مالكوم", "K. Benzema": "كريم بنزيما", "Karim Benzema": "كريم بنزيما", "Suhayb Al Zaid": "صهيب الزيد" };
 const POS = { Goalkeeper: "GK", Defender: "DF", Midfielder: "MF", Attacker: "FW" };
 
 async function mainPro(prev, season, todayYmd, ydayYmd, plan) {
@@ -390,14 +392,14 @@ async function buildStats(season) {
     const rating = rated.length ? rated.reduce((n, x) => n + parseFloat(x.games.rating) * x.games.minutes, 0) / rated.reduce((n, x) => n + x.games.minutes, 0) : null;
     const me = matchPlayer(sq, player.name) || matchPlayer(sq, `${player.firstname || ""} ${player.lastname || ""}`);
     return {
-      api: player.id, sid: me?.id || null, name: me?.name || player.name, en: player.name, n: me?.n ?? st.find((x) => x.games?.number)?.games?.number ?? null,
+      api: player.id, sid: me?.id || null, name: me?.name || EXTRA_AR[player.name] || player.name, en: player.name, n: me?.n ?? st.find((x) => x.games?.number)?.games?.number ?? null,
       pos: me?.pos || POS[st[0]?.games?.position] || "", photo: player.photo, age: player.age, nat: player.nationality,
       apps, starts: sum((x) => x.games?.lineups), mins, goals: sum((x) => x.goals?.total), assists: sum((x) => x.goals?.assists),
       saves: sum((x) => x.goals?.saves), conceded: sum((x) => x.goals?.conceded), shots: sum((x) => x.shots?.total), shotsOn: sum((x) => x.shots?.on),
       keyPasses: sum((x) => x.passes?.key), passes: sum((x) => x.passes?.total), tackles: sum((x) => x.tackles?.total), interceptions: sum((x) => x.tackles?.interceptions),
       dribbles: sum((x) => x.dribbles?.success), yellow: sum((x) => x.cards?.yellow), red: sum((x) => x.cards?.red) + sum((x) => x.cards?.yellowred),
       penScored: sum((x) => x.penalty?.scored), rating: rating ? Math.round(rating * 100) / 100 : null,
-      comps: st.filter((x) => num(x.games?.appearences)).map((x) => ({ league: x.league?.name, apps: num(x.games.appearences), goals: num(x.goals?.total), assists: num(x.goals?.assists) }))
+      comps: st.filter((x) => num(x.games?.appearences)).map((x) => ({ id: x.league?.id, league: x.league?.name, apps: num(x.games.appearences), goals: num(x.goals?.total), assists: num(x.goals?.assists) }))
     };
   }).filter((p) => p.apps > 0 || p.sid);
 

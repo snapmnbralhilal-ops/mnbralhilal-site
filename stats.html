@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>إحصائيات لاعبين الهلال — منبر الهلال</title>
+<meta name="description" content="أهداف وصناعة ودقائق وتقييم كل لاعب في الهلال هالموسم بكل البطولات، وهدافين دوري روشن.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="إحصائيات لاعبين الهلال — منبر الهلال">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
+<link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=202610081130">
+<link rel="stylesheet" href="assets/play.css?v=202610081130">
+<link rel="stylesheet" href="assets/stats.css?v=202610081130">
+</head>
+<body data-page="stats">
+<script src="assets/layout.js?v=202610081130"></script>
+<main id="main" class="page">
+<h1 class="sr-only">إحصائيات لاعبين الهلال</h1>
+<div class="wrap narrow sx">
+  <div class="sx-head"><h2>إحصائيات لاعبين الهلال</h2><small id="sxSub"></small></div>
+  <section class="sx-leaders" id="leaders"><div class="empty">جاري التحميل…</div></section>
+
+  <section class="box sx-sec">
+    <div class="sx-ctrl">
+      <div class="chips" id="posF"></div>
+      <div class="chips" id="sortF"></div>
+    </div>
+    <div class="sx-list" id="list"></div>
+  </section>
+
+  <section class="box sx-sec" id="splBox" hidden>
+    <h2 class="sx-h">هدافين دوري روشن</h2>
+    <div id="spl"></div>
+  </section>
+  <p class="sx-note">الأرقام لكل البطولات مع الهلال هالموسم، وتتحدث كل ساعة.</p>
+</div>
+
+<dialog id="pd" class="sheet" aria-label="إحصائيات اللاعب">
+  <div class="sheet-in"><div class="sheet-top"><b id="pdT"></b><button type="button" id="pdX" aria-label="إغلاق">✕</button></div><div id="pdB" class="pd-b"></div></div>
+</dialog>
+</main>
+<script>LAYOUT.foot()</script>
+<script src="assets/names.js?v=202610081130"></script>
+<script src="assets/stats.js?v=202610081130"></script>
+<script src="assets/social.js?v=202610081130"></script>
+</body>
+</html>
