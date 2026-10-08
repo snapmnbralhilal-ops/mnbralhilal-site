@@ -22,7 +22,7 @@
     const name = arTeam(team?.name);
     if (team?.logo) return `<img class="${cls}" src="${esc(team.logo)}" alt="" loading="lazy" width="28" height="32" onerror="this.style.visibility='hidden'">`;
     const ch = name.replace(/^ال/, "").trim()[0] || "?";
-    return `<svg class="${cls}" viewBox="0 0 28 32" aria-hidden="true"><path d="M14 1 L26 5 V15 C26 23 20 28.5 14 31 C8 28.5 2 23 2 15 V5 Z" fill="var(--chip)" stroke="var(--line)"/><text x="14" y="21" text-anchor="middle" font-family="Readex Pro,sans-serif" font-weight="700" font-size="12" fill="var(--royal)">${esc(ch)}</text></svg>`;
+    return `<svg class="${cls}" viewBox="0 0 28 32" aria-hidden="true"><path d="M14 1 L26 5 V15 C26 23 20 28.5 14 31 C8 28.5 2 23 2 15 V5 Z" fill="var(--chip)" stroke="var(--line)"/><text x="14" y="21" text-anchor="middle" font-family="Expo Arabic,sans-serif" font-weight="700" font-size="12" fill="var(--royal)">${esc(ch)}</text></svg>`;
   }
 
   function outcome(m) {

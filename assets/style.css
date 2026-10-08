@@ -1,10 +1,16 @@
+@font-face{font-family:"Expo Arabic";src:url(fonts/ExpoArabic-Light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Expo Arabic";src:url(fonts/ExpoArabic-Book.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Expo Arabic";src:url(fonts/ExpoArabic-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Expo Arabic";src:url(fonts/ExpoArabic-SemiBold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Expo Arabic";src:url(fonts/ExpoArabic-Bold.woff) format("woff");font-weight:700;font-style:normal;font-display:swap}
+
 /* Layout: broadcast match-center — royal-blue masthead + ticker, Hilal hub first, then world matches and news in a two-column grid that stacks on phones */
 :root{
   --royal:#1C3BE8; --royal-deep:#0E1F8F;
   --bg:#EEF1F8; --surface:#FFFFFF; --ink:#0D1530; --muted:#5B6585; --line:#DCE1EE;
   --chip:#E6EBFB; --win:#14894B; --draw:#9A7A12; --loss:#C2332E; --live:#E03A2F;
-  --display:"Readex Pro","IBM Plex Sans Arabic",system-ui,sans-serif;
-  --body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;
+  --display:"Expo Arabic",system-ui,sans-serif;
+  --body:"Expo Arabic","Segoe UI",Tahoma,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --royal:#4A66FF; --royal-deep:#0A1660;
