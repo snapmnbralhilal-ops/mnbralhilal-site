@@ -63,6 +63,37 @@
       <div class="side away">${crest(m.away)}<span>${esc(arTeam(m.away.name))}</span></div></div>`;
   }
 
+
+  /* ---------- الإعلانات والرعاة (data/ads.json) ---------- */
+  let ADS = {};
+  const activeAds = (slot) => {
+    const now = new Date();
+    return (ADS[slot] || []).filter((a) => a && a.image && a.active !== false &&
+      (!a.from || new Date(a.from + "T00:00:00+03:00") <= now) &&
+      (!a.to || new Date(a.to + "T23:59:59+03:00") >= now));
+  };
+  const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+  const adLink = (a, inner) => a.link
+    ? `<a href="${esc(a.link)}" target="_blank" rel="noopener sponsored">${inner}</a>` : inner;
+  function renderAds() {
+    document.querySelectorAll(".ad-slot").forEach((el) => {
+      const list = activeAds(el.dataset.slot);
+      if (!list.length) { el.hidden = true; el.innerHTML = ""; return; }
+      const a = pick(list); // لو فيه أكثر من إعلان بنفس المكان، يتبدّلون عشوائياً
+      el.innerHTML = adLink(a, `<img src="${esc(a.image)}" alt="${esc(a.title || "إعلان")}" loading="lazy">`) + `<span class="ad-tag">إعلان</span>`;
+      el.hidden = false;
+    });
+    const sp = activeAds("sponsors");
+    $("sponsors").hidden = !sp.length;
+    $("spList").innerHTML = sp.map((a) => adLink(a, `<img src="${esc(a.image)}" alt="${esc(a.title || "")}" title="${esc(a.title || "")}" loading="lazy">`)).join("");
+  }
+  function matchSponsorHtml() {
+    const list = activeAds("match_sponsor");
+    if (!list.length) return "";
+    const a = list[0];
+    return `<div class="match-sp">المباراة برعاية ${adLink(a, `<img src="${esc(a.image)}" alt="${esc(a.title || "")}">`)}</div>`;
+  }
+
   /* ---------- البطاقة الرئيسية: المباراة القادمة ---------- */
   let countTimer = null;
   function renderNext(m) {
@@ -85,7 +116,7 @@
         <div class="mid">${mid}</div>
         <div class="t">${crest(m.away, "crest lg")}${esc(arTeam(m.away.name))}</div>
       </div>
-      <div class="count num" id="count" aria-live="polite"></div>`;
+      <div class="count num" id="count" aria-live="polite"></div>${matchSponsorHtml()}`;
     clearInterval(countTimer);
     if (live) return;
     const tick = () => {
@@ -175,6 +206,14 @@
       : "بانتظار أول تحديث للبيانات";
   }
 
+  async function loadAds() {
+    try {
+      const r = await fetch("data/ads.json?t=" + Date.now(), { cache: "no-store" });
+      if (r.ok) ADS = await r.json();
+    } catch (e) { ADS = {}; }
+    renderAds();
+  }
+
   async function load() {
     try {
       const res = await fetch("data/site.json?t=" + Date.now(), { cache: "no-store" });
@@ -185,6 +224,6 @@
       $("updated").textContent = "تعذّر تحميل البيانات";
     }
   }
-  load();
+  loadAds().then(load);
   setInterval(load, 10 * 60 * 1000); // يعيد القراءة كل ١٠ دقائق
 })();

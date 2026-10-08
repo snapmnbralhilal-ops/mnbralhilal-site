@@ -39,6 +39,7 @@
 </div>
 
 <main>
+  <div class="wrap ad-wrap"><div class="ad-slot" data-slot="top" hidden></div></div>
   <div class="wrap">
     <div class="col">
       <section class="box">
@@ -56,6 +57,8 @@
         <div id="todayList"></div>
       </section>
 
+      <div class="ad-slot" data-slot="between" hidden></div>
+
       <section class="box">
         <h2>نتائج أمس</h2>
         <div id="ydayList"></div>
@@ -67,6 +70,8 @@
         <h2>الهلال هذا الموسم</h2>
         <div class="mini" id="mini"></div>
       </section>
+
+      <div class="ad-slot" data-slot="sidebar" hidden></div>
 
       <section class="box" id="table">
         <h2>ترتيب دوري روشن</h2>
@@ -92,6 +97,10 @@
     </div>
   </div>
 </main>
+
+<section class="sponsors" id="sponsors" hidden aria-label="رعاة منبر الهلال">
+  <div class="wrap"><h2>رعاة منبر الهلال</h2><div class="sp-list" id="spList"></div></div>
+</section>
 
 <footer>
   <div class="wrap">
