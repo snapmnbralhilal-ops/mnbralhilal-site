@@ -1,5 +1,429 @@
 {
- "updated": null,
- "hilal": {"teamId": 2932, "upcoming": [], "results": []},
- "news": []
+ "updated": "2026-10-08T00:08:24.665Z",
+ "hilal": {
+  "teamId": 2932,
+  "upcoming": [],
+  "results": []
+ },
+ "news": [
+  {
+   "tag": "عالمي",
+   "title": "الأرجنتين يكتسح Benin ٣-٠",
+   "body": "في مباريات ودية دولية.",
+   "link": "#today"
+  },
+  {
+   "tag": "عالمي",
+   "title": "٧ مباريات اليوم في أبرز الدوريات",
+   "body": "أبرزها في دوري يلو.",
+   "link": "#today"
+  }
+ ],
+ "teamName": "الهلال",
+ "season": 2026,
+ "today": {
+  "date": "2026-10-08",
+  "groups": [
+   {
+    "league": {
+     "id": 308,
+     "name": "Division 1",
+     "logo": "https://media.api-sports.io/football/leagues/308.png"
+    },
+    "matches": [
+     {
+      "id": 1604012,
+      "date": "2026-10-08T20:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Najran",
+      "league": {
+       "id": 308,
+       "name": "Division 1",
+       "country": "Saudi-Arabia",
+       "logo": "https://media.api-sports.io/football/leagues/308.png",
+       "round": "Regular Season - 6"
+      },
+      "home": {
+       "id": 2977,
+       "name": "Al Okhdood",
+       "logo": "https://media.api-sports.io/football/teams/2977.png"
+      },
+      "away": {
+       "id": 26357,
+       "name": "Al Ula",
+       "logo": "https://media.api-sports.io/football/teams/26357.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 305,
+     "name": "Stars League",
+     "logo": "https://media.api-sports.io/football/leagues/305.png"
+    },
+    "matches": [
+     {
+      "id": 1597937,
+      "date": "2026-10-08T17:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Gray Shamal",
+      "league": {
+       "id": 305,
+       "name": "Stars League",
+       "country": "Qatar",
+       "logo": "https://media.api-sports.io/football/leagues/305.png",
+       "round": "Regular Season - 5"
+      },
+      "home": {
+       "id": 2916,
+       "name": "Al Shamal",
+       "logo": "https://media.api-sports.io/football/teams/2916.png"
+      },
+      "away": {
+       "id": 2904,
+       "name": "Al-Duhail SC",
+       "logo": "https://media.api-sports.io/football/teams/2904.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1597935,
+      "date": "2026-10-08T20:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Wakla",
+      "league": {
+       "id": 305,
+       "name": "Stars League",
+       "country": "Qatar",
+       "logo": "https://media.api-sports.io/football/leagues/305.png",
+       "round": "Regular Season - 5"
+      },
+      "home": {
+       "id": 2900,
+       "name": "Al Wakrah",
+       "logo": "https://media.api-sports.io/football/teams/2900.png"
+      },
+      "away": {
+       "id": 2903,
+       "name": "Al-Gharafa",
+       "logo": "https://media.api-sports.io/football/teams/2903.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 200,
+     "name": "Botola Pro",
+     "logo": "https://media.api-sports.io/football/leagues/200.png"
+    },
+    "matches": [
+     {
+      "id": 1644202,
+      "date": "2026-10-08T19:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Rabat",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 3"
+      },
+      "home": {
+       "id": 14806,
+       "name": "UTS Rabat",
+       "logo": "https://media.api-sports.io/football/teams/14806.png"
+      },
+      "away": {
+       "id": 962,
+       "name": "Renaissance Berkane",
+       "logo": "https://media.api-sports.io/football/teams/962.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1644203,
+      "date": "2026-10-08T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Rabat",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 3"
+      },
+      "home": {
+       "id": 969,
+       "name": "FAR Rabat",
+       "logo": "https://media.api-sports.io/football/teams/969.png"
+      },
+      "away": {
+       "id": 3458,
+       "name": "Widad Témara",
+       "logo": "https://media.api-sports.io/football/teams/3458.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1644204,
+      "date": "2026-10-08T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Zemamra",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 3"
+      },
+      "home": {
+       "id": 3449,
+       "name": "CR Khemis Zemamra",
+       "logo": "https://media.api-sports.io/football/teams/3449.png"
+      },
+      "away": {
+       "id": 973,
+       "name": "Hassania Agadir",
+       "logo": "https://media.api-sports.io/football/teams/973.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1644205,
+      "date": "2026-10-08T23:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 3"
+      },
+      "home": {
+       "id": 3453,
+       "name": "Maghreb Fès",
+       "logo": "https://media.api-sports.io/football/teams/3453.png"
+      },
+      "away": {
+       "id": 976,
+       "name": "Raja Casablanca",
+       "logo": "https://media.api-sports.io/football/teams/976.png"
+      },
+      "goals": null
+     }
+    ]
+   }
+  ]
+ },
+ "yesterday": {
+  "date": "2026-10-07",
+  "groups": [
+   {
+    "league": {
+     "id": 10,
+     "name": "Friendlies",
+     "logo": "https://media.api-sports.io/football/leagues/10.png"
+    },
+    "matches": [
+     {
+      "id": 1640517,
+      "date": "2026-10-07T02:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Buenos Aires",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 26,
+       "name": "Argentina",
+       "logo": "https://media.api-sports.io/football/teams/26.png"
+      },
+      "away": {
+       "id": 1516,
+       "name": "Benin",
+       "logo": "https://media.api-sports.io/football/teams/1516.png"
+      },
+      "goals": [
+       3,
+       0
+      ]
+     },
+     {
+      "id": 1632359,
+      "date": "2026-10-07T02:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Miami Gardens",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 8,
+       "name": "Colombia",
+       "logo": "https://media.api-sports.io/football/teams/8.png"
+      },
+      "away": {
+       "id": 30,
+       "name": "Peru",
+       "logo": "https://media.api-sports.io/football/teams/30.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
+     },
+     {
+      "id": 1629007,
+      "date": "2026-10-07T03:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "St. Paul",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 2384,
+       "name": "USA",
+       "logo": "https://media.api-sports.io/football/teams/2384.png"
+      },
+      "away": {
+       "id": 5529,
+       "name": "Canada",
+       "logo": "https://media.api-sports.io/football/teams/5529.png"
+      },
+      "goals": [
+       1,
+       0
+      ]
+     },
+     {
+      "id": 1629006,
+      "date": "2026-10-07T05:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Los Angeles",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 16,
+       "name": "Mexico",
+       "logo": "https://media.api-sports.io/football/teams/16.png"
+      },
+      "away": {
+       "id": 2383,
+       "name": "Chile",
+       "logo": "https://media.api-sports.io/football/teams/2383.png"
+      },
+      "goals": [
+       0,
+       2
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 253,
+     "name": "Major League Soccer",
+     "logo": "https://media.api-sports.io/football/leagues/253.png"
+    },
+    "matches": [
+     {
+      "id": 1490326,
+      "date": "2026-10-07T03:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Chicago",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 16"
+      },
+      "home": {
+       "id": 1607,
+       "name": "Chicago Fire",
+       "logo": "https://media.api-sports.io/football/teams/1607.png"
+      },
+      "away": {
+       "id": 1603,
+       "name": "Vancouver Whitecaps",
+       "logo": "https://media.api-sports.io/football/teams/1603.png"
+      },
+      "goals": [
+       3,
+       1
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "standings": {},
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "Free plans do not have access to this season, try from 2022 to 2024."
+   ]
+  },
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "team": 2932,
+    "season": 2026,
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "Free plans do not have access to this season, try from 2022 to 2024."
+   ]
+  },
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 39,
+    "season": 2026
+   },
+   "error": [
+    "Free plans do not have access to this season, try from 2022 to 2024."
+   ]
+  }
+ ],
+ "requests": 5
 }
