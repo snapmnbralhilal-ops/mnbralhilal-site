@@ -1,5 +1,5 @@
 /* منبر الهلال — يخلي الموقع يشتغل كتطبيق ويفتح بسرعة حتى مع نت ضعيف */
-const CACHE = "mnbr-202610080712";
+const CACHE = "mnbr-202610080740";
 const CORE = ["./", "./index.html", "./videos.html", "./founding.html", "./manifest.webmanifest",
   "./assets/logo.png", "./assets/icon-192.png",
   "./assets/fonts/ExpoArabic-Book.woff", "./assets/fonts/ExpoArabic-Bold.woff"];
@@ -18,12 +18,15 @@ self.addEventListener("fetch", (e) => {
   if (fresh) {
     // البيانات والصفحات: من النت أولاً، ولو النت مقطوع من النسخة المحفوظة
     e.respondWith(fetch(req).then((res) => {
-      const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); return res;
+      if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); }
+      return res;
     }).catch(() => caches.match(req, { ignoreSearch: true })));
   } else {
     // الصور والخطوط: من المحفوظ أولاً (أسرع)
-    e.respondWith(caches.match(req).then((hit) => hit || fetch(req).then((res) => {
-      const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); return res;
-    })));
+    // نحفظ بس اللي تحمّل صح — عشان صورة فشلت مرة ما تنحفظ فاشلة للأبد
+    e.respondWith(caches.match(req).then((hit) => (hit && hit.ok ? hit : fetch(req).then((res) => {
+      if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); }
+      return res;
+    }))));
   }
 });

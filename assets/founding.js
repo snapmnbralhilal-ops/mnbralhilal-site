@@ -38,7 +38,7 @@
     $("fdYears").textContent = years;
     countdown(d.anniversary_date);
 
-    const titles = (d.titles || []).slice().sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || b.count - a.count);
+    const titles = (d.titles || []).slice().sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0)); // نفس ترتيب الملف، والمميزة أولاً
     const total = titles.reduce((s, t) => s + (t.count || 0), 0);
     $("fdTotal").dataset.to = total;
     $("fdTitles").innerHTML = titles.map((t) => `<div class="fd-t${t.featured ? " star" : ""}"><b data-to="${t.count}">0</b><span>${esc(t.name)}</span>${t.note ? `<small>${esc(t.note)}</small>` : ""}</div>`).join("");

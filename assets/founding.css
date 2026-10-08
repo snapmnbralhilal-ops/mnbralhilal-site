@@ -66,3 +66,5 @@ body.fd{background:#050B2E;color:#EAF0FF;--royal:#3D5BFF;--muted:#9AA8D6;--line:
 .fd .follow h2{color:#EAF0FF}
 
 @media (prefers-reduced-motion:reduce){.fd-rays,.fd-down{animation:none}.fd-t,.fd-line li{opacity:1;transform:none;transition:none}}
+
+.fd-src{text-align:center;color:#9a9a9a;font-size:13px;margin:-6px 0 18px}
