@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T15:31:00.171Z",
+ "updated": "2026-10-08T16:32:43.478Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1597937,
       "date": "2026-10-08T17:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Gray Shamal",
       "league": {
        "id": 305,
@@ -840,7 +840,7 @@
       },
       "goals": [
        0,
-       1
+       3
       ]
      },
      {
@@ -882,8 +882,8 @@
      {
       "id": 1644202,
       "date": "2026-10-08T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 32,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -904,7 +904,10 @@
        "ar": "Renaissance Berkane",
        "logo": "https://media.api-sports.io/football/teams/962.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644203,
