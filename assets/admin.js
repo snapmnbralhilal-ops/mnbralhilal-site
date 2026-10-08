@@ -293,8 +293,45 @@
     };
   }
 
+  /* ---------- 📅 مناسبات الهلال ---------- */
+  const MONTHS = ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"];
+  async function tabOcc() {
+    const box = $("s-occ");
+    box.innerHTML = `<h2>📅 مناسبات الهلال</h2><p class="adm-hint">تطلع بالرئيسية «في مثل هذا اليوم» الساعة 5 العصر. التاريخ بصيغة يوم/شهر مثل 16/10.</p>
+      <label for="oM">الشهر</label><select id="oM">${MONTHS.map((m, i) => `<option value="${i + 1}">${m}</option>`).join("")}</select>
+      <div id="oList" style="margin-top:12px"></div><button type="button" class="card-btn adm-save" id="oSave">💾 احفظ المناسبات</button>`;
+    let data;
+    try { data = await load("data/occasions.json"); } catch (e) { box.insertAdjacentHTML("beforeend", `<p class="adm-msg">${esc(e.message)}</p>`); return; }
+    const byM = {};
+    for (let m = 1; m <= 12; m++) byM[m] = [];
+    for (const o of data.items || []) (byM[+String(o.d).slice(3, 5)] || byM[1]).push(o);
+    const CATS = { "🎂 ميلاد": "birth", "🏆 بطولة / إنجاز": "title", "📜 ذكرى / حدث": "history" };
+    const CATS_R = Object.fromEntries(Object.entries(CATS).map(([a, b]) => [b, a]));
+    const draw = () => {
+      const m = +$("oM").value;
+      const arr = byM[m];
+      arr.forEach((o) => (o._cat = CATS_R[o.cat] || "📜 ذكرى / حدث"));
+      listEditor($("oList"), arr, [["d", "التاريخ (يوم/شهر)", "text", { ph: "16/10" }], ["_cat", "التصنيف", "select", { options: Object.keys(CATS) }], ["title", "المناسبة", "text", { full: true }]],
+        { addLabel: "+ مناسبة", newItem: () => ({ d: "/" + String(m).padStart(2, "0"), title: "", _cat: "📜 ذكرى / حدث" }), title: (o) => `${o.d || ""} — ${o.title || ""}` });
+    };
+    $("oM").value = String(+new Intl.DateTimeFormat("en-GB", { timeZone: "Asia/Riyadh", month: "2-digit" }).format(new Date()));
+    $("oM").onchange = draw; draw();
+    $("oSave").onclick = () => {
+      const bad = [];
+      const items = Object.values(byM).flat().filter((o) => o.title && o.title.trim()).map((o) => {
+        let [dd, mm] = String(o.d || "").split("/").map((x) => parseInt(x, 10));
+        if (!(dd >= 1 && dd <= 31 && mm >= 1 && mm <= 12)) bad.push(o.title);
+        const it = { d: `${String(dd).padStart(2, "0")}/${String(mm).padStart(2, "0")}`, title: o.title.trim(), cat: CATS[o._cat] || o.cat || "history" };
+        if (o.time) it.time = o.time;
+        return it;
+      }).sort((a, b) => a.d.slice(3) - b.d.slice(3) || a.d.slice(0, 2) - b.d.slice(0, 2));
+      if (bad.length) return toast("تاريخ غلط في: " + bad.slice(0, 2).join("، "), true);
+      commit([{ path: "data/occasions.json", json: { ...data, items } }], "تحديث مناسبات الهلال", $("oSave"));
+    };
+  }
+
   /* ---------- التبويبات والدخول ---------- */
-  const TABS = { design: tabDesign, news: tabNews, youth: tabYouth, ads: tabAds, league: tabLeague, push: tabPush };
+  const TABS = { design: tabDesign, news: tabNews, youth: tabYouth, ads: tabAds, league: tabLeague, push: tabPush, occ: tabOcc };
   const loaded = {};
   function show(t) {
     document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("on", b.dataset.t === t));

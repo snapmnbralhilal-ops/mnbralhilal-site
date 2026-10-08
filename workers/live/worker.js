@@ -546,7 +546,7 @@ async function isAdmin(req, env) {
   const h = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", te.encode(pw)))).map((b) => b.toString(16).padStart(2, "0")).join("");
   return h === env.ADMIN_HASH;
 }
-const ALLOWED = /^(data\/(designs|youth|ads|manual-news|league|squad|videos|social|founding)\.json|assets\/(designs|ads)\/[a-z0-9._-]+\.(jpg|jpeg|png|webp))$/;
+const ALLOWED = /^(data\/(designs|youth|ads|manual-news|league|squad|videos|social|founding|occasions)\.json|assets\/(designs|ads)\/[a-z0-9._-]+\.(jpg|jpeg|png|webp))$/;
 async function gh(env, path, init = {}) {
   const r = await fetch(`https://api.github.com/repos/${REPO}${path}`, { ...init, headers: {
     authorization: `Bearer ${env.GH_TOKEN}`, accept: "application/vnd.github+json", "user-agent": "mnbr-admin", "content-type": "application/json" } });
