@@ -1,6 +1,6 @@
 /* منبر الهلال — يخلي الموقع يشتغل كتطبيق ويفتح بسرعة حتى مع نت ضعيف */
-const CACHE = "mnbr-202610080809";
-const CORE = ["./", "./index.html", "./videos.html", "./founding.html", "./play.html", "./manifest.webmanifest",
+const CACHE = "mnbr-202610081000";
+const CORE = ["./", "./index.html", "./videos.html", "./founding.html", "./play.html", "./matchday.html", "./manifest.webmanifest",
   "./assets/logo.png", "./assets/icon-192.png",
   "./assets/fonts/ExpoArabic-Book.woff", "./assets/fonts/ExpoArabic-Bold.woff"];
 
@@ -29,4 +29,22 @@ self.addEventListener("fetch", (e) => {
       return res;
     }))));
   }
+});
+
+/* تنبيهات الجوال: هدف للهلال، قبل المباراة بساعة، نهاية المباراة */
+self.addEventListener("push", (e) => {
+  let d = {};
+  try { d = e.data ? e.data.json() : {}; } catch (err) { d = { body: e.data && e.data.text() }; }
+  e.waitUntil(self.registration.showNotification(d.title || "منبر الهلال 💙", {
+    body: d.body || "", icon: "assets/icon-192.png", badge: "assets/icon-192.png", dir: "rtl", lang: "ar",
+    tag: d.tag || undefined, data: { url: d.url || "./" }
+  }));
+});
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const url = new URL((e.notification.data && e.notification.data.url) || "./", self.registration.scope).href;
+  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+    for (const c of list) if (c.url.split("#")[0] === url.split("#")[0] && "focus" in c) { c.navigate(url).catch(() => {}); return c.focus(); }
+    return self.clients.openWindow(url);
+  }));
 });

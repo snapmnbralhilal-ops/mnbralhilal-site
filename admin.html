@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>لوحة تحكم منبر</title>
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
+<link rel="stylesheet" href="assets/style.css?v=202610081000">
+<link rel="stylesheet" href="assets/admin.css?v=202610081000">
+</head>
+<body data-page="admin">
+<script src="assets/layout.js?v=202610081000"></script>
+<main id="main" class="page">
+<div class="wrap narrow adm">
+  <h1 class="adm-h">⚙️ لوحة تحكم منبر</h1>
+
+  <form class="box adm-login" id="login">
+    <label for="pw">كلمة المرور</label>
+    <div class="adm-row"><input id="pw" type="password" autocomplete="current-password" required><button class="card-btn" type="submit">دخول</button></div>
+    <p class="adm-msg" id="loginMsg" hidden></p>
+  </form>
+
+  <div id="panel" hidden>
+    <p class="adm-warn" id="noGh" hidden>⚠️ اللوحة تقرأ بس — ما تقدر تحفظ للحين. لازم يتضاف مفتاح GitHub باسم <b>ADMIN_GH_TOKEN</b> في أسرار المستودع (الخطوات في README).</p>
+    <nav class="adm-tabs" id="tabs">
+      <button data-t="design" class="on">🎨 تصميم</button>
+      <button data-t="news">📰 عاجل</button>
+      <button data-t="youth">🌱 تحت 21</button>
+      <button data-t="ads">🤝 الرعاة</button>
+      <button data-t="league">🏆 الدوري</button>
+      <button data-t="push">🔔 تنبيه</button>
+    </nav>
+    <section class="box adm-sec" id="s-design"></section>
+    <section class="box adm-sec" id="s-news" hidden></section>
+    <section class="box adm-sec" id="s-youth" hidden></section>
+    <section class="box adm-sec" id="s-ads" hidden></section>
+    <section class="box adm-sec" id="s-league" hidden></section>
+    <section class="box adm-sec" id="s-push" hidden></section>
+    <button type="button" class="lb-btn adm-out" id="logout">تسجيل خروج</button>
+  </div>
+</div>
+<div class="adm-toast" id="toast" role="status" hidden></div>
+</main>
+<script src="assets/admin.js?v=202610081000"></script>
+</body>
+</html>

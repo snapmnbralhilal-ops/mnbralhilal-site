@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>مركز المباراة — منبر الهلال</title>
+<meta name="description" content="كل شي عن مباراة الهلال في مكان واحد: النتيجة المباشرة، الأهداف، بطاقات منبر، توقعات الجمهور وتشكيلته ورجل المباراة.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="مركز المباراة — منبر الهلال">
+<meta property="og:description" content="النتيجة المباشرة، بطاقات منبر، وتوقعات الجمهور — كلها في مكان واحد.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
+<link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=202610081000">
+<link rel="stylesheet" href="assets/play.css?v=202610081000">
+<link rel="stylesheet" href="assets/matchday.css?v=202610081000">
+</head>
+<body data-page="matchday">
+<script src="assets/layout.js?v=202610081000"></script>
+
+<main id="main" class="page page-matchday">
+<h1 class="sr-only">مركز المباراة</h1>
+
+<div class="wrap narrow md">
+  <section class="pl-hero md-hero" id="mdHero"><div class="empty">جاري التحميل…</div></section>
+
+  <div class="md-quick">
+    <a class="md-q" href="play.html#predict"><b>🎯</b><span>توقّع</span></a>
+    <a class="md-q" href="play.html#coach"><b>📋</b><span>تشكيلتك</span></a>
+    <a class="md-q" href="play.html#vote"><b>⭐</b><span>رجل المباراة</span></a>
+    <a class="md-q" href="play.html#league"><b>🏆</b><span>الدوري</span></a>
+  </div>
+
+  <button type="button" class="push-btn" data-push hidden>🔔 فعّل تنبيهات المباريات والأهداف</button>
+
+  <section class="box md-sec" id="mdEvents" hidden></section>
+  <section class="box md-sec" id="mdInfo" hidden></section>
+  <section class="box md-sec" id="mdDesigns" hidden></section>
+  <section class="box md-sec" id="mdCrowd" hidden></section>
+  <section class="box md-sec" id="mdLineup" hidden></section>
+  <section class="box md-sec" id="mdMotm" hidden></section>
+  <div class="ad-slot" data-slot="between" hidden></div>
+</div>
+
+<dialog id="mdLb" class="sheet md-lb" aria-label="التصميم">
+  <div class="sheet-in">
+    <div class="sheet-top"><b id="mdLbT"></b><button type="button" id="mdLbX" aria-label="إغلاق">✕</button></div>
+    <img id="mdLbImg" alt="">
+    <div class="md-lb-btns"><a class="card-btn" id="mdLbDl" download>⬇️ حمّل</a><button type="button" class="lb-btn" id="mdLbSh">📤 شارك</button></div>
+  </div>
+</dialog>
+</main>
+
+<script>LAYOUT.foot()</script>
+<script src="assets/matchday.js?v=202610081000"></script>
+<script src="assets/social.js?v=202610081000"></script>
+<script src="assets/push.js?v=202610081000"></script>
+</body>
+</html>

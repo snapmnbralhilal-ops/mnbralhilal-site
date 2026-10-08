@@ -1,0 +1,28 @@
+/* مركز المباراة */
+.md{display:grid;gap:14px;padding-block:18px 30px}
+.md-hero .pl-badge .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#fff;margin-inline-end:4px;animation:mdblink 1s infinite}
+@keyframes mdblink{50%{opacity:.3}}
+.md-quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.md-q{display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px 4px;border-radius:14px;background:var(--surface);border:1px solid var(--line);color:var(--ink);text-decoration:none;font:700 12.5px var(--display)}
+.md-q b{font-size:22px}
+.md-sec{padding:18px 16px}
+.md-sec .pl-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.md-n{font:400 12px var(--body,inherit);color:var(--muted)}
+.md-sec .pl-go{display:flex;text-decoration:none}
+.md-ev{list-style:none;margin:0;padding:0}
+.md-ev li{display:grid;grid-template-columns:44px 26px 1fr auto;align-items:center;gap:8px;padding:10px 4px;border-bottom:1px solid var(--line);font-size:14px}
+.md-ev li:last-child{border-bottom:0}
+.md-ev .m{font:700 13px var(--display);color:var(--muted);direction:ltr;text-align:center}
+.md-ev .n small{display:block;font-size:11.5px;color:var(--muted)}
+.md-ev .tm{font-size:12px;color:var(--muted)}
+.md-ev li.us .n{font-weight:700}
+.md-info{margin:0;display:grid;gap:2px}
+.md-info div{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.md-info div:last-child{border-bottom:0}
+.md-info dt{color:var(--muted);flex:none}
+.md-info dd{margin:0;font-weight:600;text-align:left}
+.md-dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+.md-dl .d-item{width:auto}
+.md-lb img{display:block;width:100%;max-height:65vh;object-fit:contain;background:#000}
+.md-lb-btns{display:flex;gap:10px;padding:12px 16px}
+.md-lb-btns>*{flex:1;justify-content:center;text-decoration:none}

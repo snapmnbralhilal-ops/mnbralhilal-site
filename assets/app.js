@@ -257,7 +257,7 @@
         <div class="mid">${mid}</div>
         <div class="t">${crest(m.away, "crest lg")}${esc(arTeam(m.away.name))}</div>
       </div>
-      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${live ? "" : `<div class="cal-row"><a class="cal-btn" href="play.html#predict">🎯 توقّع النتيجة</a><button type="button" class="cal-btn" id="calNext">📅 أضف للتقويم</button></div>`}${matchSponsorHtml()}`;
+      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${live ? `<div class="cal-row"><a class="cal-btn" href="matchday.html">⚡ تابع في مركز المباراة</a></div>` : `<div class="cal-row"><a class="cal-btn" href="matchday.html">⚡ مركز المباراة</a><a class="cal-btn" href="play.html#predict">🎯 توقّع النتيجة</a><button type="button" class="cal-btn" id="calNext">📅 أضف للتقويم</button></div>`}${matchSponsorHtml()}`;
     CAL_NEXT = live ? null : m;
     clearInterval(countTimer);
     if (live) return;
@@ -476,9 +476,16 @@
 
   async function load() {
     try {
-      const res = await fetch("data/site.json?t=" + Date.now(), { cache: "no-store" });
+      const [res, man] = await Promise.all([fetch("data/site.json?t=" + Date.now(), { cache: "no-store" }),
+        fetch("data/manual-news.json?t=" + Date.now(), { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null)]);
       if (!res.ok) throw new Error(res.status);
-      render(await res.json());
+      const data = await res.json();
+      // أخبار منبر من لوحة التحكم: تطلع أول، والعاجل منها يختفي بعد وقته
+      const now = Date.now();
+      const mine = (man?.items || []).filter((n) => n && n.title && (!n.until || new Date(n.until) > now))
+        .map((n) => ({ tag: n.tag || "منبر", title: n.title, body: n.body || "", link: n.link || "#", breaking: !!n.breaking }));
+      data.news = [...mine, ...(data.news || [])];
+      render(data);
     } catch (e) {
       render({});
       if ($("updated")) $("updated").textContent = "تعذّر تحميل البيانات";

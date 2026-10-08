@@ -447,3 +447,10 @@ footer .wrap{row-gap:14px}
 .play-promo small{font-size:12px;opacity:.8}
 .wrap.play-wrap{display:block;padding-top:16px}
 .next .cal-row{gap:8px;flex-wrap:wrap}
+
+/* زر التنبيهات (مشترك) */
+.push-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;font:700 14px var(--display);color:#fff;background:linear-gradient(90deg,#1C3BE8,#4A66FF);border:0;border-radius:14px;padding:12px;cursor:pointer}
+.push-btn.on{background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.push-tip{font-size:12.5px;color:var(--muted);text-align:center;margin:6px 0 0;line-height:1.7}
+
+.play-wrap .push-btn{margin-top:10px}

@@ -193,10 +193,18 @@ async function settle(env, k) {
 }
 
 /* يطابق اسم اللاعب الإنجليزي من API-Football مع قائمة الفريق (بالاسم الأخير) */
-const fold = (x) => String(x || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+const fold = (x) => String(x || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/-/g, " ").replace(/\s+/g, " ").trim();
 function matchPlayer(sq, name) {
   const nm = fold(name);
-  return nm ? sq.find((x) => x.en && nm.includes(fold(x.en).replace(/^al-/, "").split(" ").pop())) : null;
+  if (!nm) return null;
+  const w = nm.split(" ").filter((x) => x !== "al"), first = w[0].replace(/\.$/, "");
+    return sq.find((x) => {
+      if (!x.en) return false;
+      const t = fold(x.en).split(" ").filter((y) => y !== "al");
+      if (!w.includes(t[t.length - 1])) return false;
+      // لو فيه اسم أول (أو حرفه الأول) لازم يطابق — عشان سالم وناصر الدوسري
+      return t.length < 2 || w.length < 2 || (first.length === 1 ? t[0][0] === first : t[0] === first);
+    }) || null;
 }
 async function arName(env, name) {
   try { const p = matchPlayer((await site(env, "data/squad.json"))?.players || [], name); return (p && (p.short || p.name)) || name; } catch (e) { return name; }
@@ -309,7 +317,7 @@ export class Game {
       if (!FORMS[f] || xi.length !== 11 || new Set(xi).size !== 11 || !xi.every((x) => int(x, 1, 99))) return Response.json({ error: "values" }, { status: 400 });
       const L = (await this.s.get("lagg")) || { n: 0, forms: {}, pick: {} };
       const old = await this.s.get("l:" + d);
-      const apply = (lu, by) => { inc(L.forms, lu.form, by); lu.xi.forEach((id, i) => inc(L.pick, FORMS[lu.form][i] + ":" + id, by)); };
+      const apply = (lu, by) => { inc(L.forms, lu.form, by); lu.xi.forEach((id, i) => inc(L.pick, `${lu.form}|${i}|${id}`, by)); };
       if (old) { L.n--; apply(old, -1); }
       const lu = { form: f, xi, t: Date.now() };
       L.n++; apply(lu, 1);
@@ -319,18 +327,16 @@ export class Game {
     return Response.json({ error: "not-found" }, { status: 404 });
   }
 }
-/* التشكيلة الأكثر اختياراً: الخطة الأشهر، وفي كل مركز أكثر اللاعبين اختياراً فيه */
+/* التشكيلة الأكثر اختياراً: الخطة الأشهر، وكل مركز فيها ياخذ أكثر لاعب انحط فيه (بدون تكرار لاعب) */
 function crowdXI(L) {
   if (!L || !L.n) return { n: 0 };
   const [form, fn] = top(L.forms, 1)[0] || [];
-  if (!form) return { n: 0 };
-  const used = new Set(), xi = [];
-  for (const g of FORMS[form]) {
-    const cand = Object.entries(L.pick).filter(([k]) => k[0] === g).map(([k, n]) => [+k.slice(2), n]).sort((a, b) => b[1] - a[1]);
-    const pick = cand.find(([id]) => !used.has(id));
-    if (pick) { used.add(pick[0]); xi.push({ id: pick[0], g, pct: Math.round((pick[1] / L.n) * 100) }); } else xi.push({ id: 0, g, pct: 0 });
-  }
-  return { n: L.n, form, formPct: Math.round((fn / L.n) * 100), xi, forms: top(L.forms, 5).map(([f, n]) => [f, Math.round((n / L.n) * 100)]) };
+  if (!form || !FORMS[form]) return { n: 0 };
+  const cand = Object.entries(L.pick).filter(([k]) => k.startsWith(form + "|")).map(([k, n]) => { const [, i, id] = k.split("|"); return [+i, +id, n]; })
+    .sort((a, b) => b[2] - a[2]);
+  const xi = [...FORMS[form]].map((g) => ({ id: 0, g, pct: 0 })), used = new Set();
+  for (const [i, id, n] of cand) if (!xi[i].id && !used.has(id)) { xi[i] = { id, g: FORMS[form][i], pct: Math.round((n / fn) * 100) }; used.add(id); }
+  return { n: L.n, form, formN: fn, formPct: Math.round((fn / L.n) * 100), xi, forms: top(L.forms, 5).map(([f, n]) => [f, Math.round((n / L.n) * 100)]) };
 }
 
 /* ============ دوري التوقعات ============ */

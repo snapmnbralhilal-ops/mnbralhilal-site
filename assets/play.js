@@ -27,7 +27,8 @@
   /* ---------- التبويبات ---------- */
   function showTab(t) {
     document.querySelectorAll(".pl-tabs button").forEach((b) => b.setAttribute("aria-selected", b.dataset.t === t));
-    ["predict", "vote", "coach"].forEach((x) => ($("t-" + x).hidden = x !== t));
+    ["predict", "vote", "coach", "league"].forEach((x) => ($("t-" + x).hidden = x !== t));
+    if (t === "league") loadLeague();
     try { history.replaceState(null, "", "#" + t); } catch (e) {}
   }
   document.querySelectorAll(".pl-tabs button").forEach((b) => (b.onclick = () => showTab(b.dataset.t)));
@@ -223,6 +224,49 @@
           <span class="sl-dot">${p ? p.n : "+"}</span><span class="sl-n">${p ? esc(p.short) : POS_AR[g]}</span></button>`;
       }).join("");
     $("pitch").querySelectorAll(".slot").forEach((s) => (s.onclick = () => openPicker(+s.dataset.i)));
+    renderCoachSend();
+  }
+
+  /* ---------- تشكيلة الجمهور ---------- */
+  const sameLineup = (a, b) => a && b && a.form === b.form && a.xi.join() === b.xi.join();
+  function renderCoachSend() {
+    const el = $("coSend"); if (!el) return;
+    const ph = GAME?.phase, full = coach.xi.filter(Boolean).length === 11;
+    const mine = GAME?.mine?.lineup;
+    if (!GAME || !GAME.kickoff) { el.innerHTML = ""; return; }
+    if (ph !== "predict") {
+      el.innerHTML = mine ? `<div class="vd mid">تشكيلتك محسوبة ضمن تشكيلة الجمهور ✅</div>` : "";
+      return;
+    }
+    const synced = mine && sameLineup(mine, { form: coach.form, xi: coach.xi.slice(0, 11) });
+    el.innerHTML = synced
+      ? `<div class="vd ok">✅ تشكيلتك داخلة في تشكيلة الجمهور — تقدر تعدّلها لين بداية المباراة</div>`
+      : `<button type="button" class="card-btn pl-go" id="coPost" ${full ? "" : "disabled"}>${mine ? "🔄 حدّث تشكيلتي في تشكيلة الجمهور" : "🗳️ اعتمد تشكيلتي للمباراة"}</button>
+         <p class="pl-muted center" style="margin-top:8px">${full ? "تشكيلتك تدخل مع تشكيلات الجمهور، ونطلع منها التشكيلة الأكثر اختياراً" : "كمّل 11 لاعب عشان تقدر تعتمدها"}</p><p class="pl-err" id="coErr" hidden></p>`;
+    if ($("coPost")) $("coPost").onclick = async () => {
+      const b = $("coPost"); b.disabled = true; b.textContent = "جاري الإرسال…";
+      try {
+        const r = await fetch(API + "/game/lineup", { method: "POST", headers: { "content-type": "text/plain" }, body: JSON.stringify({ d: DID, k: GAME.kickoff, form: coach.form, xi: coach.xi.slice(0, 11) }) });
+        const jj = await r.json();
+        if (!r.ok) throw new Error(jj.error === "closed" ? "المباراة بدأت — انقفل الاعتماد" : jj.error === "limit" ? "وصلت الحد المسموح من هالشبكة" : "صار خطأ، جرّب مرة ثانية");
+        await refresh();
+      } catch (e) { b.disabled = false; b.textContent = "🗳️ اعتمد تشكيلتي للمباراة"; const er = $("coErr"); er.hidden = false; er.textContent = e.message || "تعذّر الاتصال"; }
+    };
+  }
+  function renderCrowd() {
+    const el = $("coCrowd"); if (!el) return;
+    const cr = GAME?.crowd;
+    if (!cr || !cr.n || !FORMS[cr.form]) {
+      el.innerHTML = GAME?.kickoff ? `<div class="st-h">تشكيلة الجمهور</div><p class="pl-muted center">ما أحد اعتمد تشكيلته للحين — كن الأول 👆</p>` : "";
+      return;
+    }
+    el.innerHTML = `<div class="st-h">تشكيلة الجمهور <small>${cr.n.toLocaleString("en")} مدرب</small></div>
+      <div class="cr-forms">${(cr.forms || []).map(([f, pc]) => `<span class="${f === cr.form ? "on" : ""}"><bdi dir="ltr">${f}</bdi> ${pc}%</span>`).join("")}</div>
+      <div class="pitch pitch-sm" aria-label="تشكيلة الجمهور"><div class="pitch-lines" aria-hidden="true"><i class="pc-c"></i><i class="pc-l"></i><i class="pc-b1"></i><i class="pc-b2"></i></div>
+      ${FORMS[cr.form].map(([g, x, y], i) => { const it = cr.xi[i] || {}; const p = BYID[it.id];
+        return `<div class="slot full" style="left:${x}%;top:${y}%"><span class="sl-dot">${p ? p.n : "?"}</span><span class="sl-n">${p ? esc(p.short) : "—"}</span><span class="sl-pc">${it.pct || 0}%</span></div>`; }).join("")}
+      </div>
+      <p class="pl-muted center" style="margin-top:8px">الخطة الأكثر اختياراً <bdi dir="ltr">${cr.form}</bdi> (${cr.formPct}%)، والنسبة تحت كل لاعب = كم مدرب (من اللي اختاروا نفس الخطة) حطّه في هالمركز</p>`;
   }
   function openPicker(i) {
     pickSlot = i;
@@ -258,6 +302,49 @@
     if (coach.xi.filter(Boolean).length < 11) { alert("كمّل التشكيلة (11 لاعب) قبل المشاركة"); return; }
     shareImage(lineupCard(), "tashkeelati-mnbr.png", "تشكيلتي للهلال — كن أنت المدرب مع منبر 📋");
   };
+
+  /* ---------- دوري التوقعات ---------- */
+  let LEAGUE_CFG = null, lgBusy = false;
+  async function loadLeague() {
+    if (lgBusy) return; lgBusy = true;
+    try {
+      const [b, cfg] = await Promise.all([API ? j(API + "/league?d=" + DID) : null, LEAGUE_CFG ? LEAGUE_CFG : j("data/league.json")]);
+      LEAGUE_CFG = cfg || {};
+      renderLeague(b);
+    } finally { lgBusy = false; }
+  }
+  function renderLeague(b) {
+    const cfg = LEAGUE_CFG || {};
+    if (!b) { $("lgBody").innerHTML = `<p class="pl-muted center">تعذّر تحميل الدوري — جرّب بعد شوي</p>`; return; }
+    const me = b.me;
+    const prize = cfg.prize ? `<div class="lg-prize">${cfg.prizeLogo ? `<img src="${esc(cfg.prizeLogo)}" alt="" loading="lazy">` : "🎁"}<div><b>جائزة الدوري</b><span>${esc(cfg.prize)}</span>${cfg.sponsor ? `<small>برعاية ${esc(cfg.sponsor)}</small>` : ""}</div></div>` : "";
+    const myCard = me?.nick
+      ? `<div class="lg-me"><div><small>لقبك</small><b>${esc(me.nick)}</b></div><div><small>الترتيب</small><b>${me.rank ? "#" + me.rank : "—"}</b></div><div><small>النقاط</small><b>${me.pts}</b></div><div><small>مباريات</small><b>${me.played}</b></div></div>
+         ${me.last ? `<p class="pl-muted center">آخر مباراة: <b>+${me.last.pts}</b> ${me.last.pts === 1 ? "نقطة" : "نقاط"}</p>` : `<p class="pl-muted center">نقاطك تنحسب بعد أول مباراة تتوقّعها</p>`}
+         <button type="button" class="lb-btn lg-edit" id="lgEdit">غيّر لقبك</button>`
+      : "";
+    const form = `<form class="lg-form" id="lgForm" ${me?.nick ? "hidden" : ""}>
+        <label for="lgNick">${me?.nick ? "لقبك الجديد" : "اختر لقبك عشان يطلع اسمك في الترتيب"}</label>
+        <div class="lg-row"><input id="lgNick" maxlength="18" autocomplete="nickname" placeholder="مثال: الزعيم 9" value="${esc(me?.nick || "")}"><button class="card-btn" type="submit">حفظ</button></div>
+        <p class="pl-err" id="lgErr" hidden></p></form>`;
+    const rows = (b.top || []).map((u, i) => `<tr class="${me?.nick && u.nick === me.nick ? "me" : ""}"><td>${i < 3 ? ["🥇", "🥈", "🥉"][i] : i + 1}</td><td>${esc(u.nick)}</td><td>${u.played}</td><td>${u.exact}</td><td><b>${u.pts}</b></td></tr>`).join("");
+    $("lgBody").innerHTML = `<h2 class="pl-h">🏆 دوري توقعات منبر</h2>${prize}${myCard}${form}
+      <div class="lg-rules"><span><b>3</b> نتيجة بالضبط</span><span><b>1</b> الفائز صح</span><span><b>+1</b> أول هدّاف</span></div>
+      <div class="st-h">الترتيب <small>${(b.players || 0).toLocaleString("en")} متسابق · ${b.matches || 0} ${b.matches === 1 ? "مباراة" : "مباريات"}</small></div>
+      ${rows ? `<div class="tbl-wrap"><table class="lg-tbl"><thead><tr><th>#</th><th>اللقب</th><th>لعب</th><th>🎯</th><th>نقاط</th></tr></thead><tbody>${rows}</tbody></table></div>`
+        : `<p class="pl-muted center">الترتيب يطلع بعد أول مباراة تنحسب نقاطها — توقّع الحين وحط لقبك 👆</p>`}`;
+    if ($("lgEdit")) $("lgEdit").onclick = () => { $("lgForm").hidden = false; $("lgEdit").hidden = true; $("lgNick").focus(); };
+    $("lgForm").onsubmit = async (e) => {
+      e.preventDefault();
+      const nick = $("lgNick").value.trim(), er = $("lgErr"); er.hidden = true;
+      try {
+        const r = await fetch(API + "/league/nick", { method: "POST", headers: { "content-type": "text/plain" }, body: JSON.stringify({ d: DID, nick }) });
+        const jj = await r.json();
+        if (!r.ok) throw new Error(jj.error === "nick-taken" ? "هاللقب مأخوذ، اختر غيره" : jj.error === "nick-invalid" ? "اللقب لازم يكون من 2 إلى 18 حرف أو رقم، وبدون كلمات مسيئة" : "صار خطأ، جرّب مرة ثانية");
+        loadLeague();
+      } catch (e2) { er.hidden = false; er.textContent = e2.message || "تعذّر الاتصال"; }
+    };
+  }
 
   /* ---------- صور المشاركة (بهوية منبر) ---------- */
   const W = 1080, H = 1350;
@@ -354,7 +441,8 @@
   async function refresh() {
     if (API) GAME = await j(API + "/game?d=" + DID);
     if (GAME && GAME.kickoff && MATCH && Math.abs(new Date(MATCH.date) - GAME.kickoff) > 6 * 3600e3) MATCH = await findMatch(GAME.kickoff);
-    renderMatch(); renderPredict(); renderVote();
+    renderMatch(); renderPredict(); renderVote(); renderCoachSend(); renderCrowd();
+    if (!$("t-league").hidden) loadLeague();
   }
   async function findMatch(k) {
     const [des, site] = await Promise.all([j("data/designs.json"), j("data/site.json")]);
@@ -372,9 +460,9 @@
     API = live?.url ? live.url.replace(/\/live$/, "") : null;
     if (API) GAME = await j(API + "/game?d=" + DID);
     MATCH = await findMatch(GAME?.kickoff);
-    renderMatch(); renderPredict(); renderVote(); renderCoach();
+    renderMatch(); renderPredict(); renderVote(); renderCoach(); renderCrowd();
     if (GAME && GAME.phase === "vote" && !location.hash) showTab("vote");
-    const h = location.hash.slice(1); if (["predict", "vote", "coach"].includes(h)) showTab(h);
+    const h = location.hash.slice(1); if (["predict", "vote", "coach", "league"].includes(h)) showTab(h);
     setInterval(() => { if (!document.hidden) refresh(); }, 60e3);
   })();
 })();
