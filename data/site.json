@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T08:14:54.281Z",
+ "updated": "2026-10-08T08:21:20.918Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -214,7 +214,7 @@
     "away": {
      "id": 2870,
      "name": "Shabab Al Ahli Dubai",
-     "ar": "Shabab Al Ahli Dubai",
+     "ar": "شباب الأهلي",
      "logo": "https://media.api-sports.io/football/teams/2870.png"
     },
     "goals": null
@@ -537,7 +537,7 @@
     "away": {
      "id": 2896,
      "name": "Al Ahli Doha",
-     "ar": "Al Ahli Doha",
+     "ar": "الأهلي القطري",
      "logo": "https://media.api-sports.io/football/teams/2896.png"
     },
     "goals": [
@@ -567,7 +567,7 @@
     "away": {
      "id": 906,
      "name": "MC Alger",
-     "ar": "MC Alger",
+     "ar": "مولودية الجزائر",
      "logo": "https://media.api-sports.io/football/teams/906.png"
     },
     "goals": [
@@ -597,7 +597,7 @@
     "away": {
      "id": 2699,
      "name": "Mamelodi Sundowns",
-     "ar": "Mamelodi Sundowns",
+     "ar": "صن داونز",
      "logo": "https://media.api-sports.io/football/teams/2699.png"
     },
     "goals": [
@@ -1575,7 +1575,7 @@
      "team": {
       "id": 64,
       "name": "Hull City",
-      "ar": "Hull City",
+      "ar": "هال سيتي",
       "logo": "https://media.api-sports.io/football/teams/64.png"
      },
      "points": 8,
@@ -1735,7 +1735,7 @@
      "team": {
       "id": 1346,
       "name": "Coventry",
-      "ar": "Coventry",
+      "ar": "كوفنتري",
       "logo": "https://media.api-sports.io/football/teams/1346.png"
      },
      "points": 3,
@@ -1779,9 +1779,1245 @@
      "description": "Relegation - Championship"
     }
    ]
+  },
+  "laliga": {
+   "season": 2026,
+   "rows": [
+    {
+     "rank": 1,
+     "team": {
+      "id": 529,
+      "name": "Barcelona",
+      "ar": "برشلونة",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+     },
+     "points": 21,
+     "gd": 24,
+     "played": 7,
+     "win": 7,
+     "draw": 0,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "ar": "أتلتيكو مدريد",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+     },
+     "points": 16,
+     "gd": 9,
+     "played": 7,
+     "win": 5,
+     "draw": 1,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
+      "id": 543,
+      "name": "Real Betis",
+      "ar": "ريال بيتيس",
+      "logo": "https://media.api-sports.io/football/teams/543.png"
+     },
+     "points": 16,
+     "gd": 2,
+     "played": 7,
+     "win": 5,
+     "draw": 1,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 4,
+     "team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "ar": "ريال مدريد",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+     },
+     "points": 15,
+     "gd": 10,
+     "played": 7,
+     "win": 5,
+     "draw": 0,
+     "lose": 2,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
+      "id": 536,
+      "name": "Sevilla",
+      "ar": "إشبيلية",
+      "logo": "https://media.api-sports.io/football/teams/536.png"
+     },
+     "points": 13,
+     "gd": 1,
+     "played": 7,
+     "win": 4,
+     "draw": 1,
+     "lose": 2,
+     "description": "Europa League league stage"
+    },
+    {
+     "rank": 6,
+     "team": {
+      "id": 542,
+      "name": "Alaves",
+      "ar": "ألافيس",
+      "logo": "https://media.api-sports.io/football/teams/542.png"
+     },
+     "points": 11,
+     "gd": 5,
+     "played": 7,
+     "win": 3,
+     "draw": 2,
+     "lose": 2,
+     "description": "ECL Playoffs"
+    },
+    {
+     "rank": 7,
+     "team": {
+      "id": 544,
+      "name": "Deportivo La Coruna",
+      "ar": "Deportivo La Coruna",
+      "logo": "https://media.api-sports.io/football/teams/544.png"
+     },
+     "points": 10,
+     "gd": 2,
+     "played": 7,
+     "win": 2,
+     "draw": 4,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
+      "id": 548,
+      "name": "Real Sociedad",
+      "ar": "ريال سوسيداد",
+      "logo": "https://media.api-sports.io/football/teams/548.png"
+     },
+     "points": 10,
+     "gd": -4,
+     "played": 7,
+     "win": 3,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
+      "id": 533,
+      "name": "Villarreal",
+      "ar": "فياريال",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+     },
+     "points": 8,
+     "gd": 1,
+     "played": 7,
+     "win": 2,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "ar": "Athletic Club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+     },
+     "points": 8,
+     "gd": 1,
+     "played": 6,
+     "win": 2,
+     "draw": 2,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
+      "id": 546,
+      "name": "Getafe",
+      "ar": "خيتافي",
+      "logo": "https://media.api-sports.io/football/teams/546.png"
+     },
+     "points": 8,
+     "gd": -3,
+     "played": 7,
+     "win": 2,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
+      "id": 728,
+      "name": "Rayo Vallecano",
+      "ar": "Rayo Vallecano",
+      "logo": "https://media.api-sports.io/football/teams/728.png"
+     },
+     "points": 8,
+     "gd": -5,
+     "played": 7,
+     "win": 2,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
+      "id": 727,
+      "name": "Osasuna",
+      "ar": "أوساسونا",
+      "logo": "https://media.api-sports.io/football/teams/727.png"
+     },
+     "points": 8,
+     "gd": -7,
+     "played": 7,
+     "win": 2,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
+      "id": 538,
+      "name": "Celta Vigo",
+      "ar": "سيلتا فيغو",
+      "logo": "https://media.api-sports.io/football/teams/538.png"
+     },
+     "points": 7,
+     "gd": 2,
+     "played": 7,
+     "win": 1,
+     "draw": 4,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 15,
+     "team": {
+      "id": 540,
+      "name": "Espanyol",
+      "ar": "Espanyol",
+      "logo": "https://media.api-sports.io/football/teams/540.png"
+     },
+     "points": 7,
+     "gd": 0,
+     "played": 7,
+     "win": 2,
+     "draw": 1,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 16,
+     "team": {
+      "id": 4665,
+      "name": "Racing Santander",
+      "ar": "Racing Santander",
+      "logo": "https://media.api-sports.io/football/teams/4665.png"
+     },
+     "points": 7,
+     "gd": -10,
+     "played": 7,
+     "win": 2,
+     "draw": 1,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 17,
+     "team": {
+      "id": 539,
+      "name": "Levante",
+      "ar": "Levante",
+      "logo": "https://media.api-sports.io/football/teams/539.png"
+     },
+     "points": 5,
+     "gd": -4,
+     "played": 6,
+     "win": 1,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 18,
+     "team": {
+      "id": 797,
+      "name": "Elche",
+      "ar": "Elche",
+      "logo": "https://media.api-sports.io/football/teams/797.png"
+     },
+     "points": 5,
+     "gd": -6,
+     "played": 7,
+     "win": 1,
+     "draw": 2,
+     "lose": 4,
+     "description": "Relegation"
+    },
+    {
+     "rank": 19,
+     "team": {
+      "id": 532,
+      "name": "Valencia",
+      "ar": "فالنسيا",
+      "logo": "https://media.api-sports.io/football/teams/532.png"
+     },
+     "points": 4,
+     "gd": -9,
+     "played": 7,
+     "win": 1,
+     "draw": 1,
+     "lose": 5,
+     "description": "Relegation"
+    },
+    {
+     "rank": 20,
+     "team": {
+      "id": 535,
+      "name": "Malaga",
+      "ar": "Malaga",
+      "logo": "https://media.api-sports.io/football/teams/535.png"
+     },
+     "points": 3,
+     "gd": -9,
+     "played": 7,
+     "win": 0,
+     "draw": 3,
+     "lose": 4,
+     "description": "Relegation"
+    }
+   ]
+  },
+  "seriea": {
+   "season": 2026,
+   "rows": [
+    {
+     "rank": 1,
+     "team": {
+      "id": 497,
+      "name": "AS Roma",
+      "ar": "روما",
+      "logo": "https://media.api-sports.io/football/teams/497.png"
+     },
+     "points": 13,
+     "gd": 11,
+     "played": 5,
+     "win": 4,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
+      "id": 505,
+      "name": "Inter",
+      "ar": "إنتر ميلان",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+     },
+     "points": 13,
+     "gd": 7,
+     "played": 5,
+     "win": 4,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
+      "id": 487,
+      "name": "Lazio",
+      "ar": "لاتسيو",
+      "logo": "https://media.api-sports.io/football/teams/487.png"
+     },
+     "points": 13,
+     "gd": 5,
+     "played": 5,
+     "win": 4,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 4,
+     "team": {
+      "id": 490,
+      "name": "Cagliari",
+      "ar": "Cagliari",
+      "logo": "https://media.api-sports.io/football/teams/490.png"
+     },
+     "points": 12,
+     "gd": 3,
+     "played": 5,
+     "win": 4,
+     "draw": 0,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
+      "id": 489,
+      "name": "AC Milan",
+      "ar": "ميلان",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+     },
+     "points": 11,
+     "gd": 6,
+     "played": 5,
+     "win": 3,
+     "draw": 2,
+     "lose": 0,
+     "description": "Europa League league stage"
+    },
+    {
+     "rank": 6,
+     "team": {
+      "id": 512,
+      "name": "Frosinone",
+      "ar": "Frosinone",
+      "logo": "https://media.api-sports.io/football/teams/512.png"
+     },
+     "points": 10,
+     "gd": 5,
+     "played": 5,
+     "win": 3,
+     "draw": 1,
+     "lose": 1,
+     "description": "Play-offs"
+    },
+    {
+     "rank": 7,
+     "team": {
+      "id": 496,
+      "name": "Juventus",
+      "ar": "يوفنتوس",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+     },
+     "points": 10,
+     "gd": 4,
+     "played": 5,
+     "win": 3,
+     "draw": 1,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
+      "id": 895,
+      "name": "Como",
+      "ar": "Como",
+      "logo": "https://media.api-sports.io/football/teams/895.png"
+     },
+     "points": 10,
+     "gd": 3,
+     "played": 5,
+     "win": 3,
+     "draw": 1,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
+      "id": 492,
+      "name": "Napoli",
+      "ar": "نابولي",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+     },
+     "points": 7,
+     "gd": 1,
+     "played": 5,
+     "win": 2,
+     "draw": 1,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
+      "id": 488,
+      "name": "Sassuolo",
+      "ar": "Sassuolo",
+      "logo": "https://media.api-sports.io/football/teams/488.png"
+     },
+     "points": 7,
+     "gd": 0,
+     "played": 5,
+     "win": 2,
+     "draw": 1,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
+      "id": 499,
+      "name": "Atalanta",
+      "ar": "أتالانتا",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+     },
+     "points": 6,
+     "gd": -2,
+     "played": 5,
+     "win": 2,
+     "draw": 0,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
+      "id": 867,
+      "name": "Lecce",
+      "ar": "Lecce",
+      "logo": "https://media.api-sports.io/football/teams/867.png"
+     },
+     "points": 6,
+     "gd": -5,
+     "played": 5,
+     "win": 2,
+     "draw": 0,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
+      "id": 494,
+      "name": "Udinese",
+      "ar": "Udinese",
+      "logo": "https://media.api-sports.io/football/teams/494.png"
+     },
+     "points": 4,
+     "gd": -3,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
+      "id": 503,
+      "name": "Torino",
+      "ar": "Torino",
+      "logo": "https://media.api-sports.io/football/teams/503.png"
+     },
+     "points": 4,
+     "gd": -3,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 15,
+     "team": {
+      "id": 523,
+      "name": "Parma",
+      "ar": "Parma",
+      "logo": "https://media.api-sports.io/football/teams/523.png"
+     },
+     "points": 4,
+     "gd": -3,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 16,
+     "team": {
+      "id": 1579,
+      "name": "Monza",
+      "ar": "Monza",
+      "logo": "https://media.api-sports.io/football/teams/1579.png"
+     },
+     "points": 4,
+     "gd": -4,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 17,
+     "team": {
+      "id": 502,
+      "name": "Fiorentina",
+      "ar": "فيورنتينا",
+      "logo": "https://media.api-sports.io/football/teams/502.png"
+     },
+     "points": 4,
+     "gd": -6,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 18,
+     "team": {
+      "id": 500,
+      "name": "Bologna",
+      "ar": "بولونيا",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+     },
+     "points": 2,
+     "gd": -3,
+     "played": 5,
+     "win": 0,
+     "draw": 2,
+     "lose": 3,
+     "description": "Relegation"
+    },
+    {
+     "rank": 19,
+     "team": {
+      "id": 495,
+      "name": "Genoa",
+      "ar": "Genoa",
+      "logo": "https://media.api-sports.io/football/teams/495.png"
+     },
+     "points": 1,
+     "gd": -7,
+     "played": 5,
+     "win": 0,
+     "draw": 1,
+     "lose": 4,
+     "description": "Relegation"
+    },
+    {
+     "rank": 20,
+     "team": {
+      "id": 517,
+      "name": "Venezia",
+      "ar": "Venezia",
+      "logo": "https://media.api-sports.io/football/teams/517.png"
+     },
+     "points": 0,
+     "gd": -9,
+     "played": 5,
+     "win": 0,
+     "draw": 0,
+     "lose": 5,
+     "description": "Relegation"
+    }
+   ]
+  },
+  "bundesliga": {
+   "season": 2026,
+   "rows": [
+    {
+     "rank": 1,
+     "team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "ar": "بوروسيا دورتموند",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+     },
+     "points": 12,
+     "gd": 7,
+     "played": 4,
+     "win": 4,
+     "draw": 0,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
+      "id": 157,
+      "name": "Bayern München",
+      "ar": "بايرن ميونخ",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+     },
+     "points": 10,
+     "gd": 12,
+     "played": 4,
+     "win": 3,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
+      "id": 160,
+      "name": "SC Freiburg",
+      "ar": "SC Freiburg",
+      "logo": "https://media.api-sports.io/football/teams/160.png"
+     },
+     "points": 10,
+     "gd": 9,
+     "played": 4,
+     "win": 3,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 4,
+     "team": {
+      "id": 170,
+      "name": "FC Augsburg",
+      "ar": "FC Augsburg",
+      "logo": "https://media.api-sports.io/football/teams/170.png"
+     },
+     "points": 7,
+     "gd": 5,
+     "played": 4,
+     "win": 2,
+     "draw": 1,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "ar": "باير ليفركوزن",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+     },
+     "points": 7,
+     "gd": 5,
+     "played": 4,
+     "win": 2,
+     "draw": 1,
+     "lose": 1,
+     "description": "Europa League league stage"
+    },
+    {
+     "rank": 6,
+     "team": {
+      "id": 164,
+      "name": "FSV Mainz 05",
+      "ar": "FSV Mainz 05",
+      "logo": "https://media.api-sports.io/football/teams/164.png"
+     },
+     "points": 7,
+     "gd": 4,
+     "played": 4,
+     "win": 2,
+     "draw": 1,
+     "lose": 1,
+     "description": "Qualifying"
+    },
+    {
+     "rank": 7,
+     "team": {
+      "id": 1660,
+      "name": "SV Elversberg",
+      "ar": "SV Elversberg",
+      "logo": "https://media.api-sports.io/football/teams/1660.png"
+     },
+     "points": 7,
+     "gd": 1,
+     "played": 4,
+     "win": 2,
+     "draw": 1,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
+      "id": 162,
+      "name": "Werder Bremen",
+      "ar": "Werder Bremen",
+      "logo": "https://media.api-sports.io/football/teams/162.png"
+     },
+     "points": 7,
+     "gd": 0,
+     "played": 4,
+     "win": 2,
+     "draw": 1,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "ar": "لايبزيغ",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+     },
+     "points": 6,
+     "gd": 4,
+     "played": 4,
+     "win": 2,
+     "draw": 0,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "ar": "آينتراخت فرانكفورت",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+     },
+     "points": 5,
+     "gd": -1,
+     "played": 4,
+     "win": 1,
+     "draw": 2,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
+      "id": 174,
+      "name": "FC Schalke 04",
+      "ar": "FC Schalke 04",
+      "logo": "https://media.api-sports.io/football/teams/174.png"
+     },
+     "points": 5,
+     "gd": -1,
+     "played": 4,
+     "win": 1,
+     "draw": 2,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
+      "id": 185,
+      "name": "SC Paderborn 07",
+      "ar": "SC Paderborn 07",
+      "logo": "https://media.api-sports.io/football/teams/185.png"
+     },
+     "points": 4,
+     "gd": -2,
+     "played": 4,
+     "win": 1,
+     "draw": 1,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
+      "id": 192,
+      "name": "1. FC Köln",
+      "ar": "1. FC Köln",
+      "logo": "https://media.api-sports.io/football/teams/192.png"
+     },
+     "points": 4,
+     "gd": -3,
+     "played": 4,
+     "win": 1,
+     "draw": 1,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
+      "id": 167,
+      "name": "1899 Hoffenheim",
+      "ar": "1899 Hoffenheim",
+      "logo": "https://media.api-sports.io/football/teams/167.png"
+     },
+     "points": 3,
+     "gd": -3,
+     "played": 4,
+     "win": 1,
+     "draw": 0,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 15,
+     "team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "ar": "VfB Stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+     },
+     "points": 3,
+     "gd": -3,
+     "played": 4,
+     "win": 1,
+     "draw": 0,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 16,
+     "team": {
+      "id": 175,
+      "name": "Hamburger SV",
+      "ar": "Hamburger SV",
+      "logo": "https://media.api-sports.io/football/teams/175.png"
+     },
+     "points": 3,
+     "gd": -11,
+     "played": 4,
+     "win": 1,
+     "draw": 0,
+     "lose": 3,
+     "description": "Relegation Playoffs"
+    },
+    {
+     "rank": 17,
+     "team": {
+      "id": 182,
+      "name": "Union Berlin",
+      "ar": "Union Berlin",
+      "logo": "https://media.api-sports.io/football/teams/182.png"
+     },
+     "points": 1,
+     "gd": -13,
+     "played": 4,
+     "win": 0,
+     "draw": 1,
+     "lose": 3,
+     "description": "Relegation"
+    },
+    {
+     "rank": 18,
+     "team": {
+      "id": 163,
+      "name": "Borussia Mönchengladbach",
+      "ar": "Borussia Mönchengladbach",
+      "logo": "https://media.api-sports.io/football/teams/163.png"
+     },
+     "points": 0,
+     "gd": -10,
+     "played": 4,
+     "win": 0,
+     "draw": 0,
+     "lose": 4,
+     "description": "Relegation"
+    }
+   ]
+  },
+  "ligue1": {
+   "season": 2026,
+   "rows": [
+    {
+     "rank": 1,
+     "team": {
+      "id": 91,
+      "name": "Monaco",
+      "ar": "موناكو",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+     },
+     "points": 13,
+     "gd": 5,
+     "played": 5,
+     "win": 4,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
+      "id": 80,
+      "name": "Lyon",
+      "ar": "ليون",
+      "logo": "https://media.api-sports.io/football/teams/80.png"
+     },
+     "points": 11,
+     "gd": 8,
+     "played": 5,
+     "win": 3,
+     "draw": 2,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
+      "id": 114,
+      "name": "Paris FC",
+      "ar": "Paris FC",
+      "logo": "https://media.api-sports.io/football/teams/114.png"
+     },
+     "points": 11,
+     "gd": 5,
+     "played": 5,
+     "win": 3,
+     "draw": 2,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 4,
+     "team": {
+      "id": 79,
+      "name": "Lille",
+      "ar": "ليل",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+     },
+     "points": 10,
+     "gd": 4,
+     "played": 5,
+     "win": 3,
+     "draw": 1,
+     "lose": 1,
+     "description": " Qualifying"
+    },
+    {
+     "rank": 5,
+     "team": {
+      "id": 94,
+      "name": "Rennes",
+      "ar": "Rennes",
+      "logo": "https://media.api-sports.io/football/teams/94.png"
+     },
+     "points": 10,
+     "gd": -1,
+     "played": 5,
+     "win": 3,
+     "draw": 1,
+     "lose": 1,
+     "description": "Europa League league stage"
+    },
+    {
+     "rank": 6,
+     "team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "ar": "باريس سان جيرمان",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+     },
+     "points": 8,
+     "gd": 1,
+     "played": 5,
+     "win": 2,
+     "draw": 2,
+     "lose": 1,
+     "description": "Play-offs"
+    },
+    {
+     "rank": 7,
+     "team": {
+      "id": 77,
+      "name": "Angers",
+      "ar": "Angers",
+      "logo": "https://media.api-sports.io/football/teams/77.png"
+     },
+     "points": 7,
+     "gd": 1,
+     "played": 5,
+     "win": 2,
+     "draw": 1,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
+      "id": 95,
+      "name": "Strasbourg",
+      "ar": "Strasbourg",
+      "logo": "https://media.api-sports.io/football/teams/95.png"
+     },
+     "points": 7,
+     "gd": 0,
+     "played": 5,
+     "win": 2,
+     "draw": 1,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
+      "id": 1298,
+      "name": "Le Mans",
+      "ar": "Le Mans",
+      "logo": "https://media.api-sports.io/football/teams/1298.png"
+     },
+     "points": 6,
+     "gd": 0,
+     "played": 5,
+     "win": 1,
+     "draw": 3,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
+      "id": 108,
+      "name": "Auxerre",
+      "ar": "Auxerre",
+      "logo": "https://media.api-sports.io/football/teams/108.png"
+     },
+     "points": 6,
+     "gd": -5,
+     "played": 5,
+     "win": 2,
+     "draw": 0,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "ar": "Stade Brestois 29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+     },
+     "points": 5,
+     "gd": -1,
+     "played": 5,
+     "win": 1,
+     "draw": 2,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
+      "id": 97,
+      "name": "Lorient",
+      "ar": "Lorient",
+      "logo": "https://media.api-sports.io/football/teams/97.png"
+     },
+     "points": 5,
+     "gd": -1,
+     "played": 5,
+     "win": 1,
+     "draw": 2,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
+      "id": 96,
+      "name": "Toulouse",
+      "ar": "Toulouse",
+      "logo": "https://media.api-sports.io/football/teams/96.png"
+     },
+     "points": 5,
+     "gd": -2,
+     "played": 5,
+     "win": 1,
+     "draw": 2,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
+      "id": 84,
+      "name": "Nice",
+      "ar": "Nice",
+      "logo": "https://media.api-sports.io/football/teams/84.png"
+     },
+     "points": 5,
+     "gd": -3,
+     "played": 5,
+     "win": 1,
+     "draw": 2,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 15,
+     "team": {
+      "id": 116,
+      "name": "Lens",
+      "ar": "Lens",
+      "logo": "https://media.api-sports.io/football/teams/116.png"
+     },
+     "points": 4,
+     "gd": 0,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 16,
+     "team": {
+      "id": 110,
+      "name": "Estac Troyes",
+      "ar": "Estac Troyes",
+      "logo": "https://media.api-sports.io/football/teams/110.png"
+     },
+     "points": 4,
+     "gd": -7,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": "Relegation Playoffs"
+    },
+    {
+     "rank": 17,
+     "team": {
+      "id": 81,
+      "name": "Marseille",
+      "ar": "مارسيليا",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+     },
+     "points": 3,
+     "gd": -1,
+     "played": 5,
+     "win": 1,
+     "draw": 0,
+     "lose": 4,
+     "description": "Relegation"
+    },
+    {
+     "rank": 18,
+     "team": {
+      "id": 111,
+      "name": "Le Havre",
+      "ar": "Le Havre",
+      "logo": "https://media.api-sports.io/football/teams/111.png"
+     },
+     "points": 2,
+     "gd": -3,
+     "played": 5,
+     "win": 0,
+     "draw": 2,
+     "lose": 3,
+     "description": "Relegation"
+    }
+   ]
   }
  },
  "errors": [],
- "requests": 9,
+ "requests": 13,
  "plan": "Pro"
 }
