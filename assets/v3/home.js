@@ -21,11 +21,11 @@
   };
 
   /* ========== 1) الهيرو ========== */
-  let cdTimer = null, LIVE_URL = null, liveTimer = null, NEXT = null, LIVE_M = null;
+  let cdTimer = null, LIVE_URL = null, liveTimer = null, NEXT = null, LIVE_M = null, MATCH_DESIGN = null;
   function renderHero() {
     const el = $("mnHero"); if (!el) return;
     const m = LIVE_M || NEXT;
-    if (!m) { el.innerHTML = `<p style="text-align:center;color:var(--mn-muted);padding:40px 0">ما فيه مباراة قادمة للهلال حالياً</p>`; return; }
+    if (!m) { el.classList.add("no-bg"); el.innerHTML = `<p style="text-align:center;color:var(--mn-muted);padding:40px 0">ما فيه مباراة قادمة للهلال حالياً</p>`; return; }
     const live = LIVE.includes(m.status), done = DONE.includes(m.status), d = new Date(m.date);
     const comp = ar.arLeague(m.league);
     const topRight = live
@@ -36,8 +36,11 @@
       ? `<b class="mn-score"><bdi dir="ltr">${m.goals[1]}:${m.goals[0]}</bdi></b><small>${done ? "النهائي" : "جارية"}</small>`
       : `<b class="mn-time">${fTime.format(d).replace(":", "<em>:</em>")}</b><small>بتوقيت مكة</small>`;
     const venue = m.venue ? (CITY[m.venue] || (/[؀-ۿ]/.test(m.venue) ? m.venue : "")) : "";
+    const bgSrc = MATCH_DESIGN?.image || MATCH_DESIGN?.thumb;
+    if (bgSrc) el.classList.remove("no-bg"); else el.classList.add("no-bg");
 
     el.innerHTML = `
+      ${bgSrc ? `<div class="mn-hero-bg" style="background-image:url('${esc(bgSrc)}')"></div>` : ""}
       <div class="mn-hero-head">
         <span>${esc(comp)}${m.round ? " · " + esc(m.round) : ""}</span>
         ${topRight}
@@ -118,13 +121,25 @@
       ${form.length ? `<div class="mn-form"><span class="lbl">آخر النتائج</span><div class="mn-form-strip">${form.reverse().map(([c, t]) => `<span class="${c}">${t}</span>`).join("")}</div></div>` : ""}`;
   }
 
-  /* ========== 4) تصاميم — سكرول أفقي ========== */
+  /* ========== 4) تصاميم — بلوك مميّز كبير + سكرول أفقي للباقي ========== */
   async function renderDesigns() {
     const d = await j("data/designs.json");
-    const el = $("mnDesigns"); if (!el) return;
-    const list = (d?.designs || []).slice(0, 8);
-    if (!list.length) { el.innerHTML = ""; return; }
-    el.innerHTML = list.map((x) => `<a href="designs.html" data-design="${esc(x.id)}"><img src="${esc(x.thumb || x.image)}" alt="" loading="lazy"><div class="mn-rail-meta"><em>${esc(x.type || "تصميم")}</em><b>${esc(x.title || "")}</b></div></a>`).join("");
+    const list = (d?.designs || []);
+    if (!list.length) return;
+    // أول تصميم (غير بطاقة المباراة لأن المباراة بالهيرو) يصير بلوك مميّز
+    const matchDesignId = MATCH_DESIGN?.id;
+    const feature = list.find((x) => x.id !== matchDesignId);
+    const rest = list.filter((x) => x !== feature && x.id !== matchDesignId).slice(0, 7);
+    const featEl = $("mnFeature");
+    if (feature && featEl) {
+      featEl.innerHTML = `<a class="mn-feature" href="designs.html"><img src="${esc(feature.image || feature.thumb)}" alt="${esc(feature.title || "")}" loading="lazy"><div class="mn-feature-cap"><em>${esc(feature.type || "تصميم")}</em><h3>${esc(feature.title || "")}</h3></div></a>`;
+    }
+    const railEl = $("mnDesigns");
+    if (rest.length && railEl) {
+      railEl.innerHTML = rest.map((x) => `<a href="designs.html" data-design="${esc(x.id)}"><img src="${esc(x.thumb || x.image)}" alt="" loading="lazy"><div class="mn-rail-meta"><em>${esc(x.type || "تصميم")}</em><b>${esc(x.title || "")}</b></div></a>`).join("");
+    } else {
+      $("mnDesignsSec").hidden = true;
+    }
   }
 
   /* ========== 5) مباريات الهلال — صفوف نظيفة ========== */
@@ -194,6 +209,12 @@
         home: { id: dm.match.home === "الهلال" ? HILAL : null, name: dm.match.home }, away: { id: dm.match.away === "الهلال" ? HILAL : null, name: dm.match.away }, goals: null };
     }
     NEXT = next;
+    // نحاول نحصّل تصميم بطاقة المباراة من data/designs.json عشان نحطه خلفية للهيرو
+    if (NEXT) {
+      const dd = await j("data/designs.json");
+      const sameDay = (a, b) => new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(a)) === new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(b));
+      MATCH_DESIGN = (dd?.designs || []).find((x) => x.match && x.match.date && sameDay(x.match.date, NEXT.date));
+    }
     renderHero();
     renderScoreboard(site?.standings, site?.hilal);
     renderMatches(site?.hilal);
