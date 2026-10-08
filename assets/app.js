@@ -4,13 +4,13 @@
   const TZ = "Asia/Riyadh";
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const ar = (n) => String(n).replace(/\d/g, (d) => "٠١٢٣٤٥٦٧٨٩"[d]);
+  const ar = (n) => String(n);
 
   const LIVE = ["1H", "HT", "2H", "ET", "BT", "P", "LIVE", "INT", "SUSP"];
   const DONE = ["FT", "AET", "PEN", "AWD", "WO"];
   const OFF = { PST: "مؤجلة", CANC: "ملغاة", ABD: "متوقفة", TBD: "لم يحدد" };
 
-  const fmt = (opts) => new Intl.DateTimeFormat("ar-SA-u-ca-gregory-nu-arab", { timeZone: TZ, ...opts });
+  const fmt = (opts) => new Intl.DateTimeFormat("ar-SA-u-ca-gregory-nu-latn", { timeZone: TZ, ...opts });
   const fTime = fmt({ hour: "2-digit", minute: "2-digit", hour12: false });
   const fDay = fmt({ weekday: "long", day: "numeric", month: "long" });
   const fShort = fmt({ weekday: "short", day: "numeric", month: "numeric" });
@@ -224,10 +224,13 @@
       $("updated").textContent = "تعذّر تحميل البيانات";
     }
   }
-  /* ---------- كل الأرقام والرموز بالعربي: 0-9 ← ٠-٩ ، % ← ٪ ---------- */
-  const AR_DIGITS = "٠١٢٣٤٥٦٧٨٩";
-  const toArabic = (t) => t.replace(/[0-9]/g, (d) => AR_DIGITS[d]).replace(/%/g, "٪");
-  const NEEDS = /[0-9%]/;
+  /* ---------- كل الأرقام والرموز بالأرقام العربية الأصلية: ٠-٩ ← 0-9 ، ٪ ← % ---------- */
+  const HINDI = "٠١٢٣٤٥٦٧٨٩", PERSIAN = "۰۱۲۳۴۵۶۷۸۹";
+  const toArabic = (t) => t
+    .replace(/[٠-٩]/g, (d) => HINDI.indexOf(d))
+    .replace(/[۰-۹]/g, (d) => PERSIAN.indexOf(d))
+    .replace(/٪/g, "%").replace(/٫/g, ".").replace(/٬/g, ",");
+  const NEEDS = /[٠-٩۰-۹٪٫٬]/;
   function arabizeNode(node) {
     if (node.nodeType === Node.TEXT_NODE) {
       if (NEEDS.test(node.nodeValue)) node.nodeValue = toArabic(node.nodeValue);

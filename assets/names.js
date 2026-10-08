@@ -102,7 +102,7 @@
   }
   function arRound(round) {
     if (!round) return "";
-    for (const [re, rep] of ROUND_WORDS) if (re.test(round)) return round.replace(re, rep).replace(/\d/g, (d) => "٠١٢٣٤٥٦٧٨٩"[d]);
+    for (const [re, rep] of ROUND_WORDS) if (re.test(round)) return round.replace(re, rep);
     return round;
   }
 

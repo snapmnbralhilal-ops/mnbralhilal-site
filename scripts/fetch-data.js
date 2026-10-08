@@ -94,9 +94,9 @@ function standingRows(resp) {
 }
 
 /* ---------- الأخبار المكتوبة تلقائياً ---------- */
-const fDay = new Intl.DateTimeFormat("ar-SA-u-ca-gregory-nu-arab", { timeZone: TZ, weekday: "long", day: "numeric", month: "long" });
-const fTime = new Intl.DateTimeFormat("ar-SA-u-ca-gregory-nu-arab", { timeZone: TZ, hour: "2-digit", minute: "2-digit", hour12: false });
-const ar = (n) => String(n).replace(/\d/g, (d) => "٠١٢٣٤٥٦٧٨٩"[d]);
+const fDay = new Intl.DateTimeFormat("ar-SA-u-ca-gregory-nu-latn", { timeZone: TZ, weekday: "long", day: "numeric", month: "long" });
+const fTime = new Intl.DateTimeFormat("ar-SA-u-ca-gregory-nu-latn", { timeZone: TZ, hour: "2-digit", minute: "2-digit", hour12: false });
+const ar = (n) => String(n);
 const plural = (n, one, two, few, many) => n === 1 ? one : n === 2 ? two : (n >= 3 && n <= 10) ? `${ar(n)} ${few}` : `${ar(n)} ${many}`;
 const score = (m) => `${ar(m.goals[0])}-${ar(m.goals[1])}`;
 
