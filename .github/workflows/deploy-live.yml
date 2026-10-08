@@ -17,6 +17,7 @@ jobs:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || '9500d0ffd063be8bb000048d1c6c2c75' }}
       API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      ADMIN_GH_TOKEN: ${{ secrets.ADMIN_GH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -59,6 +60,11 @@ jobs:
         working-directory: workers/live
         run: echo "$API_FOOTBALL_KEY" | npx --yes wrangler@3 secret put API_FOOTBALL_KEY
 
+      - name: مفتاح GitHub للوحة التحكم (اختياري)
+        if: env.ADMIN_GH_TOKEN != ''
+        working-directory: workers/live
+        run: echo "$ADMIN_GH_TOKEN" | npx --yes wrangler@3 secret put GH_TOKEN
+
       - name: حفظ رابط العامل للموقع
         continue-on-error: true
         run: |
@@ -78,3 +84,6 @@ jobs:
           sleep 10
           H=$(curl -s "https://mnbr-live.snapmnbralhilal.workers.dev/health?refresh=1")
           echo "::notice::health: $H"
+          echo "::notice::push: $(curl -s https://mnbr-live.snapmnbralhilal.workers.dev/push/key | head -c 60)"
+          echo "::notice::league: $(curl -s https://mnbr-live.snapmnbralhilal.workers.dev/league | head -c 120)"
+          echo "::notice::game: $(curl -s https://mnbr-live.snapmnbralhilal.workers.dev/game | head -c 200)"
