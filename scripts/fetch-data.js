@@ -178,6 +178,64 @@ function writeNews(d) {
   return news.slice(0, 8);
 }
 
+/* ---------- الأرشيف اليومي ----------
+   الخطة المجانية تقفل طلبات "الموسم الحالي" (جدول فريق / ترتيب)، لكنها تسمح بمباريات يوم معيّن.
+   فنحفظ مباريات كل يوم للدوريات اللي تهمنا في data/archive/، ومنها نبني جدول الهلال والترتيب. */
+const ARCHIVE = path.join(__dirname, "..", "data", "archive");
+const KEEP = new Set([SPL_ID, EPL_ID, 17, 504, 826]); // دوري روشن، الإنجليزي، آسيا للنخبة، كأس الملك، السوبر
+const BACKFILL_PER_RUN = 20; // كم يوم قديم نجمع بكل تشغيلة لين يكتمل الموسم
+const LOOKAHEAD_DAYS = 14;   // كم يوم قدام ندوّر فيه مباريات الهلال (مرة باليوم)
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const GAP = Number(process.env.API_GAP_MS ?? 6500); // الخطة المجانية: ١٠ طلبات بالدقيقة
+
+let lastCall = 0;
+async function apiSlow(endpoint, params) {
+  const wait = lastCall + GAP - Date.now();
+  if (wait > 0) await sleep(wait);
+  lastCall = Date.now();
+  return api(endpoint, params);
+}
+function addDays(ymd, n) {
+  const d = new Date(ymd + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+const isHilal = (f) => f.teams.home.id === HILAL_ID || f.teams.away.id === HILAL_ID;
+function saveDay(ymd, fixtures) {
+  const keep = fixtures.filter((f) => KEEP.has(f.league.id) || isHilal(f)).map((f) => ({ ...slim(f), season: f.league.season }));
+  fs.mkdirSync(ARCHIVE, { recursive: true });
+  fs.writeFileSync(path.join(ARCHIVE, ymd + ".json"), JSON.stringify({ date: ymd, fetched: new Date().toISOString(), fixtures: keep }));
+}
+function loadArchive() {
+  if (!fs.existsSync(ARCHIVE)) return [];
+  const byId = new Map();
+  for (const f of fs.readdirSync(ARCHIVE).filter((x) => x.endsWith(".json")).sort()) {
+    const day = JSON.parse(fs.readFileSync(path.join(ARCHIVE, f), "utf8"));
+    for (const m of day.fixtures) {
+      const old = byId.get(m.id);
+      // نفس المباراة ممكن تنحفظ بأكثر من يوم لو تأجلت — نعتمد آخر نسخة انجلبت
+      if (!old || day.fetched >= old._fetched) byId.set(m.id, { ...m, _fetched: day.fetched });
+    }
+  }
+  return [...byId.values()].map(({ _fetched, ...m }) => m);
+}
+function computeTable(all, leagueId, season) {
+  const games = all.filter((m) => m.league.id === leagueId && m.season === season);
+  if (!games.some((m) => DONE.includes(m.status))) return null;
+  const T = new Map();
+  const get = (t) => { if (!T.has(t.id)) T.set(t.id, { team: t, played: 0, win: 0, draw: 0, lose: 0, gf: 0, ga: 0 }); return T.get(t.id); };
+  for (const m of games) {
+    const h = get(m.home), a = get(m.away);
+    if (!DONE.includes(m.status) || !m.goals) continue;
+    const [x, y] = m.goals;
+    h.played++; a.played++; h.gf += x; h.ga += y; a.gf += y; a.ga += x;
+    if (x > y) { h.win++; a.lose++; } else if (x < y) { a.win++; h.lose++; } else { h.draw++; a.draw++; }
+  }
+  const rows = [...T.values()].map((r) => ({ ...r, points: r.win * 3 + r.draw, gd: r.gf - r.ga }))
+    .sort((p, q) => q.points - p.points || q.gd - p.gd || q.gf - p.gf || p.team.name.localeCompare(q.team.name));
+  rows.forEach((r, i) => { r.rank = i + 1; r.description = ""; });
+  return rows;
+}
+
 /* ---------- التشغيل ---------- */
 async function main() {
   if (!KEY) { console.error("❌ مفتاح API_FOOTBALL_KEY غير موجود"); process.exit(1); }
@@ -185,44 +243,58 @@ async function main() {
   try { prev = JSON.parse(fs.readFileSync(OUT, "utf8")); } catch {}
 
   const season = seasonFor();
-  const [hilalFx, today, yday, spl, epl] = await Promise.all([
-    api("fixtures", { team: HILAL_ID, season, timezone: TZ }),
-    api("fixtures", { date: riyadhDate(0), timezone: TZ }),
-    api("fixtures", { date: riyadhDate(-1), timezone: TZ }),
-    api("standings", { league: SPL_ID, season }),
-    api("standings", { league: EPL_ID, season })
-  ]);
+  const todayYmd = riyadhDate(0), ydayYmd = riyadhDate(-1);
 
+  // ١) اليوم وأمس — كل تشغيلة
+  const today = await apiSlow("fixtures", { date: todayYmd, timezone: TZ });
+  const yday = await apiSlow("fixtures", { date: ydayYmd, timezone: TZ });
+  if (today) saveDay(todayYmd, today);
+  if (yday) saveDay(ydayYmd, yday);
+
+  // ٢) استكمال أيام الموسم القديمة (لين يكتمل الأرشيف)
+  const have = new Set(fs.existsSync(ARCHIVE) ? fs.readdirSync(ARCHIVE).map((f) => f.replace(".json", "")) : []);
+  const missing = [];
+  for (let d = `${season}-08-01`; d < ydayYmd; d = addDays(d, 1)) if (!have.has(d)) missing.push(d);
+  for (const d of missing.slice(-BACKFILL_PER_RUN).reverse()) {
+    const r = await apiSlow("fixtures", { date: d, timezone: TZ });
+    if (r) saveDay(d, r); else break; // لو انرفض (حد الخطة) نوقف ونكمل التشغيلة الجاية
+  }
+
+  // ٣) الأيام الجاية — مرة باليوم
+  if (prev.lookahead !== todayYmd) {
+    let ok = true;
+    for (let i = 1; i <= LOOKAHEAD_DAYS && ok; i++) {
+      const d = addDays(todayYmd, i);
+      const r = await apiSlow("fixtures", { date: d, timezone: TZ });
+      if (r) saveDay(d, r); else ok = false;
+    }
+    if (ok) prev.lookahead = todayYmd;
+  }
+
+  const all = loadArchive();
   const data = { ...prev, teamName: "الهلال" };
   data.updated = new Date().toISOString();
   data.season = season;
 
-  // مباريات الهلال — من مباريات الموسم، أو من مباريات اليوم/أمس إذا الخطة ما سمحت
-  let hilalAll = hilalFx ? hilalFx.map(slim) : null;
-  if (!hilalAll) {
-    const fromDays = [...(today || []), ...(yday || [])].map(slim).filter((m) => m.home.id === HILAL_ID || m.away.id === HILAL_ID);
-    const known = new Map([...(prev.hilal?.upcoming || []), ...(prev.hilal?.results || [])].map((m) => [m.id, m]));
-    for (const m of fromDays) known.set(m.id, m);
-    hilalAll = known.size ? [...known.values()] : null;
-  }
-  if (hilalAll) {
-    const live = hilalAll.filter((m) => LIVE.includes(m.status));
-    const up = hilalAll.filter((m) => !LIVE.includes(m.status) && !DONE.includes(m.status) && !["CANC", "ABD", "AWD", "WO"].includes(m.status))
-      .filter((m) => new Date(m.date) > Date.now() - 3 * 3600e3)
-      .sort((a, b) => a.date.localeCompare(b.date));
-    const res = hilalAll.filter((m) => DONE.includes(m.status) && m.goals).sort((a, b) => b.date.localeCompare(a.date));
-    data.hilal = { teamId: HILAL_ID, upcoming: [...live, ...up].slice(0, 6), results: res.slice(0, 8) };
-  } else {
-    data.hilal = prev.hilal || { teamId: HILAL_ID, upcoming: [], results: [] };
-  }
+  // مباريات الهلال من الأرشيف
+  const hil = all.filter((m) => m.home.id === HILAL_ID || m.away.id === HILAL_ID);
+  const live = hil.filter((m) => LIVE.includes(m.status));
+  const up = hil.filter((m) => !LIVE.includes(m.status) && !DONE.includes(m.status) && !["CANC", "ABD", "AWD", "WO"].includes(m.status))
+    .filter((m) => new Date(m.date) > Date.now() - 3 * 3600e3)
+    .sort((a, b) => a.date.localeCompare(b.date));
+  const res = hil.filter((m) => DONE.includes(m.status) && m.goals).sort((a, b) => b.date.localeCompare(a.date));
+  data.hilal = { teamId: HILAL_ID, upcoming: [...live, ...up].slice(0, 6), results: res.slice(0, 8) };
 
-  if (today) data.today = { date: riyadhDate(0), groups: groupByLeague(today) };
-  if (yday) data.yesterday = { date: riyadhDate(-1), groups: groupByLeague(yday.filter((f) => DONE.includes(f.fixture.status.short))) };
+  if (today) data.today = { date: todayYmd, groups: groupByLeague(today) };
+  if (yday) data.yesterday = { date: ydayYmd, groups: groupByLeague(yday.filter((f) => DONE.includes(f.fixture.status.short))) };
 
+  // الترتيب محسوب من النتائج
   data.standings = { ...(prev.standings || {}) };
-  const splRows = standingRows(spl), eplRows = standingRows(epl);
-  if (splRows) data.standings.spl = { season, rows: splRows };
-  if (eplRows) data.standings.epl = { season, rows: eplRows };
+  const splRows = computeTable(all, SPL_ID, season), eplRows = computeTable(all, EPL_ID, season);
+  if (splRows) data.standings.spl = { season, rows: splRows, computed: true };
+  if (eplRows) data.standings.epl = { season, rows: eplRows, computed: true };
+  const stillMissing = missing.length - Math.min(missing.length, BACKFILL_PER_RUN);
+  data.archiveComplete = stillMissing <= 0;
 
   data.news = writeNews(data);
   data.errors = errors;
@@ -230,7 +302,7 @@ async function main() {
 
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(data, null, 1));
-  console.log(`✅ تم التحديث — ${requests} طلبات، ${errors.length} أخطاء`);
+  console.log(`✅ تم التحديث — ${requests} طلبات، ${errors.length} أخطاء، أيام ناقصة بالأرشيف: ${Math.max(0, stillMissing)}`);
   for (const e of errors) console.log("⚠️", e.endpoint, JSON.stringify(e.params), JSON.stringify(e.error));
 }
 

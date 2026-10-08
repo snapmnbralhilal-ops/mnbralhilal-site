@@ -2,7 +2,7 @@ name: تحديث بيانات الموقع
 
 on:
   schedule:
-    - cron: "17 */2 * * *"   # كل ساعتين (≈٦٠ طلب باليوم من أصل ١٠٠ بالخطة المجانية)
+    - cron: "17 */2 * * *"   # كل ساعتين: طلبين بكل تشغيلة + ١٤ طلب مرة باليوم للأيام الجاية
   workflow_dispatch:          # تشغيل يدوي من تبويب Actions
 
 permissions:
@@ -15,6 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -28,6 +29,6 @@ jobs:
         run: |
           git config user.name "mnbralhilal-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/site.json
+          git add data/
           git diff --cached --quiet || git commit -m "تحديث البيانات"
           git push
