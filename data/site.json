@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T21:28:41.210Z",
+ "updated": "2026-10-08T22:28:16.176Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1410,6 +1410,36 @@
       "goals": [
        2,
        5
+      ]
+     },
+     {
+      "id": 1644205,
+      "date": "2026-10-08T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 3"
+      },
+      "home": {
+       "id": 3453,
+       "name": "Maghreb Fès",
+       "ar": "Maghreb Fès",
+       "logo": "https://media.api-sports.io/football/teams/3453.png"
+      },
+      "away": {
+       "id": 976,
+       "name": "Raja Casablanca",
+       "ar": "الرجاء",
+       "logo": "https://media.api-sports.io/football/teams/976.png"
+      },
+      "goals": [
+       0,
+       0
       ]
      }
     ]
