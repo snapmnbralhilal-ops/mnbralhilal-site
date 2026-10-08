@@ -155,7 +155,7 @@
   let countTimer = null;
   function renderNext(m) {
     const card = $("nextCard");
-    if (!m) { card.innerHTML = `<div class="empty">لا توجد مباراة قادمة مسجلة حالياً</div>`; return; }
+    if (!m) { card.innerHTML = `<div class="empty"><svg class="i"><use href="#i-ball"/></svg>لا توجد مباراة قادمة مسجلة حالياً</div>`; return; }
     const d = new Date(m.date);
     const live = LIVE.includes(m.status);
     const CITY = { Riyadh: "الرياض", Jeddah: "جدة", Dammam: "الدمام", Buraydah: "بريدة", Makkah: "مكة", Mecca: "مكة", Medina: "المدينة المنورة", "Al Khobar": "الخبر", Abha: "أبها", "Ha'il": "حائل", Hail: "حائل", Doha: "الدوحة", "Al Rayyan": "الريان", Dubai: "دبي", "Abu Dhabi": "أبوظبي", "Al Ain": "العين", Sharjah: "الشارقة" };
@@ -163,11 +163,11 @@
     const mid = live
       ? `<span class="live"><span class="dot"></span>مباشر${m.elapsed ? " " + ar(m.elapsed) + "'" : ""}</span>
          <div class="kick num" style="direction:rtl">${m.goals?.[0] ?? 0} - ${m.goals?.[1] ?? 0}</div>`
-      : `<small style="color:var(--muted);font-size:12px">انطلاق المباراة</small>
+      : `<small class="lbl">انطلاق المباراة</small>
          <div class="kick num">${fTime.format(d)}</div>
-         <small style="color:var(--muted);font-size:12px">بتوقيت مكة</small>`;
+         <small class="lbl">بتوقيت مكة</small>`;
     card.innerHTML = `
-      <div class="next-head"><span class="comp">${esc(arLeague(m.league))}</span><span>${esc(fDay.format(d))}${venue}</span></div>
+      <div class="next-head"><span class="comp"><svg class="i"><use href="#i-trophy"/></svg>${esc(arLeague(m.league))}</span><span class="meta"><svg class="i"><use href="#i-${m.venue ? "pin" : "cal"}"/></svg>${esc(fDay.format(d))}${venue}</span></div>
       <div class="vs">
         <div class="t">${crest(m.home, "crest lg")}${esc(arTeam(m.home.name))}</div>
         <div class="mid">${mid}</div>
@@ -218,6 +218,26 @@
     if (btn) btn.onclick = () => { el.querySelector(".rest").hidden = false; btn.remove(); };
   }
 
+  /* ---------- شريط النتائج أعلى الصفحة ---------- */
+  function renderStrip(day) {
+    const all = [];
+    (day?.groups || []).forEach((g) => g.matches.forEach((m) => all.push([g, m])));
+    all.sort((x, y) => (LIVE.includes(y[1].status) - LIVE.includes(x[1].status)));
+    const list = all.slice(0, 16);
+    $("stripWrap").hidden = !list.length;
+    $("strip").innerHTML = list.map(([g, m]) => {
+      const live = LIVE.includes(m.status), done = DONE.includes(m.status);
+      const top = live ? `<span class="pill">مباشر</span><span>${m.elapsed ? ar(m.elapsed) + "'" : ""}</span>`
+        : done ? `<span>${esc(arLeague(g.league))}</span><span>انتهت</span>`
+        : `<span>${esc(arLeague(g.league))}</span><span class="num">${fTime.format(new Date(m.date))}</span>`;
+      const g0 = m.goals ? (m.goals[0] ?? 0) : "", g1 = m.goals ? (m.goals[1] ?? 0) : "";
+      const hl = m.home.id === HILAL_ID || m.away.id === HILAL_ID ? " hl" : "";
+      return `<a class="sc-card${hl}" href="#today"><div class="sc-top">${top}</div>
+        <div class="sc-t">${crest(m.home)}<span>${esc(arTeam(m.home.name))}</span><b class="num">${g0}</b></div>
+        <div class="sc-t">${crest(m.away)}<span>${esc(arTeam(m.away.name))}</span><b class="num">${g1}</b></div></a>`;
+    }).join("");
+  }
+
   /* ---------- الترتيب ---------- */
   function renderTables(st) {
     const spl = st?.spl?.rows || [];
@@ -259,6 +279,7 @@
     renderDay($("todayList"), data.today, "لا توجد مباريات اليوم في الدوريات المتابعة", 14);
     renderDay($("ydayList"), data.yesterday, "لا توجد نتائج لأمس", 10);
     renderTables(data.standings);
+    renderStrip(data.today);
     renderNews(data.news);
     $("updated").textContent = data.updated
       ? "آخر تحديث: " + fmt({ day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(data.updated))
