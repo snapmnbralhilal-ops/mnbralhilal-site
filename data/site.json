@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T08:21:20.918Z",
+ "updated": "2026-10-08T08:31:19.887Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1884,7 +1884,7 @@
      "team": {
       "id": 544,
       "name": "Deportivo La Coruna",
-      "ar": "Deportivo La Coruna",
+      "ar": "ديبورتيفو لاكورونيا",
       "logo": "https://media.api-sports.io/football/teams/544.png"
      },
      "points": 10,
@@ -1932,7 +1932,7 @@
      "team": {
       "id": 531,
       "name": "Athletic Club",
-      "ar": "Athletic Club",
+      "ar": "أتلتيك بلباو",
       "logo": "https://media.api-sports.io/football/teams/531.png"
      },
      "points": 8,
@@ -1964,7 +1964,7 @@
      "team": {
       "id": 728,
       "name": "Rayo Vallecano",
-      "ar": "Rayo Vallecano",
+      "ar": "رايو فايكانو",
       "logo": "https://media.api-sports.io/football/teams/728.png"
      },
      "points": 8,
@@ -2012,7 +2012,7 @@
      "team": {
       "id": 540,
       "name": "Espanyol",
-      "ar": "Espanyol",
+      "ar": "إسبانيول",
       "logo": "https://media.api-sports.io/football/teams/540.png"
      },
      "points": 7,
@@ -2028,7 +2028,7 @@
      "team": {
       "id": 4665,
       "name": "Racing Santander",
-      "ar": "Racing Santander",
+      "ar": "راسينغ سانتاندير",
       "logo": "https://media.api-sports.io/football/teams/4665.png"
      },
      "points": 7,
@@ -2044,7 +2044,7 @@
      "team": {
       "id": 539,
       "name": "Levante",
-      "ar": "Levante",
+      "ar": "ليفانتي",
       "logo": "https://media.api-sports.io/football/teams/539.png"
      },
      "points": 5,
@@ -2060,7 +2060,7 @@
      "team": {
       "id": 797,
       "name": "Elche",
-      "ar": "Elche",
+      "ar": "إلتشي",
       "logo": "https://media.api-sports.io/football/teams/797.png"
      },
      "points": 5,
@@ -2092,7 +2092,7 @@
      "team": {
       "id": 535,
       "name": "Malaga",
-      "ar": "Malaga",
+      "ar": "ملقة",
       "logo": "https://media.api-sports.io/football/teams/535.png"
      },
      "points": 3,
@@ -2161,7 +2161,7 @@
      "team": {
       "id": 490,
       "name": "Cagliari",
-      "ar": "Cagliari",
+      "ar": "كالياري",
       "logo": "https://media.api-sports.io/football/teams/490.png"
      },
      "points": 12,
@@ -2193,7 +2193,7 @@
      "team": {
       "id": 512,
       "name": "Frosinone",
-      "ar": "Frosinone",
+      "ar": "فروزينوني",
       "logo": "https://media.api-sports.io/football/teams/512.png"
      },
      "points": 10,
@@ -2225,7 +2225,7 @@
      "team": {
       "id": 895,
       "name": "Como",
-      "ar": "Como",
+      "ar": "كومو",
       "logo": "https://media.api-sports.io/football/teams/895.png"
      },
      "points": 10,
@@ -2257,7 +2257,7 @@
      "team": {
       "id": 488,
       "name": "Sassuolo",
-      "ar": "Sassuolo",
+      "ar": "ساسولو",
       "logo": "https://media.api-sports.io/football/teams/488.png"
      },
      "points": 7,
@@ -2289,7 +2289,7 @@
      "team": {
       "id": 867,
       "name": "Lecce",
-      "ar": "Lecce",
+      "ar": "ليتشي",
       "logo": "https://media.api-sports.io/football/teams/867.png"
      },
      "points": 6,
@@ -2305,7 +2305,7 @@
      "team": {
       "id": 494,
       "name": "Udinese",
-      "ar": "Udinese",
+      "ar": "أودينيزي",
       "logo": "https://media.api-sports.io/football/teams/494.png"
      },
      "points": 4,
@@ -2321,7 +2321,7 @@
      "team": {
       "id": 503,
       "name": "Torino",
-      "ar": "Torino",
+      "ar": "تورينو",
       "logo": "https://media.api-sports.io/football/teams/503.png"
      },
      "points": 4,
@@ -2337,7 +2337,7 @@
      "team": {
       "id": 523,
       "name": "Parma",
-      "ar": "Parma",
+      "ar": "بارما",
       "logo": "https://media.api-sports.io/football/teams/523.png"
      },
      "points": 4,
@@ -2353,7 +2353,7 @@
      "team": {
       "id": 1579,
       "name": "Monza",
-      "ar": "Monza",
+      "ar": "مونزا",
       "logo": "https://media.api-sports.io/football/teams/1579.png"
      },
      "points": 4,
@@ -2401,7 +2401,7 @@
      "team": {
       "id": 495,
       "name": "Genoa",
-      "ar": "Genoa",
+      "ar": "جنوى",
       "logo": "https://media.api-sports.io/football/teams/495.png"
      },
      "points": 1,
@@ -2417,7 +2417,7 @@
      "team": {
       "id": 517,
       "name": "Venezia",
-      "ar": "Venezia",
+      "ar": "فينيسيا",
       "logo": "https://media.api-sports.io/football/teams/517.png"
      },
      "points": 0,
@@ -2470,7 +2470,7 @@
      "team": {
       "id": 160,
       "name": "SC Freiburg",
-      "ar": "SC Freiburg",
+      "ar": "فرايبورغ",
       "logo": "https://media.api-sports.io/football/teams/160.png"
      },
      "points": 10,
@@ -2486,7 +2486,7 @@
      "team": {
       "id": 170,
       "name": "FC Augsburg",
-      "ar": "FC Augsburg",
+      "ar": "أوغسبورغ",
       "logo": "https://media.api-sports.io/football/teams/170.png"
      },
      "points": 7,
@@ -2518,7 +2518,7 @@
      "team": {
       "id": 164,
       "name": "FSV Mainz 05",
-      "ar": "FSV Mainz 05",
+      "ar": "ماينز",
       "logo": "https://media.api-sports.io/football/teams/164.png"
      },
      "points": 7,
@@ -2534,7 +2534,7 @@
      "team": {
       "id": 1660,
       "name": "SV Elversberg",
-      "ar": "SV Elversberg",
+      "ar": "إلفرسبرغ",
       "logo": "https://media.api-sports.io/football/teams/1660.png"
      },
      "points": 7,
@@ -2550,7 +2550,7 @@
      "team": {
       "id": 162,
       "name": "Werder Bremen",
-      "ar": "Werder Bremen",
+      "ar": "فيردر بريمن",
       "logo": "https://media.api-sports.io/football/teams/162.png"
      },
      "points": 7,
@@ -2598,7 +2598,7 @@
      "team": {
       "id": 174,
       "name": "FC Schalke 04",
-      "ar": "FC Schalke 04",
+      "ar": "شالكه",
       "logo": "https://media.api-sports.io/football/teams/174.png"
      },
      "points": 5,
@@ -2614,7 +2614,7 @@
      "team": {
       "id": 185,
       "name": "SC Paderborn 07",
-      "ar": "SC Paderborn 07",
+      "ar": "بادربورن",
       "logo": "https://media.api-sports.io/football/teams/185.png"
      },
      "points": 4,
@@ -2630,7 +2630,7 @@
      "team": {
       "id": 192,
       "name": "1. FC Köln",
-      "ar": "1. FC Köln",
+      "ar": "كولن",
       "logo": "https://media.api-sports.io/football/teams/192.png"
      },
      "points": 4,
@@ -2646,7 +2646,7 @@
      "team": {
       "id": 167,
       "name": "1899 Hoffenheim",
-      "ar": "1899 Hoffenheim",
+      "ar": "هوفنهايم",
       "logo": "https://media.api-sports.io/football/teams/167.png"
      },
      "points": 3,
@@ -2662,7 +2662,7 @@
      "team": {
       "id": 172,
       "name": "VfB Stuttgart",
-      "ar": "VfB Stuttgart",
+      "ar": "شتوتغارت",
       "logo": "https://media.api-sports.io/football/teams/172.png"
      },
      "points": 3,
@@ -2678,7 +2678,7 @@
      "team": {
       "id": 175,
       "name": "Hamburger SV",
-      "ar": "Hamburger SV",
+      "ar": "هامبورغ",
       "logo": "https://media.api-sports.io/football/teams/175.png"
      },
      "points": 3,
@@ -2694,7 +2694,7 @@
      "team": {
       "id": 182,
       "name": "Union Berlin",
-      "ar": "Union Berlin",
+      "ar": "يونيون برلين",
       "logo": "https://media.api-sports.io/football/teams/182.png"
      },
      "points": 1,
@@ -2710,7 +2710,7 @@
      "team": {
       "id": 163,
       "name": "Borussia Mönchengladbach",
-      "ar": "Borussia Mönchengladbach",
+      "ar": "مونشنغلادباخ",
       "logo": "https://media.api-sports.io/football/teams/163.png"
      },
      "points": 0,
@@ -2763,7 +2763,7 @@
      "team": {
       "id": 114,
       "name": "Paris FC",
-      "ar": "Paris FC",
+      "ar": "باريس إف سي",
       "logo": "https://media.api-sports.io/football/teams/114.png"
      },
      "points": 11,
@@ -2795,7 +2795,7 @@
      "team": {
       "id": 94,
       "name": "Rennes",
-      "ar": "Rennes",
+      "ar": "رين",
       "logo": "https://media.api-sports.io/football/teams/94.png"
      },
      "points": 10,
@@ -2827,7 +2827,7 @@
      "team": {
       "id": 77,
       "name": "Angers",
-      "ar": "Angers",
+      "ar": "أنجيه",
       "logo": "https://media.api-sports.io/football/teams/77.png"
      },
      "points": 7,
@@ -2843,7 +2843,7 @@
      "team": {
       "id": 95,
       "name": "Strasbourg",
-      "ar": "Strasbourg",
+      "ar": "ستراسبورغ",
       "logo": "https://media.api-sports.io/football/teams/95.png"
      },
      "points": 7,
@@ -2859,7 +2859,7 @@
      "team": {
       "id": 1298,
       "name": "Le Mans",
-      "ar": "Le Mans",
+      "ar": "لومان",
       "logo": "https://media.api-sports.io/football/teams/1298.png"
      },
      "points": 6,
@@ -2875,7 +2875,7 @@
      "team": {
       "id": 108,
       "name": "Auxerre",
-      "ar": "Auxerre",
+      "ar": "أوكسير",
       "logo": "https://media.api-sports.io/football/teams/108.png"
      },
      "points": 6,
@@ -2891,7 +2891,7 @@
      "team": {
       "id": 106,
       "name": "Stade Brestois 29",
-      "ar": "Stade Brestois 29",
+      "ar": "بريست",
       "logo": "https://media.api-sports.io/football/teams/106.png"
      },
      "points": 5,
@@ -2907,7 +2907,7 @@
      "team": {
       "id": 97,
       "name": "Lorient",
-      "ar": "Lorient",
+      "ar": "لوريان",
       "logo": "https://media.api-sports.io/football/teams/97.png"
      },
      "points": 5,
@@ -2923,7 +2923,7 @@
      "team": {
       "id": 96,
       "name": "Toulouse",
-      "ar": "Toulouse",
+      "ar": "تولوز",
       "logo": "https://media.api-sports.io/football/teams/96.png"
      },
      "points": 5,
@@ -2939,7 +2939,7 @@
      "team": {
       "id": 84,
       "name": "Nice",
-      "ar": "Nice",
+      "ar": "نيس",
       "logo": "https://media.api-sports.io/football/teams/84.png"
      },
      "points": 5,
@@ -2955,7 +2955,7 @@
      "team": {
       "id": 116,
       "name": "Lens",
-      "ar": "Lens",
+      "ar": "لانس",
       "logo": "https://media.api-sports.io/football/teams/116.png"
      },
      "points": 4,
@@ -2971,7 +2971,7 @@
      "team": {
       "id": 110,
       "name": "Estac Troyes",
-      "ar": "Estac Troyes",
+      "ar": "تروا",
       "logo": "https://media.api-sports.io/football/teams/110.png"
      },
      "points": 4,
@@ -3003,7 +3003,7 @@
      "team": {
       "id": 111,
       "name": "Le Havre",
-      "ar": "Le Havre",
+      "ar": "لوهافر",
       "logo": "https://media.api-sports.io/football/teams/111.png"
      },
      "points": 2,
