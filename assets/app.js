@@ -92,7 +92,7 @@
     if (!$("sponsors")) return;
     $("sponsors").hidden = !sp.length;
     // شريط متحرك: نكرر الشعارات مرتين عشان الحركة تكون متصلة بدون فراغ
-    const one = sp.map((a) => `<span class="sp-item">${adLink(a, `<img src="${esc(a.image)}" alt="${esc(a.title || "")}" title="${esc(a.title || "")}" onload="var r=this.naturalWidth/this.naturalHeight;if(r<1.6)this.classList.add(r<1.2?'sq2':'sq')">`)}</span>`).join("");
+    const one = sp.map((a) => `<span class="sp-item">${adLink(a, `<img src="${esc(a.image)}" alt="${esc(a.title || "")}" title="${esc(a.title || "")}" onload="var r=this.naturalWidth/this.naturalHeight;if(r<1.6)this.classList.add(r<1.2?'sq2':'sq')" onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src=this.src.split('#')[0]+'&r='+Date.now()}">`)}</span>`).join("");
     const reps = Math.max(2, Math.ceil(8 / sp.length) * 2);
     $("spList").innerHTML = `<div class="sp-set">${one.repeat(reps / 2)}</div><div class="sp-set" aria-hidden="true">${one.repeat(reps / 2)}</div>`;
   }
