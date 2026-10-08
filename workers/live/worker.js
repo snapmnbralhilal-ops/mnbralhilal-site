@@ -73,7 +73,7 @@ async function schedule(env, force = false) {
   } catch (e) { errors.push(String(e.message || e)); }
   try {
     const s = await site(env, "data/site.json");
-    for (const m of s?.hilal?.upcoming || []) matches.push({ id: m.id, date: m.date, home: m.home?.id === HILAL ? "الهلال" : null, away: m.away?.id === HILAL ? "الهلال" : null });
+    for (const m of s?.hilal?.upcoming || []) matches.push({ id: m.id, date: m.date, home: m.home?.id === HILAL ? "الهلال" : (m.home?.ar || m.home?.name || null), away: m.away?.id === HILAL ? "الهلال" : (m.away?.ar || m.away?.name || null) });
   } catch (e) { errors.push(String(e.message || e)); }
   // لو تعذّر جلب ملفات الموقع نحتفظ بالجدول السابق بدل ما يفضى
   if (errors.length && cached?.matches?.length) matches.push(...cached.matches);

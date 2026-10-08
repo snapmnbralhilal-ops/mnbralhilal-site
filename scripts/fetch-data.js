@@ -55,7 +55,7 @@ function seasonFor(date = new Date()) {
   // موسم الدوري يبدأ بالصيف: أكتوبر ٢٠٢٦ = موسم 2026
   return date.getUTCMonth() >= 6 ? date.getUTCFullYear() : date.getUTCFullYear() - 1;
 }
-const team = (t) => ({ id: t.id, name: t.name, logo: t.logo });
+const team = (t) => ({ id: t.id, name: t.name, ar: arTeam(t.name), logo: t.logo });
 function slim(f) {
   const s = f.fixture.status.short;
   return {
