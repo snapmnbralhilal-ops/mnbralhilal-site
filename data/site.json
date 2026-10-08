@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T16:32:43.478Z",
+ "updated": "2026-10-08T17:28:35.692Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1604012,
       "date": "2026-10-08T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 29,
       "venue": "Najran",
       "league": {
        "id": 308,
@@ -802,7 +802,10 @@
        "ar": "العُلا",
        "logo": "https://media.api-sports.io/football/teams/26357.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -816,7 +819,7 @@
      {
       "id": 1597937,
       "date": "2026-10-08T17:45:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Gray Shamal",
       "league": {
@@ -840,14 +843,14 @@
       },
       "goals": [
        0,
-       3
+       4
       ]
      },
      {
       "id": 1597935,
       "date": "2026-10-08T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 27,
       "venue": "Wakla",
       "league": {
        "id": 305,
@@ -868,7 +871,10 @@
        "ar": "الغرافة",
        "logo": "https://media.api-sports.io/football/teams/2903.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -882,8 +888,8 @@
      {
       "id": 1644202,
       "date": "2026-10-08T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 32,
+      "status": "2H",
+      "elapsed": 70,
       "venue": "Rabat",
       "league": {
        "id": 200,
