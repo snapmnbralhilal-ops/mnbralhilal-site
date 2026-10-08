@@ -1,7 +1,7 @@
 /* يجلب البيانات من API-Football ويكتب data/site.json (+ data/stats.json بباقة Pro)
    التشغيل: API_FOOTBALL_KEY=xxxx node scripts/fetch-data.js
    يتعرف على الباقة تلقائياً:
-   - Pro: جدول الهلال كامل + الترتيب الرسمي + إحصائيات اللاعبين (≈ 10 طلبات بكل تشغيلة)
+   - Pro: جدول الهلال كامل + الترتيب الرسمي + إحصائيات اللاعبين (≈ 13 طلب بكل تشغيلة)
    - المجانية: أرشيف يومي ويحسب الترتيب من النتائج */
 const fs = require("fs");
 const path = require("path");
@@ -335,12 +335,14 @@ const EXTRA_AR = { "Malcom": "مالكوم", "K. Benzema": "كريم بنزيم�
 const POS = { Goalkeeper: "GK", Defender: "DF", Midfielder: "MF", Attacker: "FW" };
 
 async function mainPro(prev, season, todayYmd, ydayYmd, plan) {
-  const [hil, today, yday, spl, epl] = await Promise.all([
+  // الدوريات الأوروبية الخمسة الكبرى
+  const EURO = [["epl", EPL_ID], ["laliga", 140], ["seriea", 135], ["bundesliga", 78], ["ligue1", 61]];
+  const [hil, today, yday, spl, ...euro] = await Promise.all([
     api("fixtures", { team: HILAL_ID, season, timezone: TZ }),
     api("fixtures", { date: todayYmd, timezone: TZ }),
     api("fixtures", { date: ydayYmd, timezone: TZ }),
     api("standings", { league: SPL_ID, season }),
-    api("standings", { league: EPL_ID, season })
+    ...EURO.map(([, id]) => api("standings", { league: id, season }))
   ]);
   const data = { ...prev, teamName: "الهلال", plan, updated: new Date().toISOString(), season };
   delete data.archiveComplete; delete data.lookahead;
@@ -356,9 +358,9 @@ async function mainPro(prev, season, todayYmd, ydayYmd, plan) {
   if (today) data.today = { date: todayYmd, groups: groupByLeague(today) };
   if (yday) data.yesterday = { date: ydayYmd, groups: groupByLeague(yday.filter((f) => DONE.includes(f.fixture.status.short))) };
   data.standings = { ...(prev.standings || {}) };
-  const s1 = standingRows(spl), s2 = standingRows(epl);
+  const s1 = standingRows(spl);
   if (s1) data.standings.spl = { season, rows: s1 };
-  if (s2) data.standings.epl = { season, rows: s2 };
+  EURO.forEach(([k], i) => { const r = standingRows(euro[i]); if (r) data.standings[k] = { season, rows: r }; });
 
   // إحصائيات لاعبين الهلال (كل البطولات) + هدافين دوري روشن
   try { await buildStats(season); } catch (e) { errors.push({ endpoint: "stats", error: String(e) }); }

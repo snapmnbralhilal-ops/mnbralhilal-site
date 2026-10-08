@@ -454,3 +454,5 @@ footer .wrap{row-gap:14px}
 .push-tip{font-size:12.5px;color:var(--muted);text-align:center;margin:6px 0 0;line-height:1.7}
 
 .play-wrap .push-btn{margin-top:10px}
+.euro-tabs{gap:16px;overflow-x:auto;scrollbar-width:none;padding-inline:4px}
+.euro-tabs button{flex:none;font-size:14px}

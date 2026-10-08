@@ -352,6 +352,19 @@
       return `<tr class="${cls}${r.team.id === HILAL_ID ? " hl" : ""}"><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num">${r.win}</td><td class="num">${r.draw}</td><td class="num">${r.lose}</td><td class="num" style="direction:ltr">${r.gd > 0 ? "+" : ""}${r.gd}</td><td class="pts">${r.points}</td></tr>`;
     }).join("") : `<tr><td colspan="8" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
 
+    // الدوريات الأوروبية (صفحة الترتيب): تبويبات
+    if ($("euro")) {
+      const L = [["epl", "الإنجليزي"], ["laliga", "الإسباني"], ["seriea", "الإيطالي"], ["bundesliga", "الألماني"], ["ligue1", "الفرنسي"]].filter(([k]) => st?.[k]?.rows?.length);
+      let cur = renderTables.euro && L.some(([k]) => k === renderTables.euro) ? renderTables.euro : L[0]?.[0];
+      const draw = () => {
+        $("euroTabs").innerHTML = L.map(([k, l]) => `<button type="button" role="tab" aria-selected="${k === cur}" data-eu="${k}">${l}</button>`).join("");
+        $("euroTabs").querySelectorAll("[data-eu]").forEach((b) => (b.onclick = () => { cur = renderTables.euro = b.dataset.eu; draw(); }));
+        const rows = st?.[cur]?.rows || [];
+        $("euro").innerHTML = rows.length ? rows.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num" style="direction:ltr">${r.gd > 0 ? "+" : ""}${r.gd}</td><td class="pts">${r.points}</td></tr>`).join("")
+          : `<tr><td colspan="5" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
+      };
+      draw();
+    }
     const epl = (st?.epl?.rows || []).slice(0, lim("epl", 99));
     if ($("epl")) $("epl").innerHTML = epl.length ? epl.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="pts">${r.points}</td></tr>`).join("")
       : `<tr><td colspan="4" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
