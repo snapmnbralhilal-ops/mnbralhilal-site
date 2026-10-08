@@ -6,27 +6,27 @@
   "sponsors": [
     {
       "title": "عقارك",
-      "image": "assets/ads/sponsor-aqarek-white.png?v=3"
+      "image": "assets/partners/aqarek.png"
     },
     {
       "title": "يلو",
-      "image": "assets/ads/sponsor-yelo-white.png?v=3"
+      "image": "assets/partners/yelo.png"
     },
     {
       "title": "برق",
-      "image": "assets/ads/sponsor-barq-white.png?v=3"
+      "image": "assets/partners/barq.png"
     },
     {
       "title": "تاسومة",
-      "image": "assets/ads/sponsor-tasooma-white.png?v=3"
+      "image": "assets/partners/tasooma.png"
     },
     {
       "title": "WBJ",
-      "image": "assets/ads/sponsor-wbj-white.png?v=3"
+      "image": "assets/partners/wbj.png"
     },
     {
       "title": "بي كير",
-      "image": "assets/ads/sponsor-bcare-white.png?v=3"
+      "image": "assets/partners/bcare.png"
     }
   ]
 }
