@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T19:29:09.039Z",
+ "updated": "2026-10-08T20:30:57.214Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -918,8 +918,8 @@
      {
       "id": 1644203,
       "date": "2026-10-08T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -948,8 +948,8 @@
      {
       "id": 1644204,
       "date": "2026-10-08T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 65,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Zemamra",
       "league": {
        "id": 200,
@@ -972,14 +972,14 @@
       },
       "goals": [
        2,
-       3
+       5
       ]
      },
      {
       "id": 1644205,
       "date": "2026-10-08T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "",
       "league": {
        "id": 200,
@@ -1000,7 +1000,10 @@
        "ar": "الرجاء",
        "logo": "https://media.api-sports.io/football/teams/976.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
