@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T13:32:53.518Z",
+ "updated": "2026-10-08T14:32:24.514Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3017,7 +3017,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 13,
  "plan": "Pro"
 }
