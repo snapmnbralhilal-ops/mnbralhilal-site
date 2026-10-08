@@ -17,3 +17,12 @@ LIVE_INTERVAL = "180"
 [[kv_namespaces]]
 binding = "KV"
 id = "__KV_ID__"
+
+# ألعاب الجمهور (توقعات + رجل المباراة) — مخزن لكل مباراة
+[[durable_objects.bindings]]
+name = "GAME"
+class_name = "Game"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Game"]

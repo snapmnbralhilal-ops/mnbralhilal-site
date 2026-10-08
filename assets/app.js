@@ -257,7 +257,7 @@
         <div class="mid">${mid}</div>
         <div class="t">${crest(m.away, "crest lg")}${esc(arTeam(m.away.name))}</div>
       </div>
-      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${live ? "" : `<div class="cal-row"><button type="button" class="cal-btn" id="calNext">📅 أضف للتقويم</button></div>`}${matchSponsorHtml()}`;
+      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${live ? "" : `<div class="cal-row"><a class="cal-btn" href="play.html#predict">🎯 توقّع النتيجة</a><button type="button" class="cal-btn" id="calNext">📅 أضف للتقويم</button></div>`}${matchSponsorHtml()}`;
     CAL_NEXT = live ? null : m;
     clearInterval(countTimer);
     if (live) return;

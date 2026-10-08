@@ -23,12 +23,13 @@ export default {
     }
     if (url.pathname === "/health") {
       if (url.searchParams.has("refresh")) await schedule(env, true);
-      const [sched, usage, beat] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json"), env.KV.get("beat")]);
-      return json({ ok: true, interval: +env.LIVE_INTERVAL, lastCron: beat ? new Date(+beat).toISOString() : null,
+      const [sched, usage] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json")]);
+      return json({ ok: true, interval: +env.LIVE_INTERVAL,
         scheduleAt: sched?.at ? new Date(sched.at).toISOString() : null, schedule: sched?.matches || [], scheduleErrors: sched?.errors || [],
         requestsToday: usage?.n || 0 }, 0);
     }
-    return json({ name: "mnbr-live", endpoints: ["/live", "/health"] }, 60);
+    if (url.pathname.startsWith("/game")) return game(req, env, url);
+    return json({ name: "mnbr-live", endpoints: ["/live", "/health", "/game"] }, 60);
   },
   async scheduled(event, env, ctx) {
     ctx.waitUntil(tick(env));
@@ -63,6 +64,10 @@ async function schedule(env, force = false) {
   const seen = new Set(), uniq = [];
   for (const m of matches) { const k = new Date(m.date).getTime(); if (!seen.has(k)) { seen.add(k); uniq.push(m); } }
   await env.KV.put("sched", JSON.stringify({ at: Date.now(), matches: uniq, errors }));
+  // قائمة مباريات الألعاب (التوقعات/التصويت) — نحتفظ بآخر 12
+  const games = (await env.KV.get("games", "json")) || [];
+  const merged = [...new Set([...games, ...uniq.map((m) => new Date(m.date).getTime())])].sort((a, b) => a - b).slice(-12);
+  if (merged.join() !== games.join()) await env.KV.put("games", JSON.stringify(merged));
   return uniq;
 }
 
@@ -111,17 +116,145 @@ async function pollOnce(env, win) {
 
 async function tick(env) {
   const now = Date.now();
-  await env.KV.put("beat", String(now));
   const matches = await schedule(env);
   const m = matches.map((x) => ({ ...x, kickoff: new Date(x.date).getTime() }))
     .find((x) => now >= x.kickoff - PRE && now <= x.kickoff + POST);
   if (!m) return;
-  if (now < m.kickoff) { await env.KV.put("live", JSON.stringify({ status: "pre", kickoff: m.kickoff, updated: new Date().toISOString() })); return; }
+  if (now < m.kickoff) {
+    const cur = await env.KV.get("live", "json");
+    if (!(cur && cur.kickoff === m.kickoff)) await env.KV.put("live", JSON.stringify({ status: "pre", kickoff: m.kickoff, updated: new Date().toISOString() }));
+    return;
+  }
   // باقة Pro (فترة أقل من دقيقة): نسحب أكثر من مرة داخل نفس الدقيقة
   const interval = Math.max(10, +env.LIVE_INTERVAL || 180);
   const loops = interval < 60 ? Math.floor(55 / interval) + 1 : 1;
   for (let i = 0; i < loops; i++) {
     if (i) await new Promise((r) => setTimeout(r, interval * 1000));
     await pollOnce(env, m);
+  }
+}
+
+
+/* ============================================================
+   ألعاب الجمهور: توقّع النتيجة + رجل المباراة
+   كل مباراة لها Durable Object خاص (مفتاحه موعد البداية)
+   ============================================================ */
+const VOTE_OPEN = 105 * 60e3;   // التصويت يفتح بعد 105 دقيقة من البداية (أو أول ما تنتهي)
+const GAME_DAY = 24 * 3600e3;   // المباراة تبقى "الحالية" 24 ساعة بعد بدايتها
+
+const noStore = (obj, status = 200) => new Response(JSON.stringify(obj), {
+  status, headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": "*", "cache-control": "no-store" }
+});
+
+async function currentGame(env) {
+  const now = Date.now();
+  let games = (await env.KV.get("games", "json")) || [];
+  if (!games.length) { await schedule(env, true); games = (await env.KV.get("games", "json")) || []; }
+  const recent = games.filter((k) => k <= now && now < k + GAME_DAY).pop();
+  const next = games.find((k) => k > now);
+  return recent ?? next ?? games[games.length - 1] ?? null;
+}
+
+async function phaseOf(env, k) {
+  const now = Date.now();
+  const live = await env.KV.get("live", "json");
+  let final = null;
+  if (live && live.kickoff === k && live.match) {
+    const m = live.match, hilalHome = m.home.id === HILAL;
+    final = { hilal: hilalHome ? m.goals[0] : m.goals[1], opp: hilalHome ? m.goals[1] : m.goals[0], done: live.status === "done" };
+  }
+  let phase;
+  if (now < k) phase = "predict";
+  else if (final?.done || now >= k + VOTE_OPEN) phase = now < k + GAME_DAY ? "vote" : "closed";
+  else phase = "live";
+  return { phase, final };
+}
+
+async function game(req, env, url) {
+  if (req.method === "OPTIONS") return new Response(null, { headers: { "access-control-allow-origin": "*", "access-control-allow-methods": "GET,POST", "access-control-allow-headers": "content-type" } });
+  const k = await currentGame(env);
+  if (!k) return noStore({ status: "none" });
+  const { phase, final } = await phaseOf(env, k);
+  const stub = env.GAME.get(env.GAME.idFromName(String(k)));
+  const d = (url.searchParams.get("d") || "").slice(0, 40);
+
+  if (req.method === "GET") {
+    const st = await (await stub.fetch(`https://g/state?d=${encodeURIComponent(d)}`)).json();
+    const out = { kickoff: k, phase, final, ...st };
+    if (final?.done && st.exact) out.exactCount = st.exact[`${final.hilal}-${final.opp}`] || 0;
+    if (final?.done) out.outcomeCount = final.hilal > final.opp ? st.agg.w : final.hilal < final.opp ? st.agg.l : st.agg.d;
+    return noStore(out);
+  }
+  if (req.method !== "POST") return noStore({ error: "method" }, 405);
+
+  let body = {};
+  try { body = JSON.parse(await req.text()); } catch (e) { return noStore({ error: "bad-json" }, 400); }
+  if (body.k && +body.k !== k) return noStore({ error: "match-changed" }, 409);
+  const ip = req.headers.get("cf-connecting-ip") || "";
+  const ipHash = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(ip + "mnbr")))).slice(0, 8).map((b) => b.toString(16).padStart(2, "0")).join("");
+
+  if (url.pathname === "/game/predict") {
+    if (phase !== "predict") return noStore({ error: "closed", phase }, 403);
+  } else if (url.pathname === "/game/vote") {
+    if (phase !== "vote") return noStore({ error: phase === "closed" ? "closed" : "not-open", phase }, 403);
+  } else return noStore({ error: "not-found" }, 404);
+
+  const r = await stub.fetch(`https://g${url.pathname.replace("/game", "")}`, { method: "POST", body: JSON.stringify({ ...body, ip: ipHash }) });
+  return noStore(await r.json(), r.status);
+}
+
+const emptyAgg = () => ({ n: 0, w: 0, d: 0, l: 0, sc: {}, st: {} });
+const outcomeKey = (h, o) => (h > o ? "w" : h < o ? "l" : "d");
+const inc = (obj, key, by) => { obj[key] = (obj[key] || 0) + by; if (obj[key] <= 0) delete obj[key]; };
+const int = (v, lo, hi) => Number.isInteger(v) && v >= lo && v <= hi;
+
+export class Game {
+  constructor(ctx) { this.s = ctx.storage; }
+
+  async fetch(req) {
+    const url = new URL(req.url);
+    if (url.pathname === "/state") {
+      const d = url.searchParams.get("d");
+      const [agg, vagg, mp, mv] = await Promise.all([
+        this.s.get("agg"), this.s.get("vagg"), d ? this.s.get("p:" + d) : null, d ? this.s.get("v:" + d) : null
+      ]);
+      const a = agg || emptyAgg();
+      const topScores = Object.entries(a.sc).sort((x, y) => y[1] - x[1]).slice(0, 5);
+      const topScorers = Object.entries(a.st).sort((x, y) => y[1] - x[1]).slice(0, 6);
+      const v = vagg || { n: 0, p: {} };
+      const topVotes = Object.entries(v.p).sort((x, y) => y[1] - x[1]).slice(0, 8);
+      return Response.json({ agg: { n: a.n, w: a.w, d: a.d, l: a.l }, topScores, topScorers, exact: a.sc,
+        votes: { n: v.n, top: topVotes }, mine: { pred: mp || null, vote: mv ?? null } });
+    }
+
+    const b = await req.json();
+    const d = String(b.d || "").slice(0, 40);
+    if (d.length < 8) return Response.json({ error: "device" }, { status: 400 });
+    // حد بسيط لكل شبكة: 40 عملية لكل مباراة
+    const ipk = "ip:" + b.ip, ipn = (await this.s.get(ipk)) || 0;
+    if (ipn >= 40) return Response.json({ error: "limit" }, { status: 429 });
+
+    if (url.pathname === "/predict") {
+      const h = +b.h, o = +b.o, st = +b.s || 0;
+      if (!int(h, 0, 15) || !int(o, 0, 15) || !int(st, -1, 99)) return Response.json({ error: "values" }, { status: 400 });
+      const agg = (await this.s.get("agg")) || emptyAgg();
+      const old = await this.s.get("p:" + d);
+      if (old) { agg.n--; agg[outcomeKey(old.h, old.o)]--; inc(agg.sc, `${old.h}-${old.o}`, -1); if (old.s > 0) inc(agg.st, old.s, -1); }
+      const p = { h, o, s: st, t: Date.now() };
+      agg.n++; agg[outcomeKey(h, o)]++; inc(agg.sc, `${h}-${o}`, 1); if (st > 0) inc(agg.st, st, 1);
+      await this.s.put({ agg, ["p:" + d]: p, [ipk]: ipn + 1 });
+      return Response.json({ ok: true, pred: p });
+    }
+    if (url.pathname === "/vote") {
+      const pl = +b.p;
+      if (!int(pl, 1, 99)) return Response.json({ error: "values" }, { status: 400 });
+      const v = (await this.s.get("vagg")) || { n: 0, p: {} };
+      const old = await this.s.get("v:" + d);
+      if (old) { v.n--; inc(v.p, old, -1); }
+      v.n++; inc(v.p, pl, 1);
+      await this.s.put({ vagg: v, ["v:" + d]: pl, [ipk]: ipn + 1 });
+      return Response.json({ ok: true, vote: pl });
+    }
+    return Response.json({ error: "not-found" }, { status: 404 });
   }
 }

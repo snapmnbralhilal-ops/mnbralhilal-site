@@ -438,3 +438,12 @@ footer .wrap{row-gap:14px}
 @keyframes sp-roll{from{transform:translateX(0)}to{transform:translateX(50%)}}
 @media (max-width:520px){.sp-item{padding:0 24px}.sp-item img{height:36px;max-width:130px}.sp-track{animation-duration:28s}}
 @media (prefers-reduced-motion:reduce){.sp-track{animation:none;flex-wrap:wrap;width:auto;justify-content:center}.sp-set[aria-hidden]{display:none}.sp-set{flex-wrap:wrap;justify-content:center;row-gap:20px}}
+
+/* بانر الألعاب في الرئيسية */
+.play-promo{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.play-promo a{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:16px;background:var(--surface);border:1px solid var(--line);color:var(--ink)}
+.play-promo a:first-child{background:linear-gradient(135deg,#1C3BE8,#0A1C6B);border:0;color:#fff}
+.play-promo b{font:700 15px var(--display)}
+.play-promo small{font-size:12px;opacity:.8}
+.wrap.play-wrap{display:block;padding-top:16px}
+.next .cal-row{gap:8px;flex-wrap:wrap}
