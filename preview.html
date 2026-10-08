@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>تجربة التصميم الجديد — منبر الهلال</title>
+<meta name="theme-color" content="#06070C">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
+<link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/ExpoArabic-SemiBold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=202610082140">
+<link rel="stylesheet" href="assets/v2/style.css?v=202610082140">
+<style>
+/* إلغاء ستايل الهيدر القديم فقط لصفحة المعاينة */
+.mast, .tabbar, footer, .sponsors, .follow, .install-bar, .ticker, .page-home .hero { display: none !important }
+.page { padding: 0 !important }
+.wrap { max-width: 540px !important; padding: 0 !important }
+body { background: var(--v2-bg) !important; color: var(--v2-ink) !important }
+</style>
+</head>
+<body class="v2" data-page="home" data-section="home">
+<script src="assets/v2/layout.js?v=202610082140"></script>
+
+<main class="v2-page">
+  <section class="v2-hero" id="v2Hero"><div class="v2-empty">جاري التحميل…</div></section>
+
+  <section class="v2-today" id="v2Today" hidden></section>
+  <section class="v2-break" id="v2Break" hidden></section>
+
+  <section class="v2-sec">
+    <div class="v2-quick">
+      <a class="primary" href="play.html#predict">
+        <svg aria-hidden="true"><use href="#i2-whistle"/></svg>
+        <b>توقّع النتيجة</b>
+        <small>وشارك في دوري توقعات منبر</small>
+        <svg class="arr" aria-hidden="true" width="16" height="16"><use href="#i2-chevron"/></svg>
+      </a>
+      <a class="secondary" href="play.html#coach">
+        <svg aria-hidden="true"><use href="#i2-users"/></svg>
+        <b>كن أنت المدرب</b>
+        <small>اختر تشكيلتك وشاركها</small>
+        <svg class="arr" aria-hidden="true" width="16" height="16"><use href="#i2-chevron"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="v2-sec">
+    <div class="v2-sec-h"><h2><svg aria-hidden="true"><use href="#i2-chart"/></svg>الهلال هذا الموسم</h2><a href="standings.html">كل الترتيب <svg aria-hidden="true"><use href="#i2-chevron"/></svg></a></div>
+    <div class="v2-stats" id="v2Stats"><div class="v2-empty" style="grid-column:1/-1">—</div></div>
+  </section>
+
+  <section class="v2-sec" id="v2ResultsSec">
+    <div class="v2-sec-h"><h2><svg aria-hidden="true"><use href="#i2-ball"/></svg>مباريات الهلال</h2><a href="matches.html">عرض الكل <svg aria-hidden="true"><use href="#i2-chevron"/></svg></a></div>
+    <div class="v2-rrow" id="v2Results"></div>
+  </section>
+
+  <section class="v2-sec">
+    <div class="v2-sec-h"><h2><svg aria-hidden="true"><use href="#i2-img"/></svg>آخر التصاميم</h2><a href="designs.html">كل التصاميم <svg aria-hidden="true"><use href="#i2-chevron"/></svg></a></div>
+    <div class="v2-dgrid" id="v2Designs"></div>
+  </section>
+
+  <section class="v2-sec" id="v2VideoSec">
+    <div class="v2-sec-h"><h2><svg aria-hidden="true"><use href="#i2-video"/></svg>فيديو منبر</h2><a href="videos.html">كل الفيديوهات <svg aria-hidden="true"><use href="#i2-chevron"/></svg></a></div>
+    <div id="v2Video"></div>
+  </section>
+
+  <section class="v2-sec">
+    <div class="v2-sec-h"><h2><svg aria-hidden="true"><use href="#i2-news"/></svg>أبرز الأخبار</h2><a href="news.html">كل الأخبار <svg aria-hidden="true"><use href="#i2-chevron"/></svg></a></div>
+    <div class="v2-nlist" id="v2News"></div>
+  </section>
+</main>
+
+<script>LAYOUT.foot()</script>
+<script src="assets/names.js?v=202610082140"></script>
+<script src="assets/v2/home.js?v=202610082140"></script>
+<script src="assets/social.js?v=202610082140"></script>
+<script src="assets/push.js?v=202610082140"></script>
+</body>
+</html>

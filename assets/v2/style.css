@@ -1,0 +1,265 @@
+/* الواجهة الجديدة (v2) — نظام تصميم موحّد لمنبر الهلال.
+   كل الكلاسات مُسمّاة v2-* عشان ما تتعارض مع التصميم الحالي. */
+
+:root {
+  /* الألوان: أسود عميق + أزرق هلالي أساسي + درجات رمادي للمحتوى */
+  --v2-bg: #06070C;
+  --v2-surface: #0F1218;
+  --v2-surface-2: #171B24;
+  --v2-surface-3: #212632;
+  --v2-line: #1F2430;
+  --v2-ink: #F5F7FB;
+  --v2-muted: #8B93A7;
+  --v2-faint: #5A6276;
+  --v2-blue: #2F5BFF;
+  --v2-blue-soft: #4A6EFF;
+  --v2-blue-deep: #0A1C6B;
+  --v2-gold: #F5B800;
+  --v2-live: #FF3B30;
+  --v2-win: #22C77A;
+  --v2-loss: #FF4D4D;
+  --v2-draw: #9B9B9B;
+  --v2-r-sm: 10px;
+  --v2-r-md: 16px;
+  --v2-r-lg: 22px;
+  --v2-shadow: 0 10px 40px -16px rgba(0, 0, 0, .8);
+  --v2-glow: 0 20px 60px -20px rgba(47, 91, 255, .6);
+}
+
+/* أساسيات الصفحة */
+body.v2 {
+  background: var(--v2-bg); color: var(--v2-ink);
+  font-family: var(--display, "Expo Arabic", system-ui, sans-serif);
+  font-size: 15px; line-height: 1.6; direction: rtl;
+  padding-bottom: calc(78px + env(safe-area-inset-bottom));
+  -webkit-font-smoothing: antialiased;
+}
+body.v2 * { box-sizing: border-box }
+body.v2 a:not([class]) { color: inherit; text-decoration: none }
+body.v2 a { text-decoration: none }
+body.v2 [hidden] { display: none !important }
+.v2-wrap { max-width: 540px; margin-inline: auto; padding-inline: 16px }
+.icon { stroke: currentColor; fill: none; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; flex: none; vertical-align: -3px }
+
+/* ---------- الهيدر العلوي ---------- */
+.v2-top {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(6, 7, 12, .88);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-bottom: 1px solid var(--v2-line);
+}
+.v2-top-in {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  max-width: 540px; margin-inline: auto; padding: 14px 16px 10px;
+  padding-top: max(14px, env(safe-area-inset-top));
+}
+.v2-brand { display: inline-flex; align-items: center; gap: 10px; min-width: 0 }
+.v2-logo { width: 22px; height: 38px; flex: none; background: #fff; -webkit-mask: url(../logo.png) center/contain no-repeat; mask: url(../logo.png) center/contain no-repeat }
+.v2-brand-t { display: flex; flex-direction: column; line-height: 1.15; min-width: 0 }
+.v2-brand-t b { font-weight: 700; font-size: 17px; letter-spacing: -.2px }
+.v2-brand-t em { font-style: normal; font-size: 11.5px; color: var(--v2-muted); font-weight: 500 }
+.v2-top-actions { display: flex; gap: 8px }
+.v2-ib { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--v2-surface-2); color: var(--v2-ink); border: 1px solid var(--v2-line); cursor: pointer; transition: background .15s }
+.v2-ib:hover { background: var(--v2-surface-3) }
+.v2-ib.on { background: var(--v2-blue); border-color: var(--v2-blue); color: #fff }
+/* push.js يضيف tip تحت زر التنبيهات — نخفيه هنا */
+.v2-top .push-tip { display: none }
+
+/* شريط التبويبات الثانوية (داخل القسم) */
+.v2-sub {
+  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  max-width: 540px; margin-inline: auto; padding: 0 16px 10px;
+}
+.v2-sub::-webkit-scrollbar { display: none }
+.v2-sub a {
+  flex: none; padding: 7px 14px; border-radius: 999px; font: 600 13px/1 var(--display);
+  background: var(--v2-surface-2); color: var(--v2-muted); border: 1px solid var(--v2-line);
+}
+.v2-sub a[aria-current="page"] { background: var(--v2-blue); color: #fff; border-color: var(--v2-blue) }
+
+/* ---------- شريط التنقل السفلي ---------- */
+.v2-tabs {
+  position: fixed; inset-inline: 0; bottom: 0; z-index: 60;
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  background: rgba(10, 12, 18, .96); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+  border-top: 1px solid var(--v2-line);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.v2-tabs a {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 10px 4px 8px; font: 600 11px var(--display); color: var(--v2-muted);
+  position: relative; transition: color .15s;
+}
+.v2-tabs a svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round }
+.v2-tabs a.on { color: var(--v2-ink) }
+.v2-tabs a.on::before { content: ""; position: absolute; top: -1px; inset-inline: 24%; height: 2px; background: var(--v2-blue); border-radius: 0 0 2px 2px }
+
+/* ---------- الصفحة ---------- */
+.v2-page { padding: 16px 0 20px; display: grid; gap: 16px }
+.v2-sec { padding: 0 16px; display: grid; gap: 12px }
+.v2-sec-h { display: flex; align-items: center; justify-content: space-between; gap: 10px }
+.v2-sec-h h2 { margin: 0; font: 700 17px var(--display); display: inline-flex; align-items: center; gap: 7px }
+.v2-sec-h h2 svg { color: var(--v2-blue); width: 18px; height: 18px }
+.v2-sec-h a { color: var(--v2-muted); font: 600 12.5px var(--display); display: inline-flex; align-items: center; gap: 3px }
+.v2-sec-h a svg { width: 14px; height: 14px }
+
+/* بطاقة أساسية */
+.v2-card {
+  background: var(--v2-surface); border: 1px solid var(--v2-line);
+  border-radius: var(--v2-r-md); padding: 14px;
+}
+
+/* ---------- الهيرو: المباراة ---------- */
+.v2-hero {
+  margin: 0 16px; position: relative; overflow: hidden; border-radius: var(--v2-r-lg);
+  padding: 18px 18px 20px; color: #fff;
+  background:
+    radial-gradient(420px 240px at 15% 115%, rgba(47, 91, 255, .5), transparent 60%),
+    radial-gradient(380px 220px at 95% -15%, rgba(10, 28, 107, .9), transparent 60%),
+    linear-gradient(165deg, #0E1A4F 0%, #0A1340 55%, #050B2E 100%);
+  box-shadow: var(--v2-glow);
+}
+.v2-hero::before { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(115deg, rgba(255, 255, 255, .025) 0 2px, transparent 2px 24px); pointer-events: none }
+.v2-hero > * { position: relative; z-index: 1 }
+.v2-hero-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; font: 600 12px var(--display); color: #B9C3E3; margin-bottom: 14px }
+.v2-hero-top .v2-comp { display: inline-flex; align-items: center; gap: 6px }
+.v2-hero-top .v2-comp svg { width: 14px; height: 14px; color: var(--v2-gold) }
+.v2-badge { display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border-radius: 999px; background: rgba(255, 255, 255, .12); font: 700 11px var(--display); color: #fff }
+.v2-badge.live { background: var(--v2-live); animation: v2-pulse 1.8s infinite }
+.v2-badge.live::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #fff; animation: v2-pulse 1s infinite }
+@keyframes v2-pulse { 50% { opacity: .55 } }
+
+.v2-match {
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 14px;
+  margin-bottom: 18px;
+}
+.v2-side { display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0 }
+.v2-crest { width: 68px; height: 68px; display: grid; place-items: center; background: #fff; border-radius: 18px; padding: 8px; box-shadow: 0 6px 20px -8px rgba(0, 0, 0, .6) }
+.v2-crest img { max-width: 100%; max-height: 100%; object-fit: contain }
+.v2-crest.ph { background: var(--v2-blue); color: #fff; font: 700 26px var(--display) }
+.v2-side b { font: 700 15.5px var(--display); text-align: center; line-height: 1.3 }
+.v2-mid { display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 90px }
+.v2-mid .v2-time, .v2-mid .v2-score { font: 700 36px var(--display); line-height: 1; direction: ltr }
+.v2-mid .v2-score { font-size: 44px }
+.v2-mid small { font: 500 11.5px var(--display); color: #B9C3E3 }
+
+.v2-meta { font: 500 12.5px var(--display); color: #B9C3E3; text-align: center; margin-bottom: 14px; line-height: 1.6 }
+.v2-cd { display: flex; justify-content: center; gap: 10px; margin-bottom: 16px }
+.v2-cd div { background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .12); border-radius: 12px; padding: 8px 10px; min-width: 58px; text-align: center }
+.v2-cd b { display: block; font: 700 22px var(--display); font-variant-numeric: tabular-nums; line-height: 1.1 }
+.v2-cd small { font-size: 10.5px; color: #B9C3E3 }
+.v2-hero-cta { display: grid; gap: 8px }
+body.v2 a.v2-cta-primary, body.v2 button.v2-cta-primary { display: inline-flex; align-items: center; justify-content: space-between; gap: 8px; padding: 14px 18px; border: 0; border-radius: 14px; background: #fff; color: #0A1340; font: 700 15px var(--display); cursor: pointer; text-decoration: none }
+body.v2 a.v2-cta-primary svg { color: #0A1340; stroke: #0A1340 }
+body.v2 a.v2-cta-secondary { display: inline-flex; align-items: center; justify-content: center; padding: 13px 14px; border-radius: 14px; background: rgba(255, 255, 255, .14); color: #fff; font: 700 15px var(--display); border: 0; cursor: pointer }
+
+/* ---------- بانر «في مثل هذا اليوم» ---------- */
+.v2-today {
+  margin: 0 16px; padding: 14px 16px; border-radius: var(--v2-r-md);
+  background: linear-gradient(100deg, rgba(47, 91, 255, .18), rgba(245, 184, 0, .08));
+  border: 1px solid rgba(47, 91, 255, .3);
+  display: flex; align-items: center; gap: 12px;
+}
+.v2-today .v2-ic { width: 44px; height: 44px; border-radius: 12px; background: rgba(47, 91, 255, .3); display: grid; place-items: center; flex: none }
+.v2-today .v2-ic svg { color: #fff; width: 22px; height: 22px }
+.v2-today-t { flex: 1; min-width: 0 }
+.v2-today-t b { display: block; font: 700 14px var(--display); margin-bottom: 2px }
+.v2-today-t span { font-size: 12.5px; color: var(--v2-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block }
+
+/* ---------- شريط عاجل ---------- */
+.v2-break {
+  margin: 0 16px; padding: 10px 14px; border-radius: var(--v2-r-md);
+  background: rgba(255, 59, 48, .12); border: 1px solid rgba(255, 59, 48, .35); color: #FFCFCB;
+  display: flex; align-items: center; gap: 10px; font: 600 13.5px var(--display);
+}
+.v2-break .v2-tag { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 6px; background: var(--v2-live); color: #fff; font: 700 11px var(--display); flex: none }
+
+/* ---------- أزرار الألعاب السريعة ---------- */
+.v2-quick { display: grid; grid-template-columns: 1fr 1fr; gap: 10px }
+body.v2 .v2-quick a {
+  position: relative; padding: 16px 14px; border-radius: var(--v2-r-md); display: flex; flex-direction: column; gap: 6px; min-height: 100px; overflow: hidden; text-decoration: none;
+}
+body.v2 .v2-quick a.primary { background: linear-gradient(135deg, var(--v2-blue), var(--v2-blue-deep)); color: #fff }
+body.v2 .v2-quick a.secondary { background: var(--v2-surface); border: 1px solid var(--v2-line); color: var(--v2-ink) }
+.v2-quick svg { width: 24px; height: 24px; stroke-width: 1.75 }
+.v2-quick a.primary svg { color: #fff }
+.v2-quick a.secondary svg { color: var(--v2-blue) }
+.v2-quick b { font: 700 14.5px var(--display) }
+.v2-quick small { font-size: 12px; opacity: .85; line-height: 1.5 }
+.v2-quick a .arr { position: absolute; left: 12px; bottom: 12px; opacity: .5 }
+
+/* ---------- شريط إحصائيات الهلال ---------- */
+.v2-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px }
+.v2-stat { background: var(--v2-surface); border: 1px solid var(--v2-line); border-radius: var(--v2-r-md); padding: 12px 6px; text-align: center }
+.v2-stat b { display: block; font: 700 22px var(--display); line-height: 1 }
+.v2-stat small { font-size: 11px; color: var(--v2-muted); margin-top: 4px; display: block }
+.v2-stat .form { display: flex; justify-content: center; gap: 3px; margin-top: 3px }
+.v2-stat .form span { width: 14px; height: 14px; border-radius: 4px; font: 700 9px var(--display); color: #fff; display: grid; place-items: center }
+.v2-stat .form .w { background: var(--v2-win) }
+.v2-stat .form .d { background: var(--v2-draw) }
+.v2-stat .form .l { background: var(--v2-loss) }
+
+/* ---------- شريط النتائج/القادم ---------- */
+.v2-rrow { display: grid; gap: 8px }
+.v2-row { display: grid; grid-template-columns: auto 1fr auto 1fr auto; align-items: center; gap: 8px; padding: 10px 12px; background: var(--v2-surface); border: 1px solid var(--v2-line); border-radius: 12px; font: 600 13.5px var(--display) }
+.v2-row .side { display: flex; align-items: center; gap: 7px; min-width: 0 }
+.v2-row .side.away { flex-direction: row-reverse }
+.v2-row .side span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.v2-row .crest { width: 22px; height: 22px; object-fit: contain; background: #fff; border-radius: 5px; padding: 2px; flex: none }
+.v2-row .ph { width: 22px; height: 22px; border-radius: 5px; background: var(--v2-blue); display: grid; place-items: center; color: #fff; font: 700 10px var(--display); flex: none }
+.v2-row .sc { font: 700 15px var(--display); direction: ltr; min-width: 44px; text-align: center }
+.v2-row .when { font: 600 11px var(--display); color: var(--v2-muted); text-align: center; min-width: 60px; line-height: 1.4 }
+.v2-row.hl { border-color: var(--v2-blue); background: linear-gradient(90deg, rgba(47, 91, 255, .1), var(--v2-surface) 60%) }
+
+/* ---------- شبكة تصاميم ---------- */
+.v2-dgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px }
+.v2-d { position: relative; aspect-ratio: 3/4; border-radius: var(--v2-r-md); overflow: hidden; background: var(--v2-surface-2); display: block }
+.v2-d img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s }
+.v2-d:hover img { transform: scale(1.04) }
+.v2-d-meta { position: absolute; inset: auto 0 0 0; padding: 32px 10px 10px; background: linear-gradient(transparent, rgba(0, 0, 0, .85)); color: #fff }
+.v2-d-meta b { display: block; font: 700 11px var(--display); color: #D7E0FF; margin-bottom: 2px }
+.v2-d-meta span { display: block; font: 600 13px var(--display); line-height: 1.4; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical }
+
+/* ---------- بطاقة فيديو ---------- */
+.v2-video {
+  position: relative; aspect-ratio: 16/9; border-radius: var(--v2-r-md); overflow: hidden; display: block;
+  background: linear-gradient(135deg, var(--v2-blue-deep), #050B2E);
+}
+.v2-video::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle, rgba(255, 255, 255, .1), transparent 60%) }
+.v2-video-play { position: absolute; inset: 0; margin: auto; width: 60px; height: 60px; border-radius: 50%; background: rgba(255, 255, 255, .95); color: var(--v2-blue-deep); display: grid; place-items: center; box-shadow: 0 10px 30px -8px rgba(0, 0, 0, .6) }
+.v2-video-play svg { width: 26px; height: 26px; fill: currentColor; stroke: none; margin-inline-start: 3px }
+.v2-video-cap { position: absolute; inset: auto 0 0 0; padding: 14px; color: #fff; font: 700 14px var(--display); background: linear-gradient(transparent, rgba(0, 0, 0, .75)); display: flex; align-items: center; gap: 7px }
+
+/* ---------- أخبار ---------- */
+.v2-nlist { display: grid; gap: 10px }
+.v2-n { display: grid; grid-template-columns: auto 1fr; gap: 10px; padding: 12px; background: var(--v2-surface); border: 1px solid var(--v2-line); border-radius: var(--v2-r-md) }
+.v2-n .v2-ntag { padding: 3px 10px; border-radius: 999px; background: var(--v2-surface-3); color: var(--v2-muted); font: 700 11px var(--display); align-self: start }
+.v2-n .v2-ntag.hl { background: var(--v2-blue); color: #fff }
+.v2-n b { display: block; font: 700 13.5px var(--display); margin-bottom: 2px; line-height: 1.4 }
+.v2-n p { margin: 0; font-size: 12.5px; color: var(--v2-muted); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden }
+
+/* ---------- الرعاة ---------- */
+.v2-sponsors { background: var(--v2-surface); padding: 20px 0; margin-top: 8px }
+.v2-sponsors h2 { font: 700 13px var(--display); color: var(--v2-muted); text-align: center; margin: 0 0 14px; display: inline-flex; align-items: center; gap: 6px; width: 100%; justify-content: center }
+.v2-follow { padding: 24px 0 16px; background: var(--v2-surface); margin-top: 2px }
+.v2-follow h2 { text-align: center; font: 700 15px var(--display); margin: 0 0 14px }
+
+.v2-foot { padding: 24px 0; text-align: center; color: var(--v2-muted); font-size: 12px }
+.v2-foot .v2-fb { display: inline-flex; align-items: center; gap: 7px; font: 600 13px var(--display); color: var(--v2-ink); margin-bottom: 10px }
+.v2-foot .v2-fup { display: block; font-size: 11.5px; margin-top: 4px }
+.v2-foot .v2-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--v2-win); margin-inline-end: 4px; vertical-align: middle }
+
+/* ---------- Lightbox ---------- */
+.v2-lb { border: 0; padding: 0; background: transparent; max-width: 520px; width: 100%; border-radius: 20px; margin: auto }
+.v2-lb::backdrop { background: rgba(0, 0, 0, .85) }
+.v2-lb-in { background: var(--v2-surface); border-radius: 20px; overflow: hidden; color: var(--v2-ink); max-height: 90vh; display: flex; flex-direction: column }
+.v2-lb-top { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; border-bottom: 1px solid var(--v2-line); font: 700 15px var(--display) }
+.v2-lb-top button { border: 0; background: var(--v2-surface-3); color: var(--v2-ink); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: grid; place-items: center }
+.v2-lb img { display: block; width: 100%; max-height: 65vh; object-fit: contain; background: #000 }
+.v2-lb-act { display: flex; gap: 8px; padding: 12px; flex-wrap: wrap }
+.v2-btn { flex: 1; min-width: 90px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 10px 14px; border-radius: 10px; background: var(--v2-surface-2); color: var(--v2-ink); border: 0; cursor: pointer; font: 700 13px var(--display); text-decoration: none }
+.v2-btn.primary { background: var(--v2-blue); color: #fff }
+
+/* ---------- محتوى فارغ ---------- */
+.v2-empty { padding: 40px 20px; text-align: center; color: var(--v2-muted); font-size: 13px }
