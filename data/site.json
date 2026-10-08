@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T17:28:35.692Z",
+ "updated": "2026-10-08T18:31:59.778Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1604012,
       "date": "2026-10-08T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 29,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "Najran",
       "league": {
        "id": 308,
@@ -804,7 +804,7 @@
       },
       "goals": [
        0,
-       0
+       4
       ]
      }
     ]
@@ -849,8 +849,8 @@
      {
       "id": 1597935,
       "date": "2026-10-08T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 27,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Wakla",
       "league": {
        "id": 305,
@@ -872,8 +872,8 @@
        "logo": "https://media.api-sports.io/football/teams/2903.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       2
       ]
      }
     ]
@@ -888,8 +888,8 @@
      {
       "id": 1644202,
       "date": "2026-10-08T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -918,8 +918,8 @@
      {
       "id": 1644203,
       "date": "2026-10-08T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -940,13 +940,16 @@
        "ar": "Widad Témara",
        "logo": "https://media.api-sports.io/football/teams/3458.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644204,
       "date": "2026-10-08T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 32,
       "venue": "Zemamra",
       "league": {
        "id": 200,
@@ -967,7 +970,10 @@
        "ar": "Hassania Agadir",
        "logo": "https://media.api-sports.io/football/teams/973.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      },
      {
       "id": 1644205,
