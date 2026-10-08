@@ -22,8 +22,11 @@ export default {
       return json(live || { status: "idle" }, 10);
     }
     if (url.pathname === "/health") {
-      const [sched, usage] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json")]);
-      return json({ ok: true, interval: +env.LIVE_INTERVAL, schedule: sched?.matches || [], requestsToday: usage?.n || 0 }, 0);
+      if (url.searchParams.has("refresh")) await schedule(env, true);
+      const [sched, usage, beat] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json"), env.KV.get("beat")]);
+      return json({ ok: true, interval: +env.LIVE_INTERVAL, lastCron: beat ? new Date(+beat).toISOString() : null,
+        scheduleAt: sched?.at ? new Date(sched.at).toISOString() : null, schedule: sched?.matches || [], scheduleErrors: sched?.errors || [],
+        requestsToday: usage?.n || 0 }, 0);
     }
     return json({ name: "mnbr-live", endpoints: ["/live", "/health"] }, 60);
   },
@@ -37,22 +40,29 @@ function today() {
 }
 
 /* جدول مباريات الهلال من ملفات الموقع — يتجدد كل 20 دقيقة */
-async function schedule(env) {
+async function schedule(env, force = false) {
   const cached = await env.KV.get("sched", "json");
-  if (cached && Date.now() - cached.at < 20 * 60e3) return cached.matches;
-  const matches = [];
+  // لو آخر محاولة فشلت أو ما لقت شي، نعيد المحاولة بعد 3 دقائق بدل 20
+  const ttl = cached && cached.matches?.length && !cached.errors?.length ? 20 * 60e3 : 3 * 60e3;
+  if (!force && cached && Date.now() - cached.at < ttl) return cached.matches;
+  const matches = [], errors = [];
+  const get = async (path) => {
+    const r = await fetch(`${env.SITE}/${path}?t=${Date.now()}`, { headers: { "user-agent": "mnbr-live/1.0" }, cf: { cacheTtl: 0 } });
+    if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+    return r.json();
+  };
   try {
-    const site = await (await fetch(`${env.SITE}/data/site.json?t=${Date.now()}`)).json();
+    const site = await get("data/site.json");
     for (const m of site?.hilal?.upcoming || []) matches.push({ id: m.id || null, date: m.date });
-  } catch (e) {}
+  } catch (e) { errors.push(String(e.message || e)); }
   try {
-    const d = await (await fetch(`${env.SITE}/data/designs.json?t=${Date.now()}`)).json();
+    const d = await get("data/designs.json");
     for (const x of d?.designs || []) if (x.match?.date && (x.match.home === "الهلال" || x.match.away === "الهلال")) matches.push({ id: null, date: x.match.date });
-  } catch (e) {}
+  } catch (e) { errors.push(String(e.message || e)); }
   // بدون تكرار (نفس الموعد)
   const seen = new Set(), uniq = [];
   for (const m of matches) { const k = new Date(m.date).getTime(); if (!seen.has(k)) { seen.add(k); uniq.push(m); } }
-  await env.KV.put("sched", JSON.stringify({ at: Date.now(), matches: uniq }));
+  await env.KV.put("sched", JSON.stringify({ at: Date.now(), matches: uniq, errors }));
   return uniq;
 }
 
@@ -101,6 +111,7 @@ async function pollOnce(env, win) {
 
 async function tick(env) {
   const now = Date.now();
+  await env.KV.put("beat", String(now));
   const matches = await schedule(env);
   const m = matches.map((x) => ({ ...x, kickoff: new Date(x.date).getTime() }))
     .find((x) => now >= x.kickoff - PRE && now <= x.kickoff + POST);
