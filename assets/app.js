@@ -343,13 +343,13 @@
       let rows = spl.slice(0, 5);
       const meRow = spl.find((r) => r.team.id === HILAL_ID);
       if (meRow && !rows.includes(meRow)) rows = [...rows.slice(0, 4), meRow];
-      put("splMini", rows.length ? rows.map((r) => `<tr class="${cls(r)}${r.team.id === HILAL_ID ? " hl" : ""}"><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num" style="direction:ltr">${r.gd > 0 ? "+" : ""}${r.gd}</td><td class="pts">${r.points}</td></tr>`).join("")
+      put("splMini", rows.length ? rows.map((r) => `<tr class="${cls(r)}${r.team.id === HILAL_ID ? " hl" : ""}"><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num" ><bdi dir="ltr">${r.gd > 0 ? "+" : ""}${r.gd}</bdi></td><td class="pts">${r.points}</td></tr>`).join("")
         : `<tr><td colspan="5" class="empty">الترتيب غير متوفر حالياً</td></tr>`);
     }
     if ($("spl")) $("spl").innerHTML = spl.length ? spl.map((r) => {
       const desc = (r.description || "").toLowerCase();
       const cls = desc.includes("relegation") ? "rel" : (desc.includes("champions") || desc.includes("afc")) ? "acl" : (r.rank <= 3 ? "acl" : r.rank > n - 3 ? "rel" : "");
-      return `<tr class="${cls}${r.team.id === HILAL_ID ? " hl" : ""}"><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num">${r.win}</td><td class="num">${r.draw}</td><td class="num">${r.lose}</td><td class="num" style="direction:ltr">${r.gd > 0 ? "+" : ""}${r.gd}</td><td class="pts">${r.points}</td></tr>`;
+      return `<tr class="${cls}${r.team.id === HILAL_ID ? " hl" : ""}"><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num">${r.win}</td><td class="num">${r.draw}</td><td class="num">${r.lose}</td><td class="num" ><bdi dir="ltr">${r.gd > 0 ? "+" : ""}${r.gd}</bdi></td><td class="pts">${r.points}</td></tr>`;
     }).join("") : `<tr><td colspan="8" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
 
     // الدوريات الأوروبية (صفحة الترتيب): تبويبات
@@ -360,7 +360,7 @@
         $("euroTabs").innerHTML = L.map(([k, l]) => `<button type="button" role="tab" aria-selected="${k === cur}" data-eu="${k}">${l}</button>`).join("");
         $("euroTabs").querySelectorAll("[data-eu]").forEach((b) => (b.onclick = () => { cur = renderTables.euro = b.dataset.eu; draw(); }));
         const rows = st?.[cur]?.rows || [];
-        $("euro").innerHTML = rows.length ? rows.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num" style="direction:ltr">${r.gd > 0 ? "+" : ""}${r.gd}</td><td class="pts">${r.points}</td></tr>`).join("")
+        $("euro").innerHTML = rows.length ? rows.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num" ><bdi dir="ltr">${r.gd > 0 ? "+" : ""}${r.gd}</bdi></td><td class="pts">${r.points}</td></tr>`).join("")
           : `<tr><td colspan="5" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
       };
       draw();

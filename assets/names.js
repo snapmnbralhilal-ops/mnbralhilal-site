@@ -5,6 +5,8 @@
 (function (g) {
   // المفتاح = الاسم الإنجليزي بعد التبسيط (بدون Al / FC / مسافات / شرطات)
   const TEAMS = {
+    // أوروبا (أندية إضافية)
+    "1koln": "كولن", "1899hoffenheim": "هوفنهايم", "angers": "أنجيه", "athletic": "أتلتيك بلباو", "auxerre": "أوكسير", "borussiamonchengladbach": "مونشنغلادباخ", "cagliari": "كالياري", "como": "كومو", "deportivolacoruna": "ديبورتيفو لاكورونيا", "elche": "إلتشي", "espanyol": "إسبانيول", "estactroyes": "تروا", "augsburg": "أوغسبورغ", "schalke04": "شالكه", "fsvmainz05": "ماينز", "frosinone": "فروزينوني", "genoa": "جنوى", "hamburgersv": "هامبورغ", "lehavre": "لوهافر", "lemans": "لومان", "lecce": "ليتشي", "lens": "لانس", "levante": "ليفانتي", "lorient": "لوريان", "malaga": "ملقة", "monza": "مونزا", "nice": "نيس", "paris": "باريس إف سي", "parma": "بارما", "racingsantander": "راسينغ سانتاندير", "rayovallecano": "رايو فايكانو", "rennes": "رين", "freiburg": "فرايبورغ", "paderborn07": "بادربورن", "svelversberg": "إلفرسبرغ", "sassuolo": "ساسولو", "stadebrestois29": "بريست", "strasbourg": "ستراسبورغ", "torino": "تورينو", "toulouse": "تولوز", "udinese": "أودينيزي", "unionberlin": "يونيون برلين", "venezia": "فينيسيا", "vfbstuttgart": "شتوتغارت", "werderbremen": "فيردر بريمن",
     // السعودية
     hilal: "الهلال", alhilalsaudi: "الهلال", hilalsaudi: "الهلال",
     nassr: "النصر", ittihad: "الاتحاد", ittihadjeddah: "الاتحاد",
