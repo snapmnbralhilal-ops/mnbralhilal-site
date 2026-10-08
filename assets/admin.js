@@ -168,35 +168,57 @@
     };
   }
 
-  /* ---------- 🌱 تحت 21 ---------- */
+  /* ---------- 🌱 الفئات السنية (تحت 21 + تحت 18/17/15) ---------- */
   async function tabYouth() {
     const box = $("s-youth");
-    box.innerHTML = `<h2>🌱 الهلال تحت 21</h2>
-      <div class="adm-grid"><div class="full"><label for="yComp">البطولة</label><input id="yComp"></div><div><label for="ySeason">الموسم</label><input id="ySeason"></div><div><label for="yUpd">الجدول محدّث حتى</label><input id="yUpd" type="date"></div></div>
-      <h3>المباريات القادمة</h3><p class="adm-hint">بعد ما تنتهي المباراة اضغط «انتهت» وتنتقل للنتائج وتعبّي الأهداف.</p><div id="yUp"></div>
-      <h3>النتائج</h3><div id="yRes"></div>
-      <h3>جدول الترتيب (أول 8)</h3><div id="yTbl"></div>
-      <h3>أخبار الفئات السنية</h3><div id="yNews"></div>
-      <button type="button" class="card-btn adm-save" id="ySave">💾 احفظ تحت 21</button>`;
+    box.innerHTML = `<h2>🌱 الفئات السنية</h2><div class="adm-tabs adm-ytabs" id="yG"></div><div id="yBody"></div>
+      <button type="button" class="card-btn adm-save" id="ySave">💾 احفظ الفئات السنية</button>`;
     let y;
     try { y = await load("data/youth.json"); } catch (e) { box.insertAdjacentHTML("beforeend", `<p class="adm-msg">${esc(e.message)}</p>`); return; }
-    ["upcoming", "results", "table", "news"].forEach((k) => (y[k] = y[k] || []));
-    $("yComp").value = y.competition || ""; $("ySeason").value = y.season || ""; $("yUpd").value = y.updated || todayKey();
-    const mf = [["date", "الموعد", "datetime", { full: true }], ["home", "المستضيف", "text"], ["away", "الضيف", "text"], ["round", "الجولة", "text"], ["venue", "الملعب", "text"]];
-    let resEd;
-    listEditor($("yUp"), y.upcoming, mf, { addLabel: "+ مباراة قادمة", newItem: () => ({ home: "الهلال", away: "" }), title: (m) => `${m.home || ""} × ${m.away || ""}`,
-      extraBtn: { label: "انتهت ✓", run: (i) => { const m = y.upcoming.splice(i, 1)[0]; y.results.unshift({ ...m, homeGoals: 0, awayGoals: 0 }); resEd.redraw(); } } });
-    resEd = listEditor($("yRes"), y.results, [["date", "الموعد", "datetime", { full: true }], ["home", "المستضيف", "text"], ["away", "الضيف", "text"], ["homeGoals", "أهداف المستضيف", "number"], ["awayGoals", "أهداف الضيف", "number"], ["round", "الجولة", "text"], ["venue", "الملعب", "text"]],
-      { addLabel: "+ نتيجة", newItem: () => ({ home: "الهلال", homeGoals: 0, awayGoals: 0 }), title: (m) => `${m.home || ""} ${m.homeGoals ?? ""}-${m.awayGoals ?? ""} ${m.away || ""}` });
-    listEditor($("yTbl"), y.table, [["team", "الفريق", "text", { full: true }], ["played", "لعب", "number"], ["points", "النقاط", "number"], ["win", "فوز", "number"], ["draw", "تعادل", "number"], ["lose", "خسارة", "number"], ["gf", "له", "number"], ["ga", "عليه", "number"]],
-      { addLabel: "+ فريق", newItem: () => ({ team: "", played: 0, win: 0, draw: 0, lose: 0, gf: 0, ga: 0, points: 0 }), title: (r, i) => `${i + 1}. ${r.team || ""}` });
-    listEditor($("yNews"), y.news, [["title", "العنوان", "text", { full: true }], ["body", "التفاصيل", "textarea"], ["link", "رابط (اختياري)", "text", { full: true }]], { addLabel: "+ خبر", newItem: () => ({ title: "", tag: "تحت 21" }) });
+    y.key = y.key || "u21"; y.groups = y.groups || [];
+    const all = () => [y, ...y.groups];
+    let cur = y;
+    const fix = (g) => ["upcoming", "results", "table", "news"].forEach((k) => (g[k] = g[k] || []));
+    function drawTabs() {
+      $("yG").innerHTML = all().map((g, i) => `<button data-i="${i}" class="${g === cur ? "on" : ""}">${esc((g.title || g.key).replace(/^الهلال\s*/, ""))}</button>`).join("") + `<button data-new="1">+ فئة</button>`;
+      $("yG").querySelectorAll("[data-i]").forEach((b) => (b.onclick = () => { cur = all()[+b.dataset.i]; drawTabs(); drawGroup(); }));
+      $("yG").querySelector("[data-new]").onclick = () => {
+        const n = prompt("رقم الفئة (مثال: 16)"); if (!n || !/^\d{1,2}$/.test(n.trim())) return;
+        const g = { key: "u" + n.trim(), title: "الهلال تحت " + n.trim(), competition: "الدوري الممتاز تحت " + n.trim(), season: y.season || "", updated: todayKey(), upcoming: [], results: [], table: [], news: [] };
+        y.groups.push(g); cur = g; drawTabs(); drawGroup();
+      };
+    }
+    function drawGroup() {
+      const g = cur; fix(g);
+      $("yBody").innerHTML = `
+        <div class="adm-grid"><div class="full"><label for="yTitle">العنوان</label><input id="yTitle"></div><div class="full"><label for="yComp">البطولة</label><input id="yComp"></div><div><label for="ySeason">الموسم</label><input id="ySeason"></div><div><label for="yUpd">الجدول محدّث حتى</label><input id="yUpd" type="date"></div></div>
+        ${g !== y ? `<button type="button" class="lb-btn adm-add" id="yDel" style="margin-top:10px">🗑️ حذف هالفئة</button>` : ""}
+        <h3>المباريات القادمة</h3><p class="adm-hint">بعد ما تنتهي المباراة اضغط «انتهت» وتنتقل للنتائج وتعبّي الأهداف.</p><div id="yUp"></div>
+        <h3>النتائج</h3><div id="yRes"></div>
+        <h3>جدول الترتيب (أول 8)</h3><div id="yTbl"></div>
+        <h3>الأخبار</h3><div id="yNews"></div>`;
+      const bind = (id, k, def) => { $(id).value = g[k] || def || ""; $(id).oninput = () => (g[k] = $(id).value.trim()); };
+      bind("yTitle", "title"); bind("yComp", "competition"); bind("ySeason", "season"); bind("yUpd", "updated", todayKey());
+      if ($("yDel")) $("yDel").onclick = () => { if (!confirm("تحذف " + (g.title || g.key) + "؟")) return; y.groups = y.groups.filter((x) => x !== g); cur = y; drawTabs(); drawGroup(); };
+      const mf = [["date", "الموعد", "datetime", { full: true }], ["home", "المستضيف", "text"], ["away", "الضيف", "text"], ["round", "الجولة", "text"], ["venue", "الملعب", "text"]];
+      let resEd;
+      listEditor($("yUp"), g.upcoming, mf, { addLabel: "+ مباراة قادمة", newItem: () => ({ home: "الهلال", away: "" }), title: (m) => `${m.home || ""} × ${m.away || ""}`,
+        extraBtn: { label: "انتهت ✓", run: (i) => { const m = g.upcoming.splice(i, 1)[0]; g.results.unshift({ ...m, homeGoals: 0, awayGoals: 0 }); resEd.redraw(); } } });
+      resEd = listEditor($("yRes"), g.results, [["date", "الموعد", "datetime", { full: true }], ["home", "المستضيف", "text"], ["away", "الضيف", "text"], ["homeGoals", "أهداف المستضيف", "number"], ["awayGoals", "أهداف الضيف", "number"], ["round", "الجولة", "text"], ["venue", "الملعب", "text"]],
+        { addLabel: "+ نتيجة", newItem: () => ({ home: "الهلال", homeGoals: 0, awayGoals: 0 }), title: (m) => `${m.home || ""} ${m.homeGoals ?? ""}-${m.awayGoals ?? ""} ${m.away || ""}` });
+      listEditor($("yTbl"), g.table, [["team", "الفريق", "text", { full: true }], ["played", "لعب", "number"], ["points", "النقاط", "number"], ["win", "فوز", "number"], ["draw", "تعادل", "number"], ["lose", "خسارة", "number"], ["gf", "له", "number"], ["ga", "عليه", "number"]],
+        { addLabel: "+ فريق", newItem: () => ({ team: "", played: 0, win: 0, draw: 0, lose: 0, gf: 0, ga: 0, points: 0 }), title: (r, i) => `${i + 1}. ${r.team || ""}` });
+      listEditor($("yNews"), g.news, [["title", "العنوان", "text", { full: true }], ["body", "التفاصيل", "textarea"], ["link", "رابط (اختياري)", "text", { full: true }]], { addLabel: "+ خبر", newItem: () => ({ title: "" }) });
+    }
+    const out = (g) => ({ ...g, updated: g.updated || todayKey(),
+      upcoming: clean(g.upcoming).filter((m) => m.date), results: clean(g.results).filter((m) => m.date),
+      table: clean(g.table).filter((r) => r.team).sort((a, b) => (b.points || 0) - (a.points || 0) || ((b.gf || 0) - (b.ga || 0)) - ((a.gf || 0) - (a.ga || 0))),
+      news: clean(g.news).filter((n) => n.title) });
+    drawTabs(); drawGroup();
     $("ySave").onclick = () => {
-      const out = { ...y, competition: $("yComp").value.trim(), season: $("ySeason").value.trim(), updated: $("yUpd").value || todayKey(),
-        upcoming: clean(y.upcoming).filter((m) => m.date), results: clean(y.results).filter((m) => m.date),
-        table: clean(y.table).filter((r) => r.team).sort((a, b) => (b.points || 0) - (a.points || 0) || ((b.gf || 0) - (b.ga || 0)) - ((a.gf || 0) - (a.ga || 0))),
-        news: clean(y.news).filter((n) => n.title) };
-      commit([{ path: "data/youth.json", json: out }], "تحديث تحت 21", $("ySave"));
+      const { groups, ...main } = y;
+      const file = { ...out(main), groups: groups.map(out) };
+      commit([{ path: "data/youth.json", json: file }], "تحديث الفئات السنية", $("ySave"));
     };
   }
 

@@ -472,11 +472,22 @@
     $("yNewsWrap").hidden = !news.length;
     $("yNews").innerHTML = news.map((n) => `<a href="${esc(n.link || "youth.html")}"><span class="k">${esc(n.tag || "تحت 21")}</span><div><h3>${esc(n.title)}</h3><p>${esc(n.body || "")}</p></div></a>`).join("");
   }
+  // الفئات السنية: تحت 21 (أساسي) + المجموعات الإضافية (تحت 18، 17، 15) بتبويبات
   async function loadYouth() {
-    try {
-      const r = await fetch("data/youth.json?t=" + Date.now(), { cache: "no-store" });
-      renderYouth(r.ok ? await r.json() : null);
-    } catch (e) { renderYouth(null); }
+    let y = null;
+    try { const r = await fetch("data/youth.json?t=" + Date.now(), { cache: "no-store" }); y = r.ok ? await r.json() : null; } catch (e) {}
+    if (!y) { renderYouth(null); return; }
+    const G = [{ ...y, key: y.key || "u21" }, ...(y.groups || [])];
+    const tabs = $("yTabs");
+    if (!tabs || G.length < 2) { renderYouth(G[0]); return; }
+    let cur = (location.hash.slice(1) && G.find((g) => g.key === location.hash.slice(1))) ? location.hash.slice(1) : G[0].key;
+    const draw = () => {
+      tabs.hidden = false;
+      tabs.innerHTML = G.map((g) => `<button type="button" role="tab" aria-selected="${g.key === cur}" data-yg="${esc(g.key)}">${esc((g.title || "").replace(/^الهلال\s*/, "") || g.key)}</button>`).join("");
+      tabs.querySelectorAll("[data-yg]").forEach((b) => (b.onclick = () => { cur = b.dataset.yg; try { history.replaceState(null, "", "#" + cur); } catch (e) {} draw(); }));
+      renderYouth(G.find((g) => g.key === cur));
+    };
+    draw();
   }
 
   async function loadAds() {

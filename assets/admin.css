@@ -43,3 +43,4 @@
 .adm-img img{background:repeating-conic-gradient(#777 0 25%,#999 0 50%) 50%/16px 16px}
 .adm,.adm-sec{min-width:0;overflow-wrap:anywhere}
 .adm-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.adm-grid>div{min-width:0}.adm input[type=date],.adm input[type=datetime-local]{min-width:0;font-size:14px}
+.adm-ytabs{grid-template-columns:repeat(auto-fill,minmax(80px,1fr));margin-bottom:6px}

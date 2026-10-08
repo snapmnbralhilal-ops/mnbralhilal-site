@@ -4,18 +4,393 @@
   "season": "2026/27",
   "updated": "2026-10-08",
   "upcoming": [
-    { "date": "2026-10-12T18:05:00+03:00", "home": "الهلال", "away": "الوطن", "round": "الجولة 6", "venue": "ملعب نادي الهلال" }
+    {
+      "date": "2026-10-12T18:05:00+03:00",
+      "home": "الهلال",
+      "away": "الوطن",
+      "round": "الجولة 6",
+      "venue": "ملعب نادي الهلال"
+    }
   ],
   "results": [],
   "table": [
-    { "team": "الاتحاد", "played": 5, "win": 4, "draw": 1, "lose": 0, "gf": 11, "ga": 2,  "points": 13 },
-    { "team": "الفتح",   "played": 5, "win": 4, "draw": 0, "lose": 1, "gf": 12, "ga": 4,  "points": 12 },
-    { "team": "الأهلي",  "played": 5, "win": 3, "draw": 2, "lose": 0, "gf": 13, "ga": 6,  "points": 11 },
-    { "team": "الهلال",  "played": 5, "win": 3, "draw": 1, "lose": 1, "gf": 12, "ga": 6,  "points": 10 },
-    { "team": "الرياض",  "played": 5, "win": 3, "draw": 1, "lose": 1, "gf": 10, "ga": 6,  "points": 10 },
-    { "team": "الاتفاق", "played": 5, "win": 3, "draw": 0, "lose": 2, "gf": 21, "ga": 8,  "points": 9 },
-    { "team": "الخلود",  "played": 4, "win": 3, "draw": 0, "lose": 1, "gf": 7,  "ga": 3,  "points": 9 },
-    { "team": "الفيحاء", "played": 5, "win": 3, "draw": 0, "lose": 2, "gf": 11, "ga": 8,  "points": 9 }
+    {
+      "team": "الاتحاد",
+      "played": 5,
+      "win": 4,
+      "draw": 1,
+      "lose": 0,
+      "gf": 11,
+      "ga": 2,
+      "points": 13
+    },
+    {
+      "team": "الفتح",
+      "played": 5,
+      "win": 4,
+      "draw": 0,
+      "lose": 1,
+      "gf": 12,
+      "ga": 4,
+      "points": 12
+    },
+    {
+      "team": "الأهلي",
+      "played": 5,
+      "win": 3,
+      "draw": 2,
+      "lose": 0,
+      "gf": 13,
+      "ga": 6,
+      "points": 11
+    },
+    {
+      "team": "الهلال",
+      "played": 5,
+      "win": 3,
+      "draw": 1,
+      "lose": 1,
+      "gf": 12,
+      "ga": 6,
+      "points": 10
+    },
+    {
+      "team": "الرياض",
+      "played": 5,
+      "win": 3,
+      "draw": 1,
+      "lose": 1,
+      "gf": 10,
+      "ga": 6,
+      "points": 10
+    },
+    {
+      "team": "الاتفاق",
+      "played": 5,
+      "win": 3,
+      "draw": 0,
+      "lose": 2,
+      "gf": 21,
+      "ga": 8,
+      "points": 9
+    },
+    {
+      "team": "الخلود",
+      "played": 4,
+      "win": 3,
+      "draw": 0,
+      "lose": 1,
+      "gf": 7,
+      "ga": 3,
+      "points": 9
+    },
+    {
+      "team": "الفيحاء",
+      "played": 5,
+      "win": 3,
+      "draw": 0,
+      "lose": 2,
+      "gf": 11,
+      "ga": 8,
+      "points": 9
+    }
   ],
-  "news": []
+  "news": [],
+  "groups": [
+    {
+      "key": "u18",
+      "title": "الهلال تحت 18",
+      "competition": "الدوري الممتاز تحت 18",
+      "season": "2026/27",
+      "updated": "2026-10-08",
+      "upcoming": [
+        {
+          "date": "2026-10-10T15:25:00+03:00",
+          "home": "الهلال",
+          "away": "الوطن"
+        }
+      ],
+      "results": [],
+      "table": [
+        {
+          "team": "الاتحاد",
+          "played": 4,
+          "win": 3,
+          "draw": 0,
+          "lose": 1,
+          "gf": 11,
+          "ga": 4,
+          "points": 9
+        },
+        {
+          "team": "الاتفاق",
+          "played": 4,
+          "win": 3,
+          "draw": 0,
+          "lose": 1,
+          "gf": 9,
+          "ga": 3,
+          "points": 9
+        },
+        {
+          "team": "الأهلي",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "lose": 0,
+          "gf": 6,
+          "ga": 1,
+          "points": 9
+        },
+        {
+          "team": "القادسية",
+          "played": 4,
+          "win": 3,
+          "draw": 0,
+          "lose": 1,
+          "gf": 11,
+          "ga": 8,
+          "points": 9
+        },
+        {
+          "team": "الهلال",
+          "played": 4,
+          "win": 2,
+          "draw": 1,
+          "lose": 1,
+          "gf": 10,
+          "ga": 6,
+          "points": 7
+        },
+        {
+          "team": "العلا",
+          "played": 4,
+          "win": 2,
+          "draw": 1,
+          "lose": 1,
+          "gf": 10,
+          "ga": 8,
+          "points": 7
+        },
+        {
+          "team": "محايل",
+          "played": 4,
+          "win": 2,
+          "draw": 1,
+          "lose": 1,
+          "gf": 7,
+          "ga": 5,
+          "points": 7
+        },
+        {
+          "team": "الفيحاء",
+          "played": 4,
+          "win": 2,
+          "draw": 0,
+          "lose": 2,
+          "gf": 7,
+          "ga": 9,
+          "points": 6
+        }
+      ],
+      "news": []
+    },
+    {
+      "key": "u17",
+      "title": "الهلال تحت 17",
+      "competition": "الدوري الممتاز تحت 17",
+      "season": "2026/27",
+      "updated": "2026-10-08",
+      "upcoming": [
+        {
+          "date": "2026-10-08T15:30:00+03:00",
+          "home": "الفيحاء",
+          "away": "الهلال"
+        }
+      ],
+      "results": [],
+      "table": [
+        {
+          "team": "الهلال",
+          "played": 4,
+          "win": 4,
+          "draw": 0,
+          "lose": 0,
+          "gf": 11,
+          "ga": 0,
+          "points": 12
+        },
+        {
+          "team": "العلا",
+          "played": 4,
+          "win": 4,
+          "draw": 0,
+          "lose": 0,
+          "gf": 14,
+          "ga": 3,
+          "points": 12
+        },
+        {
+          "team": "التعاون",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "lose": 0,
+          "gf": 10,
+          "ga": 2,
+          "points": 9
+        },
+        {
+          "team": "الاتحاد",
+          "played": 4,
+          "win": 3,
+          "draw": 0,
+          "lose": 1,
+          "gf": 9,
+          "ga": 1,
+          "points": 9
+        },
+        {
+          "team": "الاتفاق",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "lose": 0,
+          "gf": 8,
+          "ga": 1,
+          "points": 9
+        },
+        {
+          "team": "الفتح",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "lose": 0,
+          "gf": 9,
+          "ga": 5,
+          "points": 9
+        },
+        {
+          "team": "الأهلي",
+          "played": 4,
+          "win": 2,
+          "draw": 1,
+          "lose": 1,
+          "gf": 7,
+          "ga": 4,
+          "points": 7
+        },
+        {
+          "team": "الشباب",
+          "played": 3,
+          "win": 2,
+          "draw": 0,
+          "lose": 1,
+          "gf": 4,
+          "ga": 3,
+          "points": 6
+        }
+      ],
+      "news": []
+    },
+    {
+      "key": "u15",
+      "title": "الهلال تحت 15",
+      "competition": "الدوري الممتاز تحت 15",
+      "season": "2026/27",
+      "updated": "2026-10-08",
+      "upcoming": [
+        {
+          "date": "2026-10-09T15:25:00+03:00",
+          "home": "الهلال",
+          "away": "القادسية"
+        }
+      ],
+      "results": [],
+      "table": [
+        {
+          "team": "الأهلي",
+          "played": 5,
+          "win": 5,
+          "draw": 0,
+          "lose": 0,
+          "gf": 11,
+          "ga": 3,
+          "points": 15
+        },
+        {
+          "team": "الهلال",
+          "played": 4,
+          "win": 4,
+          "draw": 0,
+          "lose": 0,
+          "gf": 14,
+          "ga": 0,
+          "points": 12
+        },
+        {
+          "team": "القادسية",
+          "played": 4,
+          "win": 3,
+          "draw": 1,
+          "lose": 0,
+          "gf": 5,
+          "ga": 0,
+          "points": 10
+        },
+        {
+          "team": "الاتفاق",
+          "played": 4,
+          "win": 2,
+          "draw": 1,
+          "lose": 1,
+          "gf": 15,
+          "ga": 5,
+          "points": 7
+        },
+        {
+          "team": "الفاتح",
+          "played": 4,
+          "win": 2,
+          "draw": 1,
+          "lose": 1,
+          "gf": 4,
+          "ga": 2,
+          "points": 7
+        },
+        {
+          "team": "التعاون",
+          "played": 4,
+          "win": 2,
+          "draw": 0,
+          "lose": 2,
+          "gf": 6,
+          "ga": 3,
+          "points": 6
+        },
+        {
+          "team": "الاتحاد",
+          "played": 4,
+          "win": 2,
+          "draw": 0,
+          "lose": 2,
+          "gf": 7,
+          "ga": 5,
+          "points": 6
+        },
+        {
+          "team": "نيوم",
+          "played": 5,
+          "win": 1,
+          "draw": 3,
+          "lose": 1,
+          "gf": 3,
+          "ga": 1,
+          "points": 6
+        }
+      ],
+      "news": []
+    }
+  ],
+  "key": "u21"
 }
