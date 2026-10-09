@@ -164,9 +164,21 @@ async function pollRoshn(env, activeList) {
   // مكالمة واحدة تجيب كل المباريات المباشرة مرة وحدة — رخيصة
   const all = await api(env, { live: "all" });
   // تخزين كل المباريات المباشرة في KV للعرض على زوار الموقع — تحديث فوري بدون انتظار site.json
+  const now = Date.now();
   const map = {};
   for (const f of all) { const s = slim(f); map[s.id] = s; }
-  await env.KV.put("live-today", JSON.stringify({ at: Date.now(), matches: map }), { expirationTtl: 2 * 3600 });
+  // نحتفظ بالمباريات اللي خلصت بين النبضة الحالية والسابقة ونعلّمها FT عشان الواجهة ما تظل تعرضها "مباشر"
+  const prev = (await env.KV.get("live-today", "json"))?.matches || {};
+  const todayKey = today(); // yyyy-mm-dd بتوقيت الرياض
+  for (const [idS, last] of Object.entries(prev)) {
+    if (map[idS]) continue;
+    // لو كانت مباراة اليوم ومستمرة سابقاً → خلصت الحين → علّمها FT بآخر نتيجة
+    const d = last.date ? last.date.slice(0, 10) : null;
+    if (!d || d !== todayKey) continue;
+    if (DONE.includes(last.status)) { map[idS] = last; continue; }
+    map[idS] = { ...last, status: "FT", elapsed: null };
+  }
+  await env.KV.put("live-today", JSON.stringify({ at: now, matches: map }), { expirationTtl: 36 * 3600 });
   if (!activeList || !activeList.length) return;
   const byId = new Map(all.map((f) => [f.fixture.id, f]));
   const now = Date.now();
