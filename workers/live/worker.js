@@ -39,6 +39,13 @@ export default {
         }
         return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 5);
       }
+      if (url.pathname === "/_diag") {
+        const all = await api(env, { live: "all" });
+        const now = Date.now();
+        const hourRi = (new Date(now + 3 * 3600e3)).getUTCHours();
+        const activeHours = hourRi >= 10 || hourRi <= 2;
+        return noStore({ at: now, hourRi, activeHours, allLen: all.length, firstId: all[0]?.fixture?.id || null, firstStatus: all[0]?.fixture?.status?.short || null });
+      }
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
         const [sched, usage] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json")]);
