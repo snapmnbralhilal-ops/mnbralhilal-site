@@ -560,7 +560,7 @@
       } catch (e) {}
     };
     tick();
-    LIVE_TODAY_TIMER = setInterval(() => { if (!document.hidden) tick(); }, 15000);
+    LIVE_TODAY_TIMER = setInterval(() => { if (!document.hidden) tick(); }, 30000);
     document.addEventListener("visibilitychange", () => { if (!document.hidden) tick(); });
   }
 

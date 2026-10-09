@@ -39,13 +39,6 @@ export default {
         }
         return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 5);
       }
-      if (url.pathname === "/_diag" || url.pathname === "/_diag2" || url.pathname === "/_diag3") {
-        const res = await fetch("https://v3.football.api-sports.io/fixtures?live=all", { headers: { "x-apisports-key": env.API_FOOTBALL_KEY } });
-        const body = await res.json().catch(() => null);
-        return noStore({ httpStatus: res.status, hasKey: !!env.API_FOOTBALL_KEY, keyLen: (env.API_FOOTBALL_KEY || "").length,
-          errors: body?.errors, results: body?.results, responseLen: Array.isArray(body?.response) ? body.response.length : null,
-          sample: body ? JSON.stringify(body).slice(0, 300) : null });
-      }
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
         const [sched, usage] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json")]);
@@ -314,16 +307,16 @@ async function tick(env) {
   }
 
   const interval = Math.max(10, +env.LIVE_INTERVAL || 180);
-  // اللوبات السريعة: وقت ما مباراة الهلال شغّالة أو خلال ساعات اللعب (لتحديث مباريات العالم كل 15ث)
+  // اللوبات السريعة: فقط وقت مباراة الهلال (توفيراً لحد الطلبات بالدقيقة)
   const hilalLive = m && now >= m.kickoff;
-  const fastLoop = interval < 60 && (hilalLive || activeHours);
+  const fastLoop = interval < 60 && hilalLive;
   const loops = fastLoop ? Math.floor(55 / interval) + 1 : 1;
   try {
     for (let i = 0; i < loops; i++) {
       if (i) await new Promise((r) => setTimeout(r, interval * 1000));
       if (hilalLive) await pollOnce(env, m);
-      // روشن / كل المباريات المباشرة في العالم: نسحبها بنفس تردد الهلال خلال ساعات اللعب
-      if (activeHours || roshnLive.length) await pollRoshn(env, roshnLive);
+      // روشن ومباريات العالم: مكالمة واحدة بالدقيقة (أول لفة فقط)
+      if (i === 0 && (activeHours || roshnLive.length)) await pollRoshn(env, roshnLive);
     }
   } finally { await flushUsage(env); }
   if (m && hilalLive) await settle(env, m.kickoff);
