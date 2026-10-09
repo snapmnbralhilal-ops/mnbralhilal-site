@@ -66,7 +66,7 @@
     const style = "";
     const bellBtn = bell ? `<button class="row-bell" type="button" data-fx-bell data-fx-id="${esc(bell.id)}" data-fx-kick="${esc(bell.kickoff)}" data-fx-home="${esc(bell.home)}" data-fx-away="${esc(bell.away)}" data-fx-league="${esc(bell.league || "")}" aria-label="تنبيهات هذه المباراة"><svg><use href="#i-bell"/></svg></button>` : "";
     const canDetails = m.league?.id === 307 && Number.isSafeInteger(Number(m.id)) && (LIVE.includes(m.status) || DONE.includes(m.status));
-    const detailsLink = canDetails ? `<a class="row-details" href="match.html?id=${encodeURIComponent(m.id)}" aria-label="تفاصيل المباراة">التفاصيل <span aria-hidden="true">←</span></a>` : "";
+    const detailsLink = canDetails ? `<a class="row-details" href="fixture.html?id=${encodeURIComponent(m.id)}" aria-label="تفاصيل المباراة">التفاصيل <span aria-hidden="true">←</span></a>` : "";
     const cls = `row${hl ? " hl" : ""}${bell ? " has-bell" : ""}${canDetails ? " has-details" : ""}`;
     return `<div class="${cls}"${style}>${when || '<div class="when" aria-hidden="true"></div>'}
       <div class="side">${crest(m.home)}<span>${esc(arTeam(m.home.name))}</span></div>${scoreCell(m)}
