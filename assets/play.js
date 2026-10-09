@@ -221,7 +221,7 @@
       slots.map(([g, x, y], i) => {
         const p = BYID[coach.xi[i]];
         return `<button type="button" class="slot${p ? " full" : ""}" style="left:${x}%;top:${y}%" data-i="${i}" aria-label="${p ? esc(p.name) : "اختر " + POS_AR[g]}">
-          <span class="sl-dot">${p ? p.n : "+"}</span><span class="sl-n">${p ? esc(p.short) : POS_AR[g]}</span></button>`;
+          <span class="sl-dot${p && p.img ? " ph" : ""}">${p ? (p.img ? `<img src="${esc(p.img)}" alt="" decoding="async"><em>${p.n}</em>` : p.n) : "+"}</span><span class="sl-n">${p ? esc(p.short) : POS_AR[g]}</span></button>`;
       }).join("");
     $("pitch").querySelectorAll(".slot").forEach((s) => (s.onclick = () => openPicker(+s.dataset.i)));
     renderCoachSend();
@@ -276,7 +276,7 @@
     $("pkTabs").innerHTML = order.map((x, j) => `<button type="button" class="chip${j === 0 ? " on" : ""}" data-g="${x}">${POS_AR[x]}</button>`).join("");
     const list = (grp) => {
       const used = new Set(coach.xi.filter((_, j) => j !== i));
-      $("pkList").innerHTML = SQUAD.filter((p) => p.pos === grp).map((p) => `<button type="button" class="pk-row${used.has(p.id) ? " used" : ""}${coach.xi[i] === p.id ? " on" : ""}" data-p="${p.id}"><i>${p.n}</i><b>${esc(p.name)}</b>${used.has(p.id) ? "<small>في التشكيلة</small>" : ""}</button>`).join("") +
+      $("pkList").innerHTML = SQUAD.filter((p) => p.pos === grp).map((p) => `<button type="button" class="pk-row${used.has(p.id) ? " used" : ""}${coach.xi[i] === p.id ? " on" : ""}" data-p="${p.id}">${p.img ? `<i class="ph"><img src="${esc(p.img)}" alt="" loading="lazy" decoding="async"></i>` : `<i>${p.n}</i>`}<b>${esc(p.name)}${p.img ? ` <span class="pk-n">${p.n}</span>` : ""}</b>${used.has(p.id) ? "<small>في التشكيلة</small>" : ""}</button>`).join("") +
         (coach.xi[i] ? `<button type="button" class="pk-row rm" data-p="0"><b>شيل اللاعب من المركز</b></button>` : "");
       $("pkList").querySelectorAll(".pk-row").forEach((r) => (r.onclick = () => {
         const pid = +r.dataset.p;
@@ -411,15 +411,26 @@
     x.restore();
     x.font = '700 30px "Expo Arabic"'; x.fillStyle = "rgba(0,0,0,.45)"; roundRect(x, PX + 34, PY + 34, 140, 50, 14); x.fill();
     x.fillStyle = "#fff"; x.textAlign = "center"; x.direction = "ltr"; x.fillText(coach.form, PX + 104, PY + 70); x.direction = "rtl";
+    const loadImg = (src) => new Promise((r) => { const im = new Image(); im.onload = () => r(im); im.onerror = () => r(null); im.src = src; });
+    const pics = await Promise.all(FORMS[coach.form].map((_, i) => { const p = BYID[coach.xi[i]]; return p && p.img ? loadImg(p.img) : null; }));
     FORMS[coach.form].forEach(([g, sx, sy], i) => {
       const p = BYID[coach.xi[i]]; if (!p) return;
-      const cx = PX + (sx / 100) * PW, cy = PY + (sy / 100) * PH;
+      const cx = PX + (sx / 100) * PW, cy = PY + (sy / 100) * PH, im = pics[i];
+      if (im) {
+        const R = 46, gr = x.createLinearGradient(0, cy - R, 0, cy + R); gr.addColorStop(0, "#3A63F0"); gr.addColorStop(1, "#0B1E5B");
+        x.fillStyle = gr; x.beginPath(); x.arc(cx, cy, R, 0, 7); x.fill();
+        x.save(); x.beginPath(); x.arc(cx, cy, R, 0, 7); x.clip(); x.drawImage(im, cx - R, cy - R, R * 2, R * 2); x.restore();
+        x.strokeStyle = g === "GK" ? "#F5B800" : "#fff"; x.lineWidth = 4; x.beginPath(); x.arc(cx, cy, R, 0, 7); x.stroke();
+        x.fillStyle = "#fff"; x.beginPath(); x.arc(cx - R * .78, cy - R * .5, 18, 0, 7); x.fill();
+        x.fillStyle = "#0B1530"; x.font = '700 20px "Expo Arabic"'; x.direction = "ltr"; x.fillText(String(p.n), cx - R * .78, cy - R * .5 + 7); x.direction = "rtl";
+      } else {
       x.fillStyle = g === "GK" ? "#F5B800" : "#1C3BE8"; x.beginPath(); x.arc(cx, cy, 44, 0, 7); x.fill();
       x.strokeStyle = "#fff"; x.lineWidth = 4; x.stroke();
       x.fillStyle = g === "GK" ? "#111" : "#fff"; x.font = '700 36px "Expo Arabic"'; x.direction = "ltr"; x.fillText(String(p.n), cx, cy + 13); x.direction = "rtl";
-      x.font = '700 28px "Expo Arabic"'; const tw = x.measureText(p.short).width + 26;
-      x.fillStyle = "rgba(0,0,0,.65)"; roundRect(x, cx - tw / 2, cy + 52, tw, 42, 12); x.fill();
-      x.fillStyle = "#fff"; x.fillText(p.short, cx, cy + 82);
+      }
+      x.font = im ? '700 25px "Expo Arabic"' : '700 28px "Expo Arabic"'; const tw = x.measureText(p.short).width + 26;
+      const ly = im ? 34 : 52, lh = im ? 38 : 42; x.fillStyle = im ? "rgba(8,14,32,.88)" : "rgba(0,0,0,.65)"; roundRect(x, cx - tw / 2, cy + ly, tw, lh, 12); x.fill();
+      x.fillStyle = "#fff"; x.fillText(p.short, cx, cy + ly + (im ? 27 : 30));
     });
     return c;
   }

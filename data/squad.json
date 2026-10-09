@@ -10,7 +10,8 @@
    "pos": "GK",
    "name": "ياسين بونو",
    "short": "بونو",
-   "en": "Bounou"
+   "en": "Bounou",
+   "img": "assets/players/37.webp"
   },
   {
    "id": 33,
@@ -18,7 +19,8 @@
    "pos": "GK",
    "name": "محمد العويس",
    "short": "العويس",
-   "en": "Al-Owais"
+   "en": "Al-Owais",
+   "img": "assets/players/33.webp"
   },
   {
    "id": 17,
@@ -26,7 +28,8 @@
    "pos": "GK",
    "name": "محمد الربيعي",
    "short": "الربيعي",
-   "en": "Al-Rubaie"
+   "en": "Al-Rubaie",
+   "img": "assets/players/17.webp"
   },
   {
    "id": 35,
@@ -42,7 +45,8 @@
    "pos": "DF",
    "name": "كاليدو كوليبالي",
    "short": "كوليبالي",
-   "en": "Koulibaly"
+   "en": "Koulibaly",
+   "img": "assets/players/3.webp"
   },
   {
    "id": 87,
@@ -50,7 +54,8 @@
    "pos": "DF",
    "name": "حسان تمبكتي",
    "short": "تمبكتي",
-   "en": "Tambakti"
+   "en": "Tambakti",
+   "img": "assets/players/87.webp"
   },
   {
    "id": 19,
@@ -58,7 +63,8 @@
    "pos": "DF",
    "name": "ثيو هيرنانديز",
    "short": "ثيو",
-   "en": "Hernandez"
+   "en": "Hernandez",
+   "img": "assets/players/19.webp"
   },
   {
    "id": 4,
@@ -66,7 +72,8 @@
    "pos": "DF",
    "name": "يوسف أكتشيشيك",
    "short": "أكتشيشيك",
-   "en": "Akcicek"
+   "en": "Akcicek",
+   "img": "assets/players/4.webp"
   },
   {
    "id": 78,
@@ -74,7 +81,8 @@
    "pos": "DF",
    "name": "علي لاجامي",
    "short": "لاجامي",
-   "en": "Lajami"
+   "en": "Lajami",
+   "img": "assets/players/78.webp"
   },
   {
    "id": 2,
@@ -82,7 +90,8 @@
    "pos": "DF",
    "name": "محمد محزري",
    "short": "محزري",
-   "en": "Mahzari"
+   "en": "Mahzari",
+   "img": "assets/players/2.webp"
   },
   {
    "id": 24,
@@ -90,7 +99,8 @@
    "pos": "DF",
    "name": "متعب الحربي",
    "short": "متعب الحربي",
-   "en": "Moteb"
+   "en": "Moteb",
+   "img": "assets/players/24.webp"
   },
   {
    "id": 31,
@@ -122,7 +132,8 @@
    "pos": "DF",
    "name": "محمد السرنوخ",
    "short": "السرنوخ",
-   "en": "Al-Sarnoukh"
+   "en": "Al-Sarnoukh",
+   "img": "assets/players/73.webp"
   },
   {
    "id": 88,
@@ -130,7 +141,8 @@
    "pos": "DF",
    "name": "حمد اليامي",
    "short": "اليامي",
-   "en": "Al-Yami"
+   "en": "Al-Yami",
+   "img": "assets/players/88.webp"
   },
   {
    "id": 8,
@@ -138,7 +150,8 @@
    "pos": "MF",
    "name": "روبن نيفيز",
    "short": "نيفيز",
-   "en": "Neves"
+   "en": "Neves",
+   "img": "assets/players/8.webp"
   },
   {
    "id": 22,
@@ -146,7 +159,8 @@
    "pos": "MF",
    "name": "سيرجي ميلينكوفيتش سافيتش",
    "short": "سافيتش",
-   "en": "Milinkovic"
+   "en": "Milinkovic",
+   "img": "assets/players/22.webp"
   },
   {
    "id": 28,
@@ -154,7 +168,8 @@
    "pos": "MF",
    "name": "محمد كنو",
    "short": "كنو",
-   "en": "Kanno"
+   "en": "Kanno",
+   "img": "assets/players/28.webp"
   },
   {
    "id": 6,
@@ -162,7 +177,8 @@
    "pos": "MF",
    "name": "ناصر الدوسري",
    "short": "ناصر الدوسري",
-   "en": "Nasser Al-Dawsari"
+   "en": "Nasser Al-Dawsari",
+   "img": "assets/players/6.webp"
   },
   {
    "id": 70,
@@ -170,7 +186,8 @@
    "pos": "MF",
    "name": "سايمون بوابري",
    "short": "بوابري",
-   "en": "Bouabre"
+   "en": "Bouabre",
+   "img": "assets/players/70.webp"
   },
   {
    "id": 18,
@@ -178,7 +195,8 @@
    "pos": "MF",
    "name": "مراد هوساوي",
    "short": "هوساوي",
-   "en": "Hawsawi"
+   "en": "Hawsawi",
+   "img": "assets/players/18.webp"
   },
   {
    "id": 27,
@@ -186,7 +204,8 @@
    "pos": "MF",
    "name": "سلطان مندش",
    "short": "مندش",
-   "en": "Mandash"
+   "en": "Mandash",
+   "img": "assets/players/27.webp"
   },
   {
    "id": 72,
@@ -194,7 +213,8 @@
    "pos": "MF",
    "name": "صبري دهل",
    "short": "دهل",
-   "en": "Dahal"
+   "en": "Dahal",
+   "img": "assets/players/72.webp"
   },
   {
    "id": 93,
@@ -202,7 +222,8 @@
    "pos": "MF",
    "name": "عبدالله العنزي",
    "short": "العنزي",
-   "en": "Al-Anazi"
+   "en": "Al-Anazi",
+   "img": "assets/players/93.webp"
   },
   {
    "id": 29,
@@ -211,7 +232,8 @@
    "name": "سالم الدوسري",
    "short": "سالم",
    "captain": true,
-   "en": "Salem Al-Dawsari"
+   "en": "Salem Al-Dawsari",
+   "img": "assets/players/29.webp"
   },
   {
    "id": 7,
@@ -219,7 +241,8 @@
    "pos": "FW",
    "name": "غابرييل مارتينيلي",
    "short": "مارتينيلي",
-   "en": "Martinelli"
+   "en": "Martinelli",
+   "img": "assets/players/7.webp"
   },
   {
    "id": 11,
@@ -227,7 +250,8 @@
    "pos": "FW",
    "name": "أولي واتكينز",
    "short": "واتكينز",
-   "en": "Watkins"
+   "en": "Watkins",
+   "img": "assets/players/11.webp"
   },
   {
    "id": 38,
@@ -235,7 +259,8 @@
    "pos": "FW",
    "name": "كريسنسيو سامرفيل",
    "short": "سامرفيل",
-   "en": "Summerville"
+   "en": "Summerville",
+   "img": "assets/players/38.webp"
   },
   {
    "id": 75,
@@ -243,7 +268,8 @@
    "pos": "FW",
    "name": "محمد قادر ميتي",
    "short": "ميتي",
-   "en": "Meite"
+   "en": "Meite",
+   "img": "assets/players/75.webp"
   },
   {
    "id": 77,
@@ -251,7 +277,8 @@
    "pos": "FW",
    "name": "نواف الحبشي",
    "short": "الحبشي",
-   "en": "Habashi"
+   "en": "Habashi",
+   "img": "assets/players/77.webp"
   }
  ]
 }
