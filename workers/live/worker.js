@@ -37,7 +37,7 @@ export default {
           await env.KV.delete("live-today");
           return noStore({ ok: true, reset: true });
         }
-        return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 15);
+        return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 5);
       }
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
@@ -294,16 +294,11 @@ async function tick(env) {
 
   const m = matches.find((x) => now >= x.kickoff - PRE && now <= x.kickoff + POST);
 
-  // دائماً خلال ساعات اللعب نسحب كل المباريات المباشرة ونخزّنها عشان زوار الموقع يشوفونها حية
-  // (ولا نكرر لو مباراة الهلال نفسها بتسحب نفسها بشكل كامل)
   const hourRi = (new Date(now + 3 * 3600e3)).getUTCHours();
   const activeHours = hourRi >= 10 || hourRi <= 2;    // 10 صباحاً — 2 ليلاً بتوقيت الرياض
-  if (activeHours && !roshnLive.length) {
-    try { await pollRoshn(env, []); } catch (e) {}
-  }
 
-  // لا الهلال ولا روشن — خلّص
-  if (!m && !roshnLive.length) { await flushUsage(env); return; }
+  // لا الهلال ولا روشن ولا مباريات في العالم بوقتها — خلّص
+  if (!m && !roshnLive.length && !activeHours) { await flushUsage(env); return; }
 
   // لو مباراة الهلال قبل البداية، ثبّت الحالة في live
   if (m && now < m.kickoff) {
@@ -312,15 +307,16 @@ async function tick(env) {
   }
 
   const interval = Math.max(10, +env.LIVE_INTERVAL || 180);
-  // اللوبات السريعة بس وقت ما مباراة الهلال نفسها شغّالة (مو قبل البداية)
+  // اللوبات السريعة: وقت ما مباراة الهلال شغّالة أو خلال ساعات اللعب (لتحديث مباريات العالم كل 15ث)
   const hilalLive = m && now >= m.kickoff;
-  const loops = interval < 60 && hilalLive ? Math.floor(55 / interval) + 1 : 1;
+  const fastLoop = interval < 60 && (hilalLive || activeHours);
+  const loops = fastLoop ? Math.floor(55 / interval) + 1 : 1;
   try {
     for (let i = 0; i < loops; i++) {
       if (i) await new Promise((r) => setTimeout(r, interval * 1000));
       if (hilalLive) await pollOnce(env, m);
-      // روشن: مكالمة واحدة في بداية الدقيقة تكفي
-      if (i === 0 && roshnLive.length) await pollRoshn(env, roshnLive);
+      // روشن / كل المباريات المباشرة في العالم: نسحبها بنفس تردد الهلال خلال ساعات اللعب
+      if (activeHours || roshnLive.length) await pollRoshn(env, roshnLive);
     }
   } finally { await flushUsage(env); }
   if (m && hilalLive) await settle(env, m.kickoff);
