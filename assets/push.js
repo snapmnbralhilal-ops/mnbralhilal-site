@@ -14,20 +14,29 @@
   const api = async () => API || (API = await fetch("data/live.json?t=" + Date.now()).then((r) => r.json()).then((j) => j.url.replace(/\/live$/, "")));
   const reg = () => navigator.serviceWorker.register("sw.js").then(() => navigator.serviceWorker.ready);
 
+  const LABEL = { on: "التنبيهات مفعّلة — اضغط للإيقاف", busy: "جاري…", denied: "التنبيهات مقفلة من إعدادات المتصفح", off: "فعّل تنبيهات المباريات والأهداف" };
   function paint(state) {
     btns.forEach((b) => {
-      b.hidden = false;
+      // زر الأيقونة (الجرس في الهيدر): ما نغيّر محتواه، ونخفيه لو التنبيهات مقفلة
+      if (b.dataset.push === "icon") {
+        b.hidden = state === "denied";
+        b.classList.toggle("on", state === "on");
+        b.disabled = state === "busy";
+        b.title = LABEL[state] || ""; b.setAttribute("aria-label", LABEL[state] || "");
+        return;
+      }
+      b.hidden = state === "denied";
       b.classList.toggle("on", state === "on");
       b.disabled = state === "busy";
       b.textContent = state === "on" ? "🔔 التنبيهات مفعّلة — اضغط للإيقاف" : state === "busy" ? "جاري…" : state === "denied" ? "🔕 التنبيهات مقفلة من إعدادات المتصفح" : "🔔 فعّل تنبيهات المباريات والأهداف";
     });
   }
   function tip(text) {
-    btns.forEach((b) => {
-      let t = b.nextElementSibling;
-      if (!t || !t.classList.contains("push-tip")) { t = document.createElement("p"); t.className = "push-tip"; b.after(t); }
-      t.textContent = text;
-    });
+    // رسالة عائمة لزر الجرس (بدل ما تنحشر جوا الهيدر)
+    let toast = document.getElementById("pushToast");
+    if (!toast) { toast = document.createElement("div"); toast.id = "pushToast"; toast.className = "push-toast"; toast.setAttribute("role", "status"); document.body.appendChild(toast); }
+    toast.textContent = text; toast.classList.add("show");
+    clearTimeout(tip._t); tip._t = setTimeout(() => toast.classList.remove("show"), 6000);
   }
 
   async function current() {

@@ -124,7 +124,7 @@
     if (!d) return "";
     const mm = d.match || {};
     const info = [mm.round, mm.commentators ? "التعليق: " + mm.commentators : "", mm.channel ? "الناقل: " + mm.channel : ""].filter(Boolean).map(esc).join(" · ");
-    return `<div class="next-extra">${info ? `<span>${info}</span>` : ""}<button type="button" class="card-btn" data-design="${esc(d.id)}">بطاقة المباراة</button></div>`;
+    return info ? `<div class="next-extra"><span>${info}</span></div>` : "";
   }
   function renderDesigns() {
     const box = $("designs");
@@ -257,7 +257,12 @@
         <div class="mid">${mid}</div>
         <div class="t">${crest(m.away, "crest lg")}${esc(arTeam(m.away.name))}</div>
       </div>
-      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${live ? `<div class="cal-row"><a class="cal-btn" href="matchday.html">⚡ تابع في مركز المباراة</a></div>` : `<div class="cal-row"><a class="cal-btn" href="matchday.html">⚡ مركز المباراة</a><a class="cal-btn" href="play.html#predict">🎯 توقّع النتيجة</a><button type="button" class="cal-btn" id="calNext">📅 أضف للتقويم</button></div>`}${matchSponsorHtml()}`;
+      <div class="count num" id="count" aria-live="polite"></div>${nextExtrasHtml(m)}${(() => { const dz = designForMatch(m); return `<div class="nx-actions">
+        <a class="nx-btn primary" href="matchday.html">${live ? "تابع المباراة مباشرة" : "مركز المباراة"}</a>
+        ${live ? "" : `<a class="nx-btn" href="play.html#predict">توقّع النتيجة</a>`}
+        ${dz ? `<button type="button" class="nx-btn" data-design="${esc(dz.id)}">بطاقة المباراة</button>` : ""}
+        ${live ? "" : `<button type="button" class="nx-ic" id="calNext" title="أضف للتقويم" aria-label="أضف المباراة للتقويم"><svg class="i"><use href="#i-cal"/></svg></button>`}
+      </div>`; })()}${matchSponsorHtml()}`;
     CAL_NEXT = live ? null : m;
     clearInterval(countTimer);
     if (live) return;

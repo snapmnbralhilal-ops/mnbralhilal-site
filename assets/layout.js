@@ -4,24 +4,28 @@
 (function () {
   const PAGE = document.body.dataset.page || "home";
 
-  // روابط القائمة: [المعرّف، الاسم، الرابط، الأيقونة، يظهر في شريط الجوال السفلي؟]
+  // روابط القائمة: [المعرّف، الاسم، الرابط، الأيقونة، يظهر في شريط الجوال السفلي؟، رابط أساسي في القائمة؟]
+  // الروابط الأساسية (آخر قيمة true) تظهر في القائمة، والباقي تحت "المزيد"
   const NAV = [
-    ["home", "الرئيسية", "index.html", "home", true],
-    ["founding", "69 عاماً", "founding.html", "star", false],
-    ["occasions", "المناسبات", "occasions.html", "history", false],
-    ["matches", "المباريات", "matches.html", "cal", true],
-    ["play", "العب", "play.html", "ball", true],
-    ["matchday", "مركز المباراة", "matchday.html", "bolt", false],
-    ["standings", "الترتيب", "standings.html", "trophy", false],
-    ["stats", "الإحصائيات", "stats.html", "chart", false],
-    ["designs", "التصاميم", "designs.html", "image", true],
-    ["videos", "فيديو", "videos.html", "play", true],
-    ["news", "الأخبار", "news.html", "news", false],
-    ["youth", "الفئات السنية", "youth.html", "users", false]
+    ["home", "الرئيسية", "index.html", "home", true, true],
+    ["matches", "المباريات", "matches.html", "cal", true, true],
+    ["standings", "الترتيب", "standings.html", "trophy", false, true],
+    ["play", "العب", "play.html", "ball", true, true],
+    ["designs", "التصاميم", "designs.html", "image", true, true],
+    ["videos", "فيديو", "videos.html", "play", true, true],
+    ["matchday", "مركز المباراة", "matchday.html", "bolt", false, false],
+    ["news", "الأخبار", "news.html", "news", false, false],
+    ["stats", "الإحصائيات", "stats.html", "chart", false, false],
+    ["youth", "الفئات السنية", "youth.html", "users", false, false],
+    ["occasions", "المناسبات", "occasions.html", "history", false, false],
+    ["founding", "69 عاماً", "founding.html", "star", false, false]
   ];
+  const MAIN = NAV.filter((n) => n[5]), MORE = NAV.filter((n) => !n[5]);
   const TITLES = { occasions: "مناسبات الهلال", stats: "إحصائيات اللاعبين", admin: "لوحة التحكم", matchday: "مركز المباراة", play: "العب مع منبر", founding: "ذكرى التأسيس", home: "كرة القدم", matches: "المباريات", standings: "الترتيب", designs: "التصاميم", videos: "فيديو", news: "الأخبار", youth: "الفئات السنية" };
 
   const SPRITE = `<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0"/></symbol>
+  <symbol id="i-dots" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></symbol>
   <symbol id="i-plane" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z" fill="currentColor" stroke="none"/></symbol>
   <symbol id="i-play" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="4"/><path d="m10 9 5 3-5 3z"/></symbol>
@@ -61,11 +65,15 @@
       <span class="logo" role="img" aria-label="شعار منبر الهلال"></span>
       <span class="brand"><b>منبر الهلال</b><span>MNBRALHILAL</span></span>
     </a>
+    <button type="button" class="hd-bell" data-push="icon" hidden aria-label="تنبيهات المباريات والأهداف">${icon("bell")}</button>
   </div>
   <div class="subnav"><div class="wrap">
     <strong class="sect">${TITLES[PAGE] || ""}</strong>
     <nav class="nav" aria-label="أقسام الموقع">
-      ${NAV.map(([id, name, href]) => `<a href="${href}"${cur(id)}>${name}</a>`).join("")}
+      ${MAIN.map(([id, name, href]) => `<a href="${href}"${cur(id)}>${name}</a>`).join("")}
+      <details class="nav-more${MORE.some((n) => n[0] === PAGE) ? " cur" : ""}"><summary>المزيد${icon("dots")}</summary>
+        <div class="nav-more-menu">${MORE.map(([id, name, href, ic]) => `<a href="${href}"${cur(id)}>${icon(ic)}${name}</a>`).join("")}</div>
+      </details>
     </nav>
   </div></div>
 </header>`;
@@ -105,6 +113,12 @@
   </div>
 </dialog>`;
       document.currentScript.insertAdjacentHTML("beforebegin", html);
+      // زر جرس التنبيهات في الهيدر يشتغل في كل الصفحات
+      if (![...document.scripts].some((s) => /push\.js/.test(s.src))) {
+        const s = document.createElement("script"); s.src = "assets/push.js?v=202610090600"; s.defer = true; document.body.appendChild(s);
+      }
+      // قائمة "المزيد" تنقفل لما تضغط برا
+      document.addEventListener("click", (e) => { document.querySelectorAll("details.nav-more[open]").forEach((d) => { if (!d.contains(e.target)) d.open = false; }); });
     }
   };
 })();

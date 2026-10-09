@@ -569,3 +569,90 @@ footer .wrap{row-gap:14px}
   .rc-p b{font-size:26px}
   .rc-aud b{font-size:34px}
 }
+
+/* ================= ترتيب الرئيسية (مسافات موحّدة) ================= */
+.page-home>.wrap,.page-home>.hero{padding-block:0!important;margin-top:24px}
+.page-home>.wrap[hidden],.page-home>.wrap:has(> [hidden]:only-child){display:none}
+.page-home>.fd-wrap{margin-top:16px}
+.page-home>.fd-wrap+.hero{margin-top:12px}
+.page-home>.hero:first-of-type,.page-home>.sr-only+.hero{margin-top:16px}
+.page-home>.wrap:last-child{margin-bottom:56px}
+.page-home .home-grid{gap:24px}
+.page-home .col{gap:24px}
+
+/* الهيدر: جرس التنبيهات + قائمة "المزيد" */
+.mast .top{position:relative}
+.hd-bell{position:absolute;inset-inline-end:20px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:12px;border:1px solid #2a2a2a;background:var(--surface);color:#cfcfcf;display:grid;place-items:center;cursor:pointer;transition:background .15s,color .15s}
+.hd-bell .i{width:19px;height:19px}
+.hd-bell:hover{background:var(--surface-3);color:#fff}
+.hd-bell.on{color:#fff;background:var(--royal);border-color:var(--royal)}
+@media (max-width:520px){.hd-bell{inset-inline-end:14px;width:36px;height:36px}}
+.nav-more{position:relative}
+.nav-more summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:4px;font-family:var(--display);font-weight:600;font-size:15px;color:#BDBDBD;padding-block:4px;white-space:nowrap}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary .i{width:15px;height:15px;transition:transform .2s}
+.nav-more[open] summary .i{transform:rotate(180deg)}
+.nav-more summary:hover,.nav-more.cur summary,.nav-more[open] summary{color:#fff}
+.nav-more-menu{position:absolute;top:calc(100% + 10px);inset-inline-start:0;z-index:70;min-width:210px;background:#141414;border:1px solid #2a2a2a;border-radius:14px;padding:6px;box-shadow:0 20px 40px -12px rgba(0,0,0,.8);display:grid}
+.nav-more-menu a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:9px;font:600 14px var(--display);color:#d6d6d6}
+.nav-more-menu a::after{display:none}
+.nav-more-menu a .i{width:17px;height:17px;color:var(--muted)}
+.nav-more-menu a:hover,.nav-more-menu a[aria-current="page"]{background:var(--surface-3);color:#fff}
+.nav-more-menu a:hover .i,.nav-more-menu a[aria-current="page"] .i{color:var(--royal)}
+.subnav .wrap{overflow:visible}
+@media (max-width:760px){.subnav .wrap{overflow-x:auto}.nav-more-menu{position:fixed;top:auto;bottom:calc(76px + env(safe-area-inset-bottom));inset-inline:12px;min-width:0}}
+
+/* أزرار بطاقة المباراة: صف واحد مرتب */
+.nx-actions{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px}
+.nx-btn{font:700 14px var(--display);padding:10px 18px;border-radius:10px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:#fff;cursor:pointer;transition:background .15s}
+.nx-btn:hover{background:rgba(255,255,255,.14)}
+.nx-btn.primary{background:var(--royal);border-color:var(--royal)}
+.nx-btn.primary:hover{background:#4C72FF}
+.nx-ic{width:42px;height:42px;border-radius:10px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:#fff;display:grid;place-items:center;cursor:pointer}
+.nx-ic .i{width:19px;height:19px}
+.nx-ic:hover{background:rgba(255,255,255,.14)}
+.next-extra{margin-top:-6px}
+@media (max-width:520px){.nx-btn{padding:9px 14px;font-size:13px}}
+
+/* شريط ذكرى التأسيس: رفيع */
+.page-home .fd-banner{padding:10px 16px;border-radius:14px;gap:12px;box-shadow:none}
+.page-home .fd-banner .n{font-size:30px;text-shadow:none}
+.page-home .fd-banner b{font-size:15px}
+.page-home .fd-banner .go{padding:6px 12px}
+
+/* العب مع منبر */
+.play-links{display:grid;gap:6px;padding:0 12px 14px}
+.play-links a{display:flex;align-items:center;gap:12px;padding:12px;border-radius:12px;background:var(--surface-2);transition:background .15s}
+.play-links a:hover{background:var(--surface-3)}
+.pl-ic{width:40px;height:40px;flex:none;border-radius:11px;display:grid;place-items:center;background:rgba(47,91,255,.15);color:var(--royal)}
+.pl-ic .i{width:20px;height:20px}
+.play-links b{display:block;font:700 15px var(--display)}
+.play-links small{display:block;font-size:12.5px;color:var(--muted)}
+
+/* "في مثل هذا اليوم" داخل العمود: هادي بدل الأزرق */
+.home-grid .occ-wrap{margin-top:0}
+.home-grid .occ-card{background:var(--surface);box-shadow:none;border-radius:var(--radius)}
+.home-grid .oc-ic{background:var(--surface-2)}
+.home-grid .occ-h small,.home-grid .occ-go{color:var(--muted)}
+
+/* الفيديو بعرض الصفحة */
+.v-promo.v-wide{margin:0;padding:18px 20px;border-radius:var(--radius)}
+
+/* ترتيب الجوال */
+@media (max-width:900px){
+  .home-grid .sec-last{order:1}.home-grid .sec-league{order:2}.home-grid .sec-news{order:3}
+  .home-grid .sec-play{order:4}.home-grid .sec-occ{order:5}.home-grid .sec-ad{order:6}
+}
+
+/* رسالة التنبيهات العائمة */
+.push-toast{position:fixed;inset-inline:16px;bottom:calc(90px + env(safe-area-inset-bottom));z-index:90;max-width:460px;margin-inline:auto;background:#1e1e1e;border:1px solid #333;color:#fff;font:600 14px/1.6 var(--display);padding:12px 16px;border-radius:12px;box-shadow:0 20px 40px -10px rgba(0,0,0,.8);opacity:0;transform:translateY(10px);pointer-events:none;transition:opacity .25s,transform .25s}
+.push-toast.show{opacity:1;transform:none}
+@media (max-width:520px){
+  .nx-actions{display:grid;grid-template-columns:1fr 1fr auto;width:100%}
+  .nx-actions .nx-btn.primary{grid-column:1/-1}
+  .nx-actions .nx-btn{padding:10px 8px;text-align:center}
+  .page-home .fd-banner{padding:8px 12px}
+  .page-home .fd-banner .n{font-size:24px}
+  .page-home .fd-banner b{font-size:14px}
+  .page-home .fd-banner small{font-size:11.5px}
+}
