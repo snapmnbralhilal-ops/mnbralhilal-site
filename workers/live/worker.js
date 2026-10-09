@@ -181,7 +181,6 @@ async function pollRoshn(env, activeList) {
   await env.KV.put("live-today", JSON.stringify({ at: now, matches: map }), { expirationTtl: 36 * 3600 });
   if (!activeList || !activeList.length) return;
   const byId = new Map(all.map((f) => [f.fixture.id, f]));
-  const now = Date.now();
   const last = (await env.KV.get("roshn", "json")) || {};
   const out = { ...last };
   let touched = false;
