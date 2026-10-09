@@ -532,14 +532,9 @@
           const merged = { ...m, status: live.status, elapsed: live.elapsed, goals: live.goals, events: live.events || m.events };
           const sigNew = JSON.stringify([merged.status, merged.elapsed, merged.goals, (merged.events || []).length]);
           if (sigOld !== sigNew) { g.matches[i] = merged; changed = true; }
-        } else if (LIVE.includes(m.status)) {
-          // المباراة كانت مباشر لكن اختفت من live-today = غالباً خلصت. لو مرّ 100 دقيقة من البداية علّمها FT بآخر نتيجة
-          const kickMs = m.date ? new Date(m.date).getTime() : 0;
-          if (kickMs > 0 && now >= kickMs + 100 * 60e3) {
-            g.matches[i] = { ...m, status: "FT", elapsed: null };
-            changed = true;
-          }
         }
+        // اختفاء المباراة من قائمة البث لا يثبت نهايتها. ننتظر حالة FT
+        // مؤكدة من مزوّد النتائج بدل عرض نتيجة قديمة على أنها نهائية.
       }
     }
     if (changed) {
