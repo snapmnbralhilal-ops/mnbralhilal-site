@@ -450,7 +450,10 @@
   /* ---------- التحميل ---------- */
   const j = (p) => fetch(p + (p.includes("?") ? "&" : "?") + "t=" + Date.now(), { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   async function refresh() {
-    if (API) GAME = await j(API + "/game?d=" + DID);
+    if (API) {
+      const latest = await j(API + "/game?d=" + DID);
+      if (latest) GAME = latest; // احتفظ بآخر حالة سليمة عند انقطاع الخدمة مؤقتًا
+    }
     if (GAME && GAME.kickoff && MATCH && Math.abs(new Date(MATCH.date) - GAME.kickoff) > 6 * 3600e3) MATCH = await findMatch(GAME.kickoff);
     renderMatch(); renderPredict(); renderVote(); renderCoachSend(); renderCrowd();
     if (!$("t-league").hidden) loadLeague();
@@ -469,7 +472,10 @@
     const [sq, live] = await Promise.all([j("data/squad.json"), j("data/live.json")]);
     SQUAD = sq?.players || []; SQUAD.forEach((p) => (BYID[p.id] = p));
     API = live?.url ? live.url.replace(/\/live$/, "") : null;
-    if (API) GAME = await j(API + "/game?d=" + DID);
+    if (API) {
+      const latest = await j(API + "/game?d=" + DID);
+      if (latest) GAME = latest; // احتفظ بآخر حالة سليمة عند انقطاع الخدمة مؤقتًا
+    }
     MATCH = await findMatch(GAME?.kickoff);
     renderMatch(); renderPredict(); renderVote(); renderCoach(); renderCrowd();
     if (GAME && GAME.phase === "vote" && !location.hash) showTab("vote");
