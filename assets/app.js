@@ -49,7 +49,7 @@
     return `<span class="sc time num">${fTime.format(d)}</span>`;
   }
 
-  function row(m, { showWhen = true, hl = false } = {}) {
+  function row(m, { showWhen = true, hl = false, bell = null } = {}) {
     const d = new Date(m.date);
     const o = DONE.includes(m.status) ? outcome(m) : null;
     const res = o ? `<span class="res ${o}">${lbl[o]}</span>` : "";
@@ -63,9 +63,11 @@
       when = `<div class="when"><span class="live"><span class="dot"></span>${m.elapsed ? ar(m.elapsed) + "'" : "مباشر"}</span></div>`;
     }
     const style = when ? "" : ' style="grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)"';
-    return `<div class="row${hl ? " hl" : ""}"${style}>${when}
+    const bellBtn = bell ? `<button class="row-bell" type="button" data-fx-bell data-fx-id="${esc(bell.id)}" data-fx-kick="${esc(bell.kickoff)}" data-fx-home="${esc(bell.home)}" data-fx-away="${esc(bell.away)}" data-fx-league="${esc(bell.league || "")}" aria-label="تنبيهات هذه المباراة"><svg><use href="#i-bell"/></svg></button>` : "";
+    const cls = `row${hl ? " hl" : ""}${bell ? " has-bell" : ""}`;
+    return `<div class="${cls}"${style}>${when}
       <div class="side">${crest(m.home)}<span>${esc(arTeam(m.home.name))}</span></div>${scoreCell(m)}
-      <div class="side away">${crest(m.away)}<span>${esc(arTeam(m.away.name))}</span></div></div>`;
+      <div class="side away">${crest(m.away)}<span>${esc(arTeam(m.away.name))}</span></div>${bellBtn}</div>`;
   }
 
 
@@ -297,20 +299,28 @@
   }
 
   /* ---------- مباريات اليوم / أمس ---------- */
-  function renderDay(el, day, emptyMsg, limit) {
+  // allowBell: نسمح بأزرار التنبيهات (فقط لمباريات روشن القادمة/المباشرة في #today)
+  function renderDay(el, day, emptyMsg, limit, allowBell = false) {
     if (!el) return;
     const groups = day?.groups || [];
     if (!groups.length) { el.innerHTML = `<div class="empty">${emptyMsg}</div>`; return; }
     let shown = 0, html = "", rest = "";
     for (const g of groups) {
+      const isRoshn = g.league?.id === 307;
       const block = `<div class="sub">${g.league.logo ? `<img src="${esc(g.league.logo)}" alt="" loading="lazy">` : ""}${esc(arLeague(g.league))}</div>` +
-        g.matches.map((m) => row(m, { showWhen: false, hl: m.home.id === HILAL_ID || m.away.id === HILAL_ID })).join("");
+        g.matches.map((m) => {
+          const hl = m.home.id === HILAL_ID || m.away.id === HILAL_ID;
+          const canBell = allowBell && isRoshn && !DONE.includes(m.status);
+          const bell = canBell ? { id: m.id, kickoff: m.date, home: arTeam(m.home.name), away: arTeam(m.away.name), league: arLeague(g.league) } : null;
+          return row(m, { showWhen: false, hl, bell });
+        }).join("");
       if (shown < limit) html += block; else rest += block;
       shown += g.matches.length;
     }
     el.innerHTML = html + (rest ? `<div hidden class="rest">${rest}</div><button class="more" type="button">عرض كل المباريات</button>` : "");
     const btn = el.querySelector(".more");
     if (btn) btn.onclick = () => { el.querySelector(".rest").hidden = false; btn.remove(); };
+    if (allowBell && window.PUSH) { window.PUSH.bind(); window.PUSH.refresh && window.PUSH.refresh(); }
   }
 
   /* ---------- شريط النتائج أعلى الصفحة ---------- */
@@ -490,8 +500,8 @@
     renderLast(h);
     renderMonth(h);
     if ($("todayDate")) $("todayDate").textContent = data.today?.date ? fDay.format(new Date(data.today.date + "T12:00:00+03:00")) : "";
-    renderDay($("todayList"), data.today, "لا توجد مباريات اليوم في الدوريات المتابعة", 14);
-    renderDay($("ydayList"), data.yesterday, "لا توجد نتائج لأمس", 10);
+    renderDay($("todayList"), data.today, "لا توجد مباريات اليوم في الدوريات المتابعة", 14, true);
+    renderDay($("ydayList"), data.yesterday, "لا توجد نتائج لأمس", 10, false);
     renderTables(data.standings);
     renderStrip(data.today);
     renderNews(data.news);

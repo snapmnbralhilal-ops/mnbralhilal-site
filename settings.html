@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("mnbr-theme")==="dark"?"dark":"light"}catch(e){document.documentElement.dataset.theme="light"}</script>
+
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>الإعدادات — منبر الهلال</title>
+<meta name="description" content="إعدادات التنبيهات وخيارات العرض لمنبر الهلال.">
+<meta name="theme-color" content="#E4E6EA">
+<meta property="og:image" content="https://mnbralhilal.net/assets/icon-512.png">
+<meta property="og:url" content="https://mnbralhilal.net/settings.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="منبر الهلال">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://mnbralhilal.net/settings.html">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
+<link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=202610091700">
+<link rel="stylesheet" href="assets/theme-night.css?v=202610091700">
+<link rel="stylesheet" href="assets/theme-light.css?v=202610091700">
+<style>
+.set-page{max-width:720px;margin:0 auto;padding:16px}
+.set-card{background:var(--surface-2);border-radius:14px;padding:16px 18px;margin-bottom:14px}
+.set-card h3{margin:0 0 10px;font-size:16px}
+.set-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 0;border-top:1px solid var(--line)}
+.set-row:first-of-type{border-top:none;padding-top:4px}
+.set-row .lbl{flex:1}
+.set-row .lbl b{display:block;font-size:14.5px;margin-bottom:3px}
+.set-row .lbl small{color:var(--muted);font-size:12.5px;line-height:1.5}
+.toggle{position:relative;width:46px;height:26px;background:var(--surface-3);border-radius:13px;border:none;cursor:pointer;transition:background .18s;flex:none}
+.toggle::after{content:"";position:absolute;top:3px;inset-inline-start:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:transform .18s}
+.toggle.on{background:var(--royal)}
+.toggle.on::after{transform:translateX(-20px)}
+html[dir="ltr"] .toggle.on::after{transform:translateX(20px)}
+.toggle:disabled{opacity:.5;cursor:default}
+.fx-list{margin-top:10px;display:grid;gap:6px}
+.fx-item{display:flex;align-items:center;justify-content:space-between;background:var(--surface-3);border-radius:10px;padding:10px 12px;font-size:13.5px}
+.fx-item b{font-family:var(--display);font-weight:700}
+.fx-item small{color:var(--muted);font-size:12px;display:block;margin-top:2px}
+.fx-item button{background:transparent;border:none;color:var(--muted);cursor:pointer;font-size:18px;padding:4px 8px}
+.fx-item button:hover{color:var(--loss)}
+.fx-empty{color:var(--muted);font-size:13.5px;padding:10px 2px}
+.set-off{display:block;width:100%;background:transparent;color:var(--loss);border:1px solid var(--loss);border-radius:10px;padding:11px;font-size:14px;font-family:var(--display);font-weight:700;cursor:pointer;margin-top:4px}
+.set-off:hover{background:rgba(236,67,67,.08)}
+.set-note{color:var(--muted);font-size:12.5px;line-height:1.6;margin:6px 0 0}
+</style>
+</head>
+<body data-page="settings">
+<script src="assets/layout.js?v=202610091700"></script>
+<main id="main" class="page">
+<h1 class="sr-only">الإعدادات</h1>
+<div class="set-page">
+
+  <section class="set-card">
+    <h3>التنبيهات</h3>
+
+    <div class="set-row">
+      <div class="lbl">
+        <b>تنبيهات مباريات الهلال</b>
+        <small>قبل المباراة بساعة، كل هدف للهلال، ونهاية المباراة.</small>
+      </div>
+      <button type="button" class="toggle" id="togHilal" aria-label="تنبيهات الهلال"></button>
+    </div>
+
+    <div class="set-row">
+      <div class="lbl">
+        <b>تنبيهات مباريات دوري روشن</b>
+        <small>أهداف ونهاية المباريات اللي تختارها من قائمة مباريات اليوم.</small>
+      </div>
+      <div style="color:var(--muted);font-size:12px" id="fxCount">—</div>
+    </div>
+
+    <div class="fx-list" id="fxList"><p class="fx-empty">لم تشترك في أي مباراة بعد.</p></div>
+
+    <p class="set-note" id="setNote"></p>
+
+    <button type="button" class="set-off" id="offAll">إيقاف كل التنبيهات</button>
+  </section>
+
+</div>
+</main>
+<script>LAYOUT.foot()</script>
+<script src="assets/settings.js?v=202610091700"></script>
+</body>
+</html>

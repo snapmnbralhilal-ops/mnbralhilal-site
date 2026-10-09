@@ -18,10 +18,11 @@
     ["stats", "الإحصائيات", "stats.html", "chart", false, false],
     ["youth", "الفئات السنية", "youth.html", "users", false, false],
     ["occasions", "المناسبات", "occasions.html", "history", false, false],
-    ["founding", "69 عاماً", "founding.html", "star", false, false]
+    ["founding", "69 عاماً", "founding.html", "star", false, false],
+    ["settings", "الإعدادات", "settings.html", "bell", false, false]
   ];
   const MAIN = NAV.filter((n) => n[5]), MORE = NAV.filter((n) => !n[5]);
-  const TITLES = { occasions: "مناسبات الهلال", stats: "إحصائيات اللاعبين", admin: "لوحة التحكم", matchday: "مركز المباراة", play: "العب مع منبر", founding: "ذكرى التأسيس", home: "كرة القدم", matches: "المباريات", standings: "الترتيب", designs: "التصاميم", videos: "فيديو", news: "الأخبار", youth: "الفئات السنية" };
+  const TITLES = { occasions: "مناسبات الهلال", stats: "إحصائيات اللاعبين", admin: "لوحة التحكم", matchday: "مركز المباراة", play: "العب مع منبر", founding: "ذكرى التأسيس", home: "كرة القدم", matches: "المباريات", standings: "الترتيب", designs: "التصاميم", videos: "فيديو", news: "الأخبار", youth: "الفئات السنية", settings: "الإعدادات" };
 
   const SPRITE = `<svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
@@ -131,7 +132,7 @@
       document.currentScript.insertAdjacentHTML("beforebegin", html);
       // زر جرس التنبيهات في الهيدر يشتغل في كل الصفحات
       if (![...document.scripts].some((s) => /push\.js/.test(s.src))) {
-        const s = document.createElement("script"); s.src = "assets/push.js?v=202610090600"; s.defer = true; document.body.appendChild(s);
+        const s = document.createElement("script"); s.src = "assets/push.js?v=202610091700"; s.defer = true; document.body.appendChild(s);
       }
       // ظهور ناعم للأقسام وقت النزول
       if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {

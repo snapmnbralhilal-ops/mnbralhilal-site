@@ -140,45 +140,120 @@ async function pollOnce(env, win) {
     await env.KV.put("live", JSON.stringify(out));
   } else { out.savedAt = last.savedAt; env._live = out; }
 
-  // تنبيهات: هدف للهلال، ونهاية المباراة
+  // تنبيهات: هدف للهلال، ونهاية المباراة (لمشتركي الهلال فقط)
   const opp = win.home === "الهلال" ? win.away : win.home;
   if (out.match) {
     const hg = hilalGoals(out.match), og = oppGoals(out.match), was = prev ? hilalGoals(prev) : 0;
     if (hg > was) {
       const g = out.match.events.filter((e) => e.type === "Goal" && e.team === HILAL && e.detail !== "Missed Penalty").pop();
       const who = g?.player ? await arName(env, g.player) : "";
-      await notify(env, `goal:${win.kickoff}:${hg}`, "⚽ هدف للهلال!", `${who ? who + (g.min ? " " + g.min + "'" : "") + " — " : ""}الهلال ${hg}-${og} ${opp}`, "matchday.html");
+      await notify(env, `goal:${win.kickoff}:${hg}`, "⚽ هدف للهلال!", `${who ? who + (g.min ? " " + g.min + "'" : "") + " — " : ""}الهلال ${hg}-${og} ${opp}`, "matchday.html", "hilal");
     }
     if (out.status === "done" && !(prev && DONE.includes(prev.status)))
-      await notify(env, `ft:${win.kickoff}`, hg > og ? "💙 فاز الهلال!" : "انتهت المباراة", `الهلال ${hg}-${og} ${opp} — صوّت لرجل المباراة الحين ⭐`, "play.html#vote");
+      await notify(env, `ft:${win.kickoff}`, hg > og ? "💙 فاز الهلال!" : "انتهت المباراة", `الهلال ${hg}-${og} ${opp} — صوّت لرجل المباراة الحين ⭐`, "play.html#vote", "hilal");
   }
+}
+
+/* ============ متابعة مباريات روشن المشترك فيها ============ */
+async function activeFx(env) {
+  const p = env.PUSH.get(env.PUSH.idFromName("push"));
+  return await (await p.fetch("https://p/active-fx")).json();
+}
+async function pollRoshn(env, activeList) {
+  // مكالمة واحدة تجيب كل المباريات المباشرة مرة وحدة — رخيصة
+  const all = await api(env, { live: "all" });
+  const byId = new Map(all.map((f) => [f.fixture.id, f]));
+  const now = Date.now();
+  const last = (await env.KV.get("roshn", "json")) || {};
+  const out = { ...last };
+  let touched = false;
+  for (const [idS, meta] of activeList) {
+    const id = +idS;
+    const fx = byId.get(id);
+    if (!fx) {
+      // ممكن تكون قبل البداية أو خلصت. لو ما شفناها بعد الكيك أوف بـ100 دقيقة، نحاول نسحبها بالـid
+      if (now - meta.kickoff > 100 * 60e3 && (!last[id] || !DONE.includes(last[id].s))) {
+        const one = (await api(env, { id }))[0];
+        if (one) await processRoshn(env, id, meta, slim(one), out[id] || null, out);
+      }
+      continue;
+    }
+    await processRoshn(env, id, meta, slim(fx), out[id] || null, out);
+    touched = true;
+  }
+  // تنضيف السجل: المباريات اللي خلصت وعدا عليها 24 ساعة
+  for (const k of Object.keys(out)) {
+    const t = out[k].t || 0;
+    if (now - t > 24 * 3600e3 && DONE.includes(out[k].s)) { delete out[k]; touched = true; }
+  }
+  if (touched) await env.KV.put("roshn", JSON.stringify(out), { expirationTtl: 7 * 86400 });
+}
+async function processRoshn(env, id, meta, sm, prev, outMap) {
+  const [hg, ag] = sm.goals;
+  const [phg, pag] = prev ? prev.g : [0, 0];
+  const home = meta.home || "البيت", away = meta.away || "الضيف";
+  if (hg > phg) {
+    const g = (sm.events || []).filter((e) => e.type === "Goal" && e.team === sm.home?.id && e.detail !== "Missed Penalty").pop();
+    const who = g?.player || "";
+    await notify(env, `fx:${id}:gh:${hg}:${ag}`, `⚽ هدف لـ${home}`, `${who ? who + (g.min ? " " + g.min + "'" : "") + " — " : ""}${home} ${hg}-${ag} ${away}`, "matches.html", `fx:${id}`);
+  }
+  if (ag > pag) {
+    const g = (sm.events || []).filter((e) => e.type === "Goal" && e.team === sm.away?.id && e.detail !== "Missed Penalty").pop();
+    const who = g?.player || "";
+    await notify(env, `fx:${id}:ga:${hg}:${ag}`, `⚽ هدف لـ${away}`, `${who ? who + (g.min ? " " + g.min + "'" : "") + " — " : ""}${home} ${hg}-${ag} ${away}`, "matches.html", `fx:${id}`);
+  }
+  if (DONE.includes(sm.status) && !(prev && DONE.includes(prev.s))) {
+    await notify(env, `fx:${id}:ft`, "🏁 انتهت المباراة", `${home} ${hg}-${ag} ${away}`, "matches.html", `fx:${id}`);
+  }
+  outMap[id] = { s: sm.status, g: [hg, ag], t: Date.now() };
 }
 
 async function tick(env) {
   env._live = null; env._calls = 0;
   const now = Date.now();
   const matches = (await schedule(env)).map((x) => ({ ...x, kickoff: new Date(x.date).getTime() }));
-  // تنبيه قبل المباراة بساعة
+  // تنبيه قبل مباراة الهلال بساعة
   for (const m of matches) if (now >= m.kickoff - 62 * 60e3 && now < m.kickoff - 50 * 60e3) {
     const opp = m.home === "الهلال" ? m.away : m.home;
-    await notify(env, `pre:${m.kickoff}`, "⏰ باقي ساعة على المباراة", `الهلال × ${opp} — توقّع النتيجة قبل لا يقفل 🎯`, "play.html#predict");
+    await notify(env, `pre:${m.kickoff}`, "⏰ باقي ساعة على المباراة", `الهلال × ${opp} — توقّع النتيجة قبل لا يقفل 🎯`, "play.html#predict", "hilal");
   }
+
+  // تنبيهات مباريات روشن (قبل بساعة + أثناء المباراة)
+  const act = await activeFx(env);
+  const roshnPre = [], roshnLive = [];
+  for (const [idS, meta] of Object.entries(act)) {
+    if (!meta || !meta.kickoff || !(meta.n > 0)) continue;
+    const dt = now - meta.kickoff;
+    if (dt >= -62 * 60e3 && dt < -50 * 60e3) roshnPre.push([idS, meta]);
+    else if (dt >= -PRE && dt <= POST) roshnLive.push([idS, meta]);
+  }
+  for (const [idS, meta] of roshnPre) {
+    await notify(env, `fx:${idS}:pre`, "⏰ باقي ساعة", `${meta.home || ""} × ${meta.away || ""} يبدأ بعد ساعة`, "matches.html", `fx:${idS}`);
+  }
+
   const m = matches.find((x) => now >= x.kickoff - PRE && now <= x.kickoff + POST);
-  if (!m) return;
-  if (now < m.kickoff) {
+  // لا الهلال ولا روشن — خلّص
+  if (!m && !roshnLive.length) return;
+
+  // لو مباراة الهلال قبل البداية، ثبّت الحالة في live
+  if (m && now < m.kickoff) {
     const cur = await env.KV.get("live", "json");
     if (!(cur && cur.kickoff === m.kickoff)) await env.KV.put("live", JSON.stringify({ status: "pre", kickoff: m.kickoff, updated: new Date().toISOString() }));
-    return;
   }
+
   const interval = Math.max(10, +env.LIVE_INTERVAL || 180);
-  const loops = interval < 60 ? Math.floor(55 / interval) + 1 : 1;
+  // اللوبات السريعة بس وقت ما مباراة الهلال نفسها شغّالة (مو قبل البداية)
+  const hilalLive = m && now >= m.kickoff;
+  const loops = interval < 60 && hilalLive ? Math.floor(55 / interval) + 1 : 1;
   try {
     for (let i = 0; i < loops; i++) {
       if (i) await new Promise((r) => setTimeout(r, interval * 1000));
-      await pollOnce(env, m);
+      if (hilalLive) await pollOnce(env, m);
+      // روشن: مكالمة واحدة في بداية الدقيقة تكفي
+      if (i === 0 && roshnLive.length) await pollRoshn(env, roshnLive);
     }
   } finally { await flushUsage(env); }
-  await settle(env, m.kickoff);
+  if (m && hilalLive) await settle(env, m.kickoff);
 }
 async function flushUsage(env) {
   if (!env._calls) return;
@@ -432,22 +507,23 @@ export class League {
 }
 
 /* ============ تنبيهات الجوال (Web Push) ============ */
-async function notify(env, key, title, body, path) {
+// notify: الوضع الافتراضي "all" للتوافق مع الاختبار؛ "hilal" لمشتركي الهلال؛ "fx:<id>" لمشتركي مباراة روشن معيّنة
+async function notify(env, key, title, body, path, target = "hilal") {
   const p = env.PUSH.get(env.PUSH.idFromName("push"));
-  await p.fetch("https://p/notify", { method: "POST", body: JSON.stringify({ key, title, body, url: `${env.SITE}/${path || ""}` }) });
+  await p.fetch("https://p/notify", { method: "POST", body: JSON.stringify({ key, title, body, url: `${env.SITE}/${path || ""}`, target }) });
 }
 async function pushRoute(req, env, url) {
   const p = env.PUSH.get(env.PUSH.idFromName("push"));
   if (url.pathname === "/push/key") return json(await (await p.fetch("https://p/key")).json(), 3600);
   if (req.method !== "POST") return noStore({ error: "method" }, 405);
-  if (url.pathname === "/push/sub" || url.pathname === "/push/unsub") {
+  if (["/push/sub", "/push/unsub", "/push/match", "/push/prefs", "/push/mine", "/push/off"].includes(url.pathname)) {
     const r = await p.fetch("https://p" + url.pathname.replace("/push", ""), { method: "POST", body: await req.text() });
     return noStore(await r.json(), r.status);
   }
   if (url.pathname === "/push/test") {
     if (!(await isAdmin(req, env))) return noStore({ error: "auth" }, 401);
     const b = JSON.parse((await req.text()) || "{}");
-    await notify(env, "test:" + Date.now(), b.title || "منبر الهلال 💙", b.body || "التنبيهات شغالة ✅", b.path || "");
+    await notify(env, "test:" + Date.now(), b.title || "منبر الهلال 💙", b.body || "التنبيهات شغالة ✅", b.path || "", "all");
     return noStore({ ok: true });
   }
   return noStore({ error: "not-found" }, 404);
@@ -472,22 +548,117 @@ export class Push {
     }
     return v;
   }
+  // تحويل subscription إلى id ثابت (hash للـendpoint)
+  async subId(sub) { return b64u(await crypto.subtle.digest("SHA-256", te.encode(sub.endpoint))).slice(0, 22); }
+  async getRec(id) { return (await this.s.get("s:" + id)) || null; }
+  // ملف المباريات اللي عليها مشتركين — ينضف تلقائياً من المباريات اللي عدا عليها 24 ساعة
+  async getActive(gc = false) {
+    const a = (await this.s.get("fx-active")) || {};
+    if (!gc) return a;
+    const cutoff = Date.now() - 24 * 3600e3;
+    let changed = false;
+    for (const [id, m] of Object.entries(a)) if (!m || !m.kickoff || m.kickoff < cutoff || (m.n || 0) <= 0) { delete a[id]; changed = true; }
+    if (changed) await this.s.put("fx-active", a);
+    return a;
+  }
+  async bumpActive(id, meta, delta) {
+    const a = (await this.s.get("fx-active")) || {};
+    const cur = a[id] || { kickoff: meta?.kickoff, home: meta?.home, away: meta?.away, league: meta?.league, n: 0 };
+    cur.n = Math.max(0, (cur.n || 0) + delta);
+    if (meta?.kickoff) cur.kickoff = meta.kickoff;
+    if (meta?.home) cur.home = meta.home;
+    if (meta?.away) cur.away = meta.away;
+    if (meta?.league) cur.league = meta.league;
+    if (cur.n <= 0 && (!cur.kickoff || cur.kickoff < Date.now() - 24 * 3600e3)) delete a[id]; else a[id] = cur;
+    await this.s.put("fx-active", a);
+  }
   async fetch(req) {
     const url = new URL(req.url);
     if (url.pathname === "/key") return Response.json({ key: (await this.vapid()).pub });
+    if (url.pathname === "/active-fx") return Response.json(await this.getActive(true));
     const b = await req.json();
-    if (url.pathname === "/sub" || url.pathname === "/unsub") {
-      const sub = b.sub || b;
+    const sub = b.sub || b;
+    const needSub = !["/notify"].includes(url.pathname);
+    if (needSub) {
       if (!sub?.endpoint || !/^https:\/\//.test(sub.endpoint)) return Response.json({ error: "bad-sub" }, { status: 400 });
-      const id = b64u(await crypto.subtle.digest("SHA-256", te.encode(sub.endpoint))).slice(0, 22);
-      if (url.pathname === "/unsub") { await this.s.delete("s:" + id); return Response.json({ ok: true }); }
+    }
+    const id = needSub ? await this.subId(sub) : null;
+
+    if (url.pathname === "/sub") {
       if (!sub.keys?.p256dh || !sub.keys?.auth) return Response.json({ error: "bad-sub" }, { status: 400 });
-      await this.s.put("s:" + id, { endpoint: sub.endpoint, keys: { p256dh: sub.keys.p256dh, auth: sub.keys.auth }, t: Date.now() });
+      const prev = await this.getRec(id);
+      const rec = {
+        endpoint: sub.endpoint, keys: { p256dh: sub.keys.p256dh, auth: sub.keys.auth }, t: Date.now(),
+        hilal: typeof b.hilal === "boolean" ? b.hilal : (prev?.hilal !== false),
+        fx: Array.isArray(prev?.fx) ? prev.fx : []
+      };
+      await this.s.put("s:" + id, rec);
+      return Response.json({ ok: true, hilal: rec.hilal, fx: rec.fx });
+    }
+    if (url.pathname === "/unsub") {
+      const rec = await this.getRec(id);
+      if (rec?.fx?.length) for (const fid of rec.fx) await this.bumpActive(String(fid), null, -1);
+      await this.s.delete("s:" + id);
       return Response.json({ ok: true });
     }
+    if (url.pathname === "/prefs") {
+      const rec = await this.getRec(id);
+      if (!rec) return Response.json({ error: "not-subscribed" }, { status: 404 });
+      if (typeof b.hilal === "boolean") rec.hilal = b.hilal;
+      rec.t = Date.now();
+      await this.s.put("s:" + id, rec);
+      return Response.json({ ok: true, hilal: rec.hilal, fx: rec.fx });
+    }
+    if (url.pathname === "/mine") {
+      const rec = await this.getRec(id);
+      if (!rec) return Response.json({ hilal: false, fx: [], details: [], subscribed: false });
+      // صفّي المباريات المنتهية من قائمة المستخدم
+      const active = await this.getActive();
+      const fx = (rec.fx || []).filter((fid) => active[String(fid)]);
+      if (fx.length !== (rec.fx || []).length) { rec.fx = fx; await this.s.put("s:" + id, rec); }
+      const details = fx.map((fid) => ({ id: fid, ...(active[String(fid)] || {}) }));
+      return Response.json({ hilal: rec.hilal !== false, fx, details, subscribed: true });
+    }
+    if (url.pathname === "/match") {
+      const rec = await this.getRec(id);
+      if (!rec) return Response.json({ error: "not-subscribed" }, { status: 404 });
+      const fx = b.fx || {};
+      const fid = String(fx.id || "");
+      if (!fid) return Response.json({ error: "fx-id" }, { status: 400 });
+      const list = Array.isArray(rec.fx) ? rec.fx.map(String) : [];
+      const was = list.includes(fid);
+      if (b.on && !was) {
+        list.push(fid);
+        await this.bumpActive(fid, { kickoff: fx.kickoff, home: fx.home, away: fx.away, league: fx.league }, +1);
+      } else if (!b.on && was) {
+        list.splice(list.indexOf(fid), 1);
+        await this.bumpActive(fid, null, -1);
+      }
+      rec.fx = list;
+      rec.t = Date.now();
+      await this.s.put("s:" + id, rec);
+      return Response.json({ ok: true, fx: list, on: !!b.on });
+    }
+    if (url.pathname === "/off") {
+      const rec = await this.getRec(id);
+      if (!rec) return Response.json({ ok: true });
+      if (rec.fx?.length) for (const fid of rec.fx) await this.bumpActive(String(fid), null, -1);
+      rec.hilal = false; rec.fx = []; rec.t = Date.now();
+      await this.s.put("s:" + id, rec);
+      return Response.json({ ok: true });
+    }
+
     if (url.pathname === "/notify") {
       if (await this.s.get("sent:" + b.key)) return Response.json({ ok: true, dup: true });
-      const subs = [...(await this.s.list({ prefix: "s:" })).keys()];
+      const target = b.target || "all";
+      const all = [...(await this.s.list({ prefix: "s:" }))];   // [[key, rec], ...]
+      let subs = [];
+      if (target === "all") subs = all.map(([k]) => k);
+      else if (target === "hilal") subs = all.filter(([, r]) => r?.hilal !== false).map(([k]) => k);
+      else if (target.startsWith("fx:")) {
+        const fid = target.slice(3);
+        subs = all.filter(([, r]) => Array.isArray(r?.fx) && r.fx.map(String).includes(fid)).map(([k]) => k);
+      }
       const jobs = (await this.s.get("jobs")) || [];
       if (subs.length) jobs.push({ payload: { title: b.title, body: b.body, url: b.url }, queue: subs });
       await this.s.put({ ["sent:" + b.key]: Date.now(), jobs });
