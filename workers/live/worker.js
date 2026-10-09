@@ -39,6 +39,28 @@ export default {
         }
         return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 5);
       }
+      // تفاصيل مباراة واحدة بأحداثها الكاملة. كاش 15 ثانية.
+      if (url.pathname.startsWith("/match/")) {
+        const id = url.pathname.slice(7);
+        if (!/^\d+$/.test(id)) return noStore({ error: "bad-id" }, 400);
+        const cacheKey = "m:" + id;
+        const cached = await env.KV.get(cacheKey, "json");
+        if (cached && Date.now() - cached.at < 15000) return json(cached, 15);
+        try {
+          const r = await api(env, { id });
+          const fx = r && r[0];
+          if (!fx) {
+            if (cached) return json(cached, 15);
+            return json({ error: "not-found", at: Date.now() }, 60, 404);
+          }
+          const data = { at: Date.now(), m: slimFull(fx) };
+          await env.KV.put(cacheKey, JSON.stringify(data), { expirationTtl: 2 * 3600 });
+          return json(data, 15);
+        } catch (e) {
+          if (cached) return json(cached, 15);
+          return noStore({ error: String(e.message || e) }, 500);
+        }
+      }
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
         const [sched, usage] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json")]);
@@ -135,6 +157,23 @@ function slim(f) {
     events: (f.events || []).filter((e) => e.type === "Goal" || (e.type === "Card" && /Red/.test(e.detail)))
       .map((e) => ({ min: e.time?.elapsed, extra: e.time?.extra, type: e.type, detail: e.detail, team: e.team?.id, player: e.player?.name, assist: e.assist?.name }))
   };
+}
+// تفاصيل كاملة لصفحة المباراة: كل الأحداث (أهداف، كل الكروت، تبديلات، ركلات جزاء ضائعة)، التشكيلات، الإحصائيات
+function slimFull(f) {
+  const base = slim(f);
+  base.venue = f.fixture.venue?.name || null;
+  base.referee = f.fixture.referee || null;
+  base.events = (f.events || []).map((e) => ({
+    min: e.time?.elapsed, extra: e.time?.extra, type: e.type, detail: e.detail,
+    team: e.team?.id, player: e.player?.name, assist: e.assist?.name, comments: e.comments || null
+  }));
+  base.lineups = (f.lineups || []).map((l) => ({
+    teamId: l.team?.id, teamName: l.team?.name, coach: l.coach?.name, formation: l.formation,
+    startXI: (l.startXI || []).map((p) => ({ id: p.player?.id, name: p.player?.name, number: p.player?.number, pos: p.player?.pos })),
+    subs: (l.substitutes || []).map((p) => ({ id: p.player?.id, name: p.player?.name, number: p.player?.number, pos: p.player?.pos }))
+  }));
+  base.statistics = (f.statistics || []).map((s) => ({ teamId: s.team?.id, stats: (s.statistics || []).map((x) => ({ k: x.type, v: x.value })) }));
+  return base;
 }
 const hilalGoals = (m) => (m ? (m.home.id === HILAL ? m.goals[0] : m.goals[1]) : 0);
 const oppGoals = (m) => (m ? (m.home.id === HILAL ? m.goals[1] : m.goals[0]) : 0);

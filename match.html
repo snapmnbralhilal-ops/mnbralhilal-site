@@ -5,16 +5,14 @@
 <script>try{document.documentElement.dataset.theme=localStorage.getItem("mnbr-theme")==="dark"?"dark":"light"}catch(e){document.documentElement.dataset.theme="light"}</script>
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>مناسبات الهلال — منبر الهلال</title>
-<meta name="description" content="في مثل هذا اليوم: بطولات الهلال، ذكرياته، وأعياد ميلاد نجومه — يوم بيوم.">
+<title>تفاصيل المباراة — منبر الهلال</title>
+<meta name="description" content="تفاصيل مباريات الدوري السعودي: الأحداث والتشكيلات والإحصائيات لحظة بلحظة.">
 <meta name="theme-color" content="#E4E6EA">
-<meta property="og:title" content="مناسبات الهلال — في مثل هذا اليوم">
 <meta property="og:image" content="https://mnbralhilal.net/assets/icon-512.png">
-<meta property="og:url" content="https://mnbralhilal.net/occasions.html">
+<meta property="og:url" content="https://mnbralhilal.net/match.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="منبر الهلال">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://mnbralhilal.net/occasions.html">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png?v=2">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
@@ -23,24 +21,28 @@
 <link rel="stylesheet" href="assets/style.css?v=202610092300">
 <link rel="stylesheet" href="assets/theme-night.css?v=202610092300">
 <link rel="stylesheet" href="assets/theme-light.css?v=202610092300">
-<link rel="stylesheet" href="assets/play.css?v=202610081830">
+<link rel="stylesheet" href="assets/match.css?v=202610092300">
 </head>
-<body data-page="occasions">
+<body data-page="match">
 <script src="assets/layout.js?v=202610092300"></script>
 <main id="main" class="page">
-<h1 class="sr-only">مناسبات الهلال</h1>
-<div class="wrap narrow oc" id="occPage">
-  <div class="oc-head"><h2>مناسبات الهلال</h2><small id="ocCount"></small></div>
-  <section class="occ-card oc-today" id="today"><div id="ocToday"><p class="oc-empty">جاري التحميل…</p></div></section>
-  <section class="box oc-sec">
-    <div class="chips oc-scroll" id="ocMonths"></div>
-    <div class="chips oc-scroll" id="ocCats"></div>
-    <div id="ocList"></div>
-  </section>
+<h1 class="sr-only">تفاصيل المباراة</h1>
+<div class="wrap narrow m-page">
+  <a href="matches.html" class="m-back">← رجوع للمباريات</a>
+  <section class="m-head" id="mHead"><div class="m-loading">جاري التحميل…</div></section>
+  <nav class="m-tabs" id="mTabs" hidden>
+    <button type="button" data-tab="events" aria-selected="true">الأحداث</button>
+    <button type="button" data-tab="lineups">التشكيلات</button>
+    <button type="button" data-tab="stats">الإحصائيات</button>
+  </nav>
+  <section class="m-tab" id="tabEvents" hidden></section>
+  <section class="m-tab" id="tabLineups" hidden></section>
+  <section class="m-tab" id="tabStats" hidden></section>
+  <p class="m-updated" id="mUpdated"></p>
 </div>
 </main>
 <script>LAYOUT.foot()</script>
-<script src="assets/occasions.js?v=202610081830"></script>
-<script src="assets/social.js?v=202610081830"></script>
+<script src="assets/names.js?v=202610081830"></script>
+<script src="assets/match.js?v=202610092300"></script>
 </body>
 </html>

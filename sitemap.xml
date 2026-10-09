@@ -13,4 +13,5 @@
   <url><loc>https://mnbralhilal.net/occasions.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://mnbralhilal.net/founding.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://mnbralhilal.net/settings.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://mnbralhilal.net/match.html</loc><changefreq>hourly</changefreq><priority>0.5</priority></url>
 </urlset>
