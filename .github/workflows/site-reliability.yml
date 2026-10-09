@@ -1,0 +1,47 @@
+name: Site reliability checks
+
+on:
+  push:
+    branches: [main, 'fix/**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/app.js
+          node --check assets/play.js
+          node --check workers/live/worker.js
+      - name: Validate data configuration
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync } from 'node:fs';
+          import assert from 'node:assert/strict';
+          const live = JSON.parse(readFileSync('data/live.json', 'utf8'));
+          assert.match(live.url, /^https:\/\/[^\s]+\/live$/);
+          const site = JSON.parse(readFileSync('data/site.json', 'utf8'));
+          assert.equal(typeof site, 'object');
+          console.log('Configuration JSON is valid');
+          NODE
+      - name: Check live-result safety guards
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync } from 'node:fs';
+          import assert from 'node:assert/strict';
+          const app = readFileSync('assets/app.js', 'utf8');
+          const play = readFileSync('assets/play.js', 'utf8');
+          assert.ok(!app.includes('now >= kickMs + 100 * 60e3'), 'Do not infer FT from elapsed time');
+          assert.ok(play.includes('if (latest) GAME = latest'), 'Preserve game state on API failure');
+          console.log('Regression guards passed');
+          NODE
