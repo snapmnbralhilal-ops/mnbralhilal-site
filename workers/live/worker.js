@@ -39,12 +39,12 @@ export default {
         }
         return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 5);
       }
-      if (url.pathname === "/_diag") {
+      if (url.pathname === "/_diag" || url.pathname === "/_diag2" || url.pathname === "/_diag3") {
         const res = await fetch("https://v3.football.api-sports.io/fixtures?live=all", { headers: { "x-apisports-key": env.API_FOOTBALL_KEY } });
         const body = await res.json().catch(() => null);
-        return noStore({ status: res.status, hasKey: !!env.API_FOOTBALL_KEY, keyLen: (env.API_FOOTBALL_KEY || "").length,
+        return noStore({ httpStatus: res.status, hasKey: !!env.API_FOOTBALL_KEY, keyLen: (env.API_FOOTBALL_KEY || "").length,
           errors: body?.errors, results: body?.results, responseLen: Array.isArray(body?.response) ? body.response.length : null,
-          sample: body ? JSON.stringify(body).slice(0, 400) : null });
+          sample: body ? JSON.stringify(body).slice(0, 300) : null });
       }
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
