@@ -321,7 +321,7 @@
     (day?.groups || []).forEach((g) => g.matches.forEach((m) => all.push([g, m])));
     const score = ([g, m]) => (m.home.id === HILAL_ID || m.away.id === HILAL_ID ? 8 : 0) + (LIVE.includes(m.status) ? 4 : 0) + ((m.league?.country || "") === "Saudi-Arabia" ? 2 : 0);
     all.sort((x, y) => score(y) - score(x));
-    const list = all.slice(0, 14);
+    const list = all.slice(0, lim("strip", 14));
     $("stripWrap").hidden = !list.length;
     $("strip").innerHTML = list.map(([g, m]) => {
       const live = LIVE.includes(m.status), done = DONE.includes(m.status);

@@ -1,0 +1,127 @@
+/* ستايل فاتح — معاينة. يتحمّل بعد theme-night.css:
+   الصفحة رمادي فاتح وبطاقات بيضاء، وبطاقة المباراة + أرقام منبر + الرعاة + الفوتر تبقى كحلية عشان تبرز */
+:root{
+  --bg:#E4E6EA; --surface:#FFFFFF; --surface-2:#F3F5F8; --surface-3:#E9EDF4;
+  --ink:#0B1530; --muted:#5F6880; --line:rgba(11,21,48,.08); --chip:#EEF1F7;
+  --royal:#2F5BE8; --royal-2:#0333AF;
+  --edge:0 1px 0 rgba(255,255,255,.8) inset;
+  --lift:0 14px 34px -22px rgba(11,21,48,.35);
+}
+html{background:var(--bg)}
+body{background:radial-gradient(900px 520px at 85% -8%,rgba(47,91,232,.10),transparent 70%),var(--bg);color:var(--ink)}
+
+/* المناطق الكحلية: نرجّع لها ألوان الوضع الداكن */
+.next,.reach,.sponsors,.follow,footer,.push-toast{
+  --surface:#0D1322; --surface-2:rgba(255,255,255,.05); --surface-3:rgba(255,255,255,.09);
+  --ink:#E8ECF5; --muted:#9AA3BA; --line:rgba(255,255,255,.08); --chip:rgba(255,255,255,.07); --royal:#5B85FF;
+  color:var(--ink);
+}
+.reach{background:radial-gradient(520px 260px at 50% -10%,rgba(79,123,255,.35),transparent 70%),linear-gradient(160deg,#0F1A3A,#0A1124);border:0;box-shadow:0 30px 60px -30px rgba(11,21,48,.7)}
+.sponsors,.follow{background:#0A1124}
+.sponsors{margin-top:56px;border-top:0}
+footer{background:#070B16}
+
+/* الهيدر فاتح */
+.mast{background:rgba(228,230,234,.86);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px)}
+.mast .logo{background:var(--royal-2)}
+.brand b,.sect{color:var(--ink)}
+.brand span{color:var(--royal)}
+.nav a,.nav-more summary{color:var(--muted)}
+.nav a[aria-current="page"],.nav a:hover,.nav-more summary:hover,.nav-more[open] summary,.nav-more.cur summary{color:var(--ink)}
+.hd-bell{background:#fff;border-color:var(--line);color:var(--ink)}
+.hd-bell:hover{background:var(--surface-3);color:var(--ink)}
+.nav-more-menu{background:#fff;border-color:var(--line);box-shadow:0 20px 40px -16px rgba(11,21,48,.35)}
+.nav-more-menu a{color:var(--ink)}
+.nav-more-menu a:hover,.nav-more-menu a[aria-current="page"]{background:var(--surface-2);color:var(--ink)}
+
+/* البطاقات البيضاء */
+section.box{background:#fff;border:1px solid var(--line);box-shadow:var(--lift)}
+@media (hover:hover){section.box:hover{box-shadow:0 22px 44px -22px rgba(11,21,48,.45)}}
+.box h2{color:var(--ink)}
+.box h2 .ic{color:var(--royal)}
+.see-all{color:var(--muted)}
+.see-all:hover{color:var(--ink)}
+.empty{color:var(--muted)}
+
+/* الصفوف والجداول */
+.row{background:var(--surface-2)}
+.row:hover{background:var(--surface-3)}
+.row .sc{background:#0B1530;color:#fff}
+.row .sc.time{background:#fff;color:var(--royal-2);box-shadow:inset 0 0 0 1px var(--line)}
+.row .when{color:var(--muted)}
+td{color:var(--ink);border-top-color:var(--line)}
+th{color:var(--muted)}
+td.pos{color:var(--muted)}
+td.pts,.pts{color:var(--ink)}
+tr.hl td{background:rgba(47,91,232,.08)}
+tbody tr:hover td{background:var(--surface-2)}
+.mini div{background:var(--surface-2)}
+.mini b{color:var(--royal-2)}
+.legend{color:var(--muted)}
+
+/* آخر نتيجة */
+.last-vs{background:var(--surface-2)}
+.last-sc{color:var(--ink)}
+.last-sc i{color:#B3B9C7}
+.crest.md{box-shadow:0 0 0 1px var(--line)}
+
+/* الأخبار */
+.news h3{color:var(--ink)}
+.news a::before{color:rgba(11,21,48,.12)}
+.news a:hover{background:var(--surface-2)}
+.news a:hover::before{color:var(--royal)}
+.news .k{background:rgba(47,91,232,.1);color:var(--royal-2)}
+.news .k.world{background:var(--chip);color:var(--muted)}
+
+/* مباريات اليوم (قسم بدل الشريط اللي فوق) */
+.page-home>.today-wrap{margin-top:24px}
+.today-wrap:has(> section[hidden]){display:none}
+.today-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:0 12px 14px}
+.today-grid .sc-card{width:auto;background:var(--surface-2);border:1px solid transparent;transition:background .2s,border-color .2s}
+.today-grid .sc-card:hover{background:var(--surface-3);border-color:var(--line)}
+.today-grid .sc-card.hl{box-shadow:inset 0 0 0 1.5px var(--royal)}
+.today-grid .sc-top{color:var(--muted)}
+.today-grid .sc-t{color:var(--ink);font-weight:500}
+@media (max-width:900px){.today-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* مباريات الشهر */
+.mo-card{background:var(--surface-2);border-color:var(--line)}
+.mo-card:hover{background:#fff;box-shadow:0 10px 24px -14px rgba(11,21,48,.4)}
+.mc-mid b{color:var(--ink)}
+.mc-top{color:var(--muted)}
+.mc-top .ha .i{color:var(--ink)}
+.mc-mid .crest{box-shadow:0 0 0 1px var(--line)}
+
+/* العب مع منبر */
+.play-links a{background:var(--surface-2)}
+.play-links a:hover{background:var(--surface-3)}
+.play-links b{color:var(--ink)}
+.pl-ic{background:rgba(47,91,232,.1);color:var(--royal)}
+
+/* التصاميم */
+.d-item{background:var(--surface-2);border-color:var(--line)}
+.d-meta{background:var(--surface-2)}
+.d-meta small{color:var(--ink)}
+.d-meta b{color:var(--royal)}
+
+/* الفيديو */
+.v-promo{background:linear-gradient(90deg,#fff,#F1F4FB);border:1px solid var(--line);box-shadow:var(--lift)}
+.v-promo b{color:var(--ink)}
+.v-promo small{color:var(--muted)}
+.v-promo .v-open-btn{background:var(--royal);color:#fff}
+
+/* في مثل هذا اليوم */
+.home-grid .occ-card{background:#fff;color:var(--ink);border:1px solid var(--line);box-shadow:var(--lift)}
+.home-grid .oc-ic{background:var(--surface-2)}
+
+/* شريط ذكرى التأسيس */
+.page-home .fd-banner{background:linear-gradient(90deg,rgba(47,91,232,.12),rgba(47,91,232,.04));border:1px solid rgba(47,91,232,.22);color:var(--ink)}
+.page-home .fd-banner .n{color:var(--royal)}
+.page-home .fd-banner small{color:var(--muted);opacity:1}
+.page-home .fd-banner .go{background:var(--royal);color:#fff;border:0}
+
+/* شريط الجوال السفلي */
+.tabbar{background:rgba(255,255,255,.92);border-top-color:var(--line)}
+.tabbar a{color:var(--muted)}
+.tabbar a[aria-current="page"]{color:var(--ink)}
+.tabbar a[aria-current="page"] .i{color:var(--royal)}

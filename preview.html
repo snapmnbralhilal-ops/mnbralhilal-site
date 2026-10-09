@@ -21,13 +21,11 @@
 <link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="assets/style.css?v=202610090610">
 <link rel="stylesheet" href="assets/theme-night.css?v=202610090710">
+<link rel="stylesheet" href="assets/theme-light.css?v=202610090720">
 </head>
 <body data-page="home">
 <script src="assets/layout.js?v=202610090610"></script>
 
-<div class="strip" id="stripWrap" hidden aria-label="مباريات اليوم">
-  <div class="wrap"><div class="strip-row" id="strip"></div></div>
-</div>
 
 <div class="ticker" hidden aria-label="خبر عاجل">
   <div class="wrap"><div class="tick-box"><span class="tag"><svg class="i"><use href="#i-bolt"/></svg>عاجل</span>
@@ -47,6 +45,11 @@
     </article>
   </div>
 </div>
+
+<div class="wrap today-wrap"><section class="box sec-today" id="stripWrap" hidden>
+  <h2><span class="ic"><svg class="i"><use href="#i-globe"/></svg></span>مباريات اليوم<a class="see-all" href="matches.html#today">كل المباريات<svg class="i"><use href="#i-arrow"/></svg></a></h2>
+  <div class="today-grid" id="strip" data-limit="8"></div>
+</section></div>
 
 <div class="wrap month-wrap"><section class="box sec-month" id="monthBox" hidden>
   <h2><span class="ic"><svg class="i"><use href="#i-cal"/></svg></span><span id="monthTitle">مباريات الشهر</span><a class="see-all" href="matches.html#month">التقويم<svg class="i"><use href="#i-arrow"/></svg></a></h2>
@@ -118,7 +121,7 @@
 
 <script>LAYOUT.foot()</script>
 <script src="assets/names.js?v=202610090600"></script>
-<script src="assets/app.js?v=202610090710"></script>
+<script src="assets/app.js?v=202610090720"></script>
 <script src="assets/reach.js?v=202610090600"></script>
 <script src="assets/social.js?v=202610090600"></script>
 <script src="assets/push.js?v=202610090600"></script>
