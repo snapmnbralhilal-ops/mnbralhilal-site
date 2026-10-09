@@ -22,6 +22,7 @@ jobs:
         run: |
           node --check assets/app.js
           node --check assets/play.js
+          node --check assets/fixture.js
           node --check workers/live/worker.js
       - name: Validate data configuration
         run: |
@@ -43,5 +44,10 @@ jobs:
           const play = readFileSync('assets/play.js', 'utf8');
           assert.ok(!app.includes('now >= kickMs + 100 * 60e3'), 'Do not infer FT from elapsed time');
           assert.ok(play.includes('if (latest) GAME = latest'), 'Preserve game state on API failure');
+          assert.ok(app.includes('LIVE_MATCH_VERSIONS'), 'Reject out-of-order score updates');
+          assert.ok(app.includes('fixture.html?id='), 'Match details must be linked');
+          const worker = readFileSync('workers/live/worker.js', 'utf8');
+          assert.ok(worker.includes('url.pathname === "/fixture"'), 'Match center endpoint must exist');
+          assert.ok(worker.includes('fixtures/lineups'), 'Lineups must be requested');
           console.log('Regression guards passed');
           NODE
