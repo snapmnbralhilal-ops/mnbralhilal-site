@@ -54,7 +54,9 @@ export default {
           const r = await fetch(base + path + "?fixture=" + id, { headers });
           if (!r.ok) throw new Error("API HTTP " + r.status);
           const j = await r.json();
-          return j.response || [];
+          if (j.errors && (Array.isArray(j.errors) ? j.errors.length : Object.keys(j.errors).length)) throw new Error("API-Football: " + JSON.stringify(j.errors));
+          if (!Array.isArray(j.response)) throw new Error("Invalid API response for " + path);
+          return j.response;
         };
         const [events, lineups] = await Promise.all([get("fixtures/events"), get("fixtures/lineups")]);
         return noStore({ id, events, lineups, fetchedAt: Date.now() });
