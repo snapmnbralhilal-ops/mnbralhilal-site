@@ -656,3 +656,23 @@ footer .wrap{row-gap:14px}
   .page-home .fd-banner b{font-size:14px}
   .page-home .fd-banner small{font-size:11.5px}
 }
+
+/* مباريات اليوم (قسم في الرئيسية بدل الشريط العلوي) */
+.page-home>.today-wrap{margin-top:24px}
+.today-wrap:has(> section[hidden]){display:none}
+.today-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:0 12px 14px}
+.today-grid .sc-card{width:auto;border:1px solid transparent;transition:background .2s,border-color .2s}
+.today-grid .sc-card:hover{border-color:var(--line)}
+@media (max-width:900px){.today-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* زر تبديل الستايل (فاتح / كحلي) */
+.hd-theme{position:absolute;inset-inline-end:68px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);display:grid;place-items:center;cursor:pointer;transition:background .15s,transform .15s}
+.hd-theme:hover{background:var(--surface-3)}
+.hd-theme .i{width:19px;height:19px}
+.hd-theme .i-sun{display:none}
+html[data-theme="light"] .hd-theme .i-moon{display:block}
+html:not([data-theme="light"]) .hd-theme .i-moon{display:none}
+html:not([data-theme="light"]) .hd-theme .i-sun{display:block}
+.hd-bell[hidden]+.hd-theme,.hd-theme:only-of-type{inset-inline-end:20px}
+@media (max-width:520px){.hd-theme{inset-inline-end:58px;width:36px;height:36px}.hd-bell[hidden]+.hd-theme{inset-inline-end:14px}}
+html.theme-anim,html.theme-anim *{transition:background-color .35s,color .35s,border-color .35s!important}

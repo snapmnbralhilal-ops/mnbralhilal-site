@@ -24,6 +24,8 @@
   const TITLES = { occasions: "مناسبات الهلال", stats: "إحصائيات اللاعبين", admin: "لوحة التحكم", matchday: "مركز المباراة", play: "العب مع منبر", founding: "ذكرى التأسيس", home: "كرة القدم", matches: "المباريات", standings: "الترتيب", designs: "التصاميم", videos: "فيديو", news: "الأخبار", youth: "الفئات السنية" };
 
   const SPRITE = `<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
   <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0"/></symbol>
   <symbol id="i-dots" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></symbol>
@@ -66,6 +68,7 @@
       <span class="brand"><b>منبر الهلال</b><span>MNBRALHILAL</span></span>
     </a>
     <button type="button" class="hd-bell" data-push="icon" hidden aria-label="تنبيهات المباريات والأهداف">${icon("bell")}</button>
+    <button type="button" class="hd-theme" id="themeBtn" aria-label="تبديل الستايل بين الفاتح والكحلي" title="فاتح / كحلي"><svg class="i i-moon"><use href="#i-moon"/></svg><svg class="i i-sun"><use href="#i-sun"/></svg></button>
   </div>
   <div class="subnav"><div class="wrap">
     <strong class="sect">${TITLES[PAGE] || ""}</strong>
@@ -78,6 +81,19 @@
   </div></div>
 </header>`;
   document.currentScript.insertAdjacentHTML("afterend", header);
+
+  // تبديل الستايل: فاتح (الافتراضي) أو كحلي، ويتذكر اختيار الزائر
+  const THEME_COLOR = { light: "#E4E6EA", dark: "#070B16" };
+  const setTheme = (t, anim) => {
+    const h = document.documentElement;
+    if (anim) { h.classList.add("theme-anim"); setTimeout(() => h.classList.remove("theme-anim"), 450); }
+    h.dataset.theme = t;
+    try { localStorage.setItem("mnbr-theme", t); } catch (e) {}
+    const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = THEME_COLOR[t] || THEME_COLOR.light;
+    const b = document.getElementById("themeBtn"); if (b) b.setAttribute("aria-pressed", t === "dark");
+  };
+  setTheme(document.documentElement.dataset.theme === "dark" ? "dark" : "light");
+  document.getElementById("themeBtn").addEventListener("click", () => setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark", true));
 
   // الجزء السفلي: الرعاة + تابعنا + الفوتر + شريط الجوال + عارض التصاميم
   window.LAYOUT = {
@@ -116,6 +132,14 @@
       // زر جرس التنبيهات في الهيدر يشتغل في كل الصفحات
       if (![...document.scripts].some((s) => /push\.js/.test(s.src))) {
         const s = document.createElement("script"); s.src = "assets/push.js?v=202610090600"; s.defer = true; document.body.appendChild(s);
+      }
+      // ظهور ناعم للأقسام وقت النزول
+      if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        const els = [...document.querySelectorAll("main section.box, main .reach, main .v-promo")];
+        els.forEach((e) => e.classList.add("rv"));
+        const io = new IntersectionObserver((es) => es.forEach((x) => { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }), { rootMargin: "0px 0px -6% 0px" });
+        els.forEach((e) => io.observe(e));
+        setTimeout(() => els.forEach((e) => e.classList.add("in")), 3500);
       }
       // قائمة "المزيد" تنقفل لما تضغط برا
       document.addEventListener("click", (e) => { document.querySelectorAll("details.nav-more[open]").forEach((d) => { if (!d.contains(e.target)) d.open = false; }); });

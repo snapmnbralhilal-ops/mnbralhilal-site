@@ -1,127 +1,128 @@
+/* الوضع الفاتح — يشتغل لما يكون <html data-theme="light"> (الافتراضي). الوضع الكحلي في theme-night.css */
 /* ستايل فاتح — معاينة. يتحمّل بعد theme-night.css:
    الصفحة رمادي فاتح وبطاقات بيضاء، وبطاقة المباراة + أرقام منبر + الرعاة + الفوتر تبقى كحلية عشان تبرز */
-:root{
+:root[data-theme="light"]{
   --bg:#E4E6EA; --surface:#FFFFFF; --surface-2:#F3F5F8; --surface-3:#E9EDF4;
   --ink:#0B1530; --muted:#5F6880; --line:rgba(11,21,48,.08); --chip:#EEF1F7;
   --royal:#2F5BE8; --royal-2:#0333AF;
   --edge:0 1px 0 rgba(255,255,255,.8) inset;
   --lift:0 14px 34px -22px rgba(11,21,48,.35);
 }
-html{background:var(--bg)}
-body{background:radial-gradient(900px 520px at 85% -8%,rgba(47,91,232,.10),transparent 70%),var(--bg);color:var(--ink)}
+html[data-theme="light"]{background:var(--bg)}
+html[data-theme="light"] body{background:radial-gradient(900px 520px at 85% -8%,rgba(47,91,232,.10),transparent 70%),var(--bg);color:var(--ink)}
 
 /* المناطق الكحلية: نرجّع لها ألوان الوضع الداكن */
-.next,.reach,.sponsors,.follow,footer,.push-toast{
+html[data-theme="light"] .next,html[data-theme="light"] .reach,html[data-theme="light"] .sponsors,html[data-theme="light"] .follow,html[data-theme="light"] footer,html[data-theme="light"] .push-toast{
   --surface:#0D1322; --surface-2:rgba(255,255,255,.05); --surface-3:rgba(255,255,255,.09);
   --ink:#E8ECF5; --muted:#9AA3BA; --line:rgba(255,255,255,.08); --chip:rgba(255,255,255,.07); --royal:#5B85FF;
   color:var(--ink);
 }
-.reach{background:radial-gradient(520px 260px at 50% -10%,rgba(79,123,255,.35),transparent 70%),linear-gradient(160deg,#0F1A3A,#0A1124);border:0;box-shadow:0 30px 60px -30px rgba(11,21,48,.7)}
-.sponsors,.follow{background:#0A1124}
-.sponsors{margin-top:56px;border-top:0}
-footer{background:#070B16}
+html[data-theme="light"] .reach{background:radial-gradient(520px 260px at 50% -10%,rgba(79,123,255,.35),transparent 70%),linear-gradient(160deg,#0F1A3A,#0A1124);border:0;box-shadow:0 30px 60px -30px rgba(11,21,48,.7)}
+html[data-theme="light"] .sponsors,html[data-theme="light"] .follow{background:#0A1124}
+html[data-theme="light"] .sponsors{margin-top:56px;border-top:0}
+html[data-theme="light"] footer{background:#070B16}
 
 /* الهيدر فاتح */
-.mast{background:rgba(228,230,234,.86);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px)}
-.mast .logo{background:var(--royal-2)}
-.brand b,.sect{color:var(--ink)}
-.brand span{color:var(--royal)}
-.nav a,.nav-more summary{color:var(--muted)}
-.nav a[aria-current="page"],.nav a:hover,.nav-more summary:hover,.nav-more[open] summary,.nav-more.cur summary{color:var(--ink)}
-.hd-bell{background:#fff;border-color:var(--line);color:var(--ink)}
-.hd-bell:hover{background:var(--surface-3);color:var(--ink)}
-.nav-more-menu{background:#fff;border-color:var(--line);box-shadow:0 20px 40px -16px rgba(11,21,48,.35)}
-.nav-more-menu a{color:var(--ink)}
-.nav-more-menu a:hover,.nav-more-menu a[aria-current="page"]{background:var(--surface-2);color:var(--ink)}
+html[data-theme="light"] .mast{background:rgba(228,230,234,.86);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px)}
+html[data-theme="light"] .mast .logo{background:var(--royal-2)}
+html[data-theme="light"] .brand b,html[data-theme="light"] .sect{color:var(--ink)}
+html[data-theme="light"] .brand span{color:var(--royal)}
+html[data-theme="light"] .nav a,html[data-theme="light"] .nav-more summary{color:var(--muted)}
+html[data-theme="light"] .nav a[aria-current="page"],html[data-theme="light"] .nav a:hover,html[data-theme="light"] .nav-more summary:hover,html[data-theme="light"] .nav-more[open] summary,html[data-theme="light"] .nav-more.cur summary{color:var(--ink)}
+html[data-theme="light"] .hd-bell{background:#fff;border-color:var(--line);color:var(--ink)}
+html[data-theme="light"] .hd-bell:hover{background:var(--surface-3);color:var(--ink)}
+html[data-theme="light"] .nav-more-menu{background:#fff;border-color:var(--line);box-shadow:0 20px 40px -16px rgba(11,21,48,.35)}
+html[data-theme="light"] .nav-more-menu a{color:var(--ink)}
+html[data-theme="light"] .nav-more-menu a:hover,html[data-theme="light"] .nav-more-menu a[aria-current="page"]{background:var(--surface-2);color:var(--ink)}
 
 /* البطاقات البيضاء */
-section.box{background:#fff;border:1px solid var(--line);box-shadow:var(--lift)}
-@media (hover:hover){section.box:hover{box-shadow:0 22px 44px -22px rgba(11,21,48,.45)}}
-.box h2{color:var(--ink)}
-.box h2 .ic{color:var(--royal)}
-.see-all{color:var(--muted)}
-.see-all:hover{color:var(--ink)}
-.empty{color:var(--muted)}
+html[data-theme="light"] section.box{background:#fff;border:1px solid var(--line);box-shadow:var(--lift)}
+@media (hover:hover){html[data-theme="light"] section.box:hover{box-shadow:0 22px 44px -22px rgba(11,21,48,.45)}}
+html[data-theme="light"] .box h2{color:var(--ink)}
+html[data-theme="light"] .box h2 .ic{color:var(--royal)}
+html[data-theme="light"] .see-all{color:var(--muted)}
+html[data-theme="light"] .see-all:hover{color:var(--ink)}
+html[data-theme="light"] .empty{color:var(--muted)}
 
 /* الصفوف والجداول */
-.row{background:var(--surface-2)}
-.row:hover{background:var(--surface-3)}
-.row .sc{background:#0B1530;color:#fff}
-.row .sc.time{background:#fff;color:var(--royal-2);box-shadow:inset 0 0 0 1px var(--line)}
-.row .when{color:var(--muted)}
-td{color:var(--ink);border-top-color:var(--line)}
-th{color:var(--muted)}
-td.pos{color:var(--muted)}
-td.pts,.pts{color:var(--ink)}
-tr.hl td{background:rgba(47,91,232,.08)}
-tbody tr:hover td{background:var(--surface-2)}
-.mini div{background:var(--surface-2)}
-.mini b{color:var(--royal-2)}
-.legend{color:var(--muted)}
+html[data-theme="light"] .row{background:var(--surface-2)}
+html[data-theme="light"] .row:hover{background:var(--surface-3)}
+html[data-theme="light"] .row .sc{background:#0B1530;color:#fff}
+html[data-theme="light"] .row .sc.time{background:#fff;color:var(--royal-2);box-shadow:inset 0 0 0 1px var(--line)}
+html[data-theme="light"] .row .when{color:var(--muted)}
+html[data-theme="light"] td{color:var(--ink);border-top-color:var(--line)}
+html[data-theme="light"] th{color:var(--muted)}
+html[data-theme="light"] td.pos{color:var(--muted)}
+html[data-theme="light"] td.pts,html[data-theme="light"] .pts{color:var(--ink)}
+html[data-theme="light"] tr.hl td{background:rgba(47,91,232,.08)}
+html[data-theme="light"] tbody tr:hover td{background:var(--surface-2)}
+html[data-theme="light"] .mini div{background:var(--surface-2)}
+html[data-theme="light"] .mini b{color:var(--royal-2)}
+html[data-theme="light"] .legend{color:var(--muted)}
 
 /* آخر نتيجة */
-.last-vs{background:var(--surface-2)}
-.last-sc{color:var(--ink)}
-.last-sc i{color:#B3B9C7}
-.crest.md{box-shadow:0 0 0 1px var(--line)}
+html[data-theme="light"] .last-vs{background:var(--surface-2)}
+html[data-theme="light"] .last-sc{color:var(--ink)}
+html[data-theme="light"] .last-sc i{color:#B3B9C7}
+html[data-theme="light"] .crest.md{box-shadow:0 0 0 1px var(--line)}
 
 /* الأخبار */
-.news h3{color:var(--ink)}
-.news a::before{color:rgba(11,21,48,.12)}
-.news a:hover{background:var(--surface-2)}
-.news a:hover::before{color:var(--royal)}
-.news .k{background:rgba(47,91,232,.1);color:var(--royal-2)}
-.news .k.world{background:var(--chip);color:var(--muted)}
+html[data-theme="light"] .news h3{color:var(--ink)}
+html[data-theme="light"] .news a::before{color:rgba(11,21,48,.12)}
+html[data-theme="light"] .news a:hover{background:var(--surface-2)}
+html[data-theme="light"] .news a:hover::before{color:var(--royal)}
+html[data-theme="light"] .news .k{background:rgba(47,91,232,.1);color:var(--royal-2)}
+html[data-theme="light"] .news .k.world{background:var(--chip);color:var(--muted)}
 
 /* مباريات اليوم (قسم بدل الشريط اللي فوق) */
-.page-home>.today-wrap{margin-top:24px}
-.today-wrap:has(> section[hidden]){display:none}
-.today-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:0 12px 14px}
-.today-grid .sc-card{width:auto;background:var(--surface-2);border:1px solid transparent;transition:background .2s,border-color .2s}
-.today-grid .sc-card:hover{background:var(--surface-3);border-color:var(--line)}
-.today-grid .sc-card.hl{box-shadow:inset 0 0 0 1.5px var(--royal)}
-.today-grid .sc-top{color:var(--muted)}
-.today-grid .sc-t{color:var(--ink);font-weight:500}
-@media (max-width:900px){.today-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+html[data-theme="light"] .page-home>.today-wrap{margin-top:24px}
+html[data-theme="light"] .today-wrap:has(> section[hidden]){display:none}
+html[data-theme="light"] .today-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:0 12px 14px}
+html[data-theme="light"] .today-grid .sc-card{width:auto;background:var(--surface-2);border:1px solid transparent;transition:background .2s,border-color .2s}
+html[data-theme="light"] .today-grid .sc-card:hover{background:var(--surface-3);border-color:var(--line)}
+html[data-theme="light"] .today-grid .sc-card.hl{box-shadow:inset 0 0 0 1.5px var(--royal)}
+html[data-theme="light"] .today-grid .sc-top{color:var(--muted)}
+html[data-theme="light"] .today-grid .sc-t{color:var(--ink);font-weight:500}
+@media (max-width:900px){html[data-theme="light"] .today-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* مباريات الشهر */
-.mo-card{background:var(--surface-2);border-color:var(--line)}
-.mo-card:hover{background:#fff;box-shadow:0 10px 24px -14px rgba(11,21,48,.4)}
-.mc-mid b{color:var(--ink)}
-.mc-top{color:var(--muted)}
-.mc-top .ha .i{color:var(--ink)}
-.mc-mid .crest{box-shadow:0 0 0 1px var(--line)}
+html[data-theme="light"] .mo-card{background:var(--surface-2);border-color:var(--line)}
+html[data-theme="light"] .mo-card:hover{background:#fff;box-shadow:0 10px 24px -14px rgba(11,21,48,.4)}
+html[data-theme="light"] .mc-mid b{color:var(--ink)}
+html[data-theme="light"] .mc-top{color:var(--muted)}
+html[data-theme="light"] .mc-top .ha .i{color:var(--ink)}
+html[data-theme="light"] .mc-mid .crest{box-shadow:0 0 0 1px var(--line)}
 
 /* العب مع منبر */
-.play-links a{background:var(--surface-2)}
-.play-links a:hover{background:var(--surface-3)}
-.play-links b{color:var(--ink)}
-.pl-ic{background:rgba(47,91,232,.1);color:var(--royal)}
+html[data-theme="light"] .play-links a{background:var(--surface-2)}
+html[data-theme="light"] .play-links a:hover{background:var(--surface-3)}
+html[data-theme="light"] .play-links b{color:var(--ink)}
+html[data-theme="light"] .pl-ic{background:rgba(47,91,232,.1);color:var(--royal)}
 
 /* التصاميم */
-.d-item{background:var(--surface-2);border-color:var(--line)}
-.d-meta{background:var(--surface-2)}
-.d-meta small{color:var(--ink)}
-.d-meta b{color:var(--royal)}
+html[data-theme="light"] .d-item{background:var(--surface-2);border-color:var(--line)}
+html[data-theme="light"] .d-meta{background:var(--surface-2)}
+html[data-theme="light"] .d-meta small{color:var(--ink)}
+html[data-theme="light"] .d-meta b{color:var(--royal)}
 
 /* الفيديو */
-.v-promo{background:linear-gradient(90deg,#fff,#F1F4FB);border:1px solid var(--line);box-shadow:var(--lift)}
-.v-promo b{color:var(--ink)}
-.v-promo small{color:var(--muted)}
-.v-promo .v-open-btn{background:var(--royal);color:#fff}
+html[data-theme="light"] .v-promo{background:linear-gradient(90deg,#fff,#F1F4FB);border:1px solid var(--line);box-shadow:var(--lift)}
+html[data-theme="light"] .v-promo b{color:var(--ink)}
+html[data-theme="light"] .v-promo small{color:var(--muted)}
+html[data-theme="light"] .v-promo .v-open-btn{background:var(--royal);color:#fff}
 
 /* في مثل هذا اليوم */
-.home-grid .occ-card{background:#fff;color:var(--ink);border:1px solid var(--line);box-shadow:var(--lift)}
-.home-grid .oc-ic{background:var(--surface-2)}
+html[data-theme="light"] .home-grid .occ-card{background:#fff;color:var(--ink);border:1px solid var(--line);box-shadow:var(--lift)}
+html[data-theme="light"] .home-grid .oc-ic{background:var(--surface-2)}
 
 /* شريط ذكرى التأسيس */
-.page-home .fd-banner{background:linear-gradient(90deg,rgba(47,91,232,.12),rgba(47,91,232,.04));border:1px solid rgba(47,91,232,.22);color:var(--ink)}
-.page-home .fd-banner .n{color:var(--royal)}
-.page-home .fd-banner small{color:var(--muted);opacity:1}
-.page-home .fd-banner .go{background:var(--royal);color:#fff;border:0}
+html[data-theme="light"] .page-home .fd-banner{background:linear-gradient(90deg,rgba(47,91,232,.12),rgba(47,91,232,.04));border:1px solid rgba(47,91,232,.22);color:var(--ink)}
+html[data-theme="light"] .page-home .fd-banner .n{color:var(--royal)}
+html[data-theme="light"] .page-home .fd-banner small{color:var(--muted);opacity:1}
+html[data-theme="light"] .page-home .fd-banner .go{background:var(--royal);color:#fff;border:0}
 
 /* شريط الجوال السفلي */
-.tabbar{background:rgba(255,255,255,.92);border-top-color:var(--line)}
-.tabbar a{color:var(--muted)}
-.tabbar a[aria-current="page"]{color:var(--ink)}
-.tabbar a[aria-current="page"] .i{color:var(--royal)}
+html[data-theme="light"] .tabbar{background:rgba(255,255,255,.92);border-top-color:var(--line)}
+html[data-theme="light"] .tabbar a{color:var(--muted)}
+html[data-theme="light"] .tabbar a[aria-current="page"]{color:var(--ink)}
+html[data-theme="light"] .tabbar a[aria-current="page"] .i{color:var(--royal)}

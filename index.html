@@ -2,10 +2,12 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("mnbr-theme")==="dark"?"dark":"light"}catch(e){document.documentElement.dataset.theme="light"}</script>
+
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>منبر الهلال — مباريات ونتائج وترتيب وأخبار الهلال</title>
 <meta name="description" content="منبر الهلال — مباريات الهلال ونتائجه، ترتيب دوري روشن، مباريات اليوم حول العالم، تصاميم وفيديوهات وأخبار.">
-<meta name="theme-color" content="#000000">
+<meta name="theme-color" content="#E4E6EA">
 <meta property="og:image" content="https://mnbralhilal.net/assets/icon-512.png">
 <meta property="og:url" content="https://mnbralhilal.net/index.html">
 <meta property="og:type" content="website">
@@ -18,14 +20,12 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=2">
 <link rel="preload" href="assets/fonts/ExpoArabic-Book.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="assets/fonts/ExpoArabic-Bold.woff" as="font" type="font/woff" crossorigin>
-<link rel="stylesheet" href="assets/style.css?v=202610090610">
+<link rel="stylesheet" href="assets/style.css?v=202610090640">
+<link rel="stylesheet" href="assets/theme-night.css?v=202610090640">
+<link rel="stylesheet" href="assets/theme-light.css?v=202610090640">
 </head>
 <body data-page="home">
-<script src="assets/layout.js?v=202610090610"></script>
-
-<div class="strip" id="stripWrap" hidden aria-label="مباريات اليوم">
-  <div class="wrap"><div class="strip-row" id="strip"></div></div>
-</div>
+<script src="assets/layout.js?v=202610090640"></script>
 
 <div class="ticker" hidden aria-label="خبر عاجل">
   <div class="wrap"><div class="tick-box"><span class="tag"><svg class="i"><use href="#i-bolt"/></svg>عاجل</span>
@@ -45,6 +45,11 @@
     </article>
   </div>
 </div>
+
+<div class="wrap today-wrap"><section class="box sec-today" id="stripWrap" hidden>
+  <h2><span class="ic"><svg class="i"><use href="#i-globe"/></svg></span>مباريات اليوم<a class="see-all" href="matches.html#today">كل المباريات<svg class="i"><use href="#i-arrow"/></svg></a></h2>
+  <div class="today-grid" id="strip" data-limit="8"></div>
+</section></div>
 
 <div class="wrap month-wrap"><section class="box sec-month" id="monthBox" hidden>
   <h2><span class="ic"><svg class="i"><use href="#i-cal"/></svg></span><span id="monthTitle">مباريات الشهر</span><a class="see-all" href="matches.html#month">التقويم<svg class="i"><use href="#i-arrow"/></svg></a></h2>
@@ -116,7 +121,7 @@
 
 <script>LAYOUT.foot()</script>
 <script src="assets/names.js?v=202610090600"></script>
-<script src="assets/app.js?v=202610090600"></script>
+<script src="assets/app.js?v=202610090640"></script>
 <script src="assets/reach.js?v=202610090600"></script>
 <script src="assets/social.js?v=202610090600"></script>
 <script src="assets/push.js?v=202610090600"></script>
