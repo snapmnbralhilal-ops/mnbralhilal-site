@@ -45,6 +45,20 @@ export default {
         return noStore({ ok: true, interval: +env.LIVE_INTERVAL, scheduleAt: sched?.at ? new Date(sched.at).toISOString() : null,
           schedule: sched?.matches || [], scheduleErrors: sched?.errors || [], requestsToday: usage?.n || 0, admin: !!env.GH_TOKEN });
       }
+      if (url.pathname === "/fixture") {
+        const id = Number(url.searchParams.get("id"));
+        if (!Number.isSafeInteger(id) || id <= 0) return noStore({ error: "invalid-id" }, 400);
+        const headers = { "x-apisports-key": env.API_FOOTBALL_KEY };
+        const base = "https://v3.football.api-sports.io/";
+        const get = async (path) => {
+          const r = await fetch(base + path + "?fixture=" + id, { headers });
+          if (!r.ok) throw new Error("API HTTP " + r.status);
+          const j = await r.json();
+          return j.response || [];
+        };
+        const [events, lineups] = await Promise.all([get("fixtures/events"), get("fixtures/lineups")]);
+        return noStore({ id, events, lineups, fetchedAt: Date.now() });
+      }
       if (url.pathname.startsWith("/game")) return await game(req, env, url);
       if (url.pathname.startsWith("/league")) return await league(req, env, url);
       if (url.pathname.startsWith("/push")) return await pushRoute(req, env, url);
