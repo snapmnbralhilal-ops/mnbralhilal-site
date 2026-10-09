@@ -65,7 +65,7 @@
   <div class="wrap top">
     <a href="index.html" class="brandlink" aria-label="منبر الهلال — الرئيسية">
       <span class="logo" role="img" aria-label="شعار منبر الهلال"></span>
-      <span class="brand"><b>منبر الهلال</b><span>MNBRALHILAL</span></span>
+      <span class="brand"><b>منبر الهــلال</b><span>MNBRALHILAL</span></span>
     </a>
     <button type="button" class="hd-bell" data-push="icon" hidden aria-label="تنبيهات المباريات والأهداف">${icon("bell")}</button>
     <button type="button" class="hd-theme" id="themeBtn" aria-label="تبديل الستايل بين الفاتح والكحلي" title="فاتح / كحلي"><svg class="i i-moon"><use href="#i-moon"/></svg><svg class="i i-sun"><use href="#i-sun"/></svg></button>

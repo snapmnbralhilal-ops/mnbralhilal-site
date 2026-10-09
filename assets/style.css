@@ -30,8 +30,8 @@ a{color:inherit;text-decoration:none}
 .brandlink{display:inline-flex;align-items:center;gap:10px}
 .logo{width:24px;height:42px;flex:none;background:#fff;-webkit-mask:url(logo.png) center/contain no-repeat;mask:url(logo.png) center/contain no-repeat}
 .brand{display:flex;flex-direction:column;line-height:1.1}
-.brand b{font-family:var(--display);font-size:19px;font-weight:700;letter-spacing:-.2px}
-.brand span{font-size:9.5px;letter-spacing:.2em;font-family:var(--display);font-weight:600;color:var(--muted)}
+.brand b{font-family:var(--display);font-size:19px;font-weight:500;letter-spacing:0}
+.brand span{font-size:9.5px;letter-spacing:.2em;margin-right:-.2em;font-family:var(--display);font-weight:600;color:var(--muted)}
 .subnav{border-bottom:1px solid #1d1d1d}
 .subnav .wrap{display:flex;align-items:center;gap:26px;overflow-x:auto;scrollbar-width:none;padding-block:6px 12px}
 .subnav .wrap::-webkit-scrollbar{display:none}
