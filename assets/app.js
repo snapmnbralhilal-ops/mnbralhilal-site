@@ -520,15 +520,37 @@
     try { const j = await fetch("data/live.json?t=" + Date.now()).then((r) => r.json()); LIVE_TODAY_BASE = j.url.replace(/\/live$/, ""); } catch (e) {}
     return LIVE_TODAY_BASE;
   }
-  function mergeLive(matches) {
+  const LIVE_MATCH_VERSIONS = new Map();
+  function mergeLive(matches, batchAt) {
     if (!DATA.today?.groups) return;
     const now = Date.now();
+    const version = Number(batchAt) || now;
     let changed = false;
     for (const g of DATA.today.groups) {
       for (let i = 0; i < g.matches.length; i++) {
         const m = g.matches[i], live = matches[m.id];
         const sigOld = JSON.stringify([m.status, m.elapsed, m.goals, (m.events || []).length]);
         if (live) {
+          const previousVersion = LIVE_MATCH_VERSIONS.get(String(m.id)) || 0;
+          if (version < previousVersion) continue;
+          // عند رجوع الأهداف للخلف، لا نقبل لقطة عابرة قديمة.
+          // تأكيد تصحيح الهدف يحتاج تحديثين متتاليين من المصدر.
+          const oldGoals = Array.isArray(m.goals) ? m.goals : null;
+          const newGoals = Array.isArray(live.goals) ? live.goals : null;
+          const reduced = oldGoals && newGoals && newGoals.some((n, idx) => Number(n) < Number(oldGoals[idx]));
+          if (reduced) {
+            const correctionKey = String(m.id) + ":correction";
+            const candidate = LIVE_MATCH_VERSIONS.get(correctionKey);
+            const signature = JSON.stringify(newGoals);
+            if (!candidate || candidate.signature !== signature || version <= candidate.version) {
+              LIVE_MATCH_VERSIONS.set(correctionKey, { signature, version });
+              continue;
+            }
+            LIVE_MATCH_VERSIONS.delete(correctionKey);
+          } else {
+            LIVE_MATCH_VERSIONS.delete(String(m.id) + ":correction");
+          }
+          LIVE_MATCH_VERSIONS.set(String(m.id), version);
           const merged = { ...m, status: live.status, elapsed: live.elapsed, goals: live.goals, events: live.events || m.events };
           const sigNew = JSON.stringify([merged.status, merged.elapsed, merged.goals, (merged.events || []).length]);
           if (sigOld !== sigNew) { g.matches[i] = merged; changed = true; }
@@ -551,7 +573,7 @@
         const r = await fetch(base + "/live-today", { cache: "no-store" });
         if (!r.ok) return;
         const j = await r.json();
-        if (j && j.matches) mergeLive(j.matches);
+        if (j && j.matches) mergeLive(j.matches, j.at);
       } catch (e) {}
     };
     tick();
