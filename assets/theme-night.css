@@ -1,0 +1,121 @@
+/* ستايل "ليلة الهلال" — معاينة. يتحمّل بعد style.css ويغيّر الألوان والإحساس العام بدون ما يغيّر الترتيب */
+:root{
+  --bg:#070B16; --surface:#0D1322; --surface-2:rgba(255,255,255,.035); --surface-3:rgba(255,255,255,.07);
+  --ink:#E8ECF5; --muted:#8B94AB; --line:rgba(255,255,255,.06); --chip:rgba(255,255,255,.06);
+  --royal:#4F7BFF; --royal-2:#2F5BE8; --navy:#0B1E5B;
+  --radius:20px;
+  --edge:inset 0 1px 0 rgba(255,255,255,.06);
+  --lift:0 18px 40px -24px rgba(0,0,0,.9);
+}
+html{background:var(--bg)}
+body{
+  background:
+    radial-gradient(900px 520px at 85% -8%,rgba(47,91,232,.20),transparent 70%),
+    radial-gradient(700px 480px at 0% 30%,rgba(79,123,255,.07),transparent 70%),
+    var(--bg);
+  background-attachment:fixed;
+  color:var(--ink);
+}
+
+/* الهيدر: زجاجي كحلي بدل الأسود */
+.mast{background:rgba(7,11,22,.78);backdrop-filter:saturate(1.3) blur(16px);-webkit-backdrop-filter:saturate(1.3) blur(16px)}
+.subnav{border-bottom-color:var(--line)}
+.sect{font-weight:600}
+.nav a,.nav-more summary{font-weight:500;color:#A9B1C4}
+.nav a[aria-current="page"],.nav a:hover{color:#fff}
+.hd-bell{background:rgba(255,255,255,.04);border-color:var(--line)}
+.nav-more-menu{background:#0F1628;border-color:rgba(255,255,255,.08)}
+
+/* البطاقات: سطح واحد ناعم مع حافة إضاءة، بدون صناديق داخل صناديق */
+section.box{
+  background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.012)),var(--surface);
+  border:1px solid var(--line);box-shadow:var(--edge),var(--lift);
+  transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s;
+}
+.box h2{font-weight:600;font-size:19px;letter-spacing:0;padding:20px 20px 14px}
+.box h2 .ic{color:var(--royal)}
+.see-all{font-weight:500;color:var(--muted)}
+.see-all:hover{color:#fff}
+
+/* العناصر الداخلية: شفافة بدل رمادي صلب */
+.row,.mo-card,.play-links a,.d-item,.d-meta,.mini div,.last-vs,.v-promo,.sc-card,.tick-box{background:var(--surface-2)}
+.row{margin:0 10px 6px;border:1px solid transparent;transition:background .2s,border-color .2s}
+.row:hover{background:var(--surface-3);border-color:var(--line)}
+td{background:transparent;border-top:1px solid var(--line)}
+tbody tr td:first-child,tbody tr td:last-child{border-radius:0}
+table{border-spacing:0}
+tbody tr:hover td{background:var(--surface-2)}
+tr.hl td{background:rgba(79,123,255,.12)}
+.row .sc{background:rgba(0,0,0,.35)}
+.row .sc.time{box-shadow:inset 0 0 0 1px var(--line);color:#C9D4FF}
+
+/* الخطوط: تدرّج أوضح — العناوين قوية والنصوص أخف */
+.row .side,.sc-t,.mc-mid b,td.team div{font-weight:500}
+.news h3{font-weight:600;font-size:16.5px;line-height:1.5}
+.news p,.play-links small,.mc-top,.lead{color:var(--muted)}
+.news a::before{color:rgba(255,255,255,.12);font-weight:600}
+.news .k{background:rgba(79,123,255,.16);color:#AFC4FF}
+.news .k.world{background:var(--chip);color:var(--muted)}
+.mini b{font-weight:600}
+.pts,td.pts{color:#fff}
+
+/* بطاقة المباراة القادمة: كحلي عميق + صورة لاعب */
+.next{
+  background:
+    radial-gradient(520px 320px at 100% 0%,rgba(79,123,255,.38),transparent 70%),
+    radial-gradient(420px 300px at 0% 100%,rgba(47,91,232,.25),transparent 70%),
+    linear-gradient(160deg,#0F1A3A 0%,#0A1124 60%,#080D1B 100%);
+  border:1px solid rgba(255,255,255,.07);box-shadow:var(--edge),0 30px 60px -30px rgba(20,50,160,.6);
+  min-height:420px;
+}
+.next::before{background:repeating-linear-gradient(115deg,rgba(255,255,255,.018) 0 2px,transparent 2px 26px)}
+.next::after{
+  content:"";position:absolute;right:-10px;bottom:0;width:min(30%,340px);height:96%;pointer-events:none;z-index:0;
+  background:url(hero-player.webp) right bottom/contain no-repeat;opacity:.24;
+  -webkit-mask-image:linear-gradient(270deg,#000 35%,transparent 100%);mask-image:linear-gradient(270deg,#000 35%,transparent 100%);
+}
+/* صورة اللاعب تكون جهة الهلال */
+.next[data-hilal="away"]::after{right:auto;left:-10px;background-position:left bottom;transform:scaleX(-1);-webkit-mask-image:linear-gradient(270deg,#000 35%,transparent 100%);mask-image:linear-gradient(270deg,#000 35%,transparent 100%)}
+.kick{font-weight:700;letter-spacing:-1px}
+.vs .t{font-weight:600}
+.count div{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.08)}
+.nx-btn{font-weight:600;background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.12)}
+.nx-btn.primary{background:linear-gradient(180deg,#5B85FF,#3A63F0);border-color:transparent;box-shadow:0 10px 24px -10px rgba(79,123,255,.8)}
+.comp{background:rgba(255,255,255,.07)}
+@media (max-width:760px){.next{min-height:0}.next::after{width:55%;opacity:.18}}
+
+/* مباريات الشهر */
+.mo-card{border:1px solid var(--line);box-shadow:inset 0 2px 0 var(--k)}
+.mo-card:hover{transform:translateY(-3px);background:var(--surface-3)}
+.mo-card{transition:transform .25s,background .25s}
+
+/* العب، التصاميم، الفيديو */
+.pl-ic{background:rgba(79,123,255,.14)}
+.d-item{border:1px solid var(--line);transition:transform .3s,border-color .3s}
+.d-item:hover{transform:translateY(-4px);box-shadow:none;border-color:rgba(79,123,255,.5)}
+.v-promo{border:1px solid var(--line);background:radial-gradient(300px 140px at 100% 0,rgba(79,123,255,.28),transparent 70%),var(--surface)}
+.v-play{background:linear-gradient(180deg,#5B85FF,#3A63F0)}
+
+/* أرقام منبر */
+.reach{background:radial-gradient(520px 260px at 50% -10%,rgba(79,123,255,.32),transparent 70%),linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01)),var(--surface);border:1px solid var(--line);box-shadow:var(--edge)}
+.rc-p{background:var(--surface-2);border-color:var(--line)}
+.rc-ic{background:rgba(79,123,255,.18);color:#AFC4FF}
+.rc-aud{background:linear-gradient(90deg,#0B1E5B,#2F5BE8)}
+.rc-head h2{font-weight:600}
+
+/* شريط ذكرى التأسيس + الرعاة + الفوتر */
+.page-home .fd-banner{background:linear-gradient(90deg,rgba(79,123,255,.16),rgba(79,123,255,.05));border:1px solid rgba(79,123,255,.25)}
+.page-home .fd-banner .n{color:#8FB0FF}
+.page-home .fd-banner .go{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.15)}
+.sponsors,.follow{background:transparent;border-top-color:var(--line)}
+.soc{background:var(--surface-2);border:1px solid var(--line)}
+footer{background:rgba(0,0,0,.25);border-top-color:var(--line)}
+.demo{background:var(--surface-2)}
+.tabbar{background:rgba(7,11,22,.9);border-top-color:var(--line)}
+.tabbar a[aria-current="page"] .i{color:var(--royal)}
+
+/* ظهور ناعم للأقسام وقت النزول */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+@media (hover:hover){section.box:hover{box-shadow:var(--edge),0 24px 50px -24px rgba(0,0,0,.95)}}

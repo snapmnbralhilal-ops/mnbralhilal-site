@@ -239,6 +239,7 @@
   function renderNext(m) {
     const card = $("nextCard");
     if (!card) return;
+    if (m && HILAL_ID != null) card.dataset.hilal = m.home?.id === HILAL_ID ? "home" : "away";
     if (!m) { card.innerHTML = `<div class="empty"><svg class="i"><use href="#i-ball"/></svg>لا توجد مباراة قادمة مسجلة حالياً</div>`; return; }
     const d = new Date(m.date);
     const live = LIVE.includes(m.status);
