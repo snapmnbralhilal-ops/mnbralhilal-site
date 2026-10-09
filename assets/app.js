@@ -488,7 +488,9 @@
     put("monthStrip", month.map((m) => card(m, "mo-card")).join(""));
   }
 
+  let DATA = {};
   function render(data) {
+    DATA = data;
     HILAL_ID = data.hilal?.teamId ?? null;
     let h = data.hilal || {};
     const fb = nextFromDesigns();
@@ -508,6 +510,50 @@
     if ($("updated")) $("updated").textContent = data.updated
       ? "آخر تحديث: " + fmt({ day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(data.updated))
       : "بانتظار أول تحديث للبيانات";
+    startLiveToday();
+  }
+
+  /* ---------- تحديث نتائج المباريات المباشرة لحظة بلحظة (من worker مباشرة) ---------- */
+  let LIVE_TODAY_TIMER = null, LIVE_TODAY_BASE = null;
+  async function liveTodayBase() {
+    if (LIVE_TODAY_BASE) return LIVE_TODAY_BASE;
+    try { const j = await fetch("data/live.json?t=" + Date.now()).then((r) => r.json()); LIVE_TODAY_BASE = j.url.replace(/\/live$/, ""); } catch (e) {}
+    return LIVE_TODAY_BASE;
+  }
+  function mergeLive(matches) {
+    if (!DATA.today?.groups) return;
+    let changed = false;
+    for (const g of DATA.today.groups) {
+      for (let i = 0; i < g.matches.length; i++) {
+        const m = g.matches[i], live = matches[m.id];
+        if (!live) continue;
+        // لو الحالة أو النتيجة أو الدقيقة أو الأحداث تغيّرت نحدّث
+        const sigOld = JSON.stringify([m.status, m.elapsed, m.goals, (m.events || []).length]);
+        const merged = { ...m, status: live.status, elapsed: live.elapsed, goals: live.goals, events: live.events || m.events };
+        const sigNew = JSON.stringify([merged.status, merged.elapsed, merged.goals, (merged.events || []).length]);
+        if (sigOld !== sigNew) { g.matches[i] = merged; changed = true; }
+      }
+    }
+    if (changed) {
+      renderDay($("todayList"), DATA.today, "لا توجد مباريات اليوم في الدوريات المتابعة", 14, true);
+      renderStrip(DATA.today);
+    }
+  }
+  async function startLiveToday() {
+    if (LIVE_TODAY_TIMER) clearInterval(LIVE_TODAY_TIMER);
+    const base = await liveTodayBase();
+    if (!base) return;
+    const tick = async () => {
+      try {
+        const r = await fetch(base + "/live-today", { cache: "no-store" });
+        if (!r.ok) return;
+        const j = await r.json();
+        if (j && j.matches) mergeLive(j.matches);
+      } catch (e) {}
+    };
+    tick();
+    LIVE_TODAY_TIMER = setInterval(() => { if (!document.hidden) tick(); }, 30000);
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) tick(); });
   }
 
   /* ---------- الفئات السنية (data/youth.json — تعبئة يدوية) ---------- */

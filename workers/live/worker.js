@@ -31,6 +31,7 @@ export default {
     if (req.method === "OPTIONS") return new Response(null, { headers: CORS });
     try {
       if (url.pathname === "/live") return json((await env.KV.get("live", "json")) || { status: "idle" }, 10);
+      if (url.pathname === "/live-today") return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 15);
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
         const [sched, usage] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json")]);
@@ -162,6 +163,11 @@ async function activeFx(env) {
 async function pollRoshn(env, activeList) {
   // مكالمة واحدة تجيب كل المباريات المباشرة مرة وحدة — رخيصة
   const all = await api(env, { live: "all" });
+  // تخزين كل المباريات المباشرة في KV للعرض على زوار الموقع — تحديث فوري بدون انتظار site.json
+  const map = {};
+  for (const f of all) { const s = slim(f); map[s.id] = s; }
+  await env.KV.put("live-today", JSON.stringify({ at: Date.now(), matches: map }), { expirationTtl: 2 * 3600 });
+  if (!activeList || !activeList.length) return;
   const byId = new Map(all.map((f) => [f.fixture.id, f]));
   const now = Date.now();
   const last = (await env.KV.get("roshn", "json")) || {};
@@ -232,8 +238,17 @@ async function tick(env) {
   }
 
   const m = matches.find((x) => now >= x.kickoff - PRE && now <= x.kickoff + POST);
+
+  // دائماً خلال ساعات اللعب نسحب كل المباريات المباشرة ونخزّنها عشان زوار الموقع يشوفونها حية
+  // (ولا نكرر لو مباراة الهلال نفسها بتسحب نفسها بشكل كامل)
+  const hourRi = (new Date(now + 3 * 3600e3)).getUTCHours();
+  const activeHours = hourRi >= 10 || hourRi <= 2;    // 10 صباحاً — 2 ليلاً بتوقيت الرياض
+  if (activeHours && !roshnLive.length) {
+    try { await pollRoshn(env, []); } catch (e) {}
+  }
+
   // لا الهلال ولا روشن — خلّص
-  if (!m && !roshnLive.length) return;
+  if (!m && !roshnLive.length) { await flushUsage(env); return; }
 
   // لو مباراة الهلال قبل البداية، ثبّت الحالة في live
   if (m && now < m.kickoff) {
