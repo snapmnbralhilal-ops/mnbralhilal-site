@@ -1,0 +1,13 @@
+{
+  "period": "سبتمبر 2026",
+  "headline": "أكثر من نصف مليار ظهور ومشاهدة",
+  "total": 550000000,
+  "total_label": "ظهور ومشاهدة في شهر واحد",
+  "platforms": [
+    { "key": "x", "name": "X", "value": 263.5, "unit": "M", "plus": true, "label": "مرة ظهور" },
+    { "key": "snapchat", "name": "سناب شات", "value": 224.8, "unit": "M", "plus": false, "label": "مشاهدة" },
+    { "key": "instagram", "name": "إنستغرام", "value": 48.9, "unit": "M", "plus": false, "label": "مشاهدة" },
+    { "key": "tiktok", "name": "تيك توك", "value": 13.5, "unit": "M", "plus": true, "label": "مشاهدة" }
+  ],
+  "audience": { "value": 8.2, "unit": "M", "plus": true, "label": "إجمالي الجمهور", "sub": "أكثر من 8 ملايين متابع عبر X وسناب شات وإنستغرام وتيك توك" }
+}

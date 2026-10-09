@@ -537,3 +537,35 @@ footer .wrap{row-gap:14px}
   .mo-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:0 12px 14px}
   .mo-list .mo-card{width:auto}
 }
+
+/* ================= أرقام منبر (الرئيسية) ================= */
+.page>.reach-wrap{padding-block:22px 0}
+.reach-wrap:has(> section[hidden]){display:none}
+.reach{position:relative;overflow:hidden;border-radius:22px;padding:30px 24px 22px;text-align:center;background:
+  radial-gradient(520px 260px at 50% -10%,rgba(47,91,255,.45),transparent 70%),
+  radial-gradient(400px 240px at 0% 110%,rgba(134,85,255,.25),transparent 70%),var(--surface)}
+.reach::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.025) 0 2px,transparent 2px 22px);pointer-events:none}
+.reach>*{position:relative}
+.rc-kick{display:inline-block;font:600 13px var(--display);color:#cfcfcf;background:rgba(255,255,255,.08);padding:4px 12px;border-radius:999px}
+.rc-head h2{margin:12px 0 4px;font:700 30px/1.25 var(--display);letter-spacing:-.4px}
+.rc-total b{display:block;font:700 64px/1.1 var(--display);letter-spacing:-1.5px;color:#fff;direction:ltr}
+.rc-head p{margin:2px 0 22px;color:var(--muted);font-size:14px}
+.rc-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.rc-p{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:16px 10px;display:flex;flex-direction:column;align-items:center;gap:8px}
+.rc-ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:var(--royal);color:#fff}
+.rc-ic svg{width:22px;height:22px}
+.rc-p b{font:700 30px/1 var(--display);direction:ltr}
+.rc-lbl{font-size:13px;color:var(--muted)}
+.rc-lbl strong{color:#fff;font-family:var(--display)}
+.rc-aud{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:10px;padding:16px 20px;border-radius:16px;background:linear-gradient(90deg,#0B2A7A,#2F5BFF);text-align:right}
+.rc-aud strong{display:block;font:700 18px var(--display)}
+.rc-aud small{display:block;font-size:13px;opacity:.85}
+.rc-aud b{font:700 44px/1 var(--display);direction:ltr}
+@media (max-width:760px){
+  .reach{padding:24px 14px 16px}
+  .rc-head h2{font-size:23px}
+  .rc-total b{font-size:44px}
+  .rc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rc-p b{font-size:26px}
+  .rc-aud b{font-size:34px}
+}
