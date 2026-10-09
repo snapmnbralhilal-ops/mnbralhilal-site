@@ -309,14 +309,16 @@ async function tick(env) {
   const interval = Math.max(10, +env.LIVE_INTERVAL || 180);
   // اللوبات السريعة: فقط وقت مباراة الهلال (توفيراً لحد الطلبات بالدقيقة)
   const hilalLive = m && now >= m.kickoff;
-  const fastLoop = interval < 60 && hilalLive;
+  // سحب المباريات العالمية أيضًا كل 15 ثانية أثناء ساعات النشاط.
+  // يستلزم رصيد API كافيًا: نحو 4 طلبات بالدقيقة خلال ساعات النشاط.
+  const fastLoop = interval < 60 && (hilalLive || activeHours || roshnLive.length > 0);
   const loops = fastLoop ? Math.floor(55 / interval) + 1 : 1;
   try {
     for (let i = 0; i < loops; i++) {
       if (i) await new Promise((r) => setTimeout(r, interval * 1000));
       if (hilalLive) await pollOnce(env, m);
-      // روشن ومباريات العالم: مكالمة واحدة بالدقيقة (أول لفة فقط)
-      if (i === 0 && (activeHours || roshnLive.length)) await pollRoshn(env, roshnLive);
+      // تحديث المباريات العالمية مع كل لفة، لا مرة واحدة بالدقيقة.
+      if (activeHours || roshnLive.length) await pollRoshn(env, roshnLive);
     }
   } finally { await flushUsage(env); }
   if (m && hilalLive) await settle(env, m.kickoff);
