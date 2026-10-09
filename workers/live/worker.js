@@ -13,6 +13,7 @@ const POST = 150 * 60e3;       // ويستمر لين 150 دقيقة بعد ال
 const VOTE_OPEN = 105 * 60e3;  // التصويت يفتح بعد 105 دقيقة (أو أول ما تنتهي)
 const GAME_DAY = 24 * 3600e3;  // المباراة تبقى "الحالية" 24 ساعة
 const DONE = ["FT", "AET", "PEN", "AWD", "WO", "CANC", "ABD", "PST"];
+const LIVE = ["1H", "HT", "2H", "ET", "BT", "P", "LIVE", "INT", "SUSP"];
 const REPO = "snapmnbralhilal-ops/mnbralhilal-site";
 
 const FORMS = {
@@ -31,7 +32,13 @@ export default {
     if (req.method === "OPTIONS") return new Response(null, { headers: CORS });
     try {
       if (url.pathname === "/live") return json((await env.KV.get("live", "json")) || { status: "idle" }, 10);
-      if (url.pathname === "/live-today") return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 15);
+      if (url.pathname === "/live-today") {
+        if (url.searchParams.get("reset") === "1" && (await isAdmin(req, env))) {
+          await env.KV.delete("live-today");
+          return noStore({ ok: true, reset: true });
+        }
+        return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 15);
+      }
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
         const [sched, usage] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json")]);
@@ -163,22 +170,27 @@ async function activeFx(env) {
 async function pollRoshn(env, activeList) {
   // مكالمة واحدة تجيب كل المباريات المباشرة مرة وحدة — رخيصة
   const all = await api(env, { live: "all" });
-  // تخزين كل المباريات المباشرة في KV للعرض على زوار الموقع — تحديث فوري بدون انتظار site.json
   const now = Date.now();
   const map = {};
   for (const f of all) { const s = slim(f); map[s.id] = s; }
-  // نحتفظ بالمباريات اللي خلصت بين النبضة الحالية والسابقة ونعلّمها FT عشان الواجهة ما تظل تعرضها "مباشر"
-  const prev = (await env.KV.get("live-today", "json"))?.matches || {};
-  const todayKey = today(); // yyyy-mm-dd بتوقيت الرياض
-  for (const [idS, last] of Object.entries(prev)) {
-    if (map[idS]) continue;
-    // لو كانت مباراة اليوم ومستمرة سابقاً → خلصت الحين → علّمها FT بآخر نتيجة
-    const d = last.date ? last.date.slice(0, 10) : null;
-    if (!d || d !== todayKey) continue;
-    if (DONE.includes(last.status)) { map[idS] = last; continue; }
-    map[idS] = { ...last, status: "FT", elapsed: null };
+  // حماية: لو API رجّع فاضي (خطأ/timeout) ما نلمس الـcache — نرجع من غير تحديث
+  if (!all.length) { if (!activeList || !activeList.length) return; }
+  else {
+    // نحتفظ بالمباريات اللي خلصت بين النبضة الحالية والسابقة ونعلّمها FT بس إذا كانت في حالة مباشر سابقاً
+    const prev = (await env.KV.get("live-today", "json"))?.matches || {};
+    const todayKey = today();
+    for (const [idS, last] of Object.entries(prev)) {
+      if (map[idS]) continue;
+      const d = last.date ? last.date.slice(0, 10) : null;
+      if (!d || d !== todayKey) continue;
+      // المباراة اللي خلصت فعلاً: نحتفظ بها بآخر نتيجة
+      if (DONE.includes(last.status)) { map[idS] = last; continue; }
+      // المباراة اللي كانت مباشر: علّمها FT (API حذفها من live-all ومعناها انتهت)
+      if (LIVE.includes(last.status)) { map[idS] = { ...last, status: "FT", elapsed: null }; continue; }
+      // غير كذا (NS أو TBD) — ما نعلّمها FT، نتجاهلها لحد ما تبدأ
+    }
+    await env.KV.put("live-today", JSON.stringify({ at: now, matches: map }), { expirationTtl: 36 * 3600 });
   }
-  await env.KV.put("live-today", JSON.stringify({ at: now, matches: map }), { expirationTtl: 36 * 3600 });
   if (!activeList || !activeList.length) return;
   const byId = new Map(all.map((f) => [f.fixture.id, f]));
   const last = (await env.KV.get("roshn", "json")) || {};
