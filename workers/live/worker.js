@@ -184,10 +184,10 @@ async function pollRoshn(env, activeList) {
       const d = last.date ? last.date.slice(0, 10) : null;
       if (!d || d !== todayKey) continue;
       const kickMs = last.date ? new Date(last.date).getTime() : 0;
-      const inWindow = kickMs > 0 && now < kickMs + 150 * 60e3;
       if (DONE.includes(last.status)) {
-        // لو كانت نافذة اللعب لسا شغّالة ومش في live-all → غالباً علامة FT خاطئة سابقة؛ ننساها عشان تنعاد من live-all
-        if (inWindow) continue;
+        // علامات FT من إصدار قديم كان يحفظ elapsed مع FT — نلغيها لو المباراة لسا في نافذتها
+        const suspicious = last.elapsed != null && kickMs > 0 && now < kickMs + 150 * 60e3;
+        if (suspicious) continue;
         map[idS] = last;
         continue;
       }

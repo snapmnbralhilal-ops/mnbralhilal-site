@@ -522,16 +522,24 @@
   }
   function mergeLive(matches) {
     if (!DATA.today?.groups) return;
+    const now = Date.now();
     let changed = false;
     for (const g of DATA.today.groups) {
       for (let i = 0; i < g.matches.length; i++) {
         const m = g.matches[i], live = matches[m.id];
-        if (!live) continue;
-        // لو الحالة أو النتيجة أو الدقيقة أو الأحداث تغيّرت نحدّث
         const sigOld = JSON.stringify([m.status, m.elapsed, m.goals, (m.events || []).length]);
-        const merged = { ...m, status: live.status, elapsed: live.elapsed, goals: live.goals, events: live.events || m.events };
-        const sigNew = JSON.stringify([merged.status, merged.elapsed, merged.goals, (merged.events || []).length]);
-        if (sigOld !== sigNew) { g.matches[i] = merged; changed = true; }
+        if (live) {
+          const merged = { ...m, status: live.status, elapsed: live.elapsed, goals: live.goals, events: live.events || m.events };
+          const sigNew = JSON.stringify([merged.status, merged.elapsed, merged.goals, (merged.events || []).length]);
+          if (sigOld !== sigNew) { g.matches[i] = merged; changed = true; }
+        } else if (LIVE.includes(m.status)) {
+          // المباراة كانت مباشر لكن اختفت من live-today = غالباً خلصت. لو مرّ 100 دقيقة من البداية علّمها FT بآخر نتيجة
+          const kickMs = m.date ? new Date(m.date).getTime() : 0;
+          if (kickMs > 0 && now >= kickMs + 100 * 60e3) {
+            g.matches[i] = { ...m, status: "FT", elapsed: null };
+            changed = true;
+          }
+        }
       }
     }
     if (changed) {
