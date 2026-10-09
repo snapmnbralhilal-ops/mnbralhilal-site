@@ -121,7 +121,7 @@ section.box{background:var(--surface);border-radius:var(--radius);overflow:hidde
 
 /* ---------- صفوف المباريات ---------- */
 .row{position:relative;display:grid;grid-template-columns:76px minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;padding:11px 12px;margin:0 6px 4px;border-radius:12px;background:var(--surface-2);transition:background .15s}
-.row.has-bell{padding-inline-end:44px}
+.row.has-bell, .row.has-details{padding-inline-end:44px}
 .row-bell{position:absolute;top:50%;inset-inline-end:8px;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;background:transparent;border:none;color:var(--muted);display:grid;place-items:center;cursor:pointer;transition:background .15s,color .15s;padding:0}
 .row-bell svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .row-bell:hover{background:var(--surface-3);color:var(--ink)}
@@ -693,8 +693,3 @@ html:not([data-theme="light"]) .hd-theme .i-sun{display:block}
 @media (max-width:520px){.hd-theme{inset-inline-end:58px;width:36px;height:36px}.hd-bell[hidden]+.hd-theme{inset-inline-end:14px}}
 html.theme-anim,html.theme-anim *{transition:background-color .35s,color .35s,border-color .35s!important}
 
-/* Match details link: keep controls aligned without covering teams */
-.row:has(.fixture-details-link){padding-bottom:36px}
-.fixture-details-link{position:absolute;inset-inline-start:14px;bottom:8px;font-size:12px;font-weight:700;color:var(--royal);text-decoration:none;line-height:20px}
-.fixture-details-link:hover{text-decoration:underline}
-.row.has-bell:has(.fixture-details-link){padding-bottom:36px}
