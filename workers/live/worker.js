@@ -191,10 +191,10 @@ async function pollRoshn(env, activeList) {
         map[idS] = last;
         continue;
       }
-      // المباراة اللي كانت مباشر: علّمها FT (API حذفها من live-all ومعناها انتهت)
+      // اختفاء المباراة من live-all لا يؤكد انتهاءها؛ قد يكون انقطاعًا مؤقتًا.
+      // نحتفظ بآخر حالة مباشرة لفترة قصيرة حتى تصل حالة نهائية مؤكدة.
       if (LIVE.includes(last.status)) {
-        // بس إذا تجاوزت الـ80 دقيقة من البداية — عشان ما نعلّم مباراة لسا جديدة بالخطأ
-        if (kickMs > 0 && now >= kickMs + 80 * 60e3) { map[idS] = { ...last, status: "FT", elapsed: null }; }
+        if (kickMs > 0 && now < kickMs + 180 * 60e3) map[idS] = last;
         continue;
       }
     }
