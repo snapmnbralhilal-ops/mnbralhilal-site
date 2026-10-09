@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T14:33:10.377Z",
+ "updated": "2026-10-09T15:28:52.495Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603041,
       "date": "2026-10-09T16:50:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 76,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -804,14 +804,14 @@
       },
       "goals": [
        0,
-       3
+       4
       ]
      },
      {
       "id": 1603037,
       "date": "2026-10-09T17:55:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 34,
       "venue": "Al-Hasa",
       "league": {
        "id": 307,
@@ -832,7 +832,10 @@
        "ar": "الأهلي",
        "logo": "https://media.api-sports.io/football/teams/2929.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1603042,
@@ -981,8 +984,8 @@
      {
       "id": 1597936,
       "date": "2026-10-09T17:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 44,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1003,7 +1006,10 @@
        "ar": "الريان",
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1597933,
