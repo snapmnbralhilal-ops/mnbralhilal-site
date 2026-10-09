@@ -45,6 +45,20 @@ export default {
         return noStore({ ok: true, interval: +env.LIVE_INTERVAL, scheduleAt: sched?.at ? new Date(sched.at).toISOString() : null,
           schedule: sched?.matches || [], scheduleErrors: sched?.errors || [], requestsToday: usage?.n || 0, admin: !!env.GH_TOKEN });
       }
+      if (url.pathname === "/fixture") {
+        const id = Number(url.searchParams.get("id"));
+        if (!Number.isSafeInteger(id) || id <= 0) return noStore({ error: "invalid-id" }, 400);
+        const headers = { "x-apisports-key": env.API_FOOTBALL_KEY };
+        const base = "https://v3.football.api-sports.io/";
+        const get = async (path) => {
+          const r = await fetch(base + path + "?fixture=" + id, { headers });
+          if (!r.ok) throw new Error("API HTTP " + r.status);
+          const j = await r.json();
+          return j.response || [];
+        };
+        const [events, lineups] = await Promise.all([get("fixtures/events"), get("fixtures/lineups")]);
+        return noStore({ id, events, lineups, fetchedAt: Date.now() });
+      }
       if (url.pathname.startsWith("/game")) return await game(req, env, url);
       if (url.pathname.startsWith("/league")) return await league(req, env, url);
       if (url.pathname.startsWith("/push")) return await pushRoute(req, env, url);
@@ -191,10 +205,10 @@ async function pollRoshn(env, activeList) {
         map[idS] = last;
         continue;
       }
-      // المباراة اللي كانت مباشر: علّمها FT (API حذفها من live-all ومعناها انتهت)
+      // اختفاء المباراة من live-all لا يؤكد انتهاءها؛ قد يكون انقطاعًا مؤقتًا.
+      // نحتفظ بآخر حالة مباشرة لفترة قصيرة حتى تصل حالة نهائية مؤكدة.
       if (LIVE.includes(last.status)) {
-        // بس إذا تجاوزت الـ80 دقيقة من البداية — عشان ما نعلّم مباراة لسا جديدة بالخطأ
-        if (kickMs > 0 && now >= kickMs + 80 * 60e3) { map[idS] = { ...last, status: "FT", elapsed: null }; }
+        if (kickMs > 0 && now < kickMs + 180 * 60e3) map[idS] = last;
         continue;
       }
     }
@@ -309,14 +323,16 @@ async function tick(env) {
   const interval = Math.max(10, +env.LIVE_INTERVAL || 180);
   // اللوبات السريعة: فقط وقت مباراة الهلال (توفيراً لحد الطلبات بالدقيقة)
   const hilalLive = m && now >= m.kickoff;
-  const fastLoop = interval < 60 && hilalLive;
+  // سحب المباريات العالمية أيضًا كل 15 ثانية أثناء ساعات النشاط.
+  // يستلزم رصيد API كافيًا: نحو 4 طلبات بالدقيقة خلال ساعات النشاط.
+  const fastLoop = interval < 60 && (hilalLive || activeHours || roshnLive.length > 0);
   const loops = fastLoop ? Math.floor(55 / interval) + 1 : 1;
   try {
     for (let i = 0; i < loops; i++) {
       if (i) await new Promise((r) => setTimeout(r, interval * 1000));
       if (hilalLive) await pollOnce(env, m);
-      // روشن ومباريات العالم: مكالمة واحدة بالدقيقة (أول لفة فقط)
-      if (i === 0 && (activeHours || roshnLive.length)) await pollRoshn(env, roshnLive);
+      // تحديث المباريات العالمية مع كل لفة، لا مرة واحدة بالدقيقة.
+      if (activeHours || roshnLive.length) await pollRoshn(env, roshnLive);
     }
   } finally { await flushUsage(env); }
   if (m && hilalLive) await settle(env, m.kickoff);

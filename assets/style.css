@@ -683,3 +683,9 @@ html:not([data-theme="light"]) .hd-theme .i-sun{display:block}
 .hd-bell[hidden]+.hd-theme,.hd-theme:only-of-type{inset-inline-end:20px}
 @media (max-width:520px){.hd-theme{inset-inline-end:58px;width:36px;height:36px}.hd-bell[hidden]+.hd-theme{inset-inline-end:14px}}
 html.theme-anim,html.theme-anim *{transition:background-color .35s,color .35s,border-color .35s!important}
+
+/* Match details link: keep controls aligned without covering teams */
+.row:has(.fixture-details-link){padding-bottom:36px}
+.fixture-details-link{position:absolute;inset-inline-start:14px;bottom:8px;font-size:12px;font-weight:700;color:var(--royal);text-decoration:none;line-height:20px}
+.fixture-details-link:hover{text-decoration:underline}
+.row.has-bell:has(.fixture-details-link){padding-bottom:36px}

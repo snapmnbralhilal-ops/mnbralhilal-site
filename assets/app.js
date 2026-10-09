@@ -62,12 +62,16 @@
     } else if (LIVE.includes(m.status)) {
       when = `<div class="when"><span class="live"><span class="dot"></span>${m.elapsed ? ar(m.elapsed) + "'" : "مباشر"}</span></div>`;
     }
-    const style = when ? "" : ' style="grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)"';
+    // ثبّت أعمدة صف المباراة حتى لا تتحرك الأندية والنتيجة عند بدء البث.
+    const style = "";
     const bellBtn = bell ? `<button class="row-bell" type="button" data-fx-bell data-fx-id="${esc(bell.id)}" data-fx-kick="${esc(bell.kickoff)}" data-fx-home="${esc(bell.home)}" data-fx-away="${esc(bell.away)}" data-fx-league="${esc(bell.league || "")}" aria-label="تنبيهات هذه المباراة"><svg><use href="#i-bell"/></svg></button>` : "";
     const cls = `row${hl ? " hl" : ""}${bell ? " has-bell" : ""}`;
-    return `<div class="${cls}"${style}>${when}
+    const details = m.league?.id === 307 && Number.isSafeInteger(Number(m.id))
+      ? `<a class="fixture-details-link" href="fixture.html?id=${encodeURIComponent(m.id)}" aria-label="تفاصيل المباراة">التفاصيل ←</a>`
+      : "";
+    return `<div class="${cls}"${style}>${when || '<div class="when" aria-hidden="true"></div>'}
       <div class="side">${crest(m.home)}<span>${esc(arTeam(m.home.name))}</span></div>${scoreCell(m)}
-      <div class="side away">${crest(m.away)}<span>${esc(arTeam(m.away.name))}</span></div>${bellBtn}</div>`;
+      <div class="side away">${crest(m.away)}<span>${esc(arTeam(m.away.name))}</span></div>${bellBtn}${details}</div>`;
   }
 
 
@@ -520,26 +524,43 @@
     try { const j = await fetch("data/live.json?t=" + Date.now()).then((r) => r.json()); LIVE_TODAY_BASE = j.url.replace(/\/live$/, ""); } catch (e) {}
     return LIVE_TODAY_BASE;
   }
-  function mergeLive(matches) {
+  const LIVE_MATCH_VERSIONS = new Map();
+  function mergeLive(matches, batchAt) {
     if (!DATA.today?.groups) return;
     const now = Date.now();
+    const version = Number(batchAt) || now;
     let changed = false;
     for (const g of DATA.today.groups) {
       for (let i = 0; i < g.matches.length; i++) {
         const m = g.matches[i], live = matches[m.id];
         const sigOld = JSON.stringify([m.status, m.elapsed, m.goals, (m.events || []).length]);
         if (live) {
+          const previousVersion = LIVE_MATCH_VERSIONS.get(String(m.id)) || 0;
+          if (version < previousVersion) continue;
+          // عند رجوع الأهداف للخلف، لا نقبل لقطة عابرة قديمة.
+          // تأكيد تصحيح الهدف يحتاج تحديثين متتاليين من المصدر.
+          const oldGoals = Array.isArray(m.goals) ? m.goals : null;
+          const newGoals = Array.isArray(live.goals) ? live.goals : null;
+          const reduced = oldGoals && newGoals && newGoals.some((n, idx) => Number(n) < Number(oldGoals[idx]));
+          if (reduced) {
+            const correctionKey = String(m.id) + ":correction";
+            const candidate = LIVE_MATCH_VERSIONS.get(correctionKey);
+            const signature = JSON.stringify(newGoals);
+            if (!candidate || candidate.signature !== signature || version <= candidate.version) {
+              LIVE_MATCH_VERSIONS.set(correctionKey, { signature, version });
+              continue;
+            }
+            LIVE_MATCH_VERSIONS.delete(correctionKey);
+          } else {
+            LIVE_MATCH_VERSIONS.delete(String(m.id) + ":correction");
+          }
+          LIVE_MATCH_VERSIONS.set(String(m.id), version);
           const merged = { ...m, status: live.status, elapsed: live.elapsed, goals: live.goals, events: live.events || m.events };
           const sigNew = JSON.stringify([merged.status, merged.elapsed, merged.goals, (merged.events || []).length]);
           if (sigOld !== sigNew) { g.matches[i] = merged; changed = true; }
-        } else if (LIVE.includes(m.status)) {
-          // المباراة كانت مباشر لكن اختفت من live-today = غالباً خلصت. لو مرّ 100 دقيقة من البداية علّمها FT بآخر نتيجة
-          const kickMs = m.date ? new Date(m.date).getTime() : 0;
-          if (kickMs > 0 && now >= kickMs + 100 * 60e3) {
-            g.matches[i] = { ...m, status: "FT", elapsed: null };
-            changed = true;
-          }
         }
+        // اختفاء المباراة من قائمة البث لا يثبت نهايتها. ننتظر حالة FT
+        // مؤكدة من مزوّد النتائج بدل عرض نتيجة قديمة على أنها نهائية.
       }
     }
     if (changed) {
@@ -556,11 +577,12 @@
         const r = await fetch(base + "/live-today", { cache: "no-store" });
         if (!r.ok) return;
         const j = await r.json();
-        if (j && j.matches) mergeLive(j.matches);
+        if (j && j.matches) mergeLive(j.matches, j.at);
       } catch (e) {}
     };
     tick();
-    LIVE_TODAY_TIMER = setInterval(() => { if (!document.hidden) tick(); }, 30000);
+    // تحديث أسرع وقت المباريات مع منع تداخل الطلبات.
+    LIVE_TODAY_TIMER = setInterval(() => { if (!document.hidden) tick(); }, 15000);
     document.addEventListener("visibilitychange", () => { if (!document.hidden) tick(); });
   }
 
