@@ -224,37 +224,39 @@ async function activeFx(env) {
 }
 async function pollRoshn(env, activeList) {
   // مكالمة واحدة تجيب كل المباريات المباشرة مرة وحدة — رخيصة
-  const all = await api(env, { live: "all" });
+  const all = await api(env, { live: "all" }).catch(() => []);
   const now = Date.now();
   const map = {};
   for (const f of all) { const s = slim(f); map[s.id] = s; }
-  // حماية: لو API رجّع فاضي (خطأ/timeout) ما نلمس الـcache — نرجع من غير تحديث
-  if (!all.length) { if (!activeList || !activeList.length) return; }
-  else {
-    // نحتفظ بالمباريات اللي خلصت بين النبضة الحالية والسابقة ونعلّمها FT بس إذا كانت في حالة مباشر سابقاً
-    const prev = (await env.KV.get("live-today", "json"))?.matches || {};
-    const todayKey = today();
-    for (const [idS, last] of Object.entries(prev)) {
-      if (map[idS]) continue;
-      const d = last.date ? last.date.slice(0, 10) : null;
-      if (!d || d !== todayKey) continue;
-      const kickMs = last.date ? new Date(last.date).getTime() : 0;
-      if (DONE.includes(last.status)) {
-        // علامات FT من إصدار قديم كان يحفظ elapsed مع FT — نلغيها لو المباراة لسا في نافذتها
-        const suspicious = last.elapsed != null && kickMs > 0 && now < kickMs + 150 * 60e3;
-        if (suspicious) continue;
-        map[idS] = last;
-        continue;
-      }
-      // اختفاء المباراة من live-all لا يؤكد انتهاءها؛ قد يكون انقطاعًا مؤقتًا.
-      // نحتفظ بآخر حالة مباشرة لفترة قصيرة حتى تصل حالة نهائية مؤكدة.
-      if (LIVE.includes(last.status)) {
-        if (kickMs > 0 && now < kickMs + 180 * 60e3) map[idS] = last;
-        continue;
-      }
+  // ندمج دائماً مع الـprev لمعالجة المباريات اللي انتهت نافذتها (حتى لو API رجّع فاضي)
+  const prev = (await env.KV.get("live-today", "json"))?.matches || {};
+  const todayKey = today();
+  let changed = all.length > 0;
+  for (const [idS, last] of Object.entries(prev)) {
+    if (map[idS]) continue;
+    const d = last.date ? last.date.slice(0, 10) : null;
+    if (!d || d !== todayKey) continue;
+    const kickMs = last.date ? new Date(last.date).getTime() : 0;
+    if (DONE.includes(last.status)) {
+      // علامات FT قديمة فيها elapsed — نلغيها لو المباراة لسا في نافذتها الطبيعية
+      const suspicious = last.elapsed != null && kickMs > 0 && now < kickMs + 150 * 60e3;
+      if (suspicious) continue;
+      map[idS] = last;
+      continue;
     }
-    await env.KV.put("live-today", JSON.stringify({ at: now, matches: map }), { expirationTtl: 36 * 3600 });
+    if (LIVE.includes(last.status)) {
+      // تجاوزت 130 دقيقة من البداية ومش في live-all → مؤكد انتهت. علّمها FT بآخر نتيجة.
+      if (kickMs > 0 && now >= kickMs + 130 * 60e3) {
+        map[idS] = { ...last, status: "FT", elapsed: null };
+        changed = true;
+      } else if (kickMs > 0 && now < kickMs + 180 * 60e3) {
+        // لسا في النافذة — احتفظ بآخر حالة مباشرة لفترة قصيرة
+        map[idS] = last;
+      }
+      continue;
+    }
   }
+  if (changed) await env.KV.put("live-today", JSON.stringify({ at: now, matches: map }), { expirationTtl: 36 * 3600 });
   if (!activeList || !activeList.length) return;
   const byId = new Map(all.map((f) => [f.fixture.id, f]));
   const last = (await env.KV.get("roshn", "json")) || {};
