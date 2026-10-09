@@ -105,7 +105,9 @@
       b.hidden = st === "denied";
       b.classList.toggle("on", st === "on");
       b.disabled = st === "busy";
-      b.textContent = st === "on" ? "🔔 تنبيهات الهلال مفعّلة — اضغط للإيقاف" : st === "busy" ? "جاري…" : st === "denied" ? "🔕 التنبيهات مقفلة من إعدادات المتصفح" : "🔔 فعّل تنبيهات الهلال";
+      const txt = st === "on" ? "🔔 تنبيهات الهلال مفعّلة — اضغط للإيقاف" : st === "busy" ? "جاري…" : st === "denied" ? "🔕 التنبيهات مقفلة من إعدادات المتصفح" : "🔔 فعّل تنبيهات الهلال";
+      // نغيّر النص بس لو اختلف — تغييره يطلق الـMutationObserver تحت ويدخلنا في حلقة لا نهائية تجمّد الصفحة
+      if (b.textContent !== txt) b.textContent = txt;
     });
     // أزرار الجرس بجنب مباريات روشن
     document.querySelectorAll("[data-fx-bell]").forEach((b) => {
@@ -194,8 +196,13 @@
   bind();
   refresh().catch(() => {});
   // أي DOM يتضاف لاحقاً (مثل صفوف المباريات) — ارتبط فيه
-  const mo = new MutationObserver(() => { bind(); // عيّن حالة الجرس للمباريات الجديدة
-    paintAll();
+  // نتجاهل التغييرات اللي داخل أزرارنا نفسها، ونرسم مرة وحدة بالإطار كحد أقصى
+  let moQueued = false;
+  const mine = (n) => n.nodeType === 1 ? n.closest?.("[data-push],[data-fx-bell]") : n.parentElement?.closest?.("[data-push],[data-fx-bell]");
+  const mo = new MutationObserver((muts) => {
+    if (moQueued || muts.every((m) => mine(m.target))) return;
+    moQueued = true;
+    requestAnimationFrame(() => { moQueued = false; bind(); paintAll(); }); // عيّن حالة الجرس للمباريات الجديدة
   });
   mo.observe(document.body, { childList: true, subtree: true });
 })();
