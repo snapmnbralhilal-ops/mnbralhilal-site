@@ -209,20 +209,43 @@ async function processRoshn(env, id, meta, sm, prev, outMap) {
   const [hg, ag] = sm.goals;
   const [phg, pag] = prev ? prev.g : [0, 0];
   const home = meta.home || "البيت", away = meta.away || "الضيف";
+  const events = sm.events || [];
+  const RMAX = 3;   // أقصى عدد نبضات ننتظر فيها اسم المسجّل قبل ما نرسل الإشعار بدونه
+
+  // بناء جملة الهدف من حدث واحد
+  const line = async (g, extraPen) => {
+    const who = g?.player ? await arName(env, g.player) : "";
+    const min = g?.min != null ? g.min + "'" : "";
+    const pen = g?.detail === "Penalty" ? " (ركلة جزاء)" : (g?.detail === "Own Goal" ? " (عكسية)" : "");
+    return who ? `${who}${min ? " " + min : ""}${pen} — ` : "";
+  };
+
+  let newH = hg, newA = ag, newRh = 0, newRa = 0;
+
   if (hg > phg) {
-    const g = (sm.events || []).filter((e) => e.type === "Goal" && e.team === sm.home?.id && e.detail !== "Missed Penalty").pop();
-    const who = g?.player || "";
-    await notify(env, `fx:${id}:gh:${hg}:${ag}`, `⚽ هدف لـ${home}`, `${who ? who + (g.min ? " " + g.min + "'" : "") + " — " : ""}${home} ${hg}-${ag} ${away}`, "matches.html", `fx:${id}`);
+    const homeGoals = events.filter((e) => e.type === "Goal" && e.team === sm.home?.id && e.detail !== "Missed Penalty");
+    const retries = prev?.rh || 0;
+    if (homeGoals.length >= hg || retries >= RMAX) {
+      const g = homeGoals[hg - 1] || homeGoals[homeGoals.length - 1];
+      await notify(env, `fx:${id}:gh:${hg}:${ag}`, `⚽ هدف لـ${home}`, `${await line(g)}${home} ${hg}-${ag} ${away}`, "matches.html", `fx:${id}`);
+    } else {
+      newH = phg; newRh = retries + 1;   // أجّل الإشعار، نبضة ثانية
+    }
   }
   if (ag > pag) {
-    const g = (sm.events || []).filter((e) => e.type === "Goal" && e.team === sm.away?.id && e.detail !== "Missed Penalty").pop();
-    const who = g?.player || "";
-    await notify(env, `fx:${id}:ga:${hg}:${ag}`, `⚽ هدف لـ${away}`, `${who ? who + (g.min ? " " + g.min + "'" : "") + " — " : ""}${home} ${hg}-${ag} ${away}`, "matches.html", `fx:${id}`);
+    const awayGoals = events.filter((e) => e.type === "Goal" && e.team === sm.away?.id && e.detail !== "Missed Penalty");
+    const retries = prev?.ra || 0;
+    if (awayGoals.length >= ag || retries >= RMAX) {
+      const g = awayGoals[ag - 1] || awayGoals[awayGoals.length - 1];
+      await notify(env, `fx:${id}:ga:${hg}:${ag}`, `⚽ هدف لـ${away}`, `${await line(g)}${home} ${hg}-${ag} ${away}`, "matches.html", `fx:${id}`);
+    } else {
+      newA = pag; newRa = retries + 1;
+    }
   }
   if (DONE.includes(sm.status) && !(prev && DONE.includes(prev.s))) {
     await notify(env, `fx:${id}:ft`, "🏁 انتهت المباراة", `${home} ${hg}-${ag} ${away}`, "matches.html", `fx:${id}`);
   }
-  outMap[id] = { s: sm.status, g: [hg, ag], t: Date.now() };
+  outMap[id] = { s: sm.status, g: [newH, newA], t: Date.now(), rh: newRh, ra: newRa };
 }
 
 async function tick(env) {
