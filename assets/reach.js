@@ -17,6 +17,7 @@
     const t0 = performance.now(), ms = 1600;
     const step = (t) => { const p = Math.min(1, (t - t0) / ms), e = 1 - Math.pow(1 - p, 4); el.textContent = fmtNum(to * e, dec, unit, plus); if (p < 1) requestAnimationFrame(step); };
     requestAnimationFrame(step);
+    setTimeout(() => (el.textContent = fmtNum(to, dec, unit, plus)), ms + 250); // احتياط لو المتصفح وقّف الحركة
   }
   const span = (v, unit, plus) => { const dec = String(v).includes(".") ? String(v).split(".")[1].length : 0; return `data-to="${v}" data-dec="${dec}" data-unit="${esc(unit || "")}" data-plus="${plus ? 1 : 0}"`; };
   fetch("data/reach.json?t=" + Date.now(), { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null).then((d) => {
