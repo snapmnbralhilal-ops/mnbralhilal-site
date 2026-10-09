@@ -183,11 +183,20 @@ async function pollRoshn(env, activeList) {
       if (map[idS]) continue;
       const d = last.date ? last.date.slice(0, 10) : null;
       if (!d || d !== todayKey) continue;
-      // المباراة اللي خلصت فعلاً: نحتفظ بها بآخر نتيجة
-      if (DONE.includes(last.status)) { map[idS] = last; continue; }
+      const kickMs = last.date ? new Date(last.date).getTime() : 0;
+      const inWindow = kickMs > 0 && now < kickMs + 150 * 60e3;
+      if (DONE.includes(last.status)) {
+        // لو كانت نافذة اللعب لسا شغّالة ومش في live-all → غالباً علامة FT خاطئة سابقة؛ ننساها عشان تنعاد من live-all
+        if (inWindow) continue;
+        map[idS] = last;
+        continue;
+      }
       // المباراة اللي كانت مباشر: علّمها FT (API حذفها من live-all ومعناها انتهت)
-      if (LIVE.includes(last.status)) { map[idS] = { ...last, status: "FT", elapsed: null }; continue; }
-      // غير كذا (NS أو TBD) — ما نعلّمها FT، نتجاهلها لحد ما تبدأ
+      if (LIVE.includes(last.status)) {
+        // بس إذا تجاوزت الـ80 دقيقة من البداية — عشان ما نعلّم مباراة لسا جديدة بالخطأ
+        if (kickMs > 0 && now >= kickMs + 80 * 60e3) { map[idS] = { ...last, status: "FT", elapsed: null }; }
+        continue;
+      }
     }
     await env.KV.put("live-today", JSON.stringify({ at: now, matches: map }), { expirationTtl: 36 * 3600 });
   }
