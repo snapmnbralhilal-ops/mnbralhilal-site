@@ -62,10 +62,11 @@
     } else if (LIVE.includes(m.status)) {
       when = `<div class="when"><span class="live"><span class="dot"></span>${m.elapsed ? ar(m.elapsed) + "'" : "مباشر"}</span></div>`;
     }
-    const style = when ? "" : ' style="grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)"';
+    // ثبّت أعمدة صف المباراة حتى لا تتحرك الأندية والنتيجة عند بدء البث.
+    const style = "";
     const bellBtn = bell ? `<button class="row-bell" type="button" data-fx-bell data-fx-id="${esc(bell.id)}" data-fx-kick="${esc(bell.kickoff)}" data-fx-home="${esc(bell.home)}" data-fx-away="${esc(bell.away)}" data-fx-league="${esc(bell.league || "")}" aria-label="تنبيهات هذه المباراة"><svg><use href="#i-bell"/></svg></button>` : "";
     const cls = `row${hl ? " hl" : ""}${bell ? " has-bell" : ""}`;
-    return `<div class="${cls}"${style}>${when}
+    return `<div class="${cls}"${style}>${when || '<div class="when" aria-hidden="true"></div>'}
       <div class="side">${crest(m.home)}<span>${esc(arTeam(m.home.name))}</span></div>${scoreCell(m)}
       <div class="side away">${crest(m.away)}<span>${esc(arTeam(m.away.name))}</span></div>${bellBtn}</div>`;
   }
