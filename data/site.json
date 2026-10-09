@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T16:28:56.188Z",
+ "updated": "2026-10-09T17:26:30.873Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -742,8 +742,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يتصدر دوري روشن برصيد 18 نقطة",
-   "body": "بفارق نقطة واحدة عن الاتحاد صاحب المركز الثاني.",
+   "title": "الهلال في المركز 2 بدوري روشن برصيد 18 نقطة",
+   "body": "متأخراً بـنقطة واحدة عن المتصدر القادسية.",
    "link": "#table"
   },
   {
@@ -780,8 +780,8 @@
      {
       "id": 1603041,
       "date": "2026-10-09T16:50:00+03:00",
-      "status": "2H",
-      "elapsed": 76,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -804,14 +804,14 @@
       },
       "goals": [
        0,
-       4
+       5
       ]
      },
      {
       "id": 1603037,
       "date": "2026-10-09T17:55:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Al-Hasa",
       "league": {
        "id": 307,
@@ -834,7 +834,7 @@
       },
       "goals": [
        0,
-       1
+       4
       ]
      },
      {
@@ -984,8 +984,8 @@
      {
       "id": 1597936,
       "date": "2026-10-09T17:45:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1008,14 +1008,14 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
       "id": 1597933,
       "date": "2026-10-09T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 26,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1036,7 +1036,10 @@
        "ar": "العربي",
        "logo": "https://media.api-sports.io/football/teams/2905.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      }
     ]
    },
@@ -1185,8 +1188,8 @@
      {
       "id": 1584424,
       "date": "2026-10-09T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1207,7 +1210,10 @@
        "ar": "Kasımpaşa",
        "logo": "https://media.api-sports.io/football/teams/1004.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
@@ -1462,6 +1468,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 2933,
+      "name": "Al-Qadisiyah FC",
+      "ar": "القادسية",
+      "logo": "https://media.api-sports.io/football/teams/2933.png"
+     },
+     "points": 19,
+     "gd": 13,
+     "played": 8,
+     "win": 6,
+     "draw": 1,
+     "lose": 1,
+     "description": "Promotion - AFC Champions League (League phase)"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 2932,
       "name": "Al-Hilal Saudi FC",
       "ar": "الهلال",
@@ -1476,7 +1498,7 @@
      "description": "Promotion - AFC Champions League (League phase)"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 2938,
       "name": "Al-Ittihad FC",
@@ -1492,7 +1514,7 @@
      "description": "Promotion - AFC Champions League (League phase)"
     },
     {
-     "rank": 3,
+     "rank": 4,
      "team": {
       "id": 2939,
       "name": "Al-Nassr",
@@ -1501,22 +1523,6 @@
      },
      "points": 16,
      "gd": 9,
-     "played": 7,
-     "win": 5,
-     "draw": 1,
-     "lose": 1,
-     "description": "Promotion - AFC Champions League (League phase)"
-    },
-    {
-     "rank": 4,
-     "team": {
-      "id": 2933,
-      "name": "Al-Qadisiyah FC",
-      "ar": "القادسية",
-      "logo": "https://media.api-sports.io/football/teams/2933.png"
-     },
-     "points": 16,
-     "gd": 8,
      "played": 7,
      "win": 5,
      "draw": 1,
@@ -1564,11 +1570,11 @@
       "logo": "https://media.api-sports.io/football/teams/10509.png"
      },
      "points": 12,
-     "gd": 2,
-     "played": 7,
+     "gd": -3,
+     "played": 8,
      "win": 3,
      "draw": 3,
-     "lose": 1,
+     "lose": 2,
      "description": "Promotion - Gulf Club Champions League"
     },
     {
@@ -3311,38 +3317,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 61,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-10-09",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 307,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
