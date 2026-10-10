@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-10T05:57:24.722Z",
+ "updated": "2026-10-10T06:38:05.530Z",
  "players": [
   {
    "api": 156,
@@ -14,7 +14,7 @@
    "nat": "Brazil",
    "apps": 1,
    "starts": 1,
-   "mins": 96,
+   "mins": 90,
    "goals": 1,
    "assists": 0,
    "saves": 0,
@@ -29,7 +29,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.5,
+   "rating": 6.6,
    "comps": [
     {
      "id": 307,
@@ -52,7 +52,7 @@
    "nat": "Senegal",
    "apps": 8,
    "starts": 8,
-   "mins": 689,
+   "mins": 683,
    "goals": 0,
    "assists": 1,
    "saves": 0,
@@ -67,21 +67,21 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.79,
+   "rating": 6.84,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 7,
-     "goals": 0,
-     "assists": 1
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
      "goals": 0,
      "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 7,
+     "goals": 0,
+     "assists": 1
     }
    ]
   },
@@ -105,14 +105,14 @@
    "shots": 3,
    "shotsOn": 1,
    "keyPasses": 5,
-   "passes": 38,
+   "passes": 39,
    "tackles": 2,
    "interceptions": 0,
    "dribbles": 1,
    "yellow": 0,
    "red": 0,
    "penScored": 1,
-   "rating": 7.1,
+   "rating": 6.73,
    "comps": [
     {
      "id": 307,
@@ -135,12 +135,12 @@
    "nat": "Serbia",
    "apps": 8,
    "starts": 8,
-   "mins": 713,
+   "mins": 707,
    "goals": 5,
    "assists": 1,
    "saves": 0,
    "conceded": 0,
-   "shots": 13,
+   "shots": 12,
    "shotsOn": 6,
    "keyPasses": 20,
    "passes": 391,
@@ -150,21 +150,21 @@
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 7.57,
+   "rating": 7.56,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 7,
-     "goals": 4,
-     "assists": 1
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
      "goals": 1,
      "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 7,
+     "goals": 4,
+     "assists": 1
     }
    ]
   },
@@ -180,7 +180,7 @@
    "nat": "Saudi Arabia",
    "apps": 8,
    "starts": 4,
-   "mins": 449,
+   "mins": 443,
    "goals": 3,
    "assists": 2,
    "saves": 0,
@@ -195,21 +195,21 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.45,
+   "rating": 7.41,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 7,
-     "goals": 3,
-     "assists": 2
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
      "goals": 0,
      "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 7,
+     "goals": 3,
+     "assists": 2
     }
    ]
   },
@@ -225,12 +225,12 @@
    "nat": "Portugal",
    "apps": 8,
    "starts": 8,
-   "mins": 683,
+   "mins": 677,
    "goals": 4,
    "assists": 4,
    "saves": 0,
    "conceded": 0,
-   "shots": 10,
+   "shots": 11,
    "shotsOn": 5,
    "keyPasses": 21,
    "passes": 602,
@@ -240,21 +240,21 @@
    "yellow": 1,
    "red": 0,
    "penScored": 4,
-   "rating": 8.01,
+   "rating": 7.79,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 7,
-     "goals": 3,
-     "assists": 3
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
      "goals": 1,
      "assists": 1
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 7,
+     "goals": 3,
+     "assists": 3
     }
    ]
   },
@@ -270,11 +270,11 @@
    "nat": "Morocco",
    "apps": 7,
    "starts": 7,
-   "mins": 636,
+   "mins": 630,
    "goals": 0,
    "assists": 0,
    "saves": 17,
-   "conceded": 4,
+   "conceded": 2,
    "shots": 0,
    "shotsOn": 0,
    "keyPasses": 0,
@@ -285,19 +285,19 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.22,
+   "rating": 7.13,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 6,
-     "goals": 0,
-     "assists": 0
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 6,
      "goals": 0,
      "assists": 0
     }
@@ -320,7 +320,7 @@
    "assists": 2,
    "saves": 0,
    "conceded": 0,
-   "shots": 14,
+   "shots": 13,
    "shotsOn": 8,
    "keyPasses": 7,
    "passes": 55,
@@ -330,7 +330,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.47,
+   "rating": 7.68,
    "comps": [
     {
      "id": 307,
@@ -358,7 +358,7 @@
    "assists": 3,
    "saves": 0,
    "conceded": 0,
-   "shots": 23,
+   "shots": 24,
    "shotsOn": 5,
    "keyPasses": 17,
    "passes": 234,
@@ -368,21 +368,21 @@
    "yellow": 2,
    "red": 1,
    "penScored": 0,
-   "rating": 7.75,
+   "rating": 7.63,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 7,
-     "goals": 2,
-     "assists": 3
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
      "goals": 0,
      "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 7,
+     "goals": 2,
+     "assists": 3
     }
    ]
   },
@@ -398,7 +398,7 @@
    "nat": "Saudi Arabia",
    "apps": 8,
    "starts": 2,
-   "mins": 300,
+   "mins": 294,
    "goals": 1,
    "assists": 0,
    "saves": 0,
@@ -406,27 +406,27 @@
    "shots": 7,
    "shotsOn": 4,
    "keyPasses": 7,
-   "passes": 182,
+   "passes": 181,
    "tackles": 5,
    "interceptions": 2,
    "dribbles": 2,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.79,
+   "rating": 6.69,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 7,
-     "goals": 1,
-     "assists": 0
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
      "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 7,
+     "goals": 1,
      "assists": 0
     }
    ]
@@ -448,7 +448,7 @@
    "assists": 1,
    "saves": 0,
    "conceded": 0,
-   "shots": 8,
+   "shots": 7,
    "shotsOn": 4,
    "keyPasses": 7,
    "passes": 276,
@@ -458,7 +458,7 @@
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.72,
+   "rating": 5.76,
    "comps": [
     {
      "id": 307,
@@ -496,19 +496,19 @@
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.7,
+   "rating": 6.78,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 4,
-     "goals": 0,
-     "assists": 0
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 4,
      "goals": 0,
      "assists": 0
     }
@@ -541,19 +541,19 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 4.91,
+   "rating": 5.29,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 3,
-     "goals": 0,
-     "assists": 0
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 3,
      "goals": 0,
      "assists": 0
     }
@@ -586,7 +586,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 3.65,
+   "rating": 2.43,
    "comps": [
     {
      "id": 307,
@@ -624,7 +624,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.05,
+   "rating": 6.97,
    "comps": [
     {
      "id": 307,
@@ -730,20 +730,20 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7,
+   "rating": 7.13,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 3,
-     "goals": 3,
-     "assists": 0
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
      "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 3,
+     "goals": 3,
      "assists": 0
     }
    ]
@@ -775,19 +775,19 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7,
+   "rating": 7.01,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 7,
-     "goals": 0,
-     "assists": 0
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 7,
      "goals": 0,
      "assists": 0
     }
@@ -805,7 +805,7 @@
    "nat": "Saudi Arabia",
    "apps": 8,
    "starts": 8,
-   "mins": 684,
+   "mins": 678,
    "goals": 0,
    "assists": 1,
    "saves": 0,
@@ -820,21 +820,21 @@
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.83,
+   "rating": 6.77,
    "comps": [
-    {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 7,
-     "goals": 0,
-     "assists": 1
-    },
     {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 1,
      "goals": 0,
      "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 7,
+     "goals": 0,
+     "assists": 1
     }
    ]
   },
