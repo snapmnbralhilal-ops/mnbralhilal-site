@@ -113,26 +113,6 @@ export default {
         return noStore({ ok: true, interval: +env.LIVE_INTERVAL, scheduleAt: sched?.at ? new Date(sched.at).toISOString() : null,
           schedule: sched?.matches || [], scheduleErrors: sched?.errors || [], requestsToday: usage?.n || 0, admin: !!env.GH_TOKEN });
       }
-      if (url.pathname === "/standings") {
-        const league = Number(url.searchParams.get("league") || 307);
-        if (![307, 39, 140, 135, 78, 61].includes(league)) return noStore({ error: "unsupported-league" }, 400);
-        const season = Number(url.searchParams.get("season")) || (new Date().getUTCMonth() >= 6 ? new Date().getUTCFullYear() : new Date().getUTCFullYear() - 1);
-        if (season < 2020 || season > 2035) return noStore({ error: "invalid-season" }, 400);
-        const cacheKey = new Request("https://standings.internal/" + league + "/" + season);
-        const cache = caches.default;
-        const hit = await cache.match(cacheKey);
-        if (hit) return hit;
-        const response = await fetch("https://v3.football.api-sports.io/standings?" + new URLSearchParams({ league, season }), { headers: { "x-apisports-key": env.API_FOOTBALL_KEY } });
-        if (!response.ok) return noStore({ error: "provider-http", status: response.status }, 502);
-        const body = await response.json();
-        if ((Array.isArray(body.errors) && body.errors.length) || (!Array.isArray(body.errors) && body.errors && Object.keys(body.errors).length)) return noStore({ error: "provider", detail: body.errors }, 502);
-        const raw = body.response?.[0]?.league?.standings?.[0];
-        if (!Array.isArray(raw) || !raw.length) return noStore({ error: "standings-unavailable" }, 503);
-        const rows = raw.map(r => ({ rank:r.rank, team:{ id:r.team.id, name:r.team.name, logo:r.team.logo }, points:r.points, gd:r.goalsDiff, played:r.all.played, win:r.all.win, draw:r.all.draw, lose:r.all.lose, description:r.description || "" }));
-        const result = json({ league, season, rows, updated:Date.now() }, 45);
-        await cache.put(cacheKey, result.clone());
-        return result;
-      }
       if (url.pathname === "/fixture") {
         const id = Number(url.searchParams.get("id"));
         if (!Number.isSafeInteger(id) || id <= 0) return noStore({ error: "invalid-id" }, 400);
