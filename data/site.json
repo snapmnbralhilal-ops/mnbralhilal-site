@@ -1,38 +1,8 @@
 {
- "updated": "2026-10-10T19:55:51.218Z",
+ "updated": "2026-10-10T20:04:03.419Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
-   {
-    "id": 1603040,
-    "date": "2026-10-10T21:00:00+03:00",
-    "status": "2H",
-    "elapsed": 90,
-    "venue": "Riyadh",
-    "league": {
-     "id": 307,
-     "name": "Pro League",
-     "country": "Saudi-Arabia",
-     "logo": "https://media.api-sports.io/football/leagues/307.png",
-     "round": "Regular Season - 8"
-    },
-    "home": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "away": {
-     "id": 2938,
-     "name": "Al-Ittihad FC",
-     "ar": "الاتحاد",
-     "logo": "https://media.api-sports.io/football/teams/2938.png"
-    },
-    "goals": [
-     3,
-     2
-    ]
-   },
    {
     "id": 1629939,
     "date": "2026-10-13T19:00:00+03:00",
@@ -275,9 +245,66 @@
      "logo": "https://media.api-sports.io/football/teams/26738.png"
     },
     "goals": null
+   },
+   {
+    "id": 1629975,
+    "date": "2026-11-23T16:45:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "Fergana",
+    "league": {
+     "id": 17,
+     "name": "AFC Champions League Elite",
+     "country": "World",
+     "logo": "https://media.api-sports.io/football/leagues/17.png",
+     "round": "League Phase - 5"
+    },
+    "home": {
+     "id": 4217,
+     "name": "Neftchi",
+     "ar": "Neftchi",
+     "logo": "https://media.api-sports.io/football/teams/4217.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null
    }
   ],
   "results": [
+   {
+    "id": 1603040,
+    "date": "2026-10-10T21:00:00+03:00",
+    "status": "FT",
+    "elapsed": 90,
+    "venue": "Riyadh",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 8"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2938,
+     "name": "Al-Ittihad FC",
+     "ar": "الاتحاد",
+     "logo": "https://media.api-sports.io/football/teams/2938.png"
+    },
+    "goals": [
+     3,
+     2
+    ]
+   },
    {
     "id": 1629924,
     "date": "2026-09-15T21:15:00+03:00",
@@ -697,51 +724,20 @@
      1,
      1
     ]
-   },
-   {
-    "id": 1485073,
-    "date": "2025-11-29T17:40:00+03:00",
-    "status": "FT",
-    "elapsed": 90,
-    "venue": "Riyadh",
-    "league": {
-     "id": 504,
-     "name": "King's Cup",
-     "country": "Saudi-Arabia",
-     "logo": "https://media.api-sports.io/football/leagues/504.png",
-     "round": "Quarter-finals"
-    },
-    "home": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "away": {
-     "id": 2931,
-     "name": "Al-Fateh",
-     "ar": "الفتح",
-     "logo": "https://media.api-sports.io/football/teams/2931.png"
-    },
-    "goals": [
-     4,
-     1
-    ]
    }
   ]
  },
  "news": [
   {
    "tag": "الهلال",
-   "title": "مباشر: الهلال يستضيف الاتحاد الآن",
-   "body": "النتيجة 3-2 في دوري روشن السعودي.",
-   "link": "#hilal",
-   "breaking": true
+   "title": "الهلال يتغلب على الاتحاد بنتيجة 3-2",
+   "body": "على أرضه في دوري روشن السعودي — الجولة 8.",
+   "link": "#hilal"
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يتغلب على الغرافة بنتيجة 2-1",
-   "body": "على أرضه في دوري أبطال آسيا للنخبة — League Phase - 1.",
+   "title": "3 انتصارات متتالية للهلال",
+   "body": "الزعيم يواصل سلسلة الانتصارات في كل البطولات.",
    "link": "#hilal"
   },
   {
@@ -850,7 +846,7 @@
      {
       "id": 1603040,
       "date": "2026-10-10T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Riyadh",
       "league": {
@@ -1268,7 +1264,7 @@
       "id": 1550144,
       "date": "2026-10-10T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 61,
       "venue": "Naples",
       "league": {
        "id": 135,
@@ -1526,7 +1522,7 @@
       "id": 1552774,
       "date": "2026-10-10T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 59,
       "venue": "Brest",
       "league": {
        "id": 61,
@@ -1548,7 +1544,7 @@
        "logo": "https://media.api-sports.io/football/teams/77.png"
       },
       "goals": [
-       4,
+       5,
        1
       ]
      },
@@ -1556,7 +1552,7 @@
       "id": 1552777,
       "date": "2026-10-10T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 62,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1586,7 +1582,7 @@
       "id": 1552778,
       "date": "2026-10-10T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 57,
       "venue": "Monaco",
       "league": {
        "id": 61,
@@ -1616,7 +1612,7 @@
       "id": 1552780,
       "date": "2026-10-10T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 57,
       "venue": "Paris",
       "league": {
        "id": 61,
@@ -1639,7 +1635,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1823,7 +1819,7 @@
       "id": 1575509,
       "date": "2026-10-10T22:30:00+03:00",
       "status": "1H",
-      "elapsed": 21,
+      "elapsed": 29,
       "venue": "Viseu",
       "league": {
        "id": 94,
@@ -1845,7 +1841,7 @@
        "logo": "https://media.api-sports.io/football/teams/230.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1853,7 +1849,7 @@
       "id": 1575513,
       "date": "2026-10-10T22:30:00+03:00",
       "status": "1H",
-      "elapsed": 23,
+      "elapsed": 31,
       "venue": "Rio Mayor",
       "league": {
        "id": 94,
@@ -1951,7 +1947,7 @@
      {
       "id": 1552184,
       "date": "2026-10-10T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Sitard",
       "league": {
@@ -2180,7 +2176,7 @@
       "id": 1490511,
       "date": "2026-10-10T21:30:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 64,
       "venue": "Chicago",
       "league": {
        "id": 253,
@@ -4543,6 +4539,6 @@
   }
  },
  "errors": [],
- "requests": 31,
+ "requests": 27,
  "plan": "Pro"
 }
