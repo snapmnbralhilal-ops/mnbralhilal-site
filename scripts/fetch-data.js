@@ -334,6 +334,74 @@ function matchPlayer(sq, name) {
 const EXTRA_AR = { "Malcom": "مالكوم", "K. Benzema": "كريم بنزيما", "Karim Benzema": "كريم بنزيما", "Suhayb Al Zaid": "صهيب الزيد" };
 const POS = { Goalkeeper: "GK", Defender: "DF", Midfielder: "MF", Attacker: "FW" };
 
+// معرّفات دوريات ضمن قائمة "تفاصيل كاملة": روشن + الدوريات الخمس
+const DETAIL_LEAGUE_IDS = new Set([307, 39, 140, 135, 78, 61]);
+const FIXTURES_DIR = path.join(__dirname, "..", "data", "fixtures");
+
+// نحوّل fixture كامل من API-Football إلى شكل مكثف للعرض — نفس شكل slimFull في الـworker
+function slimFixtureFull(f) {
+  return {
+    id: f.fixture.id, date: f.fixture.date, status: f.fixture.status.short,
+    elapsed: f.fixture.status.elapsed, extra: f.fixture.status.extra ?? null,
+    venue: f.fixture.venue?.name || null, referee: f.fixture.referee || null,
+    league: { id: f.league.id, name: f.league.name, round: f.league.round, logo: f.league.logo },
+    home: { id: f.teams.home.id, name: f.teams.home.name, logo: f.teams.home.logo },
+    away: { id: f.teams.away.id, name: f.teams.away.name, logo: f.teams.away.logo },
+    goals: [f.goals.home ?? 0, f.goals.away ?? 0],
+    events: (f.events || []).map((e) => ({
+      min: e.time?.elapsed, extra: e.time?.extra, type: e.type, detail: e.detail,
+      team: e.team?.id, player: e.player?.name, assist: e.assist?.name, comments: e.comments || null
+    })),
+    lineups: (f.lineups || []).map((l) => ({
+      teamId: l.team?.id, teamName: l.team?.name, coach: l.coach?.name, formation: l.formation,
+      startXI: (l.startXI || []).map((p) => ({ id: p.player?.id, name: p.player?.name, number: p.player?.number, pos: p.player?.pos })),
+      subs: (l.substitutes || []).map((p) => ({ id: p.player?.id, name: p.player?.name, number: p.player?.number, pos: p.player?.pos }))
+    })),
+    statistics: (f.statistics || []).map((s) => ({ teamId: s.team?.id, stats: (s.statistics || []).map((x) => ({ k: x.type, v: x.value })) }))
+  };
+}
+
+// نجلب تفاصيل كل مباراة ونحفظها كملف. مباريات اليوم/الأمس من روشن والدوريات الخمس
+async function fetchFixtureDetails(todayFixtures, ydayFixtures) {
+  if (!fs.existsSync(FIXTURES_DIR)) fs.mkdirSync(FIXTURES_DIR, { recursive: true });
+  const now = Date.now();
+  const picks = [];
+  for (const f of [...(todayFixtures || []), ...(ydayFixtures || [])]) {
+    if (!DETAIL_LEAGUE_IDS.has(f.league.id)) continue;
+    // المباريات اللي داخل نافذة البث أو خلصت قريب (آخر 6 ساعات) أو قادمة خلال ساعة
+    const kickMs = new Date(f.fixture.date).getTime();
+    const dt = now - kickMs;
+    if (dt < -60 * 60e3) continue;         // قبل ساعة من البداية ما نجلب التفاصيل
+    if (dt > 6 * 3600e3) continue;         // أقدم من 6 ساعات نتجاوزه
+    picks.push(f.fixture.id);
+  }
+  if (!picks.length) { console.log(`📋 لا مباريات تحتاج تفاصيل في روشن/الخمس الكبرى`); return; }
+  console.log(`📋 جلب تفاصيل ${picks.length} مباراة من روشن/الخمس الكبرى...`);
+  let saved = 0;
+  for (const id of picks) {
+    const res = await api("fixtures", { id });
+    const fx = res && res[0];
+    if (!fx) { console.log(`  ⚠ تعذّر جلب تفاصيل #${id}`); continue; }
+    const file = path.join(FIXTURES_DIR, `${id}.json`);
+    const data = { at: Date.now(), m: slimFixtureFull(fx) };
+    fs.writeFileSync(file, JSON.stringify(data));
+    saved++;
+  }
+  console.log(`📋 حفظنا ${saved} ملف تفاصيل في data/fixtures/`);
+}
+
+// تنظيف ملفات تفاصيل مباريات أقدم من 7 أيام
+function cleanOldFixtureFiles() {
+  if (!fs.existsSync(FIXTURES_DIR)) return;
+  const cutoff = Date.now() - 7 * 86400 * 1000;
+  let removed = 0;
+  for (const name of fs.readdirSync(FIXTURES_DIR)) {
+    const p = path.join(FIXTURES_DIR, name);
+    try { const st = fs.statSync(p); if (st.mtimeMs < cutoff) { fs.unlinkSync(p); removed++; } } catch {}
+  }
+  if (removed) console.log(`🧹 حذفنا ${removed} ملف تفاصيل قديم`);
+}
+
 async function mainPro(prev, season, todayYmd, ydayYmd, plan) {
   // الدوريات الأوروبية الخمسة الكبرى
   const EURO = [["epl", EPL_ID], ["laliga", 140], ["seriea", 135], ["bundesliga", 78], ["ligue1", 61]];
@@ -364,6 +432,12 @@ async function mainPro(prev, season, todayYmd, ydayYmd, plan) {
 
   // إحصائيات لاعبين الهلال (كل البطولات) + هدافين دوري روشن
   try { await buildStats(season); } catch (e) { errors.push({ endpoint: "stats", error: String(e) }); }
+
+  // تفاصيل مباريات روشن + الدوريات الخمس الكبرى (أحداث، تشكيلات، إحصائيات)
+  try {
+    await fetchFixtureDetails(today || [], yday || []);
+    cleanOldFixtureFiles();
+  } catch (e) { errors.push({ endpoint: "fixtures-details", error: String(e) }); }
 
   data.news = writeNews(data);
   data.errors = errors;

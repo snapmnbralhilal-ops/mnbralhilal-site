@@ -39,27 +39,38 @@ export default {
         }
         return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 5);
       }
-      // تفاصيل مباراة واحدة بأحداثها الكاملة. كاش 15 ثانية.
+      // تفاصيل مباراة واحدة بأحداثها الكاملة.
+      // الترتيب: KV (أحدث) → ملف محلي من GitHub Action → API-Football مباشرة (أخير).
       if (url.pathname.startsWith("/match/")) {
         const id = url.pathname.slice(7);
         if (!/^\d+$/.test(id)) return noStore({ error: "bad-id" }, 400);
         const cacheKey = "m:" + id;
         const cached = await env.KV.get(cacheKey, "json");
         if (cached && Date.now() - cached.at < 15000) return json(cached, 15);
+
+        // الملف المحلي من GitHub Action (يحدث كل 30 دقيقة)
+        let fileData = null;
+        try {
+          fileData = await site(env, `data/fixtures/${id}.json`);
+        } catch (e) { /* الملف غير موجود، نحاول API */ }
+
+        // نجرب API-Football أولاً عشان الأحدث
         try {
           const r = await api(env, { id });
           const fx = r && r[0];
-          if (!fx) {
-            if (cached) return json(cached, 15);
-            return json({ error: "not-found", at: Date.now() }, 60, 404);
+          if (fx) {
+            const data = { at: Date.now(), m: slimFull(fx) };
+            await env.KV.put(cacheKey, JSON.stringify(data), { expirationTtl: 2 * 3600 });
+            return json(data, 15);
           }
-          const data = { at: Date.now(), m: slimFull(fx) };
-          await env.KV.put(cacheKey, JSON.stringify(data), { expirationTtl: 2 * 3600 });
-          return json(data, 15);
-        } catch (e) {
-          if (cached) return json(cached, 15);
-          return noStore({ error: String(e.message || e) }, 500);
+        } catch (e) { /* API معطّلة؛ نستعمل الملف المحلي */ }
+
+        // لو API ما رجّعت شي، نستعمل الملف المحلي
+        if (fileData && fileData.m) {
+          return json({ ...fileData, source: "file" }, 15);
         }
+        if (cached) return json({ ...cached, source: "stale" }, 15);
+        return json({ error: "not-found", at: Date.now() }, 60, 404);
       }
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
