@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T16:57:45.561Z",
+ "updated": "2026-10-10T17:29:19.045Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1026,8 +1026,8 @@
      {
       "id": 1557425,
       "date": "2026-10-10T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -1125,8 +1125,8 @@
      {
       "id": 1570404,
       "date": "2026-10-10T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Barcelona",
       "league": {
        "id": 140,
@@ -1148,7 +1148,7 @@
        "logo": "https://media.api-sports.io/football/teams/546.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1221,8 +1221,8 @@
      {
       "id": 1550141,
       "date": "2026-10-10T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 69,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1437,8 +1437,8 @@
      {
       "id": 1575177,
       "date": "2026-10-10T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Leipzig",
       "league": {
        "id": 78,
@@ -1460,7 +1460,7 @@
        "logo": "https://media.api-sports.io/football/teams/169.png"
       },
       "goals": [
-       2,
+       4,
        0
       ]
      }
@@ -1476,8 +1476,8 @@
      {
       "id": 1552776,
       "date": "2026-10-10T18:15:00+03:00",
-      "status": "2H",
-      "elapsed": 80,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1653,8 +1653,8 @@
      {
       "id": 1597932,
       "date": "2026-10-10T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 29,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1675,7 +1675,10 @@
        "ar": "السيلية",
        "logo": "https://media.api-sports.io/football/teams/2898.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1689,8 +1692,8 @@
      {
       "id": 1644207,
       "date": "2026-10-10T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 28,
       "venue": "Marrakech",
       "league": {
        "id": 200,
@@ -1711,7 +1714,10 @@
        "ar": "Ittihad Tanger",
        "logo": "https://media.api-sports.io/football/teams/974.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644208,
@@ -1752,8 +1758,8 @@
      {
       "id": 1575515,
       "date": "2026-10-10T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 27,
       "venue": "Funchal",
       "league": {
        "id": 94,
@@ -1774,7 +1780,10 @@
        "ar": "بورتو",
        "logo": "https://media.api-sports.io/football/teams/212.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1575509,
@@ -1873,7 +1882,7 @@
       "id": 1552181,
       "date": "2026-10-10T19:45:00+03:00",
       "status": "1H",
-      "elapsed": 11,
+      "elapsed": 42,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1895,7 +1904,7 @@
        "logo": "https://media.api-sports.io/football/teams/201.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -2055,8 +2064,8 @@
      {
       "id": 1584428,
       "date": "2026-10-10T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 71,
       "venue": "Rize",
       "league": {
        "id": 203,
@@ -2094,8 +2103,8 @@
      {
       "id": 1490512,
       "date": "2026-10-10T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Toronto",
       "league": {
        "id": 253,
@@ -2116,7 +2125,10 @@
        "ar": "CF Montreal",
        "logo": "https://media.api-sports.io/football/teams/1614.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490511,
