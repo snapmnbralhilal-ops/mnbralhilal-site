@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T18:35:01.234Z",
+ "updated": "2026-10-10T18:46:05.113Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -7,7 +7,7 @@
     "id": 1603040,
     "date": "2026-10-10T21:00:00+03:00",
     "status": "1H",
-    "elapsed": 33,
+    "elapsed": 45,
     "venue": "Riyadh",
     "league": {
      "id": 307,
@@ -851,7 +851,7 @@
       "id": 1603040,
       "date": "2026-10-10T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 33,
+      "elapsed": 44,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -1546,8 +1546,8 @@
      {
       "id": 1552777,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1568,7 +1568,10 @@
        "ar": "باريس إف سي",
        "logo": "https://media.api-sports.io/football/teams/114.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552778,
@@ -1667,7 +1670,7 @@
       "id": 1597932,
       "date": "2026-10-10T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 73,
+      "elapsed": 84,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1689,7 +1692,7 @@
        "logo": "https://media.api-sports.io/football/teams/2898.png"
       },
       "goals": [
-       4,
+       5,
        0
       ]
      }
@@ -1706,7 +1709,7 @@
       "id": 1644207,
       "date": "2026-10-10T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 75,
+      "elapsed": 86,
       "venue": "Marrakech",
       "league": {
        "id": 200,
@@ -1772,7 +1775,7 @@
       "id": 1575515,
       "date": "2026-10-10T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 75,
+      "elapsed": 86,
       "venue": "Funchal",
       "league": {
        "id": 94,
@@ -1795,7 +1798,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
@@ -1894,8 +1897,8 @@
      {
       "id": 1552181,
       "date": "2026-10-10T19:45:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1925,7 +1928,7 @@
       "id": 1552184,
       "date": "2026-10-10T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 30,
+      "elapsed": 41,
       "venue": "Sitard",
       "league": {
        "id": 88,
@@ -1948,7 +1951,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
@@ -2120,7 +2123,7 @@
       "id": 1490512,
       "date": "2026-10-10T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 62,
+      "elapsed": 73,
       "venue": "Toronto",
       "league": {
        "id": 253,
@@ -2149,8 +2152,8 @@
      {
       "id": 1490511,
       "date": "2026-10-10T21:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 6,
       "venue": "Chicago",
       "league": {
        "id": 253,
@@ -2171,7 +2174,10 @@
        "ar": "New York City FC",
        "logo": "https://media.api-sports.io/football/teams/1604.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
@@ -4510,6 +4516,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 38,
  "plan": "Pro"
 }
