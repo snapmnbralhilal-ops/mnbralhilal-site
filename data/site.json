@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T16:31:08.545Z",
+ "updated": "2026-10-10T16:57:45.561Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1603036,
       "date": "2026-10-10T17:55:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -833,7 +833,7 @@
        "logo": "https://media.api-sports.io/football/teams/2928.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1027,7 +1027,7 @@
       "id": 1557425,
       "date": "2026-10-10T19:30:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 28,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -1125,8 +1125,8 @@
      {
       "id": 1570404,
       "date": "2026-10-10T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Barcelona",
       "league": {
        "id": 140,
@@ -1147,7 +1147,10 @@
        "ar": "خيتافي",
        "logo": "https://media.api-sports.io/football/teams/546.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1570411,
@@ -1218,8 +1221,8 @@
      {
       "id": 1550141,
       "date": "2026-10-10T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1241,7 +1244,7 @@
        "logo": "https://media.api-sports.io/football/teams/523.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      },
@@ -1435,7 +1438,7 @@
       "id": 1575177,
       "date": "2026-10-10T19:30:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 28,
       "venue": "Leipzig",
       "league": {
        "id": 78,
@@ -1457,7 +1460,7 @@
        "logo": "https://media.api-sports.io/football/teams/169.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -1474,7 +1477,7 @@
       "id": 1552776,
       "date": "2026-10-10T18:15:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 80,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1620,8 +1623,8 @@
      {
       "id": 1597934,
       "date": "2026-10-10T17:45:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1869,8 +1872,8 @@
      {
       "id": 1552181,
       "date": "2026-10-10T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1891,7 +1894,10 @@
        "ar": "AZ Alkmaar",
        "logo": "https://media.api-sports.io/football/teams/201.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552184,
@@ -2049,8 +2055,8 @@
      {
       "id": 1584428,
       "date": "2026-10-10T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rize",
       "league": {
        "id": 203,
@@ -3915,11 +3921,11 @@
       "ar": "بايرن ميونخ",
       "logo": "https://media.api-sports.io/football/teams/157.png"
      },
-     "points": 10,
+     "points": 11,
      "gd": 12,
-     "played": 4,
+     "played": 5,
      "win": 3,
-     "draw": 1,
+     "draw": 2,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -3942,16 +3948,16 @@
     {
      "rank": 4,
      "team": {
-      "id": 162,
-      "name": "Werder Bremen",
-      "ar": "فيردر بريمن",
-      "logo": "https://media.api-sports.io/football/teams/162.png"
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "ar": "باير ليفركوزن",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
      },
-     "points": 8,
-     "gd": 0,
+     "points": 10,
+     "gd": 6,
      "played": 5,
-     "win": 2,
-     "draw": 2,
+     "win": 3,
+     "draw": 1,
      "lose": 1,
      "description": "Champions League league stage"
     },
@@ -3963,27 +3969,27 @@
       "ar": "أوغسبورغ",
       "logo": "https://media.api-sports.io/football/teams/170.png"
      },
-     "points": 7,
+     "points": 8,
      "gd": 5,
-     "played": 4,
+     "played": 5,
      "win": 2,
-     "draw": 1,
+     "draw": 2,
      "lose": 1,
      "description": "Europa League league stage"
     },
     {
      "rank": 6,
      "team": {
-      "id": 168,
-      "name": "Bayer Leverkusen",
-      "ar": "باير ليفركوزن",
-      "logo": "https://media.api-sports.io/football/teams/168.png"
+      "id": 162,
+      "name": "Werder Bremen",
+      "ar": "فيردر بريمن",
+      "logo": "https://media.api-sports.io/football/teams/162.png"
      },
-     "points": 7,
-     "gd": 5,
-     "played": 4,
+     "points": 8,
+     "gd": 0,
+     "played": 5,
      "win": 2,
-     "draw": 1,
+     "draw": 2,
      "lose": 1,
      "description": "Qualifying"
     },
@@ -3996,11 +4002,11 @@
       "logo": "https://media.api-sports.io/football/teams/164.png"
      },
      "points": 7,
-     "gd": 4,
-     "played": 4,
+     "gd": 3,
+     "played": 5,
      "win": 2,
      "draw": 1,
-     "lose": 1,
+     "lose": 2,
      "description": ""
     },
     {
@@ -4012,11 +4018,11 @@
       "logo": "https://media.api-sports.io/football/teams/1660.png"
      },
      "points": 7,
-     "gd": 1,
-     "played": 4,
+     "gd": 0,
+     "played": 5,
      "win": 2,
      "draw": 1,
-     "lose": 1,
+     "lose": 2,
      "description": ""
     },
     {
@@ -4038,6 +4044,38 @@
     {
      "rank": 10,
      "team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "ar": "شتوتغارت",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+     },
+     "points": 6,
+     "gd": -1,
+     "played": 5,
+     "win": 2,
+     "draw": 0,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
+      "id": 175,
+      "name": "Hamburger SV",
+      "ar": "هامبورغ",
+      "logo": "https://media.api-sports.io/football/teams/175.png"
+     },
+     "points": 6,
+     "gd": -10,
+     "played": 5,
+     "win": 2,
+     "draw": 0,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
       "id": 169,
       "name": "Eintracht Frankfurt",
       "ar": "آينتراخت فرانكفورت",
@@ -4052,7 +4090,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 13,
      "team": {
       "id": 174,
       "name": "FC Schalke 04",
@@ -4068,23 +4106,7 @@
      "description": ""
     },
     {
-     "rank": 12,
-     "team": {
-      "id": 185,
-      "name": "SC Paderborn 07",
-      "ar": "بادربورن",
-      "logo": "https://media.api-sports.io/football/teams/185.png"
-     },
-     "points": 4,
-     "gd": -2,
-     "played": 4,
-     "win": 1,
-     "draw": 1,
-     "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 192,
       "name": "1. FC Köln",
@@ -4100,7 +4122,39 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
+     "team": {
+      "id": 185,
+      "name": "SC Paderborn 07",
+      "ar": "بادربورن",
+      "logo": "https://media.api-sports.io/football/teams/185.png"
+     },
+     "points": 4,
+     "gd": -4,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 16,
+     "team": {
+      "id": 182,
+      "name": "Union Berlin",
+      "ar": "يونيون برلين",
+      "logo": "https://media.api-sports.io/football/teams/182.png"
+     },
+     "points": 4,
+     "gd": -12,
+     "played": 5,
+     "win": 1,
+     "draw": 1,
+     "lose": 3,
+     "description": "Relegation Playoffs"
+    },
+    {
+     "rank": 17,
      "team": {
       "id": 167,
       "name": "1899 Hoffenheim",
@@ -4108,59 +4162,11 @@
       "logo": "https://media.api-sports.io/football/teams/167.png"
      },
      "points": 3,
-     "gd": -3,
-     "played": 4,
+     "gd": -4,
+     "played": 5,
      "win": 1,
      "draw": 0,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 172,
-      "name": "VfB Stuttgart",
-      "ar": "شتوتغارت",
-      "logo": "https://media.api-sports.io/football/teams/172.png"
-     },
-     "points": 3,
-     "gd": -3,
-     "played": 4,
-     "win": 1,
-     "draw": 0,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 16,
-     "team": {
-      "id": 175,
-      "name": "Hamburger SV",
-      "ar": "هامبورغ",
-      "logo": "https://media.api-sports.io/football/teams/175.png"
-     },
-     "points": 3,
-     "gd": -11,
-     "played": 4,
-     "win": 1,
-     "draw": 0,
-     "lose": 3,
-     "description": "Relegation Playoffs"
-    },
-    {
-     "rank": 17,
-     "team": {
-      "id": 182,
-      "name": "Union Berlin",
-      "ar": "يونيون برلين",
-      "logo": "https://media.api-sports.io/football/teams/182.png"
-     },
-     "points": 1,
-     "gd": -13,
-     "played": 4,
-     "win": 0,
-     "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": "Relegation"
     },
     {
@@ -4475,18 +4481,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-10-09",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
