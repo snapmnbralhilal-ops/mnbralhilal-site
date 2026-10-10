@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T09:31:36.361Z",
+ "updated": "2026-10-10T09:57:23.117Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1687,33 +1687,6 @@
     },
     "matches": [
      {
-      "id": 1575513,
-      "date": "2026-10-10T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
-      "venue": "Rio Mayor",
-      "league": {
-       "id": 94,
-       "name": "Primeira Liga",
-       "country": "Portugal",
-       "logo": "https://media.api-sports.io/football/leagues/94.png",
-       "round": "Regular Season - 8"
-      },
-      "home": {
-       "id": 4716,
-       "name": "Casa Pia",
-       "ar": "Casa Pia",
-       "logo": "https://media.api-sports.io/football/teams/4716.png"
-      },
-      "away": {
-       "id": 227,
-       "name": "Santa Clara",
-       "ar": "Santa Clara",
-       "logo": "https://media.api-sports.io/football/teams/227.png"
-      },
-      "goals": null
-     },
-     {
       "id": 1575515,
       "date": "2026-10-10T20:00:00+03:00",
       "status": "NS",
@@ -1764,6 +1737,33 @@
        "name": "Estoril",
        "ar": "Estoril",
        "logo": "https://media.api-sports.io/football/teams/230.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1575513,
+      "date": "2026-10-10T22:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Rio Mayor",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 8"
+      },
+      "home": {
+       "id": 4716,
+       "name": "Casa Pia",
+       "ar": "Casa Pia",
+       "logo": "https://media.api-sports.io/football/teams/4716.png"
+      },
+      "away": {
+       "id": 227,
+       "name": "Santa Clara",
+       "ar": "Santa Clara",
+       "logo": "https://media.api-sports.io/football/teams/227.png"
       },
       "goals": null
      }
