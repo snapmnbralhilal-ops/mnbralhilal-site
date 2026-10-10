@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T13:56:31.899Z",
+ "updated": "2026-10-10T14:30:42.625Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -749,7 +749,7 @@
   {
    "tag": "عالمي",
    "title": "مانشستر سيتي يتصدر الدوري الإنجليزي برصيد 15 نقطة",
-   "body": "يليه آرسنال بـ12 نقطة.",
+   "body": "يليه آرسنال بـ15 نقطة.",
    "link": "#table"
   },
   {
@@ -781,7 +781,7 @@
       "id": 1603039,
       "date": "2026-10-10T16:50:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 41,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -903,8 +903,8 @@
      {
       "id": 1557418,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Birmingham",
       "league": {
        "id": 39,
@@ -925,13 +925,16 @@
        "ar": "برينتفورد",
        "logo": "https://media.api-sports.io/football/teams/55.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1557419,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "London",
       "league": {
        "id": 39,
@@ -952,13 +955,16 @@
        "ar": "بورنموث",
        "logo": "https://media.api-sports.io/football/teams/35.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1557423,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Ipswich",
       "league": {
        "id": 39,
@@ -979,13 +985,16 @@
        "ar": "فولهام",
        "logo": "https://media.api-sports.io/football/teams/36.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1557426,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Sunderland",
       "league": {
        "id": 39,
@@ -1006,7 +1015,10 @@
        "ar": "برايتون",
        "logo": "https://media.api-sports.io/football/teams/51.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1557425,
@@ -1077,8 +1089,8 @@
      {
       "id": 1570403,
       "date": "2026-10-10T17:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Victoria-Gasteiz",
       "league": {
        "id": 140,
@@ -1099,7 +1111,10 @@
        "ar": "أتلتيكو مدريد",
        "logo": "https://media.api-sports.io/football/teams/530.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570404,
@@ -1167,8 +1182,8 @@
      {
       "id": 1550140,
       "date": "2026-10-10T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 70,
       "venue": "Genoa",
       "league": {
        "id": 135,
@@ -1260,8 +1275,8 @@
      {
       "id": 1575178,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 27,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Sinsheim",
       "league": {
        "id": 78,
@@ -1283,15 +1298,15 @@
        "logo": "https://media.api-sports.io/football/teams/175.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
      {
       "id": 1575180,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 27,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Augsburg",
       "league": {
        "id": 78,
@@ -1320,8 +1335,8 @@
      {
       "id": 1575181,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 27,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Mainz",
       "league": {
        "id": 78,
@@ -1343,15 +1358,15 @@
        "logo": "https://media.api-sports.io/football/teams/168.png"
       },
       "goals": [
-       0,
+       2,
        2
       ]
      },
      {
       "id": 1575182,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 26,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Berlin",
       "league": {
        "id": 78,
@@ -1380,8 +1395,8 @@
      {
       "id": 1575184,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 27,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Paderborn",
       "league": {
        "id": 78,
@@ -1953,8 +1968,8 @@
      {
       "id": 1584421,
       "date": "2026-10-10T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 73,
       "venue": "Alanya",
       "league": {
        "id": 203,
@@ -1983,8 +1998,8 @@
      {
       "id": 1584429,
       "date": "2026-10-10T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Samsun",
       "league": {
        "id": 203,
@@ -2901,10 +2916,10 @@
       "ar": "آرسنال",
       "logo": "https://media.api-sports.io/football/teams/42.png"
      },
-     "points": 12,
-     "gd": 4,
-     "played": 5,
-     "win": 4,
+     "points": 15,
+     "gd": 5,
+     "played": 6,
+     "win": 5,
      "draw": 0,
      "lose": 1,
      "description": "Promotion - Champions League (League phase)"
@@ -2950,11 +2965,11 @@
       "logo": "https://media.api-sports.io/football/teams/63.png"
      },
      "points": 9,
-     "gd": 4,
-     "played": 5,
+     "gd": 3,
+     "played": 6,
      "win": 2,
      "draw": 3,
-     "lose": 0,
+     "lose": 1,
      "description": "Promotion - Europa League (League phase)"
     },
     {
