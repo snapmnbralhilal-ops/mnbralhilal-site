@@ -39,42 +39,54 @@ export default {
         }
         return json((await env.KV.get("live-today", "json")) || { at: 0, matches: {} }, 5);
       }
-      // تفاصيل مباراة واحدة بأحداثها الكاملة.
-      // الترتيب: /live لمباراة الهلال (أحدث - كل 15ث) → KV cache → API-Football → ملف محلي → stale
+      // تفاصيل مباراة واحدة.
+      // كل مباراة = نتيجة حية (من /live للهلال أو /live-today لغيرها) + تشكيلات/إحصائيات من الملف
       if (url.pathname.startsWith("/match/")) {
         const id = url.pathname.slice(7);
         if (!/^\d+$/.test(id)) return noStore({ error: "bad-id" }, 400);
-        const cacheKey = "m:" + id;
 
-        // الملف المحلي (فيه التشكيلات والإحصائيات الكاملة)
+        // (أ) الملف المحلي (التشكيلات والإحصائيات الكاملة)
         let fileData = null;
         try { fileData = await site(env, `data/fixtures/${id}.json`); } catch (e) {}
 
-        // لو هذي مباراة الهلال الحالية، نستعمل /live (أحدث مصدر) ونخلطه مع التشكيلات من الملف
+        // (ب) /live للهلال، أو /live-today لباقي المباريات
         const liveKV = await env.KV.get("live", "json");
         const liveMatch = liveKV?.match;
+        let overlay = null, overlayAt = 0;
         if (liveMatch && liveMatch.id === +id) {
+          overlay = liveMatch;
+          overlayAt = liveKV.fetchedAt || Date.now();
+        } else {
+          const lt = await env.KV.get("live-today", "json");
+          if (lt?.matches?.[id]) { overlay = lt.matches[id]; overlayAt = lt.at || Date.now(); }
+        }
+
+        // لو عندنا overlay (نتيجة حية) + ملف محلي → ندمج
+        if (overlay) {
           const base = fileData?.m || {
-            id: liveMatch.id, date: liveMatch.date, league: liveMatch.league,
-            home: liveMatch.home, away: liveMatch.away, venue: null, referee: null,
+            id: +id, date: overlay.date, league: overlay.league,
+            home: overlay.home, away: overlay.away, venue: null, referee: null,
             lineups: [], statistics: [], events: []
           };
-          // ندمج أحداث الملف (كروت صفراء، تبديلات) مع أحداث /live (أهداف طازجة)
+          // دمج الأحداث: ملف محلي عنده الكروت الصفراء/التبديلات، overlay عنده الأهداف الطازجة
           const seen = new Set();
           const combined = [];
-          for (const e of [...(liveMatch.events || []), ...(base.events || [])]) {
+          for (const e of [...(overlay.events || []), ...(base.events || [])]) {
             const key = `${e.min}:${e.extra || 0}:${e.type}:${e.detail}:${e.team}:${e.player}`;
             if (seen.has(key)) continue;
             seen.add(key); combined.push(e);
           }
           combined.sort((a, b) => (a.min || 0) - (b.min || 0) || (a.extra || 0) - (b.extra || 0));
-          return json({ at: liveKV.fetchedAt || Date.now(), m: {
-            ...base, status: liveMatch.status, elapsed: liveMatch.elapsed, extra: liveMatch.extra ?? null,
-            goals: liveMatch.goals, events: combined
-          }, source: "live" }, 10);
+          return json({ at: overlayAt, m: {
+            ...base, status: overlay.status, elapsed: overlay.elapsed, extra: overlay.extra ?? null,
+            goals: overlay.goals, events: combined
+          }, source: "overlay" }, 10);
         }
 
-        // لباقي المباريات: KV cache (أحدث نداء ناجح) ثم API ثم الملف ثم stale
+        // ما فيه overlay — نرجع للملف أو API
+        if (fileData && fileData.m) return json({ ...fileData, source: "file" }, 15);
+
+        const cacheKey = "m:" + id;
         const cached = await env.KV.get(cacheKey, "json");
         if (cached && Date.now() - cached.at < 15000) return json(cached, 15);
         try {
@@ -86,7 +98,6 @@ export default {
             return json(data, 15);
           }
         } catch (e) {}
-        if (fileData && fileData.m) return json({ ...fileData, source: "file" }, 15);
         if (cached) return json({ ...cached, source: "stale" }, 15);
         return json({ error: "not-found", at: Date.now() }, 60, 404);
       }
