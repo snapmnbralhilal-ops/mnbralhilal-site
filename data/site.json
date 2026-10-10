@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T15:56:38.327Z",
+ "updated": "2026-10-10T16:31:08.545Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1603036,
       "date": "2026-10-10T17:55:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 75,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -834,7 +834,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -906,7 +906,7 @@
      {
       "id": 1557418,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Birmingham",
       "league": {
@@ -996,7 +996,7 @@
      {
       "id": 1557426,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Sunderland",
       "league": {
@@ -1026,8 +1026,8 @@
      {
       "id": 1557425,
       "date": "2026-10-10T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -1048,7 +1048,10 @@
        "ar": "توتنهام",
        "logo": "https://media.api-sports.io/football/teams/47.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1092,8 +1095,8 @@
      {
       "id": 1570403,
       "date": "2026-10-10T17:15:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Victoria-Gasteiz",
       "league": {
        "id": 140,
@@ -1116,7 +1119,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
@@ -1215,8 +1218,8 @@
      {
       "id": 1550141,
       "date": "2026-10-10T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1237,7 +1240,10 @@
        "ar": "بارما",
        "logo": "https://media.api-sports.io/football/teams/523.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1550144,
@@ -1428,8 +1434,8 @@
      {
       "id": 1575177,
       "date": "2026-10-10T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Leipzig",
       "league": {
        "id": 78,
@@ -1450,7 +1456,10 @@
        "ar": "آينتراخت فرانكفورت",
        "logo": "https://media.api-sports.io/football/teams/169.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1464,8 +1473,8 @@
      {
       "id": 1552776,
       "date": "2026-10-10T18:15:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1612,7 +1621,7 @@
       "id": 1597934,
       "date": "2026-10-10T17:45:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 89,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1634,7 +1643,7 @@
        "logo": "https://media.api-sports.io/football/teams/7527.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1830,8 +1839,8 @@
      {
       "id": 1552182,
       "date": "2026-10-10T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 67,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Deventer",
       "league": {
        "id": 88,
@@ -1853,8 +1862,8 @@
        "logo": "https://media.api-sports.io/football/teams/426.png"
       },
       "goals": [
-       2,
-       2
+       3,
+       3
       ]
      },
      {
@@ -2040,8 +2049,8 @@
      {
       "id": 1584428,
       "date": "2026-10-10T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Rize",
       "league": {
        "id": 203,
@@ -2062,7 +2071,10 @@
        "ar": "فنربخشة",
        "logo": "https://media.api-sports.io/football/teams/611.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -4463,7 +4475,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "date": "2026-10-09",
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 13,
  "plan": "Pro"
 }
