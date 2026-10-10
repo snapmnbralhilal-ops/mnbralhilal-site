@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-10T07:31:52.967Z",
+ "updated": "2026-10-10T07:56:43.057Z",
  "players": [
   {
    "api": 156,
@@ -1227,9 +1227,22 @@
     "ar": "الأهلي",
     "logo": "https://media.api-sports.io/football/teams/2929.png"
    },
-   "goals": 10,
+   "goals": 11,
    "assists": 1,
-   "apps": 7
+   "apps": 8
+  },
+  {
+   "name": "Trincão",
+   "photo": "https://media.api-sports.io/football/players/41112.png",
+   "team": {
+    "id": 2929,
+    "name": "Al-Ahli Jeddah",
+    "ar": "الأهلي",
+    "logo": "https://media.api-sports.io/football/teams/2929.png"
+   },
+   "goals": 5,
+   "assists": 2,
+   "apps": 8
   },
   {
    "name": "A. Lacazette",
@@ -1243,6 +1256,19 @@
    "goals": 5,
    "assists": 1,
    "apps": 7
+  },
+  {
+   "name": "M. Retegui",
+   "photo": "https://media.api-sports.io/football/players/6420.png",
+   "team": {
+    "id": 2933,
+    "name": "Al-Qadisiyah FC",
+    "ar": "القادسية",
+    "logo": "https://media.api-sports.io/football/teams/2933.png"
+   },
+   "goals": 5,
+   "assists": 1,
+   "apps": 8
   },
   {
    "name": "G. Ilenikhena",
@@ -1268,7 +1294,7 @@
    },
    "goals": 4,
    "assists": 1,
-   "apps": 7
+   "apps": 8
   },
   {
    "name": "سيرجي ميلينكوفيتش سافيتش",
@@ -1297,34 +1323,21 @@
    "apps": 7
   },
   {
-   "name": "Y. En-Nesyri",
-   "photo": "https://media.api-sports.io/football/players/47422.png",
+   "name": "Cristiano Ronaldo",
+   "photo": "https://media.api-sports.io/football/players/874.png",
    "team": {
-    "id": 2938,
-    "name": "Al-Ittihad FC",
-    "ar": "الاتحاد",
-    "logo": "https://media.api-sports.io/football/teams/2938.png"
+    "id": 2939,
+    "name": "Al-Nassr",
+    "ar": "النصر",
+    "logo": "https://media.api-sports.io/football/teams/2939.png"
    },
    "goals": 4,
    "assists": 0,
    "apps": 7
   },
   {
-   "name": "S. Bergwijn",
-   "photo": "https://media.api-sports.io/football/players/244.png",
-   "team": {
-    "id": 2938,
-    "name": "Al-Ittihad FC",
-    "ar": "الاتحاد",
-    "logo": "https://media.api-sports.io/football/teams/2938.png"
-   },
-   "goals": 4,
-   "assists": 1,
-   "apps": 7
-  },
-  {
-   "name": "M. Retegui",
-   "photo": "https://media.api-sports.io/football/players/6420.png",
+   "name": "T. Reijnders",
+   "photo": "https://media.api-sports.io/football/players/36902.png",
    "team": {
     "id": 2933,
     "name": "Al-Qadisiyah FC",
@@ -1333,20 +1346,7 @@
    },
    "goals": 4,
    "assists": 0,
-   "apps": 7
-  },
-  {
-   "name": "Mohammed Abu Al Shamat",
-   "photo": "https://media.api-sports.io/football/players/403087.png",
-   "team": {
-    "id": 2933,
-    "name": "Al-Qadisiyah FC",
-    "ar": "القادسية",
-    "logo": "https://media.api-sports.io/football/teams/2933.png"
-   },
-   "goals": 3,
-   "assists": 3,
-   "apps": 7
+   "apps": 6
   }
  ]
 }
