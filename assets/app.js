@@ -541,6 +541,7 @@
     if (data.updated) markSource("site", { ok: true, at: new Date(data.updated).getTime() });
     paintUpdated();
     startLiveToday();
+    startStandings();
   }
 
   /* ---------- مؤشر "آخر تحديث" الذكي ---------- */
@@ -627,6 +628,29 @@
       renderStrip(DATA.today);
     }
   }
+  /* ---------- الترتيب الحي من الـworker (يحتسب النتائج اللي تأخر عنها جدول API) ---------- */
+  let STAND_TIMER = null;
+  async function startStandings() {
+    if (STAND_TIMER || !($("spl") || $("splMini") || $("euro"))) return;
+    const base = await liveTodayBase();
+    if (!base) return;
+    const tick = async () => {
+      try {
+        const j = await fetch(base + "/standings", { cache: "no-store" }).then((r) => r.json());
+        if (!j?.leagues) return;
+        const st = { ...(DATA.standings || {}) };
+        let changed = false;
+        for (const [k, v] of Object.entries(j.leagues)) {
+          if (!v?.rows?.length) continue;
+          if (JSON.stringify(st[k]?.rows) !== JSON.stringify(v.rows)) { st[k] = v; changed = true; }
+        }
+        if (changed) { DATA.standings = st; renderTables(st); }
+      } catch (e) {}
+    };
+    tick();
+    STAND_TIMER = setInterval(() => { if (!document.hidden) tick(); }, 60e3);
+  }
+
   async function startLiveToday() {
     if (LIVE_TODAY_TIMER) clearInterval(LIVE_TODAY_TIMER);
     const base = await liveTodayBase();

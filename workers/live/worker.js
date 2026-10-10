@@ -101,6 +101,12 @@ export default {
         if (cached) return json({ ...cached, source: "stale" }, 15);
         return json({ error: "not-found", at: Date.now() }, 60, 404);
       }
+      if (url.pathname === "/standings") {
+        const T = (await env.KV.get("tables", "json")) || { leagues: {} };
+        const out = {};
+        for (const [k] of TABLES) if (T.leagues[k]?.rows) out[k] = { season: T.leagues[k].season, rows: T.leagues[k].rows, at: T.leagues[k].fetchedAt };
+        return json({ at: Date.now(), leagues: out }, 30);
+      }
       if (url.pathname === "/health") {
         if (url.searchParams.has("refresh")) await schedule(env, true);
         const [sched, usage] = await Promise.all([env.KV.get("sched", "json"), env.KV.get("usage:" + today(), "json")]);
@@ -235,6 +241,7 @@ async function pollOnce(env, win) {
     out.match = slim(fx);
     if (!out.match.events.length && prev?.events?.length) out.match.events = prev.events;
     out.status = DONE.includes(fx.fixture.status.short) ? "done" : "live";
+    if (out.status === "done") await recordFinished(env, out.match).catch(() => {});
   } else { out.status = now < win.kickoff + 10 * 60e3 ? "starting" : (prev ? last.status : "waiting"); if (prev) out.match = prev; }
   // نكتب بس لو تغيّر شي (نتيجة/دقيقة/حالة/أحداث) أو مرّت دقيقة — عشان حد الكتابة اليومي في KV
   const sig = (o) => JSON.stringify([o.status, o.match?.status, o.match?.elapsed, o.match?.goals, o.match?.events?.length]);
@@ -272,30 +279,34 @@ async function pollRoshn(env, activeList) {
   const prev = (await env.KV.get("live-today", "json"))?.matches || {};
   const todayKey = today();
   let changed = all.length > 0;
+  let confirms = 0;   // حد أقصى لطلبات التأكيد بالنبضة
   for (const [idS, last] of Object.entries(prev)) {
     if (map[idS]) continue;
     const d = last.date ? last.date.slice(0, 10) : null;
     if (!d || d !== todayKey) continue;
     const kickMs = last.date ? new Date(last.date).getTime() : 0;
-    if (DONE.includes(last.status)) {
-      // علامات FT قديمة فيها elapsed — نلغيها لو المباراة لسا في نافذتها الطبيعية
-      const suspicious = last.elapsed != null && kickMs > 0 && now < kickMs + 150 * 60e3;
-      if (suspicious) continue;
-      map[idS] = last;
-      continue;
-    }
+    if (DONE.includes(last.status)) { map[idS] = last; continue; }
     if (LIVE.includes(last.status)) {
-      // تجاوزت 130 دقيقة من البداية ومش في live-all → مؤكد انتهت. علّمها FT بآخر نتيجة.
-      if (kickMs > 0 && now >= kickMs + 130 * 60e3) {
-        map[idS] = { ...last, status: "FT", elapsed: null };
-        changed = true;
-      } else if (kickMs > 0 && now < kickMs + 180 * 60e3) {
-        // لسا في النافذة — احتفظ بآخر حالة مباشرة لفترة قصيرة
-        map[idS] = last;
+      // اختفت من قائمة المباشر = غالباً خلصت. نسأل API عنها بالـid ونأخذ الحالة والنتيجة النهائية الرسمية.
+      if (confirms < 4) {
+        confirms++;
+        const one = (await api(env, { id: idS }).catch(() => []))[0];
+        if (one) {
+          const s = slim(one);
+          if (!s.events.length && last.events?.length) s.events = last.events;
+          map[idS] = s; changed = true;
+          if (DONE.includes(s.status)) await recordFinished(env, s);
+          continue;
+        }
       }
+      // تعذّر التأكيد: احتياط زمني
+      if (kickMs > 0 && now >= kickMs + 130 * 60e3) { map[idS] = { ...last, status: "FT", elapsed: null }; changed = true; await recordFinished(env, map[idS]); }
+      else map[idS] = last;
       continue;
     }
   }
+  // مباريات رجعت من API بحالة نهائية مباشرة
+  for (const s of Object.values(map)) if (DONE.includes(s.status) && !(prev[s.id] && DONE.includes(prev[s.id].status))) await recordFinished(env, s);
   if (changed) await env.KV.put("live-today", JSON.stringify({ at: now, matches: map }), { expirationTtl: 36 * 3600 });
   if (!activeList || !activeList.length) return;
   const byId = new Map(all.map((f) => [f.fixture.id, f]));
@@ -323,6 +334,81 @@ async function pollRoshn(env, activeList) {
   }
   if (touched) await env.KV.put("roshn", JSON.stringify(out), { expirationTtl: 7 * 86400 });
 }
+/* ============ الترتيب الحي ============
+   جدول API-Football يتأخر عن النتائج (أحياناً ساعات). الحل بدون حالة محفوظة:
+   نجيب الجدول الرسمي + قائمة المباريات المنتهية للدوري. لو فريق لعب مباريات منتهية
+   أكثر من "لعب" في الجدول، نضيف نتائج آخر مبارياته الناقصة على الجدول ونعيد الترتيب. */
+const TABLES = [["spl", 307], ["epl", 39], ["laliga", 140], ["seriea", 135], ["bundesliga", 78], ["ligue1", 61]];
+const TABLE_KEY = Object.fromEntries(TABLES.map(([k, id]) => [id, k]));
+const seasonNow = () => { const d = new Date(); return d.getUTCMonth() >= 6 ? d.getUTCFullYear() : d.getUTCFullYear() - 1; };
+
+async function apiGet(env, path, params) {
+  const res = await fetch(`https://v3.football.api-sports.io/${path}?` + new URLSearchParams(params), { headers: { "x-apisports-key": env.API_FOOTBALL_KEY } });
+  env._calls = (env._calls || 0) + 1;
+  const body = await res.json().catch(() => null);
+  return Array.isArray(body?.response) && body.response.length ? body.response : null;
+}
+function applyMissing(rows, finished) {
+  const out = rows.map((r) => ({ ...r }));
+  const byTeam = {};
+  for (const f of finished) for (const side of ["home", "away"]) (byTeam[f.teams[side].id] ||= []).push(f);
+  let applied = 0;
+  for (const t of out) {
+    const list = (byTeam[t.team.id] || []).sort((a, b) => b.fixture.timestamp - a.fixture.timestamp);
+    const missing = list.length - t.played;
+    if (missing <= 0 || missing > 3) continue;   // أكثر من 3 = بيانات غريبة، نتجاهل
+    for (const f of list.slice(0, missing)) {
+      const home = f.teams.home.id === t.team.id;
+      const gf = home ? f.goals.home : f.goals.away, ga = home ? f.goals.away : f.goals.home;
+      if (gf == null || ga == null) continue;
+      t.played++; t.gd += gf - ga;
+      if (gf > ga) { t.win++; t.points += 3; } else if (gf === ga) { t.draw++; t.points++; } else t.lose++;
+      t.live = true; applied++;
+    }
+  }
+  if (!applied) return out;
+  const desc = out.map((r) => r.description);   // المناطق (أبطال/هبوط) مرتبطة بالمركز مو بالفريق
+  out.sort((x, y) => y.points - x.points || y.gd - x.gd || x.rank - y.rank);
+  out.forEach((r, i) => { r.rank = i + 1; r.description = desc[i] || ""; });
+  return out;
+}
+async function refreshTable(env, key) {
+  const id = TABLES.find(([k]) => k === key)?.[1];
+  const season = seasonNow();
+  const T = (await env.KV.get("tables", "json")) || { leagues: {} };
+  T.leagues[key] = { ...(T.leagues[key] || {}), tried: Date.now() };
+  delete (T.dirty || {})[key];
+  const [st, fin] = await Promise.all([
+    apiGet(env, "standings", { league: id, season }),
+    apiGet(env, "fixtures", { league: id, season, status: "FT-AET-PEN" })
+  ]);
+  const table = st?.[0]?.league?.standings?.[0];
+  if (table?.length) {
+    const rows = table.map((r) => ({ rank: r.rank, team: { id: r.team.id, name: r.team.name, logo: r.team.logo }, points: r.points,
+      gd: r.goalsDiff, played: r.all.played, win: r.all.win, draw: r.all.draw, lose: r.all.lose, description: r.description || "" }));
+    T.leagues[key] = { rows: fin ? applyMissing(rows, fin) : rows, season, fetchedAt: Date.now(), tried: Date.now() };
+  }
+  await env.KV.put("tables", JSON.stringify(T));
+}
+// مباراة خلصت → دوريها يتحدث بالنبضة الجاية
+async function recordFinished(env, s) {
+  const key = TABLE_KEY[s?.league?.id];
+  if (!key) return;
+  const T = (await env.KV.get("tables", "json")) || { leagues: {} };
+  if (T.dirty?.[key]) return;
+  T.dirty = { ...(T.dirty || {}), [key]: Date.now() };
+  await env.KV.put("tables", JSON.stringify(T));
+}
+// نبضة واحدة بالدقيقة: دوري فيه نتيجة جديدة أولاً، وإلا الأقدم تحديثاً
+async function tableTick(env, activeHours) {
+  const T = (await env.KV.get("tables", "json")) || { leagues: {} };
+  const dirty = Object.entries(T.dirty || {}).sort((a, b) => a[1] - b[1])[0]?.[0];
+  if (dirty) return refreshTable(env, dirty);
+  const maxAge = activeHours ? 6 * 60e3 : 60 * 60e3;
+  const stale = TABLES.map(([k]) => [k, T.leagues[k]?.tried || 0]).sort((a, b) => a[1] - b[1])[0];
+  if (Date.now() - stale[1] > maxAge) await refreshTable(env, stale[0]);
+}
+
 async function processRoshn(env, id, meta, sm, prev, outMap) {
   const [hg, ag] = sm.goals;
   const [phg, pag] = prev ? prev.g : [0, 0];
@@ -393,6 +479,9 @@ async function tick(env) {
 
   const hourRi = (new Date(now + 3 * 3600e3)).getUTCHours();
   const activeHours = hourRi >= 10 || hourRi <= 2;    // 10 صباحاً — 2 ليلاً بتوقيت الرياض
+
+  // الترتيب الحي (طلب واحد بالدقيقة كحد أقصى)
+  try { await tableTick(env, activeHours); } catch (e) {}
 
   // لا الهلال ولا روشن ولا مباريات في العالم بوقتها — خلّص
   if (!m && !roshnLive.length && !activeHours) { await flushUsage(env); return; }
