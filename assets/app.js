@@ -789,5 +789,31 @@
   })();
 
   Promise.all([loadAds(), loadDesigns()]).then(load).then(loadYouth);
+  // الترتيب الرسمي: طلب مستقل كل دقيقة، لا يعتمد على تحديث site.json.
+  let standingsBusy = false;
+  async function refreshStandings() {
+    if (standingsBusy || document.hidden || !DATA?.standings) return;
+    standingsBusy = true;
+    try {
+      const cfg = await fetch("data/live.json", { cache: "no-store" }).then(r => r.json());
+      const base = cfg.url.replace(/\/live$/, "");
+      const season = DATA.season || (new Date().getUTCMonth() >= 6 ? new Date().getUTCFullYear() : new Date().getUTCFullYear() - 1);
+      const leagues = [["spl",307],["epl",39],["laliga",140],["seriea",135],["bundesliga",78],["ligue1",61]];
+      const updates = await Promise.all(leagues.map(async ([key,id]) => {
+        try {
+          const r = await fetch(base + "/standings?league=" + id + "&season=" + season, { cache:"no-store" });
+          if (!r.ok) return null;
+          const j = await r.json();
+          return Array.isArray(j.rows) && j.rows.length ? [key, { season, rows:j.rows, updated:j.updated }] : null;
+        } catch { return null; }
+      }));
+      let changed = false;
+      for (const u of updates) if (u) { DATA.standings[u[0]] = u[1]; changed = true; }
+      if (changed) renderTables(DATA.standings);
+    } catch (e) { console.warn("standings refresh unavailable", e); }
+    finally { standingsBusy = false; }
+  }
+  setTimeout(refreshStandings, 1500);
+  setInterval(refreshStandings, 60 * 1000);
   setInterval(load, 10 * 60 * 1000); // يعيد القراءة كل ١٠ دقائق
 })();
