@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T14:30:42.625Z",
+ "updated": "2026-10-10T14:56:47.974Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603039,
       "date": "2026-10-10T16:50:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -803,15 +803,15 @@
        "logo": "https://media.api-sports.io/football/teams/10513.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1603036,
       "date": "2026-10-10T17:55:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -832,7 +832,10 @@
        "ar": "الخليج",
        "logo": "https://media.api-sports.io/football/teams/2928.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603040,
@@ -903,8 +906,8 @@
      {
       "id": 1557418,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Birmingham",
       "league": {
        "id": 39,
@@ -933,8 +936,8 @@
      {
       "id": 1557419,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "London",
       "league": {
        "id": 39,
@@ -963,8 +966,8 @@
      {
       "id": 1557423,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Ipswich",
       "league": {
        "id": 39,
@@ -993,8 +996,8 @@
      {
       "id": 1557426,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Sunderland",
       "league": {
        "id": 39,
@@ -1090,7 +1093,7 @@
       "id": 1570403,
       "date": "2026-10-10T17:15:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 42,
       "venue": "Victoria-Gasteiz",
       "league": {
        "id": 140,
@@ -1113,7 +1116,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1183,7 +1186,7 @@
       "id": 1550140,
       "date": "2026-10-10T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 70,
+      "elapsed": 90,
       "venue": "Genoa",
       "league": {
        "id": 135,
@@ -1206,7 +1209,7 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      },
      {
@@ -1275,8 +1278,8 @@
      {
       "id": 1575178,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 64,
       "venue": "Sinsheim",
       "league": {
        "id": 78,
@@ -1298,15 +1301,15 @@
        "logo": "https://media.api-sports.io/football/teams/175.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
      {
       "id": 1575180,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Augsburg",
       "league": {
        "id": 78,
@@ -1328,15 +1331,15 @@
        "logo": "https://media.api-sports.io/football/teams/157.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      },
      {
       "id": 1575181,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Mainz",
       "league": {
        "id": 78,
@@ -1359,14 +1362,14 @@
       },
       "goals": [
        2,
-       2
+       4
       ]
      },
      {
       "id": 1575182,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Berlin",
       "league": {
        "id": 78,
@@ -1395,8 +1398,8 @@
      {
       "id": 1575184,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Paderborn",
       "league": {
        "id": 78,
@@ -1605,8 +1608,8 @@
      {
       "id": 1597934,
       "date": "2026-10-10T17:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1627,7 +1630,10 @@
        "ar": "Lusail City",
        "logo": "https://media.api-sports.io/football/teams/7527.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1597932,
@@ -1821,8 +1827,8 @@
      {
       "id": 1552182,
       "date": "2026-10-10T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Deventer",
       "league": {
        "id": 88,
@@ -1843,7 +1849,10 @@
        "ar": "Sparta Rotterdam",
        "logo": "https://media.api-sports.io/football/teams/426.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1552181,
@@ -1969,7 +1978,7 @@
       "id": 1584421,
       "date": "2026-10-10T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 73,
+      "elapsed": 90,
       "venue": "Alanya",
       "league": {
        "id": 203,
@@ -1998,8 +2007,8 @@
      {
       "id": 1584429,
       "date": "2026-10-10T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Samsun",
       "league": {
        "id": 203,
