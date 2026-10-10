@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T23:40:16.133Z",
+ "updated": "2026-10-10T23:57:06.795Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1839,8 +1839,8 @@
      {
       "id": 1490513,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Miami",
       "league": {
        "id": 253,
@@ -1861,13 +1861,16 @@
        "ar": "DC United",
        "logo": "https://media.api-sports.io/football/teams/1615.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490514,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1888,13 +1891,16 @@
        "ar": "FC Cincinnati",
        "logo": "https://media.api-sports.io/football/teams/2242.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490515,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Orlando",
       "league": {
        "id": 253,
@@ -1915,13 +1921,16 @@
        "ar": "Columbus Crew",
        "logo": "https://media.api-sports.io/football/teams/1613.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      },
      {
       "id": 1490516,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Boston",
       "league": {
        "id": 253,
@@ -1942,13 +1951,16 @@
        "ar": "Seattle Sounders",
        "logo": "https://media.api-sports.io/football/teams/1595.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1490517,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Philadelphia",
       "league": {
        "id": 253,
@@ -1969,13 +1981,16 @@
        "ar": "Real Salt Lake",
        "logo": "https://media.api-sports.io/football/teams/1606.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490518,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Harrison",
       "league": {
        "id": 253,
@@ -1996,13 +2011,16 @@
        "ar": "San Diego",
        "logo": "https://media.api-sports.io/football/teams/25484.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490519,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Charlotte",
       "league": {
        "id": 253,
@@ -2023,7 +2041,10 @@
        "ar": "FC Dallas",
        "logo": "https://media.api-sports.io/football/teams/1597.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490520,
