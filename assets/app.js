@@ -594,25 +594,27 @@
         if (live) {
           const previousVersion = LIVE_MATCH_VERSIONS.get(String(m.id)) || 0;
           if (version < previousVersion) continue;
-          // عند رجوع الأهداف للخلف، لا نقبل لقطة عابرة قديمة.
-          // تأكيد تصحيح الهدف يحتاج تحديثين متتاليين من المصدر.
+          // عند رجوع الأهداف للخلف، نحتاج تأكيد (VAR أو خطأ عابر).
+          // لكن ما نجمّد الحالة والدقيقة بسبب ذلك — نحدّثهم على طول عشان العرض يبقى حياً.
           const oldGoals = Array.isArray(m.goals) ? m.goals : null;
           const newGoals = Array.isArray(live.goals) ? live.goals : null;
           const reduced = oldGoals && newGoals && newGoals.some((n, idx) => Number(n) < Number(oldGoals[idx]));
+          let goalsToUse = live.goals;
           if (reduced) {
             const correctionKey = String(m.id) + ":correction";
             const candidate = LIVE_MATCH_VERSIONS.get(correctionKey);
             const signature = JSON.stringify(newGoals);
             if (!candidate || candidate.signature !== signature || version <= candidate.version) {
               LIVE_MATCH_VERSIONS.set(correctionKey, { signature, version });
-              continue;
+              goalsToUse = oldGoals;   // نحتفظ بالأهداف القديمة ونحدّث فقط الحالة والدقيقة
+            } else {
+              LIVE_MATCH_VERSIONS.delete(correctionKey);
             }
-            LIVE_MATCH_VERSIONS.delete(correctionKey);
           } else {
             LIVE_MATCH_VERSIONS.delete(String(m.id) + ":correction");
           }
           LIVE_MATCH_VERSIONS.set(String(m.id), version);
-          const merged = { ...m, status: live.status, elapsed: live.elapsed, goals: live.goals, events: live.events || m.events };
+          const merged = { ...m, status: live.status, elapsed: live.elapsed, goals: goalsToUse, events: live.events || m.events };
           const sigNew = JSON.stringify([merged.status, merged.elapsed, merged.goals, (merged.events || []).length]);
           if (sigOld !== sigNew) { g.matches[i] = merged; changed = true; }
         }
