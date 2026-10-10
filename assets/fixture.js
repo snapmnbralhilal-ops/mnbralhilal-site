@@ -33,30 +33,35 @@
       const el = m.elapsed != null ? ar(m.elapsed) + (m.extra ? "+" + ar(m.extra) : "") + "'" : "";
       return `<span class="live-pill"><span class="dot"></span>${STATUS_AR[m.status] || "مباشر"}${el ? " " + el : ""}</span>`;
     }
-    return STATUS_AR[m.status] || m.status;
+    if (DONE.includes(m.status)) return `<span class="done-pill">${STATUS_AR[m.status] || "انتهت"}</span>`;
+    return `<span class="pending-pill">${STATUS_AR[m.status] || m.status}</span>`;
   }
 
   function renderHead(m) {
     const isLive = LIVE.includes(m.status);
+    const isDone = DONE.includes(m.status);
     const d = new Date(m.date);
-    const date = `${fDay.format(d)} · ${fTime.format(d)}`;
     const league = esc(arLeague(m.league));
     const round = m.league?.round ? ` · ${esc(m.league.round.replace(/Regular Season - /, "الجولة "))}` : "";
-    const venue = m.venue ? `<span>${esc(m.venue)}</span>` : "";
-    const ref = m.referee ? `<span>الحكم: ${esc(m.referee)}</span>` : "";
     const [hg, ag] = m.goals;
-    $("mHead").className = "m-head" + (isLive ? " live" : "");
+    const showScore = isLive || isDone;
+    const scoreOrTime = showScore
+      ? `<span class="num">${ag} - ${hg}</span>`
+      : `<span class="num kick">${esc(fTime.format(d))}</span>`;
+    $("mHead").className = "m-head" + (isLive ? " live" : "") + (isDone ? " done" : "");
     $("mHead").innerHTML = `
-      <div class="m-meta">
-        <span>${league}${round}</span>
-        <span>${statusLabel(m)}</span>
-      </div>
+      <div class="m-top">${league}${round}</div>
+      <div class="m-status">${statusLabel(m)}</div>
       <div class="m-teams">
         <div class="m-team">${crest(m.home)}<b>${esc(arTeam(m.home.name))}</b></div>
-        <div class="m-score"><span class="num">${ag} - ${hg}</span><span class="st">${esc(date)}</span></div>
+        <div class="m-score">${scoreOrTime}</div>
         <div class="m-team">${crest(m.away)}<b>${esc(arTeam(m.away.name))}</b></div>
       </div>
-      ${venue || ref ? `<div class="m-sub">${venue}${ref}</div>` : ""}
+      <div class="m-sub">
+        <span class="m-date">${esc(fDay.format(d))} · ${esc(fTime.format(d))}</span>
+        ${m.venue ? `<span class="m-venue"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>${esc(m.venue)}</span>` : ""}
+        ${m.referee ? `<span class="m-ref">الحكم: ${esc(m.referee)}</span>` : ""}
+      </div>
     `;
   }
 

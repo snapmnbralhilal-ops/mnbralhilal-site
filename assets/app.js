@@ -65,7 +65,9 @@
     // ثبّت أعمدة صف المباراة حتى لا تتحرك الأندية والنتيجة عند بدء البث.
     const style = "";
     const bellBtn = bell ? `<button class="row-bell" type="button" data-fx-bell data-fx-id="${esc(bell.id)}" data-fx-kick="${esc(bell.kickoff)}" data-fx-home="${esc(bell.home)}" data-fx-away="${esc(bell.away)}" data-fx-league="${esc(bell.league || "")}" aria-label="تنبيهات هذه المباراة"><svg><use href="#i-bell"/></svg></button>` : "";
-    const canDetails = m.league?.id === 307 && Number.isSafeInteger(Number(m.id)) && (LIVE.includes(m.status) || DONE.includes(m.status));
+    // تفاصيل متاحة لـ: روشن (307) + الدوريات الخمس الكبرى (EPL 39، La Liga 140، Serie A 135، Bundesliga 78، Ligue 1 61)
+    const DETAIL_LEAGUES = [307, 39, 140, 135, 78, 61];
+    const canDetails = DETAIL_LEAGUES.includes(m.league?.id) && Number.isSafeInteger(Number(m.id)) && (LIVE.includes(m.status) || DONE.includes(m.status));
     const detailsLink = canDetails ? `<a class="row-details" href="fixture.html?id=${encodeURIComponent(m.id)}" aria-label="تفاصيل المباراة">التفاصيل <span aria-hidden="true">←</span></a>` : "";
     const cls = `row${hl ? " hl" : ""}${bell ? " has-bell" : ""}${canDetails ? " has-details" : ""}`;
     return `<div class="${cls}"${style}>${when || '<div class="when" aria-hidden="true"></div>'}
