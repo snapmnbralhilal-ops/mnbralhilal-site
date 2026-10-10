@@ -2,7 +2,7 @@ name: تحديث بيانات الموقع
 
 on:
   schedule:
-    - cron: "17,47 * * * *"  # كل 30 دقيقة (الدقيقة 17 والدقيقة 47 من كل ساعة)
+    - cron: "*/10 * * * *"   # كل 10 دقائق
   workflow_dispatch:          # تشغيل يدوي من تبويب Actions
 
 permissions:
