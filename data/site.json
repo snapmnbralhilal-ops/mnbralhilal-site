@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T20:32:47.814Z",
+ "updated": "2026-10-10T20:50:16.644Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1165,7 +1165,7 @@
       "id": 1570411,
       "date": "2026-10-10T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 74,
+      "elapsed": 90,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1187,7 +1187,7 @@
        "logo": "https://media.api-sports.io/football/teams/533.png"
       },
       "goals": [
-       2,
+       1,
        0
       ]
      }
@@ -1263,7 +1263,7 @@
      {
       "id": 1550144,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Naples",
       "league": {
@@ -1286,7 +1286,7 @@
        "logo": "https://media.api-sports.io/football/teams/512.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      }
@@ -1521,8 +1521,8 @@
      {
       "id": 1552774,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Brest",
       "league": {
        "id": 61,
@@ -1551,7 +1551,7 @@
      {
       "id": 1552777,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Lorient",
       "league": {
@@ -1581,8 +1581,8 @@
      {
       "id": 1552778,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Monaco",
       "league": {
        "id": 61,
@@ -1611,8 +1611,8 @@
      {
       "id": 1552780,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Paris",
       "league": {
        "id": 61,
@@ -1750,7 +1750,7 @@
       "id": 1644208,
       "date": "2026-10-10T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 73,
+      "elapsed": 90,
       "venue": "Mohammedia",
       "league": {
        "id": 200,
@@ -1772,8 +1772,8 @@
        "logo": "https://media.api-sports.io/football/teams/964.png"
       },
       "goals": [
-       1,
-       4
+       2,
+       5
       ]
      }
     ]
@@ -1818,8 +1818,8 @@
      {
       "id": 1575509,
       "date": "2026-10-10T22:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Viseu",
       "league": {
        "id": 94,
@@ -1842,14 +1842,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1575513,
       "date": "2026-10-10T22:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Rio Mayor",
       "league": {
        "id": 94,
@@ -1978,7 +1978,7 @@
       "id": 1552183,
       "date": "2026-10-10T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 71,
+      "elapsed": 89,
       "venue": "Amsterdam",
       "league": {
        "id": 88,
@@ -2175,7 +2175,7 @@
      {
       "id": 1490511,
       "date": "2026-10-10T21:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Chicago",
       "league": {
