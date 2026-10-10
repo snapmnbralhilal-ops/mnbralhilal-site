@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T12:37:05.442Z",
+ "updated": "2026-10-10T13:00:33.724Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -871,7 +871,7 @@
       "id": 1557417,
       "date": "2026-10-10T14:30:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 71,
       "venue": "London",
       "league": {
        "id": 39,
@@ -893,8 +893,8 @@
        "logo": "https://media.api-sports.io/football/teams/63.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      },
      {
@@ -1932,8 +1932,8 @@
      {
       "id": 1584421,
       "date": "2026-10-10T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Alanya",
       "league": {
        "id": 203,
@@ -1954,7 +1954,10 @@
        "ar": "Erzurumspor FK",
        "logo": "https://media.api-sports.io/football/teams/1009.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1584429,
@@ -4409,7 +4412,19 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "players/topscorers",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "This is on our side, please report us this bug on https://dashboard.api-football.com",
+    "5xEr"
+   ]
+  }
+ ],
  "requests": 13,
  "plan": "Pro"
 }
