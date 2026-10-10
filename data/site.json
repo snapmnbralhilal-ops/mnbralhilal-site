@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-10T18:46:05.113Z",
+ "updated": "2026-10-10T18:59:58.485Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1603040,
     "date": "2026-10-10T21:00:00+03:00",
-    "status": "1H",
+    "status": "HT",
     "elapsed": 45,
     "venue": "Riyadh",
     "league": {
@@ -850,8 +850,8 @@
      {
       "id": 1603040,
       "date": "2026-10-10T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -1264,8 +1264,8 @@
      {
       "id": 1550144,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Naples",
       "league": {
        "id": 135,
@@ -1286,7 +1286,10 @@
        "ar": "فروزينوني",
        "logo": "https://media.api-sports.io/football/teams/512.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1519,8 +1522,8 @@
      {
       "id": 1552774,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Brest",
       "league": {
        "id": 61,
@@ -1541,13 +1544,16 @@
        "ar": "أنجيه",
        "logo": "https://media.api-sports.io/football/teams/77.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1552777,
       "date": "2026-10-10T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 15,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1576,8 +1582,8 @@
      {
       "id": 1552778,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Monaco",
       "league": {
        "id": 61,
@@ -1598,13 +1604,16 @@
        "ar": "تولوز",
        "logo": "https://media.api-sports.io/football/teams/96.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552780,
       "date": "2026-10-10T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Paris",
       "league": {
        "id": 61,
@@ -1625,7 +1634,10 @@
        "ar": "لومان",
        "logo": "https://media.api-sports.io/football/teams/1298.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1669,8 +1681,8 @@
      {
       "id": 1597932,
       "date": "2026-10-10T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1708,8 +1720,8 @@
      {
       "id": 1644207,
       "date": "2026-10-10T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Marrakech",
       "league": {
        "id": 200,
@@ -1731,7 +1743,7 @@
        "logo": "https://media.api-sports.io/football/teams/974.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
@@ -1774,8 +1786,8 @@
      {
       "id": 1575515,
       "date": "2026-10-10T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Funchal",
       "league": {
        "id": 94,
@@ -1927,8 +1939,8 @@
      {
       "id": 1552184,
       "date": "2026-10-10T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Sitard",
       "league": {
        "id": 88,
@@ -2123,7 +2135,7 @@
       "id": 1490512,
       "date": "2026-10-10T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 73,
+      "elapsed": 87,
       "venue": "Toronto",
       "league": {
        "id": 253,
@@ -2153,7 +2165,7 @@
       "id": 1490511,
       "date": "2026-10-10T21:30:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 20,
       "venue": "Chicago",
       "league": {
        "id": 253,
@@ -2176,7 +2188,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -2762,6 +2774,22 @@
     {
      "rank": 7,
      "team": {
+      "id": 2934,
+      "name": "Al-Ettifaq",
+      "ar": "الاتفاق",
+      "logo": "https://media.api-sports.io/football/teams/2934.png"
+     },
+     "points": 12,
+     "gd": 0,
+     "played": 8,
+     "win": 3,
+     "draw": 3,
+     "lose": 2,
+     "description": "Promotion - Gulf Club Champions League"
+    },
+    {
+     "rank": 8,
+     "team": {
       "id": 10509,
       "name": "Al Kholood",
       "ar": "الخلود",
@@ -2772,22 +2800,6 @@
      "played": 8,
      "win": 3,
      "draw": 3,
-     "lose": 2,
-     "description": "Promotion - Gulf Club Champions League"
-    },
-    {
-     "rank": 8,
-     "team": {
-      "id": 2934,
-      "name": "Al-Ettifaq",
-      "ar": "الاتفاق",
-      "logo": "https://media.api-sports.io/football/teams/2934.png"
-     },
-     "points": 11,
-     "gd": 0,
-     "played": 7,
-     "win": 3,
-     "draw": 2,
      "lose": 2,
      "description": ""
     },
@@ -2863,11 +2875,11 @@
       "ar": "الخليج",
       "logo": "https://media.api-sports.io/football/teams/2928.png"
      },
-     "points": 5,
+     "points": 6,
      "gd": -7,
-     "played": 7,
+     "played": 8,
      "win": 0,
-     "draw": 5,
+     "draw": 6,
      "lose": 2,
      "description": ""
     },
