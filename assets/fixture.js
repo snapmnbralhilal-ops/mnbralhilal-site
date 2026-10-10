@@ -45,8 +45,10 @@
     const round = m.league?.round ? ` · ${esc(m.league.round.replace(/Regular Season - /, "الجولة "))}` : "";
     const [hg, ag] = m.goals;
     const showScore = isLive || isDone;
+    // مهم: الصفحة RTL. نكتب "home - away" في الكود فينعكس بصرياً إلى "away - home"،
+    // فيصير رقم الفريق المضيف قرب شعاره على اليمين، ورقم الضيف قرب شعاره على اليسار.
     const scoreOrTime = showScore
-      ? `<span class="num">${ag} - ${hg}</span>`
+      ? `<span class="num">${hg} - ${ag}</span>`
       : `<span class="num kick">${esc(fTime.format(d))}</span>`;
     $("mHead").className = "m-head" + (isLive ? " live" : "") + (isDone ? " done" : "");
     $("mHead").innerHTML = `
