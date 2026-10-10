@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T15:30:43.824Z",
+ "updated": "2026-10-10T15:56:38.327Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603039,
       "date": "2026-10-10T16:50:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -810,8 +810,8 @@
      {
       "id": 1603036,
       "date": "2026-10-10T17:55:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -907,7 +907,7 @@
       "id": 1557418,
       "date": "2026-10-10T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 69,
+      "elapsed": 90,
       "venue": "Birmingham",
       "league": {
        "id": 39,
@@ -929,15 +929,15 @@
        "logo": "https://media.api-sports.io/football/teams/55.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
       "id": 1557419,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -966,8 +966,8 @@
      {
       "id": 1557423,
       "date": "2026-10-10T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 73,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ipswich",
       "league": {
        "id": 39,
@@ -989,7 +989,7 @@
        "logo": "https://media.api-sports.io/football/teams/36.png"
       },
       "goals": [
-       0,
+       2,
        1
       ]
      },
@@ -997,7 +997,7 @@
       "id": 1557426,
       "date": "2026-10-10T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 72,
+      "elapsed": 90,
       "venue": "Sunderland",
       "league": {
        "id": 39,
@@ -1020,7 +1020,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -1093,7 +1093,7 @@
       "id": 1570403,
       "date": "2026-10-10T17:15:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 79,
       "venue": "Victoria-Gasteiz",
       "league": {
        "id": 140,
@@ -1308,7 +1308,7 @@
      {
       "id": 1575180,
       "date": "2026-10-10T16:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Augsburg",
       "league": {
@@ -1465,7 +1465,7 @@
       "id": 1552776,
       "date": "2026-10-10T18:15:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 42,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1611,8 +1611,8 @@
      {
       "id": 1597934,
       "date": "2026-10-10T17:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1830,8 +1830,8 @@
      {
       "id": 1552182,
       "date": "2026-10-10T17:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Deventer",
       "league": {
        "id": 88,
@@ -1853,8 +1853,8 @@
        "logo": "https://media.api-sports.io/football/teams/426.png"
       },
       "goals": [
-       0,
-       1
+       2,
+       2
       ]
      },
      {
@@ -3813,21 +3813,37 @@
     {
      "rank": 17,
      "team": {
+      "id": 495,
+      "name": "Genoa",
+      "ar": "جنوى",
+      "logo": "https://media.api-sports.io/football/teams/495.png"
+     },
+     "points": 4,
+     "gd": -6,
+     "played": 6,
+     "win": 1,
+     "draw": 1,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 18,
+     "team": {
       "id": 502,
       "name": "Fiorentina",
       "ar": "فيورنتينا",
       "logo": "https://media.api-sports.io/football/teams/502.png"
      },
      "points": 4,
-     "gd": -6,
-     "played": 5,
+     "gd": -7,
+     "played": 6,
      "win": 1,
      "draw": 1,
-     "lose": 3,
-     "description": ""
+     "lose": 4,
+     "description": "Relegation"
     },
     {
-     "rank": 18,
+     "rank": 19,
      "team": {
       "id": 500,
       "name": "Bologna",
@@ -3840,22 +3856,6 @@
      "win": 0,
      "draw": 2,
      "lose": 3,
-     "description": "Relegation"
-    },
-    {
-     "rank": 19,
-     "team": {
-      "id": 495,
-      "name": "Genoa",
-      "ar": "جنوى",
-      "logo": "https://media.api-sports.io/football/teams/495.png"
-     },
-     "points": 1,
-     "gd": -7,
-     "played": 5,
-     "win": 0,
-     "draw": 1,
-     "lose": 4,
      "description": "Relegation"
     },
     {
