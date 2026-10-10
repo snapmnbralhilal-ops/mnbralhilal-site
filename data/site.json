@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T21:41:50.747Z",
+ "updated": "2026-10-10T21:57:49.113Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -748,8 +748,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال في المركز 3 بدوري روشن برصيد 18 نقطة",
-   "body": "متأخراً بـنقطة واحدة عن المتصدر القادسية.",
+   "title": "الهلال يتصدر دوري روشن برصيد 21 نقطة",
+   "body": "بفارق نقطتين عن القادسية صاحب المركز الثاني.",
    "link": "#table"
   },
   {
@@ -3574,6 +3574,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 2932,
+      "name": "Al-Hilal Saudi FC",
+      "ar": "الهلال",
+      "logo": "https://media.api-sports.io/football/teams/2932.png"
+     },
+     "points": 21,
+     "gd": 19,
+     "played": 8,
+     "win": 7,
+     "draw": 0,
+     "lose": 1,
+     "description": "Promotion - AFC Champions League (League phase)"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 2933,
       "name": "Al-Qadisiyah FC",
       "ar": "القادسية",
@@ -3588,7 +3604,7 @@
      "description": "Promotion - AFC Champions League (League phase)"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 2939,
       "name": "Al-Nassr",
@@ -3604,22 +3620,6 @@
      "description": "Promotion - AFC Champions League (League phase)"
     },
     {
-     "rank": 3,
-     "team": {
-      "id": 2932,
-      "name": "Al-Hilal Saudi FC",
-      "ar": "الهلال",
-      "logo": "https://media.api-sports.io/football/teams/2932.png"
-     },
-     "points": 18,
-     "gd": 18,
-     "played": 7,
-     "win": 6,
-     "draw": 0,
-     "lose": 1,
-     "description": "Promotion - AFC Champions League (League phase)"
-    },
-    {
      "rank": 4,
      "team": {
       "id": 2938,
@@ -3628,11 +3628,11 @@
       "logo": "https://media.api-sports.io/football/teams/2938.png"
      },
      "points": 17,
-     "gd": 6,
-     "played": 7,
+     "gd": 5,
+     "played": 8,
      "win": 5,
      "draw": 2,
-     "lose": 0,
+     "lose": 1,
      "description": "Promotion - AFC Champions League (League phase)"
     },
     {
