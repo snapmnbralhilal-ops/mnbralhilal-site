@@ -132,7 +132,7 @@
       document.currentScript.insertAdjacentHTML("beforebegin", html);
       // زر جرس التنبيهات في الهيدر يشتغل في كل الصفحات
       if (![...document.scripts].some((s) => /push\.js/.test(s.src))) {
-        const s = document.createElement("script"); s.src = "assets/push.js?v=202610092300"; s.defer = true; document.body.appendChild(s);
+        const s = document.createElement("script"); s.src = "assets/push.js?v=202610102130"; s.defer = true; document.body.appendChild(s);
       }
       // ظهور ناعم للأقسام وقت النزول
       if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {

@@ -217,6 +217,8 @@ footer{background:#000;border-top:1px solid #1d1d1d;color:var(--muted);font-size
 footer .wrap{padding-block:24px;display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;align-items:center}
 footer .logo{width:18px;height:32px;background:#fff}
 .demo{display:inline-flex;align-items:center;gap:7px;background:var(--surface);padding:5px 12px;border-radius:8px}
+#updated.warn{color:#b57700;background:rgba(255,183,0,.12);padding:5px 12px;border-radius:8px;font-weight:700}
+#updated.warn::before{content:"";display:inline-block;width:7px;height:7px;background:#b57700;border-radius:50%;margin-inline-end:2px}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--live);display:inline-block}
 
 /* ---------- حالات عامة ---------- */

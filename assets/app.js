@@ -194,7 +194,8 @@
 
 
   /* ---------- التحديث المباشر (Cloudflare Worker — data/live.json فيه الرابط) ---------- */
-  let NEXT_BASE = null, LIVE_M = null, LIVE_URL = null, liveTimer = null, lastGoals = null;
+  const HILAL_TEAM_ID = 2932;
+  let NEXT_BASE = null, LIVE_M = null, LIVE_M_AT = 0, LIVE_URL = null, liveTimer = null, lastGoals = null;
   const sameMatch = (a, b) => Math.abs(new Date(a.date) - new Date(b.date)) < 6 * 3600e3;
   function goalToast(text) {
     const t = document.createElement("div");
@@ -206,23 +207,48 @@
   async function pollLive() {
     if (!LIVE_URL || !NEXT_BASE) return;
     let d;
-    try { d = await (await fetch(LIVE_URL, { cache: "no-store" })).json(); } catch (e) { return; }
+    try { d = await (await fetch(LIVE_URL, { cache: "no-store" })).json(); } catch (e) { markSource("live", { ok: false }); return; }
     if (!d || !d.match || !sameMatch(d.match, NEXT_BASE)) return;
     const lm = d.match;
     const m = { ...NEXT_BASE, id: lm.id, status: lm.status, elapsed: lm.elapsed, goals: lm.goals,
       home: { ...NEXT_BASE.home, id: lm.home.id, logo: NEXT_BASE.home.logo || lm.home.logo },
       away: { ...NEXT_BASE.away, id: lm.away.id, logo: NEXT_BASE.away.logo || lm.away.logo } };
     // هدف جديد للهلال؟
-    const hilalHome = lm.home.id === 2932;
+    const hilalHome = lm.home.id === HILAL_TEAM_ID;
     const ours = hilalHome ? lm.goals[0] : lm.goals[1];
     if (lastGoals !== null && ours > lastGoals) {
-      const g = (lm.events || []).filter((e) => e.type === "Goal" && e.team === 2932).pop();
+      const g = (lm.events || []).filter((e) => e.type === "Goal" && e.team === HILAL_TEAM_ID).pop();
       goalToast(g ? `${g.player || ""} ${g.min ? g.min + "'" : ""} — الهلال ${lm.goals[0]}-${lm.goals[1]}` : `الهلال ${lm.goals[0]}-${lm.goals[1]}`);
     }
     lastGoals = ours;
     LIVE_M = m;
+    LIVE_M_AT = Date.now();
     renderNext(m);
+    markSource("live", { ok: true, at: LIVE_M_AT });
+    // نحقن نتيجة الهلال في DATA.today حتى تتطابق قائمة المباريات والشريط مع البانر الرئيسي
+    syncHilalIntoToday(lm);
     if (d.status === "done") { clearInterval(liveTimer); liveTimer = null; }
+  }
+
+  // توحيد: نضمن إن الهلال في #strip و #todayList يعرض نفس بيانات /live
+  function syncHilalIntoToday(lm) {
+    if (!DATA.today?.groups) return;
+    let changed = false;
+    for (const g of DATA.today.groups) {
+      for (let i = 0; i < g.matches.length; i++) {
+        const dm = g.matches[i];
+        if (dm.home.id === HILAL_TEAM_ID || dm.away.id === HILAL_TEAM_ID) {
+          const merged = { ...dm, status: lm.status, elapsed: lm.elapsed, goals: lm.goals, events: lm.events || dm.events };
+          const sigOld = JSON.stringify([dm.status, dm.elapsed, dm.goals]);
+          const sigNew = JSON.stringify([merged.status, merged.elapsed, merged.goals]);
+          if (sigOld !== sigNew) { g.matches[i] = merged; changed = true; }
+        }
+      }
+    }
+    if (changed) {
+      if ($("todayList")) renderDay($("todayList"), DATA.today, "لا توجد مباريات اليوم في الدوريات المتابعة", 14, true);
+      if ($("strip")) renderStrip(DATA.today);
+    }
   }
   async function startLive() {
     if (liveTimer || !NEXT_BASE) return;
@@ -510,11 +536,38 @@
     renderTables(data.standings);
     renderStrip(data.today);
     renderNews(data.news);
-    if ($("updated")) $("updated").textContent = data.updated
-      ? "آخر تحديث: " + fmt({ day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(data.updated))
-      : "بانتظار أول تحديث للبيانات";
+    if (data.updated) markSource("site", { ok: true, at: new Date(data.updated).getTime() });
+    paintUpdated();
     startLiveToday();
   }
+
+  /* ---------- مؤشر "آخر تحديث" الذكي ---------- */
+  // نتتبع 3 مصادر: site (site.json)، liveToday (worker /live-today)، live (worker /live للهلال)
+  const SOURCES = { site: { at: 0, ok: null }, liveToday: { at: 0, ok: null, fails: 0 }, live: { at: 0, ok: null } };
+  const fUpd = fmt({ hour: "2-digit", minute: "2-digit", hour12: false });
+  function markSource(key, { ok, at }) {
+    const s = SOURCES[key]; if (!s) return;
+    if (ok === true) { s.at = at || Date.now(); s.ok = true; s.fails = 0; }
+    else if (ok === false) { s.ok = false; s.fails = (s.fails || 0) + 1; }
+    paintUpdated();
+  }
+  function paintUpdated() {
+    const el = $("updated"); if (!el) return;
+    const now = Date.now();
+    const freshest = Math.max(SOURCES.site.at, SOURCES.liveToday.at, SOURCES.live.at);
+    if (!freshest) { el.textContent = "بانتظار أول تحديث للبيانات"; el.classList.remove("warn"); return; }
+    const dt = now - freshest, mins = Math.round(dt / 60000);
+    const timeStr = fUpd.format(new Date(freshest));
+    // تحذير: البيانات متأخرة أو الواجهة فشلت في آخر محاولة
+    const stale = dt > 5 * 60e3;
+    const failed = SOURCES.liveToday.fails >= 3;
+    if (failed) { el.textContent = `⚠ تعذّر التحديث اللحظي — آخر وصول ${timeStr}`; el.classList.add("warn"); return; }
+    if (stale) { el.textContent = `⚠ البيانات متأخرة ${mins} د — آخر تحديث ${timeStr}`; el.classList.add("warn"); return; }
+    el.classList.remove("warn");
+    el.textContent = `آخر تحديث: ${timeStr}` + (mins > 0 ? ` (قبل ${mins} د)` : " (الآن)");
+  }
+  // تحديث العدّاد كل 20 ثانية حتى يتغير "قبل X دقيقة" حتى بدون جلب جديد
+  setInterval(paintUpdated, 20e3);
 
   /* ---------- تحديث نتائج المباريات المباشرة لحظة بلحظة (من worker مباشرة) ---------- */
   let LIVE_TODAY_TIMER = null, LIVE_TODAY_BASE = null;
@@ -533,6 +586,9 @@
       for (let i = 0; i < g.matches.length; i++) {
         const m = g.matches[i], live = matches[m.id];
         const sigOld = JSON.stringify([m.status, m.elapsed, m.goals, (m.events || []).length]);
+        // لو هذي مباراة الهلال و /live عندنا أحدث من /live-today → ما نلمسها، /live هو المرجع
+        const isHilal = m.home.id === HILAL_TEAM_ID || m.away.id === HILAL_TEAM_ID;
+        if (isHilal && LIVE_M_AT > version) continue;
         if (live) {
           const previousVersion = LIVE_MATCH_VERSIONS.get(String(m.id)) || 0;
           if (version < previousVersion) continue;
@@ -570,17 +626,21 @@
   async function startLiveToday() {
     if (LIVE_TODAY_TIMER) clearInterval(LIVE_TODAY_TIMER);
     const base = await liveTodayBase();
-    if (!base) return;
+    if (!base) { markSource("liveToday", { ok: false }); return; }
     const tick = async () => {
       try {
         const r = await fetch(base + "/live-today", { cache: "no-store" });
-        if (!r.ok) return;
+        if (!r.ok) { markSource("liveToday", { ok: false }); return; }
         const j = await r.json();
-        if (j && j.matches) mergeLive(j.matches, j.at);
-      } catch (e) {}
+        if (j && j.matches) {
+          mergeLive(j.matches, j.at);
+          markSource("liveToday", { ok: true, at: j.at || Date.now() });
+        } else {
+          markSource("liveToday", { ok: false });
+        }
+      } catch (e) { markSource("liveToday", { ok: false }); }
     };
     tick();
-    // تحديث أسرع وقت المباريات مع منع تداخل الطلبات.
     LIVE_TODAY_TIMER = setInterval(() => { if (!document.hidden) tick(); }, 15000);
     document.addEventListener("visibilitychange", () => { if (!document.hidden) tick(); });
   }
