@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T10:51:47.975Z",
+ "updated": "2026-10-11T11:08:15.407Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1084,7 +1084,7 @@
       "id": 1550139,
       "date": "2026-10-11T13:30:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 34,
       "venue": "Como",
       "league": {
        "id": 135,
@@ -1572,8 +1572,8 @@
      {
       "id": 1552185,
       "date": "2026-10-11T13:15:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Utrecht",
       "league": {
        "id": 88,
@@ -1693,7 +1693,7 @@
       "id": 1584427,
       "date": "2026-10-11T13:30:00+03:00",
       "status": "1H",
-      "elapsed": 21,
+      "elapsed": 38,
       "venue": "Konya",
       "league": {
        "id": 203,
@@ -5469,6 +5469,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
