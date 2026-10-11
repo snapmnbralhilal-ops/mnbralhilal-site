@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T14:33:28.836Z",
+ "updated": "2026-10-11T14:51:25.633Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603038,
       "date": "2026-10-11T16:40:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -880,7 +880,7 @@
       "id": 1557421,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 70,
+      "elapsed": 88,
       "venue": "London",
       "league": {
        "id": 39,
@@ -910,7 +910,7 @@
       "id": 1557422,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 71,
+      "elapsed": 89,
       "venue": "Hull",
       "league": {
        "id": 39,
@@ -932,7 +932,7 @@
        "logo": "https://media.api-sports.io/football/teams/45.png"
       },
       "goals": [
-       1,
+       2,
        2
       ]
      },
@@ -1006,7 +1006,7 @@
       "id": 1570412,
       "date": "2026-10-11T17:15:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 35,
       "venue": "San Sebastian",
       "league": {
        "id": 140,
@@ -1028,7 +1028,7 @@
        "logo": "https://media.api-sports.io/football/teams/544.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
@@ -1129,7 +1129,7 @@
       "id": 1550142,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 74,
+      "elapsed": 90,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1151,7 +1151,7 @@
        "logo": "https://media.api-sports.io/football/teams/1579.png"
       },
       "goals": [
-       2,
+       3,
        1
       ]
      },
@@ -1159,7 +1159,7 @@
       "id": 1550143,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 71,
+      "elapsed": 89,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1182,7 +1182,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
@@ -1251,8 +1251,8 @@
      {
       "id": 1575183,
       "date": "2026-10-11T16:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Cologne",
       "league": {
        "id": 78,
@@ -1318,7 +1318,7 @@
       "id": 1552779,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 73,
+      "elapsed": 90,
       "venue": "Nice",
       "league": {
        "id": 61,
@@ -1340,7 +1340,7 @@
        "logo": "https://media.api-sports.io/football/teams/95.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
@@ -1411,7 +1411,7 @@
       "id": 1612249,
       "date": "2026-10-11T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 32,
+      "elapsed": 45,
       "venue": "Ismailia",
       "league": {
        "id": 233,
@@ -1512,8 +1512,8 @@
      {
       "id": 1575517,
       "date": "2026-10-11T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Condi Town",
       "league": {
        "id": 94,
@@ -1534,7 +1534,10 @@
        "ar": "Nacional",
        "logo": "https://media.api-sports.io/football/teams/225.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575511,
@@ -1692,8 +1695,8 @@
      {
       "id": 1552188,
       "date": "2026-10-11T17:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1714,7 +1717,10 @@
        "ar": "Groningen",
        "logo": "https://media.api-sports.io/football/teams/202.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1759,7 +1765,7 @@
       "id": 1584425,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 75,
+      "elapsed": 90,
       "venue": "Gaziantep",
       "league": {
        "id": 203,
@@ -1782,7 +1788,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
@@ -1824,8 +1830,8 @@
      {
       "id": 1639192,
       "date": "2026-10-11T14:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 143,
@@ -1846,7 +1852,10 @@
        "ar": "Hortaleza",
        "logo": "https://media.api-sports.io/football/teams/28411.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       3
+      ]
      },
      {
       "id": 1639188,
