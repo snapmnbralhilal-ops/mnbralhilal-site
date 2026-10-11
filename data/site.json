@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T00:20:15.831Z",
+ "updated": "2026-10-11T00:51:19.823Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1839,8 +1839,8 @@
      {
       "id": 1490513,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Miami",
       "league": {
        "id": 253,
@@ -1862,15 +1862,15 @@
        "logo": "https://media.api-sports.io/football/teams/1615.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      },
      {
       "id": 1490514,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1893,14 +1893,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1490515,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Orlando",
       "league": {
        "id": 253,
@@ -1929,8 +1929,8 @@
      {
       "id": 1490516,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Boston",
       "league": {
        "id": 253,
@@ -1959,8 +1959,8 @@
      {
       "id": 1490517,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Philadelphia",
       "league": {
        "id": 253,
@@ -1989,8 +1989,8 @@
      {
       "id": 1490518,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Harrison",
       "league": {
        "id": 253,
@@ -2019,8 +2019,8 @@
      {
       "id": 1490519,
       "date": "2026-10-11T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Charlotte",
       "league": {
        "id": 253,
@@ -2049,8 +2049,8 @@
      {
       "id": 1490520,
       "date": "2026-10-11T03:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Austin",
       "league": {
        "id": 253,
@@ -2071,13 +2071,16 @@
        "ar": "Nashville SC",
        "logo": "https://media.api-sports.io/football/teams/9569.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490521,
       "date": "2026-10-11T03:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Sao Paulo",
       "league": {
        "id": 253,
@@ -2098,13 +2101,16 @@
        "ar": "Houston Dynamo",
        "logo": "https://media.api-sports.io/football/teams/1600.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490522,
       "date": "2026-10-11T03:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 10,
       "venue": "Kansas City",
       "league": {
        "id": 253,
@@ -2125,7 +2131,10 @@
        "ar": "Portland Timbers",
        "logo": "https://media.api-sports.io/football/teams/1617.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1490523,
@@ -5445,6 +5454,6 @@
   }
  },
  "errors": [],
- "requests": 19,
+ "requests": 14,
  "plan": "Pro"
 }
