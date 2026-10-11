@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T21:51:53.173Z",
+ "updated": "2026-10-11T22:09:02.613Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2133,6 +2133,45 @@
    },
    {
     "league": {
+     "id": 200,
+     "name": "Botola Pro",
+     "logo": "https://media.api-sports.io/football/leagues/200.png"
+    },
+    "matches": [
+     {
+      "id": 1644209,
+      "date": "2026-10-11T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Casablanca",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 3"
+      },
+      "home": {
+       "id": 968,
+       "name": "Wydad AC",
+       "ar": "Wydad AC",
+       "logo": "https://media.api-sports.io/football/teams/968.png"
+      },
+      "away": {
+       "id": 22218,
+       "name": "CODM Meknès",
+       "ar": "CODM Meknès",
+       "logo": "https://media.api-sports.io/football/teams/22218.png"
+      },
+      "goals": [
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
      "id": 94,
      "name": "Primeira Liga",
      "logo": "https://media.api-sports.io/football/leagues/94.png"
@@ -3081,6 +3120,22 @@
     {
      "rank": 12,
      "team": {
+      "id": 2940,
+      "name": "Al Shabab",
+      "ar": "الشباب",
+      "logo": "https://media.api-sports.io/football/teams/2940.png"
+     },
+     "points": 7,
+     "gd": -2,
+     "played": 8,
+     "win": 1,
+     "draw": 4,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
       "id": 2944,
       "name": "Al-Fayha",
       "ar": "الفيحاء",
@@ -3095,7 +3150,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 2928,
       "name": "Al Khaleej Saihat",
@@ -3108,22 +3163,6 @@
      "win": 0,
      "draw": 6,
      "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 2940,
-      "name": "Al Shabab",
-      "ar": "الشباب",
-      "logo": "https://media.api-sports.io/football/teams/2940.png"
-     },
-     "points": 4,
-     "gd": -5,
-     "played": 7,
-     "win": 0,
-     "draw": 4,
-     "lose": 3,
      "description": ""
     },
     {
@@ -3145,22 +3184,6 @@
     {
      "rank": 16,
      "team": {
-      "id": 2936,
-      "name": "Al Taawon",
-      "ar": "التعاون",
-      "logo": "https://media.api-sports.io/football/teams/2936.png"
-     },
-     "points": 3,
-     "gd": -9,
-     "played": 7,
-     "win": 0,
-     "draw": 3,
-     "lose": 4,
-     "description": "Relegation - Division 1"
-    },
-    {
-     "rank": 17,
-     "team": {
       "id": 2931,
       "name": "Al-Fateh",
       "ar": "الفتح",
@@ -3168,6 +3191,22 @@
      },
      "points": 3,
      "gd": -11,
+     "played": 8,
+     "win": 0,
+     "draw": 3,
+     "lose": 5,
+     "description": "Relegation - Division 1"
+    },
+    {
+     "rank": 17,
+     "team": {
+      "id": 2936,
+      "name": "Al Taawon",
+      "ar": "التعاون",
+      "logo": "https://media.api-sports.io/football/teams/2936.png"
+     },
+     "points": 3,
+     "gd": -12,
      "played": 8,
      "win": 0,
      "draw": 3,
@@ -4755,6 +4794,6 @@
   }
  },
  "errors": [],
- "requests": 19,
+ "requests": 18,
  "plan": "Pro"
 }
