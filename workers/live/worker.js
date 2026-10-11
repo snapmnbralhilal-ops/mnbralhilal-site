@@ -84,33 +84,28 @@ export default {
           if (lt?.matches?.[id]) { overlay = lt.matches[id]; overlayAt = lt.at || Date.now(); }
         }
 
-        // Direct fixture verification for live matches; edge cache prevents a call per visitor.
-        // Keep the last known score on upstream failure, but disclose its age.
+        // A fixture page must use a single authoritative snapshot for clock, score and events.
+        // The cached /live-today KV may lag behind, so query the fixture itself every 15s.
         if (overlay && LIVE.includes(overlay.status)) {
           const key = new Request("https://match-refresh.internal/" + id);
-          const edge = caches.default;
-          let response = await edge.match(key);
+          let response = await caches.default.match(key);
           if (!response) {
             try {
               const latest = await api(env, { id });
               if (latest[0]) {
                 const fresh = slimFull(latest[0]);
-                response = json({ match: fresh, at: Date.now() }, 15);
-                await edge.put(key, response.clone());
+                response = new Response(JSON.stringify({ match: fresh, at: Date.now() }), {
+                  headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=15" }
+                });
+                await caches.default.put(key, response.clone());
               }
             } catch (e) { console.error("fixture refresh", id, String(e)); }
           }
           if (response) {
             const verified = await response.json();
-            if (verified.match?.id === +id && verified.at >= overlayAt) {
-              // Do not allow an out-of-order upstream response to regress score/minute.
-              const oldMin = Number(overlay.elapsed) || 0;
-              const newMin = Number(verified.match.elapsed) || 0;
-              const isRegression = LIVE.includes(verified.match.status) && newMin < oldMin && oldMin - newMin > 2;
-              if (!isRegression) {
-                overlay = verified.match;
-                overlayAt = verified.at;
-              }
+            if (verified.match?.id === +id) {
+              overlay = verified.match;
+              overlayAt = verified.at;
             }
           }
         }
@@ -125,7 +120,7 @@ export default {
           // دمج الأحداث: ملف محلي عنده الكروت الصفراء/التبديلات، overlay عنده الأهداف الطازجة
           const seen = new Set();
           const combined = [];
-          for (const e of [...(overlay.events || []), ...(base.events || [])]) {
+          for (const e of [...(overlay.events || []), ...((LIVE.includes(overlay.status) && overlay.events?.length) ? [] : (base.events || []))]) {
             const key = `${e.min}:${e.extra || 0}:${e.type}:${e.detail}:${e.team}:${e.player}`;
             if (seen.has(key)) continue;
             seen.add(key); combined.push(e);
