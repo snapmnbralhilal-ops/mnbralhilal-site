@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T18:39:26.145Z",
+ "updated": "2026-10-11T18:56:35.839Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -843,8 +843,8 @@
      {
       "id": 1603043,
       "date": "2026-10-11T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -866,7 +866,7 @@
        "logo": "https://media.api-sports.io/football/teams/2936.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -1227,8 +1227,8 @@
      {
       "id": 1550138,
       "date": "2026-10-11T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 10,
       "venue": "Cagliari",
       "league": {
        "id": 135,
@@ -1249,7 +1249,10 @@
        "ar": "يوفنتوس",
        "logo": "https://media.api-sports.io/football/teams/496.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1392,8 +1395,8 @@
      {
       "id": 1552782,
       "date": "2026-10-11T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1414,7 +1417,10 @@
        "ar": "مارسيليا",
        "logo": "https://media.api-sports.io/football/teams/81.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1459,7 +1465,7 @@
       "id": 1612250,
       "date": "2026-10-11T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 76,
+      "elapsed": 90,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1482,7 +1488,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
@@ -1563,8 +1569,8 @@
      {
       "id": 1575511,
       "date": "2026-10-11T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lisbon",
       "league": {
        "id": 94,
