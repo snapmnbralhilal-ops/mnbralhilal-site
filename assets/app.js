@@ -361,6 +361,19 @@
     if ($("stripWrap")) $("stripWrap").hidden = true;
   }
 
+  // مباريات العالم في الرئيسية: بعد إبراز الهلال، دون شريط نتائج مكرر.
+  function renderWorldMatches(day) {
+    const el = $("worldMatchesList");
+    if (!el) return;
+    const today = new Intl.DateTimeFormat("en-CA", { timeZone:"Asia/Riyadh", year:"numeric", month:"2-digit", day:"2-digit" }).format(new Date());
+    if (day?.date !== today) {
+      el.innerHTML = '<div class="empty">بانتظار تحديث مباريات اليوم</div>';
+      return;
+    }
+    const groups = (day.groups || []).map(g => ({ ...g, matches: (g.matches || []).filter(m => m.home.id !== HILAL_ID && m.away.id !== HILAL_ID) })).filter(g => g.matches.length);
+    renderDay(el, { groups }, "لا توجد مباريات عالمية اليوم", 12, false);
+  }
+
   /* ---------- الترتيب ---------- */
   function renderTables(st) {
     const spl = st?.spl?.rows || [];
@@ -521,6 +534,7 @@
     renderDay($("ydayList"), data.yesterday, "لا توجد نتائج لأمس", 10, false);
     renderTables(data.standings);
     renderStrip(data.today);
+    renderWorldMatches(data.today);
     renderNews(data.news);
     if (data.updated) markSource("site", { ok: true, at: new Date(data.updated).getTime() });
     paintUpdated();
@@ -610,6 +624,7 @@
     if (changed) {
       renderDay($("todayList"), DATA.today, "لا توجد مباريات اليوم في الدوريات المتابعة", 14, true);
       renderStrip(DATA.today);
+      renderWorldMatches(DATA.today);
     }
   }
   /* ---------- الترتيب الحي من الـworker (يحتسب النتائج اللي تأخر عنها جدول API) ---------- */
