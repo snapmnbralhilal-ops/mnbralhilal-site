@@ -1,0 +1,35 @@
+name: Live scores watchdog
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify live worker and freshness
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, datetime
+          base = "https://mnbr-live.snapmnbralhilal.workers.dev"
+          def get(path):
+              with urllib.request.urlopen(urllib.request.Request(base+path, headers={"Cache-Control":"no-cache"}), timeout=18) as r:
+                  if r.status != 200: raise RuntimeError(f"{path}: HTTP {r.status}")
+                  return json.load(r)
+          health = get("/health")
+          if not health.get("ok"): raise RuntimeError("Worker health failed")
+          data = get("/live-today")
+          now = datetime.datetime.now(datetime.timezone.utc).timestamp()*1000
+          live = {"1H","HT","2H","ET","BT","P","LIVE","INT","SUSP"}
+          matches = data.get("matches") or {}
+          active = [m for m in matches.values() if m.get("status") in live and abs(now-datetime.datetime.fromisoformat(m["date"].replace("Z","+00:00")).timestamp()*1000)<4*3600000]
+          if active and now-float(data.get("at") or 0)>120000:
+              raise RuntimeError(f"Live feed stale for {int((now-float(data.get('at') or 0))/1000)} seconds")
+          print(f"Worker healthy; {len(active)} active fixtures; feed age {int((now-float(data.get('at') or 0))/1000)}s")
+          PY
