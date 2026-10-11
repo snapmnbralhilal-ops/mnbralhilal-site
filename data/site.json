@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T13:24:37.605Z",
+ "updated": "2026-10-11T13:42:10.658Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603038,
       "date": "2026-10-11T16:40:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -808,7 +808,10 @@
        "ar": "الرياض",
        "logo": "https://media.api-sports.io/football/teams/10511.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603035,
@@ -877,7 +880,7 @@
       "id": 1557421,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 24,
+      "elapsed": 41,
       "venue": "London",
       "league": {
        "id": 39,
@@ -907,7 +910,7 @@
       "id": 1557422,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 24,
+      "elapsed": 41,
       "venue": "Hull",
       "league": {
        "id": 39,
@@ -973,7 +976,7 @@
       "id": 1570406,
       "date": "2026-10-11T15:00:00+03:00",
       "status": "2H",
-      "elapsed": 66,
+      "elapsed": 83,
       "venue": "Elche",
       "league": {
        "id": 140,
@@ -1123,7 +1126,7 @@
       "id": 1550142,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 24,
+      "elapsed": 42,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1153,7 +1156,7 @@
       "id": 1550143,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 22,
+      "elapsed": 39,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1245,8 +1248,8 @@
      {
       "id": 1575183,
       "date": "2026-10-11T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Cologne",
       "league": {
        "id": 78,
@@ -1267,7 +1270,10 @@
        "ar": "مونشنغلادباخ",
        "logo": "https://media.api-sports.io/football/teams/163.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575179,
@@ -1309,7 +1315,7 @@
       "id": 1552779,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 24,
+      "elapsed": 41,
       "venue": "Nice",
       "league": {
        "id": 61,
@@ -1620,8 +1626,8 @@
      {
       "id": 1552186,
       "date": "2026-10-11T15:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1650,8 +1656,8 @@
      {
       "id": 1552187,
       "date": "2026-10-11T15:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Zwolle",
       "league": {
        "id": 88,
@@ -1747,7 +1753,7 @@
       "id": 1584425,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 24,
+      "elapsed": 41,
       "venue": "Gaziantep",
       "league": {
        "id": 203,
@@ -1770,7 +1776,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -4610,11 +4616,11 @@
       "ar": "روما",
       "logo": "https://media.api-sports.io/football/teams/497.png"
      },
-     "points": 13,
+     "points": 14,
      "gd": 11,
-     "played": 5,
+     "played": 6,
      "win": 4,
-     "draw": 1,
+     "draw": 2,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -4669,6 +4675,22 @@
     {
      "rank": 6,
      "team": {
+      "id": 895,
+      "name": "Como",
+      "ar": "كومو",
+      "logo": "https://media.api-sports.io/football/teams/895.png"
+     },
+     "points": 11,
+     "gd": 3,
+     "played": 6,
+     "win": 3,
+     "draw": 2,
+     "lose": 1,
+     "description": "Play-offs"
+    },
+    {
+     "rank": 7,
+     "team": {
       "id": 492,
       "name": "Napoli",
       "ar": "نابولي",
@@ -4680,10 +4702,10 @@
      "win": 3,
      "draw": 1,
      "lose": 2,
-     "description": "Play-offs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 496,
       "name": "Juventus",
@@ -4692,22 +4714,6 @@
      },
      "points": 10,
      "gd": 4,
-     "played": 5,
-     "win": 3,
-     "draw": 1,
-     "lose": 1,
-     "description": ""
-    },
-    {
-     "rank": 8,
-     "team": {
-      "id": 895,
-      "name": "Como",
-      "ar": "كومو",
-      "logo": "https://media.api-sports.io/football/teams/895.png"
-     },
-     "points": 10,
-     "gd": 3,
      "played": 5,
      "win": 3,
      "draw": 1,
