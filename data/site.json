@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T08:36:54.704Z",
+ "updated": "2026-10-11T08:53:17.415Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -4633,6 +4633,22 @@
     {
      "rank": 6,
      "team": {
+      "id": 492,
+      "name": "Napoli",
+      "ar": "نابولي",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+     },
+     "points": 10,
+     "gd": 4,
+     "played": 6,
+     "win": 3,
+     "draw": 1,
+     "lose": 2,
+     "description": "Play-offs"
+    },
+    {
+     "rank": 7,
+     "team": {
       "id": 496,
       "name": "Juventus",
       "ar": "يوفنتوس",
@@ -4644,10 +4660,10 @@
      "win": 3,
      "draw": 1,
      "lose": 1,
-     "description": "Play-offs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 895,
       "name": "Como",
@@ -4660,22 +4676,6 @@
      "win": 3,
      "draw": 1,
      "lose": 1,
-     "description": ""
-    },
-    {
-     "rank": 8,
-     "team": {
-      "id": 492,
-      "name": "Napoli",
-      "ar": "نابولي",
-      "logo": "https://media.api-sports.io/football/teams/492.png"
-     },
-     "points": 10,
-     "gd": 4,
-     "played": 6,
-     "win": 3,
-     "draw": 1,
-     "lose": 2,
      "description": ""
     },
     {
@@ -5459,18 +5459,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 135,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
