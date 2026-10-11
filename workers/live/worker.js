@@ -32,6 +32,29 @@ export default {
     if (req.method === "OPTIONS") return new Response(null, { headers: CORS });
     try {
       if (url.pathname === "/live") return json((await env.KV.get("live", "json")) || { status: "idle" }, 10);
+      // Roshn source-of-truth: bypass the delayed KV snapshot, cache only 15s.
+      if (url.pathname === "/roshn-now") {
+        const day = today();
+        const key = new Request("https://roshn-cache.internal/" + day);
+        const cached = await caches.default.match(key);
+        if (cached) return cached;
+        try {
+          const fixtures = await api(env, { league: 307, season: seasonNow(), date: day, timezone: TZ });
+          const matches = {};
+          for (const f of fixtures) {
+            const m = slim(f);
+            matches[m.id] = m;
+          }
+          const result = new Response(JSON.stringify({ at: Date.now(), matches, source: "api-football" }), {
+            headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=15", "access-control-allow-origin": "*" }
+          });
+          await caches.default.put(key, result.clone());
+          return result;
+        } catch (e) {
+          console.error("roshn-now", String(e));
+          return noStore({ error: "upstream-unavailable", at: Date.now() }, 503);
+        }
+      }
       if (url.pathname === "/live-today") {
         if (url.searchParams.get("reset") === "1" && (await isAdmin(req, env))) {
           await env.KV.delete("live-today");
