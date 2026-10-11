@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T17:42:13.843Z",
+ "updated": "2026-10-11T17:58:00.985Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1039,7 +1039,7 @@
       "id": 1570405,
       "date": "2026-10-11T19:30:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 64,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -1061,8 +1061,8 @@
        "logo": "https://media.api-sports.io/football/teams/727.png"
       },
       "goals": [
-       2,
-       0
+       3,
+       2
       ]
      },
      {
@@ -1195,7 +1195,7 @@
       "id": 1550145,
       "date": "2026-10-11T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 76,
+      "elapsed": 90,
       "venue": "Reggio Emilia",
       "league": {
        "id": 135,
@@ -1455,8 +1455,8 @@
      {
       "id": 1612250,
       "date": "2026-10-11T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1560,8 +1560,8 @@
      {
       "id": 1575511,
       "date": "2026-10-11T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lisbon",
       "league": {
        "id": 94,
@@ -1815,8 +1815,8 @@
      {
       "id": 1584422,
       "date": "2026-10-11T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -5544,6 +5544,6 @@
   }
  },
  "errors": [],
- "requests": 29,
+ "requests": 31,
  "plan": "Pro"
 }
