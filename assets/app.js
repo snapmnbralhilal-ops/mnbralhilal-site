@@ -38,13 +38,20 @@
   }
   const lbl = { w: "ف", d: "ت", l: "خ" };
 
+  function staleLive(m) {
+    const kickoff = Date.parse(m.date || "");
+    return LIVE.includes(m.status) && Number.isFinite(kickoff) && Date.now() - kickoff > 4 * 3600e3;
+  }
+  function visibleLive(m) { return LIVE.includes(m.status) && !staleLive(m); }
+
   function scoreCell(m) {
     const d = new Date(m.date);
-    if (LIVE.includes(m.status)) {
+    if (visibleLive(m)) {
       const g = m.goals || [0, 0];
       return `<span class="sc num live-sc">${g[0] ?? 0} - ${g[1] ?? 0}</span>`;
     }
     if (DONE.includes(m.status) && m.goals) return `<span class="sc num">${m.goals[0]} - ${m.goals[1]}</span>`;
+    if (staleLive(m)) return `<span class="sc num">${(m.goals || [0, 0]).join(" - ")}</span>`;
     if (OFF[m.status]) return `<span class="sc time">${OFF[m.status]}</span>`;
     return `<span class="sc time num">${fTime.format(d)}</span>`;
   }
@@ -55,19 +62,20 @@
     const res = o ? `<span class="res ${o}">${lbl[o]}</span>` : "";
     let when = "";
     if (showWhen) {
-      const top = LIVE.includes(m.status)
+      const top = visibleLive(m)
         ? `<span class="live"><span class="dot"></span>مباشر${m.elapsed ? " " + ar(m.elapsed) + "'" : ""}</span>`
         : esc(DONE.includes(m.status) ? fDM.format(d) : fShort.format(d));
       when = `<div class="when">${top}<br>${esc(arLeague(m.league))}${res}</div>`;
-    } else if (LIVE.includes(m.status)) {
+    } else if (visibleLive(m)) {
       when = `<div class="when"><span class="live"><span class="dot"></span>${m.elapsed ? ar(m.elapsed) + "'" : "مباشر"}</span></div>`;
     }
+    if (staleLive(m)) when = `<div class="when">الحالة غير مؤكدة</div>`;
     // ثبّت أعمدة صف المباراة حتى لا تتحرك الأندية والنتيجة عند بدء البث.
     const style = "";
     const bellBtn = bell ? `<button class="row-bell" type="button" data-fx-bell data-fx-id="${esc(bell.id)}" data-fx-kick="${esc(bell.kickoff)}" data-fx-home="${esc(bell.home)}" data-fx-away="${esc(bell.away)}" data-fx-league="${esc(bell.league || "")}" aria-label="تنبيهات هذه المباراة"><svg><use href="#i-bell"/></svg></button>` : "";
     // تفاصيل متاحة لـ: روشن (307) + الدوريات الخمس الكبرى (EPL 39، La Liga 140، Serie A 135، Bundesliga 78، Ligue 1 61)
     const DETAIL_LEAGUES = [307, 39, 140, 135, 78, 61];
-    const canDetails = DETAIL_LEAGUES.includes(m.league?.id) && Number.isSafeInteger(Number(m.id)) && (LIVE.includes(m.status) || DONE.includes(m.status));
+    const canDetails = DETAIL_LEAGUES.includes(m.league?.id) && Number.isSafeInteger(Number(m.id)) && (visibleLive(m) || DONE.includes(m.status));
     const detailsLink = canDetails ? `<a class="row-details" href="fixture.html?id=${encodeURIComponent(m.id)}" aria-label="تفاصيل المباراة">التفاصيل <span aria-hidden="true">←</span></a>` : "";
     const cls = `row${hl ? " hl" : ""}${bell ? " has-bell" : ""}${canDetails ? " has-details" : ""}`;
     return `<div class="${cls}"${style}>${when || '<div class="when" aria-hidden="true"></div>'}
@@ -341,7 +349,7 @@
       const block = `<div class="sub">${g.league.logo ? `<img src="${esc(g.league.logo)}" alt="" loading="lazy">` : ""}${esc(arLeague(g.league))}</div>` +
         g.matches.map((m) => {
           const hl = m.home.id === HILAL_ID || m.away.id === HILAL_ID;
-          const canBell = allowBell && isRoshn && !DONE.includes(m.status);
+          const canBell = allowBell && isRoshn && !DONE.includes(m.status) && !staleLive(m);
           const bell = canBell ? { id: m.id, kickoff: m.date, home: arTeam(m.home.name), away: arTeam(m.away.name), league: arLeague(g.league) } : null;
           return row(m, { showWhen: false, hl, bell });
         }).join("");
