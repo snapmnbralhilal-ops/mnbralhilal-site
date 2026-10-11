@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T15:42:48.201Z",
+ "updated": "2026-10-11T15:58:11.300Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -940,7 +940,7 @@
       "id": 1557424,
       "date": "2026-10-11T18:30:00+03:00",
       "status": "1H",
-      "elapsed": 12,
+      "elapsed": 27,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -1009,7 +1009,7 @@
       "id": 1570412,
       "date": "2026-10-11T17:15:00+03:00",
       "status": "2H",
-      "elapsed": 68,
+      "elapsed": 83,
       "venue": "San Sebastian",
       "league": {
        "id": 140,
@@ -1032,7 +1032,7 @@
       },
       "goals": [
        3,
-       1
+       2
       ]
      },
      {
@@ -1285,7 +1285,7 @@
       "id": 1575179,
       "date": "2026-10-11T18:30:00+03:00",
       "status": "1H",
-      "elapsed": 13,
+      "elapsed": 28,
       "venue": "Freiburg",
       "league": {
        "id": 78,
@@ -1354,7 +1354,7 @@
       "id": 1552781,
       "date": "2026-10-11T18:15:00+03:00",
       "status": "1H",
-      "elapsed": 28,
+      "elapsed": 43,
       "venue": "Rennes",
       "league": {
        "id": 61,
@@ -1420,7 +1420,7 @@
       "id": 1612249,
       "date": "2026-10-11T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 79,
+      "elapsed": 90,
       "venue": "Ismailia",
       "league": {
        "id": 233,
@@ -1522,7 +1522,7 @@
       "id": 1575517,
       "date": "2026-10-11T17:30:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 63,
       "venue": "Condi Town",
       "league": {
        "id": 94,
@@ -1544,8 +1544,8 @@
        "logo": "https://media.api-sports.io/football/teams/225.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
@@ -1704,8 +1704,8 @@
      {
       "id": 1552188,
       "date": "2026-10-11T17:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
