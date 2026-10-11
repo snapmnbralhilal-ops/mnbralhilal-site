@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T23:32:52.997Z",
+ "updated": "2026-10-11T23:50:23.164Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1408,7 +1408,7 @@
       "id": 1490525,
       "date": "2026-10-12T02:00:00+03:00",
       "status": "1H",
-      "elapsed": 21,
+      "elapsed": 38,
       "venue": "Saint Louis",
       "league": {
        "id": 253,
@@ -1430,8 +1430,8 @@
        "logo": "https://media.api-sports.io/football/teams/1605.png"
       },
       "goals": [
-       2,
-       0
+       3,
+       1
       ]
      }
     ]
