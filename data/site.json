@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T20:00:20.854Z",
+ "updated": "2026-10-11T20:23:06.157Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -843,7 +843,7 @@
      {
       "id": 1603043,
       "date": "2026-10-11T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Riyadh",
       "league": {
@@ -1071,8 +1071,8 @@
      {
       "id": 1570409,
       "date": "2026-10-11T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Santander",
       "league": {
        "id": 140,
@@ -1094,7 +1094,7 @@
        "logo": "https://media.api-sports.io/football/teams/532.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      }
@@ -1231,7 +1231,7 @@
       "id": 1550138,
       "date": "2026-10-11T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 79,
       "venue": "Cagliari",
       "league": {
        "id": 135,
@@ -1399,7 +1399,7 @@
       "id": 1552782,
       "date": "2026-10-11T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 60,
+      "elapsed": 83,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1506,8 +1506,8 @@
      {
       "id": 1644209,
       "date": "2026-10-11T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 21,
       "venue": "Casablanca",
       "league": {
        "id": 200,
@@ -1528,7 +1528,10 @@
        "ar": "CODM Meknès",
        "logo": "https://media.api-sports.io/football/teams/22218.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1603,7 +1606,7 @@
       "id": 1575510,
       "date": "2026-10-11T22:30:00+03:00",
       "status": "1H",
-      "elapsed": 30,
+      "elapsed": 45,
       "venue": "Aruca",
       "league": {
        "id": 94,
@@ -5558,30 +5561,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 140,
-    "season": 2026
-   },
-   "error": [
-    "This is on our side, please report us this bug on https://dashboard.api-football.com",
-    "5xEr"
-   ]
-  },
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 61,
-    "season": 2026
-   },
-   "error": [
-    "This is on our side, please report us this bug on https://dashboard.api-football.com",
-    "5xEr"
-   ]
-  }
- ],
- "requests": 24,
+ "errors": [],
+ "requests": 23,
  "plan": "Pro"
 }
