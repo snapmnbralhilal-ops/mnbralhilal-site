@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T16:34:04.500Z",
+ "updated": "2026-10-11T16:51:49.826Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -940,7 +940,7 @@
       "id": 1557424,
       "date": "2026-10-11T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 63,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -1038,8 +1038,8 @@
      {
       "id": 1570405,
       "date": "2026-10-11T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -1060,7 +1060,10 @@
        "ar": "أوساسونا",
        "logo": "https://media.api-sports.io/football/teams/727.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1570409,
@@ -1192,7 +1195,7 @@
       "id": 1550145,
       "date": "2026-10-11T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 33,
+      "elapsed": 45,
       "venue": "Reggio Emilia",
       "league": {
        "id": 135,
@@ -1287,8 +1290,8 @@
      {
       "id": 1575179,
       "date": "2026-10-11T18:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Freiburg",
       "league": {
        "id": 78,
@@ -1357,7 +1360,7 @@
       "id": 1552781,
       "date": "2026-10-11T18:15:00+03:00",
       "status": "2H",
-      "elapsed": 61,
+      "elapsed": 78,
       "venue": "Rennes",
       "league": {
        "id": 61,
@@ -1707,7 +1710,7 @@
      {
       "id": 1552188,
       "date": "2026-10-11T17:45:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Rotterdam",
       "league": {
@@ -1731,7 +1734,7 @@
       },
       "goals": [
        1,
-       4
+       5
       ]
      }
     ]
@@ -1806,8 +1809,8 @@
      {
       "id": 1584422,
       "date": "2026-10-11T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1875,8 +1878,8 @@
      {
       "id": 1639188,
       "date": "2026-10-11T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 143,
@@ -1897,7 +1900,10 @@
        "ar": "San Rafael",
        "logo": "https://media.api-sports.io/football/teams/9787.png"
       },
-      "goals": null
+      "goals": [
+       5,
+       0
+      ]
      }
     ]
    },
