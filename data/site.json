@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T20:43:01.254Z",
+ "updated": "2026-10-11T20:59:15.307Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1071,8 +1071,8 @@
      {
       "id": 1570409,
       "date": "2026-10-11T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Santander",
       "league": {
        "id": 140,
@@ -1506,8 +1506,8 @@
      {
       "id": 1644209,
       "date": "2026-10-11T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Casablanca",
       "league": {
        "id": 200,
@@ -1606,7 +1606,7 @@
       "id": 1575510,
       "date": "2026-10-11T22:30:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 62,
       "venue": "Aruca",
       "league": {
        "id": 94,
