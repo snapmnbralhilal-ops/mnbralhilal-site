@@ -277,6 +277,7 @@ async function pollOnce(env, win) {
     out.match = slim(fx);
     if (!out.match.events.length && prev?.events?.length) out.match.events = prev.events;
     out.status = DONE.includes(fx.fixture.status.short) ? "done" : "live";
+    if (out.status === "done") out.finishedAt = last.kickoff === win.kickoff && last.finishedAt ? last.finishedAt : now;
     if (out.status === "done") await recordFinished(env, out.match).catch(() => {});
   } else { out.status = now < win.kickoff + 10 * 60e3 ? "starting" : (prev ? last.status : "waiting"); if (prev) out.match = prev; }
   // نكتب بس لو تغيّر شي (نتيجة/دقيقة/حالة/أحداث) أو مرّت دقيقة — عشان حد الكتابة اليومي في KV
@@ -599,9 +600,26 @@ async function currentGame(env) {
   const now = Date.now();
   let games = (await env.KV.get("games", "json")) || [];
   if (!games.length) { await schedule(env, true); games = (await env.KV.get("games", "json")) || []; }
-  const recent = games.filter((k) => k <= now && now < k + GAME_DAY).pop();
-  const next = games.find((k) => k > now);
-  return recent ?? next ?? games[games.length - 1] ?? null;
+  games = [...new Set(games.map(Number).filter(Number.isFinite))].sort((a, b) => a - b);
+  const recent = games.filter(k => k <= now).pop();
+  const next = games.find(k => k > now) ?? null;
+  if (recent == null) return next;
+  const live = await env.KV.get("live", "json");
+  if (live?.kickoff === recent && live.status === "done") {
+    // Vote for one hour after verified FT, then switch to the next fixture.
+    // Old records without finishedAt use first confirmation time and persist it.
+    let finishedAt = Number(live.finishedAt);
+    if (!Number.isFinite(finishedAt) || finishedAt <= 0) {
+      finishedAt = Date.now();
+      await env.KV.put("live", JSON.stringify({ ...live, finishedAt }));
+    }
+    if (now >= finishedAt + 60 * 60e3) return next;
+    return recent;
+  }
+  // Fallback only for a game whose completion has not been confirmed:
+  // never rotate away while a match might still be in progress.
+  if (now < recent + GAME_DAY) return recent;
+  return next;
 }
 async function phaseOf(env, k) {
   const now = Date.now();
