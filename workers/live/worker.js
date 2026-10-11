@@ -61,25 +61,33 @@ export default {
           if (lt?.matches?.[id]) { overlay = lt.matches[id]; overlayAt = lt.at || Date.now(); }
         }
 
-        // عند فتح تفاصيل مباراة مباشرة، لا نعتمد على KV قديم: تحقق من المصدر
-        // كل 20 ثانية بحد أقصى لكل مباراة على حافة Cloudflare.
-        if (overlay && LIVE.includes(overlay.status) && Date.now() - overlayAt > 30000) {
+        // Direct fixture verification for live matches; edge cache prevents a call per visitor.
+        // Keep the last known score on upstream failure, but disclose its age.
+        if (overlay && LIVE.includes(overlay.status)) {
           const key = new Request("https://match-refresh.internal/" + id);
           const edge = caches.default;
           let response = await edge.match(key);
           if (!response) {
-            const latest = await api(env, { id }).catch(() => []);
-            if (latest[0]) {
-              const fresh = slim(latest[0]);
-              response = json({ match: fresh, at: Date.now() }, 20);
-              await edge.put(key, response.clone());
-            }
+            try {
+              const latest = await api(env, { id });
+              if (latest[0]) {
+                const fresh = slimFull(latest[0]);
+                response = json({ match: fresh, at: Date.now() }, 15);
+                await edge.put(key, response.clone());
+              }
+            } catch (e) { console.error("fixture refresh", id, String(e)); }
           }
           if (response) {
             const verified = await response.json();
-            if (verified.match && verified.match.id === +id) {
-              overlay = verified.match;
-              overlayAt = verified.at;
+            if (verified.match?.id === +id && verified.at >= overlayAt) {
+              // Do not allow an out-of-order upstream response to regress score/minute.
+              const oldMin = Number(overlay.elapsed) || 0;
+              const newMin = Number(verified.match.elapsed) || 0;
+              const isRegression = LIVE.includes(verified.match.status) && newMin < oldMin && oldMin - newMin > 2;
+              if (!isRegression) {
+                overlay = verified.match;
+                overlayAt = verified.at;
+              }
             }
           }
         }
@@ -100,10 +108,10 @@ export default {
             seen.add(key); combined.push(e);
           }
           combined.sort((a, b) => (a.min || 0) - (b.min || 0) || (a.extra || 0) - (b.extra || 0));
-          return json({ at: overlayAt, m: {
+          return noStore({ at: overlayAt, stale: LIVE.includes(overlay.status) && Date.now() - overlayAt > 45000, m: {
             ...base, status: overlay.status, elapsed: overlay.elapsed, extra: overlay.extra ?? null,
             goals: overlay.goals, events: combined
-          }, source: "overlay" }, 10);
+          }, source: "overlay" });
         }
 
         // ما فيه overlay — نرجع للملف أو API
