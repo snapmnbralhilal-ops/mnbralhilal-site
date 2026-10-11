@@ -61,6 +61,29 @@ export default {
           if (lt?.matches?.[id]) { overlay = lt.matches[id]; overlayAt = lt.at || Date.now(); }
         }
 
+        // عند فتح تفاصيل مباراة مباشرة، لا نعتمد على KV قديم: تحقق من المصدر
+        // كل 20 ثانية بحد أقصى لكل مباراة على حافة Cloudflare.
+        if (overlay && LIVE.includes(overlay.status) && Date.now() - overlayAt > 30000) {
+          const key = new Request("https://match-refresh.internal/" + id);
+          const edge = caches.default;
+          let response = await edge.match(key);
+          if (!response) {
+            const latest = await api(env, { id }).catch(() => []);
+            if (latest[0]) {
+              const fresh = slim(latest[0]);
+              response = json({ match: fresh, at: Date.now() }, 20);
+              await edge.put(key, response.clone());
+            }
+          }
+          if (response) {
+            const verified = await response.json();
+            if (verified.match && verified.match.id === +id) {
+              overlay = verified.match;
+              overlayAt = verified.at;
+            }
+          }
+        }
+
         // لو عندنا overlay (نتيجة حية) + ملف محلي → ندمج
         if (overlay) {
           const base = fileData?.m || {
