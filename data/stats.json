@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-11T07:25:06.392Z",
+ "updated": "2026-10-11T07:42:25.606Z",
  "players": [
   {
    "api": 156,
@@ -1300,7 +1300,20 @@
    },
    "goals": 5,
    "assists": 1,
-   "apps": 7
+   "apps": 8
+  },
+  {
+   "name": "Y. En-Nesyri",
+   "photo": "https://media.api-sports.io/football/players/47422.png",
+   "team": {
+    "id": 2938,
+    "name": "Al-Ittihad FC",
+    "ar": "الاتحاد",
+    "logo": "https://media.api-sports.io/football/teams/2938.png"
+   },
+   "goals": 5,
+   "assists": 0,
+   "apps": 8
   },
   {
    "name": "M. Retegui",
@@ -1314,6 +1327,32 @@
    "goals": 5,
    "assists": 1,
    "apps": 8
+  },
+  {
+   "name": "S. Bergwijn",
+   "photo": "https://media.api-sports.io/football/players/244.png",
+   "team": {
+    "id": 2938,
+    "name": "Al-Ittihad FC",
+    "ar": "الاتحاد",
+    "logo": "https://media.api-sports.io/football/teams/2938.png"
+   },
+   "goals": 5,
+   "assists": 1,
+   "apps": 8
+  },
+  {
+   "name": "أولي واتكينز",
+   "photo": "https://media.api-sports.io/football/players/19366.png",
+   "team": {
+    "id": 2932,
+    "name": "Al-Hilal Saudi FC",
+    "ar": "الهلال",
+    "logo": "https://media.api-sports.io/football/teams/2932.png"
+   },
+   "goals": 4,
+   "assists": 4,
+   "apps": 5
   },
   {
    "name": "G. Ilenikhena",
@@ -1342,19 +1381,6 @@
    "apps": 8
   },
   {
-   "name": "سيرجي ميلينكوفيتش سافيتش",
-   "photo": "https://media.api-sports.io/football/players/1856.png",
-   "team": {
-    "id": 2932,
-    "name": "Al-Hilal Saudi FC",
-    "ar": "الهلال",
-    "logo": "https://media.api-sports.io/football/teams/2932.png"
-   },
-   "goals": 4,
-   "assists": 1,
-   "apps": 7
-  },
-  {
    "name": "A. Koné",
    "photo": "https://media.api-sports.io/football/players/437482.png",
    "team": {
@@ -1365,33 +1391,7 @@
    },
    "goals": 4,
    "assists": 1,
-   "apps": 7
-  },
-  {
-   "name": "Cristiano Ronaldo",
-   "photo": "https://media.api-sports.io/football/players/874.png",
-   "team": {
-    "id": 2939,
-    "name": "Al-Nassr",
-    "ar": "النصر",
-    "logo": "https://media.api-sports.io/football/teams/2939.png"
-   },
-   "goals": 4,
-   "assists": 0,
-   "apps": 7
-  },
-  {
-   "name": "T. Reijnders",
-   "photo": "https://media.api-sports.io/football/players/36902.png",
-   "team": {
-    "id": 2933,
-    "name": "Al-Qadisiyah FC",
-    "ar": "القادسية",
-    "logo": "https://media.api-sports.io/football/teams/2933.png"
-   },
-   "goals": 4,
-   "assists": 0,
-   "apps": 6
+   "apps": 8
   }
  ]
 }
