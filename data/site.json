@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T18:16:19.960Z",
+ "updated": "2026-10-11T18:39:26.145Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -754,7 +754,7 @@
   },
   {
    "tag": "عالمي",
-   "title": "مانشستر سيتي يتصدر الدوري الإنجليزي برصيد 15 نقطة",
+   "title": "مانشستر سيتي يتصدر الدوري الإنجليزي برصيد 18 نقطة",
    "body": "يليه آرسنال بـ15 نقطة.",
    "link": "#table"
   },
@@ -844,7 +844,7 @@
       "id": 1603043,
       "date": "2026-10-11T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 39,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -866,7 +866,7 @@
        "logo": "https://media.api-sports.io/football/teams/2936.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1041,8 +1041,8 @@
      {
       "id": 1570405,
       "date": "2026-10-11T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -1064,7 +1064,7 @@
        "logo": "https://media.api-sports.io/football/teams/727.png"
       },
       "goals": [
-       4,
+       5,
        2
       ]
      },
@@ -1459,7 +1459,7 @@
       "id": 1612250,
       "date": "2026-10-11T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 76,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1564,7 +1564,7 @@
       "id": 1575511,
       "date": "2026-10-11T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 77,
       "venue": "Lisbon",
       "league": {
        "id": 94,
@@ -1586,7 +1586,7 @@
        "logo": "https://media.api-sports.io/football/teams/224.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -3995,10 +3995,10 @@
       "ar": "مانشستر سيتي",
       "logo": "https://media.api-sports.io/football/teams/50.png"
      },
-     "points": 15,
-     "gd": 8,
-     "played": 5,
-     "win": 5,
+     "points": 18,
+     "gd": 11,
+     "played": 6,
+     "win": 6,
      "draw": 0,
      "lose": 0,
      "description": "Promotion - Champions League (League phase)"
@@ -4102,22 +4102,6 @@
     {
      "rank": 8,
      "team": {
-      "id": 40,
-      "name": "Liverpool",
-      "ar": "ليفربول",
-      "logo": "https://media.api-sports.io/football/teams/40.png"
-     },
-     "points": 9,
-     "gd": 3,
-     "played": 5,
-     "win": 2,
-     "draw": 3,
-     "lose": 0,
-     "description": ""
-    },
-    {
-     "rank": 9,
-     "team": {
       "id": 64,
       "name": "Hull City",
       "ar": "هال سيتي",
@@ -4125,6 +4109,22 @@
      },
      "points": 9,
      "gd": 2,
+     "played": 6,
+     "win": 2,
+     "draw": 3,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "ar": "ليفربول",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+     },
+     "points": 9,
+     "gd": 0,
      "played": 6,
      "win": 2,
      "draw": 3,
@@ -4965,6 +4965,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 160,
+      "name": "SC Freiburg",
+      "ar": "فرايبورغ",
+      "logo": "https://media.api-sports.io/football/teams/160.png"
+     },
+     "points": 13,
+     "gd": 10,
+     "played": 5,
+     "win": 4,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 165,
       "name": "Borussia Dortmund",
       "ar": "بوروسيا دورتموند",
@@ -4979,7 +4995,7 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 157,
       "name": "Bayern München",
@@ -4991,22 +5007,6 @@
      "played": 5,
      "win": 3,
      "draw": 2,
-     "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 160,
-      "name": "SC Freiburg",
-      "ar": "فرايبورغ",
-      "logo": "https://media.api-sports.io/football/teams/160.png"
-     },
-     "points": 10,
-     "gd": 9,
-     "played": 4,
-     "win": 3,
-     "draw": 1,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -5163,11 +5163,11 @@
       "logo": "https://media.api-sports.io/football/teams/174.png"
      },
      "points": 5,
-     "gd": -1,
-     "played": 4,
+     "gd": -2,
+     "played": 5,
      "win": 1,
      "draw": 2,
-     "lose": 1,
+     "lose": 2,
      "description": ""
     },
     {
@@ -5290,6 +5290,22 @@
     {
      "rank": 3,
      "team": {
+      "id": 94,
+      "name": "Rennes",
+      "ar": "رين",
+      "logo": "https://media.api-sports.io/football/teams/94.png"
+     },
+     "points": 13,
+     "gd": 2,
+     "played": 6,
+     "win": 4,
+     "draw": 1,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 4,
+     "team": {
       "id": 80,
       "name": "Lyon",
       "ar": "ليون",
@@ -5301,10 +5317,10 @@
      "win": 3,
      "draw": 2,
      "lose": 1,
-     "description": "Champions League league stage"
+     "description": " Qualifying"
     },
     {
-     "rank": 4,
+     "rank": 5,
      "team": {
       "id": 114,
       "name": "Paris FC",
@@ -5317,10 +5333,10 @@
      "win": 3,
      "draw": 2,
      "lose": 1,
-     "description": " Qualifying"
+     "description": "Europa League league stage"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": {
       "id": 85,
       "name": "Paris Saint Germain",
@@ -5332,22 +5348,6 @@
      "played": 6,
      "win": 3,
      "draw": 2,
-     "lose": 1,
-     "description": "Europa League league stage"
-    },
-    {
-     "rank": 6,
-     "team": {
-      "id": 94,
-      "name": "Rennes",
-      "ar": "رين",
-      "logo": "https://media.api-sports.io/football/teams/94.png"
-     },
-     "points": 10,
-     "gd": -1,
-     "played": 5,
-     "win": 3,
-     "draw": 1,
      "lose": 1,
      "description": "Play-offs"
     },
@@ -5488,11 +5488,11 @@
       "logo": "https://media.api-sports.io/football/teams/108.png"
      },
      "points": 6,
-     "gd": -5,
-     "played": 5,
+     "gd": -8,
+     "played": 6,
      "win": 2,
      "draw": 0,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
