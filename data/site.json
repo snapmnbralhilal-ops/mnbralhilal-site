@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T20:23:06.157Z",
+ "updated": "2026-10-11T20:43:01.254Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1072,7 +1072,7 @@
       "id": 1570409,
       "date": "2026-10-11T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 63,
+      "elapsed": 83,
       "venue": "Santander",
       "league": {
        "id": 140,
@@ -1095,7 +1095,7 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      }
     ]
@@ -1230,8 +1230,8 @@
      {
       "id": 1550138,
       "date": "2026-10-11T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cagliari",
       "league": {
        "id": 135,
@@ -1254,7 +1254,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1398,8 +1398,8 @@
      {
       "id": 1552782,
       "date": "2026-10-11T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1422,7 +1422,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
@@ -1507,7 +1507,7 @@
       "id": 1644209,
       "date": "2026-10-11T23:00:00+03:00",
       "status": "1H",
-      "elapsed": 21,
+      "elapsed": 41,
       "venue": "Casablanca",
       "league": {
        "id": 200,
@@ -1605,8 +1605,8 @@
      {
       "id": 1575510,
       "date": "2026-10-11T22:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Aruca",
       "league": {
        "id": 94,
