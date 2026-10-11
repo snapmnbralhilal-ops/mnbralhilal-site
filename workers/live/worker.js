@@ -598,28 +598,29 @@ async function arName(env, name) {
 /* ============ الألعاب ============ */
 async function currentGame(env) {
   const now = Date.now();
+  // Refresh schedule if the next game is missing, rather than keeping a stale games KV.
   let games = (await env.KV.get("games", "json")) || [];
-  if (!games.length) { await schedule(env, true); games = (await env.KV.get("games", "json")) || []; }
-  games = [...new Set(games.map(Number).filter(Number.isFinite))].sort((a, b) => a - b);
-  const recent = games.filter(k => k <= now).pop();
-  const next = games.find(k => k > now) ?? null;
+  let ordered = [...new Set(games.map(Number).filter(Number.isFinite))].sort((a, b) => a - b);
+  if (!ordered.some(k => k > now)) {
+    await schedule(env, true);
+    games = (await env.KV.get("games", "json")) || [];
+    ordered = [...new Set(games.map(Number).filter(Number.isFinite))].sort((a, b) => a - b);
+  }
+  const next = ordered.find(k => k > now) ?? null;
+  const recent = ordered.filter(k => k <= now).pop();
   if (recent == null) return next;
   const live = await env.KV.get("live", "json");
   if (live?.kickoff === recent && live.status === "done") {
-    // Vote for one hour after verified FT, then switch to the next fixture.
-    // Old records without finishedAt use first confirmation time and persist it.
-    let finishedAt = Number(live.finishedAt);
-    if (!Number.isFinite(finishedAt) || finishedAt <= 0) {
-      finishedAt = Date.now();
-      await env.KV.put("live", JSON.stringify({ ...live, finishedAt }));
-    }
+    // If the match was confirmed finished long ago, don't restart the voting clock
+    // when a new deployment first introduces finishedAt.
+    const finishedAt = Number(live.finishedAt) > 0 ? Number(live.finishedAt)
+      : Number(live.match?.date ? Date.parse(live.match.date) : recent) + 3 * 3600e3;
     if (now >= finishedAt + 60 * 60e3) return next;
     return recent;
   }
-  // Fallback only for a game whose completion has not been confirmed:
-  // never rotate away while a match might still be in progress.
-  if (now < recent + GAME_DAY) return recent;
-  return next;
+  // Fail closed: a past match cannot accept new predictions, even if the feed is stale.
+  if (now >= recent + 4 * 3600e3) return next;
+  return recent;
 }
 async function phaseOf(env, k) {
   const now = Date.now();
