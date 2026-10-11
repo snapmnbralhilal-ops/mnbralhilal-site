@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T13:02:41.852Z",
+ "updated": "2026-10-11T13:24:37.605Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -877,7 +877,7 @@
       "id": 1557421,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 24,
       "venue": "London",
       "league": {
        "id": 39,
@@ -900,14 +900,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1557422,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 24,
       "venue": "Hull",
       "league": {
        "id": 39,
@@ -972,8 +972,8 @@
      {
       "id": 1570406,
       "date": "2026-10-11T15:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Elche",
       "league": {
        "id": 140,
@@ -1123,7 +1123,7 @@
       "id": 1550142,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 24,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1145,15 +1145,15 @@
        "logo": "https://media.api-sports.io/football/teams/1579.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
      {
       "id": 1550143,
       "date": "2026-10-11T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 22,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1174,7 +1174,10 @@
        "ar": "بولونيا",
        "logo": "https://media.api-sports.io/football/teams/500.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1550145,
@@ -1306,7 +1309,7 @@
       "id": 1552779,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 24,
       "venue": "Nice",
       "league": {
        "id": 61,
@@ -1617,8 +1620,8 @@
      {
       "id": 1552186,
       "date": "2026-10-11T15:30:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1640,15 +1643,15 @@
        "logo": "https://media.api-sports.io/football/teams/198.png"
       },
       "goals": [
-       1,
+       2,
        2
       ]
      },
      {
       "id": 1552187,
       "date": "2026-10-11T15:30:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Zwolle",
       "league": {
        "id": 88,
@@ -1744,7 +1747,7 @@
       "id": 1584425,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 24,
       "venue": "Gaziantep",
       "league": {
        "id": 203,
@@ -5493,6 +5496,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 23,
  "plan": "Pro"
 }
