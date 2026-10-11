@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T14:14:32.561Z",
+ "updated": "2026-10-11T14:33:28.836Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603038,
       "date": "2026-10-11T16:40:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -880,7 +880,7 @@
       "id": 1557421,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 70,
       "venue": "London",
       "league": {
        "id": 39,
@@ -902,7 +902,7 @@
        "logo": "https://media.api-sports.io/football/teams/65.png"
       },
       "goals": [
-       2,
+       3,
        1
       ]
      },
@@ -910,7 +910,7 @@
       "id": 1557422,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 71,
       "venue": "Hull",
       "league": {
        "id": 39,
@@ -933,7 +933,7 @@
       },
       "goals": [
        1,
-       0
+       2
       ]
      },
      {
@@ -1005,8 +1005,8 @@
      {
       "id": 1570412,
       "date": "2026-10-11T17:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "San Sebastian",
       "league": {
        "id": 140,
@@ -1027,7 +1027,10 @@
        "ar": "ديبورتيفو لاكورونيا",
        "logo": "https://media.api-sports.io/football/teams/544.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570405,
@@ -1126,7 +1129,7 @@
       "id": 1550142,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 74,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1156,7 +1159,7 @@
       "id": 1550143,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 71,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1178,7 +1181,7 @@
        "logo": "https://media.api-sports.io/football/teams/500.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1248,8 +1251,8 @@
      {
       "id": 1575183,
       "date": "2026-10-11T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Cologne",
       "league": {
        "id": 78,
@@ -1315,7 +1318,7 @@
       "id": 1552779,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 73,
       "venue": "Nice",
       "league": {
        "id": 61,
@@ -1408,7 +1411,7 @@
       "id": 1612249,
       "date": "2026-10-11T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 13,
+      "elapsed": 32,
       "venue": "Ismailia",
       "league": {
        "id": 233,
@@ -1430,7 +1433,7 @@
        "logo": "https://media.api-sports.io/football/teams/1031.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1629,8 +1632,8 @@
      {
       "id": 1552186,
       "date": "2026-10-11T15:30:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1659,8 +1662,8 @@
      {
       "id": 1552187,
       "date": "2026-10-11T15:30:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Zwolle",
       "league": {
        "id": 88,
@@ -1683,7 +1686,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1756,7 +1759,7 @@
       "id": 1584425,
       "date": "2026-10-11T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 75,
       "venue": "Gaziantep",
       "league": {
        "id": 203,
@@ -1779,7 +1782,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -4401,6 +4404,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 538,
+      "name": "Celta Vigo",
+      "ar": "سيلتا فيغو",
+      "logo": "https://media.api-sports.io/football/teams/538.png"
+     },
+     "points": 8,
+     "gd": 2,
+     "played": 8,
+     "win": 1,
+     "draw": 5,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 531,
       "name": "Athletic Club",
       "ar": "أتلتيك بلباو",
@@ -4415,7 +4434,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 533,
       "name": "Villarreal",
@@ -4431,7 +4450,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 540,
       "name": "Espanyol",
@@ -4447,7 +4466,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 728,
       "name": "Rayo Vallecano",
@@ -4463,7 +4482,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 546,
       "name": "Getafe",
@@ -4479,7 +4498,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 727,
       "name": "Osasuna",
@@ -4492,22 +4511,6 @@
      "win": 2,
      "draw": 2,
      "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 538,
-      "name": "Celta Vigo",
-      "ar": "سيلتا فيغو",
-      "logo": "https://media.api-sports.io/football/teams/538.png"
-     },
-     "points": 7,
-     "gd": 2,
-     "played": 7,
-     "win": 1,
-     "draw": 4,
-     "lose": 2,
      "description": ""
     },
     {
@@ -4529,6 +4532,22 @@
     {
      "rank": 17,
      "team": {
+      "id": 797,
+      "name": "Elche",
+      "ar": "إلتشي",
+      "logo": "https://media.api-sports.io/football/teams/797.png"
+     },
+     "points": 6,
+     "gd": -6,
+     "played": 8,
+     "win": 1,
+     "draw": 3,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 18,
+     "team": {
       "id": 539,
       "name": "Levante",
       "ar": "ليفانتي",
@@ -4540,22 +4559,6 @@
      "win": 1,
      "draw": 2,
      "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 18,
-     "team": {
-      "id": 797,
-      "name": "Elche",
-      "ar": "إلتشي",
-      "logo": "https://media.api-sports.io/football/teams/797.png"
-     },
-     "points": 5,
-     "gd": -6,
-     "played": 7,
-     "win": 1,
-     "draw": 2,
-     "lose": 4,
      "description": "Relegation"
     },
     {
@@ -5505,6 +5508,6 @@
   }
  },
  "errors": [],
- "requests": 23,
+ "requests": 27,
  "plan": "Pro"
 }
