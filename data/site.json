@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T15:25:20.240Z",
+ "updated": "2026-10-11T15:42:48.201Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603038,
       "date": "2026-10-11T16:40:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -810,7 +810,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
@@ -939,8 +939,8 @@
      {
       "id": 1557424,
       "date": "2026-10-11T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -961,7 +961,10 @@
        "ar": "مانشستر سيتي",
        "logo": "https://media.api-sports.io/football/teams/50.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1006,7 +1009,7 @@
       "id": 1570412,
       "date": "2026-10-11T17:15:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 68,
       "venue": "San Sebastian",
       "league": {
        "id": 140,
@@ -1028,8 +1031,8 @@
        "logo": "https://media.api-sports.io/football/teams/544.png"
       },
       "goals": [
-       2,
-       0
+       3,
+       1
       ]
      },
      {
@@ -1251,7 +1254,7 @@
      {
       "id": 1575183,
       "date": "2026-10-11T16:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Cologne",
       "league": {
@@ -1281,8 +1284,8 @@
      {
       "id": 1575179,
       "date": "2026-10-11T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Freiburg",
       "league": {
        "id": 78,
@@ -1303,7 +1306,10 @@
        "ar": "شالكه",
        "logo": "https://media.api-sports.io/football/teams/174.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1348,7 +1354,7 @@
       "id": 1552781,
       "date": "2026-10-11T18:15:00+03:00",
       "status": "1H",
-      "elapsed": 11,
+      "elapsed": 28,
       "venue": "Rennes",
       "league": {
        "id": 61,
@@ -1370,8 +1376,8 @@
        "logo": "https://media.api-sports.io/football/teams/108.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1414,7 +1420,7 @@
       "id": 1612249,
       "date": "2026-10-11T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 61,
+      "elapsed": 79,
       "venue": "Ismailia",
       "league": {
        "id": 233,
@@ -1437,7 +1443,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
@@ -1515,8 +1521,8 @@
      {
       "id": 1575517,
       "date": "2026-10-11T17:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Condi Town",
       "league": {
        "id": 94,
@@ -1698,8 +1704,8 @@
      {
       "id": 1552188,
       "date": "2026-10-11T17:45:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -4629,6 +4635,22 @@
     {
      "rank": 2,
      "team": {
+      "id": 487,
+      "name": "Lazio",
+      "ar": "لاتسيو",
+      "logo": "https://media.api-sports.io/football/teams/487.png"
+     },
+     "points": 16,
+     "gd": 7,
+     "played": 6,
+     "win": 5,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
       "id": 497,
       "name": "AS Roma",
       "ar": "روما",
@@ -4639,22 +4661,6 @@
      "played": 6,
      "win": 4,
      "draw": 2,
-     "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 487,
-      "name": "Lazio",
-      "ar": "لاتسيو",
-      "logo": "https://media.api-sports.io/football/teams/487.png"
-     },
-     "points": 13,
-     "gd": 5,
-     "played": 5,
-     "win": 4,
-     "draw": 1,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -4843,11 +4849,11 @@
       "logo": "https://media.api-sports.io/football/teams/1579.png"
      },
      "points": 4,
-     "gd": -4,
-     "played": 5,
+     "gd": -6,
+     "played": 6,
      "win": 1,
      "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -5359,6 +5365,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 84,
+      "name": "Nice",
+      "ar": "نيس",
+      "logo": "https://media.api-sports.io/football/teams/84.png"
+     },
+     "points": 8,
+     "gd": -2,
+     "played": 6,
+     "win": 2,
+     "draw": 2,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 116,
       "name": "Lens",
       "ar": "لانس",
@@ -5373,7 +5395,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 95,
       "name": "Strasbourg",
@@ -5381,15 +5403,15 @@
       "logo": "https://media.api-sports.io/football/teams/95.png"
      },
      "points": 7,
-     "gd": 0,
-     "played": 5,
+     "gd": -1,
+     "played": 6,
      "win": 2,
      "draw": 1,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 77,
       "name": "Angers",
@@ -5405,7 +5427,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 1298,
       "name": "Le Mans",
@@ -5421,7 +5443,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 96,
       "name": "Toulouse",
@@ -5437,7 +5459,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 108,
       "name": "Auxerre",
@@ -5450,22 +5472,6 @@
      "win": 2,
      "draw": 0,
      "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 84,
-      "name": "Nice",
-      "ar": "نيس",
-      "logo": "https://media.api-sports.io/football/teams/84.png"
-     },
-     "points": 5,
-     "gd": -3,
-     "played": 5,
-     "win": 1,
-     "draw": 2,
-     "lose": 2,
      "description": ""
     },
     {
@@ -5520,6 +5526,6 @@
   }
  },
  "errors": [],
- "requests": 28,
+ "requests": 29,
  "plan": "Pro"
 }
