@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T04:11:50.033Z",
+ "updated": "2026-10-11T04:35:16.735Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2170,7 +2170,7 @@
       "id": 1490524,
       "date": "2026-10-11T05:30:00+03:00",
       "status": "2H",
-      "elapsed": 69,
+      "elapsed": 90,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -5459,7 +5459,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 13,
  "plan": "Pro"
 }
