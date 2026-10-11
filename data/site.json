@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T11:25:12.056Z",
+ "updated": "2026-10-11T11:41:37.265Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1083,8 +1083,8 @@
      {
       "id": 1550139,
       "date": "2026-10-11T13:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Como",
       "league": {
        "id": 135,
@@ -1573,7 +1573,7 @@
       "id": 1552185,
       "date": "2026-10-11T13:15:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 64,
       "venue": "Utrecht",
       "league": {
        "id": 88,
@@ -1595,8 +1595,8 @@
        "logo": "https://media.api-sports.io/football/teams/195.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1692,8 +1692,8 @@
      {
       "id": 1584427,
       "date": "2026-10-11T13:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Konya",
       "league": {
        "id": 203,
