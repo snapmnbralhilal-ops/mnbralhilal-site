@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T02:59:58.902Z",
+ "updated": "2026-10-11T03:19:58.867Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2140,7 +2140,7 @@
       "id": 1490523,
       "date": "2026-10-11T04:30:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 77,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -2163,14 +2163,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1490524,
       "date": "2026-10-11T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 20,
+      "elapsed": 40,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
