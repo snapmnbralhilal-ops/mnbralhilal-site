@@ -454,7 +454,8 @@
       const latest = await j(API + "/game?d=" + DID);
       if (latest) GAME = latest; // احتفظ بآخر حالة سليمة عند انقطاع الخدمة مؤقتًا
     }
-    if (GAME && GAME.kickoff && MATCH && Math.abs(new Date(MATCH.date) - GAME.kickoff) > 6 * 3600e3) MATCH = await findMatch(GAME.kickoff);
+    if (GAME?.kickoff && (!MATCH || Math.abs(new Date(MATCH.date) - GAME.kickoff) > 6 * 3600e3)) MATCH = await findMatch(GAME.kickoff);
+    if (GAME && !GAME.kickoff) MATCH = null;
     renderMatch(); renderPredict(); renderVote(); renderCoachSend(); renderCrowd();
     if (!$("t-league").hidden) loadLeague();
   }
