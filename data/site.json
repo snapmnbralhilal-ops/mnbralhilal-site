@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T16:51:49.826Z",
+ "updated": "2026-10-11T17:08:39.089Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -940,7 +940,7 @@
       "id": 1557424,
       "date": "2026-10-11T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 63,
+      "elapsed": 80,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -963,7 +963,7 @@
       },
       "goals": [
        0,
-       0
+       3
       ]
      }
     ]
@@ -1039,7 +1039,7 @@
       "id": 1570405,
       "date": "2026-10-11T19:30:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 35,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -1061,7 +1061,7 @@
        "logo": "https://media.api-sports.io/football/teams/727.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1194,7 +1194,7 @@
      {
       "id": 1550145,
       "date": "2026-10-11T19:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Reggio Emilia",
       "league": {
@@ -1291,7 +1291,7 @@
       "id": 1575179,
       "date": "2026-10-11T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 62,
+      "elapsed": 79,
       "venue": "Freiburg",
       "league": {
        "id": 78,
@@ -1360,7 +1360,7 @@
       "id": 1552781,
       "date": "2026-10-11T18:15:00+03:00",
       "status": "2H",
-      "elapsed": 78,
+      "elapsed": 90,
       "venue": "Rennes",
       "league": {
        "id": 61,
@@ -1382,7 +1382,7 @@
        "logo": "https://media.api-sports.io/football/teams/108.png"
       },
       "goals": [
-       2,
+       4,
        1
       ]
      },
@@ -1455,8 +1455,8 @@
      {
       "id": 1612250,
       "date": "2026-10-11T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1477,7 +1477,10 @@
        "ar": "الأهلي المصري",
        "logo": "https://media.api-sports.io/football/teams/1577.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1557,8 +1560,8 @@
      {
       "id": 1575511,
       "date": "2026-10-11T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 6,
       "venue": "Lisbon",
       "league": {
        "id": 94,
@@ -1579,7 +1582,10 @@
        "ar": "Vitória SC",
        "logo": "https://media.api-sports.io/football/teams/224.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575510,
@@ -1809,8 +1815,8 @@
      {
       "id": 1584422,
       "date": "2026-10-11T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -3853,11 +3859,11 @@
       "ar": "الرياض",
       "logo": "https://media.api-sports.io/football/teams/10511.png"
      },
-     "points": 8,
+     "points": 9,
      "gd": -8,
-     "played": 7,
+     "played": 8,
      "win": 2,
-     "draw": 2,
+     "draw": 3,
      "lose": 3,
      "description": ""
     },
@@ -3869,11 +3875,11 @@
       "ar": "الفيحاء",
       "logo": "https://media.api-sports.io/football/teams/2944.png"
      },
-     "points": 6,
+     "points": 7,
      "gd": -4,
-     "played": 7,
+     "played": 8,
      "win": 1,
-     "draw": 3,
+     "draw": 4,
      "lose": 3,
      "description": ""
     },
@@ -5538,6 +5544,6 @@
   }
  },
  "errors": [],
- "requests": 28,
+ "requests": 29,
  "plan": "Pro"
 }
