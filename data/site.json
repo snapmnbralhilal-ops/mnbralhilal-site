@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T19:49:58.213Z",
+ "updated": "2026-10-11T20:00:20.854Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -844,7 +844,7 @@
       "id": 1603043,
       "date": "2026-10-11T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 86,
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -1231,7 +1231,7 @@
       "id": 1550138,
       "date": "2026-10-11T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 57,
       "venue": "Cagliari",
       "league": {
        "id": 135,
@@ -1399,7 +1399,7 @@
       "id": 1552782,
       "date": "2026-10-11T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 60,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1422,7 +1422,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1603,7 +1603,7 @@
       "id": 1575510,
       "date": "2026-10-11T22:30:00+03:00",
       "status": "1H",
-      "elapsed": 19,
+      "elapsed": 30,
       "venue": "Aruca",
       "league": {
        "id": 94,
@@ -5558,7 +5558,30 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 140,
+    "season": 2026
+   },
+   "error": [
+    "This is on our side, please report us this bug on https://dashboard.api-football.com",
+    "5xEr"
+   ]
+  },
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 61,
+    "season": 2026
+   },
+   "error": [
+    "This is on our side, please report us this bug on https://dashboard.api-football.com",
+    "5xEr"
+   ]
+  }
+ ],
  "requests": 24,
  "plan": "Pro"
 }
