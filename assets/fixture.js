@@ -180,7 +180,9 @@
     renderStats(m);
     $("mTabs").hidden = false;
     showTab(CUR_TAB);
-    $("mUpdated").textContent = `آخر تحديث: ${new Date(data.at).toLocaleTimeString("ar-SA", { timeZone: TZ, hour: "2-digit", minute: "2-digit" })}`;
+    const age = Date.now() - Number(data.at || 0);
+    const stale = data.stale || (LIVE.includes(m.status) && (age > 45000 || age < 0));
+    $("mUpdated").textContent = stale ? "⚠️ تحديث المباراة متأخر — جاري محاولة التحديث" : `آخر تحديث: ${new Date(data.at).toLocaleTimeString("ar-SA", { timeZone: TZ, hour: "2-digit", minute: "2-digit" })}`;
   }
 
   // تبويبات
