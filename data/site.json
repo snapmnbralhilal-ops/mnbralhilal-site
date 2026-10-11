@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T02:26:53.557Z",
+ "updated": "2026-10-11T02:45:29.228Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2049,8 +2049,8 @@
      {
       "id": 1490520,
       "date": "2026-10-11T03:30:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Austin",
       "league": {
        "id": 253,
@@ -2073,14 +2073,14 @@
       },
       "goals": [
        1,
-       2
+       4
       ]
      },
      {
       "id": 1490521,
       "date": "2026-10-11T03:30:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sao Paulo",
       "league": {
        "id": 253,
@@ -2103,14 +2103,14 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
       "id": 1490522,
       "date": "2026-10-11T03:30:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kansas City",
       "league": {
        "id": 253,
@@ -2139,7 +2139,7 @@
      {
       "id": 1490523,
       "date": "2026-10-11T04:30:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Trade City",
       "league": {
@@ -2169,8 +2169,8 @@
      {
       "id": 1490524,
       "date": "2026-10-11T05:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2191,7 +2191,10 @@
        "ar": "Vancouver Whitecaps",
        "logo": "https://media.api-sports.io/football/teams/1603.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
