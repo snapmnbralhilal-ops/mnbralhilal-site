@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T21:17:27.928Z",
+ "updated": "2026-10-11T21:35:39.502Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2197,6 +2197,36 @@
        2,
        0
       ]
+     },
+     {
+      "id": 1575510,
+      "date": "2026-10-11T22:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Aruca",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 8"
+      },
+      "home": {
+       "id": 240,
+       "name": "Arouca",
+       "ar": "Arouca",
+       "logo": "https://media.api-sports.io/football/teams/240.png"
+      },
+      "away": {
+       "id": 15130,
+       "name": "Estrela",
+       "ar": "Estrela",
+       "logo": "https://media.api-sports.io/football/teams/15130.png"
+      },
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -3717,10 +3747,10 @@
     {
      "rank": 15,
      "team": {
-      "id": 727,
-      "name": "Osasuna",
-      "ar": "أوساسونا",
-      "logo": "https://media.api-sports.io/football/teams/727.png"
+      "id": 4665,
+      "name": "Racing Santander",
+      "ar": "راسينغ سانتاندير",
+      "logo": "https://media.api-sports.io/football/teams/4665.png"
      },
      "points": 8,
      "gd": -10,
@@ -3733,16 +3763,16 @@
     {
      "rank": 16,
      "team": {
-      "id": 4665,
-      "name": "Racing Santander",
-      "ar": "راسينغ سانتاندير",
-      "logo": "https://media.api-sports.io/football/teams/4665.png"
+      "id": 727,
+      "name": "Osasuna",
+      "ar": "أوساسونا",
+      "logo": "https://media.api-sports.io/football/teams/727.png"
      },
-     "points": 7,
+     "points": 8,
      "gd": -10,
-     "played": 7,
+     "played": 8,
      "win": 2,
-     "draw": 1,
+     "draw": 2,
      "lose": 4,
      "description": ""
     },
@@ -3786,11 +3816,11 @@
       "ar": "فالنسيا",
       "logo": "https://media.api-sports.io/football/teams/532.png"
      },
-     "points": 4,
+     "points": 5,
      "gd": -9,
-     "played": 7,
+     "played": 8,
      "win": 1,
-     "draw": 1,
+     "draw": 2,
      "lose": 5,
      "description": "Relegation"
     },
@@ -3866,6 +3896,22 @@
     {
      "rank": 4,
      "team": {
+      "id": 490,
+      "name": "Cagliari",
+      "ar": "كالياري",
+      "logo": "https://media.api-sports.io/football/teams/490.png"
+     },
+     "points": 13,
+     "gd": 3,
+     "played": 6,
+     "win": 4,
+     "draw": 1,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
       "id": 489,
       "name": "AC Milan",
       "ar": "ميلان",
@@ -3877,26 +3923,26 @@
      "win": 3,
      "draw": 3,
      "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 5,
-     "team": {
-      "id": 490,
-      "name": "Cagliari",
-      "ar": "كالياري",
-      "logo": "https://media.api-sports.io/football/teams/490.png"
-     },
-     "points": 12,
-     "gd": 3,
-     "played": 5,
-     "win": 4,
-     "draw": 0,
-     "lose": 1,
      "description": "Europa League league stage"
     },
     {
      "rank": 6,
+     "team": {
+      "id": 496,
+      "name": "Juventus",
+      "ar": "يوفنتوس",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+     },
+     "points": 11,
+     "gd": 4,
+     "played": 6,
+     "win": 3,
+     "draw": 2,
+     "lose": 1,
+     "description": "Play-offs"
+    },
+    {
+     "rank": 7,
      "team": {
       "id": 895,
       "name": "Como",
@@ -3909,10 +3955,10 @@
      "win": 3,
      "draw": 2,
      "lose": 1,
-     "description": "Play-offs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 492,
       "name": "Napoli",
@@ -3925,22 +3971,6 @@
      "win": 3,
      "draw": 1,
      "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 8,
-     "team": {
-      "id": 496,
-      "name": "Juventus",
-      "ar": "يوفنتوس",
-      "logo": "https://media.api-sports.io/football/teams/496.png"
-     },
-     "points": 10,
-     "gd": 4,
-     "played": 5,
-     "win": 3,
-     "draw": 1,
-     "lose": 1,
      "description": ""
     },
     {
@@ -4628,6 +4658,22 @@
     {
      "rank": 13,
      "team": {
+      "id": 81,
+      "name": "Marseille",
+      "ar": "مارسيليا",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+     },
+     "points": 6,
+     "gd": 1,
+     "played": 6,
+     "win": 2,
+     "draw": 0,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
       "id": 1298,
       "name": "Le Mans",
       "ar": "لومان",
@@ -4642,7 +4688,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 96,
       "name": "Toulouse",
@@ -4658,7 +4704,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 108,
       "name": "Auxerre",
@@ -4671,10 +4717,10 @@
      "win": 2,
      "draw": 0,
      "lose": 4,
-     "description": ""
+     "description": "Relegation Playoffs"
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 110,
       "name": "Estac Troyes",
@@ -4682,26 +4728,10 @@
       "logo": "https://media.api-sports.io/football/teams/110.png"
      },
      "points": 4,
-     "gd": -7,
-     "played": 5,
+     "gd": -9,
+     "played": 6,
      "win": 1,
      "draw": 1,
-     "lose": 3,
-     "description": "Relegation Playoffs"
-    },
-    {
-     "rank": 17,
-     "team": {
-      "id": 81,
-      "name": "Marseille",
-      "ar": "مارسيليا",
-      "logo": "https://media.api-sports.io/football/teams/81.png"
-     },
-     "points": 3,
-     "gd": -1,
-     "played": 5,
-     "win": 1,
-     "draw": 0,
      "lose": 4,
      "description": "Relegation"
     },
@@ -4725,6 +4755,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 19,
  "plan": "Pro"
 }
