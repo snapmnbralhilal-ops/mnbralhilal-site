@@ -358,6 +358,14 @@
   function renderStrip(day) {
     if (!$("strip")) return;
     // الأولوية: مباريات الهلال ثم المباشر ثم الدوري السعودي ثم الباقي
+    // لا تعرض مباريات يوم سابق كشريط مباشر بسبب ملف قديم أو حالة معلقة.
+    const riyadhDay = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Riyadh", year:"numeric", month:"2-digit", day:"2-digit" }).format(new Date());
+    const sourceDay = day?.date || "";
+    if (sourceDay && sourceDay !== riyadhDay) {
+      $("strip").innerHTML = "";
+      $("stripWrap").hidden = true;
+      return;
+    }
     const all = [];
     (day?.groups || []).forEach((g) => g.matches.forEach((m) => all.push([g, m])));
     const score = ([g, m]) => (m.home.id === HILAL_ID || m.away.id === HILAL_ID ? 8 : 0) + (LIVE.includes(m.status) ? 4 : 0) + ((m.league?.country || "") === "Saudi-Arabia" ? 2 : 0);
@@ -365,9 +373,14 @@
     const list = all.slice(0, lim("strip", 14));
     $("stripWrap").hidden = !list.length;
     $("strip").innerHTML = list.map(([g, m]) => {
-      const live = LIVE.includes(m.status), done = DONE.includes(m.status);
+      // حالة "مباشر" لا تكون صحيحة بعد انتهاء نافذة المباراة بزمن طويل.
+      const kickoff = Date.parse(m.date || "");
+      const expired = Number.isFinite(kickoff) && Date.now() - kickoff > 4 * 3600e3;
+      const live = LIVE.includes(m.status) && !expired, done = DONE.includes(m.status);
+      const staleLive = LIVE.includes(m.status) && expired;
       const top = live ? `<span class="pill">مباشر</span><span>${m.elapsed ? ar(m.elapsed) + "'" : ""}</span>`
         : done ? `<span>${esc(arLeague(g.league))}</span><span>انتهت</span>`
+        : staleLive ? `<span>${esc(arLeague(g.league))}</span><span>بانتظار تأكيد النتيجة</span>`
         : `<span>${esc(arLeague(g.league))}</span><span class="num">${fTime.format(new Date(m.date))}</span>`;
       const g0 = m.goals ? (m.goals[0] ?? 0) : "", g1 = m.goals ? (m.goals[1] ?? 0) : "";
       const hl = m.home.id === HILAL_ID || m.away.id === HILAL_ID ? " hl" : "";
