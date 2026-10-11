@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T09:59:46.164Z",
+ "updated": "2026-10-11T10:18:17.331Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1569,8 +1569,8 @@
      {
       "id": 1552185,
       "date": "2026-10-11T13:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Utrecht",
       "league": {
        "id": 88,
@@ -1591,7 +1591,10 @@
        "ar": "Willem II",
        "logo": "https://media.api-sports.io/football/teams/195.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552186,
