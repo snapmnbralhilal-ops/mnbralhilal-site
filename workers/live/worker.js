@@ -211,10 +211,15 @@ async function schedule(env, force = false) {
 /* ============ التحديث المباشر ============ */
 async function api(env, params) {
   const res = await fetch("https://v3.football.api-sports.io/fixtures?" + new URLSearchParams(params), { headers: { "x-apisports-key": env.API_FOOTBALL_KEY } });
-  env._calls = (env._calls || 0) + 1;   // ينحفظ مرة وحدة آخر الدقيقة (حد الكتابة في KV)
+  env._calls = (env._calls || 0) + 1;
+  if (!res.ok) throw new Error("API-Football HTTP " + res.status);
   const body = await res.json();
-  return Array.isArray(body?.response) ? body.response : [];
+  const errors = body?.errors;
+  if (errors && (Array.isArray(errors) ? errors.length : Object.keys(errors).length)) throw new Error("API-Football " + JSON.stringify(errors));
+  if (!Array.isArray(body?.response)) throw new Error("Invalid fixtures response");
+  return body.response;
 }
+
 const isHilal = (f) => f.teams.home.id === HILAL || f.teams.away.id === HILAL;
 function slim(f) {
   return {
@@ -323,8 +328,8 @@ async function pollRoshn(env, activeList) {
         }
       }
       // تعذّر التأكيد: احتياط زمني
-      if (kickMs > 0 && now >= kickMs + 130 * 60e3) { map[idS] = { ...last, status: "FT", elapsed: null }; changed = true; await recordFinished(env, map[idS]); }
-      else map[idS] = last;
+      // Never manufacture FT: only the provider can confirm a final result.
+      map[idS] = last;
       continue;
     }
   }
