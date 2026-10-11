@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T13:58:16.170Z",
+ "updated": "2026-10-11T14:14:32.561Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1603038,
       "date": "2026-10-11T16:40:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 35,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -879,8 +879,8 @@
      {
       "id": 1557421,
       "date": "2026-10-11T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "London",
       "league": {
        "id": 39,
@@ -909,8 +909,8 @@
      {
       "id": 1557422,
       "date": "2026-10-11T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Hull",
       "league": {
        "id": 39,
@@ -932,7 +932,7 @@
        "logo": "https://media.api-sports.io/football/teams/45.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1125,8 +1125,8 @@
      {
       "id": 1550142,
       "date": "2026-10-11T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1149,14 +1149,14 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      },
      {
       "id": 1550143,
       "date": "2026-10-11T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1249,7 +1249,7 @@
       "id": 1575183,
       "date": "2026-10-11T16:30:00+03:00",
       "status": "1H",
-      "elapsed": 26,
+      "elapsed": 42,
       "venue": "Cologne",
       "league": {
        "id": 78,
@@ -1272,7 +1272,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
@@ -1314,8 +1314,8 @@
      {
       "id": 1552779,
       "date": "2026-10-11T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Nice",
       "league": {
        "id": 61,
@@ -1407,8 +1407,8 @@
      {
       "id": 1612249,
       "date": "2026-10-11T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Ismailia",
       "league": {
        "id": 233,
@@ -1429,7 +1429,10 @@
        "ar": "AL Masry",
        "logo": "https://media.api-sports.io/football/teams/1031.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612250,
@@ -1627,7 +1630,7 @@
       "id": 1552186,
       "date": "2026-10-11T15:30:00+03:00",
       "status": "2H",
-      "elapsed": 69,
+      "elapsed": 86,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1657,7 +1660,7 @@
       "id": 1552187,
       "date": "2026-10-11T15:30:00+03:00",
       "status": "2H",
-      "elapsed": 66,
+      "elapsed": 84,
       "venue": "Zwolle",
       "league": {
        "id": 88,
@@ -1752,8 +1755,8 @@
      {
       "id": 1584425,
       "date": "2026-10-11T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Gaziantep",
       "league": {
        "id": 203,
