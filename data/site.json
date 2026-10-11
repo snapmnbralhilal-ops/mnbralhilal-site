@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T17:25:49.192Z",
+ "updated": "2026-10-11T17:42:13.843Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1038,8 +1038,8 @@
      {
       "id": 1570405,
       "date": "2026-10-11T19:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -1195,7 +1195,7 @@
       "id": 1550145,
       "date": "2026-10-11T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 60,
+      "elapsed": 76,
       "venue": "Reggio Emilia",
       "league": {
        "id": 135,
@@ -1217,8 +1217,8 @@
        "logo": "https://media.api-sports.io/football/teams/489.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1456,7 +1456,7 @@
       "id": 1612250,
       "date": "2026-10-11T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 24,
+      "elapsed": 40,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1479,7 +1479,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1561,7 +1561,7 @@
       "id": 1575511,
       "date": "2026-10-11T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 23,
+      "elapsed": 40,
       "venue": "Lisbon",
       "league": {
        "id": 94,
@@ -1583,7 +1583,7 @@
        "logo": "https://media.api-sports.io/football/teams/224.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1816,7 +1816,7 @@
       "id": 1584422,
       "date": "2026-10-11T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 65,
+      "elapsed": 82,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -4392,6 +4392,22 @@
     {
      "rank": 6,
      "team": {
+      "id": 548,
+      "name": "Real Sociedad",
+      "ar": "ريال سوسيداد",
+      "logo": "https://media.api-sports.io/football/teams/548.png"
+     },
+     "points": 13,
+     "gd": -3,
+     "played": 8,
+     "win": 4,
+     "draw": 1,
+     "lose": 3,
+     "description": "ECL Playoffs"
+    },
+    {
+     "rank": 7,
+     "team": {
       "id": 542,
       "name": "Alaves",
       "ar": "ألافيس",
@@ -4403,10 +4419,10 @@
      "win": 3,
      "draw": 2,
      "lose": 3,
-     "description": "ECL Playoffs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 544,
       "name": "Deportivo La Coruna",
@@ -4414,27 +4430,11 @@
       "logo": "https://media.api-sports.io/football/teams/544.png"
      },
      "points": 10,
-     "gd": 2,
-     "played": 7,
+     "gd": 1,
+     "played": 8,
      "win": 2,
      "draw": 4,
-     "lose": 1,
-     "description": ""
-    },
-    {
-     "rank": 8,
-     "team": {
-      "id": 548,
-      "name": "Real Sociedad",
-      "ar": "ريال سوسيداد",
-      "logo": "https://media.api-sports.io/football/teams/548.png"
-     },
-     "points": 10,
-     "gd": -4,
-     "played": 7,
-     "win": 3,
-     "draw": 1,
-     "lose": 3,
+     "lose": 2,
      "description": ""
     },
     {
