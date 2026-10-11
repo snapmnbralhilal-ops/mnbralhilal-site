@@ -49,5 +49,11 @@ jobs:
           const worker = readFileSync('workers/live/worker.js', 'utf8');
           assert.ok(worker.includes('url.pathname === "/fixture"'), 'Match center endpoint must exist');
           assert.ok(worker.includes('fixtures/lineups'), 'Lineups must be requested');
+          assert.ok(!worker.includes('status: "FT", elapsed: null'), 'Never fabricate FT on timeout');
+          assert.ok(worker.includes('if (!res.ok) throw new Error("API-Football HTTP "'), 'Reject upstream HTTP failures');
+          assert.ok(worker.includes('Invalid fixtures response'), 'Reject malformed upstream data');
+          assert.ok(worker.includes('stale: LIVE.includes(overlay.status)'), 'Expose freshness on live match details');
+          const fixture = readFileSync('assets/fixture.js', 'utf8');
+          assert.ok(fixture.includes('تحديث المباراة متأخر'), 'Warn when live data is stale');
           console.log('Regression guards passed');
           NODE
