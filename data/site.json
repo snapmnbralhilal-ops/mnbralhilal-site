@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T08:53:17.415Z",
+ "updated": "2026-10-11T09:09:34.745Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -813,7 +813,7 @@
      {
       "id": 1603035,
       "date": "2026-10-11T18:25:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Khamis Mushait",
       "league": {
