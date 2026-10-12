@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:23:56.331Z",
+ "updated": "2026-10-12T21:44:27.531Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2740,11 +2740,11 @@
       "logo": "https://media.api-sports.io/football/teams/34.png"
      },
      "points": 8,
-     "gd": 0,
-     "played": 5,
+     "gd": -3,
+     "played": 6,
      "win": 2,
      "draw": 2,
-     "lose": 1,
+     "lose": 2,
      "description": ""
     },
     {
@@ -2782,6 +2782,22 @@
     {
      "rank": 14,
      "team": {
+      "id": 1346,
+      "name": "Coventry",
+      "ar": "كوفنتري",
+      "logo": "https://media.api-sports.io/football/teams/1346.png"
+     },
+     "points": 6,
+     "gd": -6,
+     "played": 6,
+     "win": 2,
+     "draw": 0,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 15,
+     "team": {
       "id": 65,
       "name": "Nottingham Forest",
       "ar": "نوتنغهام فورست",
@@ -2796,7 +2812,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 66,
       "name": "Aston Villa",
@@ -2812,7 +2828,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 746,
       "name": "Sunderland",
@@ -2828,7 +2844,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 35,
       "name": "Bournemouth",
@@ -2841,10 +2857,10 @@
      "win": 0,
      "draw": 3,
      "lose": 3,
-     "description": ""
+     "description": "Relegation - Championship"
     },
     {
-     "rank": 18,
+     "rank": 19,
      "team": {
       "id": 47,
       "name": "Tottenham",
@@ -2857,22 +2873,6 @@
      "win": 0,
      "draw": 3,
      "lose": 3,
-     "description": "Relegation - Championship"
-    },
-    {
-     "rank": 19,
-     "team": {
-      "id": 1346,
-      "name": "Coventry",
-      "ar": "كوفنتري",
-      "logo": "https://media.api-sports.io/football/teams/1346.png"
-     },
-     "points": 3,
-     "gd": -9,
-     "played": 5,
-     "win": 1,
-     "draw": 0,
-     "lose": 4,
      "description": "Relegation - Championship"
     },
     {
@@ -3400,6 +3400,22 @@
     {
      "rank": 12,
      "team": {
+      "id": 503,
+      "name": "Torino",
+      "ar": "تورينو",
+      "logo": "https://media.api-sports.io/football/teams/503.png"
+     },
+     "points": 7,
+     "gd": -2,
+     "played": 6,
+     "win": 2,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
       "id": 867,
       "name": "Lecce",
       "ar": "ليتشي",
@@ -3414,7 +3430,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 500,
       "name": "Bologna",
@@ -3430,7 +3446,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 494,
       "name": "Udinese",
@@ -3438,27 +3454,11 @@
       "logo": "https://media.api-sports.io/football/teams/494.png"
      },
      "points": 4,
-     "gd": -3,
-     "played": 5,
+     "gd": -4,
+     "played": 6,
      "win": 1,
      "draw": 1,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 503,
-      "name": "Torino",
-      "ar": "تورينو",
-      "logo": "https://media.api-sports.io/football/teams/503.png"
-     },
-     "points": 4,
-     "gd": -3,
-     "played": 5,
-     "win": 1,
-     "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
