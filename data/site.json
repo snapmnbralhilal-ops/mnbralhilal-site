@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T18:22:59.938Z",
+ "updated": "2026-10-12T18:49:36.150Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -877,7 +877,7 @@
       "id": 1629930,
       "date": "2026-10-12T21:15:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 34,
       "venue": "Al Rayyan",
       "league": {
        "id": 17,
@@ -906,7 +906,7 @@
      {
       "id": 1629931,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Riyadh",
       "league": {
@@ -934,7 +934,7 @@
       "id": 1629932,
       "date": "2026-10-12T21:15:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 34,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -957,7 +957,7 @@
       },
       "goals": [
        0,
-       0
+       3
       ]
      }
     ]
@@ -1033,7 +1033,7 @@
       "id": 1604025,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 59,
+      "elapsed": 85,
       "venue": "Mecca",
       "league": {
        "id": 308,
@@ -1055,8 +1055,8 @@
        "logo": "https://media.api-sports.io/football/teams/2942.png"
       },
       "goals": [
-       3,
-       0
+       5,
+       1
       ]
      }
     ]
@@ -1173,8 +1173,8 @@
      {
       "id": 1550146,
       "date": "2026-10-12T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1195,7 +1195,10 @@
        "ar": "أودينيزي",
        "logo": "https://media.api-sports.io/football/teams/494.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1270,7 +1273,7 @@
       "id": 1612253,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 60,
+      "elapsed": 87,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1292,7 +1295,7 @@
        "logo": "https://media.api-sports.io/football/teams/14651.png"
       },
       "goals": [
-       3,
+       4,
        1
       ]
      },
@@ -1300,7 +1303,7 @@
       "id": 1612254,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 61,
+      "elapsed": 88,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1411,7 +1414,7 @@
       "id": 1584423,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 60,
+      "elapsed": 87,
       "venue": "Esenyurt",
       "league": {
        "id": 203,
@@ -1434,7 +1437,7 @@
       },
       "goals": [
        0,
-       3
+       4
       ]
      }
     ]
