@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T20:00:28.320Z",
+ "updated": "2026-10-12T20:26:33.787Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -876,8 +876,8 @@
      {
       "id": 1629930,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "2H",
-      "elapsed": 80,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Al Rayyan",
       "league": {
        "id": 17,
@@ -906,8 +906,8 @@
      {
       "id": 1629931,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Riyadh",
       "league": {
        "id": 17,
@@ -930,14 +930,14 @@
       },
       "goals": [
        2,
-       1
+       0
       ]
      },
      {
       "id": 1629932,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "2H",
-      "elapsed": 85,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -959,7 +959,7 @@
        "logo": "https://media.api-sports.io/football/teams/2865.png"
       },
       "goals": [
-       0,
+       1,
        4
       ]
      }
@@ -1074,8 +1074,8 @@
      {
       "id": 1557420,
       "date": "2026-10-12T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 69,
       "venue": "Coventry",
       "league": {
        "id": 39,
@@ -1097,7 +1097,7 @@
        "logo": "https://media.api-sports.io/football/teams/34.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -1113,8 +1113,8 @@
      {
       "id": 1570407,
       "date": "2026-10-12T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1136,8 +1136,8 @@
        "logo": "https://media.api-sports.io/football/teams/536.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      }
     ]
@@ -1183,7 +1183,7 @@
       "id": 1550146,
       "date": "2026-10-12T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 81,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1205,7 +1205,7 @@
        "logo": "https://media.api-sports.io/football/teams/494.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      }
@@ -1350,8 +1350,8 @@
      {
       "id": 1644210,
       "date": "2026-10-12T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 26,
       "venue": "Agadir",
       "league": {
        "id": 200,
@@ -1372,7 +1372,10 @@
        "ar": "FAR Rabat",
        "logo": "https://media.api-sports.io/football/teams/969.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -1386,8 +1389,8 @@
      {
       "id": 1575514,
       "date": "2026-10-12T22:15:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Vila Nova de Famalicao",
       "league": {
        "id": 94,
