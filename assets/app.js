@@ -673,16 +673,12 @@
     if (!base) { markSource("liveToday", { ok: false }); return; }
     const tick = async () => {
       try {
-        // Saudi league: fetch provider-backed snapshot every 15 seconds, not KV.
-        const fresh = await fetch(base + "/roshn-now", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null);
-        if (fresh?.matches) mergeLive(fresh.matches, fresh.at);
-        const r = await fetch(base + "/live-today", { cache: "no-store" });
+        // Every league uses one authoritative provider snapshot, not stale KV.
+        const r = await fetch(base + "/today-now?t=" + Date.now(), { cache: "no-store" });
         if (!r.ok) { markSource("liveToday", { ok: false }); return; }
         const j = await r.json();
-        if (j && j.matches) {
-          // A stale global KV must not overwrite the more recent Roshn provider feed.
-          const other = Object.fromEntries(Object.entries(j.matches).filter(([id, m]) => Number(m.league?.id) !== 307));
-          mergeLive(other, j.at);
+        if (j?.matches) {
+          mergeLive(j.matches, j.at);
           markSource("liveToday", { ok: true, at: j.at || Date.now() });
         } else {
           markSource("liveToday", { ok: false });
