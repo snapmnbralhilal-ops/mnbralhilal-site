@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T20:26:33.787Z",
+ "updated": "2026-10-12T20:47:34.055Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -907,7 +907,7 @@
       "id": 1629931,
       "date": "2026-10-12T21:15:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 70,
       "venue": "Riyadh",
       "league": {
        "id": 17,
@@ -930,7 +930,7 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      },
      {
@@ -1075,7 +1075,7 @@
       "id": 1557420,
       "date": "2026-10-12T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 69,
+      "elapsed": 90,
       "venue": "Coventry",
       "league": {
        "id": 39,
@@ -1097,8 +1097,8 @@
        "logo": "https://media.api-sports.io/football/teams/34.png"
       },
       "goals": [
-       2,
-       0
+       4,
+       1
       ]
      }
     ]
@@ -1114,7 +1114,7 @@
       "id": 1570407,
       "date": "2026-10-12T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 67,
+      "elapsed": 88,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1182,8 +1182,8 @@
      {
       "id": 1550146,
       "date": "2026-10-12T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1351,7 +1351,7 @@
       "id": 1644210,
       "date": "2026-10-12T23:00:00+03:00",
       "status": "1H",
-      "elapsed": 26,
+      "elapsed": 45,
       "venue": "Agadir",
       "league": {
        "id": 200,
@@ -1373,7 +1373,7 @@
        "logo": "https://media.api-sports.io/football/teams/969.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      }
@@ -1390,7 +1390,7 @@
       "id": 1575514,
       "date": "2026-10-12T22:15:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 71,
       "venue": "Vila Nova de Famalicao",
       "league": {
        "id": 94,
@@ -1413,7 +1413,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      }
     ]
