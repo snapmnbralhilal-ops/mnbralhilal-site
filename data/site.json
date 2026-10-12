@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T22:18:16.612Z",
+ "updated": "2026-10-12T22:37:03.323Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3007,11 +3007,11 @@
       "ar": "إشبيلية",
       "logo": "https://media.api-sports.io/football/teams/536.png"
      },
-     "points": 13,
+     "points": 14,
      "gd": 1,
-     "played": 7,
+     "played": 8,
      "win": 4,
-     "draw": 1,
+     "draw": 2,
      "lose": 2,
      "description": "Europa League league stage"
     },
@@ -3194,6 +3194,22 @@
     {
      "rank": 17,
      "team": {
+      "id": 539,
+      "name": "Levante",
+      "ar": "ليفانتي",
+      "logo": "https://media.api-sports.io/football/teams/539.png"
+     },
+     "points": 6,
+     "gd": -4,
+     "played": 7,
+     "win": 1,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 18,
+     "team": {
       "id": 797,
       "name": "Elche",
       "ar": "إلتشي",
@@ -3205,22 +3221,6 @@
      "win": 1,
      "draw": 3,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 18,
-     "team": {
-      "id": 539,
-      "name": "Levante",
-      "ar": "ليفانتي",
-      "logo": "https://media.api-sports.io/football/teams/539.png"
-     },
-     "points": 5,
-     "gd": -4,
-     "played": 6,
-     "win": 1,
-     "draw": 2,
-     "lose": 3,
      "description": "Relegation"
     },
     {
@@ -4170,6 +4170,6 @@
   }
  },
  "errors": [],
- "requests": 17,
+ "requests": 16,
  "plan": "Pro"
 }
