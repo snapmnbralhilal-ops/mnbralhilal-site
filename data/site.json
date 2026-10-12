@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T17:26:23.296Z",
+ "updated": "2026-10-12T17:45:44.322Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -817,7 +817,7 @@
       "id": 1629928,
       "date": "2026-10-12T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 59,
+      "elapsed": 79,
       "venue": "Dubai",
       "league": {
        "id": 17,
@@ -847,7 +847,7 @@
       "id": 1629929,
       "date": "2026-10-12T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 67,
+      "elapsed": 86,
       "venue": "Muscat",
       "league": {
        "id": 17,
@@ -1027,7 +1027,7 @@
       "id": 1604025,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 25,
+      "elapsed": 45,
       "venue": "Mecca",
       "league": {
        "id": 308,
@@ -1049,7 +1049,7 @@
        "logo": "https://media.api-sports.io/football/teams/2942.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -1137,8 +1137,8 @@
      {
       "id": 1550137,
       "date": "2026-10-12T19:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Bergamo",
       "league": {
        "id": 135,
@@ -1264,7 +1264,7 @@
       "id": 1612253,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 26,
+      "elapsed": 45,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1286,7 +1286,7 @@
        "logo": "https://media.api-sports.io/football/teams/14651.png"
       },
       "goals": [
-       2,
+       3,
        1
       ]
      },
@@ -1294,7 +1294,7 @@
       "id": 1612254,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 26,
+      "elapsed": 45,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1316,7 +1316,7 @@
        "logo": "https://media.api-sports.io/football/teams/13819.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1405,8 +1405,8 @@
       "id": 1584423,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 24,
-      "venue": "Istanbul",
+      "elapsed": 44,
+      "venue": "Esenyurt",
       "league": {
        "id": 203,
        "name": "Süper Lig",
@@ -4833,6 +4833,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
