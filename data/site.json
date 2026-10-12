@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T19:05:51.517Z",
+ "updated": "2026-10-12T19:25:10.294Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -876,7 +876,7 @@
      {
       "id": 1629930,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Al Rayyan",
       "league": {
@@ -906,8 +906,8 @@
      {
       "id": 1629931,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "PST",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Riyadh",
       "league": {
        "id": 17,
@@ -928,13 +928,16 @@
        "ar": "Neftchi",
        "logo": "https://media.api-sports.io/football/teams/4217.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629932,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -957,7 +960,7 @@
       },
       "goals": [
        0,
-       4
+       5
       ]
      }
     ]
@@ -1072,7 +1075,7 @@
       "id": 1557420,
       "date": "2026-10-12T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 25,
       "venue": "Coventry",
       "league": {
        "id": 39,
@@ -1094,7 +1097,7 @@
        "logo": "https://media.api-sports.io/football/teams/34.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1111,7 +1114,7 @@
       "id": 1570407,
       "date": "2026-10-12T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 23,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1134,7 +1137,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1180,7 +1183,7 @@
       "id": 1550146,
       "date": "2026-10-12T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 20,
+      "elapsed": 39,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1202,7 +1205,7 @@
        "logo": "https://media.api-sports.io/football/teams/494.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1383,8 +1386,8 @@
      {
       "id": 1575514,
       "date": "2026-10-12T22:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Vila Nova de Famalicao",
       "league": {
        "id": 94,
@@ -1405,7 +1408,10 @@
        "ar": "Alverca",
        "logo": "https://media.api-sports.io/football/teams/4724.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
