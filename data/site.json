@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T18:49:36.150Z",
+ "updated": "2026-10-12T19:05:51.517Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -877,7 +877,7 @@
       "id": 1629930,
       "date": "2026-10-12T21:15:00+03:00",
       "status": "1H",
-      "elapsed": 34,
+      "elapsed": 45,
       "venue": "Al Rayyan",
       "league": {
        "id": 17,
@@ -900,7 +900,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -933,8 +933,8 @@
      {
       "id": 1629932,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -957,7 +957,7 @@
       },
       "goals": [
        0,
-       3
+       4
       ]
      }
     ]
@@ -1032,8 +1032,8 @@
      {
       "id": 1604025,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 85,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Mecca",
       "league": {
        "id": 308,
@@ -1055,7 +1055,7 @@
        "logo": "https://media.api-sports.io/football/teams/2942.png"
       },
       "goals": [
-       5,
+       6,
        1
       ]
      }
@@ -1071,8 +1071,8 @@
      {
       "id": 1557420,
       "date": "2026-10-12T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 6,
       "venue": "Coventry",
       "league": {
        "id": 39,
@@ -1093,7 +1093,10 @@
        "ar": "نيوكاسل",
        "logo": "https://media.api-sports.io/football/teams/34.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1107,8 +1110,8 @@
      {
       "id": 1570407,
       "date": "2026-10-12T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1129,7 +1132,10 @@
        "ar": "إشبيلية",
        "logo": "https://media.api-sports.io/football/teams/536.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1174,7 +1180,7 @@
       "id": 1550146,
       "date": "2026-10-12T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 20,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1272,8 +1278,8 @@
      {
       "id": 1612253,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 87,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1302,8 +1308,8 @@
      {
       "id": 1612254,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1413,8 +1419,8 @@
      {
       "id": 1584423,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 87,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Esenyurt",
       "league": {
        "id": 203,
