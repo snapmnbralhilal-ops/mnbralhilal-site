@@ -599,6 +599,15 @@
         const isHilal = m.home.id === HILAL_TEAM_ID || m.away.id === HILAL_TEAM_ID;
         if (isHilal && LIVE_M_AT > version) continue;
         if (live) {
+          // Site JSON can already contain a confirmed FT or HT while the live KV
+          // still carries an earlier snapshot. Never regress a match phase.
+          const stage = { NS:0, TBD:0, "1H":1, HT:2, "2H":3, ET:4, BT:4, P:5, FT:6, AET:6, PEN:6, AWD:6, WO:6 };
+          const currentStage = stage[m.status] ?? -1;
+          const incomingStage = stage[live.status] ?? -1;
+          if (DONE.includes(m.status) && !DONE.includes(live.status)) continue;
+          if (currentStage > incomingStage && incomingStage >= 0) continue;
+          if (currentStage === incomingStage && LIVE.includes(m.status) && LIVE.includes(live.status)
+              && Number(live.elapsed || 0) < Number(m.elapsed || 0) - 2) continue;
           const previousVersion = LIVE_MATCH_VERSIONS.get(String(m.id)) || 0;
           if (version < previousVersion) continue;
           // عند رجوع الأهداف للخلف، نحتاج تأكيد (VAR أو خطأ عابر).
