@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:02:47.918Z",
+ "updated": "2026-10-12T21:23:56.331Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1719,6 +1719,36 @@
       ]
      },
      {
+      "id": 1629931,
+      "date": "2026-10-12T21:15:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Riyadh",
+      "league": {
+       "id": 17,
+       "name": "AFC Champions League Elite",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/17.png",
+       "round": "League Phase - 2"
+      },
+      "home": {
+       "id": 2939,
+       "name": "Al-Nassr",
+       "ar": "النصر",
+       "logo": "https://media.api-sports.io/football/teams/2939.png"
+      },
+      "away": {
+       "id": 4217,
+       "name": "Neftchi",
+       "ar": "Neftchi",
+       "logo": "https://media.api-sports.io/football/teams/4217.png"
+      },
+      "goals": [
+       3,
+       1
+      ]
+     },
+     {
       "id": 1629932,
       "date": "2026-10-12T21:15:00+03:00",
       "status": "FT",
@@ -1884,6 +1914,45 @@
       "goals": [
        4,
        1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 140,
+     "name": "La Liga",
+     "logo": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    "matches": [
+     {
+      "id": 1570407,
+      "date": "2026-10-12T22:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Valencia",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 8"
+      },
+      "home": {
+       "id": 539,
+       "name": "Levante",
+       "ar": "ليفانتي",
+       "logo": "https://media.api-sports.io/football/teams/539.png"
+      },
+      "away": {
+       "id": 536,
+       "name": "Sevilla",
+       "ar": "إشبيلية",
+       "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "goals": [
+       3,
+       3
       ]
      }
     ]
@@ -2082,6 +2151,45 @@
       "goals": [
        1,
        0
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 94,
+     "name": "Primeira Liga",
+     "logo": "https://media.api-sports.io/football/leagues/94.png"
+    },
+    "matches": [
+     {
+      "id": 1575514,
+      "date": "2026-10-12T22:15:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Vila Nova de Famalicao",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 8"
+      },
+      "home": {
+       "id": 242,
+       "name": "Famalicao",
+       "ar": "Famalicao",
+       "logo": "https://media.api-sports.io/football/teams/242.png"
+      },
+      "away": {
+       "id": 4724,
+       "name": "Alverca",
+       "ar": "Alverca",
+       "logo": "https://media.api-sports.io/football/teams/4724.png"
+      },
+      "goals": [
+       1,
+       4
       ]
      }
     ]
