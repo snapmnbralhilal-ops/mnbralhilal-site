@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:44:27.531Z",
+ "updated": "2026-10-12T21:59:28.208Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2151,6 +2151,45 @@
       "goals": [
        1,
        0
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 200,
+     "name": "Botola Pro",
+     "logo": "https://media.api-sports.io/football/leagues/200.png"
+    },
+    "matches": [
+     {
+      "id": 1644210,
+      "date": "2026-10-12T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Agadir",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 4"
+      },
+      "home": {
+       "id": 973,
+       "name": "Hassania Agadir",
+       "ar": "Hassania Agadir",
+       "logo": "https://media.api-sports.io/football/teams/973.png"
+      },
+      "away": {
+       "id": 969,
+       "name": "FAR Rabat",
+       "ar": "FAR Rabat",
+       "logo": "https://media.api-sports.io/football/teams/969.png"
+      },
+      "goals": [
+       2,
+       2
       ]
      }
     ]
