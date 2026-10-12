@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T13:38:57.572Z",
+ "updated": "2026-10-12T14:05:22.032Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1629927,
       "date": "2026-10-12T16:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Tashkent",
       "league": {
        "id": 17,
@@ -808,7 +808,10 @@
        "ar": "القادسية",
        "logo": "https://media.api-sports.io/football/teams/2933.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629928,
@@ -1182,8 +1185,8 @@
      {
       "id": 1612251,
       "date": "2026-10-12T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1204,13 +1207,16 @@
        "ar": "Masr",
        "logo": "https://media.api-sports.io/football/teams/7520.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612252,
       "date": "2026-10-12T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1231,7 +1237,10 @@
        "ar": "Enppi",
        "logo": "https://media.api-sports.io/football/teams/1037.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612253,
