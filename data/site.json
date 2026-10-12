@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T17:01:41.493Z",
+ "updated": "2026-10-12T17:26:23.296Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1629928,
       "date": "2026-10-12T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Dubai",
       "league": {
        "id": 17,
@@ -840,14 +840,14 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
       "id": 1629929,
       "date": "2026-10-12T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Muscat",
       "league": {
        "id": 17,
@@ -996,8 +996,8 @@
      {
       "id": 1604021,
       "date": "2026-10-12T18:15:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1027,7 +1027,7 @@
       "id": 1604025,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 25,
       "venue": "Mecca",
       "league": {
        "id": 308,
@@ -1049,7 +1049,7 @@
        "logo": "https://media.api-sports.io/football/teams/2942.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1137,8 +1137,8 @@
      {
       "id": 1550137,
       "date": "2026-10-12T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bergamo",
       "league": {
        "id": 135,
@@ -1160,8 +1160,8 @@
        "logo": "https://media.api-sports.io/football/teams/517.png"
       },
       "goals": [
-       2,
-       0
+       3,
+       1
       ]
      },
      {
@@ -1264,7 +1264,7 @@
       "id": 1612253,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 26,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1286,15 +1286,15 @@
        "logo": "https://media.api-sports.io/football/teams/14651.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      },
      {
       "id": 1612254,
       "date": "2026-10-12T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 26,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1404,8 +1404,8 @@
      {
       "id": 1584423,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1426,7 +1426,10 @@
        "ar": "Göztepe",
        "logo": "https://media.api-sports.io/football/teams/994.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
