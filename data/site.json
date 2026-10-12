@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T17:59:55.153Z",
+ "updated": "2026-10-12T18:22:59.938Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,7 +816,7 @@
      {
       "id": 1629928,
       "date": "2026-10-12T19:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Dubai",
       "league": {
@@ -876,8 +876,8 @@
      {
       "id": 1629930,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Al Rayyan",
       "league": {
        "id": 17,
@@ -898,7 +898,10 @@
        "ar": "استقلال",
        "logo": "https://media.api-sports.io/football/teams/2733.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629931,
@@ -930,8 +933,8 @@
      {
       "id": 1629932,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -952,7 +955,10 @@
        "ar": "العين",
        "logo": "https://media.api-sports.io/football/teams/2865.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1026,8 +1032,8 @@
      {
       "id": 1604025,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Mecca",
       "league": {
        "id": 308,
@@ -1137,8 +1143,8 @@
      {
       "id": 1550137,
       "date": "2026-10-12T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bergamo",
       "league": {
        "id": 135,
@@ -1263,8 +1269,8 @@
      {
       "id": 1612253,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1293,8 +1299,8 @@
      {
       "id": 1612254,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1404,8 +1410,8 @@
      {
       "id": 1584423,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Esenyurt",
       "league": {
        "id": 203,
@@ -1428,7 +1434,7 @@
       },
       "goals": [
        0,
-       1
+       3
       ]
      }
     ]
@@ -4833,6 +4839,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 17,
  "plan": "Pro"
 }
