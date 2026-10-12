@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T17:45:44.322Z",
+ "updated": "2026-10-12T17:59:55.153Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -817,7 +817,7 @@
       "id": 1629928,
       "date": "2026-10-12T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 79,
+      "elapsed": 90,
       "venue": "Dubai",
       "league": {
        "id": 17,
@@ -840,14 +840,14 @@
       },
       "goals": [
        1,
-       2
+       3
       ]
      },
      {
       "id": 1629929,
       "date": "2026-10-12T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Muscat",
       "league": {
        "id": 17,
@@ -1026,7 +1026,7 @@
      {
       "id": 1604025,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Mecca",
       "league": {
@@ -1049,7 +1049,7 @@
        "logo": "https://media.api-sports.io/football/teams/2942.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      }
@@ -1138,7 +1138,7 @@
       "id": 1550137,
       "date": "2026-10-12T19:30:00+03:00",
       "status": "2H",
-      "elapsed": 58,
+      "elapsed": 72,
       "venue": "Bergamo",
       "league": {
        "id": 135,
@@ -1263,7 +1263,7 @@
      {
       "id": 1612253,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Cairo",
       "league": {
@@ -1293,7 +1293,7 @@
      {
       "id": 1612254,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Alexandria",
       "league": {
@@ -1404,8 +1404,8 @@
      {
       "id": 1584423,
       "date": "2026-10-12T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Esenyurt",
       "league": {
        "id": 203,
