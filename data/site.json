@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T19:25:10.294Z",
+ "updated": "2026-10-12T19:43:57.373Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -876,8 +876,8 @@
      {
       "id": 1629930,
       "date": "2026-10-12T21:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Al Rayyan",
       "league": {
        "id": 17,
@@ -899,15 +899,15 @@
        "logo": "https://media.api-sports.io/football/teams/2733.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      },
      {
       "id": 1629931,
       "date": "2026-10-12T21:15:00+03:00",
       "status": "1H",
-      "elapsed": 11,
+      "elapsed": 30,
       "venue": "Riyadh",
       "league": {
        "id": 17,
@@ -937,7 +937,7 @@
       "id": 1629932,
       "date": "2026-10-12T21:15:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 69,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -960,7 +960,7 @@
       },
       "goals": [
        0,
-       5
+       4
       ]
      }
     ]
@@ -1075,7 +1075,7 @@
       "id": 1557420,
       "date": "2026-10-12T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 25,
+      "elapsed": 44,
       "venue": "Coventry",
       "league": {
        "id": 39,
@@ -1114,7 +1114,7 @@
       "id": 1570407,
       "date": "2026-10-12T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 23,
+      "elapsed": 42,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1182,8 +1182,8 @@
      {
       "id": 1550146,
       "date": "2026-10-12T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1206,7 +1206,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1387,7 +1387,7 @@
       "id": 1575514,
       "date": "2026-10-12T22:15:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 28,
       "venue": "Vila Nova de Famalicao",
       "league": {
        "id": 94,
@@ -1410,7 +1410,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -4091,6 +4091,22 @@
     {
      "rank": 10,
      "team": {
+      "id": 499,
+      "name": "Atalanta",
+      "ar": "أتالانتا",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+     },
+     "points": 9,
+     "gd": 0,
+     "played": 6,
+     "win": 3,
+     "draw": 0,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
       "id": 488,
       "name": "Sassuolo",
       "ar": "ساسولو",
@@ -4102,22 +4118,6 @@
      "win": 2,
      "draw": 2,
      "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 11,
-     "team": {
-      "id": 499,
-      "name": "Atalanta",
-      "ar": "أتالانتا",
-      "logo": "https://media.api-sports.io/football/teams/499.png"
-     },
-     "points": 6,
-     "gd": -2,
-     "played": 5,
-     "win": 2,
-     "draw": 0,
-     "lose": 3,
      "description": ""
     },
     {
@@ -4257,11 +4257,11 @@
       "logo": "https://media.api-sports.io/football/teams/517.png"
      },
      "points": 0,
-     "gd": -9,
-     "played": 5,
+     "gd": -11,
+     "played": 6,
      "win": 0,
      "draw": 0,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation"
     }
    ]
