@@ -404,20 +404,31 @@
       return `<tr class="${cls}${r.team.id === HILAL_ID ? " hl" : ""}"><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num">${r.win}</td><td class="num">${r.draw}</td><td class="num">${r.lose}</td><td class="num" ><bdi dir="ltr">${r.gd > 0 ? "+" : ""}${r.gd}</bdi></td><td class="pts">${r.points}</td></tr>`;
     }).join("") : `<tr><td colspan="8" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
 
-    // الدوريات الأوروبية (صفحة الترتيب): تبويبات
-    if ($("euro")) {
-      const L = [["epl", "الإنجليزي"], ["laliga", "الإسباني"], ["seriea", "الإيطالي"], ["bundesliga", "الألماني"], ["ligue1", "الفرنسي"], ["ucl", "أبطال أوروبا"], ["acle", "أبطال آسيا للنخبة"]];
-      let requested = location.hash === "#ucl" ? "ucl" : location.hash === "#acle" ? "acle" : null;
-      let cur = requested || (renderTables.euro && L.some(([k]) => k === renderTables.euro) ? renderTables.euro : L[0]?.[0]);
+    // الدوريات المحلية منفصلة تماماً عن البطولات القارية.
+    const renderRankingTabs = (bodyId, tabsId, leagues, selectionKey, hashPrefix) => {
+      if (!$(bodyId) || !$(tabsId)) return;
+      const hash = location.hash.slice(1);
+      let cur = leagues.some(([k]) => k === hash) ? hash :
+        (renderTables[selectionKey] && leagues.some(([k]) => k === renderTables[selectionKey])
+          ? renderTables[selectionKey] : leagues[0][0]);
       const draw = () => {
-        $("euroTabs").innerHTML = L.map(([k, l]) => `<button type="button" role="tab" aria-selected="${k === cur}" data-eu="${k}">${l}</button>`).join("");
-        $("euroTabs").querySelectorAll("[data-eu]").forEach((b) => (b.onclick = () => { cur = renderTables.euro = b.dataset.eu; if (cur === "ucl" || cur === "acle") history.replaceState(null, "", "#" + cur); draw(); }));
+        $(tabsId).innerHTML = leagues.map(([k, label]) =>
+          `<button type="button" role="tab" aria-selected="${k === cur}" data-ranking="${k}">${label}</button>`).join("");
+        $(tabsId).querySelectorAll("[data-ranking]").forEach(b => b.onclick = () => {
+          cur = renderTables[selectionKey] = b.dataset.ranking;
+          history.replaceState(null, "", "#" + cur);
+          draw();
+        });
         const rows = st?.[cur]?.rows || [];
-        $("euro").innerHTML = rows.length ? rows.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num" ><bdi dir="ltr">${r.gd > 0 ? "+" : ""}${r.gd}</bdi></td><td class="pts">${r.points}</td></tr>`).join("")
+        $(bodyId).innerHTML = rows.length ? rows.map(r =>
+          `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num"><bdi dir="ltr">${r.gd > 0 ? "+" : ""}${r.gd}</bdi></td><td class="pts">${r.points}</td></tr>`).join("")
           : `<tr><td colspan="5" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
       };
       draw();
-    }
+    };
+    renderRankingTabs("euro", "euroTabs", [["epl", "الإنجليزي"], ["laliga", "الإسباني"], ["seriea", "الإيطالي"], ["bundesliga", "الألماني"], ["ligue1", "الفرنسي"]], "domestic", "");
+    renderRankingTabs("cups", "cupTabs", [["ucl", "أبطال أوروبا"], ["acle", "نخبة آسيا - الغرب"]], "continental", "");
+
     const epl = (st?.epl?.rows || []).slice(0, lim("epl", 99));
     if ($("epl")) $("epl").innerHTML = epl.length ? epl.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="pts">${r.points}</td></tr>`).join("")
       : `<tr><td colspan="4" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
@@ -648,7 +659,7 @@
   /* ---------- الترتيب الحي من الـworker (يحتسب النتائج اللي تأخر عنها جدول API) ---------- */
   let STAND_TIMER = null;
   async function startStandings() {
-    if (STAND_TIMER || !($("spl") || $("splMini") || $("euro"))) return;
+    if (STAND_TIMER || !($("spl") || $("splMini") || $("euro") || $("cups"))) return;
     const base = await liveTodayBase();
     if (!base) return;
     const tick = async () => {
