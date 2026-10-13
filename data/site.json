@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T11:03:57.459Z",
+ "updated": "2026-10-13T11:27:31.700Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1629934,
       "date": "2026-10-13T13:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Kyoto",
       "league": {
        "id": 17,
@@ -846,8 +846,8 @@
      {
       "id": 1629935,
       "date": "2026-10-13T13:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Pohang",
       "league": {
        "id": 17,
@@ -870,14 +870,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1629936,
       "date": "2026-10-13T13:00:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 71,
       "venue": "Shanghai",
       "league": {
        "id": 17,
@@ -899,8 +899,8 @@
        "logo": "https://media.api-sports.io/football/teams/2750.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
