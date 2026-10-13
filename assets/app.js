@@ -74,8 +74,8 @@
     const style = "";
     const bellBtn = bell ? `<button class="row-bell" type="button" data-fx-bell data-fx-id="${esc(bell.id)}" data-fx-kick="${esc(bell.kickoff)}" data-fx-home="${esc(bell.home)}" data-fx-away="${esc(bell.away)}" data-fx-league="${esc(bell.league || "")}" aria-label="تنبيهات هذه المباراة"><svg><use href="#i-bell"/></svg></button>` : "";
     // تفاصيل متاحة لـ: روشن (307) + الدوريات الخمس الكبرى (EPL 39، La Liga 140، Serie A 135، Bundesliga 78، Ligue 1 61)
-    const DETAIL_LEAGUES = [307, 39, 140, 135, 78, 61];
-    const canDetails = DETAIL_LEAGUES.includes(m.league?.id) && Number.isSafeInteger(Number(m.id)) && (visibleLive(m) || DONE.includes(m.status));
+    const DETAIL_LEAGUES = [307, 39, 140, 135, 78, 61, 2, 17];
+    const canDetails = DETAIL_LEAGUES.includes(m.league?.id) && Number.isSafeInteger(Number(m.id)) && Number(m.id) > 0;
     const detailsLink = canDetails ? `<a class="row-details" href="fixture.html?id=${encodeURIComponent(m.id)}" aria-label="تفاصيل المباراة">التفاصيل <span aria-hidden="true">←</span></a>` : "";
     const cls = `row${hl ? " hl" : ""}${bell ? " has-bell" : ""}${canDetails ? " has-details" : ""}`;
     return `<div class="${cls}"${style}>${when || '<div class="when" aria-hidden="true"></div>'}
@@ -406,7 +406,7 @@
 
     // الدوريات الأوروبية (صفحة الترتيب): تبويبات
     if ($("euro")) {
-      const L = [["epl", "الإنجليزي"], ["laliga", "الإسباني"], ["seriea", "الإيطالي"], ["bundesliga", "الألماني"], ["ligue1", "الفرنسي"]].filter(([k]) => st?.[k]?.rows?.length);
+      const L = [["epl", "الإنجليزي"], ["laliga", "الإسباني"], ["seriea", "الإيطالي"], ["bundesliga", "الألماني"], ["ligue1", "الفرنسي"], ["ucl", "أبطال أوروبا"], ["acle", "أبطال آسيا للنخبة"]].filter(([k]) => st?.[k]?.rows?.length);
       let cur = renderTables.euro && L.some(([k]) => k === renderTables.euro) ? renderTables.euro : L[0]?.[0];
       const draw = () => {
         $("euroTabs").innerHTML = L.map(([k, l]) => `<button type="button" role="tab" aria-selected="${k === cur}" data-eu="${k}">${l}</button>`).join("");
@@ -654,7 +654,10 @@
       try {
         const j = await fetch(base + "/standings", { cache: "no-store" }).then((r) => r.json());
         if (!j?.leagues) return;
+        // Cup tables have their own API endpoint and update independently.
+        const cup = await fetch(base + "/cup-standings", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null);
         const st = { ...(DATA.standings || {}) };
+        if (cup?.leagues) Object.assign(j.leagues, cup.leagues);
         let changed = false;
         for (const [k, v] of Object.entries(j.leagues)) {
           if (!v?.rows?.length) continue;
