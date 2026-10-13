@@ -203,7 +203,8 @@ export default {
           try {
             const response = await apiGet(env, "standings", { league, season });
             const groups = response?.[0]?.league?.standings || [];
-            const rows = groups.flatMap((group, index) => group.map((r) => ({
+            const selectedGroups = name === "acle" ? groups.filter(group => /\bwest\b|غرب/i.test(String(group?.[0]?.group || ""))) : groups;
+            const rows = selectedGroups.flatMap((group, index) => group.map((r) => ({
               rank: r.rank, group: r.group || (groups.length > 1 ? "مجموعة " + (index + 1) : ""),
               team: { id: r.team.id, name: r.team.name, logo: r.team.logo },
               played: r.all.played, win: r.all.win, draw: r.all.draw, lose: r.all.lose,
