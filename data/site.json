@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T14:29:03.229Z",
+ "updated": "2026-10-13T14:54:10.108Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1434,8 +1434,8 @@
      {
       "id": 1612255,
       "date": "2026-10-13T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 26,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1464,8 +1464,8 @@
      {
       "id": 1612256,
       "date": "2026-10-13T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Cairo",
       "league": {
        "id": 233,
