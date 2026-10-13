@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T12:05:20.139Z",
+ "updated": "2026-10-13T12:34:30.973Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -906,8 +906,8 @@
      {
       "id": 1629937,
       "date": "2026-10-13T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Buriram",
       "league": {
        "id": 17,
@@ -928,13 +928,16 @@
        "ar": "Beijing Guoan",
        "logo": "https://media.api-sports.io/football/teams/830.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629938,
       "date": "2026-10-13T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Hanoi",
       "league": {
        "id": 17,
@@ -955,7 +958,10 @@
        "ar": "Kashima",
        "logo": "https://media.api-sports.io/football/teams/290.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629939,
