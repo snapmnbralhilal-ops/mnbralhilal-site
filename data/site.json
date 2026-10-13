@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-13T17:04:16.335Z",
+ "updated": "2026-10-13T17:25:52.055Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1629939,
     "date": "2026-10-13T19:00:00+03:00",
-    "status": "HT",
-    "elapsed": 45,
+    "status": "2H",
+    "elapsed": 66,
     "venue": "Doha",
     "league": {
      "id": 17,
@@ -30,7 +30,7 @@
     },
     "goals": [
      0,
-     1
+     2
     ]
    },
    {
@@ -734,7 +734,7 @@
   {
    "tag": "الهلال",
    "title": "مباشر: الهلال يحل ضيفاً على السد الآن",
-   "body": "النتيجة 0-1 في دوري أبطال آسيا للنخبة.",
+   "body": "النتيجة 0-2 في دوري أبطال آسيا للنخبة.",
    "link": "#hilal",
    "breaking": true
   },
@@ -976,8 +976,8 @@
      {
       "id": 1629939,
       "date": "2026-10-13T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Doha",
       "league": {
        "id": 17,
@@ -1000,7 +1000,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -1042,8 +1042,8 @@
      {
       "id": 1604019,
       "date": "2026-10-13T18:15:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Al Bukayriyah Club Stadium",
       "league": {
        "id": 308,
@@ -1072,8 +1072,8 @@
      {
       "id": 1604023,
       "date": "2026-10-13T18:15:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1096,7 +1096,7 @@
       },
       "goals": [
        1,
-       2
+       3
       ]
      },
      {
@@ -1166,7 +1166,7 @@
       "id": 1630361,
       "date": "2026-10-13T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 68,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1189,7 +1189,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
@@ -1205,7 +1205,7 @@
       "id": 1635679,
       "date": "2026-10-13T19:45:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 39,
       "venue": "Lens",
       "league": {
        "id": 2,
@@ -1228,14 +1228,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1635721,
       "date": "2026-10-13T19:45:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 40,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1257,7 +1257,7 @@
        "logo": "https://media.api-sports.io/football/teams/560.png"
       },
       "goals": [
-       1,
+       0,
        0
       ]
      },
@@ -1523,7 +1523,7 @@
       "id": 1612257,
       "date": "2026-10-13T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 27,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1545,15 +1545,15 @@
        "logo": "https://media.api-sports.io/football/teams/1574.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1612258,
       "date": "2026-10-13T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 27,
       "venue": "Suez",
       "league": {
        "id": 233,
@@ -1576,7 +1576,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
