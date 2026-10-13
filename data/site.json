@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T07:43:13.854Z",
+ "updated": "2026-10-13T08:03:36.625Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1629933,
       "date": "2026-10-13T10:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Newcastle",
       "league": {
        "id": 17,
@@ -808,7 +808,10 @@
        "ar": "Gamba Osaka",
        "logo": "https://media.api-sports.io/football/teams/293.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629934,
