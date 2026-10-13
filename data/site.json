@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T19:38:23.109Z",
+ "updated": "2026-10-13T20:06:05.867Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -997,7 +997,7 @@
       "id": 1629940,
       "date": "2026-10-13T21:15:00+03:00",
       "status": "2H",
-      "elapsed": 63,
+      "elapsed": 90,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -1019,7 +1019,7 @@
        "logo": "https://media.api-sports.io/football/teams/2870.png"
       },
       "goals": [
-       0,
+       1,
        2
       ]
      }
@@ -1257,8 +1257,8 @@
      {
       "id": 1635612,
       "date": "2026-10-13T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "London",
       "league": {
        "id": 2,
@@ -1287,8 +1287,8 @@
      {
       "id": 1635623,
       "date": "2026-10-13T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Madrid",
       "league": {
        "id": 2,
@@ -1317,8 +1317,8 @@
      {
       "id": 1635666,
       "date": "2026-10-13T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 37,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1341,14 +1341,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1635671,
       "date": "2026-10-13T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Milan",
       "league": {
        "id": 2,
@@ -1370,15 +1370,15 @@
        "logo": "https://media.api-sports.io/football/teams/569.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
      {
       "id": 1635711,
       "date": "2026-10-13T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 37,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Leipzig",
       "league": {
        "id": 2,
@@ -1407,8 +1407,8 @@
      {
       "id": 1635742,
       "date": "2026-10-13T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Stavanger",
       "league": {
        "id": 2,
@@ -1430,15 +1430,15 @@
        "logo": "https://media.api-sports.io/football/teams/157.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1635748,
       "date": "2026-10-13T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Villarreal",
       "league": {
        "id": 2,
@@ -1605,8 +1605,8 @@
      {
       "id": 1644211,
       "date": "2026-10-13T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Belkan",
       "league": {
        "id": 200,
@@ -1628,15 +1628,15 @@
        "logo": "https://media.api-sports.io/football/teams/3449.png"
       },
       "goals": [
-       1,
+       2,
        2
       ]
      },
      {
       "id": 1644212,
       "date": "2026-10-13T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -1657,7 +1657,10 @@
        "ar": "الرجاء",
        "logo": "https://media.api-sports.io/football/teams/976.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
