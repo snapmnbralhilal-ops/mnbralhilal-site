@@ -407,10 +407,11 @@
     // الدوريات الأوروبية (صفحة الترتيب): تبويبات
     if ($("euro")) {
       const L = [["epl", "الإنجليزي"], ["laliga", "الإسباني"], ["seriea", "الإيطالي"], ["bundesliga", "الألماني"], ["ligue1", "الفرنسي"], ["ucl", "أبطال أوروبا"], ["acle", "أبطال آسيا للنخبة"]];
-      let cur = renderTables.euro && L.some(([k]) => k === renderTables.euro) ? renderTables.euro : L[0]?.[0];
+      let requested = location.hash === "#ucl" ? "ucl" : location.hash === "#acle" ? "acle" : null;
+      let cur = requested || (renderTables.euro && L.some(([k]) => k === renderTables.euro) ? renderTables.euro : L[0]?.[0]);
       const draw = () => {
         $("euroTabs").innerHTML = L.map(([k, l]) => `<button type="button" role="tab" aria-selected="${k === cur}" data-eu="${k}">${l}</button>`).join("");
-        $("euroTabs").querySelectorAll("[data-eu]").forEach((b) => (b.onclick = () => { cur = renderTables.euro = b.dataset.eu; draw(); }));
+        $("euroTabs").querySelectorAll("[data-eu]").forEach((b) => (b.onclick = () => { cur = renderTables.euro = b.dataset.eu; if (cur === "ucl" || cur === "acle") history.replaceState(null, "", "#" + cur); draw(); }));
         const rows = st?.[cur]?.rows || [];
         $("euro").innerHTML = rows.length ? rows.map((r) => `<tr><td class="pos num">${r.rank}</td><td class="team"><div>${crest(r.team)}<span>${esc(arTeam(r.team.name))}</span></div></td><td class="num">${r.played}</td><td class="num" ><bdi dir="ltr">${r.gd > 0 ? "+" : ""}${r.gd}</bdi></td><td class="pts">${r.points}</td></tr>`).join("")
           : `<tr><td colspan="5" class="empty">الترتيب غير متوفر حالياً</td></tr>`;
