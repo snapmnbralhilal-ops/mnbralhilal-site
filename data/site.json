@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T13:33:10.325Z",
+ "updated": "2026-10-13T14:00:31.990Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -907,7 +907,7 @@
       "id": 1629937,
       "date": "2026-10-13T15:15:00+03:00",
       "status": "2H",
-      "elapsed": 60,
+      "elapsed": 88,
       "venue": "Buriram",
       "league": {
        "id": 17,
@@ -930,14 +930,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1629938,
       "date": "2026-10-13T15:15:00+03:00",
       "status": "2H",
-      "elapsed": 61,
+      "elapsed": 89,
       "venue": "Hanoi",
       "league": {
        "id": 17,
