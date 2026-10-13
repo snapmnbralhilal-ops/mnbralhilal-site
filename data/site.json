@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T04:04:47.176Z",
+ "updated": "2026-10-13T04:27:31.661Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2245,7 +2245,7 @@
       "date": "2026-10-12T20:00:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Istanbul",
+      "venue": "Esenyurt",
       "league": {
        "id": 203,
        "name": "Süper Lig",
