@@ -1,38 +1,8 @@
 {
- "updated": "2026-10-13T17:45:44.701Z",
+ "updated": "2026-10-13T18:02:29.743Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
-   {
-    "id": 1629939,
-    "date": "2026-10-13T19:00:00+03:00",
-    "status": "2H",
-    "elapsed": 86,
-    "venue": "Doha",
-    "league": {
-     "id": 17,
-     "name": "AFC Champions League Elite",
-     "country": "World",
-     "logo": "https://media.api-sports.io/football/leagues/17.png",
-     "round": "League Phase - 2"
-    },
-    "home": {
-     "id": 2895,
-     "name": "Al Sadd",
-     "ar": "السد",
-     "logo": "https://media.api-sports.io/football/teams/2895.png"
-    },
-    "away": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "goals": [
-     0,
-     2
-    ]
-   },
    {
     "id": 1603051,
     "date": "2026-10-16T18:00:00+03:00",
@@ -275,9 +245,66 @@
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": null
+   },
+   {
+    "id": 1603103,
+    "date": "2026-11-26T20:00:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "Ar Rass",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 15"
+    },
+    "home": {
+     "id": 10509,
+     "name": "Al Kholood",
+     "ar": "الخلود",
+     "logo": "https://media.api-sports.io/football/teams/10509.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null
    }
   ],
   "results": [
+   {
+    "id": 1629939,
+    "date": "2026-10-13T19:00:00+03:00",
+    "status": "FT",
+    "elapsed": 90,
+    "venue": "Doha",
+    "league": {
+     "id": 17,
+     "name": "AFC Champions League Elite",
+     "country": "World",
+     "logo": "https://media.api-sports.io/football/leagues/17.png",
+     "round": "League Phase - 2"
+    },
+    "home": {
+     "id": 2895,
+     "name": "Al Sadd",
+     "ar": "السد",
+     "logo": "https://media.api-sports.io/football/teams/2895.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": [
+     0,
+     2
+    ]
+   },
    {
     "id": 1603040,
     "date": "2026-10-10T21:00:00+03:00",
@@ -697,56 +724,19 @@
      1,
      2
     ]
-   },
-   {
-    "id": 1488596,
-    "date": "2026-03-18T22:00:00+03:00",
-    "status": "PEN",
-    "elapsed": 120,
-    "venue": "Jeddah",
-    "league": {
-     "id": 504,
-     "name": "King's Cup",
-     "country": "Saudi-Arabia",
-     "logo": "https://media.api-sports.io/football/leagues/504.png",
-     "round": "Semi-finals"
-    },
-    "home": {
-     "id": 2929,
-     "name": "Al-Ahli Jeddah",
-     "ar": "الأهلي",
-     "logo": "https://media.api-sports.io/football/teams/2929.png"
-    },
-    "away": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "goals": [
-     1,
-     1
-    ]
    }
   ]
  },
  "news": [
   {
    "tag": "الهلال",
-   "title": "مباشر: الهلال يحل ضيفاً على السد الآن",
-   "body": "النتيجة 0-2 في دوري أبطال آسيا للنخبة.",
-   "link": "#hilal",
-   "breaking": true
-  },
-  {
-   "tag": "الهلال",
-   "title": "الهلال يتغلب على الاتحاد بنتيجة 3-2",
-   "body": "على أرضه في دوري روشن السعودي — الجولة 8.",
+   "title": "الهلال يتغلب على السد بنتيجة 2-0",
+   "body": "خارج أرضه في دوري أبطال آسيا للنخبة — League Phase - 2.",
    "link": "#hilal"
   },
   {
    "tag": "الهلال",
-   "title": "3 انتصارات متتالية للهلال",
+   "title": "4 انتصارات متتالية للهلال",
    "body": "الزعيم يواصل سلسلة الانتصارات في كل البطولات.",
    "link": "#hilal"
   },
@@ -976,8 +966,8 @@
      {
       "id": 1629939,
       "date": "2026-10-13T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 17,
@@ -1165,8 +1155,8 @@
      {
       "id": 1630361,
       "date": "2026-10-13T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1204,8 +1194,8 @@
      {
       "id": 1635679,
       "date": "2026-10-13T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Lens",
       "league": {
        "id": 2,
@@ -1234,8 +1224,8 @@
      {
       "id": 1635721,
       "date": "2026-10-13T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1257,7 +1247,7 @@
        "logo": "https://media.api-sports.io/football/teams/560.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1522,7 +1512,7 @@
      {
       "id": 1612257,
       "date": "2026-10-13T20:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Alexandria",
       "league": {
@@ -1552,7 +1542,7 @@
      {
       "id": 1612258,
       "date": "2026-10-13T20:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Suez",
       "league": {
@@ -1576,7 +1566,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
@@ -1591,8 +1581,8 @@
      {
       "id": 1644211,
       "date": "2026-10-13T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "Belkan",
       "league": {
        "id": 200,
@@ -1613,7 +1603,10 @@
        "ar": "CR Khemis Zemamra",
        "logo": "https://media.api-sports.io/football/teams/3449.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644212,
