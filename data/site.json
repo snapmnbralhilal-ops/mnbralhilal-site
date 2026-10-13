@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T15:13:55.899Z",
+ "updated": "2026-10-13T15:40:00.811Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1029,8 +1029,8 @@
      {
       "id": 1604019,
       "date": "2026-10-13T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Al Bukayriyah Club Stadium",
       "league": {
        "id": 308,
@@ -1051,13 +1051,16 @@
        "ar": "الزلفي",
        "logo": "https://media.api-sports.io/football/teams/10524.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604023,
       "date": "2026-10-13T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1078,7 +1081,10 @@
        "ar": "الجبلين",
        "logo": "https://media.api-sports.io/football/teams/2958.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604024,
@@ -1435,7 +1441,7 @@
       "id": 1612255,
       "date": "2026-10-13T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 75,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1458,14 +1464,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1612256,
       "date": "2026-10-13T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 77,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1487,7 +1493,7 @@
        "logo": "https://media.api-sports.io/football/teams/1039.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
