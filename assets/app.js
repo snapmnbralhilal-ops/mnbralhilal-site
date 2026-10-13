@@ -613,6 +613,8 @@
         const isHilal = m.home.id === HILAL_TEAM_ID || m.away.id === HILAL_TEAM_ID;
         if (isHilal && LIVE_M_AT > version) continue;
         if (live) {
+          // Never regress a confirmed final result when the live feed lags.
+          if (DONE.includes(m.status) && !DONE.includes(live.status)) continue;
           // Site JSON can already contain a confirmed FT or HT while the live KV
           // still carries an earlier snapshot. Never regress a match phase.
           const stage = { NS:0, TBD:0, "1H":1, HT:2, "2H":3, ET:4, BT:4, P:5, FT:6, AET:6, PEN:6, AWD:6, WO:6 };
