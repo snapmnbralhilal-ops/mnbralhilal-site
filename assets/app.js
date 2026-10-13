@@ -406,7 +406,7 @@
 
     // الدوريات الأوروبية (صفحة الترتيب): تبويبات
     if ($("euro")) {
-      const L = [["epl", "الإنجليزي"], ["laliga", "الإسباني"], ["seriea", "الإيطالي"], ["bundesliga", "الألماني"], ["ligue1", "الفرنسي"], ["ucl", "أبطال أوروبا"], ["acle", "أبطال آسيا للنخبة"]].filter(([k]) => st?.[k]?.rows?.length);
+      const L = [["epl", "الإنجليزي"], ["laliga", "الإسباني"], ["seriea", "الإيطالي"], ["bundesliga", "الألماني"], ["ligue1", "الفرنسي"], ["ucl", "أبطال أوروبا"], ["acle", "أبطال آسيا للنخبة"]];
       let cur = renderTables.euro && L.some(([k]) => k === renderTables.euro) ? renderTables.euro : L[0]?.[0];
       const draw = () => {
         $("euroTabs").innerHTML = L.map(([k, l]) => `<button type="button" role="tab" aria-selected="${k === cur}" data-eu="${k}">${l}</button>`).join("");
@@ -653,13 +653,12 @@
     const tick = async () => {
       try {
         const j = await fetch(base + "/standings", { cache: "no-store" }).then((r) => r.json());
-        if (!j?.leagues) return;
         // Cup tables have their own API endpoint and update independently.
         const cup = await fetch(base + "/cup-standings", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null);
         const st = { ...(DATA.standings || {}) };
-        if (cup?.leagues) Object.assign(j.leagues, cup.leagues);
+        const allLeagues = { ...(j?.leagues || {}), ...(cup?.leagues || {}) };
         let changed = false;
-        for (const [k, v] of Object.entries(j.leagues)) {
+        for (const [k, v] of Object.entries(allLeagues)) {
           if (!v?.rows?.length) continue;
           if (JSON.stringify(st[k]?.rows) !== JSON.stringify(v.rows)) { st[k] = v; changed = true; }
         }
