@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T18:02:29.743Z",
+ "updated": "2026-10-13T18:32:02.657Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -996,8 +996,8 @@
      {
       "id": 1629940,
       "date": "2026-10-13T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -1018,7 +1018,10 @@
        "ar": "شباب الأهلي",
        "logo": "https://media.api-sports.io/football/teams/2870.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      }
     ]
    },
@@ -1195,7 +1198,7 @@
       "id": 1635679,
       "date": "2026-10-13T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 86,
       "venue": "Lens",
       "league": {
        "id": 2,
@@ -1218,14 +1221,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1635721,
       "date": "2026-10-13T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 58,
+      "elapsed": 87,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1512,8 +1515,8 @@
      {
       "id": 1612257,
       "date": "2026-10-13T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1535,15 +1538,15 @@
        "logo": "https://media.api-sports.io/football/teams/1574.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
      {
       "id": 1612258,
       "date": "2026-10-13T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Suez",
       "league": {
        "id": 233,
@@ -1565,7 +1568,7 @@
        "logo": "https://media.api-sports.io/football/teams/1046.png"
       },
       "goals": [
-       0,
+       1,
        2
       ]
      }
@@ -1582,7 +1585,7 @@
       "id": 1644211,
       "date": "2026-10-13T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 32,
       "venue": "Belkan",
       "league": {
        "id": 200,
@@ -1605,7 +1608,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
