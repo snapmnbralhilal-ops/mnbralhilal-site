@@ -92,6 +92,23 @@ export default {
         const id = url.pathname.slice(7);
         if (!/^\d+$/.test(id)) return noStore({ error: "bad-id" }, 400);
 
+        // Authoritative fixture details for every competition, including UEFA and AFC.
+        // Do not let a static fixture file or an old KV overlay mask fresh lineups/events.
+        try {
+          const edgeKey = new Request("https://fixture-authoritative.internal/" + id);
+          let freshResponse = await caches.default.match(edgeKey);
+          if (!freshResponse) {
+            const rows = await api(env, { id });
+            if (rows[0]) {
+              freshResponse = new Response(JSON.stringify({ at: Date.now(), m: slimFull(rows[0]), source: "api-football" }), {
+                headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=15", "access-control-allow-origin": "*" }
+              });
+              try { await caches.default.put(edgeKey, freshResponse.clone()); } catch (e) { console.error("fixture cache", String(e)); }
+            }
+          }
+          if (freshResponse) return freshResponse;
+        } catch (e) { console.error("fixture authoritative", id, String(e)); }
+
         // (أ) الملف المحلي (التشكيلات والإحصائيات الكاملة)
         let fileData = null;
         try { fileData = await site(env, `data/fixtures/${id}.json`); } catch (e) {}
@@ -173,6 +190,34 @@ export default {
         } catch (e) {}
         if (cached) return json({ ...cached, source: "stale" }, 15);
         return json({ error: "not-found", at: Date.now() }, 60, 404);
+      }
+      if (url.pathname === "/cup-standings") {
+        const key = new Request("https://cup-standings.internal/2026");
+        try {
+          const cached = await caches.default.match(key);
+          if (cached) return cached;
+        } catch (e) {}
+        const leagues = {};
+        const season = seasonNow();
+        for (const [name, league] of [["ucl", 2], ["acle", 17]]) {
+          try {
+            const response = await apiGet(env, "standings", { league, season });
+            const groups = response?.[0]?.league?.standings || [];
+            const rows = groups.flatMap((group, index) => group.map((r) => ({
+              rank: r.rank, group: r.group || (groups.length > 1 ? "مجموعة " + (index + 1) : ""),
+              team: { id: r.team.id, name: r.team.name, logo: r.team.logo },
+              played: r.all.played, win: r.all.win, draw: r.all.draw, lose: r.all.lose,
+              gd: r.goalsDiff, points: r.points, description: r.description || ""
+            })));
+            if (rows.length) leagues[name] = { rows, season, at: Date.now() };
+          } catch (e) { console.error("cup standings", name, String(e)); }
+        }
+        if (!Object.keys(leagues).length) return noStore({ error: "cup-standings-unavailable" }, 503);
+        const result = new Response(JSON.stringify({ at: Date.now(), leagues }), {
+          headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=300", "access-control-allow-origin": "*" }
+        });
+        try { await caches.default.put(key, result.clone()); } catch (e) {}
+        return result;
       }
       if (url.pathname === "/standings") {
         const T = (await env.KV.get("tables", "json")) || { leagues: {} };
