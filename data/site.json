@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-13T16:47:30.877Z",
+ "updated": "2026-10-13T17:04:16.335Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1629939,
     "date": "2026-10-13T19:00:00+03:00",
-    "status": "1H",
+    "status": "HT",
     "elapsed": 45,
     "venue": "Doha",
     "league": {
@@ -976,7 +976,7 @@
      {
       "id": 1629939,
       "date": "2026-10-13T19:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Doha",
       "league": {
@@ -1043,7 +1043,7 @@
       "id": 1604019,
       "date": "2026-10-13T18:15:00+03:00",
       "status": "2H",
-      "elapsed": 72,
+      "elapsed": 88,
       "venue": "Al Bukayriyah Club Stadium",
       "league": {
        "id": 308,
@@ -1073,7 +1073,7 @@
       "id": 1604023,
       "date": "2026-10-13T18:15:00+03:00",
       "status": "2H",
-      "elapsed": 72,
+      "elapsed": 89,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1102,7 +1102,7 @@
      {
       "id": 1604024,
       "date": "2026-10-13T20:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Medina",
       "league": {
@@ -1165,8 +1165,8 @@
      {
       "id": 1630361,
       "date": "2026-10-13T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1204,8 +1204,8 @@
      {
       "id": 1635679,
       "date": "2026-10-13T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Lens",
       "league": {
        "id": 2,
@@ -1226,13 +1226,16 @@
        "ar": "سبورتينغ لشبونة",
        "logo": "https://media.api-sports.io/football/teams/228.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635721,
       "date": "2026-10-13T19:45:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 18,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1254,7 +1257,7 @@
        "logo": "https://media.api-sports.io/football/teams/560.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1519,8 +1522,8 @@
      {
       "id": 1612257,
       "date": "2026-10-13T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1541,13 +1544,16 @@
        "ar": "El Gouna FC",
        "logo": "https://media.api-sports.io/football/teams/1574.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612258,
       "date": "2026-10-13T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Suez",
       "league": {
        "id": 233,
@@ -1568,7 +1574,10 @@
        "ar": "Wadi Degla",
        "logo": "https://media.api-sports.io/football/teams/1046.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
