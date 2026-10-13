@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T01:27:22.343Z",
+ "updated": "2026-10-13T01:49:21.392Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1418,7 +1418,7 @@
       "date": "2026-10-13T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Alexandria",
       "league": {
        "id": 233,
        "name": "Premier League",
@@ -1499,7 +1499,7 @@
       "date": "2026-10-13T20:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Suez",
+      "venue": "Cairo",
       "league": {
        "id": 233,
        "name": "Premier League",
@@ -2245,7 +2245,7 @@
       "date": "2026-10-12T20:00:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Esenyurt",
+      "venue": "Istanbul",
       "league": {
        "id": 203,
        "name": "Süper Lig",
