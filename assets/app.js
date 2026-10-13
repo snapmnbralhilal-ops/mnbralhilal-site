@@ -543,7 +543,9 @@
     let h = data.hilal || {};
     const fb = nextFromDesigns();
     if (!(h.upcoming || []).length && fb) h = { ...h, upcoming: [fb] };
-    NEXT_BASE = (h.upcoming || [])[0] || null;
+    // Officially postponed Riyadh fixture (16 Oct 2026): do not present as next match.
+    const nextCandidates = (h.upcoming || []).filter(m => !(String(m.date || "").slice(0,10) === "2026-10-16" && [m.home?.name,m.away?.name].some(n => /Al.Riyadh|الرياض/i.test(n || ""))));
+    NEXT_BASE = nextCandidates[0] || null;
     renderNext(LIVE_M && NEXT_BASE && sameMatch(LIVE_M, NEXT_BASE) ? LIVE_M : NEXT_BASE);
     startLive();
     renderHilal(h);
