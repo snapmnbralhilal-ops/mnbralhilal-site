@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T10:19:02.804Z",
+ "updated": "2026-10-13T10:41:50.972Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -817,7 +817,7 @@
       "id": 1629934,
       "date": "2026-10-13T13:00:00+03:00",
       "status": "1H",
-      "elapsed": 19,
+      "elapsed": 42,
       "venue": "Kyoto",
       "league": {
        "id": 17,
@@ -847,7 +847,7 @@
       "id": 1629935,
       "date": "2026-10-13T13:00:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 41,
       "venue": "Pohang",
       "league": {
        "id": 17,
@@ -877,7 +877,7 @@
       "id": 1629936,
       "date": "2026-10-13T13:00:00+03:00",
       "status": "1H",
-      "elapsed": 19,
+      "elapsed": 42,
       "venue": "Shanghai",
       "league": {
        "id": 17,
