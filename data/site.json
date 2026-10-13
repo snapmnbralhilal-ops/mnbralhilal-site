@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T14:00:31.990Z",
+ "updated": "2026-10-13T14:29:03.229Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -906,8 +906,8 @@
      {
       "id": 1629937,
       "date": "2026-10-13T15:15:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buriram",
       "league": {
        "id": 17,
@@ -936,8 +936,8 @@
      {
       "id": 1629938,
       "date": "2026-10-13T15:15:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Hanoi",
       "league": {
        "id": 17,
@@ -1434,8 +1434,8 @@
      {
       "id": 1612255,
       "date": "2026-10-13T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 26,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1456,13 +1456,16 @@
        "ar": "Asyut Petrol",
        "logo": "https://media.api-sports.io/football/teams/18021.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612256,
       "date": "2026-10-13T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 28,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1483,7 +1486,10 @@
        "ar": "El Geish",
        "logo": "https://media.api-sports.io/football/teams/1039.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1612257,
