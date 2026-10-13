@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T19:06:53.716Z",
+ "updated": "2026-10-13T19:38:23.109Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -996,8 +996,8 @@
      {
       "id": 1629940,
       "date": "2026-10-13T21:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -1258,7 +1258,7 @@
       "id": 1635612,
       "date": "2026-10-13T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 38,
       "venue": "London",
       "league": {
        "id": 2,
@@ -1288,7 +1288,7 @@
       "id": 1635623,
       "date": "2026-10-13T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 36,
       "venue": "Madrid",
       "league": {
        "id": 2,
@@ -1318,7 +1318,7 @@
       "id": 1635666,
       "date": "2026-10-13T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 37,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1340,7 +1340,7 @@
        "logo": "https://media.api-sports.io/football/teams/529.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1348,7 +1348,7 @@
       "id": 1635671,
       "date": "2026-10-13T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 38,
       "venue": "Milan",
       "league": {
        "id": 2,
@@ -1371,14 +1371,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1635711,
       "date": "2026-10-13T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 37,
       "venue": "Leipzig",
       "league": {
        "id": 2,
@@ -1408,7 +1408,7 @@
       "id": 1635742,
       "date": "2026-10-13T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 38,
       "venue": "Stavanger",
       "league": {
        "id": 2,
@@ -1438,7 +1438,7 @@
       "id": 1635748,
       "date": "2026-10-13T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 38,
       "venue": "Villarreal",
       "league": {
        "id": 2,
@@ -1460,8 +1460,8 @@
        "logo": "https://media.api-sports.io/football/teams/492.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      }
     ]
@@ -1606,7 +1606,7 @@
       "id": 1644211,
       "date": "2026-10-13T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 81,
       "venue": "Belkan",
       "league": {
        "id": 200,
@@ -1628,7 +1628,7 @@
        "logo": "https://media.api-sports.io/football/teams/3449.png"
       },
       "goals": [
-       0,
+       1,
        2
       ]
      },
