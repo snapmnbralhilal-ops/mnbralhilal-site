@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T09:58:12.561Z",
+ "updated": "2026-10-13T10:19:02.804Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1629934,
       "date": "2026-10-13T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Kyoto",
       "league": {
        "id": 17,
@@ -838,13 +838,16 @@
        "ar": "Ratchaburi",
        "logo": "https://media.api-sports.io/football/teams/2776.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629935,
       "date": "2026-10-13T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Pohang",
       "league": {
        "id": 17,
@@ -865,13 +868,16 @@
        "ar": "Johor Darul Takzim FC",
        "logo": "https://media.api-sports.io/football/teams/2523.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629936,
       "date": "2026-10-13T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Shanghai",
       "league": {
        "id": 17,
@@ -892,7 +898,10 @@
        "ar": "Daejeon Citizen",
        "logo": "https://media.api-sports.io/football/teams/2750.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629937,
