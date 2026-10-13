@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T16:22:36.165Z",
+ "updated": "2026-10-13T16:47:30.877Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -7,7 +7,7 @@
     "id": 1629939,
     "date": "2026-10-13T19:00:00+03:00",
     "status": "1H",
-    "elapsed": 21,
+    "elapsed": 45,
     "venue": "Doha",
     "league": {
      "id": 17,
@@ -30,7 +30,7 @@
     },
     "goals": [
      0,
-     0
+     1
     ]
    },
    {
@@ -734,7 +734,7 @@
   {
    "tag": "الهلال",
    "title": "مباشر: الهلال يحل ضيفاً على السد الآن",
-   "body": "النتيجة 0-0 في دوري أبطال آسيا للنخبة.",
+   "body": "النتيجة 0-1 في دوري أبطال آسيا للنخبة.",
    "link": "#hilal",
    "breaking": true
   },
@@ -977,7 +977,7 @@
       "id": 1629939,
       "date": "2026-10-13T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 21,
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 17,
@@ -1000,7 +1000,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1043,7 +1043,7 @@
       "id": 1604019,
       "date": "2026-10-13T18:15:00+03:00",
       "status": "2H",
-      "elapsed": 47,
+      "elapsed": 72,
       "venue": "Al Bukayriyah Club Stadium",
       "league": {
        "id": 308,
@@ -1066,14 +1066,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1604023,
       "date": "2026-10-13T18:15:00+03:00",
       "status": "2H",
-      "elapsed": 47,
+      "elapsed": 72,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1096,7 +1096,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
@@ -1166,7 +1166,7 @@
       "id": 1630361,
       "date": "2026-10-13T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 23,
+      "elapsed": 45,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1189,7 +1189,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1231,8 +1231,8 @@
      {
       "id": 1635721,
       "date": "2026-10-13T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1253,7 +1253,10 @@
        "ar": "Slavia Praha",
        "logo": "https://media.api-sports.io/football/teams/560.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635612,
