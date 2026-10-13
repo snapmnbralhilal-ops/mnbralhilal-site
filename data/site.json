@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T17:25:52.055Z",
+ "updated": "2026-10-13T17:45:44.701Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -7,7 +7,7 @@
     "id": 1629939,
     "date": "2026-10-13T19:00:00+03:00",
     "status": "2H",
-    "elapsed": 66,
+    "elapsed": 86,
     "venue": "Doha",
     "league": {
      "id": 17,
@@ -977,7 +977,7 @@
       "id": 1629939,
       "date": "2026-10-13T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 66,
+      "elapsed": 86,
       "venue": "Doha",
       "league": {
        "id": 17,
@@ -1166,7 +1166,7 @@
       "id": 1630361,
       "date": "2026-10-13T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 68,
+      "elapsed": 88,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1189,7 +1189,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      }
     ]
@@ -1204,8 +1204,8 @@
      {
       "id": 1635679,
       "date": "2026-10-13T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lens",
       "league": {
        "id": 2,
@@ -1234,8 +1234,8 @@
      {
       "id": 1635721,
       "date": "2026-10-13T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1523,7 +1523,7 @@
       "id": 1612257,
       "date": "2026-10-13T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 27,
+      "elapsed": 45,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1553,7 +1553,7 @@
       "id": 1612258,
       "date": "2026-10-13T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 27,
+      "elapsed": 45,
       "venue": "Suez",
       "league": {
        "id": 233,
