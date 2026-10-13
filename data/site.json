@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T08:53:05.457Z",
+ "updated": "2026-10-13T09:12:40.600Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1629933,
       "date": "2026-10-13T10:45:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 70,
       "venue": "Newcastle",
       "league": {
        "id": 17,
