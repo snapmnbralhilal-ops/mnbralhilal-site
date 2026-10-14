@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-14T12:26:14.269Z",
+ "updated": "2026-10-14T13:09:23.586Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1603051,
     "date": "2026-10-16T18:00:00+03:00",
-    "status": "NS",
+    "status": "PST",
     "elapsed": null,
     "venue": "Riyadh",
     "league": {
@@ -855,7 +855,7 @@
      {
       "id": 1604026,
       "date": "2026-10-14T17:55:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Al-Hofuf",
       "league": {
@@ -975,8 +975,8 @@
      {
       "id": 1637492,
       "date": "2026-10-14T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 11,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bandung",
       "league": {
        "id": 18,
@@ -998,7 +998,7 @@
        "logo": "https://media.api-sports.io/football/teams/3681.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
