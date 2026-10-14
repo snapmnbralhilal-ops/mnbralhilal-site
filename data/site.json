@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:38:08.471Z",
+ "updated": "2026-10-14T22:07:00.593Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3108,6 +3108,45 @@
       "goals": [
        0,
        3
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 200,
+     "name": "Botola Pro",
+     "logo": "https://media.api-sports.io/football/leagues/200.png"
+    },
+    "matches": [
+     {
+      "id": 1644213,
+      "date": "2026-10-14T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Tangier",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 4"
+      },
+      "home": {
+       "id": 974,
+       "name": "Ittihad Tanger",
+       "ar": "Ittihad Tanger",
+       "logo": "https://media.api-sports.io/football/teams/974.png"
+      },
+      "away": {
+       "id": 3453,
+       "name": "Maghreb Fès",
+       "ar": "Maghreb Fès",
+       "logo": "https://media.api-sports.io/football/teams/3453.png"
+      },
+      "goals": [
+       2,
+       1
       ]
      }
     ]
