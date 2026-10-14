@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T23:31:33.255Z",
+ "updated": "2026-10-14T23:57:18.068Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2064,8 +2064,8 @@
      {
       "id": 1490526,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Miami",
       "league": {
        "id": 253,
@@ -2086,13 +2086,16 @@
        "ar": "New York City FC",
        "logo": "https://media.api-sports.io/football/teams/1604.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490527,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Columbus",
       "league": {
        "id": 253,
@@ -2113,13 +2116,16 @@
        "ar": "Charlotte",
        "logo": "https://media.api-sports.io/football/teams/18310.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1490528,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Cincinnati",
       "league": {
        "id": 253,
@@ -2140,13 +2146,16 @@
        "ar": "New England Revolution",
        "logo": "https://media.api-sports.io/football/teams/1609.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490529,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Toronto",
       "league": {
        "id": 253,
@@ -2167,13 +2176,16 @@
        "ar": "Orlando City SC",
        "logo": "https://media.api-sports.io/football/teams/1598.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490530,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Montreal",
       "league": {
        "id": 253,
@@ -2194,13 +2206,16 @@
        "ar": "Atlanta United FC",
        "logo": "https://media.api-sports.io/football/teams/1608.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490531,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Washington",
       "league": {
        "id": 253,
@@ -2221,7 +2236,10 @@
        "ar": "New York Red Bulls",
        "logo": "https://media.api-sports.io/football/teams/1602.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490532,
