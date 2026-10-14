@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T14:14:15.158Z",
+ "updated": "2026-10-14T14:50:48.958Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1005,8 +1005,8 @@
      {
       "id": 1630363,
       "date": "2026-10-14T16:45:00+03:00",
-      "status": "1H",
-      "elapsed": 29,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Karshi",
       "league": {
        "id": 18,
@@ -1028,8 +1028,8 @@
        "logo": "https://media.api-sports.io/football/teams/2875.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      },
      {
