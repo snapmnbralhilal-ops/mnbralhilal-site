@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T17:12:07.369Z",
+ "updated": "2026-10-14T17:49:59.391Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -882,8 +882,8 @@
      {
       "id": 1604020,
       "date": "2026-10-14T18:30:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -913,7 +913,7 @@
       "id": 1604022,
       "date": "2026-10-14T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 12,
+      "elapsed": 45,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -935,7 +935,7 @@
        "logo": "https://media.api-sports.io/football/teams/2947.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1042,7 +1042,7 @@
       "id": 1630364,
       "date": "2026-10-14T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 90,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1064,15 +1064,15 @@
        "logo": "https://media.api-sports.io/football/teams/21232.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1630365,
       "date": "2026-10-14T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 90,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1102,7 +1102,7 @@
       "id": 1630366,
       "date": "2026-10-14T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "Buraydah",
       "league": {
        "id": 18,
@@ -1132,7 +1132,7 @@
       "id": 1630368,
       "date": "2026-10-14T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 90,
       "venue": "Kuwait City",
       "league": {
        "id": 18,
@@ -1154,8 +1154,8 @@
        "logo": "https://media.api-sports.io/football/teams/17666.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      },
      {
@@ -1197,8 +1197,8 @@
      {
       "id": 1635665,
       "date": "2026-10-14T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rotterdam",
       "league": {
        "id": 2,
@@ -1227,8 +1227,8 @@
      {
       "id": 1635674,
       "date": "2026-10-14T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 26,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Linz",
       "league": {
        "id": 2,
@@ -1251,7 +1251,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
