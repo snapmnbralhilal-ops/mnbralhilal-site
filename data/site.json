@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-14T16:04:55.030Z",
+ "updated": "2026-10-14T16:39:01.960Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1603051,
     "date": "2026-10-16T18:00:00+03:00",
-    "status": "PST",
+    "status": "NS",
     "elapsed": null,
     "venue": "Riyadh",
     "league": {
@@ -882,8 +882,8 @@
      {
       "id": 1604020,
       "date": "2026-10-14T18:30:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -1039,7 +1039,7 @@
       "id": 1630364,
       "date": "2026-10-14T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 39,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1069,7 +1069,7 @@
       "id": 1630365,
       "date": "2026-10-14T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 39,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1099,7 +1099,7 @@
       "id": 1630366,
       "date": "2026-10-14T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 39,
       "venue": "Buraydah",
       "league": {
        "id": 18,
@@ -1121,15 +1121,15 @@
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      },
      {
       "id": 1630368,
       "date": "2026-10-14T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 38,
       "venue": "Kuwait City",
       "league": {
        "id": 18,
