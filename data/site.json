@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T11:51:07.709Z",
+ "updated": "2026-10-14T12:26:14.269Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,7 +786,7 @@
      {
       "id": 1629941,
       "date": "2026-10-14T13:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Kashiwa City",
       "league": {
@@ -975,8 +975,8 @@
      {
       "id": 1637492,
       "date": "2026-10-14T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Bandung",
       "league": {
        "id": 18,
@@ -997,7 +997,10 @@
        "ar": "Viettel",
        "logo": "https://media.api-sports.io/football/teams/3681.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630363,
@@ -4178,18 +4181,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 61,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
