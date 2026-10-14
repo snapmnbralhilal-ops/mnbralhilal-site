@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T09:37:29.148Z",
+ "updated": "2026-10-14T10:10:08.602Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1629941,
       "date": "2026-10-14T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Kashiwa City",
       "league": {
        "id": 17,
@@ -808,13 +808,16 @@
        "ar": "Port FC",
        "logo": "https://media.api-sports.io/football/teams/2789.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1629942,
       "date": "2026-10-14T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Kobe",
       "league": {
        "id": 17,
@@ -835,7 +838,10 @@
        "ar": "Jeonbuk Motors",
        "logo": "https://media.api-sports.io/football/teams/2762.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
