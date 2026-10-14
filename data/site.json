@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T19:00:48.540Z",
+ "updated": "2026-10-14T19:38:14.474Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1161,8 +1161,8 @@
      {
       "id": 1630367,
       "date": "2026-10-14T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Amman",
       "league": {
        "id": 18,
@@ -1260,8 +1260,8 @@
      {
       "id": 1635614,
       "date": "2026-10-14T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "Rome",
       "league": {
        "id": 2,
@@ -1282,13 +1282,16 @@
        "ar": "ريال مدريد",
        "logo": "https://media.api-sports.io/football/teams/541.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1635620,
       "date": "2026-10-14T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "Birmingham",
       "league": {
        "id": 2,
@@ -1309,13 +1312,16 @@
        "ar": "فنربخشة",
        "logo": "https://media.api-sports.io/football/teams/611.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1635635,
       "date": "2026-10-14T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "Seville",
       "league": {
        "id": 2,
@@ -1336,13 +1342,16 @@
        "ar": "بورتو",
        "logo": "https://media.api-sports.io/football/teams/212.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635639,
       "date": "2026-10-14T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "Hakata",
       "league": {
        "id": 2,
@@ -1363,13 +1372,16 @@
        "ar": "بوروسيا دورتموند",
        "logo": "https://media.api-sports.io/football/teams/165.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635690,
       "date": "2026-10-14T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Manchester",
       "league": {
        "id": 2,
@@ -1390,13 +1402,16 @@
        "ar": "باريس سان جيرمان",
        "logo": "https://media.api-sports.io/football/teams/85.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       3
+      ]
      },
      {
       "id": 1635725,
       "date": "2026-10-14T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 38,
       "venue": "London",
       "league": {
        "id": 2,
@@ -1417,13 +1432,16 @@
        "ar": "AEK Athens FC",
        "logo": "https://media.api-sports.io/football/teams/575.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1635733,
       "date": "2026-10-14T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 38,
       "venue": "Bratislava",
       "league": {
        "id": 2,
@@ -1446,7 +1464,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
