@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T15:25:52.477Z",
+ "updated": "2026-10-14T16:04:55.030Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -882,8 +882,8 @@
      {
       "id": 1604020,
       "date": "2026-10-14T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -904,7 +904,10 @@
        "ar": "الأخدود",
        "logo": "https://media.api-sports.io/football/teams/2977.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1604022,
@@ -1005,8 +1008,8 @@
      {
       "id": 1630363,
       "date": "2026-10-14T16:45:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Karshi",
       "league": {
        "id": 18,
@@ -1035,8 +1038,8 @@
      {
       "id": 1630364,
       "date": "2026-10-14T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1057,13 +1060,16 @@
        "ar": "Arkadag",
        "logo": "https://media.api-sports.io/football/teams/21232.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630365,
       "date": "2026-10-14T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1084,13 +1090,16 @@
        "ar": "Gol Gohar",
        "logo": "https://media.api-sports.io/football/teams/2714.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630366,
       "date": "2026-10-14T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Buraydah",
       "league": {
        "id": 18,
@@ -1111,13 +1120,16 @@
        "ar": "الريان",
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630368,
       "date": "2026-10-14T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Kuwait City",
       "league": {
        "id": 18,
@@ -1138,7 +1150,10 @@
        "ar": "Khalidiya",
        "logo": "https://media.api-sports.io/football/teams/17666.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630367,
