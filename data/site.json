@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T10:43:26.451Z",
+ "updated": "2026-10-14T11:13:46.965Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1629941,
       "date": "2026-10-14T13:00:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Kashiwa City",
       "league": {
        "id": 17,
@@ -816,8 +816,8 @@
      {
       "id": 1629942,
       "date": "2026-10-14T13:00:00+03:00",
-      "status": "1H",
-      "elapsed": 43,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Kobe",
       "league": {
        "id": 17,
