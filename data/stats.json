@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-14T06:00:00.725Z",
+ "updated": "2026-10-14T06:37:02.987Z",
  "players": [
   {
    "api": 156,
@@ -916,24 +916,24 @@
    "photo": "https://media.api-sports.io/football/players/412703.png",
    "age": 20,
    "nat": "Türkiye",
-   "apps": 3,
-   "starts": 1,
-   "mins": 119,
+   "apps": 4,
+   "starts": 2,
+   "mins": 209,
    "goals": 0,
    "assists": 0,
    "saves": 0,
    "conceded": 0,
-   "shots": 1,
+   "shots": 2,
    "shotsOn": 1,
-   "keyPasses": 1,
-   "passes": 92,
-   "tackles": 1,
+   "keyPasses": 2,
+   "passes": 156,
+   "tackles": 4,
    "interceptions": 0,
-   "dribbles": 0,
+   "dribbles": 1,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.71,
+   "rating": 6.9,
    "comps": [
     {
      "id": 307,
@@ -945,7 +945,7 @@
     {
      "id": 17,
      "league": "AFC Champions League Elite",
-     "apps": 1,
+     "apps": 2,
      "goals": 0,
      "assists": 0
     }
@@ -978,7 +978,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.48,
+   "rating": 4.86,
    "comps": [
     {
      "id": 307,
@@ -1006,9 +1006,9 @@
    "photo": "https://media.api-sports.io/football/players/442343.png",
    "age": 24,
    "nat": "Saudi Arabia",
-   "apps": 5,
+   "apps": 6,
    "starts": 0,
-   "mins": 50,
+   "mins": 74,
    "goals": 0,
    "assists": 0,
    "saves": 0,
@@ -1016,19 +1016,26 @@
    "shots": 3,
    "shotsOn": 1,
    "keyPasses": 0,
-   "passes": 38,
+   "passes": 57,
    "tackles": 4,
    "interceptions": 2,
    "dribbles": 1,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 5.19,
+   "rating": 4.56,
    "comps": [
     {
      "id": 307,
      "league": "Pro League",
      "apps": 5,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 1,
      "goals": 0,
      "assists": 0
     }
@@ -1044,24 +1051,24 @@
    "photo": "https://media.api-sports.io/football/players/449662.png",
    "age": 18,
    "nat": "France",
-   "apps": 6,
+   "apps": 7,
    "starts": 3,
-   "mins": 233,
+   "mins": 249,
    "goals": 1,
    "assists": 0,
    "saves": 0,
    "conceded": 0,
-   "shots": 6,
+   "shots": 8,
    "shotsOn": 3,
-   "keyPasses": 2,
-   "passes": 28,
+   "keyPasses": 3,
+   "passes": 30,
    "tackles": 0,
    "interceptions": 0,
-   "dribbles": 3,
+   "dribbles": 4,
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.62,
+   "rating": 6.7,
    "comps": [
     {
      "id": 307,
@@ -1073,7 +1080,7 @@
     {
      "id": 17,
      "league": "AFC Champions League Elite",
-     "apps": 1,
+     "apps": 2,
      "goals": 0,
      "assists": 0
     }
@@ -1195,9 +1202,9 @@
    "photo": "https://media.api-sports.io/football/players/606188.png",
    "age": 17,
    "nat": null,
-   "apps": 4,
+   "apps": 5,
    "starts": 0,
-   "mins": 30,
+   "mins": 46,
    "goals": 0,
    "assists": 0,
    "saves": 0,
@@ -1205,19 +1212,26 @@
    "shots": 0,
    "shotsOn": 0,
    "keyPasses": 1,
-   "passes": 17,
+   "passes": 18,
    "tackles": 3,
    "interceptions": 0,
    "dribbles": 0,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 4.46,
+   "rating": 5.15,
    "comps": [
     {
      "id": 307,
      "league": "Pro League",
      "apps": 4,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 1,
      "goals": 0,
      "assists": 0
     }
