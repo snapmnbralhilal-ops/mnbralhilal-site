@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T14:50:48.958Z",
+ "updated": "2026-10-14T15:25:52.477Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1006,7 +1006,7 @@
       "id": 1630363,
       "date": "2026-10-14T16:45:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 83,
       "venue": "Karshi",
       "league": {
        "id": 18,
