@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T07:19:56.108Z",
+ "updated": "2026-10-14T07:57:38.454Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -939,8 +939,8 @@
      {
       "id": 1630362,
       "date": "2026-10-14T10:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Melbourne",
       "league": {
        "id": 18,
@@ -961,7 +961,10 @@
        "ar": "FC Seoul",
        "logo": "https://media.api-sports.io/football/teams/2766.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1637492,
@@ -1772,6 +1775,36 @@
      "logo": "https://media.api-sports.io/football/leagues/18.png"
     },
     "matches": [
+     {
+      "id": 1630360,
+      "date": "2026-10-13T16:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Kolkata",
+      "league": {
+       "id": 18,
+       "name": "AFC Champions League Two",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/18.png",
+       "round": "Group Stage - 2"
+      },
+      "home": {
+       "id": 21137,
+       "name": "East Bengal II",
+       "ar": "East Bengal II",
+       "logo": "https://media.api-sports.io/football/teams/21137.png"
+      },
+      "away": {
+       "id": 5242,
+       "name": "Al Shorta",
+       "ar": "Al Shorta",
+       "logo": "https://media.api-sports.io/football/teams/5242.png"
+      },
+      "goals": [
+       2,
+       3
+      ]
+     },
      {
       "id": 1630361,
       "date": "2026-10-13T19:00:00+03:00",
