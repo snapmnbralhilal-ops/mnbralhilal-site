@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T08:29:03.372Z",
+ "updated": "2026-10-14T09:05:36.788Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -939,8 +939,8 @@
      {
       "id": 1630362,
       "date": "2026-10-14T10:45:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Melbourne",
       "league": {
        "id": 18,
