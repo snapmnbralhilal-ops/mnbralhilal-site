@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T16:39:01.960Z",
+ "updated": "2026-10-14T17:12:07.369Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -883,7 +883,7 @@
       "id": 1604020,
       "date": "2026-10-14T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 81,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -905,15 +905,15 @@
        "logo": "https://media.api-sports.io/football/teams/2977.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
      {
       "id": 1604022,
       "date": "2026-10-14T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -934,7 +934,10 @@
        "ar": "جدة",
        "logo": "https://media.api-sports.io/football/teams/2947.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1038,8 +1041,8 @@
      {
       "id": 1630364,
       "date": "2026-10-14T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1068,8 +1071,8 @@
      {
       "id": 1630365,
       "date": "2026-10-14T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Seeb",
       "league": {
        "id": 18,
@@ -1091,15 +1094,15 @@
        "logo": "https://media.api-sports.io/football/teams/2714.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1630366,
       "date": "2026-10-14T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Buraydah",
       "league": {
        "id": 18,
@@ -1128,8 +1131,8 @@
      {
       "id": 1630368,
       "date": "2026-10-14T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Kuwait City",
       "league": {
        "id": 18,
@@ -1151,7 +1154,7 @@
        "logo": "https://media.api-sports.io/football/teams/17666.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1194,8 +1197,8 @@
      {
       "id": 1635665,
       "date": "2026-10-14T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Rotterdam",
       "league": {
        "id": 2,
@@ -1216,13 +1219,16 @@
        "ar": "كومو",
        "logo": "https://media.api-sports.io/football/teams/895.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1635674,
       "date": "2026-10-14T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 26,
       "venue": "Linz",
       "league": {
        "id": 2,
@@ -1243,7 +1249,10 @@
        "ar": "ليفربول",
        "logo": "https://media.api-sports.io/football/teams/40.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1635614,
