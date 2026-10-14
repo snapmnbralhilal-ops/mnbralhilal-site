@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T13:09:23.586Z",
+ "updated": "2026-10-14T13:45:41.914Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -975,8 +975,8 @@
      {
       "id": 1637492,
       "date": "2026-10-14T15:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "Bandung",
       "league": {
        "id": 18,
@@ -1005,8 +1005,8 @@
      {
       "id": 1630363,
       "date": "2026-10-14T16:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Karshi",
       "league": {
        "id": 18,
@@ -1027,7 +1027,10 @@
        "ar": "الوحدة",
        "logo": "https://media.api-sports.io/football/teams/2875.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630364,
