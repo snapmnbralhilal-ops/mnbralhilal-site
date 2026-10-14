@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T10:10:08.602Z",
+ "updated": "2026-10-14T10:43:26.451Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1629941,
       "date": "2026-10-14T13:00:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 42,
       "venue": "Kashiwa City",
       "league": {
        "id": 17,
@@ -809,7 +809,7 @@
        "logo": "https://media.api-sports.io/football/teams/2789.png"
       },
       "goals": [
-       1,
+       5,
        0
       ]
      },
@@ -817,7 +817,7 @@
       "id": 1629942,
       "date": "2026-10-14T13:00:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 43,
       "venue": "Kobe",
       "league": {
        "id": 17,
@@ -839,7 +839,7 @@
        "logo": "https://media.api-sports.io/football/teams/2762.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
