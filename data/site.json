@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T11:13:46.965Z",
+ "updated": "2026-10-14T11:51:07.709Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1629941,
       "date": "2026-10-14T13:00:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "Kashiwa City",
       "league": {
        "id": 17,
@@ -810,14 +810,14 @@
       },
       "goals": [
        5,
-       0
+       1
       ]
      },
      {
       "id": 1629942,
       "date": "2026-10-14T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 57,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kobe",
       "league": {
        "id": 17,
@@ -839,7 +839,7 @@
        "logo": "https://media.api-sports.io/football/teams/2762.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -4178,7 +4178,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 61,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 13,
  "plan": "Pro"
 }
