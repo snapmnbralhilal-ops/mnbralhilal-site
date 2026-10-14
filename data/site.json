@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T09:05:36.788Z",
+ "updated": "2026-10-14T09:37:29.148Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -939,8 +939,8 @@
      {
       "id": 1630362,
       "date": "2026-10-14T10:45:00+03:00",
-      "status": "2H",
-      "elapsed": 63,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Melbourne",
       "league": {
        "id": 18,
@@ -962,7 +962,7 @@
        "logo": "https://media.api-sports.io/football/teams/2766.png"
       },
       "goals": [
-       0,
+       3,
        0
       ]
      },
