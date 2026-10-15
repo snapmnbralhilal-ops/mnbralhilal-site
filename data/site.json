@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T15:14:15.737Z",
+ "updated": "2026-10-15T15:52:28.325Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603046,
       "date": "2026-10-15T16:40:00+03:00",
-      "status": "2H",
-      "elapsed": 73,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -809,15 +809,15 @@
        "logo": "https://media.api-sports.io/football/teams/10509.png"
       },
       "goals": [
-       2,
+       3,
        2
       ]
      },
      {
       "id": 1603049,
       "date": "2026-10-15T17:50:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -846,8 +846,8 @@
      {
       "id": 1603047,
       "date": "2026-10-15T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -868,7 +868,10 @@
        "ar": "الفتح",
        "logo": "https://media.api-sports.io/football/teams/2931.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1603044,
