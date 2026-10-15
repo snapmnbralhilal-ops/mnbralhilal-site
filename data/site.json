@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T19:49:42.895Z",
+ "updated": "2026-10-15T20:12:20.285Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1341,8 +1341,8 @@
      {
       "id": 1636228,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Lisbon",
       "league": {
        "id": 3,
@@ -1371,8 +1371,8 @@
      {
       "id": 1636236,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Bournemouth",
       "league": {
        "id": 3,
@@ -1401,8 +1401,8 @@
      {
       "id": 1636243,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Vigo",
       "league": {
        "id": 3,
@@ -1431,8 +1431,8 @@
      {
       "id": 1636256,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Zagreb",
       "league": {
        "id": 3,
@@ -1461,8 +1461,8 @@
      {
       "id": 1636260,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Budapest",
       "league": {
        "id": 3,
@@ -1484,15 +1484,15 @@
        "logo": "https://media.api-sports.io/football/teams/567.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1636268,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Sinsheim",
       "league": {
        "id": 3,
@@ -1521,8 +1521,8 @@
      {
       "id": 1636274,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Bialystok",
       "league": {
        "id": 3,
@@ -1551,8 +1551,8 @@
      {
       "id": 1636295,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Marseille",
       "league": {
        "id": 3,
@@ -1581,8 +1581,8 @@
      {
       "id": 1636300,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Nijmegen",
       "league": {
        "id": 3,
@@ -1611,8 +1611,8 @@
      {
       "id": 1636326,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Rennes",
       "league": {
        "id": 3,
@@ -1950,8 +1950,8 @@
      {
       "id": 1636382,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Bergamo",
       "league": {
        "id": 848,
@@ -1980,8 +1980,8 @@
      {
       "id": 1636392,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Bergen",
       "league": {
        "id": 848,
@@ -2010,8 +2010,8 @@
      {
       "id": 1636396,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Falmer",
       "league": {
        "id": 848,
@@ -2033,15 +2033,15 @@
        "logo": "https://media.api-sports.io/football/teams/3872.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1636406,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Copenhagen",
       "league": {
        "id": 848,
@@ -2063,15 +2063,15 @@
        "logo": "https://media.api-sports.io/football/teams/217.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1636411,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Freiburg",
       "league": {
        "id": 848,
@@ -2100,8 +2100,8 @@
      {
       "id": 1636423,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Edinburgh",
       "league": {
        "id": 848,
@@ -2130,8 +2130,8 @@
      {
       "id": 1636471,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Sint- Truiden",
       "league": {
        "id": 848,
@@ -2160,8 +2160,8 @@
      {
       "id": 1636480,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Enschede",
       "league": {
        "id": 848,
