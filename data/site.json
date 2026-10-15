@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T11:58:08.165Z",
+ "updated": "2026-10-15T12:33:51.205Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -963,8 +963,8 @@
      {
       "id": 1630371,
       "date": "2026-10-15T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Kuching",
       "league": {
        "id": 18,
@@ -985,13 +985,16 @@
        "ar": "Kitchee",
        "logo": "https://media.api-sports.io/football/teams/4453.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1630372,
       "date": "2026-10-15T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Patum Thani",
       "league": {
        "id": 18,
@@ -1012,13 +1015,16 @@
        "ar": "Adelaide United",
        "logo": "https://media.api-sports.io/football/teams/948.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1630373,
       "date": "2026-10-15T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Phnom Penh",
       "league": {
        "id": 18,
@@ -1039,13 +1045,16 @@
        "ar": "Shanghai Shenhua",
        "logo": "https://media.api-sports.io/football/teams/833.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630374,
       "date": "2026-10-15T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Kallang",
       "league": {
        "id": 18,
@@ -1066,7 +1075,10 @@
        "ar": "Machida Zelvia",
        "logo": "https://media.api-sports.io/football/teams/303.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
