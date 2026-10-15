@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T03:12:27.032Z",
+ "updated": "2026-10-15T03:51:43.436Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2364,8 +2364,8 @@
      {
       "id": 1490536,
       "date": "2026-10-15T04:30:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -2387,15 +2387,15 @@
        "logo": "https://media.api-sports.io/football/teams/1612.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
       "id": 1490537,
       "date": "2026-10-15T04:30:00+03:00",
-      "status": "2H",
-      "elapsed": 76,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sandy",
       "league": {
        "id": 253,
@@ -2417,15 +2417,15 @@
        "logo": "https://media.api-sports.io/football/teams/1596.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1490538,
       "date": "2026-10-15T05:30:00+03:00",
-      "status": "1H",
-      "elapsed": 32,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2447,15 +2447,15 @@
        "logo": "https://media.api-sports.io/football/teams/16489.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1490539,
       "date": "2026-10-15T05:30:00+03:00",
-      "status": "1H",
-      "elapsed": 32,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
