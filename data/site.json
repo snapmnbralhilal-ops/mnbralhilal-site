@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T19:19:20.393Z",
+ "updated": "2026-10-15T19:49:42.895Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1341,8 +1341,8 @@
      {
       "id": 1636228,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lisbon",
       "league": {
        "id": 3,
@@ -1364,15 +1364,15 @@
        "logo": "https://media.api-sports.io/football/teams/247.png"
       },
       "goals": [
-       1,
+       3,
        0
       ]
      },
      {
       "id": 1636236,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bournemouth",
       "league": {
        "id": 3,
@@ -1394,15 +1394,15 @@
        "logo": "https://media.api-sports.io/football/teams/637.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1636243,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 18,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Vigo",
       "league": {
        "id": 3,
@@ -1431,8 +1431,8 @@
      {
       "id": 1636256,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 17,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Zagreb",
       "league": {
        "id": 3,
@@ -1461,8 +1461,8 @@
      {
       "id": 1636260,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Budapest",
       "league": {
        "id": 3,
@@ -1491,8 +1491,8 @@
      {
       "id": 1636268,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Sinsheim",
       "league": {
        "id": 3,
@@ -1521,8 +1521,8 @@
      {
       "id": 1636274,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bialystok",
       "league": {
        "id": 3,
@@ -1544,15 +1544,15 @@
        "logo": "https://media.api-sports.io/football/teams/3683.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
      {
       "id": 1636295,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Marseille",
       "league": {
        "id": 3,
@@ -1575,14 +1575,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1636300,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Nijmegen",
       "league": {
        "id": 3,
@@ -1611,8 +1611,8 @@
      {
       "id": 1636326,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rennes",
       "league": {
        "id": 3,
@@ -1950,8 +1950,8 @@
      {
       "id": 1636382,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 18,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bergamo",
       "league": {
        "id": 848,
@@ -1973,15 +1973,15 @@
        "logo": "https://media.api-sports.io/football/teams/3403.png"
       },
       "goals": [
-       1,
+       3,
        0
       ]
      },
      {
       "id": 1636392,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bergen",
       "league": {
        "id": 848,
@@ -2011,8 +2011,8 @@
       "id": 1636396,
       "date": "2026-10-15T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 17,
-      "venue": "Brighton",
+      "elapsed": 45,
+      "venue": "Falmer",
       "league": {
        "id": 848,
        "name": "UEFA Europa Conference League",
@@ -2033,15 +2033,15 @@
        "logo": "https://media.api-sports.io/football/teams/3872.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1636406,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Copenhagen",
       "league": {
        "id": 848,
@@ -2070,8 +2070,8 @@
      {
       "id": 1636411,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Freiburg",
       "league": {
        "id": 848,
@@ -2094,14 +2094,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1636423,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Edinburgh",
       "league": {
        "id": 848,
@@ -2123,16 +2123,16 @@
        "logo": "https://media.api-sports.io/football/teams/398.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1636471,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
-      "venue": "Sint-Truiden",
+      "status": "HT",
+      "elapsed": 45,
+      "venue": "Sint- Truiden",
       "league": {
        "id": 848,
        "name": "UEFA Europa Conference League",
@@ -2160,8 +2160,8 @@
      {
       "id": 1636480,
       "date": "2026-10-15T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Enschede",
       "league": {
        "id": 848,
@@ -5187,6 +5187,6 @@
   }
  },
  "errors": [],
- "requests": 17,
+ "requests": 16,
  "plan": "Pro"
 }
