@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T02:41:08.059Z",
+ "updated": "2026-10-15T03:12:27.032Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2304,7 +2304,7 @@
      {
       "id": 1490534,
       "date": "2026-10-15T03:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Saint Louis",
       "league": {
@@ -2364,8 +2364,8 @@
      {
       "id": 1490536,
       "date": "2026-10-15T04:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -2388,14 +2388,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1490537,
       "date": "2026-10-15T04:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 76,
       "venue": "Sandy",
       "league": {
        "id": 253,
@@ -2425,7 +2425,7 @@
       "id": 1490538,
       "date": "2026-10-15T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 32,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2455,7 +2455,7 @@
       "id": 1490539,
       "date": "2026-10-15T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 32,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2477,7 +2477,7 @@
        "logo": "https://media.api-sports.io/football/teams/1617.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
