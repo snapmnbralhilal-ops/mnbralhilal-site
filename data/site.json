@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T17:34:45.845Z",
+ "updated": "2026-10-15T18:04:53.940Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -876,7 +876,7 @@
      {
       "id": 1603044,
       "date": "2026-10-15T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Jeddah",
       "league": {
@@ -1101,8 +1101,8 @@
      {
       "id": 1636222,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Alkmaar",
       "league": {
        "id": 3,
@@ -1124,15 +1124,15 @@
        "logo": "https://media.api-sports.io/football/teams/563.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1636239,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Celje",
       "league": {
        "id": 3,
@@ -1155,14 +1155,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1636279,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Poznan",
       "league": {
        "id": 3,
@@ -1191,8 +1191,8 @@
      {
       "id": 1636293,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Lyon",
       "league": {
        "id": 3,
@@ -1215,14 +1215,14 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      },
      {
       "id": 1636328,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Heverley",
       "league": {
        "id": 3,
@@ -1245,14 +1245,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1636332,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Salzburg",
       "league": {
        "id": 3,
@@ -1275,14 +1275,14 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
       "id": 1636338,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Prague",
       "league": {
        "id": 3,
@@ -1304,15 +1304,15 @@
        "logo": "https://media.api-sports.io/football/teams/321.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1636350,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Leiria",
       "league": {
        "id": 3,
@@ -1620,8 +1620,8 @@
      {
       "id": 1636401,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Sofia",
       "league": {
        "id": 848,
@@ -1650,8 +1650,8 @@
      {
       "id": 1636404,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Tirana",
       "league": {
        "id": 848,
@@ -1680,8 +1680,8 @@
      {
       "id": 1636414,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Gent",
       "league": {
        "id": 848,
@@ -1710,8 +1710,8 @@
      {
       "id": 1636419,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Split",
       "league": {
        "id": 848,
@@ -1733,15 +1733,15 @@
        "logo": "https://media.api-sports.io/football/teams/194.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      },
      {
       "id": 1636440,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Tampere",
       "league": {
        "id": 848,
@@ -1763,15 +1763,15 @@
        "logo": "https://media.api-sports.io/football/teams/998.png"
       },
       "goals": [
-       0,
-       2
+       1,
+       3
       ]
      },
      {
       "id": 1636445,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Lugano",
       "league": {
        "id": 848,
@@ -1800,8 +1800,8 @@
      {
       "id": 1636453,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Helsingborg",
       "league": {
        "id": 848,
@@ -1823,15 +1823,15 @@
        "logo": "https://media.api-sports.io/football/teams/3342.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1636464,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Athens",
       "league": {
        "id": 848,
@@ -1860,8 +1860,8 @@
      {
       "id": 1636468,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Rīga",
       "league": {
        "id": 848,
@@ -1890,8 +1890,8 @@
      {
       "id": 1636482,
       "date": "2026-10-15T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 64,
       "venue": "Craiova",
       "league": {
        "id": 848,
@@ -1913,7 +1913,7 @@
        "logo": "https://media.api-sports.io/football/teams/546.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -3433,11 +3433,11 @@
       "logo": "https://media.api-sports.io/football/teams/2945.png"
      },
      "points": 9,
-     "gd": -2,
-     "played": 8,
+     "gd": -3,
+     "played": 9,
      "win": 2,
      "draw": 3,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -3528,10 +3528,10 @@
       "ar": "الفتح",
       "logo": "https://media.api-sports.io/football/teams/2931.png"
      },
-     "points": 3,
-     "gd": -11,
-     "played": 8,
-     "win": 0,
+     "points": 6,
+     "gd": -10,
+     "played": 9,
+     "win": 1,
      "draw": 3,
      "lose": 5,
      "description": "Relegation - Division 1"
