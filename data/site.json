@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T02:09:30.641Z",
+ "updated": "2026-10-15T02:41:08.059Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2244,8 +2244,8 @@
      {
       "id": 1490532,
       "date": "2026-10-15T03:30:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Frisco",
       "league": {
        "id": 253,
@@ -2274,8 +2274,8 @@
      {
       "id": 1490533,
       "date": "2026-10-15T03:30:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Chicago",
       "league": {
        "id": 253,
@@ -2305,7 +2305,7 @@
       "id": 1490534,
       "date": "2026-10-15T03:30:00+03:00",
       "status": "2H",
-      "elapsed": 65,
+      "elapsed": 90,
       "venue": "Saint Louis",
       "league": {
        "id": 253,
@@ -2334,8 +2334,8 @@
      {
       "id": 1490535,
       "date": "2026-10-15T03:30:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Nashville",
       "league": {
        "id": 253,
@@ -2357,15 +2357,15 @@
        "logo": "https://media.api-sports.io/football/teams/1611.png"
       },
       "goals": [
-       3,
+       4,
        0
       ]
      },
      {
       "id": 1490536,
       "date": "2026-10-15T04:30:00+03:00",
-      "status": "1H",
-      "elapsed": 29,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -2387,15 +2387,15 @@
        "logo": "https://media.api-sports.io/football/teams/1612.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1490537,
       "date": "2026-10-15T04:30:00+03:00",
-      "status": "1H",
-      "elapsed": 29,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Sandy",
       "league": {
        "id": 253,
@@ -2424,8 +2424,8 @@
      {
       "id": 1490538,
       "date": "2026-10-15T05:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2446,13 +2446,16 @@
        "ar": "Austin",
        "logo": "https://media.api-sports.io/football/teams/16489.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490539,
       "date": "2026-10-15T05:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2473,7 +2476,10 @@
        "ar": "Portland Timbers",
        "logo": "https://media.api-sports.io/football/teams/1617.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
