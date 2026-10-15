@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:33:51.205Z",
+ "updated": "2026-10-15T13:19:38.318Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -963,8 +963,8 @@
      {
       "id": 1630371,
       "date": "2026-10-15T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Kuching",
       "league": {
        "id": 18,
@@ -993,8 +993,8 @@
      {
       "id": 1630372,
       "date": "2026-10-15T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Patum Thani",
       "league": {
        "id": 18,
@@ -1023,8 +1023,8 @@
      {
       "id": 1630373,
       "date": "2026-10-15T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Phnom Penh",
       "league": {
        "id": 18,
@@ -1053,8 +1053,8 @@
      {
       "id": 1630374,
       "date": "2026-10-15T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Kallang",
       "league": {
        "id": 18,
@@ -5070,6 +5070,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 14,
  "plan": "Pro"
 }
