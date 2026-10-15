@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:29:41.563Z",
+ "updated": "2026-10-15T01:09:40.522Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2064,8 +2064,8 @@
      {
       "id": 1490526,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Miami",
       "league": {
        "id": 253,
@@ -2087,15 +2087,15 @@
        "logo": "https://media.api-sports.io/football/teams/1604.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1490527,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 70,
       "venue": "Columbus",
       "league": {
        "id": 253,
@@ -2117,15 +2117,15 @@
        "logo": "https://media.api-sports.io/football/teams/18310.png"
       },
       "goals": [
-       1,
+       3,
        1
       ]
      },
      {
       "id": 1490528,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Cincinnati",
       "league": {
        "id": 253,
@@ -2147,15 +2147,15 @@
        "logo": "https://media.api-sports.io/football/teams/1609.png"
       },
       "goals": [
-       1,
-       2
+       2,
+       3
       ]
      },
      {
       "id": 1490529,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 69,
       "venue": "Toronto",
       "league": {
        "id": 253,
@@ -2177,15 +2177,15 @@
        "logo": "https://media.api-sports.io/football/teams/1598.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
      {
       "id": 1490530,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 71,
       "venue": "Montreal",
       "league": {
        "id": 253,
@@ -2208,14 +2208,14 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
       "id": 1490531,
       "date": "2026-10-15T02:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Washington",
       "league": {
        "id": 253,
@@ -2237,15 +2237,15 @@
        "logo": "https://media.api-sports.io/football/teams/1602.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1490532,
       "date": "2026-10-15T03:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Frisco",
       "league": {
        "id": 253,
@@ -2266,13 +2266,16 @@
        "ar": "Seattle Sounders",
        "logo": "https://media.api-sports.io/football/teams/1595.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490533,
       "date": "2026-10-15T03:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 29,
       "venue": "Chicago",
       "league": {
        "id": 253,
@@ -2293,13 +2296,16 @@
        "ar": "Philadelphia Union",
        "logo": "https://media.api-sports.io/football/teams/1599.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490534,
       "date": "2026-10-15T03:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 29,
       "venue": "Saint Louis",
       "league": {
        "id": 253,
@@ -2320,13 +2326,16 @@
        "ar": "Vancouver Whitecaps",
        "logo": "https://media.api-sports.io/football/teams/1603.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490535,
       "date": "2026-10-15T03:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 29,
       "venue": "Nashville",
       "league": {
        "id": 253,
@@ -2347,7 +2356,10 @@
        "ar": "Sporting Kansas City",
        "logo": "https://media.api-sports.io/football/teams/1611.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1490536,
