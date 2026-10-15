@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T10:51:53.933Z",
+ "updated": "2026-10-15T11:21:51.033Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -903,8 +903,8 @@
      {
       "id": 1630369,
       "date": "2026-10-15T13:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Gangneung",
       "league": {
        "id": 18,
@@ -926,15 +926,15 @@
        "logo": "https://media.api-sports.io/football/teams/5394.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
      {
       "id": 1630370,
       "date": "2026-10-15T13:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Hong Kong",
       "league": {
        "id": 18,
@@ -957,7 +957,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -5057,18 +5057,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 78,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
