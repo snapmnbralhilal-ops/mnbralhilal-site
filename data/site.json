@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T04:21:58.273Z",
+ "updated": "2026-10-15T04:57:23.696Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2424,8 +2424,8 @@
      {
       "id": 1490538,
       "date": "2026-10-15T05:30:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2454,8 +2454,8 @@
      {
       "id": 1490539,
       "date": "2026-10-15T05:30:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
