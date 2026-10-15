@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-15T06:29:25.626Z",
+ "updated": "2026-10-15T07:16:28.269Z",
  "players": [
   {
    "api": 156,
@@ -67,7 +67,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.76,
+   "rating": 6.8,
    "comps": [
     {
      "id": 307,
@@ -140,7 +140,7 @@
    "assists": 1,
    "saves": 0,
    "conceded": 0,
-   "shots": 14,
+   "shots": 13,
    "shotsOn": 7,
    "keyPasses": 20,
    "passes": 441,
@@ -150,7 +150,7 @@
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 7.43,
+   "rating": 7.47,
    "comps": [
     {
      "id": 307,
@@ -188,14 +188,14 @@
    "shots": 14,
    "shotsOn": 4,
    "keyPasses": 6,
-   "passes": 190,
+   "passes": 191,
    "tackles": 16,
    "interceptions": 0,
    "dribbles": 11,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.23,
+   "rating": 7.26,
    "comps": [
     {
      "id": 307,
@@ -240,7 +240,7 @@
    "yellow": 2,
    "red": 0,
    "penScored": 5,
-   "rating": 7.69,
+   "rating": 7.85,
    "comps": [
     {
      "id": 307,
@@ -285,7 +285,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.08,
+   "rating": 7.13,
    "comps": [
     {
      "id": 307,
@@ -365,7 +365,7 @@
    "assists": 3,
    "saves": 0,
    "conceded": 0,
-   "shots": 26,
+   "shots": 25,
    "shotsOn": 6,
    "keyPasses": 18,
    "passes": 266,
@@ -375,7 +375,7 @@
    "yellow": 2,
    "red": 1,
    "penScored": 0,
-   "rating": 7.59,
+   "rating": 7.56,
    "comps": [
     {
      "id": 307,
@@ -420,7 +420,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.67,
+   "rating": 6.65,
    "comps": [
     {
      "id": 307,
@@ -465,7 +465,7 @@
    "yellow": 2,
    "red": 0,
    "penScored": 0,
-   "rating": 5.49,
+   "rating": 5.84,
    "comps": [
     {
      "id": 307,
@@ -555,7 +555,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 3.71,
+   "rating": 3.72,
    "comps": [
     {
      "id": 307,
@@ -748,7 +748,7 @@
    "assists": 0,
    "saves": 0,
    "conceded": 0,
-   "shots": 14,
+   "shots": 13,
    "shotsOn": 8,
    "keyPasses": 5,
    "passes": 143,
@@ -758,7 +758,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.23,
+   "rating": 7.27,
    "comps": [
     {
      "id": 307,
@@ -803,7 +803,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.85,
+   "rating": 6.86,
    "comps": [
     {
      "id": 307,
@@ -838,7 +838,7 @@
    "assists": 1,
    "saves": 0,
    "conceded": 0,
-   "shots": 1,
+   "shots": 0,
    "shotsOn": 0,
    "keyPasses": 12,
    "passes": 411,
