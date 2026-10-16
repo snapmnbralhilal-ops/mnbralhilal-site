@@ -50,7 +50,7 @@
     if (Number(m?.league?.id) !== 307 || !String(m.date || "").startsWith("2026-10-")) return m;
     const ids = [Number(m.home?.id), Number(m.away?.id)];
     const pair = (a,b) => ids.includes(a) && ids.includes(b);
-    if (pair(2938,2940) || pair(2932,2949) || pair(2929,2939)) {
+    if (Number(m.id) === 1603051 || pair(2938,2940) || pair(2932,10511) || pair(2929,2939)) {
       return { ...m, status: "PST", elapsed: null };
     }
     return m;
@@ -511,11 +511,12 @@
     const mName = fmt({ month: "long" }).format(new Date(month[0].date));
     document.querySelectorAll("#monthTitle").forEach((el) => (el.textContent = `مباريات الهلال في ${mName}`));
     const info = (m) => {
+      m = officialReschedule(m);
       const home = m.home.id === HILAL_ID, opp = home ? m.away : m.home, k = compKind(m);
       const done = DONE.includes(m.status) && m.goals, live = LIVE.includes(m.status);
       const o = done ? outcome(m) : null;
       const sc = done || live ? `${m.goals?.[0] ?? 0} - ${m.goals?.[1] ?? 0}` : "";
-      return { home, opp, k, done, live, o, sc, day: +ymdR(m.date).day, time: fTime.format(new Date(m.date)) };
+      return { home, opp, k, done, live, o, sc, day: +ymdR(m.date).day, time: m.status === "PST" ? "مؤجلة" : fTime.format(new Date(m.date)) };
     };
     const kinds = new Set(month.map(compKind));
     document.querySelectorAll(".mo-legend [data-k]").forEach((el) => (el.hidden = !kinds.has(el.dataset.k)));
