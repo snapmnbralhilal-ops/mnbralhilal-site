@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T15:35:51.273Z",
+ "updated": "2026-10-16T16:08:28.267Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -748,8 +748,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يتصدر دوري روشن برصيد 21 نقطة",
-   "body": "بفارق نقطتين عن القادسية صاحب المركز الثاني.",
+   "title": "الهلال في المركز 2 بدوري روشن برصيد 21 نقطة",
+   "body": "متأخراً بـنقطة واحدة عن المتصدر القادسية.",
    "link": "#table"
   },
   {
@@ -1023,8 +1023,8 @@
      {
       "id": 1597938,
       "date": "2026-10-16T17:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 78,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1047,7 +1047,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -1119,8 +1119,8 @@
      {
       "id": 1639008,
       "date": "2026-10-16T18:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Abu Dhabi",
       "league": {
        "id": 301,
@@ -1141,7 +1141,10 @@
        "ar": "الوصل",
        "logo": "https://media.api-sports.io/football/teams/2872.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -3076,6 +3079,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 2933,
+      "name": "Al-Qadisiyah FC",
+      "ar": "القادسية",
+      "logo": "https://media.api-sports.io/football/teams/2933.png"
+     },
+     "points": 22,
+     "gd": 14,
+     "played": 9,
+     "win": 7,
+     "draw": 1,
+     "lose": 1,
+     "description": "Promotion - AFC Champions League (League phase)"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 2932,
       "name": "Al-Hilal Saudi FC",
       "ar": "الهلال",
@@ -3086,22 +3105,6 @@
      "played": 8,
      "win": 7,
      "draw": 0,
-     "lose": 1,
-     "description": "Promotion - AFC Champions League (League phase)"
-    },
-    {
-     "rank": 2,
-     "team": {
-      "id": 2933,
-      "name": "Al-Qadisiyah FC",
-      "ar": "القادسية",
-      "logo": "https://media.api-sports.io/football/teams/2933.png"
-     },
-     "points": 19,
-     "gd": 13,
-     "played": 8,
-     "win": 6,
-     "draw": 1,
      "lose": 1,
      "description": "Promotion - AFC Champions League (League phase)"
     },
@@ -3354,11 +3357,11 @@
       "logo": "https://media.api-sports.io/football/teams/2951.png"
      },
      "points": 2,
-     "gd": -8,
-     "played": 7,
+     "gd": -9,
+     "played": 8,
      "win": 0,
      "draw": 2,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation - Division 1"
     }
    ]
