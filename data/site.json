@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-16T15:03:33.208Z",
+ "updated": "2026-10-16T15:35:51.273Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1603051,
     "date": "2026-10-16T18:00:00+03:00",
-    "status": "NS",
+    "status": "PST",
     "elapsed": null,
     "venue": "Riyadh",
     "league": {
@@ -786,8 +786,8 @@
      {
       "id": 1603050,
       "date": "2026-10-16T16:15:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -810,13 +810,13 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      },
      {
       "id": 1603051,
       "date": "2026-10-16T18:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Riyadh",
       "league": {
@@ -1023,8 +1023,8 @@
      {
       "id": 1597938,
       "date": "2026-10-16T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 305,
