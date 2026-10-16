@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T17:10:33.229Z",
+ "updated": "2026-10-16T17:47:44.908Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1053,8 +1053,8 @@
      {
       "id": 1597942,
       "date": "2026-10-16T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1077,7 +1077,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      }
     ]
@@ -1122,8 +1122,8 @@
      {
       "id": 1639008,
       "date": "2026-10-16T18:45:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Abu Dhabi",
       "league": {
        "id": 301,
@@ -1197,8 +1197,8 @@
      {
       "id": 1584432,
       "date": "2026-10-16T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 10,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Corum",
       "league": {
        "id": 203,
@@ -1220,8 +1220,8 @@
        "logo": "https://media.api-sports.io/football/teams/1007.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -4935,6 +4935,6 @@
   }
  },
  "errors": [],
- "requests": 16,
+ "requests": 19,
  "plan": "Pro"
 }
