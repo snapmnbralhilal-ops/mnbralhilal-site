@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T12:36:11.767Z",
+ "updated": "2026-10-16T13:18:16.855Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603050,
       "date": "2026-10-16T16:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -808,7 +808,10 @@
        "ar": "أبها",
        "logo": "https://media.api-sports.io/football/teams/2951.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603051,
@@ -1083,8 +1086,8 @@
      {
       "id": 1639007,
       "date": "2026-10-16T16:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Ancient Zayed City",
       "league": {
        "id": 301,
@@ -1105,7 +1108,10 @@
        "ar": "Dubai United",
        "logo": "https://media.api-sports.io/football/teams/22321.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1639008,
