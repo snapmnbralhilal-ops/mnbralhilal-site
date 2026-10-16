@@ -44,7 +44,20 @@
   }
   function visibleLive(m) { return LIVE.includes(m.status) && !staleLive(m); }
 
+  // Confirmed SPL rescheduling notice (13 Oct 2026).
+  // Override stale provider kickoff statuses until its feed is corrected.
+  function officialReschedule(m) {
+    if (Number(m?.league?.id) !== 307 || !String(m.date || "").startsWith("2026-10-")) return m;
+    const ids = [Number(m.home?.id), Number(m.away?.id)];
+    const pair = (a,b) => ids.includes(a) && ids.includes(b);
+    if (pair(2938,2940) || pair(2932,2949) || pair(2929,2939)) {
+      return { ...m, status: "PST", elapsed: null };
+    }
+    return m;
+  }
+
   function scoreCell(m) {
+    m = officialReschedule(m);
     const d = new Date(m.date);
     if (visibleLive(m)) {
       const g = m.goals || [0, 0];
@@ -57,6 +70,7 @@
   }
 
   function row(m, { showWhen = true, hl = false, bell = null } = {}) {
+    m = officialReschedule(m);
     const d = new Date(m.date);
     const o = DONE.includes(m.status) ? outcome(m) : null;
     const res = o ? `<span class="res ${o}">${lbl[o]}</span>` : "";
