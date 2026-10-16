@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T16:39:41.255Z",
+ "updated": "2026-10-16T17:10:33.229Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1053,8 +1053,8 @@
      {
       "id": 1597942,
       "date": "2026-10-16T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1075,7 +1075,10 @@
        "ar": "العربي",
        "logo": "https://media.api-sports.io/football/teams/2905.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1119,8 +1122,8 @@
      {
       "id": 1639008,
       "date": "2026-10-16T18:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Abu Dhabi",
       "league": {
        "id": 301,
@@ -1194,8 +1197,8 @@
      {
       "id": 1584432,
       "date": "2026-10-16T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 10,
       "venue": "Corum",
       "league": {
        "id": 203,
@@ -1216,7 +1219,10 @@
        "ar": "Rizespor",
        "logo": "https://media.api-sports.io/football/teams/1007.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
@@ -4929,6 +4935,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 16,
  "plan": "Pro"
 }
