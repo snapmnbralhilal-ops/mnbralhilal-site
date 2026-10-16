@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T19:53:10.427Z",
+ "updated": "2026-10-16T20:17:01.086Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -879,8 +879,8 @@
      {
       "id": 1570415,
       "date": "2026-10-16T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "La Coruna",
       "league": {
        "id": 140,
@@ -919,7 +919,7 @@
       "id": 1550151,
       "date": "2026-10-16T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 72,
       "venue": "Frosinone",
       "league": {
        "id": 135,
@@ -941,7 +941,7 @@
        "logo": "https://media.api-sports.io/football/teams/488.png"
       },
       "goals": [
-       3,
+       4,
        2
       ]
      }
@@ -958,7 +958,7 @@
       "id": 1575187,
       "date": "2026-10-16T21:30:00+03:00",
       "status": "2H",
-      "elapsed": 62,
+      "elapsed": 86,
       "venue": "Frankfurt",
       "league": {
        "id": 78,
@@ -980,7 +980,7 @@
        "logo": "https://media.api-sports.io/football/teams/192.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -997,7 +997,7 @@
       "id": 1552785,
       "date": "2026-10-16T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 75,
       "venue": "Le Mans",
       "league": {
        "id": 61,
@@ -1020,7 +1020,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
@@ -1173,7 +1173,7 @@
      {
       "id": 1552189,
       "date": "2026-10-16T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Heerenveen",
       "league": {
