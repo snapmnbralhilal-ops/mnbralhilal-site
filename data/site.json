@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T21:19:43.443Z",
+ "updated": "2026-10-16T21:50:56.890Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3920,6 +3920,22 @@
     {
      "rank": 4,
      "team": {
+      "id": 512,
+      "name": "Frosinone",
+      "ar": "فروزينوني",
+      "logo": "https://media.api-sports.io/football/teams/512.png"
+     },
+     "points": 13,
+     "gd": 4,
+     "played": 7,
+     "win": 4,
+     "draw": 1,
+     "lose": 2,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
       "id": 490,
       "name": "Cagliari",
       "ar": "كالياري",
@@ -3931,10 +3947,10 @@
      "win": 4,
      "draw": 1,
      "lose": 1,
-     "description": "Champions League league stage"
+     "description": "Europa League league stage"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": {
       "id": 489,
       "name": "AC Milan",
@@ -3947,10 +3963,10 @@
      "win": 3,
      "draw": 3,
      "lose": 0,
-     "description": "Europa League league stage"
+     "description": "Play-offs"
     },
     {
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 496,
       "name": "Juventus",
@@ -3963,10 +3979,10 @@
      "win": 3,
      "draw": 2,
      "lose": 1,
-     "description": "Play-offs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 895,
       "name": "Como",
@@ -3982,7 +3998,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 492,
       "name": "Napoli",
@@ -3991,22 +4007,6 @@
      },
      "points": 10,
      "gd": 4,
-     "played": 6,
-     "win": 3,
-     "draw": 1,
-     "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 9,
-     "team": {
-      "id": 512,
-      "name": "Frosinone",
-      "ar": "فروزينوني",
-      "logo": "https://media.api-sports.io/football/teams/512.png"
-     },
-     "points": 10,
-     "gd": 2,
      "played": 6,
      "win": 3,
      "draw": 1,
@@ -4038,11 +4038,11 @@
       "logo": "https://media.api-sports.io/football/teams/488.png"
      },
      "points": 8,
-     "gd": 0,
-     "played": 6,
+     "gd": -2,
+     "played": 7,
      "win": 2,
      "draw": 2,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
@@ -4309,6 +4309,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "ar": "آينتراخت فرانكفورت",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+     },
+     "points": 8,
+     "gd": -6,
+     "played": 6,
+     "win": 2,
+     "draw": 2,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 164,
       "name": "FSV Mainz 05",
       "ar": "ماينز",
@@ -4323,7 +4339,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 1660,
       "name": "SV Elversberg",
@@ -4339,7 +4355,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 192,
       "name": "1. FC Köln",
@@ -4347,15 +4363,15 @@
       "logo": "https://media.api-sports.io/football/teams/192.png"
      },
      "points": 7,
-     "gd": -2,
-     "played": 5,
+     "gd": -3,
+     "played": 6,
      "win": 2,
      "draw": 1,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 172,
       "name": "VfB Stuttgart",
@@ -4371,7 +4387,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 175,
       "name": "Hamburger SV",
@@ -4387,7 +4403,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 174,
       "name": "FC Schalke 04",
@@ -4396,22 +4412,6 @@
      },
      "points": 5,
      "gd": -2,
-     "played": 5,
-     "win": 1,
-     "draw": 2,
-     "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 169,
-      "name": "Eintracht Frankfurt",
-      "ar": "آينتراخت فرانكفورت",
-      "logo": "https://media.api-sports.io/football/teams/169.png"
-     },
-     "points": 5,
-     "gd": -7,
      "played": 5,
      "win": 1,
      "draw": 2,
@@ -4586,6 +4586,22 @@
     {
      "rank": 7,
      "team": {
+      "id": 96,
+      "name": "Toulouse",
+      "ar": "تولوز",
+      "logo": "https://media.api-sports.io/football/teams/96.png"
+     },
+     "points": 9,
+     "gd": 1,
+     "played": 7,
+     "win": 2,
+     "draw": 3,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
       "id": 106,
       "name": "Stade Brestois 29",
       "ar": "بريست",
@@ -4600,7 +4616,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 97,
       "name": "Lorient",
@@ -4616,7 +4632,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 84,
       "name": "Nice",
@@ -4632,7 +4648,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 116,
       "name": "Lens",
@@ -4648,7 +4664,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 95,
       "name": "Strasbourg",
@@ -4664,7 +4680,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 77,
       "name": "Angers",
@@ -4680,7 +4696,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 81,
       "name": "Marseille",
@@ -4696,7 +4712,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 1298,
       "name": "Le Mans",
@@ -4704,27 +4720,11 @@
       "logo": "https://media.api-sports.io/football/teams/1298.png"
      },
      "points": 6,
-     "gd": -2,
-     "played": 6,
+     "gd": -5,
+     "played": 7,
      "win": 1,
      "draw": 3,
-     "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 96,
-      "name": "Toulouse",
-      "ar": "تولوز",
-      "logo": "https://media.api-sports.io/football/teams/96.png"
-     },
-     "points": 6,
-     "gd": -2,
-     "played": 6,
-     "win": 1,
-     "draw": 3,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
