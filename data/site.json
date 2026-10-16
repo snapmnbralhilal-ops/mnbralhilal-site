@@ -1,35 +1,8 @@
 {
- "updated": "2026-10-16T17:47:44.908Z",
+ "updated": "2026-10-16T18:11:20.296Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
-   {
-    "id": 1603051,
-    "date": "2026-10-16T18:00:00+03:00",
-    "status": "PST",
-    "elapsed": null,
-    "venue": "Riyadh",
-    "league": {
-     "id": 307,
-     "name": "Pro League",
-     "country": "Saudi-Arabia",
-     "logo": "https://media.api-sports.io/football/leagues/307.png",
-     "round": "Regular Season - 9"
-    },
-    "home": {
-     "id": 10511,
-     "name": "Al Riyadh",
-     "ar": "الرياض",
-     "logo": "https://media.api-sports.io/football/teams/10511.png"
-    },
-    "away": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "goals": null
-   },
    {
     "id": 1603058,
     "date": "2026-10-19T21:00:00+03:00",
@@ -270,6 +243,33 @@
      "name": "Al-Hilal Saudi FC",
      "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null
+   },
+   {
+    "id": 1603111,
+    "date": "2026-12-03T20:00:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "Riyadh",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 16"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2951,
+     "name": "Abha",
+     "ar": "أبها",
+     "logo": "https://media.api-sports.io/football/teams/2951.png"
     },
     "goals": null
    }
@@ -742,8 +742,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يحل ضيفاً على الرياض في دوري روشن السعودي",
-   "body": "الجمعة، 16 أكتوبر الساعة 18:00 بتوقيت مكة.",
+   "title": "الهلال يستضيف الحزم في دوري روشن السعودي",
+   "body": "الاثنين، 19 أكتوبر الساعة 21:00 بتوقيت مكة.",
    "link": "#hilal"
   },
   {
@@ -1053,8 +1053,8 @@
      {
       "id": 1597942,
       "date": "2026-10-16T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 64,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1077,7 +1077,7 @@
       },
       "goals": [
        0,
-       2
+       4
       ]
      }
     ]
@@ -1161,8 +1161,8 @@
      {
       "id": 1552189,
       "date": "2026-10-16T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Heerenveen",
       "league": {
        "id": 88,
@@ -1183,7 +1183,10 @@
        "ar": "Excelsior",
        "logo": "https://media.api-sports.io/football/teams/196.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1197,8 +1200,8 @@
      {
       "id": 1584432,
       "date": "2026-10-16T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Corum",
       "league": {
        "id": 203,
@@ -4935,6 +4938,6 @@
   }
  },
  "errors": [],
- "requests": 19,
+ "requests": 20,
  "plan": "Pro"
 }
