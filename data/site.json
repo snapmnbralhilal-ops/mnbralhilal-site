@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T13:58:02.005Z",
+ "updated": "2026-10-16T14:29:46.729Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603050,
       "date": "2026-10-16T16:15:00+03:00",
-      "status": "1H",
-      "elapsed": 43,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -1086,8 +1086,8 @@
      {
       "id": 1639007,
       "date": "2026-10-16T16:05:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Ancient Zayed City",
       "league": {
        "id": 301,
@@ -1109,7 +1109,7 @@
        "logo": "https://media.api-sports.io/football/teams/22321.png"
       },
       "goals": [
-       2,
+       3,
        1
       ]
      },
@@ -4923,6 +4923,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
