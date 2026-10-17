@@ -196,6 +196,23 @@
 
   // جلب
   let BASE = null, LAST = null, TIMER = null;
+  const SNAP_KEY = "mnbr-fixture-v2-" + ID;
+  const PHASE = { NS:0, TBD:0, "1H":1, HT:2, "2H":3, ET:4, BT:4, P:5, FT:6, AET:6, PEN:6, AWD:6, WO:6 };
+  function validSnapshot(d) { return d?.m && String(d.m.id) === String(ID); }
+  function isRegression(previous, incoming) {
+    if (!validSnapshot(previous) || !validSnapshot(incoming)) return false;
+    const a = previous.m, b = incoming.m;
+    const phaseA = PHASE[a.status] ?? -1, phaseB = PHASE[b.status] ?? -1;
+    if (phaseA > phaseB && phaseB >= 0) return true;
+    if (phaseA === phaseB && LIVE.includes(a.status) && LIVE.includes(b.status)
+        && Number(b.elapsed || 0) < Number(a.elapsed || 0) - 2) return true;
+    return false;
+  }
+  try {
+    const saved = JSON.parse(sessionStorage.getItem(SNAP_KEY) || "null");
+    if (saved && Date.now() - saved.savedAt < 6 * 3600000 && validSnapshot(saved.data)) LAST = saved.data;
+  } catch (e) {}
+  if (LAST) renderAll(LAST);
   async function base() {
     if (BASE) return BASE;
     try { const j = await fetch("data/live.json?t=" + Date.now()).then((r) => r.json()); BASE = j.url.replace(/\/live$/, ""); } catch (e) {}
@@ -209,7 +226,13 @@
       if (!r.ok) { if (!LAST) $("mHead").innerHTML = `<div class="m-loading">تعذّر تحميل المباراة.</div>`; return; }
       const data = await r.json();
       if (data.error) { $("mHead").innerHTML = `<div class="m-loading">${esc(data.error === "not-found" ? "المباراة غير موجودة." : "خطأ")}</div>`; return; }
+      if (isRegression(LAST, data)) {
+        // A stale KV/edge snapshot must not rewind a live match.
+        scheduleNext();
+        return;
+      }
       LAST = data;
+      try { sessionStorage.setItem(SNAP_KEY, JSON.stringify({ savedAt: Date.now(), data })); } catch (e) {}
       renderAll(data);
       scheduleNext();
     } catch (e) { if (!LAST) $("mHead").innerHTML = `<div class="m-loading">تعذّر تحميل المباراة.</div>`; scheduleNext(); }
