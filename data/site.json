@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T14:45:18.405Z",
+ "updated": "2026-10-17T15:05:52.825Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -879,7 +879,7 @@
      {
       "id": 1557428,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "London",
       "league": {
@@ -902,15 +902,15 @@
        "logo": "https://media.api-sports.io/football/teams/40.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1557431,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "London",
       "league": {
        "id": 39,
@@ -939,8 +939,8 @@
      {
       "id": 1557433,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -1035,8 +1035,8 @@
      {
       "id": 1570422,
       "date": "2026-10-17T17:15:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Villarreal",
       "league": {
        "id": 140,
@@ -1128,8 +1128,8 @@
      {
       "id": 1550156,
       "date": "2026-10-17T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Venice",
       "league": {
        "id": 135,
@@ -1222,7 +1222,7 @@
       "id": 1575188,
       "date": "2026-10-17T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 76,
       "venue": "Berlin",
       "league": {
        "id": 78,
@@ -1252,7 +1252,7 @@
       "id": 1575190,
       "date": "2026-10-17T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 76,
       "venue": "Hamburger",
       "league": {
        "id": 78,
@@ -1282,7 +1282,7 @@
       "id": 1575191,
       "date": "2026-10-17T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 77,
       "venue": "Bremen",
       "league": {
        "id": 78,
@@ -1304,7 +1304,7 @@
        "logo": "https://media.api-sports.io/football/teams/185.png"
       },
       "goals": [
-       0,
+       2,
        2
       ]
      },
@@ -1312,7 +1312,7 @@
       "id": 1575192,
       "date": "2026-10-17T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 77,
       "venue": "Gelsenkirchen",
       "league": {
        "id": 78,
@@ -1342,7 +1342,7 @@
       "id": 1575193,
       "date": "2026-10-17T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 68,
       "venue": "Spiesen-Elversberg",
       "league": {
        "id": 78,
@@ -1498,7 +1498,7 @@
       "id": 1597941,
       "date": "2026-10-17T17:30:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 36,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1521,7 +1521,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1563,8 +1563,8 @@
      {
       "id": 1639009,
       "date": "2026-10-17T16:05:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Dubai",
       "league": {
        "id": 301,
@@ -1693,7 +1693,7 @@
       "id": 1552190,
       "date": "2026-10-17T17:30:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 35,
       "venue": "The Hague",
       "league": {
        "id": 88,
@@ -1716,7 +1716,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1815,8 +1815,8 @@
      {
       "id": 1584430,
       "date": "2026-10-17T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 85,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Diyarbakır",
       "league": {
        "id": 203,
@@ -1838,15 +1838,15 @@
        "logo": "https://media.api-sports.io/football/teams/607.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1584435,
       "date": "2026-10-17T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ankara",
       "league": {
        "id": 203,
@@ -1869,7 +1869,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1941,8 +1941,8 @@
      {
       "id": 1644466,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Rushden",
       "league": {
        "id": 45,
@@ -1998,8 +1998,8 @@
      {
       "id": 1644468,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Altrincham",
       "league": {
        "id": 45,
@@ -2055,7 +2055,7 @@
      {
       "id": 1644470,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
+      "status": "HT",
       "elapsed": 45,
       "venue": "Borehamwood",
       "league": {
@@ -2079,14 +2079,14 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
       "id": 1644471,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Boston",
       "league": {
        "id": 45,
@@ -2109,14 +2109,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1644473,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Carlisle",
       "league": {
        "id": 45,
@@ -2138,15 +2138,15 @@
        "logo": "https://media.api-sports.io/football/teams/7752.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1644474,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Chesham",
       "league": {
        "id": 45,
@@ -2175,8 +2175,8 @@
      {
       "id": 1644475,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Chorley",
       "league": {
        "id": 45,
@@ -2205,8 +2205,8 @@
      {
       "id": 1644476,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "River",
       "league": {
        "id": 45,
@@ -2262,8 +2262,8 @@
      {
       "id": 1644478,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Halifax",
       "league": {
        "id": 45,
@@ -2292,8 +2292,8 @@
      {
       "id": 1644479,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "",
       "league": {
        "id": 45,
@@ -2322,8 +2322,8 @@
      {
       "id": 1644480,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Hartlepool",
       "league": {
        "id": 45,
@@ -2352,8 +2352,8 @@
      {
       "id": 1644481,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Kidderminster",
       "league": {
        "id": 45,
@@ -2409,8 +2409,8 @@
      {
       "id": 1644483,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Reston",
       "league": {
        "id": 45,
@@ -2520,8 +2520,8 @@
      {
       "id": 1644487,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Southend-On-Sea",
       "league": {
        "id": 45,
@@ -2550,8 +2550,8 @@
      {
       "id": 1644488,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "London",
       "league": {
        "id": 45,
@@ -2580,8 +2580,8 @@
      {
       "id": 1644489,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Torquay",
       "league": {
        "id": 45,
@@ -4884,6 +4884,6 @@
   }
  },
  "errors": [],
- "requests": 27,
+ "requests": 28,
  "plan": "Pro"
 }
