@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T09:10:20.275Z",
+ "updated": "2026-10-17T09:46:01.091Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1859,7 +1859,7 @@
       "date": "2026-10-17T14:30:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Bury",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1886,7 +1886,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Rushden",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1913,7 +1913,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Aldershot",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1940,7 +1940,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Altrincham",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1967,7 +1967,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Barrow-In-Furness",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1994,7 +1994,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Borehamwood",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2021,7 +2021,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Boston",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2048,7 +2048,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Carlisle",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2075,7 +2075,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Chesham",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2102,7 +2102,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Chorley",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2129,7 +2129,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "River",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2156,7 +2156,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Eastleigh",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2183,7 +2183,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Halifax",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2237,7 +2237,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Hartlepool",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2264,7 +2264,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Kidderminster",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2291,7 +2291,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Leatherhead",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2318,7 +2318,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Reston",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2345,7 +2345,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Plymouth",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2372,7 +2372,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Salisbury",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2399,7 +2399,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Southampton",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2426,7 +2426,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Southend-On-Sea",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2453,7 +2453,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "London",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -2480,7 +2480,7 @@
       "date": "2026-10-17T17:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Torquay",
       "league": {
        "id": 45,
        "name": "FA Cup",
