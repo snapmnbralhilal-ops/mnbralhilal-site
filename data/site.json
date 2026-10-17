@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T18:34:10.211Z",
+ "updated": "2026-10-17T19:02:48.501Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1603045,
       "date": "2026-10-17T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -1104,8 +1104,8 @@
      {
       "id": 1570421,
       "date": "2026-10-17T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Valdivia",
       "league": {
        "id": 140,
@@ -1126,7 +1126,10 @@
        "ar": "أتلتيك بلباو",
        "logo": "https://media.api-sports.io/football/teams/531.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1200,8 +1203,8 @@
      {
       "id": 1550148,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1222,7 +1225,10 @@
        "ar": "جنوى",
        "logo": "https://media.api-sports.io/football/teams/495.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1455,8 +1461,8 @@
      {
       "id": 1552786,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1477,13 +1483,16 @@
        "ar": "بريست",
        "logo": "https://media.api-sports.io/football/teams/106.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1552791,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1504,7 +1513,10 @@
        "ar": "لانس",
        "logo": "https://media.api-sports.io/football/teams/116.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -1548,8 +1560,8 @@
      {
       "id": 1597943,
       "date": "2026-10-17T19:45:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lusail",
       "league": {
        "id": 305,
@@ -1752,8 +1764,8 @@
      {
       "id": 1552192,
       "date": "2026-10-17T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1775,7 +1787,7 @@
        "logo": "https://media.api-sports.io/football/teams/209.png"
       },
       "goals": [
-       1,
+       2,
        3
       ]
      },
@@ -2274,8 +2286,8 @@
      {
       "id": 1644477,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "TBD",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Eastleigh",
       "league": {
        "id": 45,
@@ -2296,7 +2308,10 @@
        "ar": "Brentwood Town",
        "logo": "https://media.api-sports.io/football/teams/7216.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       2
+      ]
      },
      {
       "id": 1644478,
@@ -2505,8 +2520,8 @@
      {
       "id": 1644485,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "TBD",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Salisbury",
       "league": {
        "id": 45,
@@ -2527,13 +2542,16 @@
        "ar": "Eastbourne Borough",
        "logo": "https://media.api-sports.io/football/teams/4704.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1644486,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "TBD",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Southampton",
       "league": {
        "id": 45,
@@ -2554,7 +2572,10 @@
        "ar": "SE Dons",
        "logo": "https://media.api-sports.io/football/teams/28345.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1644487,
@@ -4021,10 +4042,10 @@
       "ar": "إنتر ميلان",
       "logo": "https://media.api-sports.io/football/teams/505.png"
      },
-     "points": 16,
-     "gd": 10,
-     "played": 6,
-     "win": 5,
+     "points": 19,
+     "gd": 12,
+     "played": 7,
+     "win": 6,
      "draw": 1,
      "lose": 0,
      "description": "Champions League league stage"
@@ -4230,11 +4251,11 @@
       "logo": "https://media.api-sports.io/football/teams/500.png"
      },
      "points": 5,
-     "gd": -2,
-     "played": 6,
+     "gd": -4,
+     "played": 7,
      "win": 1,
      "draw": 2,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -4634,6 +4655,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "ar": "باريس سان جيرمان",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+     },
+     "points": 14,
+     "gd": 5,
+     "played": 7,
+     "win": 4,
+     "draw": 2,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 91,
       "name": "Monaco",
       "ar": "موناكو",
@@ -4648,7 +4685,7 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 79,
       "name": "Lille",
@@ -4664,7 +4701,7 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 3,
+     "rank": 4,
      "team": {
       "id": 94,
       "name": "Rennes",
@@ -4677,10 +4714,10 @@
      "win": 4,
      "draw": 1,
      "lose": 1,
-     "description": "Champions League league stage"
+     "description": " Qualifying"
     },
     {
-     "rank": 4,
+     "rank": 5,
      "team": {
       "id": 80,
       "name": "Lyon",
@@ -4693,10 +4730,10 @@
      "win": 3,
      "draw": 2,
      "lose": 1,
-     "description": " Qualifying"
+     "description": "Europa League league stage"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": {
       "id": 114,
       "name": "Paris FC",
@@ -4705,22 +4742,6 @@
      },
      "points": 11,
      "gd": 4,
-     "played": 6,
-     "win": 3,
-     "draw": 2,
-     "lose": 1,
-     "description": "Europa League league stage"
-    },
-    {
-     "rank": 6,
-     "team": {
-      "id": 85,
-      "name": "Paris Saint Germain",
-      "ar": "باريس سان جيرمان",
-      "logo": "https://media.api-sports.io/football/teams/85.png"
-     },
-     "points": 11,
-     "gd": 3,
      "played": 6,
      "win": 3,
      "draw": 2,
@@ -4816,11 +4837,11 @@
       "logo": "https://media.api-sports.io/football/teams/95.png"
      },
      "points": 7,
-     "gd": -1,
-     "played": 6,
+     "gd": -3,
+     "played": 7,
      "win": 2,
      "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -4923,6 +4944,6 @@
   }
  },
  "errors": [],
- "requests": 34,
+ "requests": 33,
  "plan": "Pro"
 }
