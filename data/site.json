@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:52:29.621Z",
+ "updated": "2026-10-17T20:13:02.317Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,7 +816,7 @@
      {
       "id": 1603045,
       "date": "2026-10-17T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Riyadh",
       "league": {
@@ -1104,8 +1104,8 @@
      {
       "id": 1570421,
       "date": "2026-10-17T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Valdivia",
       "league": {
        "id": 140,
@@ -1204,7 +1204,7 @@
       "id": 1550148,
       "date": "2026-10-17T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 70,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1226,7 +1226,7 @@
        "logo": "https://media.api-sports.io/football/teams/495.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      }
@@ -1462,7 +1462,7 @@
       "id": 1552786,
       "date": "2026-10-17T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 71,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1484,15 +1484,15 @@
        "logo": "https://media.api-sports.io/football/teams/106.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
      {
       "id": 1552791,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1515,7 +1515,7 @@
       },
       "goals": [
        1,
-       2
+       3
       ]
      }
     ]
@@ -1698,8 +1698,8 @@
      {
       "id": 1644215,
       "date": "2026-10-17T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "El Jadida",
       "league": {
        "id": 200,
@@ -1720,7 +1720,10 @@
        "ar": "Moghreb Tetouan",
        "logo": "https://media.api-sports.io/football/teams/965.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1764,7 +1767,7 @@
      {
       "id": 1552192,
       "date": "2026-10-17T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Felsen",
       "league": {
@@ -1794,8 +1797,8 @@
      {
       "id": 1552193,
       "date": "2026-10-17T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1817,7 +1820,7 @@
        "logo": "https://media.api-sports.io/football/teams/195.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      }
@@ -4956,6 +4959,6 @@
   }
  },
  "errors": [],
- "requests": 28,
+ "requests": 25,
  "plan": "Pro"
 }
