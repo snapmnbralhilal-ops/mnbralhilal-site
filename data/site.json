@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T21:32:50.680Z",
+ "updated": "2026-10-17T21:58:10.289Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3076,6 +3076,36 @@
        1,
        0
       ]
+     },
+     {
+      "id": 1644215,
+      "date": "2026-10-17T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "El Jadida",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 4"
+      },
+      "home": {
+       "id": 964,
+       "name": "Difaa EL Jadida",
+       "ar": "Difaa EL Jadida",
+       "logo": "https://media.api-sports.io/football/teams/964.png"
+      },
+      "away": {
+       "id": 965,
+       "name": "Moghreb Tetouan",
+       "ar": "Moghreb Tetouan",
+       "logo": "https://media.api-sports.io/football/teams/965.png"
+      },
+      "goals": [
+       4,
+       1
+      ]
      }
     ]
    },
@@ -4033,36 +4063,6 @@
        0,
        1
       ]
-     },
-     {
-      "id": 1644490,
-      "date": "2026-10-17T17:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Usley",
-      "league": {
-       "id": 45,
-       "name": "FA Cup",
-       "country": "England",
-       "logo": "https://media.api-sports.io/football/leagues/45.png",
-       "round": "4th Round Qualifying"
-      },
-      "home": {
-       "id": 7257,
-       "name": "Uxbridge",
-       "ar": "Uxbridge",
-       "logo": "https://media.api-sports.io/football/teams/7257.png"
-      },
-      "away": {
-       "id": 7690,
-       "name": "AFC Hornchurch",
-       "ar": "AFC Hornchurch",
-       "logo": "https://media.api-sports.io/football/teams/7690.png"
-      },
-      "goals": [
-       0,
-       4
-      ]
      }
     ]
    }
@@ -4821,6 +4821,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "ar": "أتلتيك بلباو",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+     },
+     "points": 9,
+     "gd": 1,
+     "played": 7,
+     "win": 2,
+     "draw": 3,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 533,
       "name": "Villarreal",
       "ar": "فياريال",
@@ -4835,7 +4851,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 538,
       "name": "Celta Vigo",
@@ -4847,22 +4863,6 @@
      "played": 8,
      "win": 1,
      "draw": 5,
-     "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 11,
-     "team": {
-      "id": 531,
-      "name": "Athletic Club",
-      "ar": "أتلتيك بلباو",
-      "logo": "https://media.api-sports.io/football/teams/531.png"
-     },
-     "points": 8,
-     "gd": 1,
-     "played": 6,
-     "win": 2,
-     "draw": 2,
      "lose": 2,
      "description": ""
     },
@@ -4986,11 +4986,11 @@
       "ar": "فالنسيا",
       "logo": "https://media.api-sports.io/football/teams/532.png"
      },
-     "points": 5,
+     "points": 6,
      "gd": -9,
-     "played": 8,
+     "played": 9,
      "win": 1,
-     "draw": 2,
+     "draw": 3,
      "lose": 5,
      "description": "Relegation - LaLiga2"
     },
@@ -5034,6 +5034,22 @@
     {
      "rank": 2,
      "team": {
+      "id": 497,
+      "name": "AS Roma",
+      "ar": "روما",
+      "logo": "https://media.api-sports.io/football/teams/497.png"
+     },
+     "points": 17,
+     "gd": 13,
+     "played": 7,
+     "win": 5,
+     "draw": 2,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
       "id": 487,
       "name": "Lazio",
       "ar": "لاتسيو",
@@ -5044,22 +5060,6 @@
      "played": 6,
      "win": 5,
      "draw": 1,
-     "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 497,
-      "name": "AS Roma",
-      "ar": "روما",
-      "logo": "https://media.api-sports.io/football/teams/497.png"
-     },
-     "points": 14,
-     "gd": 11,
-     "played": 6,
-     "win": 4,
-     "draw": 2,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -5274,10 +5274,10 @@
     {
      "rank": 17,
      "team": {
-      "id": 495,
-      "name": "Genoa",
-      "ar": "جنوى",
-      "logo": "https://media.api-sports.io/football/teams/495.png"
+      "id": 523,
+      "name": "Parma",
+      "ar": "بارما",
+      "logo": "https://media.api-sports.io/football/teams/523.png"
      },
      "points": 4,
      "gd": -6,
@@ -5290,22 +5290,6 @@
     {
      "rank": 18,
      "team": {
-      "id": 523,
-      "name": "Parma",
-      "ar": "بارما",
-      "logo": "https://media.api-sports.io/football/teams/523.png"
-     },
-     "points": 4,
-     "gd": -6,
-     "played": 6,
-     "win": 1,
-     "draw": 1,
-     "lose": 4,
-     "description": "Relegation"
-    },
-    {
-     "rank": 19,
-     "team": {
       "id": 502,
       "name": "Fiorentina",
       "ar": "فيورنتينا",
@@ -5317,6 +5301,22 @@
      "win": 1,
      "draw": 1,
      "lose": 4,
+     "description": "Relegation"
+    },
+    {
+     "rank": 19,
+     "team": {
+      "id": 495,
+      "name": "Genoa",
+      "ar": "جنوى",
+      "logo": "https://media.api-sports.io/football/teams/495.png"
+     },
+     "points": 4,
+     "gd": -8,
+     "played": 7,
+     "win": 1,
+     "draw": 1,
+     "lose": 5,
      "description": "Relegation"
     },
     {
@@ -5652,6 +5652,22 @@
     {
      "rank": 2,
      "team": {
+      "id": 79,
+      "name": "Lille",
+      "ar": "ليل",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+     },
+     "points": 14,
+     "gd": 5,
+     "played": 7,
+     "win": 4,
+     "draw": 2,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
       "id": 91,
       "name": "Monaco",
       "ar": "موناكو",
@@ -5663,22 +5679,6 @@
      "win": 4,
      "draw": 2,
      "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 79,
-      "name": "Lille",
-      "ar": "ليل",
-      "logo": "https://media.api-sports.io/football/teams/79.png"
-     },
-     "points": 13,
-     "gd": 5,
-     "played": 6,
-     "win": 4,
-     "draw": 1,
-     "lose": 1,
      "description": "Champions League league stage"
     },
     {
@@ -5732,6 +5732,38 @@
     {
      "rank": 7,
      "team": {
+      "id": 116,
+      "name": "Lens",
+      "ar": "لانس",
+      "logo": "https://media.api-sports.io/football/teams/116.png"
+     },
+     "points": 10,
+     "gd": 3,
+     "played": 7,
+     "win": 3,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "ar": "بريست",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+     },
+     "points": 9,
+     "gd": 3,
+     "played": 7,
+     "win": 2,
+     "draw": 3,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 96,
       "name": "Toulouse",
       "ar": "تولوز",
@@ -5746,23 +5778,7 @@
      "description": ""
     },
     {
-     "rank": 8,
-     "team": {
-      "id": 106,
-      "name": "Stade Brestois 29",
-      "ar": "بريست",
-      "logo": "https://media.api-sports.io/football/teams/106.png"
-     },
-     "points": 8,
-     "gd": 3,
-     "played": 6,
-     "win": 2,
-     "draw": 2,
-     "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 97,
       "name": "Lorient",
@@ -5778,7 +5794,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 84,
       "name": "Nice",
@@ -5791,22 +5807,6 @@
      "win": 2,
      "draw": 2,
      "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 11,
-     "team": {
-      "id": 116,
-      "name": "Lens",
-      "ar": "لانس",
-      "logo": "https://media.api-sports.io/football/teams/116.png"
-     },
-     "points": 7,
-     "gd": 1,
-     "played": 6,
-     "win": 2,
-     "draw": 1,
-     "lose": 3,
      "description": ""
     },
     {
@@ -5898,11 +5898,11 @@
       "logo": "https://media.api-sports.io/football/teams/110.png"
      },
      "points": 4,
-     "gd": -9,
-     "played": 6,
+     "gd": -11,
+     "played": 7,
      "win": 1,
      "draw": 1,
-     "lose": 4,
+     "lose": 5,
      "description": "Relegation"
     },
     {
@@ -5925,6 +5925,6 @@
   }
  },
  "errors": [],
- "requests": 23,
+ "requests": 22,
  "plan": "Pro"
 }
