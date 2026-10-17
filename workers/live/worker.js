@@ -92,26 +92,22 @@ export default {
         const id = url.pathname.slice(7);
         if (!/^\d+$/.test(id)) return noStore({ error: "bad-id" }, 400);
 
-        // Authoritative fixture details for every competition, including UEFA and AFC.
-        // Do not let a static fixture file or an old KV overlay mask fresh lineups/events.
+        // One authoritative source for match details. Never fall back to an old KV
+        // snapshot after an upstream failure: it can rewind 82' to 12'.
         try {
-          const edgeKey = new Request("https://fixture-authoritative-v2.internal/" + id);
-          let freshResponse = await caches.default.match(edgeKey);
-          if (!freshResponse) {
-            const rows = await api(env, { id });
-            if (rows[0] && !(rows[0].lineups || []).length) {
-              const separate = await apiGet(env, "fixtures/lineups", { fixture: id }).catch(() => null);
+          const rows = await api(env, { id });
+          if (!rows[0]) return noStore({ error: "not-found" }, 404);
+          if (!(rows[0].lineups || []).length) {
+            try {
+              const separate = await apiGet(env, "fixtures/lineups", { fixture: id });
               if (separate?.length) rows[0].lineups = separate;
-            }
-            if (rows[0]) {
-              freshResponse = new Response(JSON.stringify({ at: Date.now(), m: slimFull(rows[0]), source: "api-football" }), {
-                headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=15", "access-control-allow-origin": "*" }
-              });
-              try { await caches.default.put(edgeKey, freshResponse.clone()); } catch (e) { console.error("fixture cache", String(e)); }
-            }
+            } catch (e) { console.error("lineups", id, String(e)); }
           }
-          if (freshResponse) return freshResponse;
-        } catch (e) { console.error("fixture authoritative", id, String(e)); }
+          return noStore({ at: Date.now(), m: slimFull(rows[0]), source: "api-football" });
+        } catch (e) {
+          console.error("fixture authoritative", id, String(e));
+          return noStore({ error: "upstream-unavailable", at: Date.now() }, 503);
+        }
 
         // (أ) الملف المحلي (التشكيلات والإحصائيات الكاملة)
         let fileData = null;
