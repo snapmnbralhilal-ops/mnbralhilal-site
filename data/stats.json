@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-17T07:20:27.557Z",
+ "updated": "2026-10-17T07:54:35.809Z",
  "players": [
   {
    "api": 156,
@@ -1319,6 +1319,19 @@
    "apps": 8
   },
   {
+   "name": "M. Retegui",
+   "photo": "https://media.api-sports.io/football/players/6420.png",
+   "team": {
+    "id": 2933,
+    "name": "Al-Qadisiyah FC",
+    "ar": "القادسية",
+    "logo": "https://media.api-sports.io/football/teams/2933.png"
+   },
+   "goals": 6,
+   "assists": 2,
+   "apps": 9
+  },
+  {
    "name": "Trincão",
    "photo": "https://media.api-sports.io/football/players/41112.png",
    "team": {
@@ -1358,19 +1371,6 @@
    "apps": 8
   },
   {
-   "name": "M. Retegui",
-   "photo": "https://media.api-sports.io/football/players/6420.png",
-   "team": {
-    "id": 2933,
-    "name": "Al-Qadisiyah FC",
-    "ar": "القادسية",
-    "logo": "https://media.api-sports.io/football/teams/2933.png"
-   },
-   "goals": 5,
-   "assists": 1,
-   "apps": 8
-  },
-  {
    "name": "S. Bergwijn",
    "photo": "https://media.api-sports.io/football/players/244.png",
    "team": {
@@ -1382,6 +1382,19 @@
    "goals": 5,
    "assists": 1,
    "apps": 8
+  },
+  {
+   "name": "Mohammed Abu Al Shamat",
+   "photo": "https://media.api-sports.io/football/players/403087.png",
+   "team": {
+    "id": 2933,
+    "name": "Al-Qadisiyah FC",
+    "ar": "القادسية",
+    "logo": "https://media.api-sports.io/football/teams/2933.png"
+   },
+   "goals": 4,
+   "assists": 4,
+   "apps": 9
   },
   {
    "name": "أولي واتكينز",
@@ -1421,19 +1434,6 @@
    "goals": 4,
    "assists": 2,
    "apps": 6
-  },
-  {
-   "name": "Iker Kortajarena",
-   "photo": "https://media.api-sports.io/football/players/183747.png",
-   "team": {
-    "id": 10509,
-    "name": "Al Kholood",
-    "ar": "الخلود",
-    "logo": "https://media.api-sports.io/football/teams/10509.png"
-   },
-   "goals": 4,
-   "assists": 1,
-   "apps": 9
   }
  ]
 }
