@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T21:58:10.289Z",
+ "updated": "2026-10-17T22:20:25.667Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -4187,6 +4187,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 26738,
+      "name": "Al Diriyah",
+      "ar": "الدرعية",
+      "logo": "https://media.api-sports.io/football/teams/26738.png"
+     },
+     "points": 12,
+     "gd": -1,
+     "played": 9,
+     "win": 3,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 10509,
       "name": "Al Kholood",
       "ar": "الخلود",
@@ -4197,22 +4213,6 @@
      "played": 9,
      "win": 3,
      "draw": 3,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 9,
-     "team": {
-      "id": 26738,
-      "name": "Al Diriyah",
-      "ar": "الدرعية",
-      "logo": "https://media.api-sports.io/football/teams/26738.png"
-     },
-     "points": 11,
-     "gd": -1,
-     "played": 8,
-     "win": 3,
-     "draw": 2,
      "lose": 3,
      "description": ""
     },
@@ -4336,11 +4336,11 @@
       "ar": "التعاون",
       "logo": "https://media.api-sports.io/football/teams/2936.png"
      },
-     "points": 3,
+     "points": 4,
      "gd": -12,
-     "played": 8,
+     "played": 9,
      "win": 0,
-     "draw": 3,
+     "draw": 4,
      "lose": 5,
      "description": "Relegation - Division 1"
     },
@@ -5925,6 +5925,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 21,
  "plan": "Pro"
 }
