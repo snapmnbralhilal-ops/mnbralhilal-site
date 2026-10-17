@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T11:50:11.912Z",
+ "updated": "2026-10-17T12:17:12.100Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -850,7 +850,7 @@
       "id": 1557430,
       "date": "2026-10-17T14:30:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 45,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -996,8 +996,8 @@
      {
       "id": 1570416,
       "date": "2026-10-17T15:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Cornella",
       "league": {
        "id": 140,
@@ -1018,7 +1018,10 @@
        "ar": "أتلتيكو مدريد",
        "logo": "https://media.api-sports.io/football/teams/530.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570422,
@@ -1744,7 +1747,7 @@
       "id": 1584433,
       "date": "2026-10-17T13:30:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 85,
       "venue": "Erzurum",
       "league": {
        "id": 203,
@@ -1863,8 +1866,8 @@
      {
       "id": 1644472,
       "date": "2026-10-17T14:30:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bury",
       "league": {
        "id": 45,
@@ -1886,8 +1889,8 @@
        "logo": "https://media.api-sports.io/football/teams/1842.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -4788,6 +4791,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 16,
  "plan": "Pro"
 }
