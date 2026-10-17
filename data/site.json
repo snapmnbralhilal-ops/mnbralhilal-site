@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:28:55.169Z",
+ "updated": "2026-10-17T19:52:29.621Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -817,7 +817,7 @@
       "id": 1603045,
       "date": "2026-10-17T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 68,
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -1104,8 +1104,8 @@
      {
       "id": 1570421,
       "date": "2026-10-17T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 27,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Valdivia",
       "league": {
        "id": 140,
@@ -1203,8 +1203,8 @@
      {
       "id": 1550148,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1461,8 +1461,8 @@
      {
       "id": 1552786,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1491,8 +1491,8 @@
      {
       "id": 1552791,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1515,7 +1515,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      }
     ]
@@ -1765,7 +1765,7 @@
       "id": 1552192,
       "date": "2026-10-17T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 69,
+      "elapsed": 90,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1794,8 +1794,8 @@
      {
       "id": 1552193,
       "date": "2026-10-17T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1817,7 +1817,7 @@
        "logo": "https://media.api-sports.io/football/teams/195.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      }
@@ -3565,15 +3565,31 @@
       "logo": "https://media.api-sports.io/football/teams/34.png"
      },
      "points": 8,
-     "gd": -3,
-     "played": 6,
+     "gd": -4,
+     "played": 7,
      "win": 2,
      "draw": 2,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
      "rank": 12,
+     "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "ar": "أستون فيلا",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+     },
+     "points": 8,
+     "gd": -4,
+     "played": 7,
+     "win": 2,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 13,
      "team": {
       "id": 52,
       "name": "Crystal Palace",
@@ -3589,7 +3605,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 33,
       "name": "Manchester United",
@@ -3605,7 +3621,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 1346,
       "name": "Coventry",
@@ -3621,7 +3637,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 36,
       "name": "Fulham",
@@ -3637,7 +3653,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 65,
       "name": "Nottingham Forest",
@@ -3646,22 +3662,6 @@
      },
      "points": 5,
      "gd": -3,
-     "played": 6,
-     "win": 1,
-     "draw": 2,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 17,
-     "team": {
-      "id": 66,
-      "name": "Aston Villa",
-      "ar": "أستون فيلا",
-      "logo": "https://media.api-sports.io/football/teams/66.png"
-     },
-     "points": 5,
-     "gd": -5,
      "played": 6,
      "win": 1,
      "draw": 2,
@@ -3729,10 +3729,10 @@
       "ar": "برشلونة",
       "logo": "https://media.api-sports.io/football/teams/529.png"
      },
-     "points": 24,
-     "gd": 27,
-     "played": 8,
-     "win": 8,
+     "points": 27,
+     "gd": 30,
+     "played": 9,
+     "win": 9,
      "draw": 0,
      "lose": 0,
      "description": "Promotion - Champions League (League phase)"
@@ -3762,11 +3762,11 @@
       "logo": "https://media.api-sports.io/football/teams/543.png"
      },
      "points": 19,
-     "gd": 5,
-     "played": 8,
+     "gd": 2,
+     "played": 9,
      "win": 6,
      "draw": 1,
-     "lose": 1,
+     "lose": 2,
      "description": "Promotion - Champions League (League phase)"
     },
     {
@@ -4374,6 +4374,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 157,
+      "name": "Bayern München",
+      "ar": "بايرن ميونخ",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+     },
+     "points": 14,
+     "gd": 17,
+     "played": 6,
+     "win": 4,
+     "draw": 2,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 165,
       "name": "Borussia Dortmund",
       "ar": "بوروسيا دورتموند",
@@ -4388,7 +4404,7 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 160,
       "name": "SC Freiburg",
@@ -4400,22 +4416,6 @@
      "played": 5,
      "win": 4,
      "draw": 1,
-     "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 157,
-      "name": "Bayern München",
-      "ar": "بايرن ميونخ",
-      "logo": "https://media.api-sports.io/football/teams/157.png"
-     },
-     "points": 11,
-     "gd": 12,
-     "played": 5,
-     "win": 3,
-     "draw": 2,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -4476,11 +4476,11 @@
       "logo": "https://media.api-sports.io/football/teams/173.png"
      },
      "points": 9,
-     "gd": 10,
-     "played": 5,
+     "gd": 5,
+     "played": 6,
      "win": 3,
      "draw": 0,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
@@ -4956,6 +4956,6 @@
   }
  },
  "errors": [],
- "requests": 33,
+ "requests": 28,
  "plan": "Pro"
 }
