@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T21:06:41.797Z",
+ "updated": "2026-10-17T21:32:50.680Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -5925,6 +5925,6 @@
   }
  },
  "errors": [],
- "requests": 24,
+ "requests": 23,
  "plan": "Pro"
 }
