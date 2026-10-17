@@ -721,6 +721,26 @@
     tick();
     LIVE_TODAY_TIMER = setInterval(() => { if (!document.hidden) tick(); }, 15000);
     document.addEventListener("visibilitychange", () => { if (!document.hidden) tick(); });
+    // iOS Safari restores pages from back-forward cache without a full reload.
+    window.addEventListener("pageshow", (event) => { if (event.persisted) tick(); });
+    window.addEventListener("focus", () => { if (!document.hidden) tick(); });
+    // While live, verify the first three fixtures against the same direct /match/:id
+    // endpoint used by match details, rather than trusting a delayed date-wide feed.
+    const directTick = async () => {
+      if (document.hidden || !DATA.today?.groups) return;
+      const active = DATA.today.groups.flatMap(g => g.matches || [])
+        .filter(m => LIVE.includes(m.status)).slice(0, 3);
+      await Promise.all(active.map(async m => {
+        try {
+          const r = await fetch(base + "/match/" + m.id + "?t=" + Date.now(), { cache: "no-store" });
+          if (!r.ok) return;
+          const j = await r.json();
+          if (j?.m?.id === m.id) mergeLive({ [m.id]: j.m }, j.at);
+        } catch (e) {}
+      }));
+    };
+    directTick();
+    setInterval(() => { if (!document.hidden) directTick(); }, 15000);
   }
 
   /* ---------- الفئات السنية (data/youth.json — تعبئة يدوية) ---------- */
