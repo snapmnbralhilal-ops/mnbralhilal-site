@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T13:22:42.842Z",
+ "updated": "2026-10-17T13:52:58.792Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -849,7 +849,7 @@
      {
       "id": 1557430,
       "date": "2026-10-17T14:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Liverpool",
       "league": {
@@ -997,7 +997,7 @@
       "id": 1570416,
       "date": "2026-10-17T15:00:00+03:00",
       "status": "2H",
-      "elapsed": 63,
+      "elapsed": 90,
       "venue": "Cornella",
       "league": {
        "id": 140,
@@ -1020,7 +1020,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1116,8 +1116,8 @@
      {
       "id": 1550156,
       "date": "2026-10-17T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 22,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Venice",
       "league": {
        "id": 135,
@@ -1209,8 +1209,8 @@
      {
       "id": 1575188,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Berlin",
       "league": {
        "id": 78,
@@ -1231,13 +1231,16 @@
        "ar": "بوروسيا دورتموند",
        "logo": "https://media.api-sports.io/football/teams/165.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575190,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Hamburger",
       "league": {
        "id": 78,
@@ -1258,13 +1261,16 @@
        "ar": "شتوتغارت",
        "logo": "https://media.api-sports.io/football/teams/172.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575191,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Bremen",
       "league": {
        "id": 78,
@@ -1285,13 +1291,16 @@
        "ar": "بادربورن",
        "logo": "https://media.api-sports.io/football/teams/185.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1575192,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Gelsenkirchen",
       "league": {
        "id": 78,
@@ -1312,13 +1321,16 @@
        "ar": "ماينز",
        "logo": "https://media.api-sports.io/football/teams/164.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575193,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Spiesen-Elversberg",
       "league": {
        "id": 78,
@@ -1339,7 +1351,10 @@
        "ar": "أوغسبورغ",
        "logo": "https://media.api-sports.io/football/teams/170.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1575185,
@@ -1534,7 +1549,7 @@
       "id": 1639009,
       "date": "2026-10-17T16:05:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 45,
       "venue": "Dubai",
       "league": {
        "id": 301,
@@ -1556,7 +1571,7 @@
        "logo": "https://media.api-sports.io/football/teams/2869.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1782,9 +1797,9 @@
      {
       "id": 1584430,
       "date": "2026-10-17T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 22,
-      "venue": "Diyarbakir Stadium",
+      "status": "HT",
+      "elapsed": 45,
+      "venue": "Diyarbakır",
       "league": {
        "id": 203,
        "name": "Süper Lig",
@@ -1812,8 +1827,8 @@
      {
       "id": 1584435,
       "date": "2026-10-17T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 21,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Ankara",
       "league": {
        "id": 203,
@@ -4802,7 +4817,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 140,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 25,
  "plan": "Pro"
 }
