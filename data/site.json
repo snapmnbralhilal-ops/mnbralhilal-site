@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T18:02:51.637Z",
+ "updated": "2026-10-17T18:34:10.211Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -817,7 +817,7 @@
       "id": 1603045,
       "date": "2026-10-17T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 34,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -975,8 +975,8 @@
      {
       "id": 1557434,
       "date": "2026-10-17T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Newcastle upon Tyne",
       "league": {
        "id": 39,
@@ -1074,8 +1074,8 @@
      {
       "id": 1570413,
       "date": "2026-10-17T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -1098,7 +1098,7 @@
       },
       "goals": [
        2,
-       4
+       5
       ]
      },
      {
@@ -1386,8 +1386,8 @@
      {
       "id": 1575185,
       "date": "2026-10-17T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 73,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Munich",
       "league": {
        "id": 78,
@@ -1410,7 +1410,7 @@
       },
       "goals": [
        6,
-       0
+       1
       ]
      }
     ]
@@ -1549,7 +1549,7 @@
       "id": 1597943,
       "date": "2026-10-17T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 58,
+      "elapsed": 89,
       "venue": "Lusail",
       "league": {
        "id": 305,
@@ -1753,7 +1753,7 @@
       "id": 1552192,
       "date": "2026-10-17T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 33,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1775,8 +1775,8 @@
        "logo": "https://media.api-sports.io/football/teams/209.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       3
       ]
      },
      {
@@ -2064,8 +2064,8 @@
      {
       "id": 1644469,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "TBD",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Barrow-In-Furness",
       "league": {
        "id": 45,
@@ -2086,7 +2086,10 @@
        "ar": "Gloucester City",
        "logo": "https://media.api-sports.io/football/teams/8653.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644470,
