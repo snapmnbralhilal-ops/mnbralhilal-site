@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T14:16:32.753Z",
+ "updated": "2026-10-17T14:45:18.405Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -880,7 +880,7 @@
       "id": 1557428,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "London",
       "league": {
        "id": 39,
@@ -910,7 +910,7 @@
       "id": 1557431,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "London",
       "league": {
        "id": 39,
@@ -932,7 +932,7 @@
        "logo": "https://media.api-sports.io/football/teams/64.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -940,7 +940,7 @@
       "id": 1557433,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 14,
+      "elapsed": 44,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -962,8 +962,8 @@
        "logo": "https://media.api-sports.io/football/teams/57.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      },
      {
@@ -1035,8 +1035,8 @@
      {
       "id": 1570422,
       "date": "2026-10-17T17:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Villarreal",
       "league": {
        "id": 140,
@@ -1057,7 +1057,10 @@
        "ar": "إلتشي",
        "logo": "https://media.api-sports.io/football/teams/797.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570413,
@@ -1126,7 +1129,7 @@
       "id": 1550156,
       "date": "2026-10-17T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 86,
       "venue": "Venice",
       "league": {
        "id": 135,
@@ -1218,8 +1221,8 @@
      {
       "id": 1575188,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Berlin",
       "league": {
        "id": 78,
@@ -1248,8 +1251,8 @@
      {
       "id": 1575190,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Hamburger",
       "league": {
        "id": 78,
@@ -1278,8 +1281,8 @@
      {
       "id": 1575191,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Bremen",
       "league": {
        "id": 78,
@@ -1308,8 +1311,8 @@
      {
       "id": 1575192,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Gelsenkirchen",
       "league": {
        "id": 78,
@@ -1338,8 +1341,8 @@
      {
       "id": 1575193,
       "date": "2026-10-17T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Spiesen-Elversberg",
       "league": {
        "id": 78,
@@ -1362,7 +1365,7 @@
       },
       "goals": [
        3,
-       0
+       1
       ]
      },
      {
@@ -1494,8 +1497,8 @@
      {
       "id": 1597941,
       "date": "2026-10-17T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1516,7 +1519,10 @@
        "ar": "قطر",
        "logo": "https://media.api-sports.io/football/teams/2907.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1597943,
@@ -1558,7 +1564,7 @@
       "id": 1639009,
       "date": "2026-10-17T16:05:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 81,
       "venue": "Dubai",
       "league": {
        "id": 301,
@@ -1580,7 +1586,7 @@
        "logo": "https://media.api-sports.io/football/teams/2869.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1686,8 +1692,8 @@
      {
       "id": 1552190,
       "date": "2026-10-17T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "The Hague",
       "league": {
        "id": 88,
@@ -1708,7 +1714,10 @@
        "ar": "PSV Eindhoven",
        "logo": "https://media.api-sports.io/football/teams/197.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552192,
@@ -1807,7 +1816,7 @@
       "id": 1584430,
       "date": "2026-10-17T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 85,
       "venue": "Diyarbakır",
       "league": {
        "id": 203,
@@ -1837,7 +1846,7 @@
       "id": 1584435,
       "date": "2026-10-17T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 84,
       "venue": "Ankara",
       "league": {
        "id": 203,
@@ -1902,7 +1911,7 @@
      {
       "id": 1644472,
       "date": "2026-10-17T14:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Bury",
       "league": {
@@ -1933,7 +1942,7 @@
       "id": 1644466,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 45,
       "venue": "Rushden",
       "league": {
        "id": 45,
@@ -1955,7 +1964,7 @@
        "logo": "https://media.api-sports.io/football/teams/1375.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
@@ -1990,7 +1999,7 @@
       "id": 1644468,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Altrincham",
       "league": {
        "id": 45,
@@ -2047,7 +2056,7 @@
       "id": 1644470,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 45,
       "venue": "Borehamwood",
       "league": {
        "id": 45,
@@ -2069,15 +2078,15 @@
        "logo": "https://media.api-sports.io/football/teams/1836.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      },
      {
       "id": 1644471,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 44,
       "venue": "Boston",
       "league": {
        "id": 45,
@@ -2107,7 +2116,7 @@
       "id": 1644473,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 44,
       "venue": "Carlisle",
       "league": {
        "id": 45,
@@ -2137,7 +2146,7 @@
       "id": 1644474,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Chesham",
       "league": {
        "id": 45,
@@ -2167,7 +2176,7 @@
       "id": 1644475,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Chorley",
       "league": {
        "id": 45,
@@ -2189,7 +2198,7 @@
        "logo": "https://media.api-sports.io/football/teams/9010.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -2197,7 +2206,7 @@
       "id": 1644476,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "River",
       "league": {
        "id": 45,
@@ -2219,7 +2228,7 @@
        "logo": "https://media.api-sports.io/football/teams/8659.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
@@ -2254,7 +2263,7 @@
       "id": 1644478,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 45,
       "venue": "Halifax",
       "league": {
        "id": 45,
@@ -2276,7 +2285,7 @@
        "logo": "https://media.api-sports.io/football/teams/7746.png"
       },
       "goals": [
-       1,
+       3,
        0
       ]
      },
@@ -2284,7 +2293,7 @@
       "id": 1644479,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "",
       "league": {
        "id": 45,
@@ -2314,7 +2323,7 @@
       "id": 1644480,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Hartlepool",
       "league": {
        "id": 45,
@@ -2344,7 +2353,7 @@
       "id": 1644481,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Kidderminster",
       "league": {
        "id": 45,
@@ -2401,7 +2410,7 @@
       "id": 1644483,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 44,
       "venue": "Reston",
       "league": {
        "id": 45,
@@ -2424,7 +2433,7 @@
       },
       "goals": [
        0,
-       0
+       3
       ]
      },
      {
@@ -2512,7 +2521,7 @@
       "id": 1644487,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 45,
       "venue": "Southend-On-Sea",
       "league": {
        "id": 45,
@@ -2534,15 +2543,15 @@
        "logo": "https://media.api-sports.io/football/teams/7214.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1644488,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 44,
       "venue": "London",
       "league": {
        "id": 45,
@@ -2564,7 +2573,7 @@
        "logo": "https://media.api-sports.io/football/teams/4699.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -2572,7 +2581,7 @@
       "id": 1644489,
       "date": "2026-10-17T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 44,
       "venue": "Torquay",
       "league": {
        "id": 45,
@@ -4875,6 +4884,6 @@
   }
  },
  "errors": [],
- "requests": 26,
+ "requests": 27,
  "plan": "Pro"
 }
