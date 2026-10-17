@@ -217,7 +217,9 @@
   function scheduleNext() {
     if (TIMER) clearTimeout(TIMER);
     const live = LAST?.m && LIVE.includes(LAST.m.status);
-    const interval = live ? 15000 : (DONE.includes(LAST?.m?.status) ? 60000 : 30000);
+    const kickoff = Date.parse(LAST?.m?.date || "");
+    const awaitingLineups = LAST?.m && !(LAST.m.lineups || []).length && Number.isFinite(kickoff) && Date.now() >= kickoff - 90 * 60000 && Date.now() <= kickoff + 30 * 60000;
+    const interval = live || awaitingLineups ? 15000 : (DONE.includes(LAST?.m?.status) ? 60000 : 30000);
     TIMER = setTimeout(() => { if (!document.hidden) load(); else scheduleNext(); }, interval);
   }
   document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
