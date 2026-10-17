@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T23:27:51.564Z",
+ "updated": "2026-10-17T23:48:51.117Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1830,8 +1830,8 @@
      {
       "id": 1490543,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 6,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1852,13 +1852,16 @@
        "ar": "إنتر ميامي",
        "logo": "https://media.api-sports.io/football/teams/9568.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490544,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 8,
       "venue": "Flushing",
       "league": {
        "id": 253,
@@ -1879,13 +1882,16 @@
        "ar": "Los Angeles FC",
        "logo": "https://media.api-sports.io/football/teams/1616.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490545,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Harrison",
       "league": {
        "id": 253,
@@ -1906,13 +1912,16 @@
        "ar": "Toronto FC",
        "logo": "https://media.api-sports.io/football/teams/1601.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1490546,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Orlando",
       "league": {
        "id": 253,
@@ -1933,13 +1942,16 @@
        "ar": "DC United",
        "logo": "https://media.api-sports.io/football/teams/1615.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490547,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Boston",
       "league": {
        "id": 253,
@@ -1960,7 +1972,10 @@
        "ar": "Chicago Fire",
        "logo": "https://media.api-sports.io/football/teams/1607.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490548,
