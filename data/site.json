@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:02:48.501Z",
+ "updated": "2026-10-17T19:28:55.169Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1603045,
       "date": "2026-10-17T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -839,8 +839,8 @@
        "logo": "https://media.api-sports.io/football/teams/2936.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -1105,7 +1105,7 @@
       "id": 1570421,
       "date": "2026-10-17T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 27,
       "venue": "Valdivia",
       "league": {
        "id": 140,
@@ -1204,7 +1204,7 @@
       "id": 1550148,
       "date": "2026-10-17T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 44,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1462,7 +1462,7 @@
       "id": 1552786,
       "date": "2026-10-17T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 44,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1492,7 +1492,7 @@
       "id": 1552791,
       "date": "2026-10-17T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 44,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1514,7 +1514,7 @@
        "logo": "https://media.api-sports.io/football/teams/116.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      }
@@ -1764,8 +1764,8 @@
      {
       "id": 1552192,
       "date": "2026-10-17T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 69,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1787,15 +1787,15 @@
        "logo": "https://media.api-sports.io/football/teams/209.png"
       },
       "goals": [
-       2,
-       3
+       3,
+       4
       ]
      },
      {
       "id": 1552193,
       "date": "2026-10-17T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 28,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1816,7 +1816,10 @@
        "ar": "Willem II",
        "logo": "https://media.api-sports.io/football/teams/195.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -2019,8 +2022,8 @@
      {
       "id": 1644467,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "TBD",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Aldershot",
       "league": {
        "id": 45,
@@ -2041,7 +2044,10 @@
        "ar": "Tadley Calleva",
        "logo": "https://media.api-sports.io/football/teams/8964.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       2
+      ]
      },
      {
       "id": 1644468,
@@ -2436,8 +2442,8 @@
      {
       "id": 1644482,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "TBD",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Leatherhead",
       "league": {
        "id": 45,
@@ -2458,7 +2464,10 @@
        "ar": "Yeovil Town",
        "logo": "https://media.api-sports.io/football/teams/1377.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       3
+      ]
      },
      {
       "id": 1644483,
@@ -2493,8 +2502,8 @@
      {
       "id": 1644484,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "TBD",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Plymouth",
       "league": {
        "id": 45,
@@ -2515,7 +2524,10 @@
        "ar": "Chertsey Town",
        "logo": "https://media.api-sports.io/football/teams/7627.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1644485,
@@ -3164,11 +3176,11 @@
       "logo": "https://media.api-sports.io/football/teams/10513.png"
      },
      "points": 16,
-     "gd": 7,
-     "played": 8,
+     "gd": 6,
+     "played": 9,
      "win": 5,
      "draw": 1,
-     "lose": 2,
+     "lose": 3,
      "description": "Promotion - AFC Champions League (Qualification)"
     },
     {
@@ -3195,10 +3207,10 @@
       "ar": "الاتفاق",
       "logo": "https://media.api-sports.io/football/teams/2934.png"
      },
-     "points": 12,
-     "gd": 0,
-     "played": 8,
-     "win": 3,
+     "points": 15,
+     "gd": 1,
+     "played": 9,
+     "win": 4,
      "draw": 3,
      "lose": 2,
      "description": "Promotion - Gulf Club Champions League"
