@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T15:59:12.130Z",
+ "updated": "2026-10-17T16:24:26.250Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1603052,
       "date": "2026-10-17T18:40:00+03:00",
       "status": "1H",
-      "elapsed": 19,
+      "elapsed": 44,
       "venue": "Tabuk",
       "league": {
        "id": 307,
@@ -882,7 +882,7 @@
      {
       "id": 1557428,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "London",
       "league": {
@@ -942,7 +942,7 @@
      {
       "id": 1557433,
       "date": "2026-10-17T17:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Manchester",
       "league": {
@@ -1038,8 +1038,8 @@
      {
       "id": 1570422,
       "date": "2026-10-17T17:15:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Villarreal",
       "league": {
        "id": 140,
@@ -1161,8 +1161,8 @@
      {
       "id": 1550149,
       "date": "2026-10-17T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Bologna",
       "league": {
        "id": 135,
@@ -1183,7 +1183,10 @@
        "ar": "إنتر ميلان",
        "logo": "https://media.api-sports.io/football/teams/505.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1550148,
@@ -1410,8 +1413,8 @@
      {
       "id": 1552790,
       "date": "2026-10-17T18:15:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Strasbourg",
       "league": {
        "id": 61,
@@ -1504,7 +1507,7 @@
       "id": 1597941,
       "date": "2026-10-17T17:30:00+03:00",
       "status": "2H",
-      "elapsed": 72,
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1526,7 +1529,7 @@
        "logo": "https://media.api-sports.io/football/teams/2907.png"
       },
       "goals": [
-       0,
+       2,
        2
       ]
      },
@@ -1600,7 +1603,7 @@
       "id": 1639010,
       "date": "2026-10-17T18:45:00+03:00",
       "status": "1H",
-      "elapsed": 14,
+      "elapsed": 39,
       "venue": "Dubai",
       "league": {
        "id": 301,
@@ -1638,8 +1641,8 @@
      {
       "id": 1644214,
       "date": "2026-10-17T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Meknes",
       "league": {
        "id": 200,
@@ -1660,7 +1663,10 @@
        "ar": "UTS Rabat",
        "logo": "https://media.api-sports.io/football/teams/14806.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644215,
@@ -1702,7 +1708,7 @@
       "id": 1552190,
       "date": "2026-10-17T17:30:00+03:00",
       "status": "2H",
-      "elapsed": 68,
+      "elapsed": 90,
       "venue": "The Hague",
       "league": {
        "id": 88,
@@ -1724,7 +1730,7 @@
        "logo": "https://media.api-sports.io/football/teams/197.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
@@ -1884,8 +1890,8 @@
      {
       "id": 1584434,
       "date": "2026-10-17T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 22,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1906,7 +1912,10 @@
        "ar": "Alanyaspor",
        "logo": "https://media.api-sports.io/football/teams/996.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
