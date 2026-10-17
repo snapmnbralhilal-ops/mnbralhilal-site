@@ -95,10 +95,14 @@ export default {
         // Authoritative fixture details for every competition, including UEFA and AFC.
         // Do not let a static fixture file or an old KV overlay mask fresh lineups/events.
         try {
-          const edgeKey = new Request("https://fixture-authoritative.internal/" + id);
+          const edgeKey = new Request("https://fixture-authoritative-v2.internal/" + id);
           let freshResponse = await caches.default.match(edgeKey);
           if (!freshResponse) {
             const rows = await api(env, { id });
+            if (rows[0] && !(rows[0].lineups || []).length) {
+              const separate = await apiGet(env, "fixtures/lineups", { fixture: id }).catch(() => null);
+              if (separate?.length) rows[0].lineups = separate;
+            }
             if (rows[0]) {
               freshResponse = new Response(JSON.stringify({ at: Date.now(), m: slimFull(rows[0]), source: "api-football" }), {
                 headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=15", "access-control-allow-origin": "*" }
