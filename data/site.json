@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:13:02.317Z",
+ "updated": "2026-10-17T20:44:27.539Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1105,7 +1105,7 @@
       "id": 1570421,
       "date": "2026-10-17T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 85,
       "venue": "Valdivia",
       "league": {
        "id": 140,
@@ -1203,8 +1203,8 @@
      {
       "id": 1550148,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1461,8 +1461,8 @@
      {
       "id": 1552786,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 71,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1491,8 +1491,8 @@
      {
       "id": 1552791,
       "date": "2026-10-17T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Troyes",
       "league": {
        "id": 61,
@@ -1699,7 +1699,7 @@
       "id": 1644215,
       "date": "2026-10-17T23:00:00+03:00",
       "status": "1H",
-      "elapsed": 13,
+      "elapsed": 44,
       "venue": "El Jadida",
       "league": {
        "id": 200,
@@ -1721,7 +1721,7 @@
        "logo": "https://media.api-sports.io/football/teams/965.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1798,7 +1798,7 @@
       "id": 1552193,
       "date": "2026-10-17T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 86,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1820,8 +1820,8 @@
        "logo": "https://media.api-sports.io/football/teams/195.png"
       },
       "goals": [
-       2,
-       1
+       3,
+       2
       ]
      }
     ]
@@ -4959,6 +4959,6 @@
   }
  },
  "errors": [],
- "requests": 25,
+ "requests": 24,
  "plan": "Pro"
 }
