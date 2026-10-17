@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T17:15:44.420Z",
+ "updated": "2026-10-17T17:43:00.471Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -754,7 +754,7 @@
   },
   {
    "tag": "عالمي",
-   "title": "مانشستر سيتي يتصدر الدوري الإنجليزي برصيد 18 نقطة",
+   "title": "مانشستر سيتي يتصدر الدوري الإنجليزي برصيد 21 نقطة",
    "body": "يليه آرسنال بـ15 نقطة.",
    "link": "#table"
   },
@@ -786,8 +786,8 @@
      {
       "id": 1603052,
       "date": "2026-10-17T18:40:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Tabuk",
       "league": {
        "id": 307,
@@ -810,7 +810,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -972,8 +972,8 @@
      {
       "id": 1557434,
       "date": "2026-10-17T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Newcastle upon Tyne",
       "league": {
        "id": 39,
@@ -1071,8 +1071,8 @@
      {
       "id": 1570413,
       "date": "2026-10-17T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -1094,7 +1094,7 @@
        "logo": "https://media.api-sports.io/football/teams/529.png"
       },
       "goals": [
-       2,
+       1,
        2
       ]
      },
@@ -1168,7 +1168,7 @@
       "id": 1550149,
       "date": "2026-10-17T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 83,
       "venue": "Bologna",
       "league": {
        "id": 135,
@@ -1191,7 +1191,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
@@ -1383,8 +1383,8 @@
      {
       "id": 1575185,
       "date": "2026-10-17T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Munich",
       "league": {
        "id": 78,
@@ -1406,7 +1406,7 @@
        "logo": "https://media.api-sports.io/football/teams/173.png"
       },
       "goals": [
-       3,
+       4,
        0
       ]
      }
@@ -1545,8 +1545,8 @@
      {
       "id": 1597943,
       "date": "2026-10-17T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lusail",
       "league": {
        "id": 305,
@@ -1615,7 +1615,7 @@
       "id": 1639010,
       "date": "2026-10-17T18:45:00+03:00",
       "status": "2H",
-      "elapsed": 68,
+      "elapsed": 90,
       "venue": "Dubai",
       "league": {
        "id": 301,
@@ -1654,7 +1654,7 @@
       "id": 1644214,
       "date": "2026-10-17T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 82,
       "venue": "Meknes",
       "league": {
        "id": 200,
@@ -1903,7 +1903,7 @@
       "id": 1584434,
       "date": "2026-10-17T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 82,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1925,7 +1925,7 @@
        "logo": "https://media.api-sports.io/football/teams/996.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -3362,10 +3362,10 @@
       "ar": "مانشستر سيتي",
       "logo": "https://media.api-sports.io/football/teams/50.png"
      },
-     "points": 18,
-     "gd": 11,
-     "played": 6,
-     "win": 6,
+     "points": 21,
+     "gd": 12,
+     "played": 7,
+     "win": 7,
      "draw": 0,
      "lose": 0,
      "description": "Promotion - Champions League (League phase)"
@@ -3421,21 +3421,37 @@
     {
      "rank": 5,
      "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "ar": "ليفربول",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+     },
+     "points": 12,
+     "gd": 1,
+     "played": 7,
+     "win": 3,
+     "draw": 3,
+     "lose": 1,
+     "description": "Promotion - Europa League (League phase)"
+    },
+    {
+     "rank": 6,
+     "team": {
       "id": 55,
       "name": "Brentford",
       "ar": "برينتفورد",
       "logo": "https://media.api-sports.io/football/teams/55.png"
      },
      "points": 10,
-     "gd": 6,
-     "played": 6,
+     "gd": 5,
+     "played": 7,
      "win": 2,
      "draw": 4,
-     "lose": 0,
-     "description": "Promotion - Europa League (League phase)"
+     "lose": 1,
+     "description": ""
     },
     {
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 45,
       "name": "Everton",
@@ -3451,7 +3467,7 @@
      "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 63,
       "name": "Leeds",
@@ -3467,7 +3483,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 64,
       "name": "Hull City",
@@ -3475,27 +3491,11 @@
       "logo": "https://media.api-sports.io/football/teams/64.png"
      },
      "points": 9,
-     "gd": 2,
-     "played": 6,
+     "gd": 1,
+     "played": 7,
      "win": 2,
      "draw": 3,
-     "lose": 1,
-     "description": ""
-    },
-    {
-     "rank": 9,
-     "team": {
-      "id": 40,
-      "name": "Liverpool",
-      "ar": "ليفربول",
-      "logo": "https://media.api-sports.io/football/teams/40.png"
-     },
-     "points": 9,
-     "gd": 0,
-     "played": 6,
-     "win": 2,
-     "draw": 3,
-     "lose": 1,
+     "lose": 2,
      "description": ""
     },
     {
@@ -3507,11 +3507,11 @@
       "logo": "https://media.api-sports.io/football/teams/57.png"
      },
      "points": 9,
-     "gd": -3,
-     "played": 6,
+     "gd": -4,
+     "played": 7,
      "win": 3,
      "draw": 0,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -3581,6 +3581,22 @@
     {
      "rank": 15,
      "team": {
+      "id": 36,
+      "name": "Fulham",
+      "ar": "فولهام",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+     },
+     "points": 5,
+     "gd": -3,
+     "played": 7,
+     "win": 1,
+     "draw": 2,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 16,
+     "team": {
       "id": 65,
       "name": "Nottingham Forest",
       "ar": "نوتنغهام فورست",
@@ -3595,7 +3611,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 66,
       "name": "Aston Villa",
@@ -3611,7 +3627,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 746,
       "name": "Sunderland",
@@ -3624,10 +3640,10 @@
      "win": 1,
      "draw": 1,
      "lose": 4,
-     "description": ""
+     "description": "Relegation - Championship"
     },
     {
-     "rank": 18,
+     "rank": 19,
      "team": {
       "id": 35,
       "name": "Bournemouth",
@@ -3643,7 +3659,7 @@
      "description": "Relegation - Championship"
     },
     {
-     "rank": 19,
+     "rank": 20,
      "team": {
       "id": 47,
       "name": "Tottenham",
@@ -3656,22 +3672,6 @@
      "win": 0,
      "draw": 3,
      "lose": 3,
-     "description": "Relegation - Championship"
-    },
-    {
-     "rank": 20,
-     "team": {
-      "id": 36,
-      "name": "Fulham",
-      "ar": "فولهام",
-      "logo": "https://media.api-sports.io/football/teams/36.png"
-     },
-     "points": 2,
-     "gd": -4,
-     "played": 6,
-     "win": 0,
-     "draw": 2,
-     "lose": 4,
      "description": "Relegation - Championship"
     }
    ]
@@ -3810,6 +3810,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 533,
+      "name": "Villarreal",
+      "ar": "فياريال",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+     },
+     "points": 9,
+     "gd": 0,
+     "played": 9,
+     "win": 2,
+     "draw": 3,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 538,
       "name": "Celta Vigo",
       "ar": "سيلتا فيغو",
@@ -3824,7 +3840,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 531,
       "name": "Athletic Club",
@@ -3837,22 +3853,6 @@
      "win": 2,
      "draw": 2,
      "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 11,
-     "team": {
-      "id": 533,
-      "name": "Villarreal",
-      "ar": "فياريال",
-      "logo": "https://media.api-sports.io/football/teams/533.png"
-     },
-     "points": 8,
-     "gd": 0,
-     "played": 8,
-     "win": 2,
-     "draw": 2,
-     "lose": 4,
      "description": ""
     },
     {
@@ -3959,11 +3959,11 @@
       "ar": "إلتشي",
       "logo": "https://media.api-sports.io/football/teams/797.png"
      },
-     "points": 6,
+     "points": 7,
      "gd": -6,
-     "played": 8,
+     "played": 9,
      "win": 1,
-     "draw": 3,
+     "draw": 4,
      "lose": 4,
      "description": "Relegation - LaLiga2"
     },
@@ -4914,6 +4914,6 @@
   }
  },
  "errors": [],
- "requests": 32,
+ "requests": 31,
  "plan": "Pro"
 }
