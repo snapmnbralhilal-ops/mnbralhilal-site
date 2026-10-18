@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T14:07:18.677Z",
+ "updated": "2026-10-18T14:33:22.944Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -823,7 +823,7 @@
       "id": 1557427,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 72,
       "venue": "Bournemouth",
       "league": {
        "id": 39,
@@ -845,7 +845,7 @@
        "logo": "https://media.api-sports.io/football/teams/746.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -853,7 +853,7 @@
       "id": 1557429,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 75,
       "venue": "Falmer",
       "league": {
        "id": 39,
@@ -875,7 +875,7 @@
        "logo": "https://media.api-sports.io/football/teams/52.png"
       },
       "goals": [
-       3,
+       4,
        0
       ]
      },
@@ -883,7 +883,7 @@
       "id": 1557432,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 75,
       "venue": "Leeds",
       "league": {
        "id": 39,
@@ -905,7 +905,7 @@
        "logo": "https://media.api-sports.io/football/teams/33.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -978,8 +978,8 @@
      {
       "id": 1570414,
       "date": "2026-10-18T17:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Vigo",
       "league": {
        "id": 140,
@@ -1000,7 +1000,10 @@
        "ar": "ألافيس",
        "logo": "https://media.api-sports.io/football/teams/542.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570418,
@@ -1098,8 +1101,8 @@
      {
       "id": 1550150,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 64,
       "venue": "Florence",
       "league": {
        "id": 135,
@@ -1122,7 +1125,7 @@
       },
       "goals": [
        1,
-       2
+       3
       ]
      },
      {
@@ -1191,8 +1194,8 @@
      {
       "id": 1575186,
       "date": "2026-10-18T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 37,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bayer Leverkusen",
       "league": {
        "id": 78,
@@ -1258,7 +1261,7 @@
       "id": 1552783,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 78,
       "venue": "Angers",
       "league": {
        "id": 61,
@@ -1280,8 +1283,8 @@
        "logo": "https://media.api-sports.io/football/teams/81.png"
       },
       "goals": [
-       1,
-       2
+       2,
+       3
       ]
      },
      {
@@ -1404,8 +1407,8 @@
      {
       "id": 1597940,
       "date": "2026-10-18T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1426,7 +1429,10 @@
        "ar": "الدحيل",
        "logo": "https://media.api-sports.io/football/teams/2904.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1597939,
@@ -1467,8 +1473,8 @@
      {
       "id": 1639011,
       "date": "2026-10-18T16:05:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Kalba",
       "league": {
        "id": 301,
@@ -1497,8 +1503,8 @@
      {
       "id": 1639012,
       "date": "2026-10-18T16:05:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Khor Fakkan",
       "league": {
        "id": 301,
@@ -1657,7 +1663,7 @@
       "id": 1552195,
       "date": "2026-10-18T15:30:00+03:00",
       "status": "2H",
-      "elapsed": 77,
+      "elapsed": 90,
       "venue": "Leeuwarden",
       "league": {
        "id": 88,
@@ -1680,7 +1686,7 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
@@ -1807,7 +1813,7 @@
       "id": 1584437,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 47,
+      "elapsed": 73,
       "venue": "Izmit",
       "league": {
        "id": 203,
@@ -6003,6 +6009,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 27,
  "plan": "Pro"
 }
