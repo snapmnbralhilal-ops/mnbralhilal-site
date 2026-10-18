@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T01:19:56.618Z",
+ "updated": "2026-10-18T01:50:13.607Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1830,8 +1830,8 @@
      {
       "id": 1490543,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1853,15 +1853,15 @@
        "logo": "https://media.api-sports.io/football/teams/9568.png"
       },
       "goals": [
-       0,
+       1,
        3
       ]
      },
      {
       "id": 1490544,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Flushing",
       "league": {
        "id": 253,
@@ -1890,8 +1890,8 @@
      {
       "id": 1490545,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Harrison",
       "league": {
        "id": 253,
@@ -1914,14 +1914,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1490546,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Orlando",
       "league": {
        "id": 253,
@@ -1943,15 +1943,15 @@
        "logo": "https://media.api-sports.io/football/teams/1615.png"
       },
       "goals": [
-       3,
+       4,
        1
       ]
      },
      {
       "id": 1490547,
       "date": "2026-10-18T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Boston",
       "league": {
        "id": 253,
@@ -1980,8 +1980,8 @@
      {
       "id": 1490548,
       "date": "2026-10-18T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Austin",
       "league": {
        "id": 253,
@@ -2003,15 +2003,15 @@
        "logo": "https://media.api-sports.io/football/teams/1603.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1490549,
       "date": "2026-10-18T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Houston",
       "league": {
        "id": 253,
@@ -2033,15 +2033,15 @@
        "logo": "https://media.api-sports.io/football/teams/1597.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
      {
       "id": 1490550,
       "date": "2026-10-18T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Kansas City",
       "league": {
        "id": 253,
