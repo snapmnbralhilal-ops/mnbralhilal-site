@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T19:41:14.688Z",
+ "updated": "2026-10-18T20:03:04.812Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603056,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Al-Hasa",
       "league": {
        "id": 307,
@@ -810,7 +810,7 @@
       },
       "goals": [
        2,
-       2
+       3
       ]
      }
     ]
@@ -1044,8 +1044,8 @@
      {
       "id": 1570420,
       "date": "2026-10-18T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 37,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1173,8 +1173,8 @@
      {
       "id": 1550152,
       "date": "2026-10-18T21:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1401,8 +1401,8 @@
      {
       "id": 1552788,
       "date": "2026-10-18T21:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Lyon",
       "league": {
        "id": 61,
@@ -1608,8 +1608,8 @@
      {
       "id": 1644216,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Temara",
       "league": {
        "id": 200,
@@ -1638,8 +1638,8 @@
      {
       "id": 1644217,
       "date": "2026-10-18T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Casablanca",
       "league": {
        "id": 200,
@@ -1660,7 +1660,10 @@
        "ar": "Amal Tiznit",
        "logo": "https://media.api-sports.io/football/teams/18753.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1764,8 +1767,8 @@
      {
       "id": 1552191,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Nijmegen",
       "league": {
        "id": 88,
@@ -1787,15 +1790,15 @@
        "logo": "https://media.api-sports.io/football/teams/205.png"
       },
       "goals": [
-       1,
+       2,
        2
       ]
      },
      {
       "id": 1552196,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Enschede",
       "league": {
        "id": 88,
