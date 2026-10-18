@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T16:16:50.303Z",
+ "updated": "2026-10-18T16:48:29.108Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -912,8 +912,8 @@
      {
       "id": 1557435,
       "date": "2026-10-18T18:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Nottingham",
       "league": {
        "id": 39,
@@ -1011,8 +1011,8 @@
      {
       "id": 1570418,
       "date": "2026-10-18T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Malaga",
       "league": {
        "id": 140,
@@ -1033,7 +1033,10 @@
        "ar": "ريال سوسيداد",
        "logo": "https://media.api-sports.io/football/teams/548.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1570420,
@@ -1135,7 +1138,7 @@
       "id": 1550147,
       "date": "2026-10-18T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1157,7 +1160,7 @@
        "logo": "https://media.api-sports.io/football/teams/499.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
@@ -1230,8 +1233,8 @@
      {
       "id": 1575189,
       "date": "2026-10-18T18:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Monchengladbach",
       "league": {
        "id": 78,
@@ -1253,8 +1256,8 @@
        "logo": "https://media.api-sports.io/football/teams/167.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      }
     ]
@@ -1299,8 +1302,8 @@
      {
       "id": 1552784,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 75,
       "venue": "Le Havre",
       "league": {
        "id": 61,
@@ -1322,15 +1325,15 @@
        "logo": "https://media.api-sports.io/football/teams/108.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      },
      {
       "id": 1552787,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 75,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1352,15 +1355,15 @@
        "logo": "https://media.api-sports.io/football/teams/91.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1552789,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Isilemulino",
       "league": {
        "id": 61,
@@ -1425,8 +1428,8 @@
      {
       "id": 1597940,
       "date": "2026-10-18T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 85,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1449,14 +1452,14 @@
       },
       "goals": [
        2,
-       2
+       3
       ]
      },
      {
       "id": 1597939,
       "date": "2026-10-18T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1477,7 +1480,10 @@
        "ar": "الريان",
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1551,8 +1557,8 @@
      {
       "id": 1639013,
       "date": "2026-10-18T18:45:00+03:00",
-      "status": "1H",
-      "elapsed": 32,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Ajman",
       "league": {
        "id": 301,
@@ -1713,8 +1719,8 @@
      {
       "id": 1552197,
       "date": "2026-10-18T17:45:00+03:00",
-      "status": "2H",
-      "elapsed": 71,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Groningen",
       "league": {
        "id": 88,
@@ -1736,8 +1742,8 @@
        "logo": "https://media.api-sports.io/football/teams/194.png"
       },
       "goals": [
-       1,
-       4
+       2,
+       5
       ]
      },
      {
@@ -1866,8 +1872,8 @@
      {
       "id": 1584431,
       "date": "2026-10-18T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 17,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -5177,6 +5183,22 @@
     {
      "rank": 4,
      "team": {
+      "id": 895,
+      "name": "Como",
+      "ar": "كومو",
+      "logo": "https://media.api-sports.io/football/teams/895.png"
+     },
+     "points": 14,
+     "gd": 5,
+     "played": 7,
+     "win": 4,
+     "draw": 2,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
       "id": 512,
       "name": "Frosinone",
       "ar": "فروزينوني",
@@ -5188,10 +5210,10 @@
      "win": 4,
      "draw": 1,
      "lose": 2,
-     "description": "Champions League league stage"
+     "description": "Europa League league stage"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": {
       "id": 490,
       "name": "Cagliari",
@@ -5204,10 +5226,10 @@
      "win": 4,
      "draw": 1,
      "lose": 1,
-     "description": "Europa League league stage"
+     "description": "Play-offs"
     },
     {
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 489,
       "name": "AC Milan",
@@ -5220,10 +5242,10 @@
      "win": 3,
      "draw": 3,
      "lose": 0,
-     "description": "Play-offs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 496,
       "name": "Juventus",
@@ -5232,22 +5254,6 @@
      },
      "points": 11,
      "gd": 4,
-     "played": 6,
-     "win": 3,
-     "draw": 2,
-     "lose": 1,
-     "description": ""
-    },
-    {
-     "rank": 8,
-     "team": {
-      "id": 895,
-      "name": "Como",
-      "ar": "كومو",
-      "logo": "https://media.api-sports.io/football/teams/895.png"
-     },
-     "points": 11,
-     "gd": 3,
      "played": 6,
      "win": 3,
      "draw": 2,
@@ -5401,22 +5407,6 @@
     {
      "rank": 18,
      "team": {
-      "id": 502,
-      "name": "Fiorentina",
-      "ar": "فيورنتينا",
-      "logo": "https://media.api-sports.io/football/teams/502.png"
-     },
-     "points": 4,
-     "gd": -7,
-     "played": 6,
-     "win": 1,
-     "draw": 1,
-     "lose": 4,
-     "description": "Relegation"
-    },
-    {
-     "rank": 19,
-     "team": {
       "id": 495,
       "name": "Genoa",
       "ar": "جنوى",
@@ -5424,6 +5414,22 @@
      },
      "points": 4,
      "gd": -8,
+     "played": 7,
+     "win": 1,
+     "draw": 1,
+     "lose": 5,
+     "description": "Relegation"
+    },
+    {
+     "rank": 19,
+     "team": {
+      "id": 502,
+      "name": "Fiorentina",
+      "ar": "فيورنتينا",
+      "logo": "https://media.api-sports.io/football/teams/502.png"
+     },
+     "points": 4,
+     "gd": -9,
      "played": 7,
      "win": 1,
      "draw": 1,
@@ -5492,11 +5498,11 @@
       "logo": "https://media.api-sports.io/football/teams/160.png"
      },
      "points": 13,
-     "gd": 10,
-     "played": 5,
+     "gd": 9,
+     "played": 6,
      "win": 4,
      "draw": 1,
-     "lose": 0,
+     "lose": 1,
      "description": "Champions League league stage"
     },
     {
@@ -5507,10 +5513,10 @@
       "ar": "باير ليفركوزن",
       "logo": "https://media.api-sports.io/football/teams/168.png"
      },
-     "points": 10,
-     "gd": 6,
-     "played": 5,
-     "win": 3,
+     "points": 13,
+     "gd": 7,
+     "played": 6,
+     "win": 4,
      "draw": 1,
      "lose": 1,
      "description": "Champions League league stage"
@@ -6036,6 +6042,6 @@
   }
  },
  "errors": [],
- "requests": 29,
+ "requests": 28,
  "plan": "Pro"
 }
