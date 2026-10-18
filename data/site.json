@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T03:20:58.934Z",
+ "updated": "2026-10-18T03:58:03.388Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2070,8 +2070,8 @@
      {
       "id": 1490551,
       "date": "2026-10-18T05:30:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2100,8 +2100,8 @@
      {
       "id": 1490552,
       "date": "2026-10-18T05:30:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Seattle",
       "league": {
        "id": 253,
@@ -2130,8 +2130,8 @@
      {
       "id": 1490553,
       "date": "2026-10-18T05:30:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "San Jose",
       "league": {
        "id": 253,
@@ -2160,8 +2160,8 @@
      {
       "id": 1490554,
       "date": "2026-10-18T05:30:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Portland",
       "league": {
        "id": 253,
