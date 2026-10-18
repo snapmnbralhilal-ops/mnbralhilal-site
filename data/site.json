@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T15:24:13.898Z",
+ "updated": "2026-10-18T15:51:37.618Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -755,7 +755,7 @@
   {
    "tag": "عالمي",
    "title": "مانشستر سيتي يتصدر الدوري الإنجليزي برصيد 21 نقطة",
-   "body": "يليه آرسنال بـ15 نقطة.",
+   "body": "يليه برايتون بـ16 نقطة.",
    "link": "#table"
   },
   {
@@ -912,8 +912,8 @@
      {
       "id": 1557435,
       "date": "2026-10-18T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 21,
       "venue": "Nottingham",
       "league": {
        "id": 39,
@@ -934,7 +934,10 @@
        "ar": "آرسنال",
        "logo": "https://media.api-sports.io/football/teams/42.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -979,7 +982,7 @@
       "id": 1570414,
       "date": "2026-10-18T17:15:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 79,
       "venue": "Vigo",
       "league": {
        "id": 140,
@@ -1001,7 +1004,7 @@
        "logo": "https://media.api-sports.io/football/teams/542.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
@@ -1194,7 +1197,7 @@
      {
       "id": 1575186,
       "date": "2026-10-18T16:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Bayer Leverkusen",
       "league": {
@@ -1224,8 +1227,8 @@
      {
       "id": 1575189,
       "date": "2026-10-18T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Monchengladbach",
       "league": {
        "id": 78,
@@ -1246,7 +1249,10 @@
        "ar": "هوفنهايم",
        "logo": "https://media.api-sports.io/football/teams/167.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -1291,7 +1297,7 @@
       "id": 1552784,
       "date": "2026-10-18T18:15:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 36,
       "venue": "Le Havre",
       "league": {
        "id": 61,
@@ -1321,7 +1327,7 @@
       "id": 1552787,
       "date": "2026-10-18T18:15:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 36,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1351,7 +1357,7 @@
       "id": 1552789,
       "date": "2026-10-18T18:15:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 31,
       "venue": "Isilemulino",
       "league": {
        "id": 61,
@@ -1373,8 +1379,8 @@
        "logo": "https://media.api-sports.io/football/teams/94.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1416,8 +1422,8 @@
      {
       "id": 1597940,
       "date": "2026-10-18T17:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1542,8 +1548,8 @@
      {
       "id": 1639013,
       "date": "2026-10-18T18:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 6,
       "venue": "Ajman",
       "league": {
        "id": 301,
@@ -1564,7 +1570,10 @@
        "ar": "الشارقة",
        "logo": "https://media.api-sports.io/football/teams/2874.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1701,8 +1710,8 @@
      {
       "id": 1552197,
       "date": "2026-10-18T17:45:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Groningen",
       "league": {
        "id": 88,
@@ -4480,6 +4489,22 @@
     {
      "rank": 2,
      "team": {
+      "id": 51,
+      "name": "Brighton",
+      "ar": "برايتون",
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+     },
+     "points": 16,
+     "gd": 18,
+     "played": 7,
+     "win": 5,
+     "draw": 1,
+     "lose": 1,
+     "description": "Promotion - Champions League (League phase)"
+    },
+    {
+     "rank": 3,
+     "team": {
       "id": 42,
       "name": "Arsenal",
       "ar": "آرسنال",
@@ -4490,22 +4515,6 @@
      "played": 6,
      "win": 5,
      "draw": 0,
-     "lose": 1,
-     "description": "Promotion - Champions League (League phase)"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 51,
-      "name": "Brighton",
-      "ar": "برايتون",
-      "logo": "https://media.api-sports.io/football/teams/51.png"
-     },
-     "points": 13,
-     "gd": 13,
-     "played": 6,
-     "win": 4,
-     "draw": 1,
      "lose": 1,
      "description": "Promotion - Champions League (League phase)"
     },
@@ -4560,6 +4569,22 @@
     {
      "rank": 7,
      "team": {
+      "id": 63,
+      "name": "Leeds",
+      "ar": "ليدز",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+     },
+     "points": 10,
+     "gd": 3,
+     "played": 7,
+     "win": 2,
+     "draw": 4,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
       "id": 45,
       "name": "Everton",
       "ar": "إيفرتون",
@@ -4570,22 +4595,6 @@
      "played": 7,
      "win": 2,
      "draw": 4,
-     "lose": 1,
-     "description": ""
-    },
-    {
-     "rank": 8,
-     "team": {
-      "id": 63,
-      "name": "Leeds",
-      "ar": "ليدز",
-      "logo": "https://media.api-sports.io/football/teams/63.png"
-     },
-     "points": 9,
-     "gd": 3,
-     "played": 6,
-     "win": 2,
-     "draw": 3,
      "lose": 1,
      "description": ""
     },
@@ -4656,37 +4665,53 @@
     {
      "rank": 13,
      "team": {
+      "id": 33,
+      "name": "Manchester United",
+      "ar": "مانشستر يونايتد",
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+     },
+     "points": 7,
+     "gd": 0,
+     "played": 7,
+     "win": 1,
+     "draw": 4,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
       "id": 52,
       "name": "Crystal Palace",
       "ar": "كريستال بالاس",
       "logo": "https://media.api-sports.io/football/teams/52.png"
      },
      "points": 7,
-     "gd": -3,
-     "played": 6,
+     "gd": -8,
+     "played": 7,
      "win": 2,
      "draw": 1,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 33,
-      "name": "Manchester United",
-      "ar": "مانشستر يونايتد",
-      "logo": "https://media.api-sports.io/football/teams/33.png"
-     },
-     "points": 6,
-     "gd": 0,
-     "played": 6,
-     "win": 1,
-     "draw": 3,
-     "lose": 2,
+     "lose": 4,
      "description": ""
     },
     {
      "rank": 15,
+     "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "ar": "بورنموث",
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+     },
+     "points": 6,
+     "gd": -4,
+     "played": 7,
+     "win": 1,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 16,
      "team": {
       "id": 1346,
       "name": "Coventry",
@@ -4702,7 +4727,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 36,
       "name": "Fulham",
@@ -4718,7 +4743,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 65,
       "name": "Nottingham Forest",
@@ -4731,10 +4756,10 @@
      "win": 1,
      "draw": 2,
      "lose": 3,
-     "description": ""
+     "description": "Relegation - Championship"
     },
     {
-     "rank": 18,
+     "rank": 19,
      "team": {
       "id": 746,
       "name": "Sunderland",
@@ -4742,27 +4767,11 @@
       "logo": "https://media.api-sports.io/football/teams/746.png"
      },
      "points": 4,
-     "gd": -6,
-     "played": 6,
+     "gd": -8,
+     "played": 7,
      "win": 1,
      "draw": 1,
-     "lose": 4,
-     "description": "Relegation - Championship"
-    },
-    {
-     "rank": 19,
-     "team": {
-      "id": 35,
-      "name": "Bournemouth",
-      "ar": "بورنموث",
-      "logo": "https://media.api-sports.io/football/teams/35.png"
-     },
-     "points": 3,
-     "gd": -6,
-     "played": 6,
-     "win": 0,
-     "draw": 3,
-     "lose": 3,
+     "lose": 5,
      "description": "Relegation - Championship"
     },
     {
@@ -4917,6 +4926,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 727,
+      "name": "Osasuna",
+      "ar": "أوساسونا",
+      "logo": "https://media.api-sports.io/football/teams/727.png"
+     },
+     "points": 11,
+     "gd": -8,
+     "played": 9,
+     "win": 3,
+     "draw": 2,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 531,
       "name": "Athletic Club",
       "ar": "أتلتيك بلباو",
@@ -4931,7 +4956,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 533,
       "name": "Villarreal",
@@ -4947,7 +4972,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 538,
       "name": "Celta Vigo",
@@ -4963,7 +4988,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 540,
       "name": "Espanyol",
@@ -4979,7 +5004,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 728,
       "name": "Rayo Vallecano",
@@ -4995,7 +5020,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 546,
       "name": "Getafe",
@@ -5011,7 +5036,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 4665,
       "name": "Racing Santander",
@@ -5019,27 +5044,11 @@
       "logo": "https://media.api-sports.io/football/teams/4665.png"
      },
      "points": 8,
-     "gd": -10,
-     "played": 8,
+     "gd": -12,
+     "played": 9,
      "win": 2,
      "draw": 2,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 16,
-     "team": {
-      "id": 727,
-      "name": "Osasuna",
-      "ar": "أوساسونا",
-      "logo": "https://media.api-sports.io/football/teams/727.png"
-     },
-     "points": 8,
-     "gd": -10,
-     "played": 8,
-     "win": 2,
-     "draw": 2,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
@@ -5844,6 +5853,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 81,
+      "name": "Marseille",
+      "ar": "مارسيليا",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+     },
+     "points": 9,
+     "gd": 4,
+     "played": 7,
+     "win": 3,
+     "draw": 0,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 106,
       "name": "Stade Brestois 29",
       "ar": "بريست",
@@ -5858,7 +5883,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 96,
       "name": "Toulouse",
@@ -5874,7 +5899,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 97,
       "name": "Lorient",
@@ -5890,7 +5915,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 84,
       "name": "Nice",
@@ -5906,7 +5931,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 95,
       "name": "Strasbourg",
@@ -5922,7 +5947,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 77,
       "name": "Angers",
@@ -5930,26 +5955,10 @@
       "logo": "https://media.api-sports.io/football/teams/77.png"
      },
      "points": 7,
-     "gd": -3,
-     "played": 6,
+     "gd": -6,
+     "played": 7,
      "win": 2,
      "draw": 1,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 81,
-      "name": "Marseille",
-      "ar": "مارسيليا",
-      "logo": "https://media.api-sports.io/football/teams/81.png"
-     },
-     "points": 6,
-     "gd": 1,
-     "played": 6,
-     "win": 2,
-     "draw": 0,
      "lose": 4,
      "description": ""
     },
@@ -6021,6 +6030,6 @@
   }
  },
  "errors": [],
- "requests": 28,
+ "requests": 29,
  "plan": "Pro"
 }
