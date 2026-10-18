@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T12:07:43.096Z",
+ "updated": "2026-10-18T12:40:17.273Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -940,7 +940,7 @@
       "id": 1570419,
       "date": "2026-10-18T15:00:00+03:00",
       "status": "1H",
-      "elapsed": 8,
+      "elapsed": 40,
       "venue": "Pamplona",
       "league": {
        "id": 140,
@@ -962,7 +962,7 @@
        "logo": "https://media.api-sports.io/football/teams/4665.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1059,8 +1059,8 @@
      {
       "id": 1550155,
       "date": "2026-10-18T13:30:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Udine",
       "league": {
        "id": 135,
@@ -1083,7 +1083,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
@@ -1602,7 +1602,7 @@
      {
       "id": 1552194,
       "date": "2026-10-18T13:15:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Zwolle",
       "league": {
@@ -1625,15 +1625,15 @@
        "logo": "https://media.api-sports.io/football/teams/410.png"
       },
       "goals": [
-       3,
+       4,
        1
       ]
      },
      {
       "id": 1552195,
       "date": "2026-10-18T15:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Leeuwarden",
       "league": {
        "id": 88,
@@ -1654,7 +1654,10 @@
        "ar": "AZ Alkmaar",
        "logo": "https://media.api-sports.io/football/teams/201.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1552197,
@@ -1749,8 +1752,8 @@
      {
       "id": 1584436,
       "date": "2026-10-18T13:30:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1772,7 +1775,7 @@
        "logo": "https://media.api-sports.io/football/teams/3603.png"
       },
       "goals": [
-       3,
+       4,
        1
       ]
      },
@@ -5973,6 +5976,6 @@
   }
  },
  "errors": [],
- "requests": 20,
+ "requests": 21,
  "plan": "Pro"
 }
