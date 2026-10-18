@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T14:59:23.390Z",
+ "updated": "2026-10-18T15:24:13.898Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -978,8 +978,8 @@
      {
       "id": 1570414,
       "date": "2026-10-18T17:15:00+03:00",
-      "status": "1H",
-      "elapsed": 43,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Vigo",
       "league": {
        "id": 140,
@@ -1101,7 +1101,7 @@
      {
       "id": 1550150,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Florence",
       "league": {
@@ -1195,7 +1195,7 @@
       "id": 1575186,
       "date": "2026-10-18T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 67,
+      "elapsed": 90,
       "venue": "Bayer Leverkusen",
       "league": {
        "id": 78,
@@ -1217,7 +1217,7 @@
        "logo": "https://media.api-sports.io/football/teams/160.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
@@ -1290,8 +1290,8 @@
      {
       "id": 1552784,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Le Havre",
       "league": {
        "id": 61,
@@ -1312,13 +1312,16 @@
        "ar": "أوكسير",
        "logo": "https://media.api-sports.io/football/teams/108.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552787,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1339,13 +1342,16 @@
        "ar": "موناكو",
        "logo": "https://media.api-sports.io/football/teams/91.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552789,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Isilemulino",
       "league": {
        "id": 61,
@@ -1366,7 +1372,10 @@
        "ar": "رين",
        "logo": "https://media.api-sports.io/football/teams/94.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552788,
@@ -1407,8 +1416,8 @@
      {
       "id": 1597940,
       "date": "2026-10-18T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1430,7 +1439,7 @@
        "logo": "https://media.api-sports.io/football/teams/2904.png"
       },
       "goals": [
-       0,
+       2,
        2
       ]
      },
@@ -1473,8 +1482,8 @@
      {
       "id": 1639011,
       "date": "2026-10-18T16:05:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kalba",
       "league": {
        "id": 301,
@@ -1503,7 +1512,7 @@
      {
       "id": 1639012,
       "date": "2026-10-18T16:05:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Khor Fakkan",
       "league": {
@@ -1693,7 +1702,7 @@
       "id": 1552197,
       "date": "2026-10-18T17:45:00+03:00",
       "status": "1H",
-      "elapsed": 13,
+      "elapsed": 38,
       "venue": "Groningen",
       "league": {
        "id": 88,
@@ -1716,7 +1725,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
@@ -6012,6 +6021,6 @@
   }
  },
  "errors": [],
- "requests": 27,
+ "requests": 28,
  "plan": "Pro"
 }
