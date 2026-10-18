@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T21:51:07.460Z",
+ "updated": "2026-10-18T22:14:13.643Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1290,8 +1290,8 @@
      {
       "id": 1490555,
       "date": "2026-10-19T00:00:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Cincinnati",
       "league": {
        "id": 253,
@@ -2180,6 +2180,36 @@
       },
       "goals": [
        0,
+       1
+      ]
+     },
+     {
+      "id": 1644217,
+      "date": "2026-10-18T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Casablanca",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 4"
+      },
+      "home": {
+       "id": 968,
+       "name": "Wydad AC",
+       "ar": "Wydad AC",
+       "logo": "https://media.api-sports.io/football/teams/968.png"
+      },
+      "away": {
+       "id": 18753,
+       "name": "Amal Tiznit",
+       "ar": "Amal Tiznit",
+       "logo": "https://media.api-sports.io/football/teams/18753.png"
+      },
+      "goals": [
+       1,
        1
       ]
      }
@@ -4670,17 +4700,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "id": 1550147
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
- "requests": 19,
+ "errors": [],
+ "requests": 18,
  "plan": "Pro"
 }
