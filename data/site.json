@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T02:55:43.718Z",
+ "updated": "2026-10-18T03:20:58.934Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2071,7 +2071,7 @@
       "id": 1490551,
       "date": "2026-10-18T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 41,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -2093,15 +2093,15 @@
        "logo": "https://media.api-sports.io/football/teams/25484.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
       "id": 1490552,
       "date": "2026-10-18T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 41,
       "venue": "Seattle",
       "league": {
        "id": 253,
@@ -2131,7 +2131,7 @@
       "id": 1490553,
       "date": "2026-10-18T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 41,
       "venue": "San Jose",
       "league": {
        "id": 253,
@@ -2154,14 +2154,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1490554,
       "date": "2026-10-18T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 41,
       "venue": "Portland",
       "league": {
        "id": 253,
