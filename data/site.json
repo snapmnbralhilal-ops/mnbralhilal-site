@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T22:14:13.643Z",
+ "updated": "2026-10-18T22:43:02.538Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1290,8 +1290,8 @@
      {
       "id": 1490555,
       "date": "2026-10-19T00:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Cincinnati",
       "league": {
        "id": 253,
@@ -1314,7 +1314,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
@@ -3501,6 +3501,22 @@
     {
      "rank": 3,
      "team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "ar": "ريال مدريد",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+     },
+     "points": 21,
+     "gd": 14,
+     "played": 9,
+     "win": 7,
+     "draw": 0,
+     "lose": 2,
+     "description": "Promotion - Champions League (League phase)"
+    },
+    {
+     "rank": 4,
+     "team": {
       "id": 543,
       "name": "Real Betis",
       "ar": "ريال بيتيس",
@@ -3511,22 +3527,6 @@
      "played": 9,
      "win": 6,
      "draw": 1,
-     "lose": 2,
-     "description": "Promotion - Champions League (League phase)"
-    },
-    {
-     "rank": 4,
-     "team": {
-      "id": 541,
-      "name": "Real Madrid",
-      "ar": "ريال مدريد",
-      "logo": "https://media.api-sports.io/football/teams/541.png"
-     },
-     "points": 18,
-     "gd": 11,
-     "played": 8,
-     "win": 6,
-     "draw": 0,
      "lose": 2,
      "description": "Promotion - Champions League (League phase)"
     },
@@ -3555,11 +3555,11 @@
       "logo": "https://media.api-sports.io/football/teams/536.png"
      },
      "points": 14,
-     "gd": 1,
-     "played": 8,
+     "gd": -2,
+     "played": 9,
      "win": 4,
      "draw": 2,
-     "lose": 2,
+     "lose": 3,
      "description": "Promotion - Conference League (Qualification)"
     },
     {
@@ -4701,6 +4701,6 @@
   }
  },
  "errors": [],
- "requests": 18,
+ "requests": 17,
  "plan": "Pro"
 }
