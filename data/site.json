@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T15:51:37.618Z",
+ "updated": "2026-10-18T16:16:50.303Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -913,7 +913,7 @@
       "id": 1557435,
       "date": "2026-10-18T18:30:00+03:00",
       "status": "1H",
-      "elapsed": 21,
+      "elapsed": 45,
       "venue": "Nottingham",
       "league": {
        "id": 39,
@@ -981,8 +981,8 @@
      {
       "id": 1570414,
       "date": "2026-10-18T17:15:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Vigo",
       "league": {
        "id": 140,
@@ -1005,7 +1005,7 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      },
      {
@@ -1134,8 +1134,8 @@
      {
       "id": 1550147,
       "date": "2026-10-18T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1156,7 +1156,10 @@
        "ar": "أتالانتا",
        "logo": "https://media.api-sports.io/football/teams/499.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550152,
@@ -1228,7 +1231,7 @@
       "id": 1575189,
       "date": "2026-10-18T18:30:00+03:00",
       "status": "1H",
-      "elapsed": 20,
+      "elapsed": 45,
       "venue": "Monchengladbach",
       "league": {
        "id": 78,
@@ -1296,8 +1299,8 @@
      {
       "id": 1552784,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Le Havre",
       "league": {
        "id": 61,
@@ -1320,14 +1323,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1552787,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1356,8 +1359,8 @@
      {
       "id": 1552789,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Isilemulino",
       "league": {
        "id": 61,
@@ -1379,7 +1382,7 @@
        "logo": "https://media.api-sports.io/football/teams/94.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
@@ -1423,7 +1426,7 @@
       "id": 1597940,
       "date": "2026-10-18T17:30:00+03:00",
       "status": "2H",
-      "elapsed": 59,
+      "elapsed": 85,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1549,7 +1552,7 @@
       "id": 1639013,
       "date": "2026-10-18T18:45:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 32,
       "venue": "Ajman",
       "league": {
        "id": 301,
@@ -1571,7 +1574,7 @@
        "logo": "https://media.api-sports.io/football/teams/2874.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1710,8 +1713,8 @@
      {
       "id": 1552197,
       "date": "2026-10-18T17:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 71,
       "venue": "Groningen",
       "league": {
        "id": 88,
@@ -1733,8 +1736,8 @@
        "logo": "https://media.api-sports.io/football/teams/194.png"
       },
       "goals": [
-       0,
-       2
+       1,
+       4
       ]
      },
      {
@@ -1863,8 +1866,8 @@
      {
       "id": 1584431,
       "date": "2026-10-18T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1885,7 +1888,10 @@
        "ar": "Gaziantep FK",
        "logo": "https://media.api-sports.io/football/teams/3573.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
