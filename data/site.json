@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T13:16:43.108Z",
+ "updated": "2026-10-18T13:46:14.085Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -823,7 +823,7 @@
       "id": 1557427,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Bournemouth",
       "league": {
        "id": 39,
@@ -853,7 +853,7 @@
       "id": 1557429,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Falmer",
       "league": {
        "id": 39,
@@ -883,7 +883,7 @@
       "id": 1557432,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 45,
       "venue": "Leeds",
       "league": {
        "id": 39,
@@ -906,7 +906,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -949,7 +949,7 @@
       "id": 1570419,
       "date": "2026-10-18T15:00:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 86,
       "venue": "Pamplona",
       "league": {
        "id": 140,
@@ -1099,7 +1099,7 @@
       "id": 1550150,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 44,
       "venue": "Florence",
       "league": {
        "id": 135,
@@ -1121,8 +1121,8 @@
        "logo": "https://media.api-sports.io/football/teams/895.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       2
       ]
      },
      {
@@ -1191,8 +1191,8 @@
      {
       "id": 1575186,
       "date": "2026-10-18T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Bayer Leverkusen",
       "league": {
        "id": 78,
@@ -1213,7 +1213,10 @@
        "ar": "فرايبورغ",
        "logo": "https://media.api-sports.io/football/teams/160.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1575189,
@@ -1255,7 +1258,7 @@
       "id": 1552783,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 45,
       "venue": "Angers",
       "league": {
        "id": 61,
@@ -1278,7 +1281,7 @@
       },
       "goals": [
        1,
-       0
+       2
       ]
      },
      {
@@ -1465,7 +1468,7 @@
       "id": 1639011,
       "date": "2026-10-18T16:05:00+03:00",
       "status": "1H",
-      "elapsed": 11,
+      "elapsed": 41,
       "venue": "Kalba",
       "league": {
        "id": 301,
@@ -1488,14 +1491,14 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      },
      {
       "id": 1639012,
       "date": "2026-10-18T16:05:00+03:00",
       "status": "1H",
-      "elapsed": 12,
+      "elapsed": 41,
       "venue": "Khor Fakkan",
       "league": {
        "id": 301,
@@ -1517,8 +1520,8 @@
        "logo": "https://media.api-sports.io/football/teams/2875.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       2
       ]
      },
      {
@@ -1653,8 +1656,8 @@
      {
       "id": 1552195,
       "date": "2026-10-18T15:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Leeuwarden",
       "league": {
        "id": 88,
@@ -1804,7 +1807,7 @@
       "id": 1584437,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 44,
       "venue": "Izmit",
       "league": {
        "id": 203,
@@ -1827,7 +1830,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -5253,6 +5256,22 @@
     {
      "rank": 11,
      "team": {
+      "id": 867,
+      "name": "Lecce",
+      "ar": "ليتشي",
+      "logo": "https://media.api-sports.io/football/teams/867.png"
+     },
+     "points": 9,
+     "gd": -3,
+     "played": 7,
+     "win": 3,
+     "draw": 0,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
       "id": 488,
       "name": "Sassuolo",
       "ar": "ساسولو",
@@ -5267,7 +5286,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 503,
       "name": "Torino",
@@ -5280,22 +5299,6 @@
      "win": 2,
      "draw": 1,
      "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 13,
-     "team": {
-      "id": 867,
-      "name": "Lecce",
-      "ar": "ليتشي",
-      "logo": "https://media.api-sports.io/football/teams/867.png"
-     },
-     "points": 6,
-     "gd": -6,
-     "played": 6,
-     "win": 2,
-     "draw": 0,
-     "lose": 4,
      "description": ""
     },
     {
@@ -5317,22 +5320,6 @@
     {
      "rank": 15,
      "team": {
-      "id": 494,
-      "name": "Udinese",
-      "ar": "أودينيزي",
-      "logo": "https://media.api-sports.io/football/teams/494.png"
-     },
-     "points": 4,
-     "gd": -4,
-     "played": 6,
-     "win": 1,
-     "draw": 1,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 16,
-     "team": {
       "id": 1579,
       "name": "Monza",
       "ar": "مونزا",
@@ -5347,7 +5334,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 16,
      "team": {
       "id": 523,
       "name": "Parma",
@@ -5360,6 +5347,22 @@
      "win": 1,
      "draw": 1,
      "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 17,
+     "team": {
+      "id": 494,
+      "name": "Udinese",
+      "ar": "أودينيزي",
+      "logo": "https://media.api-sports.io/football/teams/494.png"
+     },
+     "points": 4,
+     "gd": -7,
+     "played": 7,
+     "win": 1,
+     "draw": 1,
+     "lose": 5,
      "description": ""
     },
     {
