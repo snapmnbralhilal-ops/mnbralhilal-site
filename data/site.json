@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T16:48:29.108Z",
+ "updated": "2026-10-18T17:09:39.950Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -913,7 +913,7 @@
       "id": 1557435,
       "date": "2026-10-18T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 58,
+      "elapsed": 79,
       "venue": "Nottingham",
       "league": {
        "id": 39,
@@ -1012,7 +1012,7 @@
       "id": 1570418,
       "date": "2026-10-18T19:30:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 39,
       "venue": "Malaga",
       "league": {
        "id": 140,
@@ -1035,7 +1035,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -1137,8 +1137,8 @@
      {
       "id": 1550147,
       "date": "2026-10-18T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1234,7 +1234,7 @@
       "id": 1575189,
       "date": "2026-10-18T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 58,
+      "elapsed": 79,
       "venue": "Monchengladbach",
       "league": {
        "id": 78,
@@ -1302,8 +1302,8 @@
      {
       "id": 1552784,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Le Havre",
       "league": {
        "id": 61,
@@ -1326,14 +1326,14 @@
       },
       "goals": [
        1,
-       2
+       3
       ]
      },
      {
       "id": 1552787,
       "date": "2026-10-18T18:15:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1363,7 +1363,7 @@
       "id": 1552789,
       "date": "2026-10-18T18:15:00+03:00",
       "status": "2H",
-      "elapsed": 67,
+      "elapsed": 88,
       "venue": "Isilemulino",
       "league": {
        "id": 61,
@@ -1385,8 +1385,8 @@
        "logo": "https://media.api-sports.io/football/teams/94.png"
       },
       "goals": [
-       2,
-       1
+       3,
+       3
       ]
      },
      {
@@ -1459,7 +1459,7 @@
       "id": 1597939,
       "date": "2026-10-18T19:45:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 25,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1557,8 +1557,8 @@
      {
       "id": 1639013,
       "date": "2026-10-18T18:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 64,
       "venue": "Ajman",
       "league": {
        "id": 301,
@@ -1581,7 +1581,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1872,8 +1872,8 @@
      {
       "id": 1584431,
       "date": "2026-10-18T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -6042,6 +6042,6 @@
   }
  },
  "errors": [],
- "requests": 28,
+ "requests": 29,
  "plan": "Pro"
 }
