@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T17:35:36.952Z",
+ "updated": "2026-10-18T17:56:47.116Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1012,7 +1012,7 @@
       "id": 1570418,
       "date": "2026-10-18T19:30:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 69,
       "venue": "Malaga",
       "league": {
        "id": 140,
@@ -1034,8 +1034,8 @@
        "logo": "https://media.api-sports.io/football/teams/548.png"
       },
       "goals": [
-       0,
-       2
+       2,
+       4
       ]
      },
      {
@@ -1138,7 +1138,7 @@
       "id": 1550147,
       "date": "2026-10-18T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 74,
+      "elapsed": 90,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1161,7 +1161,7 @@
       },
       "goals": [
        3,
-       1
+       2
       ]
      },
      {
@@ -1458,8 +1458,8 @@
      {
       "id": 1597939,
       "date": "2026-10-18T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1557,8 +1557,8 @@
      {
       "id": 1639013,
       "date": "2026-10-18T18:45:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ajman",
       "league": {
        "id": 301,
@@ -1872,8 +1872,8 @@
      {
       "id": 1584431,
       "date": "2026-10-18T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1895,7 +1895,7 @@
        "logo": "https://media.api-sports.io/football/teams/3573.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      }
@@ -4912,15 +4912,31 @@
       "logo": "https://media.api-sports.io/football/teams/542.png"
      },
      "points": 11,
-     "gd": 4,
-     "played": 8,
+     "gd": 3,
+     "played": 9,
      "win": 3,
      "draw": 2,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
      "rank": 8,
+     "team": {
+      "id": 538,
+      "name": "Celta Vigo",
+      "ar": "سيلتا فيغو",
+      "logo": "https://media.api-sports.io/football/teams/538.png"
+     },
+     "points": 11,
+     "gd": 3,
+     "played": 9,
+     "win": 2,
+     "draw": 5,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 9,
      "team": {
       "id": 544,
       "name": "Deportivo La Coruna",
@@ -4936,7 +4952,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 727,
       "name": "Osasuna",
@@ -4952,7 +4968,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 531,
       "name": "Athletic Club",
@@ -4968,7 +4984,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 533,
       "name": "Villarreal",
@@ -4981,22 +4997,6 @@
      "win": 2,
      "draw": 3,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 12,
-     "team": {
-      "id": 538,
-      "name": "Celta Vigo",
-      "ar": "سيلتا فيغو",
-      "logo": "https://media.api-sports.io/football/teams/538.png"
-     },
-     "points": 8,
-     "gd": 2,
-     "played": 8,
-     "win": 1,
-     "draw": 5,
-     "lose": 2,
      "description": ""
     },
     {
@@ -6042,6 +6042,6 @@
   }
  },
  "errors": [],
- "requests": 29,
+ "requests": 31,
  "plan": "Pro"
 }
