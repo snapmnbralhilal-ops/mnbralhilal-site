@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T14:33:22.944Z",
+ "updated": "2026-10-18T14:59:23.390Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -822,8 +822,8 @@
      {
       "id": 1557427,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bournemouth",
       "league": {
        "id": 39,
@@ -852,8 +852,8 @@
      {
       "id": 1557429,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Falmer",
       "league": {
        "id": 39,
@@ -875,15 +875,15 @@
        "logo": "https://media.api-sports.io/football/teams/52.png"
       },
       "goals": [
-       4,
+       5,
        0
       ]
      },
      {
       "id": 1557432,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Leeds",
       "league": {
        "id": 39,
@@ -979,7 +979,7 @@
       "id": 1570414,
       "date": "2026-10-18T17:15:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 43,
       "venue": "Vigo",
       "league": {
        "id": 140,
@@ -1102,7 +1102,7 @@
       "id": 1550150,
       "date": "2026-10-18T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 64,
+      "elapsed": 90,
       "venue": "Florence",
       "league": {
        "id": 135,
@@ -1194,8 +1194,8 @@
      {
       "id": 1575186,
       "date": "2026-10-18T16:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Bayer Leverkusen",
       "league": {
        "id": 78,
@@ -1260,8 +1260,8 @@
      {
       "id": 1552783,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Angers",
       "league": {
        "id": 61,
@@ -1284,7 +1284,7 @@
       },
       "goals": [
        2,
-       3
+       5
       ]
      },
      {
@@ -1408,7 +1408,7 @@
       "id": 1597940,
       "date": "2026-10-18T17:30:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 28,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1431,7 +1431,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
@@ -1474,7 +1474,7 @@
       "id": 1639011,
       "date": "2026-10-18T16:05:00+03:00",
       "status": "2H",
-      "elapsed": 63,
+      "elapsed": 89,
       "venue": "Kalba",
       "league": {
        "id": 301,
@@ -1497,14 +1497,14 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
       "id": 1639012,
       "date": "2026-10-18T16:05:00+03:00",
       "status": "2H",
-      "elapsed": 66,
+      "elapsed": 90,
       "venue": "Khor Fakkan",
       "league": {
        "id": 301,
@@ -1662,7 +1662,7 @@
      {
       "id": 1552195,
       "date": "2026-10-18T15:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Leeuwarden",
       "league": {
@@ -1692,8 +1692,8 @@
      {
       "id": 1552197,
       "date": "2026-10-18T17:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Groningen",
       "league": {
        "id": 88,
@@ -1714,7 +1714,10 @@
        "ar": "أياكس",
        "logo": "https://media.api-sports.io/football/teams/194.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552191,
@@ -1812,9 +1815,9 @@
      {
       "id": 1584437,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 73,
-      "venue": "Izmit",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Kocaeli",
       "league": {
        "id": 203,
        "name": "Süper Lig",
@@ -1835,8 +1838,8 @@
        "logo": "https://media.api-sports.io/football/teams/994.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      },
      {
