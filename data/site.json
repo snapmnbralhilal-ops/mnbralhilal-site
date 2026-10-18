@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T21:24:03.217Z",
+ "updated": "2026-10-18T21:51:07.460Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1291,7 +1291,7 @@
       "id": 1490555,
       "date": "2026-10-19T00:00:00+03:00",
       "status": "1H",
-      "elapsed": 12,
+      "elapsed": 39,
       "venue": "Cincinnati",
       "league": {
        "id": 253,
@@ -1314,7 +1314,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -3780,6 +3780,22 @@
     {
      "rank": 2,
      "team": {
+      "id": 487,
+      "name": "Lazio",
+      "ar": "لاتسيو",
+      "logo": "https://media.api-sports.io/football/teams/487.png"
+     },
+     "points": 19,
+     "gd": 10,
+     "played": 7,
+     "win": 6,
+     "draw": 1,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
       "id": 497,
       "name": "AS Roma",
       "ar": "روما",
@@ -3790,22 +3806,6 @@
      "played": 7,
      "win": 5,
      "draw": 2,
-     "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 487,
-      "name": "Lazio",
-      "ar": "لاتسيو",
-      "logo": "https://media.api-sports.io/football/teams/487.png"
-     },
-     "points": 16,
-     "gd": 7,
-     "played": 6,
-     "win": 5,
-     "draw": 1,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -3882,11 +3882,11 @@
       "logo": "https://media.api-sports.io/football/teams/496.png"
      },
      "points": 11,
-     "gd": 4,
-     "played": 6,
+     "gd": 1,
+     "played": 7,
      "win": 3,
      "draw": 2,
-     "lose": 1,
+     "lose": 2,
      "description": ""
     },
     {
@@ -4382,6 +4382,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 80,
+      "name": "Lyon",
+      "ar": "ليون",
+      "logo": "https://media.api-sports.io/football/teams/80.png"
+     },
+     "points": 14,
+     "gd": 8,
+     "played": 7,
+     "win": 4,
+     "draw": 2,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 85,
       "name": "Paris Saint Germain",
       "ar": "باريس سان جيرمان",
@@ -4396,7 +4412,7 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 114,
       "name": "Paris FC",
@@ -4412,7 +4428,7 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 3,
+     "rank": 4,
      "team": {
       "id": 79,
       "name": "Lille",
@@ -4425,10 +4441,10 @@
      "win": 4,
      "draw": 2,
      "lose": 1,
-     "description": "Champions League league stage"
+     "description": " Qualifying"
     },
     {
-     "rank": 4,
+     "rank": 5,
      "team": {
       "id": 91,
       "name": "Monaco",
@@ -4441,10 +4457,10 @@
      "win": 4,
      "draw": 2,
      "lose": 1,
-     "description": " Qualifying"
+     "description": "Europa League league stage"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": {
       "id": 94,
       "name": "Rennes",
@@ -4457,22 +4473,6 @@
      "win": 4,
      "draw": 1,
      "lose": 2,
-     "description": "Europa League league stage"
-    },
-    {
-     "rank": 6,
-     "team": {
-      "id": 80,
-      "name": "Lyon",
-      "ar": "ليون",
-      "logo": "https://media.api-sports.io/football/teams/80.png"
-     },
-     "points": 11,
-     "gd": 7,
-     "played": 6,
-     "win": 3,
-     "draw": 2,
-     "lose": 1,
      "description": "Play-offs"
     },
     {
@@ -4580,11 +4580,11 @@
       "logo": "https://media.api-sports.io/football/teams/84.png"
      },
      "points": 8,
-     "gd": -2,
-     "played": 6,
+     "gd": -3,
+     "played": 7,
      "win": 2,
      "draw": 2,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
@@ -4670,7 +4670,17 @@
    ]
   }
  },
- "errors": [],
- "requests": 21,
+ "errors": [
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "id": 1550147
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
+ "requests": 19,
  "plan": "Pro"
 }
