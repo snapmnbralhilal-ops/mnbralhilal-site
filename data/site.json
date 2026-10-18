@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T20:31:12.428Z",
+ "updated": "2026-10-18T20:59:38.067Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1045,7 +1045,7 @@
       "id": 1570420,
       "date": "2026-10-18T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 63,
+      "elapsed": 90,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1067,8 +1067,8 @@
        "logo": "https://media.api-sports.io/football/teams/536.png"
       },
       "goals": [
-       2,
-       0
+       4,
+       1
       ]
      }
     ]
@@ -1173,8 +1173,8 @@
      {
       "id": 1550152,
       "date": "2026-10-18T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 87,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1197,7 +1197,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      }
     ]
@@ -1401,8 +1401,8 @@
      {
       "id": 1552788,
       "date": "2026-10-18T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lyon",
       "league": {
        "id": 61,
@@ -1638,8 +1638,8 @@
      {
       "id": 1644217,
       "date": "2026-10-18T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Casablanca",
       "league": {
        "id": 200,
