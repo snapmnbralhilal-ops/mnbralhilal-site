@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T12:40:17.273Z",
+ "updated": "2026-10-18T13:16:43.108Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -822,8 +822,8 @@
      {
       "id": 1557427,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Bournemouth",
       "league": {
        "id": 39,
@@ -844,13 +844,16 @@
        "ar": "سندرلاند",
        "logo": "https://media.api-sports.io/football/teams/746.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1557429,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Falmer",
       "league": {
        "id": 39,
@@ -871,13 +874,16 @@
        "ar": "كريستال بالاس",
        "logo": "https://media.api-sports.io/football/teams/52.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1557432,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Leeds",
       "league": {
        "id": 39,
@@ -898,7 +904,10 @@
        "ar": "مانشستر يونايتد",
        "logo": "https://media.api-sports.io/football/teams/33.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1557435,
@@ -939,8 +948,8 @@
      {
       "id": 1570419,
       "date": "2026-10-18T15:00:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Pamplona",
       "league": {
        "id": 140,
@@ -1089,8 +1098,8 @@
      {
       "id": 1550150,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Florence",
       "league": {
        "id": 135,
@@ -1111,7 +1120,10 @@
        "ar": "كومو",
        "logo": "https://media.api-sports.io/football/teams/895.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550147,
@@ -1242,8 +1254,8 @@
      {
       "id": 1552783,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Angers",
       "league": {
        "id": 61,
@@ -1264,7 +1276,10 @@
        "ar": "مارسيليا",
        "logo": "https://media.api-sports.io/football/teams/81.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1552784,
@@ -1449,8 +1464,8 @@
      {
       "id": 1639011,
       "date": "2026-10-18T16:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Kalba",
       "league": {
        "id": 301,
@@ -1471,13 +1486,16 @@
        "ar": "الجزيرة",
        "logo": "https://media.api-sports.io/football/teams/2871.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1639012,
       "date": "2026-10-18T16:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Khor Fakkan",
       "league": {
        "id": 301,
@@ -1498,7 +1516,10 @@
        "ar": "الوحدة",
        "logo": "https://media.api-sports.io/football/teams/2875.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1639013,
@@ -1633,7 +1654,7 @@
       "id": 1552195,
       "date": "2026-10-18T15:30:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 45,
       "venue": "Leeuwarden",
       "league": {
        "id": 88,
@@ -1655,8 +1676,8 @@
        "logo": "https://media.api-sports.io/football/teams/201.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      },
      {
@@ -1782,8 +1803,8 @@
      {
       "id": 1584437,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Izmit",
       "league": {
        "id": 203,
@@ -1804,7 +1825,10 @@
        "ar": "Göztepe",
        "logo": "https://media.api-sports.io/football/teams/994.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1584431,
@@ -5976,6 +6000,6 @@
   }
  },
  "errors": [],
- "requests": 21,
+ "requests": 22,
  "plan": "Pro"
 }
