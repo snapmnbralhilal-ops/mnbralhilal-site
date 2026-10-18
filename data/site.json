@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T18:51:44.495Z",
+ "updated": "2026-10-18T19:15:42.068Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603056,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Al-Hasa",
       "league": {
        "id": 307,
@@ -1044,8 +1044,8 @@
      {
       "id": 1570420,
       "date": "2026-10-18T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1066,7 +1066,10 @@
        "ar": "إشبيلية",
        "logo": "https://media.api-sports.io/football/teams/536.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1171,7 +1174,7 @@
       "id": 1550152,
       "date": "2026-10-18T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 31,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1399,7 +1402,7 @@
       "id": 1552788,
       "date": "2026-10-18T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 31,
       "venue": "Lyon",
       "league": {
        "id": 61,
@@ -1422,7 +1425,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1605,8 +1608,8 @@
      {
       "id": 1644216,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Temara",
       "league": {
        "id": 200,
@@ -1761,8 +1764,8 @@
      {
       "id": 1552191,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Nijmegen",
       "league": {
        "id": 88,
@@ -1785,14 +1788,14 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
       "id": 1552196,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Enschede",
       "league": {
        "id": 88,
@@ -1815,7 +1818,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -6060,6 +6063,6 @@
   }
  },
  "errors": [],
- "requests": 31,
+ "requests": 26,
  "plan": "Pro"
 }
