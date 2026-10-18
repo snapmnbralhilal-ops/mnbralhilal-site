@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T22:43:02.538Z",
+ "updated": "2026-10-18T23:04:31.186Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1291,7 +1291,7 @@
       "id": 1490555,
       "date": "2026-10-19T00:00:00+03:00",
       "status": "2H",
-      "elapsed": 65,
+      "elapsed": 87,
       "venue": "Cincinnati",
       "league": {
        "id": 253,
