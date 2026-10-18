@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T10:00:37.436Z",
+ "updated": "2026-10-18T10:31:33.307Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1596,8 +1596,8 @@
      {
       "id": 1552194,
       "date": "2026-10-18T13:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Zwolle",
       "league": {
        "id": 88,
@@ -1618,7 +1618,10 @@
        "ar": "GO Ahead Eagles",
        "logo": "https://media.api-sports.io/football/teams/410.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552195,
@@ -1740,8 +1743,8 @@
      {
       "id": 1584436,
       "date": "2026-10-18T13:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1762,7 +1765,10 @@
        "ar": "Samsunspor",
        "logo": "https://media.api-sports.io/football/teams/3603.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1584437,
