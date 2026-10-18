@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T01:50:13.607Z",
+ "updated": "2026-10-18T02:20:24.711Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1981,7 +1981,7 @@
       "id": 1490548,
       "date": "2026-10-18T03:30:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 82,
       "venue": "Austin",
       "league": {
        "id": 253,
@@ -2004,14 +2004,14 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
       "id": 1490549,
       "date": "2026-10-18T03:30:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 80,
       "venue": "Houston",
       "league": {
        "id": 253,
@@ -2041,7 +2041,7 @@
       "id": 1490550,
       "date": "2026-10-18T03:30:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 81,
       "venue": "Kansas City",
       "league": {
        "id": 253,
@@ -2064,7 +2064,7 @@
       },
       "goals": [
        1,
-       2
+       3
       ]
      },
      {
