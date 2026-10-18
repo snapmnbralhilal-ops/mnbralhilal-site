@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T17:56:47.116Z",
+ "updated": "2026-10-18T18:19:26.018Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603056,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Al-Hasa",
       "league": {
        "id": 307,
@@ -808,7 +808,10 @@
        "ar": "الخليج",
        "logo": "https://media.api-sports.io/football/teams/2928.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1012,7 +1015,7 @@
       "id": 1570418,
       "date": "2026-10-18T19:30:00+03:00",
       "status": "2H",
-      "elapsed": 69,
+      "elapsed": 90,
       "venue": "Malaga",
       "league": {
        "id": 140,
@@ -1035,7 +1038,7 @@
       },
       "goals": [
        2,
-       4
+       5
       ]
      },
      {
@@ -1137,7 +1140,7 @@
      {
       "id": 1550147,
       "date": "2026-10-18T19:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Milan",
       "league": {
@@ -1459,7 +1462,7 @@
       "id": 1597939,
       "date": "2026-10-18T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 73,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1596,8 +1599,8 @@
      {
       "id": 1644216,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Temara",
       "league": {
        "id": 200,
@@ -1618,7 +1621,10 @@
        "ar": "Kawkab Marrakech",
        "logo": "https://media.api-sports.io/football/teams/971.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1644217,
@@ -1749,8 +1755,8 @@
      {
       "id": 1552191,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Nijmegen",
       "league": {
        "id": 88,
@@ -1771,13 +1777,16 @@
        "ar": "Fortuna Sittard",
        "logo": "https://media.api-sports.io/football/teams/205.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1552196,
       "date": "2026-10-18T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Enschede",
       "league": {
        "id": 88,
@@ -1798,7 +1807,10 @@
        "ar": "Utrecht",
        "logo": "https://media.api-sports.io/football/teams/207.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
