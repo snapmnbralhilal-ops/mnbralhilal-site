@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T13:46:14.085Z",
+ "updated": "2026-10-18T14:07:18.677Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -822,8 +822,8 @@
      {
       "id": 1557427,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Bournemouth",
       "league": {
        "id": 39,
@@ -852,8 +852,8 @@
      {
       "id": 1557429,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Falmer",
       "league": {
        "id": 39,
@@ -882,8 +882,8 @@
      {
       "id": 1557432,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Leeds",
       "league": {
        "id": 39,
@@ -948,8 +948,8 @@
      {
       "id": 1570419,
       "date": "2026-10-18T15:00:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Pamplona",
       "league": {
        "id": 140,
@@ -971,7 +971,7 @@
        "logo": "https://media.api-sports.io/football/teams/4665.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1098,8 +1098,8 @@
      {
       "id": 1550150,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Florence",
       "league": {
        "id": 135,
@@ -1192,7 +1192,7 @@
       "id": 1575186,
       "date": "2026-10-18T16:30:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 37,
       "venue": "Bayer Leverkusen",
       "league": {
        "id": 78,
@@ -1214,7 +1214,7 @@
        "logo": "https://media.api-sports.io/football/teams/160.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1257,8 +1257,8 @@
      {
       "id": 1552783,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Angers",
       "league": {
        "id": 61,
@@ -1467,8 +1467,8 @@
      {
       "id": 1639011,
       "date": "2026-10-18T16:05:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Kalba",
       "league": {
        "id": 301,
@@ -1497,8 +1497,8 @@
      {
       "id": 1639012,
       "date": "2026-10-18T16:05:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Khor Fakkan",
       "league": {
        "id": 301,
@@ -1521,7 +1521,7 @@
       },
       "goals": [
        2,
-       2
+       3
       ]
      },
      {
@@ -1657,7 +1657,7 @@
       "id": 1552195,
       "date": "2026-10-18T15:30:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 77,
       "venue": "Leeuwarden",
       "league": {
        "id": 88,
@@ -1806,8 +1806,8 @@
      {
       "id": 1584437,
       "date": "2026-10-18T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Izmit",
       "league": {
        "id": 203,
