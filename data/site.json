@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T16:56:57.562Z",
+ "updated": "2026-10-19T17:25:01.481Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603057,
       "date": "2026-10-19T18:05:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -906,7 +906,7 @@
      {
       "id": 1604027,
       "date": "2026-10-19T18:05:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Al Zulfi Club Stadium",
       "league": {
@@ -936,8 +936,8 @@
      {
       "id": 1604028,
       "date": "2026-10-19T18:20:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Abha",
       "league": {
        "id": 308,
@@ -967,7 +967,7 @@
       "id": 1604029,
       "date": "2026-10-19T19:50:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 35,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1077,8 +1077,8 @@
      {
       "id": 1550153,
       "date": "2026-10-19T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Monza",
       "league": {
        "id": 135,
@@ -1100,7 +1100,7 @@
        "logo": "https://media.api-sports.io/football/teams/490.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1173,8 +1173,8 @@
      {
       "id": 1612260,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Port Said",
       "league": {
        "id": 233,
@@ -1195,13 +1195,16 @@
        "ar": "Abu Qair Semad",
        "logo": "https://media.api-sports.io/football/teams/15731.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612261,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1222,7 +1225,10 @@
        "ar": "El Mokawloon",
        "logo": "https://media.api-sports.io/football/teams/1575.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -1272,8 +1278,8 @@
      {
       "id": 1584438,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Trabzon",
       "league": {
        "id": 203,
@@ -1294,7 +1300,10 @@
        "ar": "بشكتاش",
        "logo": "https://media.api-sports.io/football/teams/549.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -4719,6 +4728,6 @@
   }
  },
  "errors": [],
- "requests": 16,
+ "requests": 18,
  "plan": "Pro"
 }

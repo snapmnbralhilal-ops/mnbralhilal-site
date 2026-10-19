@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-19T16:56:58.149Z",
+ "updated": "2026-10-19T17:25:01.901Z",
  "players": [
   {
    "api": 156,
@@ -67,7 +67,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.84,
+   "rating": 6.79,
    "comps": [
     {
      "id": 17,
@@ -192,10 +192,10 @@
    "tackles": 16,
    "interceptions": 0,
    "dribbles": 11,
-   "yellow": 0,
+   "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 7.4,
+   "rating": 7.33,
    "comps": [
     {
      "id": 17,
@@ -240,7 +240,7 @@
    "yellow": 2,
    "red": 0,
    "penScored": 5,
-   "rating": 8.18,
+   "rating": 8.05,
    "comps": [
     {
      "id": 17,
@@ -274,7 +274,7 @@
    "goals": 0,
    "assists": 0,
    "saves": 22,
-   "conceded": 6,
+   "conceded": 4,
    "shots": 0,
    "shotsOn": 0,
    "keyPasses": 0,
@@ -285,7 +285,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.19,
+   "rating": 7.21,
    "comps": [
     {
      "id": 17,
@@ -320,7 +320,7 @@
    "assists": 4,
    "saves": 0,
    "conceded": 0,
-   "shots": 17,
+   "shots": 18,
    "shotsOn": 11,
    "keyPasses": 12,
    "passes": 86,
@@ -330,7 +330,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.7,
+   "rating": 7.92,
    "comps": [
     {
      "id": 17,
@@ -365,7 +365,7 @@
    "assists": 3,
    "saves": 0,
    "conceded": 0,
-   "shots": 22,
+   "shots": 23,
    "shotsOn": 6,
    "keyPasses": 18,
    "passes": 266,
@@ -375,7 +375,7 @@
    "yellow": 2,
    "red": 1,
    "penScored": 0,
-   "rating": 7.64,
+   "rating": 7.65,
    "comps": [
     {
      "id": 17,
@@ -420,7 +420,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.8,
+   "rating": 6.75,
    "comps": [
     {
      "id": 17,
@@ -455,7 +455,7 @@
    "assists": 1,
    "saves": 0,
    "conceded": 0,
-   "shots": 10,
+   "shots": 11,
    "shotsOn": 5,
    "keyPasses": 8,
    "passes": 316,
@@ -465,7 +465,7 @@
    "yellow": 2,
    "red": 0,
    "penScored": 0,
-   "rating": 6.64,
+   "rating": 6.61,
    "comps": [
     {
      "id": 17,
@@ -555,7 +555,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 5.63,
+   "rating": 4.05,
    "comps": [
     {
      "id": 17,
@@ -600,7 +600,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.3,
+   "rating": 3.65,
    "comps": [
     {
      "id": 307,
@@ -638,7 +638,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.05,
+   "rating": 6.86,
    "comps": [
     {
      "id": 17,
@@ -713,7 +713,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.3,
+   "rating": 6.99,
    "comps": [
     {
      "id": 17,
@@ -748,7 +748,7 @@
    "assists": 0,
    "saves": 0,
    "conceded": 0,
-   "shots": 12,
+   "shots": 13,
    "shotsOn": 8,
    "keyPasses": 5,
    "passes": 143,
@@ -758,7 +758,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.04,
+   "rating": 7.27,
    "comps": [
     {
      "id": 17,
@@ -803,7 +803,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.87,
+   "rating": 6.85,
    "comps": [
     {
      "id": 17,
@@ -848,7 +848,7 @@
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.93,
+   "rating": 6.89,
    "comps": [
     {
      "id": 17,
