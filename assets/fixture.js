@@ -124,7 +124,19 @@
   // -------- التشكيلات --------
   function renderLineups(m) {
     const el = $("tabLineups");
-    const lus = m.lineups || [];
+    let lus = m.lineups || [];
+    // Official Al-Hilal lineup published 19 Oct 2026 vs Al-Hazm.
+    // Use it only when the provider has not supplied lineups yet.
+    if (!lus.length && String(m.id) === "1603058") {
+      lus = [{
+        teamId: 2932, teamName: "الهلال", formation: "",
+        startXI: [
+          [37,"بونو"],[3,"كوليبالي"],[87,"تمبكتي"],[2,"هنري"],
+          [19,"ثيو"],[28,"كنو"],[22,"سيرجي"],[8,"نيفيز"],
+          [38,"ماركوس ليوناردو"],[7,"مالكوم"],[11,"واتكينز"]
+        ].map(([number,name]) => ({number,name,pos:""})), subs: []
+      }];
+    }
     if (!lus.length) { el.innerHTML = `<p class="empty">التشكيلة ما نُشرت بعد.</p>`; return; }
     el.innerHTML = `<div class="lu-wrap">${lus.map((l) => {
       const team = l.teamId === m.home?.id ? m.home : m.away;
