@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T04:04:08.167Z",
+ "updated": "2026-10-19T04:37:50.696Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2416,7 +2416,7 @@
       "date": "2026-10-18T16:00:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Izmit",
+      "venue": "Kocaeli",
       "league": {
        "id": 203,
        "name": "Süper Lig",
@@ -4700,38 +4700,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 140,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 61,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 307,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
