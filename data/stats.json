@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-19T08:44:23.394Z",
+ "updated": "2026-10-19T09:19:51.095Z",
  "players": [
   {
    "api": 156,
@@ -1006,7 +1006,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 5.23,
+   "rating": 5.3,
    "comps": [
     {
      "id": 17,
@@ -1051,7 +1051,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.45,
+   "rating": 6.33,
    "comps": [
     {
      "id": 17,
@@ -1247,7 +1247,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.65,
+   "rating": 5.55,
    "comps": [
     {
      "id": 17,
