@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T13:50:42.093Z",
+ "updated": "2026-10-19T14:29:46.256Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1128,8 +1128,8 @@
      {
       "id": 1612259,
       "date": "2026-10-19T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 29,
       "venue": "El Guna",
       "league": {
        "id": 233,
@@ -1150,7 +1150,10 @@
        "ar": "Smouha SC",
        "logo": "https://media.api-sports.io/football/teams/1044.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612260,
@@ -4701,6 +4704,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 15,
  "plan": "Pro"
 }
