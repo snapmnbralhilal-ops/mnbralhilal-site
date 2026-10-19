@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T16:18:03.455Z",
+ "updated": "2026-10-19T16:56:57.562Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1603057,
       "date": "2026-10-19T18:05:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 88,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -809,8 +809,8 @@
        "logo": "https://media.api-sports.io/football/teams/2929.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       3
       ]
      },
      {
@@ -907,7 +907,7 @@
       "id": 1604027,
       "date": "2026-10-19T18:05:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 90,
       "venue": "Al Zulfi Club Stadium",
       "league": {
        "id": 308,
@@ -929,15 +929,15 @@
        "logo": "https://media.api-sports.io/football/teams/26357.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1604028,
       "date": "2026-10-19T18:20:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "Abha",
       "league": {
        "id": 308,
@@ -959,15 +959,15 @@
        "logo": "https://media.api-sports.io/football/teams/2942.png"
       },
       "goals": [
-       1,
+       4,
        1
       ]
      },
      {
       "id": 1604029,
       "date": "2026-10-19T19:50:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -988,7 +988,10 @@
        "ar": "Al Saqer",
        "logo": "https://media.api-sports.io/football/teams/27480.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1074,8 +1077,8 @@
      {
       "id": 1550153,
       "date": "2026-10-19T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Monza",
       "league": {
        "id": 135,
@@ -1096,7 +1099,10 @@
        "ar": "كالياري",
        "logo": "https://media.api-sports.io/football/teams/490.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550154,
