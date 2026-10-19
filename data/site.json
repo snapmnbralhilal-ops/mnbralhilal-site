@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-19T19:09:37.361Z",
+ "updated": "2026-10-19T19:42:55.654Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1603058,
     "date": "2026-10-19T21:00:00+03:00",
-    "status": "HT",
-    "elapsed": 45,
+    "status": "2H",
+    "elapsed": 82,
     "venue": "Riyadh",
     "league": {
      "id": 307,
@@ -853,8 +853,8 @@
      {
       "id": 1603058,
       "date": "2026-10-19T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 82,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -884,7 +884,7 @@
       "id": 1603060,
       "date": "2026-10-19T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 83,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -907,7 +907,7 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      }
     ]
@@ -1022,7 +1022,7 @@
       "id": 1557436,
       "date": "2026-10-19T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 42,
       "venue": "London",
       "league": {
        "id": 39,
@@ -1044,7 +1044,7 @@
        "logo": "https://media.api-sports.io/football/teams/1346.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1061,7 +1061,7 @@
       "id": 1570417,
       "date": "2026-10-19T22:00:00+03:00",
       "status": "1H",
-      "elapsed": 10,
+      "elapsed": 43,
       "venue": "Getafe",
       "league": {
        "id": 140,
@@ -1084,7 +1084,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1129,8 +1129,8 @@
      {
       "id": 1550154,
       "date": "2026-10-19T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Parma",
       "league": {
        "id": 135,
@@ -1267,8 +1267,8 @@
      {
       "id": 1575458,
       "date": "2026-10-19T22:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 27,
       "venue": "Braga",
       "league": {
        "id": 94,
@@ -1289,7 +1289,10 @@
        "ar": "GIL Vicente",
        "logo": "https://media.api-sports.io/football/teams/762.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -3948,11 +3951,11 @@
       "logo": "https://media.api-sports.io/football/teams/490.png"
      },
      "points": 13,
-     "gd": 3,
-     "played": 6,
+     "gd": -1,
+     "played": 7,
      "win": 4,
      "draw": 1,
-     "lose": 1,
+     "lose": 2,
      "description": ""
     },
     {
@@ -4038,6 +4041,22 @@
     {
      "rank": 13,
      "team": {
+      "id": 1579,
+      "name": "Monza",
+      "ar": "مونزا",
+      "logo": "https://media.api-sports.io/football/teams/1579.png"
+     },
+     "points": 7,
+     "gd": -2,
+     "played": 7,
+     "win": 2,
+     "draw": 1,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
       "id": 503,
       "name": "Torino",
       "ar": "تورينو",
@@ -4052,7 +4071,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 500,
       "name": "Bologna",
@@ -4064,22 +4083,6 @@
      "played": 7,
      "win": 1,
      "draw": 2,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 1579,
-      "name": "Monza",
-      "ar": "مونزا",
-      "logo": "https://media.api-sports.io/football/teams/1579.png"
-     },
-     "points": 4,
-     "gd": -6,
-     "played": 6,
-     "win": 1,
-     "draw": 1,
      "lose": 4,
      "description": ""
     },
