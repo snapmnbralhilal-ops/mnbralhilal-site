@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-19T17:55:43.683Z",
+ "updated": "2026-10-19T18:24:23.158Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1603058,
     "date": "2026-10-19T21:00:00+03:00",
-    "status": "NS",
-    "elapsed": null,
+    "status": "1H",
+    "elapsed": 23,
     "venue": "Riyadh",
     "league": {
      "id": 307,
@@ -28,7 +28,10 @@
      "ar": "الحزم",
      "logo": "https://media.api-sports.io/football/teams/2945.png"
     },
-    "goals": null
+    "goals": [
+     0,
+     0
+    ]
    },
    {
     "id": 1603068,
@@ -730,6 +733,13 @@
  "news": [
   {
    "tag": "الهلال",
+   "title": "مباشر: الهلال يستضيف الحزم الآن",
+   "body": "النتيجة 0-0 في دوري روشن السعودي.",
+   "link": "#hilal",
+   "breaking": true
+  },
+  {
+   "tag": "الهلال",
    "title": "الهلال يتغلب على السد بنتيجة 2-0",
    "body": "خارج أرضه في دوري أبطال آسيا للنخبة — League Phase - 2.",
    "link": "#hilal"
@@ -742,8 +752,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يستضيف الحزم في دوري روشن السعودي",
-   "body": "الاثنين، 19 أكتوبر الساعة 21:00 بتوقيت مكة.",
+   "title": "الهلال يحل ضيفاً على القادسية في دوري روشن السعودي",
+   "body": "الجمعة، 23 أكتوبر الساعة 21:00 بتوقيت مكة.",
    "link": "#hilal"
   },
   {
@@ -843,8 +853,8 @@
      {
       "id": 1603058,
       "date": "2026-10-19T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -865,13 +875,16 @@
        "ar": "الحزم",
        "logo": "https://media.api-sports.io/football/teams/2945.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603060,
       "date": "2026-10-19T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -892,7 +905,10 @@
        "ar": "الفيصلي",
        "logo": "https://media.api-sports.io/football/teams/2930.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -966,8 +982,8 @@
      {
       "id": 1604029,
       "date": "2026-10-19T19:50:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -990,7 +1006,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      }
     ]
@@ -1077,8 +1093,8 @@
      {
       "id": 1550153,
       "date": "2026-10-19T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Monza",
       "league": {
        "id": 135,
@@ -1100,7 +1116,7 @@
        "logo": "https://media.api-sports.io/football/teams/490.png"
       },
       "goals": [
-       3,
+       4,
        0
       ]
      },
@@ -1173,8 +1189,8 @@
      {
       "id": 1612260,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 64,
       "venue": "Port Said",
       "league": {
        "id": 233,
@@ -1203,8 +1219,8 @@
      {
       "id": 1612261,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1227,7 +1243,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
@@ -1278,8 +1294,8 @@
      {
       "id": 1584438,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Trabzon",
       "league": {
        "id": 203,
@@ -2926,6 +2942,22 @@
     {
      "rank": 4,
      "team": {
+      "id": 2929,
+      "name": "Al-Ahli Jeddah",
+      "ar": "الأهلي",
+      "logo": "https://media.api-sports.io/football/teams/2929.png"
+     },
+     "points": 18,
+     "gd": 11,
+     "played": 9,
+     "win": 6,
+     "draw": 0,
+     "lose": 3,
+     "description": "Promotion - AFC Champions League (League phase)"
+    },
+    {
+     "rank": 5,
+     "team": {
       "id": 2938,
       "name": "Al-Ittihad FC",
       "ar": "الاتحاد",
@@ -2937,10 +2969,10 @@
      "win": 5,
      "draw": 2,
      "lose": 1,
-     "description": "Promotion - AFC Champions League (League phase)"
+     "description": "Promotion - AFC Champions League (Qualification)"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": {
       "id": 10513,
       "name": "NEOM",
@@ -2952,22 +2984,6 @@
      "played": 9,
      "win": 5,
      "draw": 1,
-     "lose": 3,
-     "description": "Promotion - AFC Champions League (Qualification)"
-    },
-    {
-     "rank": 6,
-     "team": {
-      "id": 2929,
-      "name": "Al-Ahli Jeddah",
-      "ar": "الأهلي",
-      "logo": "https://media.api-sports.io/football/teams/2929.png"
-     },
-     "points": 15,
-     "gd": 10,
-     "played": 8,
-     "win": 5,
-     "draw": 0,
      "lose": 3,
      "description": "Promotion - AFC Champions League 2"
     },
@@ -3092,11 +3108,11 @@
       "logo": "https://media.api-sports.io/football/teams/2944.png"
      },
      "points": 7,
-     "gd": -6,
-     "played": 9,
+     "gd": -7,
+     "played": 10,
      "win": 1,
      "draw": 4,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
@@ -4728,6 +4744,6 @@
   }
  },
  "errors": [],
- "requests": 19,
+ "requests": 21,
  "plan": "Pro"
 }
