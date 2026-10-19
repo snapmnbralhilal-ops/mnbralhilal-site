@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-19T18:24:23.158Z",
+ "updated": "2026-10-19T19:09:37.361Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1603058,
     "date": "2026-10-19T21:00:00+03:00",
-    "status": "1H",
-    "elapsed": 23,
+    "status": "HT",
+    "elapsed": 45,
     "venue": "Riyadh",
     "league": {
      "id": 307,
@@ -853,8 +853,8 @@
      {
       "id": 1603058,
       "date": "2026-10-19T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -883,8 +883,8 @@
      {
       "id": 1603060,
       "date": "2026-10-19T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -906,8 +906,8 @@
        "logo": "https://media.api-sports.io/football/teams/2930.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      }
     ]
@@ -982,8 +982,8 @@
      {
       "id": 1604029,
       "date": "2026-10-19T19:50:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1021,8 +1021,8 @@
      {
       "id": 1557436,
       "date": "2026-10-19T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "London",
       "league": {
        "id": 39,
@@ -1043,7 +1043,10 @@
        "ar": "كوفنتري",
        "logo": "https://media.api-sports.io/football/teams/1346.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1057,8 +1060,8 @@
      {
       "id": 1570417,
       "date": "2026-10-19T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 10,
       "venue": "Getafe",
       "league": {
        "id": 140,
@@ -1079,7 +1082,10 @@
        "ar": "رايو فايكانو",
        "logo": "https://media.api-sports.io/football/teams/728.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1123,8 +1129,8 @@
      {
       "id": 1550154,
       "date": "2026-10-19T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Parma",
       "league": {
        "id": 135,
@@ -1145,7 +1151,10 @@
        "ar": "تورينو",
        "logo": "https://media.api-sports.io/football/teams/503.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      }
     ]
    },
@@ -1189,8 +1198,8 @@
      {
       "id": 1612260,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 64,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Port Said",
       "league": {
        "id": 233,
@@ -1212,15 +1221,15 @@
        "logo": "https://media.api-sports.io/football/teams/15731.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1612261,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 61,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1243,7 +1252,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      }
     ]
@@ -1294,8 +1303,8 @@
      {
       "id": 1584438,
       "date": "2026-10-19T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 65,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Trabzon",
       "league": {
        "id": 203,
@@ -1317,7 +1326,7 @@
        "logo": "https://media.api-sports.io/football/teams/549.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
