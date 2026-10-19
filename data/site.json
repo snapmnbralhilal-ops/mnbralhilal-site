@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T22:22:44.062Z",
+ "updated": "2026-10-19T22:55:18.065Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2766,21 +2766,37 @@
     {
      "rank": 16,
      "team": {
+      "id": 47,
+      "name": "Tottenham",
+      "ar": "توتنهام",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+     },
+     "points": 6,
+     "gd": -4,
+     "played": 7,
+     "win": 1,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 17,
+     "team": {
       "id": 1346,
       "name": "Coventry",
       "ar": "كوفنتري",
       "logo": "https://media.api-sports.io/football/teams/1346.png"
      },
      "points": 6,
-     "gd": -6,
-     "played": 6,
+     "gd": -8,
+     "played": 7,
      "win": 2,
      "draw": 0,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 36,
       "name": "Fulham",
@@ -2793,10 +2809,10 @@
      "win": 1,
      "draw": 2,
      "lose": 4,
-     "description": ""
+     "description": "Relegation - Championship"
     },
     {
-     "rank": 18,
+     "rank": 19,
      "team": {
       "id": 65,
       "name": "Nottingham Forest",
@@ -2812,7 +2828,7 @@
      "description": "Relegation - Championship"
     },
     {
-     "rank": 19,
+     "rank": 20,
      "team": {
       "id": 746,
       "name": "Sunderland",
@@ -2825,22 +2841,6 @@
      "win": 1,
      "draw": 1,
      "lose": 5,
-     "description": "Relegation - Championship"
-    },
-    {
-     "rank": 20,
-     "team": {
-      "id": 47,
-      "name": "Tottenham",
-      "ar": "توتنهام",
-      "logo": "https://media.api-sports.io/football/teams/47.png"
-     },
-     "points": 3,
-     "gd": -6,
-     "played": 6,
-     "win": 0,
-     "draw": 3,
-     "lose": 3,
      "description": "Relegation - Championship"
     }
    ]
@@ -4083,6 +4083,6 @@
   }
  },
  "errors": [],
- "requests": 19,
+ "requests": 18,
  "plan": "Pro"
 }
