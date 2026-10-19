@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T20:15:09.887Z",
+ "updated": "2026-10-19T20:50:45.004Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1012,7 +1012,7 @@
       "id": 1557436,
       "date": "2026-10-19T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -1034,7 +1034,7 @@
        "logo": "https://media.api-sports.io/football/teams/1346.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      }
@@ -1051,7 +1051,7 @@
       "id": 1570417,
       "date": "2026-10-19T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "Getafe",
       "league": {
        "id": 140,
@@ -1073,7 +1073,7 @@
        "logo": "https://media.api-sports.io/football/teams/728.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      }
@@ -1119,8 +1119,8 @@
      {
       "id": 1550154,
       "date": "2026-10-19T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Parma",
       "league": {
        "id": 135,
@@ -1257,8 +1257,8 @@
      {
       "id": 1575458,
       "date": "2026-10-19T22:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 71,
       "venue": "Braga",
       "league": {
        "id": 94,
@@ -1281,7 +1281,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
