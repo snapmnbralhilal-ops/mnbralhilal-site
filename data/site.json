@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T21:20:21.384Z",
+ "updated": "2026-10-19T21:56:23.438Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3043,6 +3043,38 @@
     {
      "rank": 13,
      "team": {
+      "id": 728,
+      "name": "Rayo Vallecano",
+      "ar": "رايو فايكانو",
+      "logo": "https://media.api-sports.io/football/teams/728.png"
+     },
+     "points": 9,
+     "gd": -5,
+     "played": 8,
+     "win": 2,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
+      "id": 546,
+      "name": "Getafe",
+      "ar": "خيتافي",
+      "logo": "https://media.api-sports.io/football/teams/546.png"
+     },
+     "points": 9,
+     "gd": -6,
+     "played": 9,
+     "win": 2,
+     "draw": 3,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 15,
+     "team": {
       "id": 540,
       "name": "Espanyol",
       "ar": "إسبانيول",
@@ -3054,38 +3086,6 @@
      "win": 2,
      "draw": 2,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 728,
-      "name": "Rayo Vallecano",
-      "ar": "رايو فايكانو",
-      "logo": "https://media.api-sports.io/football/teams/728.png"
-     },
-     "points": 8,
-     "gd": -5,
-     "played": 7,
-     "win": 2,
-     "draw": 2,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 546,
-      "name": "Getafe",
-      "ar": "خيتافي",
-      "logo": "https://media.api-sports.io/football/teams/546.png"
-     },
-     "points": 8,
-     "gd": -6,
-     "played": 8,
-     "win": 2,
-     "draw": 2,
-     "lose": 4,
      "description": ""
     },
     {
@@ -3320,6 +3320,22 @@
     {
      "rank": 10,
      "team": {
+      "id": 503,
+      "name": "Torino",
+      "ar": "تورينو",
+      "logo": "https://media.api-sports.io/football/teams/503.png"
+     },
+     "points": 10,
+     "gd": 1,
+     "played": 7,
+     "win": 3,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
       "id": 499,
       "name": "Atalanta",
       "ar": "أتالانتا",
@@ -3334,7 +3350,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 867,
       "name": "Lecce",
@@ -3350,7 +3366,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 488,
       "name": "Sassuolo",
@@ -3366,7 +3382,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 1579,
       "name": "Monza",
@@ -3379,22 +3395,6 @@
      "win": 2,
      "draw": 1,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 503,
-      "name": "Torino",
-      "ar": "تورينو",
-      "logo": "https://media.api-sports.io/football/teams/503.png"
-     },
-     "points": 7,
-     "gd": -2,
-     "played": 6,
-     "win": 2,
-     "draw": 1,
-     "lose": 3,
      "description": ""
     },
     {
@@ -3416,22 +3416,6 @@
     {
      "rank": 16,
      "team": {
-      "id": 523,
-      "name": "Parma",
-      "ar": "بارما",
-      "logo": "https://media.api-sports.io/football/teams/523.png"
-     },
-     "points": 4,
-     "gd": -6,
-     "played": 6,
-     "win": 1,
-     "draw": 1,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 17,
-     "team": {
       "id": 494,
       "name": "Udinese",
       "ar": "أودينيزي",
@@ -3446,7 +3430,7 @@
      "description": ""
     },
     {
-     "rank": 18,
+     "rank": 17,
      "team": {
       "id": 495,
       "name": "Genoa",
@@ -3459,15 +3443,31 @@
      "win": 1,
      "draw": 1,
      "lose": 5,
-     "description": "Relegation"
+     "description": ""
     },
     {
-     "rank": 19,
+     "rank": 18,
      "team": {
       "id": 502,
       "name": "Fiorentina",
       "ar": "فيورنتينا",
       "logo": "https://media.api-sports.io/football/teams/502.png"
+     },
+     "points": 4,
+     "gd": -9,
+     "played": 7,
+     "win": 1,
+     "draw": 1,
+     "lose": 5,
+     "description": "Relegation"
+    },
+    {
+     "rank": 19,
+     "team": {
+      "id": 523,
+      "name": "Parma",
+      "ar": "بارما",
+      "logo": "https://media.api-sports.io/football/teams/523.png"
      },
      "points": 4,
      "gd": -9,
