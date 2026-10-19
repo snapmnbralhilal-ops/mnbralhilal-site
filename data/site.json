@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T14:29:46.256Z",
+ "updated": "2026-10-19T15:12:28.243Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603057,
       "date": "2026-10-19T18:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -808,7 +808,10 @@
        "ar": "الأهلي",
        "logo": "https://media.api-sports.io/football/teams/2929.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603053,
@@ -903,8 +906,8 @@
      {
       "id": 1604027,
       "date": "2026-10-19T18:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Al Zulfi Club Stadium",
       "league": {
        "id": 308,
@@ -925,7 +928,10 @@
        "ar": "العُلا",
        "logo": "https://media.api-sports.io/football/teams/26357.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604028,
@@ -1128,8 +1134,8 @@
      {
       "id": 1612259,
       "date": "2026-10-19T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 29,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "El Guna",
       "league": {
        "id": 233,
