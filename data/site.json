@@ -1,38 +1,8 @@
 {
- "updated": "2026-10-19T19:42:55.654Z",
+ "updated": "2026-10-19T20:15:09.887Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
-   {
-    "id": 1603058,
-    "date": "2026-10-19T21:00:00+03:00",
-    "status": "2H",
-    "elapsed": 82,
-    "venue": "Riyadh",
-    "league": {
-     "id": 307,
-     "name": "Pro League",
-     "country": "Saudi-Arabia",
-     "logo": "https://media.api-sports.io/football/leagues/307.png",
-     "round": "Regular Season - 10"
-    },
-    "home": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "away": {
-     "id": 2945,
-     "name": "Al-Hazm",
-     "ar": "الحزم",
-     "logo": "https://media.api-sports.io/football/teams/2945.png"
-    },
-    "goals": [
-     0,
-     0
-    ]
-   },
    {
     "id": 1603068,
     "date": "2026-10-23T21:00:00+03:00",
@@ -275,9 +245,66 @@
      "logo": "https://media.api-sports.io/football/teams/2951.png"
     },
     "goals": null
+   },
+   {
+    "id": 1630003,
+    "date": "2026-12-07T21:15:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "Riyadh",
+    "league": {
+     "id": 17,
+     "name": "AFC Champions League Elite",
+     "country": "World",
+     "logo": "https://media.api-sports.io/football/leagues/17.png",
+     "round": "League Phase - 6"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2865,
+     "name": "Al Ain",
+     "ar": "العين",
+     "logo": "https://media.api-sports.io/football/teams/2865.png"
+    },
+    "goals": null
    }
   ],
   "results": [
+   {
+    "id": 1603058,
+    "date": "2026-10-19T21:00:00+03:00",
+    "status": "FT",
+    "elapsed": 90,
+    "venue": "Riyadh",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 10"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2945,
+     "name": "Al-Hazm",
+     "ar": "الحزم",
+     "logo": "https://media.api-sports.io/football/teams/2945.png"
+    },
+    "goals": [
+     1,
+     0
+    ]
+   },
    {
     "id": 1629939,
     "date": "2026-10-13T19:00:00+03:00",
@@ -697,56 +724,19 @@
      1,
      2
     ]
-   },
-   {
-    "id": 1540775,
-    "date": "2026-05-08T21:00:00+03:00",
-    "status": "FT",
-    "elapsed": 90,
-    "venue": "Jeddah",
-    "league": {
-     "id": 504,
-     "name": "King's Cup",
-     "country": "Saudi-Arabia",
-     "logo": "https://media.api-sports.io/football/leagues/504.png",
-     "round": "Final"
-    },
-    "home": {
-     "id": 10509,
-     "name": "Al Kholood",
-     "ar": "الخلود",
-     "logo": "https://media.api-sports.io/football/teams/10509.png"
-    },
-    "away": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "goals": [
-     1,
-     2
-    ]
    }
   ]
  },
  "news": [
   {
    "tag": "الهلال",
-   "title": "مباشر: الهلال يستضيف الحزم الآن",
-   "body": "النتيجة 0-0 في دوري روشن السعودي.",
-   "link": "#hilal",
-   "breaking": true
-  },
-  {
-   "tag": "الهلال",
-   "title": "الهلال يتغلب على السد بنتيجة 2-0",
-   "body": "خارج أرضه في دوري أبطال آسيا للنخبة — League Phase - 2.",
+   "title": "الهلال يتغلب على الحزم بنتيجة 1-0",
+   "body": "على أرضه في دوري روشن السعودي — الجولة 10.",
    "link": "#hilal"
   },
   {
    "tag": "الهلال",
-   "title": "4 انتصارات متتالية للهلال",
+   "title": "5 انتصارات متتالية للهلال",
    "body": "الزعيم يواصل سلسلة الانتصارات في كل البطولات.",
    "link": "#hilal"
   },
@@ -853,8 +843,8 @@
      {
       "id": 1603058,
       "date": "2026-10-19T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -876,15 +866,15 @@
        "logo": "https://media.api-sports.io/football/teams/2945.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1603060,
       "date": "2026-10-19T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -1021,8 +1011,8 @@
      {
       "id": 1557436,
       "date": "2026-10-19T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "London",
       "league": {
        "id": 39,
@@ -1045,7 +1035,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1060,8 +1050,8 @@
      {
       "id": 1570417,
       "date": "2026-10-19T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 43,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Getafe",
       "league": {
        "id": 140,
@@ -1129,8 +1119,8 @@
      {
       "id": 1550154,
       "date": "2026-10-19T21:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "Parma",
       "league": {
        "id": 135,
@@ -1153,7 +1143,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      }
     ]
@@ -1267,8 +1257,8 @@
      {
       "id": 1575458,
       "date": "2026-10-19T22:15:00+03:00",
-      "status": "1H",
-      "elapsed": 27,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Braga",
       "league": {
        "id": 94,
@@ -1290,7 +1280,7 @@
        "logo": "https://media.api-sports.io/football/teams/762.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
