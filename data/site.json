@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T15:12:28.243Z",
+ "updated": "2026-10-19T15:51:30.042Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1603057,
       "date": "2026-10-19T18:05:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 45,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -809,14 +809,14 @@
        "logo": "https://media.api-sports.io/football/teams/2929.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1603053,
       "date": "2026-10-19T18:20:00+03:00",
-      "status": "NS",
+      "status": "TBD",
       "elapsed": null,
       "venue": "Khamis Mushait",
       "league": {
@@ -907,7 +907,7 @@
       "id": 1604027,
       "date": "2026-10-19T18:05:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 45,
       "venue": "Al Zulfi Club Stadium",
       "league": {
        "id": 308,
@@ -936,8 +936,8 @@
      {
       "id": 1604028,
       "date": "2026-10-19T18:20:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Abha",
       "league": {
        "id": 308,
@@ -958,7 +958,10 @@
        "ar": "Al Taee",
        "logo": "https://media.api-sports.io/football/teams/2942.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1604029,
@@ -1135,7 +1138,7 @@
       "id": 1612259,
       "date": "2026-10-19T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 89,
       "venue": "El Guna",
       "league": {
        "id": 233,
@@ -1158,7 +1161,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
@@ -4710,6 +4713,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 16,
  "plan": "Pro"
 }
