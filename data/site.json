@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T18:40:46.266Z",
+ "updated": "2026-10-20T19:20:22.243Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -846,8 +846,8 @@
      {
       "id": 1603055,
       "date": "2026-10-20T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -870,14 +870,14 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
       "id": 1603059,
       "date": "2026-10-20T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -975,8 +975,8 @@
      {
       "id": 1604032,
       "date": "2026-10-20T19:50:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Najran",
       "league": {
        "id": 308,
@@ -1074,8 +1074,8 @@
      {
       "id": 1635617,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Rome",
       "league": {
        "id": 2,
@@ -1096,13 +1096,16 @@
        "ar": "Slovan Bratislava",
        "logo": "https://media.api-sports.io/football/teams/656.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635655,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Porto",
       "league": {
        "id": 2,
@@ -1123,13 +1126,16 @@
        "ar": "PSV Eindhoven",
        "logo": "https://media.api-sports.io/football/teams/197.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635688,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Liverpool",
       "league": {
        "id": 2,
@@ -1150,13 +1156,16 @@
        "ar": "فياريال",
        "logo": "https://media.api-sports.io/football/teams/533.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1635693,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Manchester",
       "league": {
        "id": 2,
@@ -1177,13 +1186,16 @@
        "ar": "AEK Athens FC",
        "logo": "https://media.api-sports.io/football/teams/575.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1635700,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Naples",
       "league": {
        "id": 2,
@@ -1204,13 +1216,16 @@
        "ar": "Bodo/Glimt",
        "logo": "https://media.api-sports.io/football/teams/327.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1635702,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Paris",
       "league": {
        "id": 2,
@@ -1231,13 +1246,16 @@
        "ar": "برشلونة",
        "logo": "https://media.api-sports.io/football/teams/529.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635738,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Stuttgart",
       "league": {
        "id": 2,
@@ -1258,7 +1276,10 @@
        "ar": "أتلتيكو مدريد",
        "logo": "https://media.api-sports.io/football/teams/530.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1332,8 +1353,8 @@
      {
       "id": 1612263,
       "date": "2026-10-20T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1362,8 +1383,8 @@
      {
       "id": 1612264,
       "date": "2026-10-20T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1386,7 +1407,7 @@
       },
       "goals": [
        1,
-       2
+       4
       ]
      }
     ]
@@ -1401,7 +1422,7 @@
      {
       "id": 1646583,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
+      "status": "TBD",
       "elapsed": null,
       "venue": "Alfchurch",
       "league": {
@@ -1428,8 +1449,8 @@
      {
       "id": 1646584,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Anstey",
       "league": {
        "id": 45,
@@ -1450,13 +1471,16 @@
        "ar": "Macclesfield",
        "logo": "https://media.api-sports.io/football/teams/1380.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1646585,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Chislehurst",
       "league": {
        "id": 45,
@@ -1477,13 +1501,16 @@
        "ar": "Bedford Town",
        "logo": "https://media.api-sports.io/football/teams/7616.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1646586,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Manchester",
       "league": {
        "id": 45,
@@ -1504,13 +1531,16 @@
        "ar": "Altrincham",
        "logo": "https://media.api-sports.io/football/teams/4700.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      },
      {
       "id": 1646587,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 34,
       "venue": "Nailsworth",
       "league": {
        "id": 45,
@@ -1531,12 +1561,15 @@
        "ar": "Chesham United",
        "logo": "https://media.api-sports.io/football/teams/4702.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1646588,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
+      "status": "TBD",
       "elapsed": null,
       "venue": "Gloucester",
       "league": {
@@ -1563,8 +1596,8 @@
      {
       "id": 1646589,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Harrogate",
       "league": {
        "id": 45,
@@ -1585,13 +1618,16 @@
        "ar": "Bury",
        "logo": "https://media.api-sports.io/football/teams/1344.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1646590,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 33,
       "venue": "Stafford",
       "league": {
        "id": 45,
@@ -1612,13 +1648,16 @@
        "ar": "Gateshead",
        "logo": "https://media.api-sports.io/football/teams/1823.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1646591,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "",
       "league": {
        "id": 45,
@@ -1639,12 +1678,15 @@
        "ar": "Aldershot Town",
        "logo": "https://media.api-sports.io/football/teams/1818.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1646592,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
+      "status": "TBD",
       "elapsed": null,
       "venue": "Worcester",
       "league": {
@@ -1671,7 +1713,7 @@
      {
       "id": 1646593,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "NS",
+      "status": "TBD",
       "elapsed": null,
       "venue": "Yeovil",
       "league": {
