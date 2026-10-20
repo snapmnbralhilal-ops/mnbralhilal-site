@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T15:15:19.527Z",
+ "updated": "2026-10-20T15:50:42.013Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603054,
       "date": "2026-10-20T18:00:00+03:00",
-      "status": "1H",
-      "elapsed": 16,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -817,7 +817,7 @@
       "id": 1603061,
       "date": "2026-10-20T18:10:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 40,
       "venue": "Buraidah",
       "league": {
        "id": 307,
@@ -909,8 +909,8 @@
      {
       "id": 1604030,
       "date": "2026-10-20T17:45:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Al-Hofuf",
       "league": {
        "id": 308,
@@ -932,15 +932,15 @@
        "logo": "https://media.api-sports.io/football/teams/2992.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      },
      {
       "id": 1604031,
       "date": "2026-10-20T18:20:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -961,7 +961,10 @@
        "ar": "البكيرية",
        "logo": "https://media.api-sports.io/football/teams/2966.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604032,
@@ -1255,7 +1258,7 @@
       "id": 1612262,
       "date": "2026-10-20T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 58,
+      "elapsed": 90,
       "venue": "Asyut",
       "league": {
        "id": 233,
@@ -1285,7 +1288,7 @@
       "id": 1612266,
       "date": "2026-10-20T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 84,
       "venue": "",
       "league": {
        "id": 233,
