@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:57:23.754Z",
+ "updated": "2026-10-20T20:24:09.770Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -748,8 +748,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يتصدر دوري روشن برصيد 24 نقطة",
-   "body": "بفارق نقطتين عن القادسية صاحب المركز الثاني.",
+   "title": "الهلال في المركز 2 بدوري روشن برصيد 24 نقطة",
+   "body": "متأخراً بـنقطة واحدة عن المتصدر القادسية.",
    "link": "#table"
   },
   {
@@ -876,7 +876,7 @@
      {
       "id": 1603059,
       "date": "2026-10-20T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Riyadh",
       "league": {
@@ -1074,8 +1074,8 @@
      {
       "id": 1635617,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Rome",
       "league": {
        "id": 2,
@@ -1097,15 +1097,15 @@
        "logo": "https://media.api-sports.io/football/teams/656.png"
       },
       "goals": [
-       2,
+       4,
        0
       ]
      },
      {
       "id": 1635655,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Porto",
       "league": {
        "id": 2,
@@ -1128,14 +1128,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1635688,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Liverpool",
       "league": {
        "id": 2,
@@ -1164,8 +1164,8 @@
      {
       "id": 1635693,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Manchester",
       "league": {
        "id": 2,
@@ -1187,15 +1187,15 @@
        "logo": "https://media.api-sports.io/football/teams/575.png"
       },
       "goals": [
-       2,
-       0
+       4,
+       1
       ]
      },
      {
       "id": 1635700,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 64,
       "venue": "Naples",
       "league": {
        "id": 2,
@@ -1218,14 +1218,14 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
       "id": 1635702,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Paris",
       "league": {
        "id": 2,
@@ -1248,14 +1248,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1635738,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Stuttgart",
       "league": {
        "id": 2,
@@ -1278,7 +1278,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1450,7 +1450,7 @@
       "id": 1646584,
       "date": "2026-10-20T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 79,
       "venue": "Anstey",
       "league": {
        "id": 45,
@@ -1473,14 +1473,14 @@
       },
       "goals": [
        0,
-       0
+       3
       ]
      },
      {
       "id": 1646585,
       "date": "2026-10-20T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 78,
       "venue": "Chislehurst",
       "league": {
        "id": 45,
@@ -1510,7 +1510,7 @@
       "id": 1646586,
       "date": "2026-10-20T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 82,
       "venue": "Manchester",
       "league": {
        "id": 45,
@@ -1532,15 +1532,15 @@
        "logo": "https://media.api-sports.io/football/teams/4700.png"
       },
       "goals": [
-       1,
-       3
+       2,
+       6
       ]
      },
      {
       "id": 1646587,
       "date": "2026-10-20T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 80,
       "venue": "Nailsworth",
       "league": {
        "id": 45,
@@ -1562,7 +1562,7 @@
        "logo": "https://media.api-sports.io/football/teams/4702.png"
       },
       "goals": [
-       3,
+       5,
        0
       ]
      },
@@ -1597,7 +1597,7 @@
       "id": 1646589,
       "date": "2026-10-20T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 81,
       "venue": "Harrogate",
       "league": {
        "id": 45,
@@ -1620,14 +1620,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1646590,
       "date": "2026-10-20T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 82,
       "venue": "Stafford",
       "league": {
        "id": 45,
@@ -1649,7 +1649,7 @@
        "logo": "https://media.api-sports.io/football/teams/1823.png"
       },
       "goals": [
-       3,
+       5,
        0
       ]
      },
@@ -1657,7 +1657,7 @@
       "id": 1646591,
       "date": "2026-10-20T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 81,
       "venue": "",
       "league": {
        "id": 45,
@@ -1713,8 +1713,8 @@
      {
       "id": 1646593,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 81,
       "venue": "Yeovil",
       "league": {
        "id": 45,
@@ -1736,7 +1736,7 @@
        "logo": "https://media.api-sports.io/football/teams/4696.png"
       },
       "goals": [
-       3,
+       4,
        1
       ]
      }
@@ -2317,6 +2317,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 2933,
+      "name": "Al-Qadisiyah FC",
+      "ar": "القادسية",
+      "logo": "https://media.api-sports.io/football/teams/2933.png"
+     },
+     "points": 25,
+     "gd": 15,
+     "played": 10,
+     "win": 8,
+     "draw": 1,
+     "lose": 1,
+     "description": "Promotion - AFC Champions League (League phase)"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 2932,
       "name": "Al-Hilal Saudi FC",
       "ar": "الهلال",
@@ -2327,22 +2343,6 @@
      "played": 9,
      "win": 8,
      "draw": 0,
-     "lose": 1,
-     "description": "Promotion - AFC Champions League (League phase)"
-    },
-    {
-     "rank": 2,
-     "team": {
-      "id": 2933,
-      "name": "Al-Qadisiyah FC",
-      "ar": "القادسية",
-      "logo": "https://media.api-sports.io/football/teams/2933.png"
-     },
-     "points": 22,
-     "gd": 14,
-     "played": 9,
-     "win": 7,
-     "draw": 1,
      "lose": 1,
      "description": "Promotion - AFC Champions League (League phase)"
     },
@@ -2434,10 +2434,10 @@
       "ar": "الدرعية",
       "logo": "https://media.api-sports.io/football/teams/26738.png"
      },
-     "points": 12,
-     "gd": -1,
-     "played": 9,
-     "win": 3,
+     "points": 15,
+     "gd": 0,
+     "played": 10,
+     "win": 4,
      "draw": 3,
      "lose": 3,
      "description": ""
@@ -2499,11 +2499,11 @@
       "logo": "https://media.api-sports.io/football/teams/10511.png"
      },
      "points": 9,
-     "gd": -8,
-     "played": 8,
+     "gd": -9,
+     "played": 9,
      "win": 2,
      "draw": 3,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -2579,11 +2579,11 @@
       "logo": "https://media.api-sports.io/football/teams/2936.png"
      },
      "points": 4,
-     "gd": -12,
-     "played": 9,
+     "gd": -13,
+     "played": 10,
      "win": 0,
      "draw": 4,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation - Division 1"
     },
     {
