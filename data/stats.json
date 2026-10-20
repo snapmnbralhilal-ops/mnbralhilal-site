@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-20T07:28:06.957Z",
+ "updated": "2026-10-20T08:07:40.211Z",
  "players": [
   {
    "api": 156,
@@ -1342,7 +1342,33 @@
    },
    "goals": 5,
    "assists": 2,
-   "apps": 8
+   "apps": 9
+  },
+  {
+   "name": "Alexandre Mendy",
+   "photo": "https://media.api-sports.io/football/players/21506.png",
+   "team": {
+    "id": 2930,
+    "name": "Al-Faisaly FC",
+    "ar": "الفيصلي",
+    "logo": "https://media.api-sports.io/football/teams/2930.png"
+   },
+   "goals": 5,
+   "assists": 1,
+   "apps": 9
+  },
+  {
+   "name": "غابرييل مارتينيلي",
+   "photo": "https://media.api-sports.io/football/players/127769.png",
+   "team": {
+    "id": 2932,
+    "name": "Al-Hilal Saudi FC",
+    "ar": "الهلال",
+    "logo": "https://media.api-sports.io/football/teams/2932.png"
+   },
+   "goals": 5,
+   "assists": 0,
+   "apps": 5
   },
   {
    "name": "A. Lacazette",
@@ -1407,32 +1433,6 @@
    },
    "goals": 4,
    "assists": 4,
-   "apps": 5
-  },
-  {
-   "name": "J. Domingues",
-   "photo": "https://media.api-sports.io/football/players/127688.png",
-   "team": {
-    "id": 10509,
-    "name": "Al Kholood",
-    "ar": "الخلود",
-    "logo": "https://media.api-sports.io/football/teams/10509.png"
-   },
-   "goals": 4,
-   "assists": 2,
-   "apps": 9
-  },
-  {
-   "name": "G. Ilenikhena",
-   "photo": "https://media.api-sports.io/football/players/395040.png",
-   "team": {
-    "id": 2938,
-    "name": "Al-Ittihad FC",
-    "ar": "الاتحاد",
-    "logo": "https://media.api-sports.io/football/teams/2938.png"
-   },
-   "goals": 4,
-   "assists": 2,
    "apps": 6
   }
  ]

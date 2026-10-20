@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T07:28:06.508Z",
+ "updated": "2026-10-20T08:07:39.854Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1364,7 +1364,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Alfchurch",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1391,7 +1391,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Anstey",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1418,7 +1418,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Chislehurst",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1445,7 +1445,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Manchester",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1472,7 +1472,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Nailsworth",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1499,7 +1499,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Gloucester",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1526,7 +1526,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Harrogate",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1553,7 +1553,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Stafford",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1607,7 +1607,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Worcester",
       "league": {
        "id": 45,
        "name": "FA Cup",
@@ -1634,7 +1634,7 @@
       "date": "2026-10-20T21:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Yeovil",
       "league": {
        "id": 45,
        "name": "FA Cup",
