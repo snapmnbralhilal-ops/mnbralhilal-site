@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T13:21:06.821Z",
+ "updated": "2026-10-20T14:05:55.677Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1245,8 +1245,8 @@
      {
       "id": 1612262,
       "date": "2026-10-20T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Asyut",
       "league": {
        "id": 233,
@@ -1267,13 +1267,16 @@
        "ar": "الزمالك",
        "logo": "https://media.api-sports.io/football/teams/1040.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612266,
       "date": "2026-10-20T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "",
       "league": {
        "id": 233,
@@ -1294,7 +1297,10 @@
        "ar": "Future FC",
        "logo": "https://media.api-sports.io/football/teams/16431.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612263,
@@ -4083,6 +4089,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 14,
  "plan": "Pro"
 }
