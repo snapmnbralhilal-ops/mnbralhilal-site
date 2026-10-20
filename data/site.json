@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T14:05:55.677Z",
+ "updated": "2026-10-20T14:39:19.645Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1246,7 +1246,7 @@
       "id": 1612262,
       "date": "2026-10-20T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 42,
       "venue": "Asyut",
       "league": {
        "id": 233,
@@ -1269,14 +1269,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1612266,
       "date": "2026-10-20T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 36,
       "venue": "",
       "league": {
        "id": 233,
@@ -1298,8 +1298,8 @@
        "logo": "https://media.api-sports.io/football/teams/16431.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -4089,6 +4089,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
