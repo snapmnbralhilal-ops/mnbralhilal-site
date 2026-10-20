@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:25:03.593Z",
+ "updated": "2026-10-20T17:01:39.171Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603054,
       "date": "2026-10-20T18:00:00+03:00",
-      "status": "2H",
-      "elapsed": 64,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -817,7 +817,7 @@
       "id": 1603061,
       "date": "2026-10-20T18:10:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "Buraidah",
       "league": {
        "id": 307,
@@ -909,8 +909,8 @@
      {
       "id": 1604030,
       "date": "2026-10-20T17:45:00+03:00",
-      "status": "2H",
-      "elapsed": 76,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Al-Hofuf",
       "league": {
        "id": 308,
@@ -933,14 +933,14 @@
       },
       "goals": [
        2,
-       2
+       4
       ]
      },
      {
       "id": 1604031,
       "date": "2026-10-20T18:20:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 83,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -962,15 +962,15 @@
        "logo": "https://media.api-sports.io/football/teams/2966.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1604032,
       "date": "2026-10-20T19:50:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Najran",
       "league": {
        "id": 308,
@@ -991,7 +991,10 @@
        "ar": "العدالة",
        "logo": "https://media.api-sports.io/football/teams/2950.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1005,8 +1008,8 @@
      {
       "id": 1635661,
       "date": "2026-10-20T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1027,13 +1030,16 @@
        "ar": "Slavia Praha",
        "logo": "https://media.api-sports.io/football/teams/560.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      },
      {
       "id": 1635719,
       "date": "2026-10-20T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1054,7 +1060,10 @@
        "ar": "بوروسيا دورتموند",
        "logo": "https://media.api-sports.io/football/teams/165.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1635617,
@@ -4101,6 +4110,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 17,
  "plan": "Pro"
 }
