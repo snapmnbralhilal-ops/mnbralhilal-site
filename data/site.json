@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:20:22.243Z",
+ "updated": "2026-10-20T19:57:23.754Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -846,8 +846,8 @@
      {
       "id": 1603055,
       "date": "2026-10-20T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 57,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -870,14 +870,14 @@
       },
       "goals": [
        1,
-       2
+       4
       ]
      },
      {
       "id": 1603059,
       "date": "2026-10-20T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -899,7 +899,7 @@
        "logo": "https://media.api-sports.io/football/teams/10513.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1074,8 +1074,8 @@
      {
       "id": 1635617,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rome",
       "league": {
        "id": 2,
@@ -1097,15 +1097,15 @@
        "logo": "https://media.api-sports.io/football/teams/656.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
      {
       "id": 1635655,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Porto",
       "league": {
        "id": 2,
@@ -1134,8 +1134,8 @@
      {
       "id": 1635688,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Liverpool",
       "league": {
        "id": 2,
@@ -1157,15 +1157,15 @@
        "logo": "https://media.api-sports.io/football/teams/533.png"
       },
       "goals": [
-       0,
-       1
+       2,
+       2
       ]
      },
      {
       "id": 1635693,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Manchester",
       "league": {
        "id": 2,
@@ -1187,15 +1187,15 @@
        "logo": "https://media.api-sports.io/football/teams/575.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1635700,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 17,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Naples",
       "league": {
        "id": 2,
@@ -1217,15 +1217,15 @@
        "logo": "https://media.api-sports.io/football/teams/327.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      },
      {
       "id": 1635702,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 17,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Paris",
       "league": {
        "id": 2,
@@ -1247,15 +1247,15 @@
        "logo": "https://media.api-sports.io/football/teams/529.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1635738,
       "date": "2026-10-20T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Stuttgart",
       "league": {
        "id": 2,
@@ -1277,7 +1277,7 @@
        "logo": "https://media.api-sports.io/football/teams/530.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1449,8 +1449,8 @@
      {
       "id": 1646584,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 52,
       "venue": "Anstey",
       "league": {
        "id": 45,
@@ -1479,8 +1479,8 @@
      {
       "id": 1646585,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Chislehurst",
       "league": {
        "id": 45,
@@ -1503,14 +1503,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1646586,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Manchester",
       "league": {
        "id": 45,
@@ -1533,14 +1533,14 @@
       },
       "goals": [
        1,
-       2
+       3
       ]
      },
      {
       "id": 1646587,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Nailsworth",
       "league": {
        "id": 45,
@@ -1596,8 +1596,8 @@
      {
       "id": 1646589,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Harrogate",
       "league": {
        "id": 45,
@@ -1626,8 +1626,8 @@
      {
       "id": 1646590,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Stafford",
       "league": {
        "id": 45,
@@ -1649,15 +1649,15 @@
        "logo": "https://media.api-sports.io/football/teams/1823.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      },
      {
       "id": 1646591,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "",
       "league": {
        "id": 45,
@@ -1713,8 +1713,8 @@
      {
       "id": 1646593,
       "date": "2026-10-20T21:45:00+03:00",
-      "status": "TBD",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Yeovil",
       "league": {
        "id": 45,
@@ -1735,7 +1735,10 @@
        "ar": "Leatherhead",
        "logo": "https://media.api-sports.io/football/teams/4696.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       1
+      ]
      }
     ]
    }
