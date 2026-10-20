@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:39:34.685Z",
+ "updated": "2026-10-20T18:06:16.448Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -846,8 +846,8 @@
      {
       "id": 1603055,
       "date": "2026-10-20T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -868,13 +868,16 @@
        "ar": "الاتحاد",
        "logo": "https://media.api-sports.io/football/teams/2938.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603059,
       "date": "2026-10-20T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 6,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -895,7 +898,10 @@
        "ar": "نيوم",
        "logo": "https://media.api-sports.io/football/teams/10513.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -969,8 +975,8 @@
      {
       "id": 1604032,
       "date": "2026-10-20T19:50:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Najran",
       "league": {
        "id": 308,
@@ -993,7 +999,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      }
     ]
@@ -1008,8 +1014,8 @@
      {
       "id": 1635661,
       "date": "2026-10-20T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1038,8 +1044,8 @@
      {
       "id": 1635719,
       "date": "2026-10-20T19:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1062,7 +1068,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
@@ -1326,8 +1332,8 @@
      {
       "id": 1612263,
       "date": "2026-10-20T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1356,8 +1362,8 @@
      {
       "id": 1612264,
       "date": "2026-10-20T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Cairo",
       "league": {
        "id": 233,
