@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:28:05.378Z",
+ "updated": "2026-10-20T21:59:16.265Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1950,6 +1950,36 @@
       "goals": [
        0,
        3
+      ]
+     },
+     {
+      "id": 1646585,
+      "date": "2026-10-20T21:45:00+03:00",
+      "status": "PEN",
+      "elapsed": 120,
+      "venue": "Chislehurst",
+      "league": {
+       "id": 45,
+       "name": "FA Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/45.png",
+       "round": "4th Round Qualifying"
+      },
+      "home": {
+       "id": 7711,
+       "name": "Cray Wanderers",
+       "ar": "Cray Wanderers",
+       "logo": "https://media.api-sports.io/football/teams/7711.png"
+      },
+      "away": {
+       "id": 7616,
+       "name": "Bedford Town",
+       "ar": "Bedford Town",
+       "logo": "https://media.api-sports.io/football/teams/7616.png"
+      },
+      "goals": [
+       2,
+       2
       ]
      },
      {
