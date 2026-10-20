@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T14:39:19.645Z",
+ "updated": "2026-10-20T15:15:19.527Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603054,
       "date": "2026-10-20T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -808,13 +808,16 @@
        "ar": "الرياض",
        "logo": "https://media.api-sports.io/football/teams/10511.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1603061,
       "date": "2026-10-20T18:10:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Buraidah",
       "league": {
        "id": 307,
@@ -835,7 +838,10 @@
        "ar": "القادسية",
        "logo": "https://media.api-sports.io/football/teams/2933.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603055,
@@ -903,8 +909,8 @@
      {
       "id": 1604030,
       "date": "2026-10-20T17:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Al-Hofuf",
       "league": {
        "id": 308,
@@ -925,7 +931,10 @@
        "ar": "النجمة",
        "logo": "https://media.api-sports.io/football/teams/2992.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604031,
@@ -1245,8 +1254,8 @@
      {
       "id": 1612262,
       "date": "2026-10-20T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Asyut",
       "league": {
        "id": 233,
@@ -1275,8 +1284,8 @@
      {
       "id": 1612266,
       "date": "2026-10-20T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "",
       "league": {
        "id": 233,
@@ -1298,7 +1307,7 @@
        "logo": "https://media.api-sports.io/football/teams/16431.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
