@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:01:39.171Z",
+ "updated": "2026-10-20T17:39:34.685Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,7 +816,7 @@
      {
       "id": 1603061,
       "date": "2026-10-20T18:10:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Buraidah",
       "league": {
@@ -840,7 +840,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -939,8 +939,8 @@
      {
       "id": 1604031,
       "date": "2026-10-20T18:20:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -970,7 +970,7 @@
       "id": 1604032,
       "date": "2026-10-20T19:50:00+03:00",
       "status": "1H",
-      "elapsed": 9,
+      "elapsed": 45,
       "venue": "Najran",
       "league": {
        "id": 308,
@@ -992,8 +992,8 @@
        "logo": "https://media.api-sports.io/football/teams/2950.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -1008,8 +1008,8 @@
      {
       "id": 1635661,
       "date": "2026-10-20T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 16,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1038,8 +1038,8 @@
      {
       "id": 1635719,
       "date": "2026-10-20T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 16,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Baku",
       "league": {
        "id": 2,
@@ -1061,7 +1061,7 @@
        "logo": "https://media.api-sports.io/football/teams/165.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1326,8 +1326,8 @@
      {
       "id": 1612263,
       "date": "2026-10-20T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 38,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1348,13 +1348,16 @@
        "ar": "National Bank of Egypt",
        "logo": "https://media.api-sports.io/football/teams/15570.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1612264,
       "date": "2026-10-20T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 38,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1375,7 +1378,10 @@
        "ar": "بيراميدز",
        "logo": "https://media.api-sports.io/football/teams/1036.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      }
     ]
    },
