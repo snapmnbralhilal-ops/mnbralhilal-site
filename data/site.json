@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:59:16.265Z",
+ "updated": "2026-10-20T22:28:52.459Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2160,6 +2160,36 @@
       "goals": [
        0,
        2
+      ]
+     },
+     {
+      "id": 1646592,
+      "date": "2026-10-20T21:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Worcester",
+      "league": {
+       "id": 45,
+       "name": "FA Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/45.png",
+       "round": "4th Round Qualifying"
+      },
+      "home": {
+       "id": 9010,
+       "name": "Worcester City",
+       "ar": "Worcester City",
+       "logo": "https://media.api-sports.io/football/teams/9010.png"
+      },
+      "away": {
+       "id": 4679,
+       "name": "Chorley",
+       "ar": "Chorley",
+       "logo": "https://media.api-sports.io/football/teams/4679.png"
+      },
+      "goals": [
+       1,
+       0
       ]
      },
      {
