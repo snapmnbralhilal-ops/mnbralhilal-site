@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T14:04:45.522Z",
+ "updated": "2026-10-21T14:38:43.413Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1165,7 +1165,7 @@
       "id": 1612265,
       "date": "2026-10-21T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 37,
       "venue": "Great Mahale",
       "league": {
        "id": 233,
@@ -1187,7 +1187,7 @@
        "logo": "https://media.api-sports.io/football/teams/1572.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -4085,28 +4085,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 140,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 307,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
