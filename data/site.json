@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T18:06:38.347Z",
+ "updated": "2026-10-21T18:42:09.639Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -844,7 +844,7 @@
       "id": 1604035,
       "date": "2026-10-21T19:50:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 90,
       "venue": "Jeddah",
       "league": {
        "id": 308,
@@ -882,8 +882,8 @@
      {
       "id": 1635647,
       "date": "2026-10-21T19:45:00+03:00",
-      "status": "2H",
-      "elapsed": 63,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Como",
       "league": {
        "id": 2,
@@ -905,15 +905,15 @@
        "logo": "https://media.api-sports.io/football/teams/33.png"
       },
       "goals": [
-       3,
-       0
+       4,
+       1
       ]
      },
      {
       "id": 1635684,
       "date": "2026-10-21T19:45:00+03:00",
-      "status": "2H",
-      "elapsed": 64,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lille",
       "league": {
        "id": 2,
@@ -1141,7 +1141,7 @@
       "id": 1570389,
       "date": "2026-10-21T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 39,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1163,7 +1163,7 @@
        "logo": "https://media.api-sports.io/football/teams/531.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      }
@@ -1209,8 +1209,8 @@
      {
       "id": 1612267,
       "date": "2026-10-21T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 76,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1233,14 +1233,14 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
       "id": 1612268,
       "date": "2026-10-21T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 79,
       "venue": "Cairo",
       "league": {
        "id": 233,
