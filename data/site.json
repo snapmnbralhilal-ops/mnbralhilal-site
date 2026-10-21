@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T20:25:36.588Z",
+ "updated": "2026-10-21T20:59:08.674Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -942,8 +942,8 @@
      {
       "id": 1635621,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 65,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Birmingham",
       "league": {
        "id": 2,
@@ -966,14 +966,14 @@
       },
       "goals": [
        3,
-       0
+       1
       ]
      },
      {
       "id": 1635630,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 67,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Munich",
       "league": {
        "id": 2,
@@ -996,14 +996,14 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
       "id": 1635636,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Seville",
       "league": {
        "id": 2,
@@ -1032,8 +1032,8 @@
      {
       "id": 1635645,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bruges",
       "league": {
        "id": 2,
@@ -1055,15 +1055,15 @@
        "logo": "https://media.api-sports.io/football/teams/116.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      },
      {
       "id": 1635672,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 65,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Milan",
       "league": {
        "id": 2,
@@ -1085,15 +1085,15 @@
        "logo": "https://media.api-sports.io/football/teams/550.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1635716,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Madrid",
       "league": {
        "id": 2,
@@ -1115,15 +1115,15 @@
        "logo": "https://media.api-sports.io/football/teams/173.png"
       },
       "goals": [
-       2,
-       0
+       4,
+       1
       ]
      },
      {
       "id": 1635737,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lisbon",
       "league": {
        "id": 2,
@@ -1145,8 +1145,8 @@
        "logo": "https://media.api-sports.io/football/teams/1026.png"
       },
       "goals": [
-       1,
-       2
+       2,
+       3
       ]
      }
     ]
