@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T16:23:45.501Z",
+ "updated": "2026-10-21T17:02:03.222Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -813,8 +813,8 @@
      {
       "id": 1604034,
       "date": "2026-10-21T18:00:00+03:00",
-      "status": "2H",
-      "elapsed": 65,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Hotat Bani Tamim",
       "league": {
        "id": 308,
@@ -843,8 +843,8 @@
      {
       "id": 1604035,
       "date": "2026-10-21T19:50:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Jeddah",
       "league": {
        "id": 308,
@@ -865,7 +865,10 @@
        "ar": "الجبلين",
        "logo": "https://media.api-sports.io/football/teams/2958.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -879,8 +882,8 @@
      {
       "id": 1635647,
       "date": "2026-10-21T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Como",
       "league": {
        "id": 2,
@@ -901,13 +904,16 @@
        "ar": "مانشستر يونايتد",
        "logo": "https://media.api-sports.io/football/teams/33.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1635684,
       "date": "2026-10-21T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Lille",
       "league": {
        "id": 2,
@@ -928,7 +934,10 @@
        "ar": "غلطة سراي",
        "logo": "https://media.api-sports.io/football/teams/645.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1635621,
@@ -1224,8 +1233,8 @@
      {
       "id": 1612268,
       "date": "2026-10-21T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1246,7 +1255,10 @@
        "ar": "Petrojet",
        "logo": "https://media.api-sports.io/football/teams/1041.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
@@ -4089,6 +4101,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 14,
  "plan": "Pro"
 }
