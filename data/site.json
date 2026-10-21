@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T11:23:20.830Z",
+ "updated": "2026-10-21T11:59:46.661Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,7 +786,7 @@
      {
       "id": 1604033,
       "date": "2026-10-21T17:45:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Al Ahsa",
       "league": {
