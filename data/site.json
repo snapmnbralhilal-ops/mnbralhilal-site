@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T15:53:35.917Z",
+ "updated": "2026-10-21T16:23:45.501Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -813,8 +813,8 @@
      {
       "id": 1604034,
       "date": "2026-10-21T18:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Hotat Bani Tamim",
       "league": {
        "id": 308,
@@ -1167,8 +1167,8 @@
      {
       "id": 1612265,
       "date": "2026-10-21T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Great Mahale",
       "league": {
        "id": 233,
