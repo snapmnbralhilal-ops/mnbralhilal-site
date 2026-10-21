@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T19:58:01.155Z",
+ "updated": "2026-10-21T20:25:36.588Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -942,8 +942,8 @@
      {
       "id": 1635621,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Birmingham",
       "league": {
        "id": 2,
@@ -965,15 +965,15 @@
        "logo": "https://media.api-sports.io/football/teams/759.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      },
      {
       "id": 1635630,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Munich",
       "league": {
        "id": 2,
@@ -995,15 +995,15 @@
        "logo": "https://media.api-sports.io/football/teams/42.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
      {
       "id": 1635636,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Seville",
       "league": {
        "id": 2,
@@ -1025,15 +1025,15 @@
        "logo": "https://media.api-sports.io/football/teams/209.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1635645,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Bruges",
       "league": {
        "id": 2,
@@ -1055,15 +1055,15 @@
        "logo": "https://media.api-sports.io/football/teams/116.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1635672,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Milan",
       "league": {
        "id": 2,
@@ -1092,8 +1092,8 @@
      {
       "id": 1635716,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Madrid",
       "league": {
        "id": 2,
@@ -1115,15 +1115,15 @@
        "logo": "https://media.api-sports.io/football/teams/173.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1635737,
       "date": "2026-10-21T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Lisbon",
       "league": {
        "id": 2,
@@ -1146,7 +1146,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      }
     ]
@@ -1161,7 +1161,7 @@
      {
       "id": 1570389,
       "date": "2026-10-21T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Valencia",
       "league": {
@@ -1184,7 +1184,7 @@
        "logo": "https://media.api-sports.io/football/teams/531.png"
       },
       "goals": [
-       2,
+       3,
        1
       ]
      }
