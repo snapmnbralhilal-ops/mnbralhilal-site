@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T02:58:58.456Z",
+ "updated": "2026-10-21T03:29:42.469Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -114,7 +114,7 @@
    {
     "id": 1603082,
     "date": "2026-11-05T20:00:00+03:00",
-    "status": "NS",
+    "status": "PST",
     "elapsed": null,
     "venue": "Abdullah Al Dabil Stadium",
     "league": {
