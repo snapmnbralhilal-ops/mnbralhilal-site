@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T15:12:50.191Z",
+ "updated": "2026-10-21T15:53:35.917Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -813,8 +813,8 @@
      {
       "id": 1604034,
       "date": "2026-10-21T18:00:00+03:00",
-      "status": "1H",
-      "elapsed": 12,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Hotat Bani Tamim",
       "league": {
        "id": 308,
@@ -836,8 +836,8 @@
        "logo": "https://media.api-sports.io/football/teams/2937.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1168,7 +1168,7 @@
       "id": 1612265,
       "date": "2026-10-21T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 47,
+      "elapsed": 89,
       "venue": "Great Mahale",
       "league": {
        "id": 233,
