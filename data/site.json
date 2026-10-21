@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T21:29:57.262Z",
+ "updated": "2026-10-21T22:03:34.773Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3233,17 +3233,17 @@
     {
      "rank": 11,
      "team": {
-      "id": 531,
-      "name": "Athletic Club",
-      "ar": "أتلتيك بلباو",
-      "logo": "https://media.api-sports.io/football/teams/531.png"
+      "id": 539,
+      "name": "Levante",
+      "ar": "ليفانتي",
+      "logo": "https://media.api-sports.io/football/teams/539.png"
      },
-     "points": 9,
-     "gd": 1,
-     "played": 7,
+     "points": 10,
+     "gd": -2,
+     "played": 9,
      "win": 2,
-     "draw": 3,
-     "lose": 2,
+     "draw": 4,
+     "lose": 3,
      "description": ""
     },
     {
@@ -3265,6 +3265,22 @@
     {
      "rank": 13,
      "team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "ar": "أتلتيك بلباو",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+     },
+     "points": 9,
+     "gd": -1,
+     "played": 8,
+     "win": 2,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
       "id": 728,
       "name": "Rayo Vallecano",
       "ar": "رايو فايكانو",
@@ -3279,7 +3295,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 546,
       "name": "Getafe",
@@ -3295,7 +3311,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 540,
       "name": "Espanyol",
@@ -3311,7 +3327,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 4665,
       "name": "Racing Santander",
@@ -3324,22 +3340,6 @@
      "win": 2,
      "draw": 2,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 17,
-     "team": {
-      "id": 539,
-      "name": "Levante",
-      "ar": "ليفانتي",
-      "logo": "https://media.api-sports.io/football/teams/539.png"
-     },
-     "points": 7,
-     "gd": -4,
-     "played": 8,
-     "win": 1,
-     "draw": 4,
-     "lose": 3,
      "description": ""
     },
     {
@@ -4304,7 +4304,28 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  },
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 135,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 14,
  "plan": "Pro"
 }
