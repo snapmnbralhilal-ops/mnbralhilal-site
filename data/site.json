@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T17:02:03.222Z",
+ "updated": "2026-10-21T17:35:03.403Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -844,7 +844,7 @@
       "id": 1604035,
       "date": "2026-10-21T19:50:00+03:00",
       "status": "1H",
-      "elapsed": 12,
+      "elapsed": 45,
       "venue": "Jeddah",
       "league": {
        "id": 308,
@@ -867,7 +867,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -882,8 +882,8 @@
      {
       "id": 1635647,
       "date": "2026-10-21T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 15,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Como",
       "league": {
        "id": 2,
@@ -912,8 +912,8 @@
      {
       "id": 1635684,
       "date": "2026-10-21T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 17,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lille",
       "league": {
        "id": 2,
@@ -935,8 +935,8 @@
        "logo": "https://media.api-sports.io/football/teams/645.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
@@ -1206,8 +1206,8 @@
      {
       "id": 1612267,
       "date": "2026-10-21T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 34,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1228,13 +1228,16 @@
        "ar": "Olympic El Qanah",
        "logo": "https://media.api-sports.io/football/teams/13822.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1612268,
       "date": "2026-10-21T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 36,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1256,7 +1259,7 @@
        "logo": "https://media.api-sports.io/football/teams/1041.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
