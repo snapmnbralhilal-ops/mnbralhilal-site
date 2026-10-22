@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T11:09:50.507Z",
+ "updated": "2026-10-22T11:42:12.236Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -840,7 +840,7 @@
      {
       "id": 1603062,
       "date": "2026-10-22T21:00:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "Jeddah",
       "league": {
