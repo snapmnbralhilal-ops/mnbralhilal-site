@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T13:08:41.023Z",
+ "updated": "2026-10-22T13:50:12.503Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603065,
       "date": "2026-10-22T16:40:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -808,7 +808,10 @@
        "ar": "الفيحاء",
        "logo": "https://media.api-sports.io/football/teams/2944.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1603064,
@@ -840,7 +843,7 @@
      {
       "id": 1603062,
       "date": "2026-10-22T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Jeddah",
       "league": {
@@ -4308,6 +4311,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
