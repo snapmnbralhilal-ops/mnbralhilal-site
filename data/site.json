@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:05:57.532Z",
+ "updated": "2026-10-22T15:40:01.274Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603065,
       "date": "2026-10-22T16:40:00+03:00",
-      "status": "2H",
-      "elapsed": 63,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -809,15 +809,15 @@
        "logo": "https://media.api-sports.io/football/teams/2944.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
       "id": 1603064,
       "date": "2026-10-22T17:45:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Hasa",
       "league": {
        "id": 307,
@@ -839,8 +839,8 @@
        "logo": "https://media.api-sports.io/football/teams/2940.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      },
      {
@@ -1377,8 +1377,8 @@
      {
       "id": 1636434,
       "date": "2026-10-22T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Almaty",
       "league": {
        "id": 848,
@@ -1401,7 +1401,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
@@ -1875,8 +1875,8 @@
      {
       "id": 1597947,
       "date": "2026-10-22T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1899,7 +1899,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
