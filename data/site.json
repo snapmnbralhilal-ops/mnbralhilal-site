@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T13:50:12.503Z",
+ "updated": "2026-10-22T14:27:47.087Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1603065,
       "date": "2026-10-22T16:40:00+03:00",
       "status": "1H",
-      "elapsed": 11,
+      "elapsed": 45,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -810,7 +810,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
@@ -843,7 +843,7 @@
      {
       "id": 1603062,
       "date": "2026-10-22T21:00:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "Jeddah",
       "league": {
