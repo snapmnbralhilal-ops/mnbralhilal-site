@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T14:27:47.087Z",
+ "updated": "2026-10-22T15:05:57.532Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603065,
       "date": "2026-10-22T16:40:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -816,8 +816,8 @@
      {
       "id": 1603064,
       "date": "2026-10-22T17:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Hasa",
       "league": {
        "id": 307,
@@ -838,12 +838,15 @@
        "ar": "الشباب",
        "logo": "https://media.api-sports.io/football/teams/2940.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1603062,
       "date": "2026-10-22T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Jeddah",
       "league": {
@@ -1374,8 +1377,8 @@
      {
       "id": 1636434,
       "date": "2026-10-22T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Almaty",
       "league": {
        "id": 848,
@@ -1396,7 +1399,10 @@
        "ar": "Panathinaikos",
        "logo": "https://media.api-sports.io/football/teams/617.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1636397,
@@ -1869,8 +1875,8 @@
      {
       "id": 1597947,
       "date": "2026-10-22T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1891,7 +1897,10 @@
        "ar": "السد",
        "logo": "https://media.api-sports.io/football/teams/2895.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1597945,
