@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:56:16.700Z",
+ "updated": "2026-10-22T18:24:33.528Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -883,7 +883,7 @@
       "id": 1636215,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 82,
       "venue": "Yerevan",
       "league": {
        "id": 3,
@@ -906,14 +906,14 @@
       },
       "goals": [
        0,
-       2
+       4
       ]
      },
      {
       "id": 1636258,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 80,
       "venue": "Zagreb",
       "league": {
        "id": 3,
@@ -936,14 +936,14 @@
       },
       "goals": [
        2,
-       2
+       4
       ]
      },
      {
       "id": 1636262,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 84,
       "venue": "Budapest",
       "league": {
        "id": 3,
@@ -965,7 +965,7 @@
        "logo": "https://media.api-sports.io/football/teams/4799.png"
       },
       "goals": [
-       1,
+       3,
        1
       ]
      },
@@ -973,7 +973,7 @@
       "id": 1636276,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 80,
       "venue": "Turin",
       "league": {
        "id": 3,
@@ -995,7 +995,7 @@
        "logo": "https://media.api-sports.io/football/teams/94.png"
       },
       "goals": [
-       1,
+       2,
        2
       ]
      },
@@ -1003,7 +1003,7 @@
       "id": 1636280,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 83,
       "venue": "Poznan",
       "league": {
        "id": 3,
@@ -1025,7 +1025,7 @@
        "logo": "https://media.api-sports.io/football/teams/746.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1033,7 +1033,7 @@
       "id": 1636303,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 81,
       "venue": "Heraklion",
       "league": {
        "id": 3,
@@ -1063,7 +1063,7 @@
       "id": 1636330,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 76,
       "venue": "Dusseldorf",
       "league": {
        "id": 3,
@@ -1085,7 +1085,7 @@
        "logo": "https://media.api-sports.io/football/teams/563.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1093,7 +1093,7 @@
       "id": 1636340,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 82,
       "venue": "Graz",
       "league": {
        "id": 3,
@@ -1432,7 +1432,7 @@
       "id": 1636397,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 79,
       "venue": "Belgrade",
       "league": {
        "id": 848,
@@ -1455,14 +1455,14 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
       "id": 1636415,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 80,
       "venue": "Getafe",
       "league": {
        "id": 848,
@@ -1484,7 +1484,7 @@
        "logo": "https://media.api-sports.io/football/teams/606.png"
       },
       "goals": [
-       1,
+       2,
        4
       ]
      },
@@ -1492,7 +1492,7 @@
       "id": 1636424,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 81,
       "venue": "Tbilisi",
       "league": {
        "id": 848,
@@ -1514,7 +1514,7 @@
        "logo": "https://media.api-sports.io/football/teams/2240.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1522,7 +1522,7 @@
       "id": 1636429,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 83,
       "venue": "Sant Julia de Loria",
       "league": {
        "id": 848,
@@ -1544,7 +1544,7 @@
        "logo": "https://media.api-sports.io/football/teams/632.png"
       },
       "goals": [
-       0,
+       1,
        2
       ]
      },
@@ -1552,7 +1552,7 @@
       "id": 1636430,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 84,
       "venue": "Jablonec nad Nisou",
       "league": {
        "id": 848,
@@ -1582,7 +1582,7 @@
       "id": 1636437,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 82,
       "venue": "Kaunas",
       "league": {
        "id": 848,
@@ -1612,7 +1612,7 @@
       "id": 1636459,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 80,
       "venue": "Farum",
       "league": {
        "id": 848,
@@ -1634,7 +1634,7 @@
        "logo": "https://media.api-sports.io/football/teams/853.png"
       },
       "goals": [
-       0,
+       2,
        1
       ]
      },
@@ -1642,7 +1642,7 @@
       "id": 1636462,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 79,
       "venue": "Paphos",
       "league": {
        "id": 848,
@@ -1664,15 +1664,15 @@
        "logo": "https://media.api-sports.io/football/teams/10124.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1636475,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 79,
       "venue": "Trabzon",
       "league": {
        "id": 848,
@@ -1694,7 +1694,7 @@
        "logo": "https://media.api-sports.io/football/teams/254.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1957,7 +1957,7 @@
       "id": 1597945,
       "date": "2026-10-22T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 77,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1980,7 +1980,7 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      }
     ]
