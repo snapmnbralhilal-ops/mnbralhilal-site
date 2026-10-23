@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T20:20:02.311Z",
+ "updated": "2026-10-23T20:54:02.945Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -916,7 +916,7 @@
       "id": 1557443,
       "date": "2026-10-23T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 61,
+      "elapsed": 90,
       "venue": "Ipswich",
       "league": {
        "id": 39,
@@ -955,7 +955,7 @@
       "id": 1570423,
       "date": "2026-10-23T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 62,
+      "elapsed": 90,
       "venue": "Victoria-Gasteiz",
       "league": {
        "id": 140,
@@ -977,7 +977,7 @@
        "logo": "https://media.api-sports.io/football/teams/535.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      }
@@ -993,8 +993,8 @@
      {
       "id": 1550165,
       "date": "2026-10-23T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1017,7 +1017,7 @@
       },
       "goals": [
        3,
-       1
+       2
       ]
      }
     ]
@@ -1032,8 +1032,8 @@
      {
       "id": 1575196,
       "date": "2026-10-23T21:30:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Stuttgart",
       "league": {
        "id": 78,
@@ -1071,8 +1071,8 @@
      {
       "id": 1552794,
       "date": "2026-10-23T21:45:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Brest",
       "league": {
        "id": 61,
@@ -1095,7 +1095,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      }
     ]
@@ -1179,8 +1179,8 @@
      {
       "id": 1575526,
       "date": "2026-10-23T22:45:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Guimarães",
       "league": {
        "id": 94,
@@ -1202,7 +1202,7 @@
        "logo": "https://media.api-sports.io/football/teams/214.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
