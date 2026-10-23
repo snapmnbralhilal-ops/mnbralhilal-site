@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T19:20:49.646Z",
+ "updated": "2026-10-23T19:55:32.920Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -7,7 +7,7 @@
     "id": 1603068,
     "date": "2026-10-23T21:00:00+03:00",
     "status": "2H",
-    "elapsed": 61,
+    "elapsed": 90,
     "venue": "Daman",
     "league": {
      "id": 307,
@@ -29,8 +29,8 @@
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
-     1,
-     1
+     2,
+     3
     ]
    },
    {
@@ -734,7 +734,7 @@
   {
    "tag": "الهلال",
    "title": "مباشر: الهلال يحل ضيفاً على القادسية الآن",
-   "body": "النتيجة 1-1 في دوري روشن السعودي.",
+   "body": "النتيجة 2-3 في دوري روشن السعودي.",
    "link": "#hilal",
    "breaking": true
   },
@@ -857,7 +857,7 @@
       "id": 1603062,
       "date": "2026-10-23T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 90,
       "venue": "Jeddah",
       "league": {
        "id": 307,
@@ -879,15 +879,15 @@
        "logo": "https://media.api-sports.io/football/teams/2928.png"
       },
       "goals": [
-       1,
-       0
+       3,
+       1
       ]
      },
      {
       "id": 1603068,
       "date": "2026-10-23T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 60,
+      "elapsed": 90,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -909,8 +909,8 @@
        "logo": "https://media.api-sports.io/football/teams/2932.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       3
       ]
      }
     ]
@@ -925,8 +925,8 @@
      {
       "id": 1557443,
       "date": "2026-10-23T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Ipswich",
       "league": {
        "id": 39,
@@ -948,7 +948,7 @@
        "logo": "https://media.api-sports.io/football/teams/65.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      }
@@ -964,8 +964,8 @@
      {
       "id": 1570423,
       "date": "2026-10-23T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Victoria-Gasteiz",
       "league": {
        "id": 140,
@@ -988,7 +988,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1003,8 +1003,8 @@
      {
       "id": 1550165,
       "date": "2026-10-23T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1026,8 +1026,8 @@
        "logo": "https://media.api-sports.io/football/teams/1579.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -1042,8 +1042,8 @@
      {
       "id": 1575196,
       "date": "2026-10-23T21:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 64,
       "venue": "Stuttgart",
       "league": {
        "id": 78,
@@ -1066,7 +1066,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      }
     ]
@@ -1081,8 +1081,8 @@
      {
       "id": 1552794,
       "date": "2026-10-23T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Brest",
       "league": {
        "id": 61,
@@ -1189,8 +1189,8 @@
      {
       "id": 1575526,
       "date": "2026-10-23T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Guimarães",
       "league": {
        "id": 94,
@@ -1211,7 +1211,10 @@
        "ar": "Maritimo",
        "logo": "https://media.api-sports.io/football/teams/214.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1225,8 +1228,8 @@
      {
       "id": 1552198,
       "date": "2026-10-23T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 63,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Deventer",
       "league": {
        "id": 88,
@@ -1248,8 +1251,8 @@
        "logo": "https://media.api-sports.io/football/teams/427.png"
       },
       "goals": [
-       2,
-       1
+       3,
+       2
       ]
      }
     ]
@@ -4432,6 +4435,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 21,
  "plan": "Pro"
 }
