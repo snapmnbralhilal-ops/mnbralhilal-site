@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-23T17:34:55.354Z",
+ "updated": "2026-10-23T18:03:33.637Z",
  "players": [
   {
    "api": 156,
@@ -1342,5 +1342,136 @@
    ]
   }
  ],
- "splScorers": []
+ "splScorers": [
+  {
+   "name": "I. Toney",
+   "photo": "https://media.api-sports.io/football/players/19974.png",
+   "team": {
+    "id": 2929,
+    "name": "Al-Ahli Jeddah",
+    "ar": "الأهلي",
+    "logo": "https://media.api-sports.io/football/teams/2929.png"
+   },
+   "goals": 11,
+   "assists": 1,
+   "apps": 8
+  },
+  {
+   "name": "Y. En-Nesyri",
+   "photo": "https://media.api-sports.io/football/players/47422.png",
+   "team": {
+    "id": 2938,
+    "name": "Al-Ittihad FC",
+    "ar": "الاتحاد",
+    "logo": "https://media.api-sports.io/football/teams/2938.png"
+   },
+   "goals": 7,
+   "assists": 0,
+   "apps": 9
+  },
+  {
+   "name": "M. Retegui",
+   "photo": "https://media.api-sports.io/football/players/6420.png",
+   "team": {
+    "id": 2933,
+    "name": "Al-Qadisiyah FC",
+    "ar": "القادسية",
+    "logo": "https://media.api-sports.io/football/teams/2933.png"
+   },
+   "goals": 6,
+   "assists": 2,
+   "apps": 10
+  },
+  {
+   "name": "G. Ilenikhena",
+   "photo": "https://media.api-sports.io/football/players/395040.png",
+   "team": {
+    "id": 2938,
+    "name": "Al-Ittihad FC",
+    "ar": "الاتحاد",
+    "logo": "https://media.api-sports.io/football/teams/2938.png"
+   },
+   "goals": 5,
+   "assists": 3,
+   "apps": 7
+  },
+  {
+   "name": "Trincão",
+   "photo": "https://media.api-sports.io/football/players/41112.png",
+   "team": {
+    "id": 2929,
+    "name": "Al-Ahli Jeddah",
+    "ar": "الأهلي",
+    "logo": "https://media.api-sports.io/football/teams/2929.png"
+   },
+   "goals": 5,
+   "assists": 2,
+   "apps": 9
+  },
+  {
+   "name": "Alexandre Mendy",
+   "photo": "https://media.api-sports.io/football/players/21506.png",
+   "team": {
+    "id": 2930,
+    "name": "Al-Faisaly FC",
+    "ar": "الفيصلي",
+    "logo": "https://media.api-sports.io/football/teams/2930.png"
+   },
+   "goals": 5,
+   "assists": 1,
+   "apps": 9
+  },
+  {
+   "name": "T. Reijnders",
+   "photo": "https://media.api-sports.io/football/players/36902.png",
+   "team": {
+    "id": 2933,
+    "name": "Al-Qadisiyah FC",
+    "ar": "القادسية",
+    "logo": "https://media.api-sports.io/football/teams/2933.png"
+   },
+   "goals": 5,
+   "assists": 1,
+   "apps": 8
+  },
+  {
+   "name": "غابرييل مارتينيلي",
+   "photo": "https://media.api-sports.io/football/players/127769.png",
+   "team": {
+    "id": 2932,
+    "name": "Al-Hilal Saudi FC",
+    "ar": "الهلال",
+    "logo": "https://media.api-sports.io/football/teams/2932.png"
+   },
+   "goals": 5,
+   "assists": 0,
+   "apps": 5
+  },
+  {
+   "name": "A. Lacazette",
+   "photo": "https://media.api-sports.io/football/players/1467.png",
+   "team": {
+    "id": 10513,
+    "name": "NEOM",
+    "ar": "نيوم",
+    "logo": "https://media.api-sports.io/football/teams/10513.png"
+   },
+   "goals": 5,
+   "assists": 1,
+   "apps": 10
+  },
+  {
+   "name": "S. Bergwijn",
+   "photo": "https://media.api-sports.io/football/players/244.png",
+   "team": {
+    "id": 2938,
+    "name": "Al-Ittihad FC",
+    "ar": "الاتحاد",
+    "logo": "https://media.api-sports.io/football/teams/2938.png"
+   },
+   "goals": 5,
+   "assists": 1,
+   "apps": 9
+  }
+ ]
 }
