@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T07:23:50.288Z",
+ "updated": "2026-10-23T08:04:51.608Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -114,7 +114,7 @@
    {
     "id": 1603082,
     "date": "2026-11-05T20:00:00+03:00",
-    "status": "PST",
+    "status": "NS",
     "elapsed": null,
     "venue": "Abdullah Al Dabil Stadium",
     "league": {
@@ -550,7 +550,7 @@
     "date": "2026-08-20T21:00:00+03:00",
     "status": "FT",
     "elapsed": 90,
-    "venue": "Al Majmaah",
+    "venue": "Buraidah",
     "league": {
      "id": 307,
      "name": "Pro League",
@@ -766,7 +766,7 @@
   },
   {
    "tag": "عالمي",
-   "title": "13 مباراة اليوم في أبرز الدوريات",
+   "title": "14 مباراة اليوم في أبرز الدوريات",
    "body": "أبرزها في دوري روشن السعودي.",
    "link": "#today"
   }
@@ -834,6 +834,33 @@
        "name": "Al Diriyah",
        "ar": "الدرعية",
        "logo": "https://media.api-sports.io/football/teams/26738.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1603062,
+      "date": "2026-10-23T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Jeddah",
+      "league": {
+       "id": 307,
+       "name": "Pro League",
+       "country": "Saudi-Arabia",
+       "logo": "https://media.api-sports.io/football/leagues/307.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 2929,
+       "name": "Al-Ahli Jeddah",
+       "ar": "الأهلي",
+       "logo": "https://media.api-sports.io/football/teams/2929.png"
+      },
+      "away": {
+       "id": 2928,
+       "name": "Al Khaleej Saihat",
+       "ar": "الخليج",
+       "logo": "https://media.api-sports.io/football/teams/2928.png"
       },
       "goals": null
      },
@@ -1264,7 +1291,7 @@
       "date": "2026-10-22T17:45:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Hasa",
+      "venue": "Al-Hofuf",
       "league": {
        "id": 307,
        "name": "Pro League",
