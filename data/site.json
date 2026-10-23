@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T15:54:51.527Z",
+ "updated": "2026-10-23T16:27:18.695Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -748,7 +748,7 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال في المركز 2 بدوري روشن برصيد 24 نقطة",
+   "title": "الهلال في المركز 3 بدوري روشن برصيد 24 نقطة",
    "body": "متأخراً بـنقطة واحدة عن المتصدر القادسية.",
    "link": "#table"
   },
@@ -816,8 +816,8 @@
      {
       "id": 1603066,
       "date": "2026-10-23T18:30:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Jeddah",
       "league": {
        "id": 307,
@@ -839,7 +839,7 @@
        "logo": "https://media.api-sports.io/football/teams/26738.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1090,7 +1090,7 @@
       "id": 1597949,
       "date": "2026-10-23T17:30:00+03:00",
       "status": "2H",
-      "elapsed": 64,
+      "elapsed": 90,
       "venue": "Gray Shamal",
       "league": {
        "id": 305,
@@ -1112,8 +1112,8 @@
        "logo": "https://media.api-sports.io/football/teams/2907.png"
       },
       "goals": [
-       0,
-       2
+       2,
+       3
       ]
      },
      {
@@ -2558,6 +2558,22 @@
     {
      "rank": 2,
      "team": {
+      "id": 2939,
+      "name": "Al-Nassr",
+      "ar": "النصر",
+      "logo": "https://media.api-sports.io/football/teams/2939.png"
+     },
+     "points": 25,
+     "gd": 15,
+     "played": 10,
+     "win": 8,
+     "draw": 1,
+     "lose": 1,
+     "description": "Promotion - AFC Champions League (League phase)"
+    },
+    {
+     "rank": 3,
+     "team": {
       "id": 2932,
       "name": "Al-Hilal Saudi FC",
       "ar": "الهلال",
@@ -2568,22 +2584,6 @@
      "played": 9,
      "win": 8,
      "draw": 0,
-     "lose": 1,
-     "description": "Promotion - AFC Champions League (League phase)"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 2939,
-      "name": "Al-Nassr",
-      "ar": "النصر",
-      "logo": "https://media.api-sports.io/football/teams/2939.png"
-     },
-     "points": 22,
-     "gd": 13,
-     "played": 9,
-     "win": 7,
-     "draw": 1,
      "lose": 1,
      "description": "Promotion - AFC Champions League (League phase)"
     },
@@ -2772,11 +2772,11 @@
       "logo": "https://media.api-sports.io/football/teams/2930.png"
      },
      "points": 7,
-     "gd": -7,
-     "played": 9,
+     "gd": -9,
+     "played": 10,
      "win": 1,
      "draw": 4,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
