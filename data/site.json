@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-23T18:40:33.613Z",
+ "updated": "2026-10-23T19:20:49.646Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1603068,
     "date": "2026-10-23T21:00:00+03:00",
-    "status": "1H",
-    "elapsed": 41,
+    "status": "2H",
+    "elapsed": 61,
     "venue": "Daman",
     "league": {
      "id": 307,
@@ -856,8 +856,8 @@
      {
       "id": 1603062,
       "date": "2026-10-23T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Jeddah",
       "league": {
        "id": 307,
@@ -886,8 +886,8 @@
      {
       "id": 1603068,
       "date": "2026-10-23T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -925,8 +925,8 @@
      {
       "id": 1557443,
       "date": "2026-10-23T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Ipswich",
       "league": {
        "id": 39,
@@ -947,7 +947,10 @@
        "ar": "نوتنغهام فورست",
        "logo": "https://media.api-sports.io/football/teams/65.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -961,8 +964,8 @@
      {
       "id": 1570423,
       "date": "2026-10-23T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Victoria-Gasteiz",
       "league": {
        "id": 140,
@@ -983,7 +986,10 @@
        "ar": "ملقة",
        "logo": "https://media.api-sports.io/football/teams/535.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -997,8 +1003,8 @@
      {
       "id": 1550165,
       "date": "2026-10-23T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 34,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1019,7 +1025,10 @@
        "ar": "مونزا",
        "logo": "https://media.api-sports.io/football/teams/1579.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1034,7 +1043,7 @@
       "id": 1575196,
       "date": "2026-10-23T21:30:00+03:00",
       "status": "1H",
-      "elapsed": 11,
+      "elapsed": 45,
       "venue": "Stuttgart",
       "league": {
        "id": 78,
@@ -1057,7 +1066,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1072,8 +1081,8 @@
      {
       "id": 1552794,
       "date": "2026-10-23T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Brest",
       "league": {
        "id": 61,
@@ -1094,7 +1103,10 @@
        "ar": "نيس",
        "logo": "https://media.api-sports.io/football/teams/84.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1138,7 +1150,7 @@
      {
       "id": 1597946,
       "date": "2026-10-23T19:45:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Doha",
       "league": {
@@ -1213,8 +1225,8 @@
      {
       "id": 1552198,
       "date": "2026-10-23T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Deventer",
       "league": {
        "id": 88,
@@ -1237,7 +1249,7 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      }
     ]
@@ -1252,8 +1264,8 @@
      {
       "id": 1584439,
       "date": "2026-10-23T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 80,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Alanya",
       "league": {
        "id": 203,
