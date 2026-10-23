@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T03:36:31.440Z",
+ "updated": "2026-10-23T04:12:08.756Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1972,7 +1972,7 @@
       "date": "2026-10-22T19:45:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Encamp",
+      "venue": "Sant Julia de Loria",
       "league": {
        "id": 848,
        "name": "UEFA Europa Conference League",
@@ -2092,7 +2092,7 @@
       "date": "2026-10-22T19:45:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Kolossi",
+      "venue": "Paphos",
       "league": {
        "id": 848,
        "name": "UEFA Europa Conference League",
@@ -2152,7 +2152,7 @@
       "date": "2026-10-22T22:00:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Randers",
+      "venue": "Aarhus",
       "league": {
        "id": 848,
        "name": "UEFA Europa Conference League",
@@ -2332,7 +2332,7 @@
       "date": "2026-10-22T22:00:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Monaco",
+      "venue": "Fontvieille",
       "league": {
        "id": 848,
        "name": "UEFA Europa Conference League",
