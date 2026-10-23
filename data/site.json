@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T21:21:52.295Z",
+ "updated": "2026-10-23T21:58:02.035Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2310,6 +2310,45 @@
    },
    {
     "league": {
+     "id": 94,
+     "name": "Primeira Liga",
+     "logo": "https://media.api-sports.io/football/leagues/94.png"
+    },
+    "matches": [
+     {
+      "id": 1575526,
+      "date": "2026-10-23T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Guimarães",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 224,
+       "name": "Vitória SC",
+       "ar": "Vitória SC",
+       "logo": "https://media.api-sports.io/football/teams/224.png"
+      },
+      "away": {
+       "id": 214,
+       "name": "Maritimo",
+       "ar": "Maritimo",
+       "logo": "https://media.api-sports.io/football/teams/214.png"
+      },
+      "goals": [
+       5,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
      "id": 88,
      "name": "Eredivisie",
      "logo": "https://media.api-sports.io/football/leagues/88.png"
@@ -3434,6 +3473,22 @@
     {
      "rank": 7,
      "team": {
+      "id": 503,
+      "name": "Torino",
+      "ar": "تورينو",
+      "logo": "https://media.api-sports.io/football/teams/503.png"
+     },
+     "points": 13,
+     "gd": 2,
+     "played": 8,
+     "win": 4,
+     "draw": 1,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
       "id": 490,
       "name": "Cagliari",
       "ar": "كالياري",
@@ -3448,7 +3503,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 496,
       "name": "Juventus",
@@ -3464,7 +3519,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 492,
       "name": "Napoli",
@@ -3473,22 +3528,6 @@
      },
      "points": 10,
      "gd": 3,
-     "played": 7,
-     "win": 3,
-     "draw": 1,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 10,
-     "team": {
-      "id": 503,
-      "name": "Torino",
-      "ar": "تورينو",
-      "logo": "https://media.api-sports.io/football/teams/503.png"
-     },
-     "points": 10,
-     "gd": 1,
      "played": 7,
      "win": 3,
      "draw": 1,
@@ -3552,11 +3591,11 @@
       "logo": "https://media.api-sports.io/football/teams/1579.png"
      },
      "points": 7,
-     "gd": -2,
-     "played": 7,
+     "gd": -3,
+     "played": 8,
      "win": 2,
      "draw": 1,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
@@ -3855,22 +3894,6 @@
     {
      "rank": 13,
      "team": {
-      "id": 172,
-      "name": "VfB Stuttgart",
-      "ar": "شتوتغارت",
-      "logo": "https://media.api-sports.io/football/teams/172.png"
-     },
-     "points": 6,
-     "gd": -2,
-     "played": 6,
-     "win": 2,
-     "draw": 0,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
       "id": 167,
       "name": "1899 Hoffenheim",
       "ar": "هوفنهايم",
@@ -3882,6 +3905,22 @@
      "win": 2,
      "draw": 0,
      "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "ar": "شتوتغارت",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+     },
+     "points": 6,
+     "gd": -3,
+     "played": 7,
+     "win": 2,
+     "draw": 0,
+     "lose": 5,
      "description": ""
     },
     {
@@ -3940,10 +3979,10 @@
       "ar": "مونشنغلادباخ",
       "logo": "https://media.api-sports.io/football/teams/163.png"
      },
-     "points": 0,
-     "gd": -12,
-     "played": 6,
-     "win": 0,
+     "points": 3,
+     "gd": -11,
+     "played": 7,
+     "win": 1,
      "draw": 0,
      "lose": 6,
      "description": "Relegation"
@@ -4068,6 +4107,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 84,
+      "name": "Nice",
+      "ar": "نيس",
+      "logo": "https://media.api-sports.io/football/teams/84.png"
+     },
+     "points": 11,
+     "gd": -2,
+     "played": 8,
+     "win": 3,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 116,
       "name": "Lens",
       "ar": "لانس",
@@ -4082,7 +4137,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 81,
       "name": "Marseille",
@@ -4098,7 +4153,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 106,
       "name": "Stade Brestois 29",
@@ -4106,15 +4161,15 @@
       "logo": "https://media.api-sports.io/football/teams/106.png"
      },
      "points": 9,
-     "gd": 3,
-     "played": 7,
+     "gd": 2,
+     "played": 8,
      "win": 2,
      "draw": 3,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 96,
       "name": "Toulouse",
@@ -4130,7 +4185,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 108,
       "name": "Auxerre",
@@ -4143,22 +4198,6 @@
      "win": 3,
      "draw": 0,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 13,
-     "team": {
-      "id": 84,
-      "name": "Nice",
-      "ar": "نيس",
-      "logo": "https://media.api-sports.io/football/teams/84.png"
-     },
-     "points": 8,
-     "gd": -3,
-     "played": 7,
-     "win": 2,
-     "draw": 2,
-     "lose": 3,
      "description": ""
     },
     {
@@ -4245,6 +4284,6 @@
   }
  },
  "errors": [],
- "requests": 21,
+ "requests": 20,
  "plan": "Pro"
 }
