@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T16:27:18.695Z",
+ "updated": "2026-10-23T17:04:25.592Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1603066,
       "date": "2026-10-23T18:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 73,
       "venue": "Jeddah",
       "league": {
        "id": 307,
@@ -1089,7 +1089,7 @@
      {
       "id": 1597949,
       "date": "2026-10-23T17:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Gray Shamal",
       "league": {
@@ -1119,8 +1119,8 @@
      {
       "id": 1597946,
       "date": "2026-10-23T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1141,7 +1141,10 @@
        "ar": "الريان",
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1227,8 +1230,8 @@
      {
       "id": 1584439,
       "date": "2026-10-23T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Alanya",
       "league": {
        "id": 203,
@@ -1249,7 +1252,10 @@
        "ar": "Kocaelispor",
        "logo": "https://media.api-sports.io/football/teams/7411.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
@@ -4392,6 +4398,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 17,
  "plan": "Pro"
 }
