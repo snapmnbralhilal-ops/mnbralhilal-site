@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T18:03:33.110Z",
+ "updated": "2026-10-23T18:40:33.613Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -7,7 +7,7 @@
     "id": 1603068,
     "date": "2026-10-23T21:00:00+03:00",
     "status": "1H",
-    "elapsed": 3,
+    "elapsed": 41,
     "venue": "Daman",
     "league": {
      "id": 307,
@@ -29,8 +29,8 @@
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
-     0,
-     0
+     1,
+     1
     ]
    },
    {
@@ -734,7 +734,7 @@
   {
    "tag": "الهلال",
    "title": "مباشر: الهلال يحل ضيفاً على القادسية الآن",
-   "body": "النتيجة 0-0 في دوري روشن السعودي.",
+   "body": "النتيجة 1-1 في دوري روشن السعودي.",
    "link": "#hilal",
    "breaking": true
   },
@@ -857,7 +857,7 @@
       "id": 1603062,
       "date": "2026-10-23T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 39,
       "venue": "Jeddah",
       "league": {
        "id": 307,
@@ -879,7 +879,7 @@
        "logo": "https://media.api-sports.io/football/teams/2928.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -887,7 +887,7 @@
       "id": 1603068,
       "date": "2026-10-23T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 40,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -909,8 +909,8 @@
        "logo": "https://media.api-sports.io/football/teams/2932.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -1033,8 +1033,8 @@
      {
       "id": 1575196,
       "date": "2026-10-23T21:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Stuttgart",
       "league": {
        "id": 78,
@@ -1055,7 +1055,10 @@
        "ar": "مونشنغلادباخ",
        "logo": "https://media.api-sports.io/football/teams/163.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1136,7 +1139,7 @@
       "id": 1597946,
       "date": "2026-10-23T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1158,8 +1161,8 @@
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
       "goals": [
-       0,
-       4
+       1,
+       6
       ]
      }
     ]
@@ -1211,7 +1214,7 @@
       "id": 1552198,
       "date": "2026-10-23T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 40,
       "venue": "Deventer",
       "league": {
        "id": 88,
@@ -1233,7 +1236,7 @@
        "logo": "https://media.api-sports.io/football/teams/427.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      }
@@ -1249,8 +1252,8 @@
      {
       "id": 1584439,
       "date": "2026-10-23T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 80,
       "venue": "Alanya",
       "league": {
        "id": 203,
@@ -1272,7 +1275,7 @@
        "logo": "https://media.api-sports.io/football/teams/7411.png"
       },
       "goals": [
-       0,
+       1,
        2
       ]
      }
@@ -2620,10 +2623,10 @@
       "ar": "الاتحاد",
       "logo": "https://media.api-sports.io/football/teams/2938.png"
      },
-     "points": 20,
-     "gd": 8,
-     "played": 9,
-     "win": 6,
+     "points": 23,
+     "gd": 10,
+     "played": 10,
+     "win": 7,
      "draw": 2,
      "lose": 1,
      "description": "Promotion - AFC Champions League (League phase)"
@@ -2663,22 +2666,6 @@
     {
      "rank": 7,
      "team": {
-      "id": 26738,
-      "name": "Al Diriyah",
-      "ar": "الدرعية",
-      "logo": "https://media.api-sports.io/football/teams/26738.png"
-     },
-     "points": 15,
-     "gd": 0,
-     "played": 10,
-     "win": 4,
-     "draw": 3,
-     "lose": 3,
-     "description": "Promotion - Gulf Club Champions League"
-    },
-    {
-     "rank": 8,
-     "team": {
       "id": 2934,
       "name": "Al-Ettifaq",
       "ar": "الاتفاق",
@@ -2690,6 +2677,22 @@
      "win": 4,
      "draw": 3,
      "lose": 3,
+     "description": "Promotion - Gulf Club Champions League"
+    },
+    {
+     "rank": 8,
+     "team": {
+      "id": 26738,
+      "name": "Al Diriyah",
+      "ar": "الدرعية",
+      "logo": "https://media.api-sports.io/football/teams/26738.png"
+     },
+     "points": 15,
+     "gd": -2,
+     "played": 11,
+     "win": 4,
+     "draw": 3,
+     "lose": 4,
      "description": ""
     },
     {
