@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:04:25.592Z",
+ "updated": "2026-10-23T17:34:54.906Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1603066,
       "date": "2026-10-23T18:30:00+03:00",
-      "status": "2H",
-      "elapsed": 73,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Jeddah",
       "league": {
        "id": 307,
@@ -839,7 +839,7 @@
        "logo": "https://media.api-sports.io/football/teams/26738.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1120,7 +1120,7 @@
       "id": 1597946,
       "date": "2026-10-23T19:45:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1143,7 +1143,7 @@
       },
       "goals": [
        0,
-       0
+       3
       ]
      }
     ]
@@ -1231,7 +1231,7 @@
       "id": 1584439,
       "date": "2026-10-23T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 35,
       "venue": "Alanya",
       "league": {
        "id": 203,
@@ -1254,7 +1254,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -4397,7 +4397,18 @@
    ]
   }
  },
- "errors": [],
- "requests": 17,
+ "errors": [
+  {
+   "endpoint": "players/topscorers",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
+ "requests": 18,
  "plan": "Pro"
 }
