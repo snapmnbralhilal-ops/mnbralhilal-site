@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T14:36:06.204Z",
+ "updated": "2026-10-23T15:13:59.473Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1603063,
       "date": "2026-10-23T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 47,
+      "elapsed": 84,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -809,8 +809,8 @@
        "logo": "https://media.api-sports.io/football/teams/2939.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       3
       ]
      },
      {
@@ -1087,7 +1087,7 @@
       "id": 1597949,
       "date": "2026-10-23T17:30:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 44,
       "venue": "Gray Shamal",
       "league": {
        "id": 305,
