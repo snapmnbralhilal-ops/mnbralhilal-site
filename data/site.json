@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T20:06:02.242Z",
+ "updated": "2026-10-24T20:33:03.060Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1104,8 +1104,8 @@
      {
       "id": 1570425,
       "date": "2026-10-24T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1127,7 +1127,7 @@
        "logo": "https://media.api-sports.io/football/teams/544.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1234,7 +1234,7 @@
       "id": 1550162,
       "date": "2026-10-24T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 63,
+      "elapsed": 90,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1462,7 +1462,7 @@
       "id": 1552795,
       "date": "2026-10-24T21:45:00+03:00",
       "status": "2H",
-      "elapsed": 59,
+      "elapsed": 86,
       "venue": "Lens",
       "league": {
        "id": 61,
@@ -1484,7 +1484,7 @@
        "logo": "https://media.api-sports.io/football/teams/114.png"
       },
       "goals": [
-       0,
+       2,
        1
       ]
      }
@@ -1630,7 +1630,7 @@
       "id": 1646854,
       "date": "2026-10-24T23:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 33,
       "venue": "Tetouan",
       "league": {
        "id": 200,
@@ -1728,8 +1728,8 @@
      {
       "id": 1575521,
       "date": "2026-10-24T22:30:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Barcelos",
       "league": {
        "id": 94,
@@ -1828,7 +1828,7 @@
       "id": 1552201,
       "date": "2026-10-24T22:00:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 75,
       "venue": "The Hague",
       "league": {
        "id": 88,
@@ -1850,8 +1850,8 @@
        "logo": "https://media.api-sports.io/football/teams/210.png"
       },
       "goals": [
-       0,
-       1
+       2,
+       3
       ]
      }
     ]
@@ -1995,8 +1995,8 @@
      {
       "id": 1490556,
       "date": "2026-10-24T22:30:00+03:00",
-      "status": "1H",
-      "elapsed": 26,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Columbus",
       "league": {
        "id": 253,
@@ -4398,6 +4398,6 @@
   }
  },
  "errors": [],
- "requests": 23,
+ "requests": 22,
  "plan": "Pro"
 }
