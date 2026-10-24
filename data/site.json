@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T18:27:23.401Z",
+ "updated": "2026-10-24T18:59:29.872Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -846,8 +846,8 @@
      {
       "id": 1603069,
       "date": "2026-10-24T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -869,7 +869,7 @@
        "logo": "https://media.api-sports.io/football/teams/2936.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1074,7 +1074,7 @@
      {
       "id": 1570432,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Valdivia",
       "league": {
@@ -1098,7 +1098,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
@@ -1230,8 +1230,8 @@
      {
       "id": 1550162,
       "date": "2026-10-24T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1252,7 +1252,10 @@
        "ar": "بارما",
        "logo": "https://media.api-sports.io/football/teams/523.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1455,8 +1458,8 @@
      {
       "id": 1552795,
       "date": "2026-10-24T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Lens",
       "league": {
        "id": 61,
@@ -1477,7 +1480,10 @@
        "ar": "باريس إف سي",
        "logo": "https://media.api-sports.io/football/teams/114.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1521,8 +1527,8 @@
      {
       "id": 1597944,
       "date": "2026-10-24T19:45:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1544,8 +1550,8 @@
        "logo": "https://media.api-sports.io/football/teams/7527.png"
       },
       "goals": [
-       1,
-       0
+       3,
+       1
       ]
      }
     ]
@@ -1590,8 +1596,8 @@
      {
       "id": 1646853,
       "date": "2026-10-24T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 26,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -1686,8 +1692,8 @@
      {
       "id": 1575518,
       "date": "2026-10-24T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Alverkaduribajo",
       "league": {
        "id": 94,
@@ -1782,8 +1788,8 @@
      {
       "id": 1552200,
       "date": "2026-10-24T19:45:00+03:00",
-      "status": "2H",
-      "elapsed": 85,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Tilburg",
       "league": {
        "id": 88,
@@ -1806,7 +1812,7 @@
       },
       "goals": [
        1,
-       5
+       6
       ]
      },
      {
@@ -1947,8 +1953,8 @@
      {
       "id": 1490557,
       "date": "2026-10-24T20:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Montreal",
       "league": {
        "id": 253,
@@ -1971,7 +1977,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -3507,11 +3513,11 @@
       "ar": "روما",
       "logo": "https://media.api-sports.io/football/teams/497.png"
      },
-     "points": 17,
+     "points": 18,
      "gd": 13,
-     "played": 7,
+     "played": 8,
      "win": 5,
-     "draw": 2,
+     "draw": 3,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -3598,6 +3604,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 492,
+      "name": "Napoli",
+      "ar": "نابولي",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+     },
+     "points": 11,
+     "gd": 3,
+     "played": 8,
+     "win": 3,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 496,
       "name": "Juventus",
       "ar": "يوفنتوس",
@@ -3609,22 +3631,6 @@
      "win": 3,
      "draw": 2,
      "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 10,
-     "team": {
-      "id": 492,
-      "name": "Napoli",
-      "ar": "نابولي",
-      "logo": "https://media.api-sports.io/football/teams/492.png"
-     },
-     "points": 10,
-     "gd": 3,
-     "played": 7,
-     "win": 3,
-     "draw": 1,
-     "lose": 3,
      "description": ""
     },
     {
@@ -4376,18 +4382,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-10-23",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 33,
  "plan": "Pro"
 }
