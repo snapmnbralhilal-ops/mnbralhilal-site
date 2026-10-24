@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-24T16:33:42.547Z",
+ "updated": "2026-10-24T17:03:25.931Z",
  "players": [
   {
    "api": 156,
@@ -869,24 +869,24 @@
    "photo": "https://media.api-sports.io/football/players/326984.png",
    "age": 23,
    "nat": "Saudi Arabia",
-   "apps": 11,
-   "starts": 11,
-   "mins": 954,
+   "apps": 12,
+   "starts": 12,
+   "mins": 1044,
    "goals": 0,
    "assists": 2,
    "saves": 0,
    "conceded": 0,
    "shots": 0,
    "shotsOn": 0,
-   "keyPasses": 13,
-   "passes": 472,
-   "tackles": 25,
+   "keyPasses": 15,
+   "passes": 512,
+   "tackles": 27,
    "interceptions": 8,
    "dribbles": 8,
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.95,
+   "rating": 6.99,
    "comps": [
     {
      "id": 17,
@@ -898,7 +898,7 @@
     {
      "id": 307,
      "league": "Pro League",
-     "apps": 9,
+     "apps": 10,
      "goals": 0,
      "assists": 2
     }
@@ -1089,7 +1089,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 5.45,
+   "rating": 4.87,
    "comps": [
     {
      "id": 17,
@@ -1285,7 +1285,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 4.88,
+   "rating": 4.44,
    "comps": [
     {
      "id": 17,
