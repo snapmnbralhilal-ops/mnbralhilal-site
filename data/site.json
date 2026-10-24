@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T13:06:03.539Z",
+ "updated": "2026-10-24T13:35:14.130Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -876,8 +876,8 @@
      {
       "id": 1557438,
       "date": "2026-10-24T14:30:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Birmingham",
       "league": {
        "id": 39,
@@ -996,8 +996,8 @@
      {
       "id": 1570429,
       "date": "2026-10-24T15:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 69,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1020,7 +1020,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
@@ -1117,7 +1117,7 @@
       "id": 1550158,
       "date": "2026-10-24T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 35,
       "venue": "Cagliari",
       "league": {
        "id": 135,
@@ -1147,7 +1147,7 @@
       "id": 1550159,
       "date": "2026-10-24T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 33,
       "venue": "Como",
       "league": {
        "id": 135,
@@ -1239,8 +1239,8 @@
      {
       "id": 1575195,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Leipzig",
       "league": {
        "id": 78,
@@ -1261,13 +1261,16 @@
        "ar": "إلفرسبرغ",
        "logo": "https://media.api-sports.io/football/teams/1660.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575199,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Augsburg",
       "league": {
        "id": 78,
@@ -1288,13 +1291,16 @@
        "ar": "يونيون برلين",
        "logo": "https://media.api-sports.io/football/teams/182.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575200,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Mainz",
       "league": {
        "id": 78,
@@ -1315,13 +1321,16 @@
        "ar": "فيردر بريمن",
        "logo": "https://media.api-sports.io/football/teams/162.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575201,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Cologne",
       "league": {
        "id": 78,
@@ -1342,13 +1351,16 @@
        "ar": "شالكه",
        "logo": "https://media.api-sports.io/football/teams/174.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575202,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Paderborn",
       "league": {
        "id": 78,
@@ -1369,7 +1381,10 @@
        "ar": "هامبورغ",
        "logo": "https://media.api-sports.io/football/teams/175.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575194,
@@ -1810,7 +1825,7 @@
       "id": 1584443,
       "date": "2026-10-24T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 34,
       "venue": "Gaziantep",
       "league": {
        "id": 203,
@@ -4302,6 +4317,6 @@
   }
  },
  "errors": [],
- "requests": 25,
+ "requests": 26,
  "plan": "Pro"
 }
