@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T15:02:22.458Z",
+ "updated": "2026-10-24T15:32:49.749Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603070,
       "date": "2026-10-24T17:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 70,
       "venue": "Tabuk",
       "league": {
        "id": 307,
@@ -809,15 +809,15 @@
        "logo": "https://media.api-sports.io/football/teams/2951.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1603067,
       "date": "2026-10-24T18:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 28,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -838,7 +838,10 @@
        "ar": "الاتفاق",
        "logo": "https://media.api-sports.io/football/teams/2934.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603069,
@@ -909,8 +912,8 @@
      {
       "id": 1557437,
       "date": "2026-10-24T17:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "London",
       "league": {
        "id": 39,
@@ -932,15 +935,15 @@
        "logo": "https://media.api-sports.io/football/teams/45.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1557440,
       "date": "2026-10-24T17:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "Coventry",
       "league": {
        "id": 39,
@@ -1035,8 +1038,8 @@
      {
       "id": 1570428,
       "date": "2026-10-24T17:15:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Santander",
       "league": {
        "id": 140,
@@ -1251,8 +1254,8 @@
      {
       "id": 1575195,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Leipzig",
       "league": {
        "id": 78,
@@ -1274,15 +1277,15 @@
        "logo": "https://media.api-sports.io/football/teams/1660.png"
       },
       "goals": [
-       2,
+       4,
        0
       ]
      },
      {
       "id": 1575199,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Augsburg",
       "league": {
        "id": 78,
@@ -1305,14 +1308,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1575200,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Mainz",
       "league": {
        "id": 78,
@@ -1341,8 +1344,8 @@
      {
       "id": 1575201,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "2H",
-      "elapsed": 69,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cologne",
       "league": {
        "id": 78,
@@ -1371,8 +1374,8 @@
      {
       "id": 1575202,
       "date": "2026-10-24T16:30:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Paderborn",
       "league": {
        "id": 78,
@@ -1394,7 +1397,7 @@
        "logo": "https://media.api-sports.io/football/teams/175.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1473,8 +1476,8 @@
      {
       "id": 1597948,
       "date": "2026-10-24T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Wakla",
       "league": {
        "id": 305,
@@ -1497,7 +1500,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
@@ -1629,8 +1632,8 @@
      {
       "id": 1575520,
       "date": "2026-10-24T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Amadora",
       "league": {
        "id": 94,
@@ -1653,7 +1656,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1722,8 +1725,8 @@
      {
       "id": 1552199,
       "date": "2026-10-24T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Utrecht",
       "league": {
        "id": 88,
@@ -4338,6 +4341,6 @@
   }
  },
  "errors": [],
- "requests": 28,
+ "requests": 31,
  "plan": "Pro"
 }
