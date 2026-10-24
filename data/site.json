@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T22:59:37.849Z",
+ "updated": "2026-10-24T23:21:55.367Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1813,7 +1813,7 @@
       "id": 1490558,
       "date": "2026-10-25T00:30:00+03:00",
       "status": "2H",
-      "elapsed": 60,
+      "elapsed": 82,
       "venue": "Harrison",
       "league": {
        "id": 253,
