@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T22:30:46.343Z",
+ "updated": "2026-10-24T22:59:37.849Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1812,8 +1812,8 @@
      {
       "id": 1490558,
       "date": "2026-10-25T00:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Harrison",
       "league": {
        "id": 253,
@@ -4039,10 +4039,10 @@
       "ar": "أتلتيكو مدريد",
       "logo": "https://media.api-sports.io/football/teams/530.png"
      },
-     "points": 22,
-     "gd": 11,
-     "played": 9,
-     "win": 7,
+     "points": 25,
+     "gd": 12,
+     "played": 10,
+     "win": 8,
      "draw": 1,
      "lose": 1,
      "description": "Promotion - Champions League (League phase)"
@@ -4168,11 +4168,11 @@
       "logo": "https://media.api-sports.io/football/teams/544.png"
      },
      "points": 11,
-     "gd": 1,
-     "played": 9,
+     "gd": 0,
+     "played": 10,
      "win": 2,
      "draw": 5,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
