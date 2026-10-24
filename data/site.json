@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T16:02:47.303Z",
+ "updated": "2026-10-24T16:33:41.969Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1603067,
       "date": "2026-10-24T18:05:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -840,7 +840,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -972,8 +972,8 @@
      {
       "id": 1557439,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "London",
       "league": {
        "id": 39,
@@ -994,7 +994,10 @@
        "ar": "توتنهام",
        "logo": "https://media.api-sports.io/football/teams/47.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1038,8 +1041,8 @@
      {
       "id": 1570428,
       "date": "2026-10-24T17:15:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Santander",
       "league": {
        "id": 140,
@@ -1192,7 +1195,7 @@
       "id": 1550164,
       "date": "2026-10-24T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 32,
       "venue": "Naples",
       "league": {
        "id": 135,
@@ -1214,7 +1217,7 @@
        "logo": "https://media.api-sports.io/football/teams/497.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1407,8 +1410,8 @@
      {
       "id": 1575194,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Dortmund",
       "league": {
        "id": 78,
@@ -1429,7 +1432,10 @@
        "ar": "آينتراخت فرانكفورت",
        "logo": "https://media.api-sports.io/football/teams/169.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1480,7 +1486,7 @@
       "id": 1597948,
       "date": "2026-10-24T17:30:00+03:00",
       "status": "2H",
-      "elapsed": 68,
+      "elapsed": 90,
       "venue": "Wakla",
       "league": {
        "id": 305,
@@ -1502,7 +1508,7 @@
        "logo": "https://media.api-sports.io/football/teams/2905.png"
       },
       "goals": [
-       0,
+       3,
        2
       ]
      },
@@ -1546,7 +1552,7 @@
       "id": 1646852,
       "date": "2026-10-24T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 33,
       "venue": "",
       "league": {
        "id": 200,
@@ -1569,7 +1575,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1638,8 +1644,8 @@
      {
       "id": 1575520,
       "date": "2026-10-24T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 71,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Amadora",
       "league": {
        "id": 94,
@@ -1662,7 +1668,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -1731,8 +1737,8 @@
      {
       "id": 1552199,
       "date": "2026-10-24T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 73,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Utrecht",
       "league": {
        "id": 88,
@@ -1754,7 +1760,7 @@
        "logo": "https://media.api-sports.io/football/teams/193.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1885,7 +1891,7 @@
       "id": 1584447,
       "date": "2026-10-24T19:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 34,
       "venue": "Samsun",
       "league": {
        "id": 203,
@@ -1907,7 +1913,7 @@
        "logo": "https://media.api-sports.io/football/teams/3579.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -4349,18 +4355,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-10-23",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 31,
  "plan": "Pro"
 }
