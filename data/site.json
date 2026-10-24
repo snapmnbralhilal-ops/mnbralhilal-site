@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T19:24:33.173Z",
+ "updated": "2026-10-24T19:48:39.084Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -847,7 +847,7 @@
       "id": 1603069,
       "date": "2026-10-24T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 61,
+      "elapsed": 86,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -869,8 +869,8 @@
        "logo": "https://media.api-sports.io/football/teams/2936.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      }
     ]
@@ -1104,8 +1104,8 @@
      {
       "id": 1570425,
       "date": "2026-10-24T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 22,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1233,8 +1233,8 @@
      {
       "id": 1550162,
       "date": "2026-10-24T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1461,8 +1461,8 @@
      {
       "id": 1552795,
       "date": "2026-10-24T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lens",
       "league": {
        "id": 61,
@@ -1485,7 +1485,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1600,7 +1600,7 @@
       "id": 1646853,
       "date": "2026-10-24T21:00:00+03:00",
       "status": "2H",
-      "elapsed": 62,
+      "elapsed": 86,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -1725,8 +1725,8 @@
      {
       "id": 1575521,
       "date": "2026-10-24T22:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Barcelos",
       "league": {
        "id": 94,
@@ -1747,7 +1747,10 @@
        "ar": "بورتو",
        "logo": "https://media.api-sports.io/football/teams/212.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1821,8 +1824,8 @@
      {
       "id": 1552201,
       "date": "2026-10-24T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "The Hague",
       "league": {
        "id": 88,
@@ -1845,7 +1848,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1959,8 +1962,8 @@
      {
       "id": 1490557,
       "date": "2026-10-24T20:30:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Montreal",
       "league": {
        "id": 253,
@@ -1989,8 +1992,8 @@
      {
       "id": 1490556,
       "date": "2026-10-24T22:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Columbus",
       "league": {
        "id": 253,
@@ -2011,7 +2014,10 @@
        "ar": "Toronto FC",
        "logo": "https://media.api-sports.io/football/teams/1601.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
@@ -2886,11 +2892,11 @@
       "logo": "https://media.api-sports.io/football/teams/49.png"
      },
      "points": 13,
-     "gd": 4,
-     "played": 7,
+     "gd": 2,
+     "played": 8,
      "win": 4,
      "draw": 1,
-     "lose": 2,
+     "lose": 3,
      "description": "Promotion - Champions League (League phase)"
     },
     {
@@ -3008,6 +3014,22 @@
     {
      "rank": 12,
      "team": {
+      "id": 47,
+      "name": "Tottenham",
+      "ar": "توتنهام",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+     },
+     "points": 9,
+     "gd": -2,
+     "played": 8,
+     "win": 2,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
       "id": 36,
       "name": "Fulham",
       "ar": "فولهام",
@@ -3022,7 +3044,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 34,
       "name": "Newcastle",
@@ -3038,7 +3060,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 33,
       "name": "Manchester United",
@@ -3054,7 +3076,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 52,
       "name": "Crystal Palace",
@@ -3070,28 +3092,12 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 35,
       "name": "Bournemouth",
       "ar": "بورنموث",
       "logo": "https://media.api-sports.io/football/teams/35.png"
-     },
-     "points": 6,
-     "gd": -4,
-     "played": 7,
-     "win": 1,
-     "draw": 3,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 17,
-     "team": {
-      "id": 47,
-      "name": "Tottenham",
-      "ar": "توتنهام",
-      "logo": "https://media.api-sports.io/football/teams/47.png"
      },
      "points": 6,
      "gd": -4,
@@ -3269,6 +3275,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 533,
+      "name": "Villarreal",
+      "ar": "فياريال",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+     },
+     "points": 12,
+     "gd": 1,
+     "played": 10,
+     "win": 3,
+     "draw": 3,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 538,
       "name": "Celta Vigo",
       "ar": "سيلتا فيغو",
@@ -3283,7 +3305,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 544,
       "name": "Deportivo La Coruna",
@@ -3299,7 +3321,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 727,
       "name": "Osasuna",
@@ -3315,7 +3337,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 4665,
       "name": "Racing Santander",
@@ -3331,7 +3353,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 539,
       "name": "Levante",
@@ -3347,7 +3369,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 797,
       "name": "Elche",
@@ -3359,22 +3381,6 @@
      "played": 10,
      "win": 2,
      "draw": 4,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 533,
-      "name": "Villarreal",
-      "ar": "فياريال",
-      "logo": "https://media.api-sports.io/football/teams/533.png"
-     },
-     "points": 9,
-     "gd": 0,
-     "played": 9,
-     "win": 2,
-     "draw": 3,
      "lose": 4,
      "description": ""
     },
@@ -3451,11 +3457,11 @@
       "logo": "https://media.api-sports.io/football/teams/532.png"
      },
      "points": 6,
-     "gd": -9,
-     "played": 9,
+     "gd": -10,
+     "played": 10,
      "win": 1,
      "draw": 3,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation - LaLiga2"
     },
     {
@@ -3807,15 +3813,15 @@
     {
      "rank": 1,
      "team": {
-      "id": 157,
-      "name": "Bayern München",
-      "ar": "بايرن ميونخ",
-      "logo": "https://media.api-sports.io/football/teams/157.png"
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "ar": "بوروسيا دورتموند",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
      },
-     "points": 14,
-     "gd": 17,
-     "played": 6,
-     "win": 4,
+     "points": 17,
+     "gd": 8,
+     "played": 7,
+     "win": 5,
      "draw": 2,
      "lose": 0,
      "description": "Champions League league stage"
@@ -3823,13 +3829,13 @@
     {
      "rank": 2,
      "team": {
-      "id": 165,
-      "name": "Borussia Dortmund",
-      "ar": "بوروسيا دورتموند",
-      "logo": "https://media.api-sports.io/football/teams/165.png"
+      "id": 157,
+      "name": "Bayern München",
+      "ar": "بايرن ميونخ",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
      },
      "points": 14,
-     "gd": 7,
+     "gd": 17,
      "played": 6,
      "win": 4,
      "draw": 2,
@@ -4005,11 +4011,11 @@
       "logo": "https://media.api-sports.io/football/teams/169.png"
      },
      "points": 8,
-     "gd": -6,
-     "played": 6,
+     "gd": -7,
+     "played": 7,
      "win": 2,
      "draw": 2,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
@@ -4389,6 +4395,6 @@
   }
  },
  "errors": [],
- "requests": 31,
+ "requests": 26,
  "plan": "Pro"
 }
