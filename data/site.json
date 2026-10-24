@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T17:59:19.861Z",
+ "updated": "2026-10-24T18:27:23.401Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -846,8 +846,8 @@
      {
       "id": 1603069,
       "date": "2026-10-24T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 28,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -868,7 +868,10 @@
        "ar": "التعاون",
        "logo": "https://media.api-sports.io/football/teams/2936.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -972,8 +975,8 @@
      {
       "id": 1557439,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -996,7 +999,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      }
     ]
@@ -1072,7 +1075,7 @@
       "id": 1570432,
       "date": "2026-10-24T19:30:00+03:00",
       "status": "2H",
-      "elapsed": 67,
+      "elapsed": 90,
       "venue": "Valdivia",
       "league": {
        "id": 140,
@@ -1095,7 +1098,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
@@ -1413,8 +1416,8 @@
      {
       "id": 1575194,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 71,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Dortmund",
       "league": {
        "id": 78,
@@ -1436,7 +1439,7 @@
        "logo": "https://media.api-sports.io/football/teams/169.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1519,7 +1522,7 @@
       "id": 1597944,
       "date": "2026-10-24T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 83,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1587,8 +1590,8 @@
      {
       "id": 1646853,
       "date": "2026-10-24T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 26,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -1609,7 +1612,10 @@
        "ar": "Wydad AC",
        "logo": "https://media.api-sports.io/football/teams/968.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1646854,
@@ -1680,8 +1686,8 @@
      {
       "id": 1575518,
       "date": "2026-10-24T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Alverkaduribajo",
       "league": {
        "id": 94,
@@ -1777,7 +1783,7 @@
       "id": 1552200,
       "date": "2026-10-24T19:45:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 85,
       "venue": "Tilburg",
       "league": {
        "id": 88,
@@ -1799,8 +1805,8 @@
        "logo": "https://media.api-sports.io/football/teams/420.png"
       },
       "goals": [
-       0,
-       3
+       1,
+       5
       ]
      },
      {
@@ -1941,8 +1947,8 @@
      {
       "id": 1490557,
       "date": "2026-10-24T20:30:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Montreal",
       "league": {
        "id": 253,
@@ -2622,10 +2628,10 @@
       "ar": "الاتفاق",
       "logo": "https://media.api-sports.io/football/teams/2934.png"
      },
-     "points": 15,
-     "gd": -2,
-     "played": 10,
-     "win": 4,
+     "points": 18,
+     "gd": 1,
+     "played": 11,
+     "win": 5,
      "draw": 3,
      "lose": 3,
      "description": "Promotion - Gulf Club Champions League"
@@ -2655,11 +2661,11 @@
       "logo": "https://media.api-sports.io/football/teams/10509.png"
      },
      "points": 12,
-     "gd": -4,
-     "played": 9,
+     "gd": -7,
+     "played": 10,
      "win": 3,
      "draw": 3,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -4370,7 +4376,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "date": "2026-10-23",
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 33,
  "plan": "Pro"
 }
