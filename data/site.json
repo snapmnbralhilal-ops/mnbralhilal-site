@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T18:59:29.872Z",
+ "updated": "2026-10-24T19:24:33.173Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -846,8 +846,8 @@
      {
       "id": 1603069,
       "date": "2026-10-24T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -1104,8 +1104,8 @@
      {
       "id": 1570425,
       "date": "2026-10-24T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 22,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1126,7 +1126,10 @@
        "ar": "ديبورتيفو لاكورونيا",
        "logo": "https://media.api-sports.io/football/teams/544.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1231,7 +1234,7 @@
       "id": 1550162,
       "date": "2026-10-24T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 14,
+      "elapsed": 39,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1459,7 +1462,7 @@
       "id": 1552795,
       "date": "2026-10-24T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 40,
       "venue": "Lens",
       "league": {
        "id": 61,
@@ -1596,8 +1599,8 @@
      {
       "id": 1646853,
       "date": "2026-10-24T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -1818,8 +1821,8 @@
      {
       "id": 1552201,
       "date": "2026-10-24T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "The Hague",
       "league": {
        "id": 88,
@@ -1840,7 +1843,10 @@
        "ar": "Heerenveen",
        "logo": "https://media.api-sports.io/football/teams/210.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1954,7 +1960,7 @@
       "id": 1490557,
       "date": "2026-10-24T20:30:00+03:00",
       "status": "2H",
-      "elapsed": 63,
+      "elapsed": 88,
       "venue": "Montreal",
       "league": {
        "id": 253,
@@ -1977,7 +1983,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -4383,6 +4389,6 @@
   }
  },
  "errors": [],
- "requests": 33,
+ "requests": 31,
  "plan": "Pro"
 }
