@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T22:00:39.268Z",
+ "updated": "2026-10-24T22:30:46.343Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1812,8 +1812,8 @@
      {
       "id": 1490558,
       "date": "2026-10-25T00:30:00+03:00",
-      "status": "1H",
-      "elapsed": 21,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Harrison",
       "league": {
        "id": 253,
@@ -3560,6 +3560,22 @@
     {
      "rank": 11,
      "team": {
+      "id": 10511,
+      "name": "Al Riyadh",
+      "ar": "الرياض",
+      "logo": "https://media.api-sports.io/football/teams/10511.png"
+     },
+     "points": 12,
+     "gd": -8,
+     "played": 10,
+     "win": 3,
+     "draw": 3,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
       "id": 2940,
       "name": "Al Shabab",
       "ar": "الشباب",
@@ -3574,7 +3590,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 2945,
       "name": "Al-Hazm",
@@ -3587,22 +3603,6 @@
      "win": 2,
      "draw": 4,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 13,
-     "team": {
-      "id": 10511,
-      "name": "Al Riyadh",
-      "ar": "الرياض",
-      "logo": "https://media.api-sports.io/football/teams/10511.png"
-     },
-     "points": 9,
-     "gd": -9,
-     "played": 9,
-     "win": 2,
-     "draw": 3,
-     "lose": 4,
      "description": ""
     },
     {
@@ -3662,11 +3662,11 @@
       "logo": "https://media.api-sports.io/football/teams/2936.png"
      },
      "points": 4,
-     "gd": -13,
-     "played": 10,
+     "gd": -14,
+     "played": 11,
      "win": 0,
      "draw": 4,
-     "lose": 6,
+     "lose": 7,
      "description": "Relegation - Division 1"
     },
     {
@@ -5250,6 +5250,6 @@
   }
  },
  "errors": [],
- "requests": 20,
+ "requests": 17,
  "plan": "Pro"
 }
