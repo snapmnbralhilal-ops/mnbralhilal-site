@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:32:32.236Z",
+ "updated": "2026-10-24T22:00:39.268Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1812,8 +1812,8 @@
      {
       "id": 1490558,
       "date": "2026-10-25T00:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 21,
       "venue": "Harrison",
       "league": {
        "id": 253,
@@ -1834,7 +1834,10 @@
        "ar": "إنتر ميامي",
        "logo": "https://media.api-sports.io/football/teams/9568.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490559,
@@ -2989,6 +2992,36 @@
        0,
        1
       ]
+     },
+     {
+      "id": 1646854,
+      "date": "2026-10-24T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Tetouan",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 5"
+      },
+      "home": {
+       "id": 965,
+       "name": "Moghreb Tetouan",
+       "ar": "Moghreb Tetouan",
+       "logo": "https://media.api-sports.io/football/teams/965.png"
+      },
+      "away": {
+       "id": 3458,
+       "name": "Widad Témara",
+       "ar": "Widad Témara",
+       "logo": "https://media.api-sports.io/football/teams/3458.png"
+      },
+      "goals": [
+       0,
+       3
+      ]
      }
     ]
    },
@@ -3323,6 +3356,36 @@
       },
       "goals": [
        0,
+       2
+      ]
+     },
+     {
+      "id": 1490556,
+      "date": "2026-10-24T22:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Columbus",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 31"
+      },
+      "home": {
+       "id": 1613,
+       "name": "Columbus Crew",
+       "ar": "Columbus Crew",
+       "logo": "https://media.api-sports.io/football/teams/1613.png"
+      },
+      "away": {
+       "id": 1601,
+       "name": "Toronto FC",
+       "ar": "Toronto FC",
+       "logo": "https://media.api-sports.io/football/teams/1601.png"
+      },
+      "goals": [
+       4,
        2
       ]
      }
@@ -4280,15 +4343,15 @@
     {
      "rank": 1,
      "team": {
-      "id": 505,
-      "name": "Inter",
-      "ar": "إنتر ميلان",
-      "logo": "https://media.api-sports.io/football/teams/505.png"
+      "id": 487,
+      "name": "Lazio",
+      "ar": "لاتسيو",
+      "logo": "https://media.api-sports.io/football/teams/487.png"
      },
-     "points": 19,
-     "gd": 12,
-     "played": 7,
-     "win": 6,
+     "points": 22,
+     "gd": 11,
+     "played": 8,
+     "win": 7,
      "draw": 1,
      "lose": 0,
      "description": "Champions League league stage"
@@ -4296,13 +4359,13 @@
     {
      "rank": 2,
      "team": {
-      "id": 487,
-      "name": "Lazio",
-      "ar": "لاتسيو",
-      "logo": "https://media.api-sports.io/football/teams/487.png"
+      "id": 505,
+      "name": "Inter",
+      "ar": "إنتر ميلان",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
      },
      "points": 19,
-     "gd": 10,
+     "gd": 12,
      "played": 7,
      "win": 6,
      "draw": 1,
@@ -4574,11 +4637,11 @@
       "logo": "https://media.api-sports.io/football/teams/523.png"
      },
      "points": 4,
-     "gd": -9,
-     "played": 7,
+     "gd": -10,
+     "played": 8,
      "win": 1,
      "draw": 1,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation"
     },
     {
@@ -4930,10 +4993,10 @@
     {
      "rank": 3,
      "team": {
-      "id": 114,
-      "name": "Paris FC",
-      "ar": "باريس إف سي",
-      "logo": "https://media.api-sports.io/football/teams/114.png"
+      "id": 79,
+      "name": "Lille",
+      "ar": "ليل",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
      },
      "points": 14,
      "gd": 5,
@@ -4946,17 +5009,17 @@
     {
      "rank": 4,
      "team": {
-      "id": 79,
-      "name": "Lille",
-      "ar": "ليل",
-      "logo": "https://media.api-sports.io/football/teams/79.png"
+      "id": 114,
+      "name": "Paris FC",
+      "ar": "باريس إف سي",
+      "logo": "https://media.api-sports.io/football/teams/114.png"
      },
      "points": 14,
-     "gd": 5,
-     "played": 7,
+     "gd": 4,
+     "played": 8,
      "win": 4,
      "draw": 2,
-     "lose": 1,
+     "lose": 2,
      "description": " Qualifying"
     },
     {
@@ -4978,6 +5041,22 @@
     {
      "rank": 6,
      "team": {
+      "id": 116,
+      "name": "Lens",
+      "ar": "لانس",
+      "logo": "https://media.api-sports.io/football/teams/116.png"
+     },
+     "points": 13,
+     "gd": 4,
+     "played": 8,
+     "win": 4,
+     "draw": 1,
+     "lose": 3,
+     "description": "Play-offs"
+    },
+    {
+     "rank": 7,
+     "team": {
       "id": 94,
       "name": "Rennes",
       "ar": "رين",
@@ -4989,10 +5068,10 @@
      "win": 4,
      "draw": 1,
      "lose": 2,
-     "description": "Play-offs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 97,
       "name": "Lorient",
@@ -5008,7 +5087,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 84,
       "name": "Nice",
@@ -5020,22 +5099,6 @@
      "played": 8,
      "win": 3,
      "draw": 2,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 9,
-     "team": {
-      "id": 116,
-      "name": "Lens",
-      "ar": "لانس",
-      "logo": "https://media.api-sports.io/football/teams/116.png"
-     },
-     "points": 10,
-     "gd": 3,
-     "played": 7,
-     "win": 3,
-     "draw": 1,
      "lose": 3,
      "description": ""
     },
@@ -5187,6 +5250,6 @@
   }
  },
  "errors": [],
- "requests": 21,
+ "requests": 20,
  "plan": "Pro"
 }
