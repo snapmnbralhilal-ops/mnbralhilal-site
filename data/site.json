@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T17:03:25.538Z",
+ "updated": "2026-10-24T17:31:22.972Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -972,8 +972,8 @@
      {
       "id": 1557439,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "London",
       "league": {
        "id": 39,
@@ -1071,8 +1071,8 @@
      {
       "id": 1570432,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Valdivia",
       "league": {
        "id": 140,
@@ -1094,7 +1094,7 @@
        "logo": "https://media.api-sports.io/football/teams/533.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1197,8 +1197,8 @@
      {
       "id": 1550164,
       "date": "2026-10-24T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "Naples",
       "league": {
        "id": 135,
@@ -1220,8 +1220,8 @@
        "logo": "https://media.api-sports.io/football/teams/497.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      },
      {
@@ -1413,8 +1413,8 @@
      {
       "id": 1575194,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Dortmund",
       "league": {
        "id": 78,
@@ -1519,7 +1519,7 @@
       "id": 1597944,
       "date": "2026-10-24T19:45:00+03:00",
       "status": "1H",
-      "elapsed": 19,
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1541,7 +1541,7 @@
        "logo": "https://media.api-sports.io/football/teams/7527.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1558,7 +1558,7 @@
       "id": 1646852,
       "date": "2026-10-24T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 74,
       "venue": "",
       "league": {
        "id": 200,
@@ -1681,7 +1681,7 @@
       "id": 1575518,
       "date": "2026-10-24T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 2,
+      "elapsed": 30,
       "venue": "Alverkaduribajo",
       "league": {
        "id": 94,
@@ -1704,7 +1704,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1777,7 +1777,7 @@
       "id": 1552200,
       "date": "2026-10-24T19:45:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 45,
       "venue": "Tilburg",
       "league": {
        "id": 88,
@@ -1800,7 +1800,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
@@ -1902,8 +1902,8 @@
      {
       "id": 1584447,
       "date": "2026-10-24T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 73,
       "venue": "Samsun",
       "league": {
        "id": 203,
@@ -2603,10 +2603,10 @@
       "ar": "نيوم",
       "logo": "https://media.api-sports.io/football/teams/10513.png"
      },
-     "points": 16,
-     "gd": 5,
-     "played": 10,
-     "win": 5,
+     "points": 19,
+     "gd": 7,
+     "played": 11,
+     "win": 6,
      "draw": 1,
      "lose": 4,
      "description": "Promotion - AFC Champions League 2"
@@ -2796,11 +2796,11 @@
       "logo": "https://media.api-sports.io/football/teams/2951.png"
      },
      "points": 2,
-     "gd": -9,
-     "played": 8,
+     "gd": -11,
+     "played": 9,
      "win": 0,
      "draw": 2,
-     "lose": 6,
+     "lose": 7,
      "description": "Relegation - Division 1"
     }
    ]
@@ -4368,6 +4368,6 @@
   }
  },
  "errors": [],
- "requests": 32,
+ "requests": 31,
  "plan": "Pro"
 }
