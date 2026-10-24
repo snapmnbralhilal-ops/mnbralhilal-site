@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:00:19.292Z",
+ "updated": "2026-10-24T21:32:32.236Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3058,6 +3058,36 @@
        0,
        1
       ]
+     },
+     {
+      "id": 1575521,
+      "date": "2026-10-24T22:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Barcelos",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 762,
+       "name": "GIL Vicente",
+       "ar": "GIL Vicente",
+       "logo": "https://media.api-sports.io/football/teams/762.png"
+      },
+      "away": {
+       "id": 212,
+       "name": "FC Porto",
+       "ar": "بورتو",
+       "logo": "https://media.api-sports.io/football/teams/212.png"
+      },
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -5157,6 +5187,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 21,
  "plan": "Pro"
 }
