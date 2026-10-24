@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T17:31:22.972Z",
+ "updated": "2026-10-24T17:59:19.861Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -755,7 +755,7 @@
   {
    "tag": "عالمي",
    "title": "مانشستر سيتي يتصدر الدوري الإنجليزي برصيد 21 نقطة",
-   "body": "يليه آرسنال بـ18 نقطة.",
+   "body": "يليه آرسنال بـ21 نقطة.",
    "link": "#table"
   },
   {
@@ -972,8 +972,8 @@
      {
       "id": 1557439,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "London",
       "league": {
        "id": 39,
@@ -1071,8 +1071,8 @@
      {
       "id": 1570432,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Valdivia",
       "league": {
        "id": 140,
@@ -1197,8 +1197,8 @@
      {
       "id": 1550164,
       "date": "2026-10-24T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Naples",
       "league": {
        "id": 135,
@@ -1220,8 +1220,8 @@
        "logo": "https://media.api-sports.io/football/teams/497.png"
       },
       "goals": [
-       2,
-       1
+       3,
+       3
       ]
      },
      {
@@ -1413,8 +1413,8 @@
      {
       "id": 1575194,
       "date": "2026-10-24T19:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 71,
       "venue": "Dortmund",
       "league": {
        "id": 78,
@@ -1518,8 +1518,8 @@
      {
       "id": 1597944,
       "date": "2026-10-24T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1557,8 +1557,8 @@
      {
       "id": 1646852,
       "date": "2026-10-24T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 200,
@@ -1580,8 +1580,8 @@
        "logo": "https://media.api-sports.io/football/teams/22218.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      },
      {
@@ -1680,8 +1680,8 @@
      {
       "id": 1575518,
       "date": "2026-10-24T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Alverkaduribajo",
       "league": {
        "id": 94,
@@ -1776,8 +1776,8 @@
      {
       "id": 1552200,
       "date": "2026-10-24T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Tilburg",
       "league": {
        "id": 88,
@@ -1902,8 +1902,8 @@
      {
       "id": 1584447,
       "date": "2026-10-24T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 73,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Samsun",
       "league": {
        "id": 203,
@@ -1926,7 +1926,7 @@
       },
       "goals": [
        1,
-       0
+       2
       ]
      }
     ]
@@ -1941,8 +1941,8 @@
      {
       "id": 1490557,
       "date": "2026-10-24T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Montreal",
       "league": {
        "id": 253,
@@ -1963,7 +1963,10 @@
        "ar": "Nashville SC",
        "logo": "https://media.api-sports.io/football/teams/9569.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490556,
@@ -2832,10 +2835,10 @@
       "ar": "آرسنال",
       "logo": "https://media.api-sports.io/football/teams/42.png"
      },
-     "points": 18,
-     "gd": 6,
-     "played": 7,
-     "win": 6,
+     "points": 21,
+     "gd": 8,
+     "played": 8,
+     "win": 7,
      "draw": 0,
      "lose": 1,
      "description": "Promotion - Champions League (League phase)"
@@ -2945,11 +2948,11 @@
       "logo": "https://media.api-sports.io/football/teams/45.png"
      },
      "points": 10,
-     "gd": 1,
-     "played": 7,
+     "gd": -1,
+     "played": 8,
      "win": 2,
      "draw": 4,
-     "lose": 1,
+     "lose": 2,
      "description": ""
     },
     {
@@ -2987,6 +2990,22 @@
     {
      "rank": 12,
      "team": {
+      "id": 36,
+      "name": "Fulham",
+      "ar": "فولهام",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+     },
+     "points": 8,
+     "gd": -2,
+     "played": 8,
+     "win": 2,
+     "draw": 2,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
       "id": 34,
       "name": "Newcastle",
       "ar": "نيوكاسل",
@@ -3001,7 +3020,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 33,
       "name": "Manchester United",
@@ -3017,7 +3036,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 52,
       "name": "Crystal Palace",
@@ -3033,7 +3052,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 35,
       "name": "Bournemouth",
@@ -3049,7 +3068,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 47,
       "name": "Tottenham",
@@ -3065,7 +3084,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 65,
       "name": "Nottingham Forest",
@@ -3078,10 +3097,10 @@
      "win": 1,
      "draw": 3,
      "lose": 4,
-     "description": ""
+     "description": "Relegation - Championship"
     },
     {
-     "rank": 18,
+     "rank": 19,
      "team": {
       "id": 1346,
       "name": "Coventry",
@@ -3089,27 +3108,11 @@
       "logo": "https://media.api-sports.io/football/teams/1346.png"
      },
      "points": 6,
-     "gd": -8,
-     "played": 7,
+     "gd": -9,
+     "played": 8,
      "win": 2,
      "draw": 0,
-     "lose": 5,
-     "description": "Relegation - Championship"
-    },
-    {
-     "rank": 19,
-     "team": {
-      "id": 36,
-      "name": "Fulham",
-      "ar": "فولهام",
-      "logo": "https://media.api-sports.io/football/teams/36.png"
-     },
-     "points": 5,
-     "gd": -3,
-     "played": 7,
-     "win": 1,
-     "draw": 2,
-     "lose": 4,
+     "lose": 6,
      "description": "Relegation - Championship"
     },
     {
@@ -3296,6 +3299,22 @@
     {
      "rank": 11,
      "team": {
+      "id": 4665,
+      "name": "Racing Santander",
+      "ar": "راسينغ سانتاندير",
+      "logo": "https://media.api-sports.io/football/teams/4665.png"
+     },
+     "points": 11,
+     "gd": -11,
+     "played": 10,
+     "win": 3,
+     "draw": 2,
+     "lose": 5,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
       "id": 539,
       "name": "Levante",
       "ar": "ليفانتي",
@@ -3310,7 +3329,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 797,
       "name": "Elche",
@@ -3326,7 +3345,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 533,
       "name": "Villarreal",
@@ -3342,7 +3361,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 531,
       "name": "Athletic Club",
@@ -3358,7 +3377,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 546,
       "name": "Getafe",
@@ -3374,7 +3393,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 728,
       "name": "Rayo Vallecano",
@@ -3390,7 +3409,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 540,
       "name": "Espanyol",
@@ -3398,27 +3417,11 @@
       "logo": "https://media.api-sports.io/football/teams/540.png"
      },
      "points": 8,
-     "gd": -1,
-     "played": 9,
+     "gd": -2,
+     "played": 10,
      "win": 2,
      "draw": 2,
-     "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 18,
-     "team": {
-      "id": 4665,
-      "name": "Racing Santander",
-      "ar": "راسينغ سانتاندير",
-      "logo": "https://media.api-sports.io/football/teams/4665.png"
-     },
-     "points": 8,
-     "gd": -12,
-     "played": 9,
-     "win": 2,
-     "draw": 2,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation - LaLiga2"
     },
     {
@@ -4368,6 +4371,6 @@
   }
  },
  "errors": [],
- "requests": 31,
+ "requests": 33,
  "plan": "Pro"
 }
