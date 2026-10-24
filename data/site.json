@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T15:32:49.749Z",
+ "updated": "2026-10-24T16:02:47.303Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603070,
       "date": "2026-10-24T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Tabuk",
       "league": {
        "id": 307,
@@ -816,8 +816,8 @@
      {
       "id": 1603067,
       "date": "2026-10-24T18:05:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Ar Rass",
       "league": {
        "id": 307,
@@ -840,7 +840,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -912,8 +912,8 @@
      {
       "id": 1557437,
       "date": "2026-10-24T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -942,8 +942,8 @@
      {
       "id": 1557440,
       "date": "2026-10-24T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Coventry",
       "league": {
        "id": 39,
@@ -966,7 +966,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1039,7 +1039,7 @@
       "id": 1570428,
       "date": "2026-10-24T17:15:00+03:00",
       "status": "2H",
-      "elapsed": 59,
+      "elapsed": 89,
       "venue": "Santander",
       "league": {
        "id": 140,
@@ -1061,8 +1061,8 @@
        "logo": "https://media.api-sports.io/football/teams/540.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      },
      {
@@ -1191,8 +1191,8 @@
      {
       "id": 1550164,
       "date": "2026-10-24T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Naples",
       "league": {
        "id": 135,
@@ -1213,7 +1213,10 @@
        "ar": "روما",
        "logo": "https://media.api-sports.io/football/teams/497.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550162,
@@ -1476,8 +1479,8 @@
      {
       "id": 1597948,
       "date": "2026-10-24T17:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Wakla",
       "league": {
        "id": 305,
@@ -1542,8 +1545,8 @@
      {
       "id": 1646852,
       "date": "2026-10-24T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "",
       "league": {
        "id": 200,
@@ -1564,7 +1567,10 @@
        "ar": "CODM Meknès",
        "logo": "https://media.api-sports.io/football/teams/22218.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1646853,
@@ -1632,8 +1638,8 @@
      {
       "id": 1575520,
       "date": "2026-10-24T17:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 71,
       "venue": "Amadora",
       "league": {
        "id": 94,
@@ -1725,8 +1731,8 @@
      {
       "id": 1552199,
       "date": "2026-10-24T17:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 73,
       "venue": "Utrecht",
       "league": {
        "id": 88,
@@ -1749,7 +1755,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1878,8 +1884,8 @@
      {
       "id": 1584447,
       "date": "2026-10-24T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Samsun",
       "league": {
        "id": 203,
@@ -1900,7 +1906,10 @@
        "ar": "Amed",
        "logo": "https://media.api-sports.io/football/teams/3579.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -3285,6 +3294,22 @@
     {
      "rank": 12,
      "team": {
+      "id": 797,
+      "name": "Elche",
+      "ar": "إلتشي",
+      "logo": "https://media.api-sports.io/football/teams/797.png"
+     },
+     "points": 10,
+     "gd": -3,
+     "played": 10,
+     "win": 2,
+     "draw": 4,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
       "id": 533,
       "name": "Villarreal",
       "ar": "فياريال",
@@ -3299,7 +3324,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 531,
       "name": "Athletic Club",
@@ -3308,22 +3333,6 @@
      },
      "points": 9,
      "gd": -1,
-     "played": 8,
-     "win": 2,
-     "draw": 3,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 728,
-      "name": "Rayo Vallecano",
-      "ar": "رايو فايكانو",
-      "logo": "https://media.api-sports.io/football/teams/728.png"
-     },
-     "points": 9,
-     "gd": -5,
      "played": 8,
      "win": 2,
      "draw": 3,
@@ -3349,6 +3358,22 @@
     {
      "rank": 16,
      "team": {
+      "id": 728,
+      "name": "Rayo Vallecano",
+      "ar": "رايو فايكانو",
+      "logo": "https://media.api-sports.io/football/teams/728.png"
+     },
+     "points": 9,
+     "gd": -8,
+     "played": 9,
+     "win": 2,
+     "draw": 3,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 17,
+     "team": {
       "id": 540,
       "name": "Espanyol",
       "ar": "إسبانيول",
@@ -3363,7 +3388,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 4665,
       "name": "Racing Santander",
@@ -3376,22 +3401,6 @@
      "win": 2,
      "draw": 2,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 18,
-     "team": {
-      "id": 797,
-      "name": "Elche",
-      "ar": "إلتشي",
-      "logo": "https://media.api-sports.io/football/teams/797.png"
-     },
-     "points": 7,
-     "gd": -6,
-     "played": 9,
-     "win": 1,
-     "draw": 4,
-     "lose": 4,
      "description": "Relegation - LaLiga2"
     },
     {
@@ -3482,6 +3491,22 @@
     {
      "rank": 4,
      "team": {
+      "id": 895,
+      "name": "Como",
+      "ar": "كومو",
+      "logo": "https://media.api-sports.io/football/teams/895.png"
+     },
+     "points": 17,
+     "gd": 7,
+     "played": 8,
+     "win": 5,
+     "draw": 2,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
       "id": 489,
       "name": "AC Milan",
       "ar": "ميلان",
@@ -3493,22 +3518,6 @@
      "win": 4,
      "draw": 3,
      "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 5,
-     "team": {
-      "id": 895,
-      "name": "Como",
-      "ar": "كومو",
-      "logo": "https://media.api-sports.io/football/teams/895.png"
-     },
-     "points": 14,
-     "gd": 5,
-     "played": 7,
-     "win": 4,
-     "draw": 2,
-     "lose": 1,
      "description": "Europa League league stage"
     },
     {
@@ -3552,11 +3561,11 @@
       "logo": "https://media.api-sports.io/football/teams/490.png"
      },
      "points": 13,
-     "gd": -1,
-     "played": 7,
+     "gd": -3,
+     "played": 8,
      "win": 4,
      "draw": 1,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
@@ -3626,21 +3635,37 @@
     {
      "rank": 13,
      "team": {
+      "id": 500,
+      "name": "Bologna",
+      "ar": "بولونيا",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+     },
+     "points": 8,
+     "gd": -2,
+     "played": 8,
+     "win": 2,
+     "draw": 2,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
       "id": 488,
       "name": "Sassuolo",
       "ar": "ساسولو",
       "logo": "https://media.api-sports.io/football/teams/488.png"
      },
      "points": 8,
-     "gd": -2,
-     "played": 7,
+     "gd": -4,
+     "played": 8,
      "win": 2,
      "draw": 2,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 1579,
       "name": "Monza",
@@ -3653,22 +3678,6 @@
      "win": 2,
      "draw": 1,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 500,
-      "name": "Bologna",
-      "ar": "بولونيا",
-      "logo": "https://media.api-sports.io/football/teams/500.png"
-     },
-     "points": 5,
-     "gd": -4,
-     "played": 7,
-     "win": 1,
-     "draw": 2,
-     "lose": 4,
      "description": ""
     },
     {
@@ -4340,7 +4349,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "date": "2026-10-23",
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 31,
  "plan": "Pro"
 }
