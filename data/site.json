@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T01:57:15.365Z",
+ "updated": "2026-10-25T02:25:19.130Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1963,7 +1963,7 @@
       "id": 1490563,
       "date": "2026-10-25T03:30:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 83,
       "venue": "Houston",
       "league": {
        "id": 253,
@@ -1993,7 +1993,7 @@
       "id": 1490564,
       "date": "2026-10-25T03:30:00+03:00",
       "status": "2H",
-      "elapsed": 61,
+      "elapsed": 89,
       "venue": "Frisco",
       "league": {
        "id": 253,
@@ -2015,7 +2015,7 @@
        "logo": "https://media.api-sports.io/football/teams/1596.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -2023,7 +2023,7 @@
       "id": 1490565,
       "date": "2026-10-25T03:30:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 85,
       "venue": "Kansas City",
       "league": {
        "id": 253,
@@ -2046,14 +2046,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1490566,
       "date": "2026-10-25T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 45,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -2083,7 +2083,7 @@
       "id": 1490567,
       "date": "2026-10-25T05:30:00+03:00",
       "status": "1H",
-      "elapsed": 17,
+      "elapsed": 45,
       "venue": "Sandy",
       "league": {
        "id": 253,
@@ -2105,7 +2105,7 @@
        "logo": "https://media.api-sports.io/football/teams/20787.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
