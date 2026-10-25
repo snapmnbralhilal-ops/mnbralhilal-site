@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-25T07:24:05.410Z",
+ "updated": "2026-10-25T07:58:37.830Z",
  "players": [
   {
    "api": 156,
@@ -1422,6 +1422,19 @@
    "apps": 6
   },
   {
+   "name": "A. Lacazette",
+   "photo": "https://media.api-sports.io/football/players/1467.png",
+   "team": {
+    "id": 10513,
+    "name": "NEOM",
+    "ar": "نيوم",
+    "logo": "https://media.api-sports.io/football/teams/10513.png"
+   },
+   "goals": 6,
+   "assists": 2,
+   "apps": 11
+  },
+  {
    "name": "T. Reijnders",
    "photo": "https://media.api-sports.io/football/players/36902.png",
    "team": {
@@ -1458,19 +1471,6 @@
    },
    "goals": 5,
    "assists": 1,
-   "apps": 10
-  },
-  {
-   "name": "J. Quiñones",
-   "photo": "https://media.api-sports.io/football/players/35532.png",
-   "team": {
-    "id": 2933,
-    "name": "Al-Qadisiyah FC",
-    "ar": "القادسية",
-    "logo": "https://media.api-sports.io/football/teams/2933.png"
-   },
-   "goals": 5,
-   "assists": 3,
    "apps": 10
   }
  ]
