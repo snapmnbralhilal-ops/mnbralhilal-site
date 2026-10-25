@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T19:33:38.967Z",
+ "updated": "2026-10-25T19:57:11.866Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1005,8 +1005,8 @@
      {
       "id": 1570430,
       "date": "2026-10-25T20:30:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "San Sebastian",
       "league": {
        "id": 140,
@@ -1191,8 +1191,8 @@
      {
       "id": 1550166,
       "date": "2026-10-25T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Udine",
       "league": {
        "id": 135,
@@ -1213,7 +1213,10 @@
        "ar": "ميلان",
        "logo": "https://media.api-sports.io/football/teams/489.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -1515,8 +1518,8 @@
      {
       "id": 1646856,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Marrakech",
       "league": {
        "id": 200,
@@ -1539,7 +1542,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1584,8 +1587,8 @@
      {
       "id": 1575522,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Funchal",
       "league": {
        "id": 94,
@@ -1614,8 +1617,8 @@
      {
       "id": 1575523,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 48,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Condi Town",
       "league": {
        "id": 94,
@@ -1638,7 +1641,7 @@
       },
       "goals": [
        0,
-       1
+       4
       ]
      },
      {
@@ -1800,8 +1803,8 @@
      {
       "id": 1552206,
       "date": "2026-10-25T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Alkmaar",
       "league": {
        "id": 88,
@@ -3918,6 +3921,22 @@
     {
      "rank": 7,
      "team": {
+      "id": 63,
+      "name": "Leeds",
+      "ar": "ليدز",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+     },
+     "points": 11,
+     "gd": 3,
+     "played": 8,
+     "win": 2,
+     "draw": 5,
+     "lose": 1,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
       "id": 34,
       "name": "Newcastle",
       "ar": "نيوكاسل",
@@ -3932,7 +3951,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 66,
       "name": "Aston Villa",
@@ -3945,22 +3964,6 @@
      "win": 3,
      "draw": 2,
      "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 9,
-     "team": {
-      "id": 63,
-      "name": "Leeds",
-      "ar": "ليدز",
-      "logo": "https://media.api-sports.io/football/teams/63.png"
-     },
-     "points": 10,
-     "gd": 3,
-     "played": 7,
-     "win": 2,
-     "draw": 4,
-     "lose": 1,
      "description": ""
     },
     {
@@ -4131,11 +4134,11 @@
       "ar": "سندرلاند",
       "logo": "https://media.api-sports.io/football/teams/746.png"
      },
-     "points": 4,
+     "points": 5,
      "gd": -8,
-     "played": 7,
+     "played": 8,
      "win": 1,
-     "draw": 1,
+     "draw": 2,
      "lose": 5,
      "description": "Relegation - Championship"
     }
@@ -4797,6 +4800,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 157,
+      "name": "Bayern München",
+      "ar": "بايرن ميونخ",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+     },
+     "points": 17,
+     "gd": 19,
+     "played": 7,
+     "win": 5,
+     "draw": 2,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 165,
       "name": "Borussia Dortmund",
       "ar": "بوروسيا دورتموند",
@@ -4811,22 +4830,6 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 2,
-     "team": {
-      "id": 157,
-      "name": "Bayern München",
-      "ar": "بايرن ميونخ",
-      "logo": "https://media.api-sports.io/football/teams/157.png"
-     },
-     "points": 14,
-     "gd": 17,
-     "played": 6,
-     "win": 4,
-     "draw": 2,
-     "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
      "rank": 3,
      "team": {
       "id": 160,
@@ -4835,11 +4838,11 @@
       "logo": "https://media.api-sports.io/football/teams/160.png"
      },
      "points": 13,
-     "gd": 9,
-     "played": 6,
+     "gd": 7,
+     "played": 7,
      "win": 4,
      "draw": 1,
-     "lose": 1,
+     "lose": 2,
      "description": "Champions League league stage"
     },
     {
@@ -5090,6 +5093,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 94,
+      "name": "Rennes",
+      "ar": "رين",
+      "logo": "https://media.api-sports.io/football/teams/94.png"
+     },
+     "points": 16,
+     "gd": 4,
+     "played": 8,
+     "win": 5,
+     "draw": 1,
+     "lose": 2,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 79,
       "name": "Lille",
       "ar": "ليل",
@@ -5104,7 +5123,7 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 91,
       "name": "Monaco",
@@ -5120,7 +5139,7 @@
      "description": "Champions League league stage"
     },
     {
-     "rank": 3,
+     "rank": 4,
      "team": {
       "id": 80,
       "name": "Lyon",
@@ -5133,10 +5152,10 @@
      "win": 4,
      "draw": 2,
      "lose": 1,
-     "description": "Champions League league stage"
+     "description": " Qualifying"
     },
     {
-     "rank": 4,
+     "rank": 5,
      "team": {
       "id": 85,
       "name": "Paris Saint Germain",
@@ -5149,10 +5168,10 @@
      "win": 4,
      "draw": 2,
      "lose": 1,
-     "description": " Qualifying"
+     "description": "Europa League league stage"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": {
       "id": 114,
       "name": "Paris FC",
@@ -5165,10 +5184,10 @@
      "win": 4,
      "draw": 2,
      "lose": 2,
-     "description": "Europa League league stage"
+     "description": "Play-offs"
     },
     {
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 116,
       "name": "Lens",
@@ -5181,42 +5200,42 @@
      "win": 4,
      "draw": 1,
      "lose": 3,
-     "description": "Play-offs"
-    },
-    {
-     "rank": 7,
-     "team": {
-      "id": 94,
-      "name": "Rennes",
-      "ar": "رين",
-      "logo": "https://media.api-sports.io/football/teams/94.png"
-     },
-     "points": 13,
-     "gd": 1,
-     "played": 7,
-     "win": 4,
-     "draw": 1,
-     "lose": 2,
      "description": ""
     },
     {
      "rank": 8,
+     "team": {
+      "id": 81,
+      "name": "Marseille",
+      "ar": "مارسيليا",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+     },
+     "points": 12,
+     "gd": 5,
+     "played": 8,
+     "win": 4,
+     "draw": 0,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 9,
      "team": {
       "id": 97,
       "name": "Lorient",
       "ar": "لوريان",
       "logo": "https://media.api-sports.io/football/teams/97.png"
      },
-     "points": 11,
+     "points": 12,
      "gd": 1,
-     "played": 7,
+     "played": 8,
      "win": 3,
-     "draw": 2,
+     "draw": 3,
      "lose": 2,
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 84,
       "name": "Nice",
@@ -5232,23 +5251,39 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
-      "id": 81,
-      "name": "Marseille",
-      "ar": "مارسيليا",
-      "logo": "https://media.api-sports.io/football/teams/81.png"
+      "id": 96,
+      "name": "Toulouse",
+      "ar": "تولوز",
+      "logo": "https://media.api-sports.io/football/teams/96.png"
      },
-     "points": 9,
-     "gd": 4,
-     "played": 7,
+     "points": 10,
+     "gd": 1,
+     "played": 8,
+     "win": 2,
+     "draw": 4,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
+      "id": 108,
+      "name": "Auxerre",
+      "ar": "أوكسير",
+      "logo": "https://media.api-sports.io/football/teams/108.png"
+     },
+     "points": 10,
+     "gd": -6,
+     "played": 8,
      "win": 3,
-     "draw": 0,
+     "draw": 1,
      "lose": 4,
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 13,
      "team": {
       "id": 106,
       "name": "Stade Brestois 29",
@@ -5264,39 +5299,39 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 14,
      "team": {
-      "id": 96,
-      "name": "Toulouse",
-      "ar": "تولوز",
-      "logo": "https://media.api-sports.io/football/teams/96.png"
+      "id": 77,
+      "name": "Angers",
+      "ar": "أنجيه",
+      "logo": "https://media.api-sports.io/football/teams/77.png"
      },
-     "points": 9,
-     "gd": 1,
-     "played": 7,
-     "win": 2,
-     "draw": 3,
-     "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 13,
-     "team": {
-      "id": 108,
-      "name": "Auxerre",
-      "ar": "أوكسير",
-      "logo": "https://media.api-sports.io/football/teams/108.png"
-     },
-     "points": 9,
+     "points": 8,
      "gd": -6,
-     "played": 7,
-     "win": 3,
-     "draw": 0,
+     "played": 8,
+     "win": 2,
+     "draw": 2,
      "lose": 4,
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
+     "team": {
+      "id": 1298,
+      "name": "Le Mans",
+      "ar": "لومان",
+      "logo": "https://media.api-sports.io/football/teams/1298.png"
+     },
+     "points": 7,
+     "gd": -5,
+     "played": 8,
+     "win": 1,
+     "draw": 4,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 16,
      "team": {
       "id": 95,
       "name": "Strasbourg",
@@ -5304,43 +5339,11 @@
       "logo": "https://media.api-sports.io/football/teams/95.png"
      },
      "points": 7,
-     "gd": -3,
-     "played": 7,
-     "win": 2,
-     "draw": 1,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 77,
-      "name": "Angers",
-      "ar": "أنجيه",
-      "logo": "https://media.api-sports.io/football/teams/77.png"
-     },
-     "points": 7,
      "gd": -6,
-     "played": 7,
+     "played": 8,
      "win": 2,
      "draw": 1,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 16,
-     "team": {
-      "id": 1298,
-      "name": "Le Mans",
-      "ar": "لومان",
-      "logo": "https://media.api-sports.io/football/teams/1298.png"
-     },
-     "points": 6,
-     "gd": -5,
-     "played": 7,
-     "win": 1,
-     "draw": 3,
-     "lose": 3,
+     "lose": 5,
      "description": "Relegation Playoffs"
     },
     {
@@ -5351,11 +5354,11 @@
       "ar": "تروا",
       "logo": "https://media.api-sports.io/football/teams/110.png"
      },
-     "points": 4,
+     "points": 5,
      "gd": -11,
-     "played": 7,
+     "played": 8,
      "win": 1,
-     "draw": 1,
+     "draw": 2,
      "lose": 5,
      "description": "Relegation"
     },
@@ -5368,11 +5371,11 @@
       "logo": "https://media.api-sports.io/football/teams/111.png"
      },
      "points": 2,
-     "gd": -6,
-     "played": 7,
+     "gd": -7,
+     "played": 8,
      "win": 0,
      "draw": 2,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation"
     }
    ]
@@ -5380,10 +5383,9 @@
  },
  "errors": [
   {
-   "endpoint": "standings",
+   "endpoint": "fixtures",
    "params": {
-    "league": 61,
-    "season": 2026
+    "id": 1550157
    },
    "error": [
     "Too many requests. You have exceeded the limit of requests per minute of your subscription."
@@ -5392,14 +5394,22 @@
   {
    "endpoint": "fixtures",
    "params": {
-    "date": "2026-10-25",
-    "timezone": "Asia/Riyadh"
+    "id": 1557441
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  },
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "id": 1557444
    },
    "error": [
     "Too many requests. You have exceeded the limit of requests per minute of your subscription."
    ]
   }
  ],
- "requests": 13,
+ "requests": 33,
  "plan": "Pro"
 }
