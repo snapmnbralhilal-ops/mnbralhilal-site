@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:46:26.427Z",
+ "updated": "2026-10-25T13:20:17.424Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -930,8 +930,8 @@
      {
       "id": 1570424,
       "date": "2026-10-25T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Bilbao",
       "league": {
        "id": 140,
@@ -952,7 +952,10 @@
        "ar": "خيتافي",
        "logo": "https://media.api-sports.io/football/teams/546.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1570427,
@@ -1048,7 +1051,7 @@
       "id": 1550161,
       "date": "2026-10-25T14:30:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1071,7 +1074,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1608,8 +1611,8 @@
      {
       "id": 1552202,
       "date": "2026-10-25T14:15:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sitard",
       "league": {
        "id": 88,
@@ -1631,7 +1634,7 @@
        "logo": "https://media.api-sports.io/football/teams/196.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1755,8 +1758,8 @@
      {
       "id": 1584445,
       "date": "2026-10-25T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Konya",
       "league": {
        "id": 203,
@@ -1777,7 +1780,10 @@
        "ar": "Gençlerbirliği S.K.",
        "logo": "https://media.api-sports.io/football/teams/997.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1584444,
@@ -5289,6 +5295,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 22,
  "plan": "Pro"
 }
