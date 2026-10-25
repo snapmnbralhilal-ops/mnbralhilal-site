@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T18:36:44.677Z",
+ "updated": "2026-10-25T19:08:31.057Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1006,7 +1006,7 @@
       "id": 1570430,
       "date": "2026-10-25T20:30:00+03:00",
       "status": "2H",
-      "elapsed": 47,
+      "elapsed": 79,
       "venue": "San Sebastian",
       "league": {
        "id": 140,
@@ -1161,8 +1161,8 @@
      {
       "id": 1550163,
       "date": "2026-10-25T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1515,8 +1515,8 @@
      {
       "id": 1646856,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Marrakech",
       "league": {
        "id": 200,
@@ -1584,8 +1584,8 @@
      {
       "id": 1575522,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Funchal",
       "league": {
        "id": 94,
@@ -1614,8 +1614,8 @@
      {
       "id": 1575523,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Condi Town",
       "league": {
        "id": 94,
@@ -1638,7 +1638,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1800,8 +1800,8 @@
      {
       "id": 1552206,
       "date": "2026-10-25T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 8,
       "venue": "Alkmaar",
       "league": {
        "id": 88,
@@ -1822,7 +1822,10 @@
        "ar": "Twente",
        "logo": "https://media.api-sports.io/football/teams/415.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -4197,11 +4200,11 @@
       "ar": "ريال بيتيس",
       "logo": "https://media.api-sports.io/football/teams/543.png"
      },
-     "points": 19,
+     "points": 20,
      "gd": 2,
-     "played": 9,
+     "played": 10,
      "win": 6,
-     "draw": 1,
+     "draw": 2,
      "lose": 2,
      "description": "Promotion - Champions League (League phase)"
     },
@@ -4272,6 +4275,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 538,
+      "name": "Celta Vigo",
+      "ar": "سيلتا فيغو",
+      "logo": "https://media.api-sports.io/football/teams/538.png"
+     },
+     "points": 12,
+     "gd": 3,
+     "played": 10,
+     "win": 2,
+     "draw": 6,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 533,
       "name": "Villarreal",
       "ar": "فياريال",
@@ -4283,22 +4302,6 @@
      "win": 3,
      "draw": 3,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 10,
-     "team": {
-      "id": 538,
-      "name": "Celta Vigo",
-      "ar": "سيلتا فيغو",
-      "logo": "https://media.api-sports.io/football/teams/538.png"
-     },
-     "points": 11,
-     "gd": 3,
-     "played": 9,
-     "win": 2,
-     "draw": 5,
-     "lose": 2,
      "description": ""
     },
     {
@@ -5376,6 +5379,6 @@
   }
  },
  "errors": [],
- "requests": 32,
+ "requests": 33,
  "plan": "Pro"
 }
