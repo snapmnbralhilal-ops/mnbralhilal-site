@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T21:09:23.378Z",
+ "updated": "2026-10-25T21:37:38.442Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1655,6 +1655,36 @@
        "name": "Juventus",
        "ar": "يوفنتوس",
        "logo": "https://media.api-sports.io/football/teams/496.png"
+      },
+      "goals": [
+       0,
+       2
+      ]
+     },
+     {
+      "id": 1550166,
+      "date": "2026-10-25T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Udine",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 8"
+      },
+      "home": {
+       "id": 494,
+       "name": "Udinese",
+       "ar": "أودينيزي",
+       "logo": "https://media.api-sports.io/football/teams/494.png"
+      },
+      "away": {
+       "id": 489,
+       "name": "AC Milan",
+       "ar": "ميلان",
+       "logo": "https://media.api-sports.io/football/teams/489.png"
       },
       "goals": [
        0,
@@ -4545,6 +4575,6 @@
   }
  },
  "errors": [],
- "requests": 25,
+ "requests": 24,
  "plan": "Pro"
 }
