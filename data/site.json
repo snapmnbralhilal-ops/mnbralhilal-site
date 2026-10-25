@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:09:56.505Z",
+ "updated": "2026-10-25T12:46:26.427Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1047,8 +1047,8 @@
      {
       "id": 1550161,
       "date": "2026-10-25T14:30:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1608,8 +1608,8 @@
      {
       "id": 1552202,
       "date": "2026-10-25T14:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 70,
       "venue": "Sitard",
       "league": {
        "id": 88,
