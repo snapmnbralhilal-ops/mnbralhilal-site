@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T22:28:33.351Z",
+ "updated": "2026-10-25T22:53:44.552Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2146,6 +2146,36 @@
        0,
        4
       ]
+     },
+     {
+      "id": 1575525,
+      "date": "2026-10-25T23:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Lisbon",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 228,
+       "name": "Sporting CP",
+       "ar": "سبورتينغ لشبونة",
+       "logo": "https://media.api-sports.io/football/teams/228.png"
+      },
+      "away": {
+       "id": 238,
+       "name": "Academico Viseu",
+       "ar": "Academico Viseu",
+       "logo": "https://media.api-sports.io/football/teams/238.png"
+      },
+      "goals": [
+       1,
+       2
+      ]
      }
     ]
    },
@@ -3746,6 +3776,22 @@
     {
      "rank": 4,
      "team": {
+      "id": 489,
+      "name": "AC Milan",
+      "ar": "ميلان",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+     },
+     "points": 18,
+     "gd": 9,
+     "played": 8,
+     "win": 5,
+     "draw": 3,
+     "lose": 0,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
       "id": 895,
       "name": "Como",
       "ar": "كومو",
@@ -3757,22 +3803,6 @@
      "win": 5,
      "draw": 2,
      "lose": 1,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 5,
-     "team": {
-      "id": 489,
-      "name": "AC Milan",
-      "ar": "ميلان",
-      "logo": "https://media.api-sports.io/football/teams/489.png"
-     },
-     "points": 15,
-     "gd": 7,
-     "played": 7,
-     "win": 4,
-     "draw": 3,
-     "lose": 0,
      "description": "Europa League league stage"
     },
     {
@@ -3960,11 +3990,11 @@
       "logo": "https://media.api-sports.io/football/teams/494.png"
      },
      "points": 4,
-     "gd": -7,
-     "played": 7,
+     "gd": -9,
+     "played": 8,
      "win": 1,
      "draw": 1,
-     "lose": 5,
+     "lose": 6,
      "description": ""
     },
     {
@@ -4605,6 +4635,6 @@
   }
  },
  "errors": [],
- "requests": 19,
+ "requests": 17,
  "plan": "Pro"
 }
