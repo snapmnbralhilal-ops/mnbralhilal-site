@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:48:34.171Z",
+ "updated": "2026-10-25T17:12:21.901Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -907,7 +907,7 @@
       "id": 1557446,
       "date": "2026-10-25T19:30:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 42,
       "venue": "Sunderland",
       "league": {
        "id": 39,
@@ -975,8 +975,8 @@
      {
       "id": 1570427,
       "date": "2026-10-25T18:15:00+03:00",
-      "status": "2H",
-      "elapsed": 76,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Vigo",
       "league": {
        "id": 140,
@@ -1158,8 +1158,8 @@
      {
       "id": 1550163,
       "date": "2026-10-25T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1180,7 +1180,10 @@
        "ar": "يوفنتوس",
        "logo": "https://media.api-sports.io/football/teams/496.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550166,
@@ -1252,7 +1255,7 @@
       "id": 1575198,
       "date": "2026-10-25T19:30:00+03:00",
       "status": "1H",
-      "elapsed": 19,
+      "elapsed": 43,
       "venue": "Freiburg",
       "league": {
        "id": 78,
@@ -1320,8 +1323,8 @@
      {
       "id": 1552792,
       "date": "2026-10-25T19:15:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Angers",
       "league": {
        "id": 61,
@@ -1350,8 +1353,8 @@
      {
       "id": 1552793,
       "date": "2026-10-25T19:15:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Auxerre",
       "league": {
        "id": 61,
@@ -1380,8 +1383,8 @@
      {
       "id": 1552796,
       "date": "2026-10-25T19:15:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Marseille",
       "league": {
        "id": 61,
@@ -1403,15 +1406,15 @@
        "logo": "https://media.api-sports.io/football/teams/111.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1552798,
       "date": "2026-10-25T19:15:00+03:00",
-      "status": "1H",
-      "elapsed": 34,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rennes",
       "league": {
        "id": 61,
@@ -1433,15 +1436,15 @@
        "logo": "https://media.api-sports.io/football/teams/95.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
      {
       "id": 1552799,
       "date": "2026-10-25T19:15:00+03:00",
-      "status": "1H",
-      "elapsed": 33,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Toulouse",
       "league": {
        "id": 61,
@@ -1479,8 +1482,8 @@
      {
       "id": 1646855,
       "date": "2026-10-25T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Zemamra",
       "league": {
        "id": 200,
@@ -1546,7 +1549,7 @@
       "id": 1575519,
       "date": "2026-10-25T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 81,
       "venue": "Cascais",
       "league": {
        "id": 94,
@@ -1755,8 +1758,8 @@
      {
       "id": 1552205,
       "date": "2026-10-25T18:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1851,8 +1854,8 @@
      {
       "id": 1584444,
       "date": "2026-10-25T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Izmir",
       "league": {
        "id": 203,
