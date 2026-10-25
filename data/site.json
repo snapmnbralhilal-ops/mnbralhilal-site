@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:18:03.121Z",
+ "updated": "2026-10-25T11:48:12.201Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1047,8 +1047,8 @@
      {
       "id": 1550161,
       "date": "2026-10-25T14:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1069,7 +1069,10 @@
        "ar": "فيورنتينا",
        "logo": "https://media.api-sports.io/football/teams/502.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550157,
@@ -1605,8 +1608,8 @@
      {
       "id": 1552202,
       "date": "2026-10-25T14:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Sitard",
       "league": {
        "id": 88,
@@ -1627,7 +1630,10 @@
        "ar": "Excelsior",
        "logo": "https://media.api-sports.io/football/teams/196.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552203,
@@ -5282,7 +5288,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 61,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 14,
  "plan": "Pro"
 }
