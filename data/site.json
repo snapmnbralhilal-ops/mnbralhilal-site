@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T01:20:37.399Z",
+ "updated": "2026-10-25T01:57:15.365Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1842,8 +1842,8 @@
      {
       "id": 1490559,
       "date": "2026-10-25T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Orlando",
       "league": {
        "id": 253,
@@ -1866,14 +1866,14 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
       "id": 1490560,
       "date": "2026-10-25T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Washington",
       "league": {
        "id": 253,
@@ -1902,8 +1902,8 @@
      {
       "id": 1490561,
       "date": "2026-10-25T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Philadelphia",
       "league": {
        "id": 253,
@@ -1925,15 +1925,15 @@
        "logo": "https://media.api-sports.io/football/teams/1609.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      },
      {
       "id": 1490562,
       "date": "2026-10-25T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1962,8 +1962,8 @@
      {
       "id": 1490563,
       "date": "2026-10-25T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Houston",
       "league": {
        "id": 253,
@@ -1992,8 +1992,8 @@
      {
       "id": 1490564,
       "date": "2026-10-25T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Frisco",
       "league": {
        "id": 253,
@@ -2022,8 +2022,8 @@
      {
       "id": 1490565,
       "date": "2026-10-25T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Kansas City",
       "league": {
        "id": 253,
@@ -2045,15 +2045,15 @@
        "logo": "https://media.api-sports.io/football/teams/16489.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1490566,
       "date": "2026-10-25T05:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -2074,13 +2074,16 @@
        "ar": "Vancouver Whitecaps",
        "logo": "https://media.api-sports.io/football/teams/1603.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490567,
       "date": "2026-10-25T05:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Sandy",
       "league": {
        "id": 253,
@@ -2101,7 +2104,10 @@
        "ar": "St. Louis City",
        "logo": "https://media.api-sports.io/football/teams/20787.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490568,
@@ -3256,7 +3262,7 @@
       "date": "2026-10-24T13:30:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Esenyurt",
+      "venue": "Istanbul",
       "league": {
        "id": 203,
        "name": "Süper Lig",
