@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T03:29:19.830Z",
+ "updated": "2026-10-25T04:05:56.673Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2052,7 +2052,7 @@
      {
       "id": 1490566,
       "date": "2026-10-25T05:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Trade City",
       "league": {
@@ -2082,7 +2082,7 @@
      {
       "id": 1490567,
       "date": "2026-10-25T05:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Sandy",
       "league": {
@@ -2112,8 +2112,8 @@
      {
       "id": 1490568,
       "date": "2026-10-25T05:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 69,
       "venue": "San Diego",
       "league": {
        "id": 253,
@@ -2135,15 +2135,15 @@
        "logo": "https://media.api-sports.io/football/teams/1595.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       2
       ]
      },
      {
       "id": 1490569,
       "date": "2026-10-25T05:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Portland",
       "league": {
        "id": 253,
@@ -3268,7 +3268,7 @@
       "date": "2026-10-24T13:30:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Istanbul",
+      "venue": "Esenyurt",
       "league": {
        "id": 203,
        "name": "Süper Lig",
