@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:47:50.863Z",
+ "updated": "2026-10-25T16:11:24.860Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,7 +786,7 @@
      {
       "id": 1557441,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "London",
       "league": {
@@ -816,7 +816,7 @@
      {
       "id": 1557442,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Hull",
       "league": {
@@ -846,8 +846,8 @@
      {
       "id": 1557444,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -876,8 +876,8 @@
      {
       "id": 1557445,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -972,8 +972,8 @@
      {
       "id": 1570427,
       "date": "2026-10-25T18:15:00+03:00",
-      "status": "1H",
-      "elapsed": 32,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Vigo",
       "league": {
        "id": 140,
@@ -1095,8 +1095,8 @@
      {
       "id": 1550157,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bergamo",
       "league": {
        "id": 135,
@@ -1125,8 +1125,8 @@
      {
       "id": 1550160,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Genoa",
       "league": {
        "id": 135,
@@ -1219,7 +1219,7 @@
       "id": 1575197,
       "date": "2026-10-25T17:30:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 80,
       "venue": "Sinsheim",
       "league": {
        "id": 78,
@@ -1241,7 +1241,7 @@
        "logo": "https://media.api-sports.io/football/teams/168.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1284,8 +1284,8 @@
      {
       "id": 1552797,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Monaco",
       "league": {
        "id": 61,
@@ -1458,8 +1458,8 @@
      {
       "id": 1646855,
       "date": "2026-10-25T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Zemamra",
       "league": {
        "id": 200,
@@ -1480,7 +1480,10 @@
        "ar": "FUS Rabat",
        "logo": "https://media.api-sports.io/football/teams/977.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1646856,
@@ -1522,7 +1525,7 @@
       "id": 1575519,
       "date": "2026-10-25T18:30:00+03:00",
       "status": "1H",
-      "elapsed": 15,
+      "elapsed": 39,
       "venue": "Cascais",
       "league": {
        "id": 94,
@@ -1545,7 +1548,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
@@ -1731,8 +1734,8 @@
      {
       "id": 1552205,
       "date": "2026-10-25T18:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1753,7 +1756,10 @@
        "ar": "أياكس",
        "logo": "https://media.api-sports.io/football/teams/194.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1552206,
@@ -1824,8 +1830,8 @@
      {
       "id": 1584444,
       "date": "2026-10-25T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Izmir",
       "league": {
        "id": 203,
@@ -1846,7 +1852,10 @@
        "ar": "Çorum FK",
        "logo": "https://media.api-sports.io/football/teams/6343.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -5331,6 +5340,6 @@
   }
  },
  "errors": [],
- "requests": 31,
+ "requests": 32,
  "plan": "Pro"
 }
