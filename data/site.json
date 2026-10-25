@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T23:46:09.556Z",
+ "updated": "2026-10-25T00:03:29.247Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1843,7 +1843,7 @@
       "id": 1490559,
       "date": "2026-10-25T02:30:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 23,
       "venue": "Orlando",
       "league": {
        "id": 253,
@@ -1866,14 +1866,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1490560,
       "date": "2026-10-25T02:30:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 23,
       "venue": "Washington",
       "league": {
        "id": 253,
@@ -1903,7 +1903,7 @@
       "id": 1490561,
       "date": "2026-10-25T02:30:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 23,
       "venue": "Philadelphia",
       "league": {
        "id": 253,
@@ -1933,7 +1933,7 @@
       "id": 1490562,
       "date": "2026-10-25T02:30:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 23,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -5262,6 +5262,6 @@
   }
  },
  "errors": [],
- "requests": 17,
+ "requests": 16,
  "plan": "Pro"
 }
