@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:55:06.267Z",
+ "updated": "2026-10-25T14:18:16.300Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1557441,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "London",
       "league": {
        "id": 39,
@@ -808,13 +808,16 @@
        "ar": "نيوكاسل",
        "logo": "https://media.api-sports.io/football/teams/34.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1557442,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Hull",
       "league": {
        "id": 39,
@@ -835,13 +838,16 @@
        "ar": "برينتفورد",
        "logo": "https://media.api-sports.io/football/teams/55.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1557444,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -862,13 +868,16 @@
        "ar": "برايتون",
        "logo": "https://media.api-sports.io/football/teams/51.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1557445,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -889,7 +898,10 @@
        "ar": "بورنموث",
        "logo": "https://media.api-sports.io/football/teams/35.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1557446,
@@ -930,8 +942,8 @@
      {
       "id": 1570424,
       "date": "2026-10-25T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Bilbao",
       "league": {
        "id": 140,
@@ -1080,8 +1092,8 @@
      {
       "id": 1550157,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Bergamo",
       "league": {
        "id": 135,
@@ -1102,13 +1114,16 @@
        "ar": "فروزينوني",
        "logo": "https://media.api-sports.io/football/teams/512.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      },
      {
       "id": 1550160,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Genoa",
       "league": {
        "id": 135,
@@ -1129,7 +1144,10 @@
        "ar": "فينيسيا",
        "logo": "https://media.api-sports.io/football/teams/517.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550163,
@@ -1260,8 +1278,8 @@
      {
       "id": 1552797,
       "date": "2026-10-25T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Monaco",
       "league": {
        "id": 61,
@@ -1282,7 +1300,10 @@
        "ar": "ليل",
        "logo": "https://media.api-sports.io/football/teams/79.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552792,
@@ -1642,7 +1663,7 @@
       "id": 1552203,
       "date": "2026-10-25T16:30:00+03:00",
       "status": "1H",
-      "elapsed": 24,
+      "elapsed": 45,
       "venue": "Nijmegen",
       "league": {
        "id": 88,
@@ -1665,14 +1686,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1552204,
       "date": "2026-10-25T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Eindhoven",
       "league": {
        "id": 88,
@@ -1764,8 +1785,8 @@
      {
       "id": 1584445,
       "date": "2026-10-25T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Konya",
       "league": {
        "id": 203,
@@ -1787,7 +1808,7 @@
        "logo": "https://media.api-sports.io/football/teams/997.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -5301,6 +5322,6 @@
   }
  },
  "errors": [],
- "requests": 23,
+ "requests": 24,
  "plan": "Pro"
 }
