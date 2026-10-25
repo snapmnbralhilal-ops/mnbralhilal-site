@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T17:44:46.910Z",
+ "updated": "2026-10-25T18:06:52.916Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -907,7 +907,7 @@
       "id": 1557446,
       "date": "2026-10-25T19:30:00+03:00",
       "status": "2H",
-      "elapsed": 57,
+      "elapsed": 80,
       "venue": "Sunderland",
       "league": {
        "id": 39,
@@ -1006,7 +1006,7 @@
       "id": 1570430,
       "date": "2026-10-25T20:30:00+03:00",
       "status": "1H",
-      "elapsed": 14,
+      "elapsed": 37,
       "venue": "San Sebastian",
       "league": {
        "id": 140,
@@ -1028,8 +1028,8 @@
        "logo": "https://media.api-sports.io/football/teams/539.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      },
      {
@@ -1161,8 +1161,8 @@
      {
       "id": 1550163,
       "date": "2026-10-25T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1185,7 +1185,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -1258,7 +1258,7 @@
       "id": 1575198,
       "date": "2026-10-25T19:30:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 77,
       "venue": "Freiburg",
       "league": {
        "id": 78,
@@ -1326,8 +1326,8 @@
      {
       "id": 1552792,
       "date": "2026-10-25T19:15:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Angers",
       "league": {
        "id": 61,
@@ -1357,7 +1357,7 @@
       "id": 1552793,
       "date": "2026-10-25T19:15:00+03:00",
       "status": "2H",
-      "elapsed": 73,
+      "elapsed": 90,
       "venue": "Auxerre",
       "league": {
        "id": 61,
@@ -1387,7 +1387,7 @@
       "id": 1552796,
       "date": "2026-10-25T19:15:00+03:00",
       "status": "2H",
-      "elapsed": 72,
+      "elapsed": 90,
       "venue": "Marseille",
       "league": {
        "id": 61,
@@ -1410,14 +1410,14 @@
       },
       "goals": [
        4,
-       0
+       3
       ]
      },
      {
       "id": 1552798,
       "date": "2026-10-25T19:15:00+03:00",
       "status": "2H",
-      "elapsed": 70,
+      "elapsed": 90,
       "venue": "Rennes",
       "league": {
        "id": 61,
@@ -1447,7 +1447,7 @@
       "id": 1552799,
       "date": "2026-10-25T19:15:00+03:00",
       "status": "2H",
-      "elapsed": 73,
+      "elapsed": 90,
       "venue": "Toulouse",
       "league": {
        "id": 61,
@@ -1485,8 +1485,8 @@
      {
       "id": 1646855,
       "date": "2026-10-25T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Zemamra",
       "league": {
        "id": 200,
@@ -1515,8 +1515,8 @@
      {
       "id": 1646856,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Marrakech",
       "league": {
        "id": 200,
@@ -1537,7 +1537,10 @@
        "ar": "Difaa EL Jadida",
        "logo": "https://media.api-sports.io/football/teams/964.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1581,8 +1584,8 @@
      {
       "id": 1575522,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Funchal",
       "league": {
        "id": 94,
@@ -1603,13 +1606,16 @@
        "ar": "SC Braga",
        "logo": "https://media.api-sports.io/football/teams/217.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575523,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Condi Town",
       "league": {
        "id": 94,
@@ -1630,7 +1636,10 @@
        "ar": "Famalicao",
        "logo": "https://media.api-sports.io/football/teams/242.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575525,
@@ -1857,8 +1866,8 @@
      {
       "id": 1584444,
       "date": "2026-10-25T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Izmir",
       "league": {
        "id": 203,
