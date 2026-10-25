@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:48:12.201Z",
+ "updated": "2026-10-25T12:09:56.505Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1048,7 +1048,7 @@
       "id": 1550161,
       "date": "2026-10-25T14:30:00+03:00",
       "status": "1H",
-      "elapsed": 16,
+      "elapsed": 38,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1608,8 +1608,8 @@
      {
       "id": 1552202,
       "date": "2026-10-25T14:15:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Sitard",
       "league": {
        "id": 88,
@@ -5288,18 +5288,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 61,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
- "requests": 14,
+ "errors": [],
+ "requests": 15,
  "plan": "Pro"
 }
