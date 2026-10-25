@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T19:57:11.866Z",
+ "updated": "2026-10-25T20:18:10.944Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1035,8 +1035,8 @@
      {
       "id": 1570426,
       "date": "2026-10-25T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Barcelona",
       "league": {
        "id": 140,
@@ -1057,7 +1057,10 @@
        "ar": "ريال مدريد",
        "logo": "https://media.api-sports.io/football/teams/541.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1192,7 +1195,7 @@
       "id": 1550166,
       "date": "2026-10-25T22:45:00+03:00",
       "status": "1H",
-      "elapsed": 12,
+      "elapsed": 33,
       "venue": "Udine",
       "league": {
        "id": 135,
@@ -1518,7 +1521,7 @@
      {
       "id": 1646856,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Marrakech",
       "league": {
@@ -1587,7 +1590,7 @@
      {
       "id": 1575522,
       "date": "2026-10-25T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Funchal",
       "league": {
@@ -1803,8 +1806,8 @@
      {
       "id": 1552206,
       "date": "2026-10-25T22:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Alkmaar",
       "league": {
        "id": 88,
@@ -5383,33 +5386,16 @@
  },
  "errors": [
   {
-   "endpoint": "fixtures",
+   "endpoint": "standings",
    "params": {
-    "id": 1550157
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "id": 1557441
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "id": 1557444
+    "league": 39,
+    "season": 2026
    },
    "error": [
     "Too many requests. You have exceeded the limit of requests per minute of your subscription."
    ]
   }
  ],
- "requests": 33,
+ "requests": 26,
  "plan": "Pro"
 }
