@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:11:46.477Z",
+ "updated": "2026-10-25T15:47:50.863Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -787,7 +787,7 @@
       "id": 1557441,
       "date": "2026-10-25T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -810,14 +810,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1557442,
       "date": "2026-10-25T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 90,
       "venue": "Hull",
       "league": {
        "id": 39,
@@ -840,14 +840,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1557444,
       "date": "2026-10-25T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 89,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -877,7 +877,7 @@
       "id": 1557445,
       "date": "2026-10-25T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 89,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -900,7 +900,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      },
      {
@@ -972,8 +972,8 @@
      {
       "id": 1570427,
       "date": "2026-10-25T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 32,
       "venue": "Vigo",
       "league": {
        "id": 140,
@@ -994,7 +994,10 @@
        "ar": "ريال بيتيس",
        "logo": "https://media.api-sports.io/football/teams/543.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570430,
@@ -1093,7 +1096,7 @@
       "id": 1550157,
       "date": "2026-10-25T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 89,
       "venue": "Bergamo",
       "league": {
        "id": 135,
@@ -1116,14 +1119,14 @@
       },
       "goals": [
        4,
-       3
+       4
       ]
      },
      {
       "id": 1550160,
       "date": "2026-10-25T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 89,
       "venue": "Genoa",
       "league": {
        "id": 135,
@@ -1215,8 +1218,8 @@
      {
       "id": 1575197,
       "date": "2026-10-25T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Sinsheim",
       "league": {
        "id": 78,
@@ -1282,7 +1285,7 @@
       "id": 1552797,
       "date": "2026-10-25T17:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 89,
       "venue": "Monaco",
       "league": {
        "id": 61,
@@ -1304,7 +1307,7 @@
        "logo": "https://media.api-sports.io/football/teams/79.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1518,8 +1521,8 @@
      {
       "id": 1575519,
       "date": "2026-10-25T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Cascais",
       "league": {
        "id": 94,
@@ -1540,7 +1543,10 @@
        "ar": "Moreirense",
        "logo": "https://media.api-sports.io/football/teams/215.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1575522,
@@ -1665,8 +1671,8 @@
      {
       "id": 1552203,
       "date": "2026-10-25T16:30:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Nijmegen",
       "league": {
        "id": 88,
@@ -1695,8 +1701,8 @@
      {
       "id": 1552204,
       "date": "2026-10-25T16:30:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Eindhoven",
       "league": {
        "id": 88,
@@ -5325,6 +5331,6 @@
   }
  },
  "errors": [],
- "requests": 24,
+ "requests": 31,
  "plan": "Pro"
 }
