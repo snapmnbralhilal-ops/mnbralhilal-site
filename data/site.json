@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:05:56.673Z",
+ "updated": "2026-10-25T04:35:31.268Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2113,7 +2113,7 @@
       "id": 1490568,
       "date": "2026-10-25T05:30:00+03:00",
       "status": "2H",
-      "elapsed": 69,
+      "elapsed": 90,
       "venue": "San Diego",
       "league": {
        "id": 253,
@@ -2135,7 +2135,7 @@
        "logo": "https://media.api-sports.io/football/teams/1595.png"
       },
       "goals": [
-       1,
+       2,
        2
       ]
      },
@@ -2143,7 +2143,7 @@
       "id": 1490569,
       "date": "2026-10-25T05:30:00+03:00",
       "status": "2H",
-      "elapsed": 65,
+      "elapsed": 90,
       "venue": "Portland",
       "league": {
        "id": 253,
@@ -2166,7 +2166,7 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      }
     ]
