@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T19:29:50.052Z",
+ "updated": "2026-10-26T20:06:07.281Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -904,7 +904,7 @@
       "id": 1629947,
       "date": "2026-10-26T21:15:00+03:00",
       "status": "2H",
-      "elapsed": 55,
+      "elapsed": 90,
       "venue": "Daman",
       "league": {
        "id": 17,
@@ -926,15 +926,15 @@
        "logo": "https://media.api-sports.io/football/teams/2895.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
       "id": 1629948,
       "date": "2026-10-26T21:15:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 89,
       "venue": "Baghdad",
       "league": {
        "id": 17,
@@ -956,7 +956,7 @@
        "logo": "https://media.api-sports.io/football/teams/4220.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1068,8 +1068,8 @@
      {
       "id": 1570431,
       "date": "2026-10-26T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -1090,7 +1090,10 @@
        "ar": "أوساسونا",
        "logo": "https://media.api-sports.io/football/teams/727.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1104,8 +1107,8 @@
      {
       "id": 1552800,
       "date": "2026-10-26T22:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "Paris",
       "league": {
        "id": 61,
@@ -1126,7 +1129,10 @@
        "ar": "ليون",
        "logo": "https://media.api-sports.io/football/teams/80.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1140,8 +1146,8 @@
      {
       "id": 1575524,
       "date": "2026-10-26T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 43,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Ponta Delgada",
       "league": {
        "id": 94,
@@ -1239,8 +1245,8 @@
      {
       "id": 1584442,
       "date": "2026-10-26T21:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 77,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1263,7 +1269,7 @@
       },
       "goals": [
        2,
-       0
+       1
       ]
      }
     ]
