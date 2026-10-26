@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T11:47:20.017Z",
+ "updated": "2026-10-26T14:09:06.749Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1629943,
       "date": "2026-10-26T16:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Fergana",
       "league": {
        "id": 17,
@@ -808,7 +808,10 @@
        "ar": "الاتحاد",
        "logo": "https://media.api-sports.io/football/teams/2938.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1629944,
