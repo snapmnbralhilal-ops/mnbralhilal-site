@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T18:49:53.607Z",
+ "updated": "2026-10-26T19:29:50.052Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -903,8 +903,8 @@
      {
       "id": 1629947,
       "date": "2026-10-26T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Daman",
       "league": {
        "id": 17,
@@ -933,8 +933,8 @@
      {
       "id": 1629948,
       "date": "2026-10-26T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Baghdad",
       "league": {
        "id": 17,
@@ -1141,7 +1141,7 @@
       "id": 1575524,
       "date": "2026-10-26T21:45:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 43,
       "venue": "Ponta Delgada",
       "league": {
        "id": 94,
@@ -1163,7 +1163,7 @@
        "logo": "https://media.api-sports.io/football/teams/211.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1239,8 +1239,8 @@
      {
       "id": 1584442,
       "date": "2026-10-26T21:30:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1262,7 +1262,7 @@
        "logo": "https://media.api-sports.io/football/teams/611.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      }
@@ -4671,6 +4671,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
