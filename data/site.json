@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:49:40.912Z",
+ "updated": "2026-10-26T22:17:01.640Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2067,6 +2067,45 @@
       "goals": [
        3,
        1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 140,
+     "name": "La Liga",
+     "logo": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    "matches": [
+     {
+      "id": 1570431,
+      "date": "2026-10-26T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Seville",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 536,
+       "name": "Sevilla",
+       "ar": "إشبيلية",
+       "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "away": {
+       "id": 727,
+       "name": "Osasuna",
+       "ar": "أوساسونا",
+       "logo": "https://media.api-sports.io/football/teams/727.png"
+      },
+      "goals": [
+       2,
+       0
       ]
      }
     ]
