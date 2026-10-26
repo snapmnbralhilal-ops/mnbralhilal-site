@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T17:21:23.126Z",
+ "updated": "2026-10-26T18:04:27.560Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1629944,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 59,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -839,15 +839,15 @@
        "logo": "https://media.api-sports.io/football/teams/2903.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
      {
       "id": 1629945,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 62,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Al Ain",
       "league": {
        "id": 17,
@@ -869,7 +869,7 @@
        "logo": "https://media.api-sports.io/football/teams/2737.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
@@ -1023,8 +1023,8 @@
      {
       "id": 1604038,
       "date": "2026-10-26T19:45:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Medina",
       "league": {
        "id": 308,
@@ -1047,7 +1047,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1170,8 +1170,8 @@
      {
       "id": 1584440,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 63,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1193,15 +1193,15 @@
        "logo": "https://media.api-sports.io/football/teams/564.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
      {
       "id": 1584446,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 63,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Rize",
       "league": {
        "id": 203,
@@ -1223,8 +1223,8 @@
        "logo": "https://media.api-sports.io/football/teams/998.png"
       },
       "goals": [
-       2,
-       3
+       3,
+       4
       ]
      },
      {
