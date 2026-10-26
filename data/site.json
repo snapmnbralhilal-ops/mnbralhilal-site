@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T16:31:35.958Z",
+ "updated": "2026-10-26T17:21:23.126Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -816,8 +816,8 @@
      {
       "id": 1629944,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -840,14 +840,14 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
       "id": 1629945,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Al Ain",
       "league": {
        "id": 17,
@@ -870,7 +870,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
@@ -993,8 +993,8 @@
      {
       "id": 1604037,
       "date": "2026-10-26T18:00:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Al Bukayriyah Club Stadium",
       "league": {
        "id": 308,
@@ -1023,8 +1023,8 @@
      {
       "id": 1604038,
       "date": "2026-10-26T19:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Medina",
       "league": {
        "id": 308,
@@ -1045,7 +1045,10 @@
        "ar": "Al Orubah",
        "logo": "https://media.api-sports.io/football/teams/2961.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1167,8 +1170,8 @@
      {
       "id": 1584440,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1197,8 +1200,8 @@
      {
       "id": 1584446,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 32,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Rize",
       "league": {
        "id": 203,
@@ -1220,8 +1223,8 @@
        "logo": "https://media.api-sports.io/football/teams/998.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       3
       ]
      },
      {
