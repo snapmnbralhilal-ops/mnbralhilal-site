@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T15:39:49.218Z",
+ "updated": "2026-10-26T16:31:35.958Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,7 +786,7 @@
      {
       "id": 1629943,
       "date": "2026-10-26T16:45:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Fergana",
       "league": {
@@ -816,8 +816,8 @@
      {
       "id": 1629944,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -838,13 +838,16 @@
        "ar": "الغرافة",
        "logo": "https://media.api-sports.io/football/teams/2903.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1629945,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Al Ain",
       "league": {
        "id": 17,
@@ -865,7 +868,10 @@
        "ar": "Tractor Sazi",
        "logo": "https://media.api-sports.io/football/teams/2737.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1629946,
@@ -987,8 +993,8 @@
      {
       "id": 1604037,
       "date": "2026-10-26T18:00:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 70,
       "venue": "Al Bukayriyah Club Stadium",
       "league": {
        "id": 308,
@@ -1161,8 +1167,8 @@
      {
       "id": 1584440,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1183,13 +1189,16 @@
        "ar": "Başakşehir",
        "logo": "https://media.api-sports.io/football/teams/564.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1584446,
       "date": "2026-10-26T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 32,
       "venue": "Rize",
       "league": {
        "id": 203,
@@ -1210,7 +1219,10 @@
        "ar": "Trabzonspor",
        "logo": "https://media.api-sports.io/football/teams/998.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1584442,
