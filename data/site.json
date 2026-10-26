@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T14:09:06.749Z",
+ "updated": "2026-10-26T15:39:49.218Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -580,7 +580,7 @@
     "date": "2026-08-20T21:00:00+03:00",
     "status": "FT",
     "elapsed": 90,
-    "venue": "Buraidah",
+    "venue": "Al Majmaah",
     "league": {
      "id": 307,
      "name": "Pro League",
@@ -786,8 +786,8 @@
      {
       "id": 1629943,
       "date": "2026-10-26T16:45:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Fergana",
       "league": {
        "id": 17,
@@ -810,7 +810,7 @@
       },
       "goals": [
        1,
-       0
+       2
       ]
      },
      {
@@ -987,8 +987,8 @@
      {
       "id": 1604037,
       "date": "2026-10-26T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 39,
       "venue": "Al Bukayriyah Club Stadium",
       "league": {
        "id": 308,
@@ -1009,7 +1009,10 @@
        "ar": "هجر",
        "logo": "https://media.api-sports.io/football/teams/2948.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      },
      {
       "id": 1604038,
