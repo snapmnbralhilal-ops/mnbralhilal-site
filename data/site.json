@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T02:17:36.763Z",
+ "updated": "2026-10-26T02:56:29.650Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1245,8 +1245,8 @@
      {
       "id": 1490570,
       "date": "2026-10-26T04:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 82,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -1268,8 +1268,8 @@
        "logo": "https://media.api-sports.io/football/teams/1605.png"
       },
       "goals": [
-       0,
-       1
+       2,
+       2
       ]
      }
     ]
@@ -4637,28 +4637,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 78,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "players/topscorers",
-   "params": {
-    "league": 307,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
