@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T18:04:27.560Z",
+ "updated": "2026-10-26T18:49:53.607Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -903,8 +903,8 @@
      {
       "id": 1629947,
       "date": "2026-10-26T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Daman",
       "league": {
        "id": 17,
@@ -925,13 +925,16 @@
        "ar": "السد",
        "logo": "https://media.api-sports.io/football/teams/2895.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629948,
       "date": "2026-10-26T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Baghdad",
       "league": {
        "id": 17,
@@ -952,7 +955,10 @@
        "ar": "Pakhtakor",
        "logo": "https://media.api-sports.io/football/teams/4220.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1023,8 +1029,8 @@
      {
       "id": 1604038,
       "date": "2026-10-26T19:45:00+03:00",
-      "status": "2H",
-      "elapsed": 59,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Medina",
       "league": {
        "id": 308,
@@ -1046,7 +1052,7 @@
        "logo": "https://media.api-sports.io/football/teams/2961.png"
       },
       "goals": [
-       0,
+       3,
        1
       ]
      }
@@ -1134,8 +1140,8 @@
      {
       "id": 1575524,
       "date": "2026-10-26T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "Ponta Delgada",
       "league": {
        "id": 94,
@@ -1156,7 +1162,10 @@
        "ar": "بنفيكا",
        "logo": "https://media.api-sports.io/football/teams/211.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1230,8 +1239,8 @@
      {
       "id": 1584442,
       "date": "2026-10-26T21:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1252,7 +1261,10 @@
        "ar": "فنربخشة",
        "logo": "https://media.api-sports.io/football/teams/611.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -4659,6 +4671,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 14,
  "plan": "Pro"
 }
