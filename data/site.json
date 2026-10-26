@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T00:57:06.764Z",
+ "updated": "2026-10-26T01:39:06.040Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1245,8 +1245,8 @@
      {
       "id": 1490570,
       "date": "2026-10-26T04:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 26,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -1267,7 +1267,10 @@
        "ar": "Los Angeles Galaxy",
        "logo": "https://media.api-sports.io/football/teams/1605.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
