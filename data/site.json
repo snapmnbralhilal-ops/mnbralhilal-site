@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T00:04:42.125Z",
+ "updated": "2026-10-26T00:57:06.764Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -957,7 +957,7 @@
      {
       "id": 1604036,
       "date": "2026-10-26T18:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Hotat Bani Tamim",
       "league": {
