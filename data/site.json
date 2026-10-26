@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:12:51.042Z",
+ "updated": "2026-10-26T21:49:40.912Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2067,6 +2067,45 @@
       "goals": [
        3,
        1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 61,
+     "name": "Ligue 1",
+     "logo": "https://media.api-sports.io/football/leagues/61.png"
+    },
+    "matches": [
+     {
+      "id": 1552800,
+      "date": "2026-10-26T22:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Paris",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 8"
+      },
+      "home": {
+       "id": 85,
+       "name": "Paris Saint Germain",
+       "ar": "باريس سان جيرمان",
+       "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "away": {
+       "id": 80,
+       "name": "Lyon",
+       "ar": "ليون",
+       "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "goals": [
+       2,
+       0
       ]
      }
     ]
