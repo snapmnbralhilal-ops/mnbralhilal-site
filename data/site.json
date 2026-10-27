@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T22:27:25.283Z",
+ "updated": "2026-10-27T23:02:00.395Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3306,6 +3306,36 @@
       ]
      },
      {
+      "id": 1644372,
+      "date": "2026-10-27T23:00:00+03:00",
+      "status": "AET",
+      "elapsed": 120,
+      "venue": "Huelva",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9410,
+       "name": "Recreativo Huelva",
+       "ar": "Recreativo Huelva",
+       "logo": "https://media.api-sports.io/football/teams/9410.png"
+      },
+      "away": {
+       "id": 728,
+       "name": "Rayo Vallecano",
+       "ar": "رايو فايكانو",
+       "logo": "https://media.api-sports.io/football/teams/728.png"
+      },
+      "goals": [
+       2,
+       3
+      ]
+     },
+     {
       "id": 1644383,
       "date": "2026-10-27T23:00:00+03:00",
       "status": "FT",
@@ -4326,16 +4356,32 @@
       "ar": "روما",
       "logo": "https://media.api-sports.io/football/teams/497.png"
      },
-     "points": 18,
-     "gd": 13,
-     "played": 8,
-     "win": 5,
+     "points": 21,
+     "gd": 15,
+     "played": 9,
+     "win": 6,
      "draw": 3,
      "lose": 0,
      "description": "Champions League league stage"
     },
     {
      "rank": 4,
+     "team": {
+      "id": 895,
+      "name": "Como",
+      "ar": "كومو",
+      "logo": "https://media.api-sports.io/football/teams/895.png"
+     },
+     "points": 20,
+     "gd": 9,
+     "played": 9,
+     "win": 6,
+     "draw": 2,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
      "team": {
       "id": 489,
       "name": "AC Milan",
@@ -4348,22 +4394,6 @@
      "win": 5,
      "draw": 3,
      "lose": 0,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 5,
-     "team": {
-      "id": 895,
-      "name": "Como",
-      "ar": "كومو",
-      "logo": "https://media.api-sports.io/football/teams/895.png"
-     },
-     "points": 17,
-     "gd": 7,
-     "played": 8,
-     "win": 5,
-     "draw": 2,
-     "lose": 1,
      "description": "Europa League league stage"
     },
     {
@@ -4407,11 +4437,11 @@
       "logo": "https://media.api-sports.io/football/teams/503.png"
      },
      "points": 13,
-     "gd": 2,
-     "played": 8,
+     "gd": 0,
+     "played": 9,
      "win": 4,
      "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -4423,11 +4453,11 @@
       "logo": "https://media.api-sports.io/football/teams/490.png"
      },
      "points": 13,
-     "gd": -3,
-     "played": 8,
+     "gd": -5,
+     "played": 9,
      "win": 4,
      "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
