@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T15:31:07.719Z",
+ "updated": "2026-10-27T16:24:09.448Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1005,8 +1005,8 @@
      {
       "id": 1629955,
       "date": "2026-10-27T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Dubai",
       "league": {
        "id": 17,
@@ -1027,7 +1027,10 @@
        "ar": "استقلال",
        "logo": "https://media.api-sports.io/football/teams/2733.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629956,
@@ -1068,8 +1071,8 @@
      {
       "id": 1604039,
       "date": "2026-10-27T16:45:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Prince Abdul Aziz bin Masaad Stadium",
       "league": {
        "id": 308,
@@ -1098,8 +1101,8 @@
      {
       "id": 1604040,
       "date": "2026-10-27T18:25:00+03:00",
-      "status": "1H",
-      "elapsed": 6,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Mecca",
       "league": {
        "id": 308,
@@ -1121,7 +1124,7 @@
        "logo": "https://media.api-sports.io/football/teams/27480.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -4211,7 +4214,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 140,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 14,
  "plan": "Pro"
 }
