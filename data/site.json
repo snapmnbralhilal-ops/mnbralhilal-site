@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T11:40:03.585Z",
+ "updated": "2026-10-27T12:16:39.328Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -822,8 +822,8 @@
      {
       "id": 1629949,
       "date": "2026-10-27T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Daejeon",
       "league": {
        "id": 17,
@@ -852,8 +852,8 @@
      {
       "id": 1629950,
       "date": "2026-10-27T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 80,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Iskandarputri",
       "league": {
        "id": 17,
@@ -875,15 +875,15 @@
        "logo": "https://media.api-sports.io/football/teams/2789.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      },
      {
       "id": 1629951,
       "date": "2026-10-27T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kyoto",
       "league": {
        "id": 17,
@@ -905,15 +905,15 @@
        "logo": "https://media.api-sports.io/football/teams/946.png"
       },
       "goals": [
-       4,
+       5,
        2
       ]
      },
      {
       "id": 1629952,
       "date": "2026-10-27T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Shanghai",
       "league": {
        "id": 17,
@@ -942,8 +942,8 @@
      {
       "id": 1629953,
       "date": "2026-10-27T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Beijing",
       "league": {
        "id": 17,
@@ -964,13 +964,16 @@
        "ar": "Jeonbuk Motors",
        "logo": "https://media.api-sports.io/football/teams/2762.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629954,
       "date": "2026-10-27T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Ratchaburi",
       "league": {
        "id": 17,
@@ -991,7 +994,10 @@
        "ar": "Kashiwa Reysol",
        "logo": "https://media.api-sports.io/football/teams/281.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629955,
