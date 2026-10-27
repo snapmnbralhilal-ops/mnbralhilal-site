@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T13:10:11.419Z",
+ "updated": "2026-10-27T13:58:07.478Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -786,8 +786,8 @@
      {
       "id": 1603035,
       "date": "2026-10-27T15:40:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Khamis Mushait",
       "league": {
        "id": 307,
@@ -945,8 +945,8 @@
      {
       "id": 1629953,
       "date": "2026-10-27T15:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 85,
       "venue": "Beijing",
       "league": {
        "id": 17,
@@ -968,15 +968,15 @@
        "logo": "https://media.api-sports.io/football/teams/2762.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
       "id": 1629954,
       "date": "2026-10-27T15:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 85,
       "venue": "Ratchaburi",
       "league": {
        "id": 17,
@@ -1068,8 +1068,8 @@
      {
       "id": 1604039,
       "date": "2026-10-27T16:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Prince Abdul Aziz bin Masaad Stadium",
       "league": {
        "id": 308,
@@ -1090,7 +1090,10 @@
        "ar": "جدة",
        "logo": "https://media.api-sports.io/football/teams/2947.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604040,
