@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-27T18:38:11.971Z",
+ "updated": "2026-10-27T19:25:17.131Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1629956,
     "date": "2026-10-27T21:15:00+03:00",
-    "status": "1H",
-    "elapsed": 23,
+    "status": "2H",
+    "elapsed": 48,
     "venue": "Al Khor",
     "league": {
      "id": 17,
@@ -30,7 +30,7 @@
     },
     "goals": [
      1,
-     0
+     1
     ]
    },
    {
@@ -734,7 +734,7 @@
   {
    "tag": "الهلال",
    "title": "مباشر: الهلال يحل ضيفاً على الشمال الآن",
-   "body": "النتيجة 1-0 في دوري أبطال آسيا للنخبة.",
+   "body": "النتيجة 1-1 في دوري أبطال آسيا للنخبة.",
    "link": "#hilal",
    "breaking": true
   },
@@ -1045,8 +1045,8 @@
      {
       "id": 1629956,
       "date": "2026-10-27T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 22,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Al Khor",
       "league": {
        "id": 17,
@@ -1069,7 +1069,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1210,8 +1210,8 @@
      {
       "id": 1630376,
       "date": "2026-10-27T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
+      "status": "2H",
+      "elapsed": 53,
       "venue": "Baghdad",
       "league": {
        "id": 18,
@@ -1234,7 +1234,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1249,8 +1249,8 @@
      {
       "id": 1550174,
       "date": "2026-10-27T20:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Reggio Emilia",
       "league": {
        "id": 135,
@@ -1273,7 +1273,7 @@
       },
       "goals": [
        2,
-       4
+       6
       ]
      },
      {
@@ -1405,8 +1405,8 @@
      {
       "id": 1644352,
       "date": "2026-10-27T20:30:00+03:00",
-      "status": "2H",
-      "elapsed": 51,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cuarte de Huerva",
       "league": {
        "id": 143,
@@ -1429,14 +1429,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1644344,
       "date": "2026-10-27T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Polideportivo Jumaya",
       "league": {
        "id": 143,
@@ -1465,8 +1465,8 @@
      {
       "id": 1644367,
       "date": "2026-10-27T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "",
       "league": {
        "id": 143,
@@ -1489,14 +1489,14 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
       "id": 1644378,
       "date": "2026-10-27T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 37,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Sestao",
       "league": {
        "id": 143,
@@ -1518,15 +1518,15 @@
        "logo": "https://media.api-sports.io/football/teams/540.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
      {
       "id": 1644345,
       "date": "2026-10-27T21:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "Estadio Municipal de Castalia",
       "league": {
        "id": 143,
@@ -1547,13 +1547,16 @@
        "ar": "Almeria",
        "logo": "https://media.api-sports.io/football/teams/723.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644341,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Estadio Las Salinas",
       "league": {
        "id": 143,
@@ -1574,13 +1577,16 @@
        "ar": "Mirandes",
        "logo": "https://media.api-sports.io/football/teams/799.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1644348,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 21,
       "venue": "",
       "league": {
        "id": 143,
@@ -1601,13 +1607,16 @@
        "ar": "Rayo Majadahonda",
        "logo": "https://media.api-sports.io/football/teams/861.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644355,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Segovia",
       "league": {
        "id": 143,
@@ -1628,13 +1637,16 @@
        "ar": "Cultural Leonesa",
        "logo": "https://media.api-sports.io/football/teams/725.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644359,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "",
       "league": {
        "id": 143,
@@ -1655,13 +1667,16 @@
        "ar": "Ponferradina",
        "logo": "https://media.api-sports.io/football/teams/4907.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644375,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "",
       "league": {
        "id": 143,
@@ -1682,7 +1697,10 @@
        "ar": "Las Palmas",
        "logo": "https://media.api-sports.io/football/teams/534.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644354,
@@ -4249,6 +4267,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 16,
  "plan": "Pro"
 }
