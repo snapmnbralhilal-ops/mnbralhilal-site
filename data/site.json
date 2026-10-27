@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T19:25:17.131Z",
+ "updated": "2026-10-27T20:01:30.650Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -7,7 +7,7 @@
     "id": 1629956,
     "date": "2026-10-27T21:15:00+03:00",
     "status": "2H",
-    "elapsed": 48,
+    "elapsed": 84,
     "venue": "Al Khor",
     "league": {
      "id": 17,
@@ -29,7 +29,7 @@
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": [
-     1,
+     3,
      1
     ]
    },
@@ -734,7 +734,7 @@
   {
    "tag": "الهلال",
    "title": "مباشر: الهلال يحل ضيفاً على الشمال الآن",
-   "body": "النتيجة 1-1 في دوري أبطال آسيا للنخبة.",
+   "body": "النتيجة 3-1 في دوري أبطال آسيا للنخبة.",
    "link": "#hilal",
    "breaking": true
   },
@@ -1046,7 +1046,7 @@
       "id": 1629956,
       "date": "2026-10-27T21:15:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 84,
       "venue": "Al Khor",
       "league": {
        "id": 17,
@@ -1068,7 +1068,7 @@
        "logo": "https://media.api-sports.io/football/teams/2932.png"
       },
       "goals": [
-       1,
+       3,
        1
       ]
      }
@@ -1211,7 +1211,7 @@
       "id": 1630376,
       "date": "2026-10-27T21:15:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 89,
       "venue": "Baghdad",
       "league": {
        "id": 18,
@@ -1249,7 +1249,7 @@
      {
       "id": 1550174,
       "date": "2026-10-27T20:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Reggio Emilia",
       "league": {
@@ -1279,8 +1279,8 @@
      {
       "id": 1550168,
       "date": "2026-10-27T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1301,13 +1301,16 @@
        "ar": "كالياري",
        "logo": "https://media.api-sports.io/football/teams/490.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1550175,
       "date": "2026-10-27T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1328,7 +1331,10 @@
        "ar": "كومو",
        "logo": "https://media.api-sports.io/football/teams/895.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1342,8 +1348,8 @@
      {
       "id": 1640384,
       "date": "2026-10-27T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Bradford",
       "league": {
        "id": 48,
@@ -1364,13 +1370,16 @@
        "ar": "Peterborough",
        "logo": "https://media.api-sports.io/football/teams/1350.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1640386,
       "date": "2026-10-27T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Fleetwood",
       "league": {
        "id": 48,
@@ -1391,7 +1400,10 @@
        "ar": "آرسنال",
        "logo": "https://media.api-sports.io/football/teams/42.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1435,8 +1447,8 @@
      {
       "id": 1644344,
       "date": "2026-10-27T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 65,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Polideportivo Jumaya",
       "league": {
        "id": 143,
@@ -1459,14 +1471,14 @@
       },
       "goals": [
        0,
-       1
+       3
       ]
      },
      {
       "id": 1644367,
       "date": "2026-10-27T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 143,
@@ -1489,14 +1501,14 @@
       },
       "goals": [
        1,
-       2
+       3
       ]
      },
      {
       "id": 1644378,
       "date": "2026-10-27T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "ET",
+      "elapsed": 97,
       "venue": "Sestao",
       "league": {
        "id": 143,
@@ -1519,14 +1531,14 @@
       },
       "goals": [
        2,
-       1
+       3
       ]
      },
      {
       "id": 1644345,
       "date": "2026-10-27T21:45:00+03:00",
-      "status": "1H",
-      "elapsed": 37,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Estadio Municipal de Castalia",
       "league": {
        "id": 143,
@@ -1555,8 +1567,8 @@
      {
       "id": 1644341,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Estadio Las Salinas",
       "league": {
        "id": 143,
@@ -1578,15 +1590,15 @@
        "logo": "https://media.api-sports.io/football/teams/799.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1644348,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 21,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "",
       "league": {
        "id": 143,
@@ -1615,8 +1627,8 @@
      {
       "id": 1644355,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Segovia",
       "league": {
        "id": 143,
@@ -1639,14 +1651,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1644359,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "",
       "league": {
        "id": 143,
@@ -1669,14 +1681,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1644375,
       "date": "2026-10-27T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "",
       "league": {
        "id": 143,
@@ -1705,8 +1717,8 @@
      {
       "id": 1644354,
       "date": "2026-10-27T22:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 32,
       "venue": "",
       "league": {
        "id": 143,
@@ -1727,13 +1739,16 @@
        "ar": "Extremadura 1924",
        "logo": "https://media.api-sports.io/football/teams/24612.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644361,
       "date": "2026-10-27T22:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "",
       "league": {
        "id": 143,
@@ -1754,13 +1769,16 @@
        "ar": "Sant Andreu",
        "logo": "https://media.api-sports.io/football/teams/5277.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644333,
       "date": "2026-10-27T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "",
       "league": {
        "id": 143,
@@ -1781,13 +1799,16 @@
        "ar": "ملقة",
        "logo": "https://media.api-sports.io/football/teams/535.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644338,
       "date": "2026-10-27T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 8,
       "venue": "",
       "league": {
        "id": 143,
@@ -1808,7 +1829,10 @@
        "ar": "Pontevedra",
        "logo": "https://media.api-sports.io/football/teams/9407.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644340,
@@ -1867,8 +1891,8 @@
      {
       "id": 1644372,
       "date": "2026-10-27T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Huelva",
       "league": {
        "id": 143,
@@ -1889,13 +1913,16 @@
        "ar": "رايو فايكانو",
        "logo": "https://media.api-sports.io/football/teams/728.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644383,
       "date": "2026-10-27T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "",
       "league": {
        "id": 143,
@@ -1916,7 +1943,10 @@
        "ar": "Zaragoza",
        "logo": "https://media.api-sports.io/football/teams/732.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    }
