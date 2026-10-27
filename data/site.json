@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T21:15:40.699Z",
+ "updated": "2026-10-27T21:52:08.290Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -754,8 +754,8 @@
   },
   {
    "tag": "عالمي",
-   "title": "لاتسيو يكتسح ساسولو 6-2",
-   "body": "في الدوري الإيطالي.",
+   "title": "فياريال يكتسح Manacor 5-0",
+   "body": "في كأس ملك إسبانيا.",
    "link": "#today"
   },
   {
@@ -2686,6 +2686,105 @@
        2,
        6
       ]
+     },
+     {
+      "id": 1550168,
+      "date": "2026-10-27T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Rome",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 497,
+       "name": "AS Roma",
+       "ar": "روما",
+       "logo": "https://media.api-sports.io/football/teams/497.png"
+      },
+      "away": {
+       "id": 490,
+       "name": "Cagliari",
+       "ar": "كالياري",
+       "logo": "https://media.api-sports.io/football/teams/490.png"
+      },
+      "goals": [
+       4,
+       2
+      ]
+     },
+     {
+      "id": 1550175,
+      "date": "2026-10-27T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Turin",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 503,
+       "name": "Torino",
+       "ar": "تورينو",
+       "logo": "https://media.api-sports.io/football/teams/503.png"
+      },
+      "away": {
+       "id": 895,
+       "name": "Como",
+       "ar": "كومو",
+       "logo": "https://media.api-sports.io/football/teams/895.png"
+      },
+      "goals": [
+       1,
+       3
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 48,
+     "name": "League Cup",
+     "logo": "https://media.api-sports.io/football/leagues/48.png"
+    },
+    "matches": [
+     {
+      "id": 1640384,
+      "date": "2026-10-27T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Bradford",
+      "league": {
+       "id": 48,
+       "name": "League Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/48.png",
+       "round": "Round of 16"
+      },
+      "home": {
+       "id": 1343,
+       "name": "Bradford",
+       "ar": "Bradford",
+       "logo": "https://media.api-sports.io/football/teams/1343.png"
+      },
+      "away": {
+       "id": 1350,
+       "name": "Peterborough",
+       "ar": "Peterborough",
+       "logo": "https://media.api-sports.io/football/teams/1350.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
      }
     ]
    },
@@ -2817,6 +2916,36 @@
       ]
      },
      {
+      "id": 1644345,
+      "date": "2026-10-27T21:45:00+03:00",
+      "status": "AET",
+      "elapsed": 120,
+      "venue": "Estadio Municipal de Castalia",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 22138,
+       "name": "Castellonense",
+       "ar": "Castellonense",
+       "logo": "https://media.api-sports.io/football/teams/22138.png"
+      },
+      "away": {
+       "id": 723,
+       "name": "Almeria",
+       "ar": "Almeria",
+       "logo": "https://media.api-sports.io/football/teams/723.png"
+      },
+      "goals": [
+       1,
+       2
+      ]
+     },
+     {
       "id": 1644348,
       "date": "2026-10-27T22:00:00+03:00",
       "status": "FT",
@@ -2874,6 +3003,156 @@
       "goals": [
        0,
        1
+      ]
+     },
+     {
+      "id": 1644359,
+      "date": "2026-10-27T22:00:00+03:00",
+      "status": "PEN",
+      "elapsed": 120,
+      "venue": "",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9627,
+       "name": "Llanera",
+       "ar": "Llanera",
+       "logo": "https://media.api-sports.io/football/teams/9627.png"
+      },
+      "away": {
+       "id": 4907,
+       "name": "Ponferradina",
+       "ar": "Ponferradina",
+       "logo": "https://media.api-sports.io/football/teams/4907.png"
+      },
+      "goals": [
+       1,
+       1
+      ]
+     },
+     {
+      "id": 1644375,
+      "date": "2026-10-27T22:00:00+03:00",
+      "status": "AET",
+      "elapsed": 120,
+      "venue": "",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9714,
+       "name": "RSD Alcalá",
+       "ar": "RSD Alcalá",
+       "logo": "https://media.api-sports.io/football/teams/9714.png"
+      },
+      "away": {
+       "id": 534,
+       "name": "Las Palmas",
+       "ar": "Las Palmas",
+       "logo": "https://media.api-sports.io/football/teams/534.png"
+      },
+      "goals": [
+       1,
+       3
+      ]
+     },
+     {
+      "id": 1644333,
+      "date": "2026-10-27T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 28409,
+       "name": "Alcazar",
+       "ar": "Alcazar",
+       "logo": "https://media.api-sports.io/football/teams/28409.png"
+      },
+      "away": {
+       "id": 535,
+       "name": "Malaga",
+       "ar": "ملقة",
+       "logo": "https://media.api-sports.io/football/teams/535.png"
+      },
+      "goals": [
+       0,
+       3
+      ]
+     },
+     {
+      "id": 1644360,
+      "date": "2026-10-27T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9784,
+       "name": "Manacor",
+       "ar": "Manacor",
+       "logo": "https://media.api-sports.io/football/teams/9784.png"
+      },
+      "away": {
+       "id": 533,
+       "name": "Villarreal",
+       "ar": "فياريال",
+       "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "goals": [
+       0,
+       5
+      ]
+     },
+     {
+      "id": 1644383,
+      "date": "2026-10-27T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 5279,
+       "name": "Tudelano",
+       "ar": "Tudelano",
+       "logo": "https://media.api-sports.io/football/teams/5279.png"
+      },
+      "away": {
+       "id": 732,
+       "name": "Zaragoza",
+       "ar": "Zaragoza",
+       "logo": "https://media.api-sports.io/football/teams/732.png"
+      },
+      "goals": [
+       0,
+       4
       ]
      }
     ]
