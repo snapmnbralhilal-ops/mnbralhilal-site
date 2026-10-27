@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T11:05:33.221Z",
+ "updated": "2026-10-27T11:40:03.585Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -823,7 +823,7 @@
       "id": 1629949,
       "date": "2026-10-27T13:00:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 83,
       "venue": "Daejeon",
       "league": {
        "id": 17,
@@ -846,14 +846,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1629950,
       "date": "2026-10-27T13:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 80,
       "venue": "Iskandarputri",
       "league": {
        "id": 17,
@@ -875,15 +875,15 @@
        "logo": "https://media.api-sports.io/football/teams/2789.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
      {
       "id": 1629951,
       "date": "2026-10-27T13:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 77,
       "venue": "Kyoto",
       "league": {
        "id": 17,
@@ -905,7 +905,7 @@
        "logo": "https://media.api-sports.io/football/teams/946.png"
       },
       "goals": [
-       1,
+       4,
        2
       ]
      },
@@ -913,7 +913,7 @@
       "id": 1629952,
       "date": "2026-10-27T13:00:00+03:00",
       "status": "2H",
-      "elapsed": 47,
+      "elapsed": 82,
       "venue": "Shanghai",
       "league": {
        "id": 17,
@@ -935,8 +935,8 @@
        "logo": "https://media.api-sports.io/football/teams/16400.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       3
       ]
      },
      {
@@ -4197,6 +4197,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 14,
  "plan": "Pro"
 }
