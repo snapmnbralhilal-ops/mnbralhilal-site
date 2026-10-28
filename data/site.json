@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T21:28:27.733Z",
+ "updated": "2026-10-28T22:10:23.837Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2692,6 +2692,66 @@
        0,
        2
       ]
+     },
+     {
+      "id": 1550171,
+      "date": "2026-10-28T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Genoa",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 495,
+       "name": "Genoa",
+       "ar": "جنوى",
+       "logo": "https://media.api-sports.io/football/teams/495.png"
+      },
+      "away": {
+       "id": 496,
+       "name": "Juventus",
+       "ar": "يوفنتوس",
+       "logo": "https://media.api-sports.io/football/teams/496.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
+     },
+     {
+      "id": 1550172,
+      "date": "2026-10-28T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Monza",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 1579,
+       "name": "Monza",
+       "ar": "مونزا",
+       "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "away": {
+       "id": 492,
+       "name": "Napoli",
+       "ar": "نابولي",
+       "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "goals": [
+       1,
+       4
+      ]
      }
     ]
    },
@@ -2799,6 +2859,165 @@
       "goals": [
        1,
        1
+      ]
+     },
+     {
+      "id": 1646858,
+      "date": "2026-10-28T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Rabat",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 5"
+      },
+      "home": {
+       "id": 969,
+       "name": "FAR Rabat",
+       "ar": "FAR Rabat",
+       "logo": "https://media.api-sports.io/football/teams/969.png"
+      },
+      "away": {
+       "id": 974,
+       "name": "Ittihad Tanger",
+       "ar": "Ittihad Tanger",
+       "logo": "https://media.api-sports.io/football/teams/974.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 48,
+     "name": "League Cup",
+     "logo": "https://media.api-sports.io/football/leagues/48.png"
+    },
+    "matches": [
+     {
+      "id": 1640575,
+      "date": "2026-10-28T22:30:00+03:00",
+      "status": "PEN",
+      "elapsed": 120,
+      "venue": "Manchester",
+      "league": {
+       "id": 48,
+       "name": "League Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/48.png",
+       "round": "Round of 16"
+      },
+      "home": {
+       "id": 50,
+       "name": "Manchester City",
+       "ar": "مانشستر سيتي",
+       "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "away": {
+       "id": 51,
+       "name": "Brighton",
+       "ar": "برايتون",
+       "logo": "https://media.api-sports.io/football/teams/51.png"
+      },
+      "goals": [
+       2,
+       2
+      ]
+     },
+     {
+      "id": 1640383,
+      "date": "2026-10-28T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Bournemouth",
+      "league": {
+       "id": 48,
+       "name": "League Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/48.png",
+       "round": "Round of 16"
+      },
+      "home": {
+       "id": 35,
+       "name": "Bournemouth",
+       "ar": "بورنموث",
+       "logo": "https://media.api-sports.io/football/teams/35.png"
+      },
+      "away": {
+       "id": 66,
+       "name": "Aston Villa",
+       "ar": "أستون فيلا",
+       "logo": "https://media.api-sports.io/football/teams/66.png"
+      },
+      "goals": [
+       3,
+       0
+      ]
+     },
+     {
+      "id": 1640387,
+      "date": "2026-10-28T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "London",
+      "league": {
+       "id": 48,
+       "name": "League Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/48.png",
+       "round": "Round of 16"
+      },
+      "home": {
+       "id": 36,
+       "name": "Fulham",
+       "ar": "فولهام",
+       "logo": "https://media.api-sports.io/football/teams/36.png"
+      },
+      "away": {
+       "id": 52,
+       "name": "Crystal Palace",
+       "ar": "كريستال بالاس",
+       "logo": "https://media.api-sports.io/football/teams/52.png"
+      },
+      "goals": [
+       0,
+       1
+      ]
+     },
+     {
+      "id": 1640389,
+      "date": "2026-10-28T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Sunderland",
+      "league": {
+       "id": 48,
+       "name": "League Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/48.png",
+       "round": "Round of 16"
+      },
+      "home": {
+       "id": 746,
+       "name": "Sunderland",
+       "ar": "سندرلاند",
+       "logo": "https://media.api-sports.io/football/teams/746.png"
+      },
+      "away": {
+       "id": 55,
+       "name": "Brentford",
+       "ar": "برينتفورد",
+       "logo": "https://media.api-sports.io/football/teams/55.png"
+      },
+      "goals": [
+       3,
+       2
       ]
      }
     ]
