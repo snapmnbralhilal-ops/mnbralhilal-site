@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T11:04:47.828Z",
+ "updated": "2026-10-28T11:45:11.493Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1629957,
       "date": "2026-10-28T13:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 86,
       "venue": "Suita",
       "league": {
        "id": 17,
@@ -803,7 +803,7 @@
        "logo": "https://media.api-sports.io/football/teams/2780.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -811,7 +811,7 @@
       "id": 1629958,
       "date": "2026-10-28T13:00:00+03:00",
       "status": "2H",
-      "elapsed": 48,
+      "elapsed": 88,
       "venue": "Kashima",
       "league": {
        "id": 17,
@@ -833,7 +833,7 @@
        "logo": "https://media.api-sports.io/football/teams/2764.png"
       },
       "goals": [
-       0,
+       3,
        0
       ]
      }
