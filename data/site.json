@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T08:40:28.281Z",
+ "updated": "2026-10-28T09:30:05.374Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -989,7 +989,7 @@
       "date": "2026-10-28T16:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Hisor",
+      "venue": "Sirjan",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -1016,7 +1016,7 @@
       "date": "2026-10-28T16:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Karshi",
+      "venue": "Qarshi",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -2618,6 +2618,36 @@
      "logo": "https://media.api-sports.io/football/leagues/18.png"
     },
     "matches": [
+     {
+      "id": 1630375,
+      "date": "2026-10-27T19:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Muscat",
+      "league": {
+       "id": 18,
+       "name": "AFC Champions League Two",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/18.png",
+       "round": "Group Stage - 3"
+      },
+      "home": {
+       "id": 7504,
+       "name": "Al Seeb",
+       "ar": "Al Seeb",
+       "logo": "https://media.api-sports.io/football/teams/7504.png"
+      },
+      "away": {
+       "id": 21137,
+       "name": "East Bengal II",
+       "ar": "East Bengal II",
+       "logo": "https://media.api-sports.io/football/teams/21137.png"
+      },
+      "goals": [
+       0,
+       0
+      ]
+     },
      {
       "id": 1630376,
       "date": "2026-10-27T21:15:00+03:00",
