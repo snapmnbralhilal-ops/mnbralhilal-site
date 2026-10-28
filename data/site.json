@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T16:11:08.227Z",
+ "updated": "2026-10-28T17:05:54.340Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -879,8 +879,8 @@
      {
       "id": 1604043,
       "date": "2026-10-28T18:05:00+03:00",
-      "status": "2H",
-      "elapsed": 46,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Prince Abdul Aziz bin Masaad Stadium",
       "league": {
        "id": 308,
@@ -902,15 +902,15 @@
        "logo": "https://media.api-sports.io/football/teams/2935.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1604044,
       "date": "2026-10-28T18:05:00+03:00",
-      "status": "2H",
-      "elapsed": 46,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -932,7 +932,7 @@
        "logo": "https://media.api-sports.io/football/teams/10524.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -1068,8 +1068,8 @@
      {
       "id": 1630380,
       "date": "2026-10-28T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 11,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1092,14 +1092,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1630381,
       "date": "2026-10-28T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 10,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Muscat",
       "league": {
        "id": 18,
@@ -1122,7 +1122,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -1365,8 +1365,8 @@
      {
       "id": 1612270,
       "date": "2026-10-28T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1387,7 +1387,10 @@
        "ar": "El Mokawloon",
        "logo": "https://media.api-sports.io/football/teams/1575.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -5292,6 +5295,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 16,
  "plan": "Pro"
 }
