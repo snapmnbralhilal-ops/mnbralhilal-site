@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T18:24:29.341Z",
+ "updated": "2026-10-28T19:22:22.859Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -760,7 +760,7 @@
   },
   {
    "tag": "عالمي",
-   "title": "51 مباراة اليوم في أبرز الدوريات",
+   "title": "35 مباراة اليوم في أبرز الدوريات",
    "body": "أبرزها في دوري أبطال آسيا للنخبة.",
    "link": "#today"
   }
@@ -1128,8 +1128,8 @@
      {
       "id": 1630382,
       "date": "2026-10-28T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 10,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Amman",
       "league": {
        "id": 18,
@@ -1158,8 +1158,8 @@
      {
       "id": 1630383,
       "date": "2026-10-28T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 10,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Riffa",
       "league": {
        "id": 18,
@@ -1182,7 +1182,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1197,8 +1197,8 @@
      {
       "id": 1550167,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1221,14 +1221,14 @@
       },
       "goals": [
        2,
-       1
+       4
       ]
      },
      {
       "id": 1550173,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Parma",
       "league": {
        "id": 135,
@@ -1257,8 +1257,8 @@
      {
       "id": 1550176,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Venice",
       "league": {
        "id": 135,
@@ -1281,7 +1281,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
@@ -1380,8 +1380,8 @@
      {
       "id": 1612270,
       "date": "2026-10-28T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 61,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1403,7 +1403,7 @@
        "logo": "https://media.api-sports.io/football/teams/1575.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      }
@@ -1419,8 +1419,8 @@
      {
       "id": 1646857,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
+      "status": "2H",
+      "elapsed": 65,
       "venue": "Casablanca",
       "league": {
        "id": 200,
@@ -1627,90 +1627,9 @@
     },
     "matches": [
      {
-      "id": 1644336,
-      "date": "2026-10-28T21:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 15340,
-       "name": "Anaitasuna",
-       "ar": "Anaitasuna",
-       "logo": "https://media.api-sports.io/football/teams/15340.png"
-      },
-      "away": {
-       "id": 542,
-       "name": "Alaves",
-       "ar": "ألافيس",
-       "logo": "https://media.api-sports.io/football/teams/542.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644350,
-      "date": "2026-10-28T21:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9385,
-       "name": "Coruxo",
-       "ar": "Coruxo",
-       "logo": "https://media.api-sports.io/football/teams/9385.png"
-      },
-      "away": {
-       "id": 9418,
-       "name": "Zamora",
-       "ar": "Zamora",
-       "logo": "https://media.api-sports.io/football/teams/9418.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644365,
-      "date": "2026-10-28T21:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "Campo de Futbol Beitikuntzea",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9854,
-       "name": "Pamplona",
-       "ar": "Pamplona",
-       "logo": "https://media.api-sports.io/football/teams/9854.png"
-      },
-      "away": {
-       "id": 545,
-       "name": "Eibar",
-       "ar": "Eibar",
-       "logo": "https://media.api-sports.io/football/teams/545.png"
-      },
-      "goals": null
-     },
-     {
       "id": 1644366,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1735,90 +1654,9 @@
       "goals": null
      },
      {
-      "id": 1644368,
-      "date": "2026-10-28T21:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 5273,
-       "name": "Poblense",
-       "ar": "Poblense",
-       "logo": "https://media.api-sports.io/football/teams/5273.png"
-      },
-      "away": {
-       "id": 10139,
-       "name": "AD Ceuta FC",
-       "ar": "AD Ceuta FC",
-       "logo": "https://media.api-sports.io/football/teams/10139.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644369,
-      "date": "2026-10-28T21:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9408,
-       "name": "Portugalete",
-       "ar": "Portugalete",
-       "logo": "https://media.api-sports.io/football/teams/9408.png"
-      },
-      "away": {
-       "id": 9586,
-       "name": "Real Unión",
-       "ar": "Real Unión",
-       "logo": "https://media.api-sports.io/football/teams/9586.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644379,
-      "date": "2026-10-28T21:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9907,
-       "name": "Tarancón",
-       "ar": "Tarancón",
-       "logo": "https://media.api-sports.io/football/teams/9907.png"
-      },
-      "away": {
-       "id": 539,
-       "name": "Levante",
-       "ar": "ليفانتي",
-       "logo": "https://media.api-sports.io/football/teams/539.png"
-      },
-      "goals": null
-     },
-     {
       "id": 1644384,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1843,117 +1681,9 @@
       "goals": null
      },
      {
-      "id": 1644334,
-      "date": "2026-10-28T22:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "Alcoy",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9686,
-       "name": "Alcoyano",
-       "ar": "Alcoyano",
-       "logo": "https://media.api-sports.io/football/teams/9686.png"
-      },
-      "away": {
-       "id": 798,
-       "name": "Mallorca",
-       "ar": "مايوركا",
-       "logo": "https://media.api-sports.io/football/teams/798.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644335,
-      "date": "2026-10-28T22:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "Amorebieta-Etxano",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9380,
-       "name": "Amorebieta",
-       "ar": "Amorebieta",
-       "logo": "https://media.api-sports.io/football/teams/9380.png"
-      },
-      "away": {
-       "id": 5280,
-       "name": "UD Logroñés",
-       "ar": "UD Logroñés",
-       "logo": "https://media.api-sports.io/football/teams/5280.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644346,
-      "date": "2026-10-28T22:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9382,
-       "name": "Badajoz",
-       "ar": "Badajoz",
-       "logo": "https://media.api-sports.io/football/teams/9382.png"
-      },
-      "away": {
-       "id": 719,
-       "name": "Tenerife",
-       "ar": "Tenerife",
-       "logo": "https://media.api-sports.io/football/teams/719.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644351,
-      "date": "2026-10-28T22:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9623,
-       "name": "Covadonga",
-       "ar": "Covadonga",
-       "logo": "https://media.api-sports.io/football/teams/9623.png"
-      },
-      "away": {
-       "id": 720,
-       "name": "Valladolid",
-       "ar": "Valladolid",
-       "logo": "https://media.api-sports.io/football/teams/720.png"
-      },
-      "goals": null
-     },
-     {
       "id": 1644362,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1980,7 +1710,7 @@
      {
       "id": 1644364,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2001,60 +1731,6 @@
        "name": "Oviedo",
        "ar": "Oviedo",
        "logo": "https://media.api-sports.io/football/teams/718.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644370,
-      "date": "2026-10-28T22:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9899,
-       "name": "Calvo Sotelo",
-       "ar": "Calvo Sotelo",
-       "logo": "https://media.api-sports.io/football/teams/9899.png"
-      },
-      "away": {
-       "id": 722,
-       "name": "Albacete",
-       "ar": "Albacete",
-       "logo": "https://media.api-sports.io/football/teams/722.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644382,
-      "date": "2026-10-28T22:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9718,
-       "name": "Trival Valderas",
-       "ar": "Trival Valderas",
-       "logo": "https://media.api-sports.io/football/teams/9718.png"
-      },
-      "away": {
-       "id": 537,
-       "name": "Leganes",
-       "ar": "Leganes",
-       "logo": "https://media.api-sports.io/football/teams/537.png"
       },
       "goals": null
      },
@@ -2088,7 +1764,7 @@
      {
       "id": 1644353,
       "date": "2026-10-28T22:30:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2115,7 +1791,7 @@
      {
       "id": 1644373,
       "date": "2026-10-28T22:30:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "Reus",
       "league": {
@@ -2140,36 +1816,9 @@
       "goals": null
      },
      {
-      "id": 1644381,
-      "date": "2026-10-28T22:30:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 5264,
-       "name": "Gimnástica Torrelavega",
-       "ar": "Gimnástica Torrelavega",
-       "logo": "https://media.api-sports.io/football/teams/5264.png"
-      },
-      "away": {
-       "id": 9617,
-       "name": "UD Ourense",
-       "ar": "UD Ourense",
-       "logo": "https://media.api-sports.io/football/teams/9617.png"
-      },
-      "goals": null
-     },
-     {
       "id": 1644363,
       "date": "2026-10-28T23:00:00+03:00",
-      "status": "PST",
+      "status": "NS",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2190,87 +1839,6 @@
        "name": "Real Betis",
        "ar": "ريال بيتيس",
        "logo": "https://media.api-sports.io/football/teams/543.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644376,
-      "date": "2026-10-28T23:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9588,
-       "name": "Salamanca UDS",
-       "ar": "Salamanca UDS",
-       "logo": "https://media.api-sports.io/football/teams/9588.png"
-      },
-      "away": {
-       "id": 538,
-       "name": "Celta Vigo",
-       "ar": "سيلتا فيغو",
-       "logo": "https://media.api-sports.io/football/teams/538.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644380,
-      "date": "2026-10-28T23:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 28415,
-       "name": "Tavernes",
-       "ar": "Tavernes",
-       "logo": "https://media.api-sports.io/football/teams/28415.png"
-      },
-      "away": {
-       "id": 532,
-       "name": "Valencia",
-       "ar": "فالنسيا",
-       "logo": "https://media.api-sports.io/football/teams/532.png"
-      },
-      "goals": null
-     },
-     {
-      "id": 1644386,
-      "date": "2026-10-28T23:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "Jerez",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9770,
-       "name": "Xerez",
-       "ar": "Xerez",
-       "logo": "https://media.api-sports.io/football/teams/9770.png"
-      },
-      "away": {
-       "id": 724,
-       "name": "Cadiz",
-       "ar": "Cadiz",
-       "logo": "https://media.api-sports.io/football/teams/724.png"
       },
       "goals": null
      }
@@ -5313,6 +4881,6 @@
   }
  },
  "errors": [],
- "requests": 16,
+ "requests": 18,
  "plan": "Pro"
 }
