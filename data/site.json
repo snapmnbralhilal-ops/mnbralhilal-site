@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:05:54.340Z",
+ "updated": "2026-10-28T17:49:19.514Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1068,8 +1068,8 @@
      {
       "id": 1630380,
       "date": "2026-10-28T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 88,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1091,7 +1091,7 @@
        "logo": "https://media.api-sports.io/football/teams/5488.png"
       },
       "goals": [
-       0,
+       4,
        2
       ]
      },
@@ -1099,7 +1099,7 @@
       "id": 1630381,
       "date": "2026-10-28T19:00:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 89,
       "venue": "Muscat",
       "league": {
        "id": 18,
@@ -1121,8 +1121,8 @@
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
       "goals": [
-       0,
-       2
+       1,
+       4
       ]
      },
      {
@@ -1191,8 +1191,8 @@
      {
       "id": 1550167,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1213,13 +1213,16 @@
        "ar": "بولونيا",
        "logo": "https://media.api-sports.io/football/teams/500.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1550173,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Parma",
       "league": {
        "id": 135,
@@ -1240,13 +1243,16 @@
        "ar": "أودينيزي",
        "logo": "https://media.api-sports.io/football/teams/494.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550176,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Venice",
       "league": {
        "id": 135,
@@ -1267,7 +1273,10 @@
        "ar": "إنتر ميلان",
        "logo": "https://media.api-sports.io/football/teams/505.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550171,
@@ -1366,7 +1375,7 @@
       "id": 1612270,
       "date": "2026-10-28T20:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 45,
       "venue": "Cairo",
       "league": {
        "id": 233,
