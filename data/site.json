@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:22:03.380Z",
+ "updated": "2026-10-28T13:29:43.087Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -849,8 +849,8 @@
      {
       "id": 1604042,
       "date": "2026-10-28T15:35:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -871,7 +871,10 @@
        "ar": "ضمك",
        "logo": "https://media.api-sports.io/football/teams/2956.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1604043,
@@ -939,8 +942,8 @@
      {
       "id": 1630377,
       "date": "2026-10-28T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 7,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Hanoi",
       "league": {
        "id": 18,
@@ -963,14 +966,14 @@
       },
       "goals": [
        0,
-       0
+       5
       ]
      },
      {
       "id": 1637493,
       "date": "2026-10-28T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 7,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Bandung",
       "league": {
        "id": 18,
@@ -992,7 +995,7 @@
        "logo": "https://media.api-sports.io/football/teams/944.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
