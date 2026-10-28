@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:54:33.299Z",
+ "updated": "2026-10-28T23:25:19.567Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3019,6 +3019,36 @@
        3,
        2
       ]
+     },
+     {
+      "id": 1640388,
+      "date": "2026-10-28T23:00:00+03:00",
+      "status": "PEN",
+      "elapsed": 120,
+      "venue": "Liverpool",
+      "league": {
+       "id": 48,
+       "name": "League Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/48.png",
+       "round": "Round of 16"
+      },
+      "home": {
+       "id": 40,
+       "name": "Liverpool",
+       "ar": "ليفربول",
+       "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "away": {
+       "id": 49,
+       "name": "Chelsea",
+       "ar": "تشيلسي",
+       "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "goals": [
+       1,
+       1
+      ]
      }
     ]
    }
@@ -4880,18 +4910,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-10-28",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
- "requests": 13,
+ "errors": [],
+ "requests": 18,
  "plan": "Pro"
 }
