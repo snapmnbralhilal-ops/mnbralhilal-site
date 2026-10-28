@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T15:18:32.546Z",
+ "updated": "2026-10-28T16:11:08.227Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -879,8 +879,8 @@
      {
       "id": 1604043,
       "date": "2026-10-28T18:05:00+03:00",
-      "status": "1H",
-      "elapsed": 13,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Prince Abdul Aziz bin Masaad Stadium",
       "league": {
        "id": 308,
@@ -909,8 +909,8 @@
      {
       "id": 1604044,
       "date": "2026-10-28T18:05:00+03:00",
-      "status": "1H",
-      "elapsed": 13,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -932,7 +932,7 @@
        "logo": "https://media.api-sports.io/football/teams/10524.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -1008,8 +1008,8 @@
      {
       "id": 1630378,
       "date": "2026-10-28T16:45:00+03:00",
-      "status": "2H",
-      "elapsed": 76,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Hisor",
       "league": {
        "id": 18,
@@ -1038,8 +1038,8 @@
      {
       "id": 1630379,
       "date": "2026-10-28T16:45:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Karshi",
       "league": {
        "id": 18,
@@ -1068,8 +1068,8 @@
      {
       "id": 1630380,
       "date": "2026-10-28T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1090,13 +1090,16 @@
        "ar": "Muharraq",
        "logo": "https://media.api-sports.io/football/teams/5488.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1630381,
       "date": "2026-10-28T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 10,
       "venue": "Muscat",
       "league": {
        "id": 18,
@@ -1117,7 +1120,10 @@
        "ar": "الريان",
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1630382,
@@ -1329,8 +1335,8 @@
      {
       "id": 1612269,
       "date": "2026-10-28T17:00:00+03:00",
-      "status": "2H",
-      "elapsed": 54,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cairo",
       "league": {
        "id": 233,
