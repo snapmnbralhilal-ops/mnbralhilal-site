@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T23:25:19.567Z",
+ "updated": "2026-10-28T23:59:44.985Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1797,8 +1797,8 @@
      {
       "id": 1490571,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Miami",
       "league": {
        "id": 253,
@@ -1819,13 +1819,16 @@
        "ar": "FC Cincinnati",
        "logo": "https://media.api-sports.io/football/teams/2242.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490572,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Flushing",
       "league": {
        "id": 253,
@@ -1846,13 +1849,16 @@
        "ar": "Atlanta United FC",
        "logo": "https://media.api-sports.io/football/teams/1608.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490573,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Boston",
       "league": {
        "id": 253,
@@ -1873,13 +1879,16 @@
        "ar": "New York Red Bulls",
        "logo": "https://media.api-sports.io/football/teams/1602.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490574,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Charlotte",
       "league": {
        "id": 253,
@@ -1900,13 +1909,16 @@
        "ar": "CF Montreal",
        "logo": "https://media.api-sports.io/football/teams/1614.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490575,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Toronto",
       "league": {
        "id": 253,
@@ -1927,7 +1939,10 @@
        "ar": "DC United",
        "logo": "https://media.api-sports.io/football/teams/1615.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490576,
@@ -4911,6 +4926,6 @@
   }
  },
  "errors": [],
- "requests": 18,
+ "requests": 15,
  "plan": "Pro"
 }
