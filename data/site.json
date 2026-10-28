@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:09:46.881Z",
+ "updated": "2026-10-28T20:50:41.842Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1128,7 +1128,7 @@
      {
       "id": 1630382,
       "date": "2026-10-28T21:15:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Amman",
       "league": {
@@ -1287,8 +1287,8 @@
      {
       "id": 1550171,
       "date": "2026-10-28T22:45:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Genoa",
       "league": {
        "id": 135,
@@ -1310,15 +1310,15 @@
        "logo": "https://media.api-sports.io/football/teams/496.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1550172,
       "date": "2026-10-28T22:45:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
+      "status": "2H",
+      "elapsed": 46,
       "venue": "Monza",
       "league": {
        "id": 135,
@@ -1340,7 +1340,7 @@
        "logo": "https://media.api-sports.io/football/teams/492.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      }
@@ -1456,7 +1456,7 @@
       "id": 1646858,
       "date": "2026-10-28T23:00:00+03:00",
       "status": "1H",
-      "elapsed": 8,
+      "elapsed": 45,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -1494,8 +1494,8 @@
      {
       "id": 1640575,
       "date": "2026-10-28T22:30:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 62,
       "venue": "Manchester",
       "league": {
        "id": 48,
@@ -1518,14 +1518,14 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
       "id": 1640383,
       "date": "2026-10-28T22:45:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Bournemouth",
       "league": {
        "id": 48,
@@ -1554,8 +1554,8 @@
      {
       "id": 1640387,
       "date": "2026-10-28T22:45:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "London",
       "league": {
        "id": 48,
@@ -1578,14 +1578,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1640389,
       "date": "2026-10-28T22:45:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Sunderland",
       "league": {
        "id": 48,
@@ -1607,15 +1607,15 @@
        "logo": "https://media.api-sports.io/football/teams/55.png"
       },
       "goals": [
-       0,
-       0
+       3,
+       1
       ]
      },
      {
       "id": 1640388,
       "date": "2026-10-28T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 9,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Liverpool",
       "league": {
        "id": 48,
@@ -1637,8 +1637,8 @@
        "logo": "https://media.api-sports.io/football/teams/49.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -3998,10 +3998,10 @@
     {
      "rank": 1,
      "team": {
-      "id": 487,
-      "name": "Lazio",
-      "ar": "لاتسيو",
-      "logo": "https://media.api-sports.io/football/teams/487.png"
+      "id": 505,
+      "name": "Inter",
+      "ar": "إنتر ميلان",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
      },
      "points": 25,
      "gd": 15,
@@ -4014,15 +4014,15 @@
     {
      "rank": 2,
      "team": {
-      "id": 505,
-      "name": "Inter",
-      "ar": "إنتر ميلان",
-      "logo": "https://media.api-sports.io/football/teams/505.png"
+      "id": 487,
+      "name": "Lazio",
+      "ar": "لاتسيو",
+      "logo": "https://media.api-sports.io/football/teams/487.png"
      },
-     "points": 22,
-     "gd": 13,
-     "played": 8,
-     "win": 7,
+     "points": 25,
+     "gd": 15,
+     "played": 9,
+     "win": 8,
      "draw": 1,
      "lose": 0,
      "description": "Champions League league stage"
@@ -4068,11 +4068,11 @@
       "logo": "https://media.api-sports.io/football/teams/489.png"
      },
      "points": 18,
-     "gd": 9,
-     "played": 8,
+     "gd": 7,
+     "played": 9,
      "win": 5,
      "draw": 3,
-     "lose": 0,
+     "lose": 1,
      "description": "Europa League league stage"
     },
     {
@@ -4158,6 +4158,22 @@
     {
      "rank": 11,
      "team": {
+      "id": 500,
+      "name": "Bologna",
+      "ar": "بولونيا",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+     },
+     "points": 11,
+     "gd": 0,
+     "played": 9,
+     "win": 3,
+     "draw": 2,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 12,
+     "team": {
       "id": 499,
       "name": "Atalanta",
       "ar": "أتالانتا",
@@ -4172,7 +4188,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 867,
       "name": "Lecce",
@@ -4185,22 +4201,6 @@
      "win": 3,
      "draw": 0,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 13,
-     "team": {
-      "id": 500,
-      "name": "Bologna",
-      "ar": "بولونيا",
-      "logo": "https://media.api-sports.io/football/teams/500.png"
-     },
-     "points": 8,
-     "gd": -2,
-     "played": 8,
-     "win": 2,
-     "draw": 2,
-     "lose": 4,
      "description": ""
     },
     {
@@ -4259,37 +4259,37 @@
       "ar": "أودينيزي",
       "logo": "https://media.api-sports.io/football/teams/494.png"
      },
-     "points": 4,
+     "points": 5,
      "gd": -9,
-     "played": 8,
+     "played": 9,
      "win": 1,
-     "draw": 1,
+     "draw": 2,
      "lose": 6,
      "description": ""
     },
     {
      "rank": 18,
      "team": {
-      "id": 502,
-      "name": "Fiorentina",
-      "ar": "فيورنتينا",
-      "logo": "https://media.api-sports.io/football/teams/502.png"
+      "id": 523,
+      "name": "Parma",
+      "ar": "بارما",
+      "logo": "https://media.api-sports.io/football/teams/523.png"
      },
-     "points": 4,
+     "points": 5,
      "gd": -10,
-     "played": 8,
+     "played": 9,
      "win": 1,
-     "draw": 1,
+     "draw": 2,
      "lose": 6,
      "description": "Relegation"
     },
     {
      "rank": 19,
      "team": {
-      "id": 523,
-      "name": "Parma",
-      "ar": "بارما",
-      "logo": "https://media.api-sports.io/football/teams/523.png"
+      "id": 502,
+      "name": "Fiorentina",
+      "ar": "فيورنتينا",
+      "logo": "https://media.api-sports.io/football/teams/502.png"
      },
      "points": 4,
      "gd": -10,
@@ -4308,11 +4308,11 @@
       "logo": "https://media.api-sports.io/football/teams/517.png"
      },
      "points": 3,
-     "gd": -11,
-     "played": 8,
+     "gd": -13,
+     "played": 9,
      "win": 1,
      "draw": 0,
-     "lose": 7,
+     "lose": 8,
      "description": "Relegation"
     }
    ]
