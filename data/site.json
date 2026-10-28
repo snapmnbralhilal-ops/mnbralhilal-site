@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T09:30:05.374Z",
+ "updated": "2026-10-28T10:19:55.897Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1629957,
       "date": "2026-10-28T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Suita",
       "league": {
        "id": 17,
@@ -802,13 +802,16 @@
        "ar": "Buriram United",
        "logo": "https://media.api-sports.io/football/teams/2780.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629958,
       "date": "2026-10-28T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Kashima",
       "league": {
        "id": 17,
@@ -829,7 +832,10 @@
        "ar": "Pohang Steelers",
        "logo": "https://media.api-sports.io/football/teams/2764.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -989,7 +995,7 @@
       "date": "2026-10-28T16:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Sirjan",
+      "venue": "Hisor",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -1016,7 +1022,7 @@
       "date": "2026-10-28T16:45:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Qarshi",
+      "venue": "Karshi",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
