@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T11:45:11.493Z",
+ "updated": "2026-10-28T12:22:03.380Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1629957,
       "date": "2026-10-28T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Suita",
       "league": {
        "id": 17,
@@ -810,8 +810,8 @@
      {
       "id": 1629958,
       "date": "2026-10-28T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kashima",
       "league": {
        "id": 17,
@@ -939,8 +939,8 @@
      {
       "id": 1630377,
       "date": "2026-10-28T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Hanoi",
       "league": {
        "id": 18,
@@ -961,13 +961,16 @@
        "ar": "FC Seoul",
        "logo": "https://media.api-sports.io/football/teams/2766.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1637493,
       "date": "2026-10-28T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Bandung",
       "league": {
        "id": 18,
@@ -988,7 +991,10 @@
        "ar": "Melbourne Victory",
        "logo": "https://media.api-sports.io/football/teams/944.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630378,
@@ -1578,7 +1584,7 @@
      {
       "id": 1644336,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1605,7 +1611,7 @@
      {
       "id": 1644350,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1632,7 +1638,7 @@
      {
       "id": 1644365,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Campo de Futbol Beitikuntzea",
       "league": {
@@ -1659,7 +1665,7 @@
      {
       "id": 1644366,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1686,7 +1692,7 @@
      {
       "id": 1644368,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1713,7 +1719,7 @@
      {
       "id": 1644369,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1740,7 +1746,7 @@
      {
       "id": 1644379,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1767,7 +1773,7 @@
      {
       "id": 1644384,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1794,7 +1800,7 @@
      {
       "id": 1644334,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Alcoy",
       "league": {
@@ -1821,7 +1827,7 @@
      {
       "id": 1644335,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Amorebieta-Etxano",
       "league": {
@@ -1848,7 +1854,7 @@
      {
       "id": 1644346,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1875,7 +1881,7 @@
      {
       "id": 1644351,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1902,7 +1908,7 @@
      {
       "id": 1644362,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1929,7 +1935,7 @@
      {
       "id": 1644364,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1956,7 +1962,7 @@
      {
       "id": 1644370,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -1983,7 +1989,7 @@
      {
       "id": 1644382,
       "date": "2026-10-28T22:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2010,7 +2016,7 @@
      {
       "id": 1644347,
       "date": "2026-10-28T22:30:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2037,7 +2043,7 @@
      {
       "id": 1644353,
       "date": "2026-10-28T22:30:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2064,7 +2070,7 @@
      {
       "id": 1644373,
       "date": "2026-10-28T22:30:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Reus",
       "league": {
@@ -2091,7 +2097,7 @@
      {
       "id": 1644381,
       "date": "2026-10-28T22:30:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2118,7 +2124,7 @@
      {
       "id": 1644363,
       "date": "2026-10-28T23:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2145,7 +2151,7 @@
      {
       "id": 1644376,
       "date": "2026-10-28T23:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2172,7 +2178,7 @@
      {
       "id": 1644380,
       "date": "2026-10-28T23:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "",
       "league": {
@@ -2199,7 +2205,7 @@
      {
       "id": 1644386,
       "date": "2026-10-28T23:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Jerez",
       "league": {
