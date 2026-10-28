@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T13:29:43.087Z",
+ "updated": "2026-10-28T14:24:06.347Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -849,8 +849,8 @@
      {
       "id": 1604042,
       "date": "2026-10-28T15:35:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 89,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -873,7 +873,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -942,8 +942,8 @@
      {
       "id": 1630377,
       "date": "2026-10-28T15:15:00+03:00",
-      "status": "2H",
-      "elapsed": 57,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Hanoi",
       "league": {
        "id": 18,
@@ -972,8 +972,8 @@
      {
       "id": 1637493,
       "date": "2026-10-28T15:15:00+03:00",
-      "status": "2H",
-      "elapsed": 59,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bandung",
       "league": {
        "id": 18,
@@ -995,15 +995,15 @@
        "logo": "https://media.api-sports.io/football/teams/944.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1630378,
       "date": "2026-10-28T16:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 39,
       "venue": "Hisor",
       "league": {
        "id": 18,
@@ -1024,13 +1024,16 @@
        "ar": "Arkadag",
        "logo": "https://media.api-sports.io/football/teams/21232.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630379,
       "date": "2026-10-28T16:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 38,
       "venue": "Karshi",
       "league": {
        "id": 18,
@@ -1051,7 +1054,10 @@
        "ar": "الكويت",
        "logo": "https://media.api-sports.io/football/teams/3535.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630380,
@@ -1317,8 +1323,8 @@
      {
       "id": 1612269,
       "date": "2026-10-28T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 22,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1339,7 +1345,10 @@
        "ar": "AL Masry",
        "logo": "https://media.api-sports.io/football/teams/1031.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612270,
