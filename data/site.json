@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:49:19.514Z",
+ "updated": "2026-10-28T18:24:29.341Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1068,8 +1068,8 @@
      {
       "id": 1630380,
       "date": "2026-10-28T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1098,8 +1098,8 @@
      {
       "id": 1630381,
       "date": "2026-10-28T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Muscat",
       "league": {
        "id": 18,
@@ -1128,8 +1128,8 @@
      {
       "id": 1630382,
       "date": "2026-10-28T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 10,
       "venue": "Amman",
       "league": {
        "id": 18,
@@ -1150,13 +1150,16 @@
        "ar": "التعاون",
        "logo": "https://media.api-sports.io/football/teams/2936.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630383,
       "date": "2026-10-28T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 10,
       "venue": "Riffa",
       "league": {
        "id": 18,
@@ -1177,7 +1180,10 @@
        "ar": "الوحدة",
        "logo": "https://media.api-sports.io/football/teams/2875.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1191,8 +1197,8 @@
      {
       "id": 1550167,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Milan",
       "league": {
        "id": 135,
@@ -1214,15 +1220,15 @@
        "logo": "https://media.api-sports.io/football/teams/500.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      },
      {
       "id": 1550173,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Parma",
       "league": {
        "id": 135,
@@ -1251,8 +1257,8 @@
      {
       "id": 1550176,
       "date": "2026-10-28T20:30:00+03:00",
-      "status": "1H",
-      "elapsed": 19,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Venice",
       "league": {
        "id": 135,
@@ -1374,8 +1380,8 @@
      {
       "id": 1612270,
       "date": "2026-10-28T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1397,8 +1403,8 @@
        "logo": "https://media.api-sports.io/football/teams/1575.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -1413,8 +1419,8 @@
      {
       "id": 1646857,
       "date": "2026-10-28T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Casablanca",
       "league": {
        "id": 200,
@@ -1435,7 +1441,10 @@
        "ar": "Hassania Agadir",
        "logo": "https://media.api-sports.io/football/teams/973.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1646858,
