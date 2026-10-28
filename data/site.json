@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:10:23.837Z",
+ "updated": "2026-10-28T22:54:33.299Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -4054,6 +4054,22 @@
     {
      "rank": 6,
      "team": {
+      "id": 492,
+      "name": "Napoli",
+      "ar": "نابولي",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+     },
+     "points": 14,
+     "gd": 6,
+     "played": 9,
+     "win": 4,
+     "draw": 2,
+     "lose": 3,
+     "description": "Play-offs"
+    },
+    {
+     "rank": 7,
+     "team": {
       "id": 512,
       "name": "Frosinone",
       "ar": "فروزينوني",
@@ -4065,10 +4081,10 @@
      "win": 4,
      "draw": 2,
      "lose": 2,
-     "description": "Play-offs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 496,
       "name": "Juventus",
@@ -4076,15 +4092,15 @@
       "logo": "https://media.api-sports.io/football/teams/496.png"
      },
      "points": 14,
-     "gd": 3,
-     "played": 8,
+     "gd": 1,
+     "played": 9,
      "win": 4,
      "draw": 2,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 503,
       "name": "Torino",
@@ -4100,7 +4116,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 490,
       "name": "Cagliari",
@@ -4113,22 +4129,6 @@
      "win": 4,
      "draw": 1,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 10,
-     "team": {
-      "id": 492,
-      "name": "Napoli",
-      "ar": "نابولي",
-      "logo": "https://media.api-sports.io/football/teams/492.png"
-     },
-     "points": 11,
-     "gd": 3,
-     "played": 8,
-     "win": 3,
-     "draw": 2,
-     "lose": 3,
      "description": ""
     },
     {
@@ -4166,6 +4166,22 @@
     {
      "rank": 13,
      "team": {
+      "id": 495,
+      "name": "Genoa",
+      "ar": "جنوى",
+      "logo": "https://media.api-sports.io/football/teams/495.png"
+     },
+     "points": 10,
+     "gd": -5,
+     "played": 9,
+     "win": 3,
+     "draw": 1,
+     "lose": 5,
+     "description": ""
+    },
+    {
+     "rank": 14,
+     "team": {
       "id": 867,
       "name": "Lecce",
       "ar": "ليتشي",
@@ -4180,7 +4196,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 488,
       "name": "Sassuolo",
@@ -4196,7 +4212,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 1579,
       "name": "Monza",
@@ -4204,27 +4220,11 @@
       "logo": "https://media.api-sports.io/football/teams/1579.png"
      },
      "points": 7,
-     "gd": -3,
-     "played": 8,
+     "gd": -6,
+     "played": 9,
      "win": 2,
      "draw": 1,
-     "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 16,
-     "team": {
-      "id": 495,
-      "name": "Genoa",
-      "ar": "جنوى",
-      "logo": "https://media.api-sports.io/football/teams/495.png"
-     },
-     "points": 7,
-     "gd": -7,
-     "played": 8,
-     "win": 2,
-     "draw": 1,
-     "lose": 5,
+     "lose": 6,
      "description": ""
     },
     {
@@ -4880,7 +4880,18 @@
    ]
   }
  },
- "errors": [],
- "requests": 18,
+ "errors": [
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "date": "2026-10-28",
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
+ "requests": 13,
  "plan": "Pro"
 }
