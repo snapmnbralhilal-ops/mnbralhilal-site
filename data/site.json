@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T14:24:06.347Z",
+ "updated": "2026-10-28T15:18:32.546Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -849,8 +849,8 @@
      {
       "id": 1604042,
       "date": "2026-10-28T15:35:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -879,8 +879,8 @@
      {
       "id": 1604043,
       "date": "2026-10-28T18:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Prince Abdul Aziz bin Masaad Stadium",
       "league": {
        "id": 308,
@@ -901,13 +901,16 @@
        "ar": "الرائد",
        "logo": "https://media.api-sports.io/football/teams/2935.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604044,
       "date": "2026-10-28T18:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -928,7 +931,10 @@
        "ar": "الزلفي",
        "logo": "https://media.api-sports.io/football/teams/10524.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1002,8 +1008,8 @@
      {
       "id": 1630378,
       "date": "2026-10-28T16:45:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 76,
       "venue": "Hisor",
       "league": {
        "id": 18,
@@ -1032,8 +1038,8 @@
      {
       "id": 1630379,
       "date": "2026-10-28T16:45:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "Karshi",
       "league": {
        "id": 18,
@@ -1056,7 +1062,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1323,8 +1329,8 @@
      {
       "id": 1612269,
       "date": "2026-10-28T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 22,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1346,8 +1352,8 @@
        "logo": "https://media.api-sports.io/football/teams/1031.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
