@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T02:30:47.017Z",
+ "updated": "2026-10-29T03:22:03.934Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1947,7 +1947,7 @@
      {
       "id": 1490576,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Nashville",
       "league": {
@@ -1977,7 +1977,7 @@
      {
       "id": 1490577,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Frisco",
       "league": {
@@ -2007,7 +2007,7 @@
      {
       "id": 1490578,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Chicago",
       "league": {
@@ -2037,7 +2037,7 @@
      {
       "id": 1490579,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Sao Paulo",
       "league": {
@@ -2067,7 +2067,7 @@
      {
       "id": 1490580,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Austin",
       "league": {
@@ -2097,7 +2097,7 @@
      {
       "id": 1490581,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Saint Louis",
       "league": {
@@ -2120,15 +2120,15 @@
        "logo": "https://media.api-sports.io/football/teams/1617.png"
       },
       "goals": [
-       1,
+       2,
        3
       ]
      },
      {
       "id": 1490582,
       "date": "2026-10-29T05:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 42,
       "venue": "Vancouver",
       "league": {
        "id": 253,
@@ -2149,13 +2149,16 @@
        "ar": "San Diego",
        "logo": "https://media.api-sports.io/football/teams/25484.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1490583,
       "date": "2026-10-29T05:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 42,
       "venue": "Seattle",
       "league": {
        "id": 253,
@@ -2176,13 +2179,16 @@
        "ar": "Houston Dynamo",
        "logo": "https://media.api-sports.io/football/teams/1600.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1490584,
       "date": "2026-10-29T05:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 42,
       "venue": "San Jose",
       "league": {
        "id": 253,
@@ -2203,7 +2209,10 @@
        "ar": "Colorado Rapids",
        "logo": "https://media.api-sports.io/football/teams/1610.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      }
     ]
    }
