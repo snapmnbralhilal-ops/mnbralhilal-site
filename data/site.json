@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:18:17.324Z",
+ "updated": "2026-10-29T22:58:37.153Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -4140,11 +4140,11 @@
       "ar": "أتالانتا",
       "logo": "https://media.api-sports.io/football/teams/499.png"
      },
-     "points": 10,
+     "points": 11,
      "gd": -1,
-     "played": 8,
+     "played": 9,
      "win": 3,
-     "draw": 1,
+     "draw": 2,
      "lose": 4,
      "description": ""
     },
@@ -4231,10 +4231,10 @@
     {
      "rank": 18,
      "team": {
-      "id": 523,
-      "name": "Parma",
-      "ar": "بارما",
-      "logo": "https://media.api-sports.io/football/teams/523.png"
+      "id": 502,
+      "name": "Fiorentina",
+      "ar": "فيورنتينا",
+      "logo": "https://media.api-sports.io/football/teams/502.png"
      },
      "points": 5,
      "gd": -10,
@@ -4247,16 +4247,16 @@
     {
      "rank": 19,
      "team": {
-      "id": 502,
-      "name": "Fiorentina",
-      "ar": "فيورنتينا",
-      "logo": "https://media.api-sports.io/football/teams/502.png"
+      "id": 523,
+      "name": "Parma",
+      "ar": "بارما",
+      "logo": "https://media.api-sports.io/football/teams/523.png"
      },
-     "points": 4,
+     "points": 5,
      "gd": -10,
-     "played": 8,
+     "played": 9,
      "win": 1,
-     "draw": 1,
+     "draw": 2,
      "lose": 6,
      "description": "Relegation"
     },
