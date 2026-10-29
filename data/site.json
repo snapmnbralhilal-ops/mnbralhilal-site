@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:16:50.872Z",
+ "updated": "2026-10-29T13:22:02.830Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -960,8 +960,8 @@
      {
       "id": 1630387,
       "date": "2026-10-29T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 2,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Phnom Penh",
       "league": {
        "id": 18,
@@ -990,8 +990,8 @@
      {
       "id": 1630388,
       "date": "2026-10-29T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 2,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Shanghai",
       "league": {
        "id": 18,
@@ -1014,14 +1014,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1630389,
       "date": "2026-10-29T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 2,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Hong Kong",
       "league": {
        "id": 18,
@@ -1044,7 +1044,7 @@
       },
       "goals": [
        0,
-       0
+       3
       ]
      }
     ]
