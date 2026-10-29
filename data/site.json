@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T08:24:49.187Z",
+ "updated": "2026-10-29T09:17:28.558Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -760,7 +760,7 @@
   },
   {
    "tag": "عالمي",
-   "title": "49 مباراة اليوم في أبرز الدوريات",
+   "title": "53 مباراة اليوم في أبرز الدوريات",
    "body": "أبرزها في دوري روشن السعودي.",
    "link": "#today"
   }
@@ -870,8 +870,8 @@
      {
       "id": 1630384,
       "date": "2026-10-29T10:45:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 76,
       "venue": "Adelaide",
       "league": {
        "id": 18,
@@ -1276,6 +1276,60 @@
     },
     "matches": [
      {
+      "id": 1644364,
+      "date": "2026-10-29T20:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Soria",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 717,
+       "name": "Numancia",
+       "ar": "Numancia",
+       "logo": "https://media.api-sports.io/football/teams/717.png"
+      },
+      "away": {
+       "id": 718,
+       "name": "Oviedo",
+       "ar": "Oviedo",
+       "logo": "https://media.api-sports.io/football/teams/718.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1644366,
+      "date": "2026-10-29T20:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Tafalla",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9406,
+       "name": "Peña Sport",
+       "ar": "Peña Sport",
+       "logo": "https://media.api-sports.io/football/teams/9406.png"
+      },
+      "away": {
+       "id": 726,
+       "name": "Huesca",
+       "ar": "Huesca",
+       "logo": "https://media.api-sports.io/football/teams/726.png"
+      },
+      "goals": null
+     },
+     {
       "id": 1644339,
       "date": "2026-10-29T21:00:00+03:00",
       "status": "NS",
@@ -1438,6 +1492,33 @@
       "goals": null
      },
      {
+      "id": 1644347,
+      "date": "2026-10-29T21:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Cieza",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 20277,
+       "name": "Cieza",
+       "ar": "Cieza",
+       "logo": "https://media.api-sports.io/football/teams/20277.png"
+      },
+      "away": {
+       "id": 715,
+       "name": "Granada CF",
+       "ar": "Granada CF",
+       "logo": "https://media.api-sports.io/football/teams/715.png"
+      },
+      "goals": null
+     },
+     {
       "id": 1644337,
       "date": "2026-10-29T22:00:00+03:00",
       "status": "NS",
@@ -1569,6 +1650,33 @@
        "name": "Burgos",
        "ar": "Burgos",
        "logo": "https://media.api-sports.io/football/teams/9580.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1644362,
+      "date": "2026-10-29T22:00:00+03:00",
+      "status": "PST",
+      "elapsed": null,
+      "venue": "Estepona",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 22569,
+       "name": "Mijas Las Lagunas",
+       "ar": "Mijas Las Lagunas",
+       "logo": "https://media.api-sports.io/football/teams/22569.png"
+      },
+      "away": {
+       "id": 5274,
+       "name": "Real Jaén",
+       "ar": "Real Jaén",
+       "logo": "https://media.api-sports.io/football/teams/5274.png"
       },
       "goals": null
      },
