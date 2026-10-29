@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:30:59.584Z",
+ "updated": "2026-10-29T12:16:50.872Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -900,8 +900,8 @@
      {
       "id": 1630385,
       "date": "2026-10-29T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Gangneung",
       "league": {
        "id": 18,
@@ -930,8 +930,8 @@
      {
       "id": 1630386,
       "date": "2026-10-29T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kallang",
       "league": {
        "id": 18,
@@ -953,15 +953,15 @@
        "logo": "https://media.api-sports.io/football/teams/5396.png"
       },
       "goals": [
-       0,
+       1,
        5
       ]
      },
      {
       "id": 1630387,
       "date": "2026-10-29T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Phnom Penh",
       "league": {
        "id": 18,
@@ -982,13 +982,16 @@
        "ar": "Kitchee",
        "logo": "https://media.api-sports.io/football/teams/4453.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630388,
       "date": "2026-10-29T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Shanghai",
       "league": {
        "id": 18,
@@ -1009,13 +1012,16 @@
        "ar": "Machida Zelvia",
        "logo": "https://media.api-sports.io/football/teams/303.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630389,
       "date": "2026-10-29T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Hong Kong",
       "league": {
        "id": 18,
@@ -1036,7 +1042,10 @@
        "ar": "BG Pathum United",
        "logo": "https://media.api-sports.io/football/teams/2769.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
