@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T10:09:22.669Z",
+ "updated": "2026-10-29T10:54:06.463Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -900,8 +900,8 @@
      {
       "id": 1630385,
       "date": "2026-10-29T13:00:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Gangneung",
       "league": {
        "id": 18,
@@ -923,15 +923,15 @@
        "logo": "https://media.api-sports.io/football/teams/10108.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1630386,
       "date": "2026-10-29T13:00:00+03:00",
-      "status": "1H",
-      "elapsed": 9,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Kallang",
       "league": {
        "id": 18,
@@ -954,7 +954,7 @@
       },
       "goals": [
        0,
-       1
+       4
       ]
      },
      {
