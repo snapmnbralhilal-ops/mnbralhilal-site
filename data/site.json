@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T09:17:28.558Z",
+ "updated": "2026-10-29T10:09:22.669Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -870,8 +870,8 @@
      {
       "id": 1630384,
       "date": "2026-10-29T10:45:00+03:00",
-      "status": "2H",
-      "elapsed": 76,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Adelaide",
       "league": {
        "id": 18,
@@ -894,14 +894,14 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
       "id": 1630385,
       "date": "2026-10-29T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 8,
       "venue": "Gangneung",
       "league": {
        "id": 18,
@@ -922,13 +922,16 @@
        "ar": "Kuching FA",
        "logo": "https://media.api-sports.io/football/teams/10108.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630386,
       "date": "2026-10-29T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Kallang",
       "league": {
        "id": 18,
@@ -949,7 +952,10 @@
        "ar": "Svay Rieng",
        "logo": "https://media.api-sports.io/football/teams/5396.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1630387,
