@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T17:09:13.819Z",
+ "updated": "2026-10-29T17:54:06.895Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1062,8 +1062,8 @@
      {
       "id": 1550170,
       "date": "2026-10-29T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Frosinone",
       "league": {
        "id": 135,
@@ -1084,7 +1084,10 @@
        "ar": "ليتشي",
        "logo": "https://media.api-sports.io/football/teams/867.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550169,
@@ -1191,8 +1194,8 @@
      {
       "id": 1612272,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1214,8 +1217,8 @@
        "logo": "https://media.api-sports.io/football/teams/1046.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -1230,8 +1233,8 @@
      {
       "id": 1646859,
       "date": "2026-10-29T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 9,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Fez",
       "league": {
        "id": 200,
@@ -1305,8 +1308,8 @@
      {
       "id": 1644364,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 5,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Soria",
       "league": {
        "id": 143,
@@ -1328,15 +1331,15 @@
        "logo": "https://media.api-sports.io/football/teams/718.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1644366,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 7,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Tafalla",
       "league": {
        "id": 143,
@@ -1359,7 +1362,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
@@ -3375,6 +3378,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 2928,
+      "name": "Al Khaleej Saihat",
+      "ar": "الخليج",
+      "logo": "https://media.api-sports.io/football/teams/2928.png"
+     },
+     "points": 15,
+     "gd": -5,
+     "played": 12,
+     "win": 3,
+     "draw": 6,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 10509,
       "name": "Al Kholood",
       "ar": "الخلود",
@@ -3386,22 +3405,6 @@
      "win": 3,
      "draw": 3,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 10,
-     "team": {
-      "id": 2928,
-      "name": "Al Khaleej Saihat",
-      "ar": "الخليج",
-      "logo": "https://media.api-sports.io/football/teams/2928.png"
-     },
-     "points": 12,
-     "gd": -7,
-     "played": 11,
-     "win": 2,
-     "draw": 6,
-     "lose": 3,
      "description": ""
     },
     {
@@ -3445,11 +3448,11 @@
       "logo": "https://media.api-sports.io/football/teams/2945.png"
      },
      "points": 10,
-     "gd": -4,
-     "played": 11,
+     "gd": -6,
+     "played": 12,
      "win": 2,
      "draw": 4,
-     "lose": 5,
+     "lose": 6,
      "description": ""
     },
     {

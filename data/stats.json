@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-29T17:09:14.395Z",
+ "updated": "2026-10-29T17:54:07.475Z",
  "players": [
   {
    "api": 156,
@@ -903,18 +903,18 @@
    "rating": 6.98,
    "comps": [
     {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 2,
-     "goals": 0,
-     "assists": 0
-    },
-    {
      "id": 307,
      "league": "Pro League",
      "apps": 10,
      "goals": 0,
      "assists": 2
+    },
+    {
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0
     }
    ]
   },
@@ -1006,26 +1006,26 @@
    "shots": 3,
    "shotsOn": 2,
    "keyPasses": 2,
-   "passes": 226,
+   "passes": 227,
    "tackles": 9,
    "interceptions": 4,
    "dribbles": 3,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.05,
+   "rating": 7.24,
    "comps": [
-    {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 3,
-     "goals": 0,
-     "assists": 0
-    },
     {
      "id": 307,
      "league": "Pro League",
      "apps": 2,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 3,
      "goals": 0,
      "assists": 0
     }
@@ -1058,19 +1058,19 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 5.28,
+   "rating": 5.3,
    "comps": [
-    {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 2,
-     "goals": 0,
-     "assists": 0
-    },
     {
      "id": 307,
      "league": "Pro League",
      "apps": 1,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 2,
      "goals": 0,
      "assists": 0
     }
@@ -1103,19 +1103,19 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.21,
+   "rating": 6.19,
    "comps": [
-    {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 2,
-     "goals": 0,
-     "assists": 0
-    },
     {
      "id": 307,
      "league": "Pro League",
      "apps": 5,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 2,
      "goals": 0,
      "assists": 0
     }
@@ -1141,7 +1141,7 @@
    "shots": 9,
    "shotsOn": 3,
    "keyPasses": 3,
-   "passes": 45,
+   "passes": 46,
    "tackles": 0,
    "interceptions": 0,
    "dribbles": 4,
@@ -1151,17 +1151,17 @@
    "rating": 6.65,
    "comps": [
     {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 3,
-     "goals": 0,
-     "assists": 0
-    },
-    {
      "id": 307,
      "league": "Pro League",
      "apps": 5,
      "goals": 1,
+     "assists": 0
+    },
+    {
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 3,
+     "goals": 0,
      "assists": 0
     }
    ]
@@ -1299,19 +1299,19 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 5.71,
+   "rating": 5.69,
    "comps": [
-    {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 2,
-     "goals": 0,
-     "assists": 0
-    },
     {
      "id": 307,
      "league": "Pro League",
      "apps": 4,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 2,
      "goals": 0,
      "assists": 0
     }
