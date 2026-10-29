@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T04:13:02.473Z",
+ "updated": "2026-10-29T05:01:55.796Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2127,8 +2127,8 @@
      {
       "id": 1490582,
       "date": "2026-10-29T05:30:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Vancouver",
       "league": {
        "id": 253,
@@ -2150,15 +2150,15 @@
        "logo": "https://media.api-sports.io/football/teams/25484.png"
       },
       "goals": [
-       3,
-       0
+       4,
+       1
       ]
      },
      {
       "id": 1490583,
       "date": "2026-10-29T05:30:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Seattle",
       "league": {
        "id": 253,
@@ -2187,8 +2187,8 @@
      {
       "id": 1490584,
       "date": "2026-10-29T05:30:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "San Jose",
       "league": {
        "id": 253,
@@ -2210,7 +2210,7 @@
        "logo": "https://media.api-sports.io/football/teams/1610.png"
       },
       "goals": [
-       1,
+       2,
        2
       ]
      }
