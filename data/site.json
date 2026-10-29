@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:14:01.819Z",
+ "updated": "2026-10-29T17:09:13.819Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603075,
       "date": "2026-10-29T17:35:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -803,7 +803,7 @@
        "logo": "https://media.api-sports.io/football/teams/2945.png"
       },
       "goals": [
-       3,
+       4,
        2
       ]
      },
@@ -1191,8 +1191,8 @@
      {
       "id": 1612272,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 8,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1213,7 +1213,10 @@
        "ar": "Wadi Degla",
        "logo": "https://media.api-sports.io/football/teams/1046.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1227,8 +1230,8 @@
      {
       "id": 1646859,
       "date": "2026-10-29T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Fez",
       "league": {
        "id": 200,
@@ -1249,7 +1252,10 @@
        "ar": "Renaissance Berkane",
        "logo": "https://media.api-sports.io/football/teams/962.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1299,8 +1305,8 @@
      {
       "id": 1644364,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Soria",
       "league": {
        "id": 143,
@@ -1321,13 +1327,16 @@
        "ar": "Oviedo",
        "logo": "https://media.api-sports.io/football/teams/718.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644366,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Tafalla",
       "league": {
        "id": 143,
@@ -1348,7 +1357,10 @@
        "ar": "Huesca",
        "logo": "https://media.api-sports.io/football/teams/726.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644339,
@@ -5085,6 +5097,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 17,
  "plan": "Pro"
 }
