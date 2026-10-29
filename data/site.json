@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:48:15.671Z",
+ "updated": "2026-10-29T01:42:03.973Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1277,7 +1277,7 @@
       "date": "2026-10-29T21:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Calatayud",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1331,7 +1331,7 @@
       "date": "2026-10-29T21:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Vigo",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1358,7 +1358,7 @@
       "date": "2026-10-29T21:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Municipal de Lebrija",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1385,7 +1385,7 @@
       "date": "2026-10-29T21:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Sa Pobla",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1466,7 +1466,7 @@
       "date": "2026-10-29T22:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Estadio La Fuensanta",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1493,7 +1493,7 @@
       "date": "2026-10-29T22:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Pola de Siero",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1520,7 +1520,7 @@
       "date": "2026-10-29T22:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Guijuelo",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1547,7 +1547,7 @@
       "date": "2026-10-29T22:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Estadio San Lorenzo",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1574,7 +1574,7 @@
       "date": "2026-10-29T22:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Avila",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1601,7 +1601,7 @@
       "date": "2026-10-29T22:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Estadio Las Gaunas",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1628,7 +1628,7 @@
       "date": "2026-10-29T22:30:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Torrelavega",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1655,7 +1655,7 @@
       "date": "2026-10-29T23:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Estadio de O Couto",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1682,7 +1682,7 @@
       "date": "2026-10-29T23:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Ribadesella",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1736,7 +1736,7 @@
       "date": "2026-10-29T23:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Alcala de Henares",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1763,7 +1763,7 @@
       "date": "2026-10-29T23:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "",
+      "venue": "Estadi La Feixa Llarga",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -1797,8 +1797,8 @@
      {
       "id": 1490571,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 50,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Miami",
       "league": {
        "id": 253,
@@ -1820,15 +1820,15 @@
        "logo": "https://media.api-sports.io/football/teams/2242.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       2
       ]
      },
      {
       "id": 1490572,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Flushing",
       "league": {
        "id": 253,
@@ -1850,15 +1850,15 @@
        "logo": "https://media.api-sports.io/football/teams/1608.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       1
       ]
      },
      {
       "id": 1490573,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 49,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Boston",
       "league": {
        "id": 253,
@@ -1880,15 +1880,15 @@
        "logo": "https://media.api-sports.io/football/teams/1602.png"
       },
       "goals": [
-       2,
-       0
+       3,
+       2
       ]
      },
      {
       "id": 1490574,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 51,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Charlotte",
       "league": {
        "id": 253,
@@ -1910,15 +1910,15 @@
        "logo": "https://media.api-sports.io/football/teams/1614.png"
       },
       "goals": [
-       1,
+       4,
        0
       ]
      },
      {
       "id": 1490575,
       "date": "2026-10-29T02:30:00+03:00",
-      "status": "2H",
-      "elapsed": 51,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Toronto",
       "league": {
        "id": 253,
@@ -1940,15 +1940,15 @@
        "logo": "https://media.api-sports.io/football/teams/1615.png"
       },
       "goals": [
-       0,
+       2,
        1
       ]
      },
      {
       "id": 1490576,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Nashville",
       "league": {
        "id": 253,
@@ -1977,8 +1977,8 @@
      {
       "id": 1490577,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Frisco",
       "league": {
        "id": 253,
@@ -2001,14 +2001,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1490578,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Chicago",
       "league": {
        "id": 253,
@@ -2031,14 +2031,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1490579,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Sao Paulo",
       "league": {
        "id": 253,
@@ -2061,14 +2061,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1490580,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Austin",
       "league": {
        "id": 253,
@@ -2097,8 +2097,8 @@
      {
       "id": 1490581,
       "date": "2026-10-29T03:30:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Saint Louis",
       "league": {
        "id": 253,
@@ -2121,7 +2121,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
