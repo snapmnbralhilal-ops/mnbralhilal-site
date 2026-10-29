@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T17:54:06.895Z",
+ "updated": "2026-10-29T18:35:35.126Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1603076,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -832,13 +832,16 @@
        "ar": "الخلود",
        "logo": "https://media.api-sports.io/football/teams/10509.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1603077,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -859,7 +862,10 @@
        "ar": "القادسية",
        "logo": "https://media.api-sports.io/football/teams/2933.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -1062,8 +1068,8 @@
      {
       "id": 1550170,
       "date": "2026-10-29T20:30:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Frosinone",
       "league": {
        "id": 135,
@@ -1085,7 +1091,7 @@
        "logo": "https://media.api-sports.io/football/teams/867.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
@@ -1194,8 +1200,8 @@
      {
       "id": 1612272,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "Cairo",
       "league": {
        "id": 233,
@@ -1217,7 +1223,7 @@
        "logo": "https://media.api-sports.io/football/teams/1046.png"
       },
       "goals": [
-       1,
+       2,
        1
       ]
      }
@@ -1233,8 +1239,8 @@
      {
       "id": 1646859,
       "date": "2026-10-29T23:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 77,
       "venue": "Fez",
       "league": {
        "id": 200,
@@ -1308,8 +1314,8 @@
      {
       "id": 1644364,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 76,
       "venue": "Soria",
       "league": {
        "id": 143,
@@ -1331,15 +1337,15 @@
        "logo": "https://media.api-sports.io/football/teams/718.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       2
       ]
      },
      {
       "id": 1644366,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 77,
       "venue": "Tafalla",
       "league": {
        "id": 143,
@@ -1361,15 +1367,15 @@
        "logo": "https://media.api-sports.io/football/teams/726.png"
       },
       "goals": [
-       0,
-       2
+       1,
+       4
       ]
      },
      {
       "id": 1644339,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Calatayud",
       "league": {
        "id": 143,
@@ -1390,13 +1396,16 @@
        "ar": "أوساسونا",
        "logo": "https://media.api-sports.io/football/teams/727.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1644343,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Palma",
       "league": {
        "id": 143,
@@ -1417,13 +1426,16 @@
        "ar": "Eldense",
        "logo": "https://media.api-sports.io/football/teams/9692.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644350,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Vigo",
       "league": {
        "id": 143,
@@ -1444,13 +1456,16 @@
        "ar": "Zamora",
        "logo": "https://media.api-sports.io/football/teams/9418.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1644358,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Municipal de Lebrija",
       "league": {
        "id": 143,
@@ -1471,13 +1486,16 @@
        "ar": "خيتافي",
        "logo": "https://media.api-sports.io/football/teams/546.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1644368,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 35,
       "venue": "Sa Pobla",
       "league": {
        "id": 143,
@@ -1498,13 +1516,16 @@
        "ar": "AD Ceuta FC",
        "logo": "https://media.api-sports.io/football/teams/10139.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1644377,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 34,
       "venue": "",
       "league": {
        "id": 143,
@@ -1525,13 +1546,16 @@
        "ar": "CD Coria",
        "logo": "https://media.api-sports.io/football/teams/9827.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644347,
       "date": "2026-10-29T21:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Cieza",
       "league": {
        "id": 143,
@@ -1552,7 +1576,10 @@
        "ar": "Granada CF",
        "logo": "https://media.api-sports.io/football/teams/715.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644337,
@@ -5099,7 +5126,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 78,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 17,
  "plan": "Pro"
 }
