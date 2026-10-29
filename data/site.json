@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:39:15.056Z",
+ "updated": "2026-10-29T22:18:17.324Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1729,6 +1729,36 @@
        5,
        1
       ]
+     },
+     {
+      "id": 1550169,
+      "date": "2026-10-29T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Florence",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 502,
+       "name": "Fiorentina",
+       "ar": "فيورنتينا",
+       "logo": "https://media.api-sports.io/football/teams/502.png"
+      },
+      "away": {
+       "id": 499,
+       "name": "Atalanta",
+       "ar": "أتالانتا",
+       "logo": "https://media.api-sports.io/football/teams/499.png"
+      },
+      "goals": [
+       2,
+       2
+      ]
      }
     ]
    },
@@ -2364,6 +2394,186 @@
       "goals": [
        0,
        3
+      ]
+     },
+     {
+      "id": 1644381,
+      "date": "2026-10-29T22:30:00+03:00",
+      "status": "AET",
+      "elapsed": 120,
+      "venue": "Torrelavega",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 5264,
+       "name": "Gimnástica Torrelavega",
+       "ar": "Gimnástica Torrelavega",
+       "logo": "https://media.api-sports.io/football/teams/5264.png"
+      },
+      "away": {
+       "id": 9617,
+       "name": "UD Ourense",
+       "ar": "UD Ourense",
+       "logo": "https://media.api-sports.io/football/teams/9617.png"
+      },
+      "goals": [
+       3,
+       1
+      ]
+     },
+     {
+      "id": 1644342,
+      "date": "2026-10-29T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Estadio de O Couto",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 28410,
+       "name": "Auriense",
+       "ar": "Auriense",
+       "logo": "https://media.api-sports.io/football/teams/28410.png"
+      },
+      "away": {
+       "id": 544,
+       "name": "Deportivo La Coruna",
+       "ar": "ديبورتيفو لاكورونيا",
+       "logo": "https://media.api-sports.io/football/teams/544.png"
+      },
+      "goals": [
+       0,
+       3
+      ]
+     },
+     {
+      "id": 1644374,
+      "date": "2026-10-29T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Ribadesella",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 28413,
+       "name": "Ribadesella CF",
+       "ar": "Ribadesella CF",
+       "logo": "https://media.api-sports.io/football/teams/28413.png"
+      },
+      "away": {
+       "id": 4665,
+       "name": "Racing Santander",
+       "ar": "راسينغ سانتاندير",
+       "logo": "https://media.api-sports.io/football/teams/4665.png"
+      },
+      "goals": [
+       0,
+       2
+      ]
+     },
+     {
+      "id": 1644386,
+      "date": "2026-10-29T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Jerez",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9770,
+       "name": "Xerez",
+       "ar": "Xerez",
+       "logo": "https://media.api-sports.io/football/teams/9770.png"
+      },
+      "away": {
+       "id": 724,
+       "name": "Cadiz",
+       "ar": "Cadiz",
+       "logo": "https://media.api-sports.io/football/teams/724.png"
+      },
+      "goals": [
+       1,
+       3
+      ]
+     },
+     {
+      "id": 1645578,
+      "date": "2026-10-29T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Alcala de Henares",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 28411,
+       "name": "Hortaleza",
+       "ar": "Hortaleza",
+       "logo": "https://media.api-sports.io/football/teams/28411.png"
+      },
+      "away": {
+       "id": 536,
+       "name": "Sevilla",
+       "ar": "إشبيلية",
+       "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "goals": [
+       0,
+       3
+      ]
+     },
+     {
+      "id": 1645579,
+      "date": "2026-10-29T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Estadi La Feixa Llarga",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9592,
+       "name": "Prat",
+       "ar": "Prat",
+       "logo": "https://media.api-sports.io/football/teams/9592.png"
+      },
+      "away": {
+       "id": 531,
+       "name": "Athletic Club",
+       "ar": "أتلتيك بلباو",
+       "logo": "https://media.api-sports.io/football/teams/531.png"
+      },
+      "goals": [
+       1,
+       6
       ]
      }
     ]
