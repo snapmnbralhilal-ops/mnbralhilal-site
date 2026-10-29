@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T14:21:59.832Z",
+ "updated": "2026-10-29T15:19:46.175Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603075,
       "date": "2026-10-29T17:35:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 42,
       "venue": "Daman",
       "league": {
        "id": 307,
@@ -802,7 +802,10 @@
        "ar": "الحزم",
        "logo": "https://media.api-sports.io/football/teams/2945.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1603076,
@@ -1158,8 +1161,8 @@
      {
       "id": 1612271,
       "date": "2026-10-29T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "2H",
+      "elapsed": 55,
       "venue": "Cairo",
       "league": {
        "id": 233,
