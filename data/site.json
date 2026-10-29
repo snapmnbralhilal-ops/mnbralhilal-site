@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T19:29:32.196Z",
+ "updated": "2026-10-29T20:15:25.341Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1603076,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -833,15 +833,15 @@
        "logo": "https://media.api-sports.io/football/teams/10509.png"
       },
       "goals": [
-       3,
-       2
+       5,
+       3
       ]
      },
      {
       "id": 1603077,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 70,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -864,7 +864,7 @@
       },
       "goals": [
        0,
-       4
+       6
       ]
      }
     ]
@@ -1098,8 +1098,8 @@
      {
       "id": 1550169,
       "date": "2026-10-29T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 28,
       "venue": "Florence",
       "league": {
        "id": 135,
@@ -1120,7 +1120,10 @@
        "ar": "أتالانتا",
        "logo": "https://media.api-sports.io/football/teams/499.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1278,8 +1281,8 @@
      {
       "id": 1640385,
       "date": "2026-10-29T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Liverpool",
       "league": {
        "id": 48,
@@ -1300,7 +1303,10 @@
        "ar": "نيوكاسل",
        "logo": "https://media.api-sports.io/football/teams/34.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1314,8 +1320,8 @@
      {
       "id": 1644364,
       "date": "2026-10-29T20:00:00+03:00",
-      "status": "ET",
-      "elapsed": 114,
+      "status": "PEN",
+      "elapsed": 120,
       "venue": "Soria",
       "league": {
        "id": 143,
@@ -1374,8 +1380,8 @@
      {
       "id": 1644339,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Calatayud",
       "league": {
        "id": 143,
@@ -1398,14 +1404,14 @@
       },
       "goals": [
        0,
-       5
+       6
       ]
      },
      {
       "id": 1644343,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Palma",
       "league": {
        "id": 143,
@@ -1434,8 +1440,8 @@
      {
       "id": 1644350,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Vigo",
       "league": {
        "id": 143,
@@ -1458,14 +1464,14 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
       "id": 1644358,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Municipal de Lebrija",
       "league": {
        "id": 143,
@@ -1494,8 +1500,8 @@
      {
       "id": 1644368,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sa Pobla",
       "league": {
        "id": 143,
@@ -1518,14 +1524,14 @@
       },
       "goals": [
        1,
-       0
+       2
       ]
      },
      {
       "id": 1644377,
       "date": "2026-10-29T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 71,
+      "status": "ET",
+      "elapsed": 106,
       "venue": "",
       "league": {
        "id": 143,
@@ -1554,8 +1560,8 @@
      {
       "id": 1644347,
       "date": "2026-10-29T21:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 88,
       "venue": "Cieza",
       "league": {
        "id": 143,
@@ -1578,14 +1584,14 @@
       },
       "goals": [
        0,
-       1
+       3
       ]
      },
      {
       "id": 1644337,
       "date": "2026-10-29T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Antequera",
       "league": {
        "id": 143,
@@ -1614,8 +1620,8 @@
      {
       "id": 1644349,
       "date": "2026-10-29T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Estadio La Fuensanta",
       "league": {
        "id": 143,
@@ -1638,14 +1644,14 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
       "id": 1644351,
       "date": "2026-10-29T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Pola de Siero",
       "league": {
        "id": 143,
@@ -1674,8 +1680,8 @@
      {
       "id": 1644356,
       "date": "2026-10-29T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 29,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Guijuelo",
       "league": {
        "id": 143,
@@ -1697,15 +1703,15 @@
        "logo": "https://media.api-sports.io/football/teams/731.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1644357,
       "date": "2026-10-29T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 29,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Estadio San Lorenzo",
       "league": {
        "id": 143,
@@ -1727,7 +1733,7 @@
        "logo": "https://media.api-sports.io/football/teams/9580.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1761,8 +1767,8 @@
      {
       "id": 1644371,
       "date": "2026-10-29T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 28,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Avila",
       "league": {
        "id": 143,
@@ -1791,8 +1797,8 @@
      {
       "id": 1644385,
       "date": "2026-10-29T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 29,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Estadio Las Gaunas",
       "league": {
        "id": 143,
@@ -1815,14 +1821,14 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
       "id": 1644381,
       "date": "2026-10-29T22:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 45,
       "venue": "Torrelavega",
       "league": {
        "id": 143,
@@ -1843,13 +1849,16 @@
        "ar": "UD Ourense",
        "logo": "https://media.api-sports.io/football/teams/9617.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1644342,
       "date": "2026-10-29T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Estadio de O Couto",
       "league": {
        "id": 143,
@@ -1870,13 +1879,16 @@
        "ar": "ديبورتيفو لاكورونيا",
        "logo": "https://media.api-sports.io/football/teams/544.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644374,
       "date": "2026-10-29T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Ribadesella",
       "league": {
        "id": 143,
@@ -1897,13 +1909,16 @@
        "ar": "راسينغ سانتاندير",
        "logo": "https://media.api-sports.io/football/teams/4665.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1644386,
       "date": "2026-10-29T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Jerez",
       "league": {
        "id": 143,
@@ -1924,13 +1939,16 @@
        "ar": "Cadiz",
        "logo": "https://media.api-sports.io/football/teams/724.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1645578,
       "date": "2026-10-29T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Alcala de Henares",
       "league": {
        "id": 143,
@@ -1951,13 +1969,16 @@
        "ar": "إشبيلية",
        "logo": "https://media.api-sports.io/football/teams/536.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1645579,
       "date": "2026-10-29T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Estadi La Feixa Llarga",
       "league": {
        "id": 143,
@@ -1978,7 +1999,10 @@
        "ar": "أتلتيك بلباو",
        "logo": "https://media.api-sports.io/football/teams/531.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
