@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:14:22.549Z",
+ "updated": "2026-10-30T20:56:29.708Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -879,8 +879,8 @@
      {
       "id": 1570442,
       "date": "2026-10-30T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 14,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Villarreal",
       "league": {
        "id": 140,
@@ -918,8 +918,8 @@
      {
       "id": 1575211,
       "date": "2026-10-30T22:30:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Spiesen-Elversberg",
       "league": {
        "id": 78,
@@ -941,7 +941,7 @@
        "logo": "https://media.api-sports.io/football/teams/164.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      }
@@ -1017,8 +1017,8 @@
      {
       "id": 1552802,
       "date": "2026-10-30T23:05:00+03:00",
-      "status": "1H",
-      "elapsed": 10,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1344,8 +1344,8 @@
      {
       "id": 1646860,
       "date": "2026-10-30T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "El Jadida",
       "league": {
        "id": 200,
@@ -1366,7 +1366,10 @@
        "ar": "UTS Rabat",
        "logo": "https://media.api-sports.io/football/teams/14806.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1380,8 +1383,8 @@
      {
       "id": 1575531,
       "date": "2026-10-30T23:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 39,
       "venue": "Rio Mayor",
       "league": {
        "id": 94,
@@ -1402,7 +1405,10 @@
        "ar": "سبورتينغ لشبونة",
        "logo": "https://media.api-sports.io/football/teams/228.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -4627,10 +4633,10 @@
       "ar": "باريس سان جيرمان",
       "logo": "https://media.api-sports.io/football/teams/85.png"
      },
-     "points": 17,
-     "gd": 7,
-     "played": 8,
-     "win": 5,
+     "points": 20,
+     "gd": 11,
+     "played": 9,
+     "win": 6,
      "draw": 2,
      "lose": 1,
      "description": "Champions League league stage"
@@ -4644,11 +4650,11 @@
       "logo": "https://media.api-sports.io/football/teams/94.png"
      },
      "points": 16,
-     "gd": 4,
-     "played": 8,
+     "gd": 1,
+     "played": 9,
      "win": 5,
      "draw": 1,
-     "lose": 2,
+     "lose": 3,
      "description": "Champions League league stage"
     },
     {
@@ -4718,6 +4724,22 @@
     {
      "rank": 7,
      "team": {
+      "id": 84,
+      "name": "Nice",
+      "ar": "نيس",
+      "logo": "https://media.api-sports.io/football/teams/84.png"
+     },
+     "points": 14,
+     "gd": 1,
+     "played": 9,
+     "win": 4,
+     "draw": 2,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
       "id": 116,
       "name": "Lens",
       "ar": "لانس",
@@ -4732,7 +4754,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 81,
       "name": "Marseille",
@@ -4748,7 +4770,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 97,
       "name": "Lorient",
@@ -4761,22 +4783,6 @@
      "win": 3,
      "draw": 3,
      "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 10,
-     "team": {
-      "id": 84,
-      "name": "Nice",
-      "ar": "نيس",
-      "logo": "https://media.api-sports.io/football/teams/84.png"
-     },
-     "points": 11,
-     "gd": -2,
-     "played": 8,
-     "win": 3,
-     "draw": 2,
-     "lose": 3,
      "description": ""
     },
     {
@@ -4900,17 +4906,38 @@
       "logo": "https://media.api-sports.io/football/teams/111.png"
      },
      "points": 2,
-     "gd": -7,
-     "played": 8,
+     "gd": -11,
+     "played": 9,
      "win": 0,
      "draw": 2,
-     "lose": 6,
+     "lose": 7,
      "description": "Relegation"
     }
    ]
   }
  },
- "errors": [],
- "requests": 20,
+ "errors": [
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "date": "2026-10-29",
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  },
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
+ "requests": 19,
  "plan": "Pro"
 }
