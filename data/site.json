@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T13:01:25.840Z",
+ "updated": "2026-10-30T14:02:08.333Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603071,
       "date": "2026-10-30T15:30:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "Khamis Mushait",
       "league": {
        "id": 307,
@@ -804,7 +804,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -4869,6 +4869,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
