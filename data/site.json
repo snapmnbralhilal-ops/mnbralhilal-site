@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:16:52.741Z",
+ "updated": "2026-10-30T23:52:34.068Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3610,11 +3610,11 @@
       "logo": "https://media.api-sports.io/football/teams/533.png"
      },
      "points": 12,
-     "gd": 1,
-     "played": 10,
+     "gd": 0,
+     "played": 11,
      "win": 3,
      "draw": 3,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
@@ -3636,6 +3636,22 @@
     {
      "rank": 12,
      "team": {
+      "id": 540,
+      "name": "Espanyol",
+      "ar": "إسبانيول",
+      "logo": "https://media.api-sports.io/football/teams/540.png"
+     },
+     "points": 11,
+     "gd": -1,
+     "played": 11,
+     "win": 3,
+     "draw": 2,
+     "lose": 6,
+     "description": ""
+    },
+    {
+     "rank": 13,
+     "team": {
       "id": 727,
       "name": "Osasuna",
       "ar": "أوساسونا",
@@ -3650,7 +3666,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 4665,
       "name": "Racing Santander",
@@ -3666,7 +3682,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 539,
       "name": "Levante",
@@ -3682,7 +3698,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 797,
       "name": "Elche",
@@ -3698,7 +3714,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 728,
       "name": "Rayo Vallecano",
@@ -3714,7 +3730,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 546,
       "name": "Getafe",
@@ -3727,22 +3743,6 @@
      "win": 2,
      "draw": 3,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 18,
-     "team": {
-      "id": 540,
-      "name": "Espanyol",
-      "ar": "إسبانيول",
-      "logo": "https://media.api-sports.io/football/teams/540.png"
-     },
-     "points": 8,
-     "gd": -2,
-     "played": 10,
-     "win": 2,
-     "draw": 2,
-     "lose": 6,
      "description": "Relegation - LaLiga2"
     },
     {
