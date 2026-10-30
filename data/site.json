@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T12:09:38.810Z",
+ "updated": "2026-10-30T13:01:25.840Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603071,
       "date": "2026-10-30T15:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Khamis Mushait",
       "league": {
        "id": 307,
@@ -802,7 +802,10 @@
        "ar": "الاتحاد",
        "logo": "https://media.api-sports.io/football/teams/2938.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603072,
