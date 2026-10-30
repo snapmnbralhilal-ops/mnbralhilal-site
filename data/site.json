@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:04:19.996Z",
+ "updated": "2026-10-30T18:48:50.579Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -841,7 +841,7 @@
       "id": 1603078,
       "date": "2026-10-30T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 45,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -863,8 +863,8 @@
        "logo": "https://media.api-sports.io/football/teams/2929.png"
       },
       "goals": [
-       1,
-       0
+       3,
+       1
       ]
      }
     ]
@@ -952,7 +952,7 @@
       "id": 1552801,
       "date": "2026-10-30T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 45,
       "venue": "Le Havre",
       "league": {
        "id": 61,
@@ -974,15 +974,15 @@
        "logo": "https://media.api-sports.io/football/teams/85.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       2
       ]
      },
      {
       "id": 1552806,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 4,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Nice",
       "league": {
        "id": 61,
@@ -1004,8 +1004,8 @@
        "logo": "https://media.api-sports.io/football/teams/94.png"
       },
       "goals": [
-       0,
-       0
+       3,
+       1
       ]
      },
      {
@@ -1077,8 +1077,8 @@
      {
       "id": 1597953,
       "date": "2026-10-30T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 69,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1100,15 +1100,15 @@
        "logo": "https://media.api-sports.io/football/teams/2916.png"
       },
       "goals": [
-       3,
+       4,
        1
       ]
      },
      {
       "id": 1597955,
       "date": "2026-10-30T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1130,7 +1130,7 @@
        "logo": "https://media.api-sports.io/football/teams/2907.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      }
@@ -1266,8 +1266,8 @@
      {
       "id": 1612274,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 4,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1297,7 +1297,7 @@
       "id": 1612275,
       "date": "2026-10-30T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 3,
+      "elapsed": 45,
       "venue": "Ismailia",
       "league": {
        "id": 233,
@@ -1320,7 +1320,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      }
     ]
@@ -1407,8 +1407,8 @@
      {
       "id": 1584455,
       "date": "2026-10-30T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 85,
       "venue": "Konya",
       "league": {
        "id": 203,
@@ -1431,7 +1431,7 @@
       },
       "goals": [
        0,
-       2
+       4
       ]
      }
     ]
@@ -3116,6 +3116,22 @@
     {
      "rank": 5,
      "team": {
+      "id": 10513,
+      "name": "NEOM",
+      "ar": "نيوم",
+      "logo": "https://media.api-sports.io/football/teams/10513.png"
+     },
+     "points": 22,
+     "gd": 8,
+     "played": 12,
+     "win": 7,
+     "draw": 1,
+     "lose": 4,
+     "description": "Promotion - AFC Champions League (Qualification)"
+    },
+    {
+     "rank": 6,
+     "team": {
       "id": 2929,
       "name": "Al-Ahli Jeddah",
       "ar": "الأهلي",
@@ -3127,22 +3143,6 @@
      "win": 7,
      "draw": 0,
      "lose": 3,
-     "description": "Promotion - AFC Champions League (Qualification)"
-    },
-    {
-     "rank": 6,
-     "team": {
-      "id": 10513,
-      "name": "NEOM",
-      "ar": "نيوم",
-      "logo": "https://media.api-sports.io/football/teams/10513.png"
-     },
-     "points": 19,
-     "gd": 7,
-     "played": 11,
-     "win": 6,
-     "draw": 1,
-     "lose": 4,
      "description": "Promotion - AFC Champions League 2"
     },
     {
@@ -3170,11 +3170,11 @@
       "logo": "https://media.api-sports.io/football/teams/26738.png"
      },
      "points": 15,
-     "gd": -2,
-     "played": 11,
+     "gd": -3,
+     "played": 12,
      "win": 4,
      "draw": 3,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
