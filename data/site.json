@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:08:12.421Z",
+ "updated": "2026-10-30T22:43:01.302Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2718,6 +2718,84 @@
    },
    {
     "league": {
+     "id": 200,
+     "name": "Botola Pro",
+     "logo": "https://media.api-sports.io/football/leagues/200.png"
+    },
+    "matches": [
+     {
+      "id": 1646860,
+      "date": "2026-10-30T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "El Jadida",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 6"
+      },
+      "home": {
+       "id": 964,
+       "name": "Difaa EL Jadida",
+       "ar": "Difaa EL Jadida",
+       "logo": "https://media.api-sports.io/football/teams/964.png"
+      },
+      "away": {
+       "id": 14806,
+       "name": "UTS Rabat",
+       "ar": "UTS Rabat",
+       "logo": "https://media.api-sports.io/football/teams/14806.png"
+      },
+      "goals": [
+       1,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 94,
+     "name": "Primeira Liga",
+     "logo": "https://media.api-sports.io/football/leagues/94.png"
+    },
+    "matches": [
+     {
+      "id": 1575531,
+      "date": "2026-10-30T23:15:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Rio Mayor",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 4716,
+       "name": "Casa Pia",
+       "ar": "Casa Pia",
+       "logo": "https://media.api-sports.io/football/teams/4716.png"
+      },
+      "away": {
+       "id": 228,
+       "name": "Sporting CP",
+       "ar": "سبورتينغ لشبونة",
+       "logo": "https://media.api-sports.io/football/teams/228.png"
+      },
+      "goals": [
+       0,
+       2
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
      "id": 203,
      "name": "Süper Lig",
      "logo": "https://media.api-sports.io/football/leagues/203.png"
@@ -2850,11 +2928,11 @@
       "logo": "https://media.api-sports.io/football/teams/2929.png"
      },
      "points": 21,
-     "gd": 14,
-     "played": 10,
+     "gd": 9,
+     "played": 11,
      "win": 7,
      "draw": 0,
-     "lose": 3,
+     "lose": 4,
      "description": "Promotion - AFC Champions League 2"
     },
     {
@@ -2908,6 +2986,22 @@
     {
      "rank": 10,
      "team": {
+      "id": 2940,
+      "name": "Al Shabab",
+      "ar": "الشباب",
+      "logo": "https://media.api-sports.io/football/teams/2940.png"
+     },
+     "points": 14,
+     "gd": 5,
+     "played": 11,
+     "win": 3,
+     "draw": 5,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
       "id": 10509,
       "name": "Al Kholood",
       "ar": "الخلود",
@@ -2922,7 +3016,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 10511,
       "name": "Al Riyadh",
@@ -2935,22 +3029,6 @@
      "win": 3,
      "draw": 3,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 12,
-     "team": {
-      "id": 2940,
-      "name": "Al Shabab",
-      "ar": "الشباب",
-      "logo": "https://media.api-sports.io/football/teams/2940.png"
-     },
-     "points": 11,
-     "gd": 0,
-     "played": 10,
-     "win": 2,
-     "draw": 5,
-     "lose": 3,
      "description": ""
     },
     {
