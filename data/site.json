@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T16:31:21.403Z",
+ "updated": "2026-10-30T17:21:17.992Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1603072,
       "date": "2026-10-30T17:50:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -1069,7 +1069,7 @@
       "id": 1597953,
       "date": "2026-10-30T19:30:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1091,15 +1091,15 @@
        "logo": "https://media.api-sports.io/football/teams/2916.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1597955,
       "date": "2026-10-30T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 1,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1227,8 +1227,8 @@
      {
       "id": 1612273,
       "date": "2026-10-30T18:00:00+03:00",
-      "status": "2H",
-      "elapsed": 67,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Asyut",
       "league": {
        "id": 233,
@@ -1250,7 +1250,7 @@
        "logo": "https://media.api-sports.io/football/teams/1574.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
@@ -1392,8 +1392,8 @@
      {
       "id": 1584455,
       "date": "2026-10-30T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 21,
       "venue": "Konya",
       "league": {
        "id": 203,
@@ -1414,7 +1414,10 @@
        "ar": "غلطة سراي",
        "logo": "https://media.api-sports.io/football/teams/645.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    }
@@ -4884,6 +4887,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 18,
  "plan": "Pro"
 }
