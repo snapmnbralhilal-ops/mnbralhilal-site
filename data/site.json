@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T19:31:08.773Z",
+ "updated": "2026-10-30T20:14:22.549Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -840,8 +840,8 @@
      {
       "id": 1603078,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -863,7 +863,7 @@
        "logo": "https://media.api-sports.io/football/teams/2929.png"
       },
       "goals": [
-       5,
+       6,
        1
       ]
      }
@@ -879,8 +879,8 @@
      {
       "id": 1570442,
       "date": "2026-10-30T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Villarreal",
       "league": {
        "id": 140,
@@ -901,7 +901,10 @@
        "ar": "إسبانيول",
        "logo": "https://media.api-sports.io/football/teams/540.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -916,7 +919,7 @@
       "id": 1575211,
       "date": "2026-10-30T22:30:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 44,
       "venue": "Spiesen-Elversberg",
       "league": {
        "id": 78,
@@ -938,7 +941,7 @@
        "logo": "https://media.api-sports.io/football/teams/164.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      }
@@ -954,8 +957,8 @@
      {
       "id": 1552801,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Le Havre",
       "league": {
        "id": 61,
@@ -984,8 +987,8 @@
      {
       "id": 1552806,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 71,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Nice",
       "league": {
        "id": 61,
@@ -1007,15 +1010,15 @@
        "logo": "https://media.api-sports.io/football/teams/94.png"
       },
       "goals": [
-       4,
+       5,
        2
       ]
      },
      {
       "id": 1552802,
       "date": "2026-10-30T23:05:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 10,
       "venue": "Lille",
       "league": {
        "id": 61,
@@ -1036,7 +1039,10 @@
        "ar": "لانس",
        "logo": "https://media.api-sports.io/football/teams/116.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1269,8 +1275,8 @@
      {
       "id": 1612274,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 72,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1299,8 +1305,8 @@
      {
       "id": 1612275,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ismailia",
       "league": {
        "id": 233,
@@ -1322,7 +1328,7 @@
        "logo": "https://media.api-sports.io/football/teams/1037.png"
       },
       "goals": [
-       0,
+       1,
        3
       ]
      }
