@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:43:01.302Z",
+ "updated": "2026-10-30T23:16:52.741Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -4174,6 +4174,22 @@
     {
      "rank": 5,
      "team": {
+      "id": 1660,
+      "name": "SV Elversberg",
+      "ar": "إلفرسبرغ",
+      "logo": "https://media.api-sports.io/football/teams/1660.png"
+     },
+     "points": 13,
+     "gd": 0,
+     "played": 8,
+     "win": 4,
+     "draw": 1,
+     "lose": 3,
+     "description": "Europa League league stage"
+    },
+    {
+     "rank": 6,
+     "team": {
       "id": 173,
       "name": "RB Leipzig",
       "ar": "لايبزيغ",
@@ -4185,10 +4201,10 @@
      "win": 4,
      "draw": 0,
      "lose": 3,
-     "description": "Europa League league stage"
+     "description": "Qualifying"
     },
     {
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 162,
       "name": "Werder Bremen",
@@ -4201,10 +4217,10 @@
      "win": 3,
      "draw": 3,
      "lose": 1,
-     "description": "Qualifying"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 164,
       "name": "FSV Mainz 05",
@@ -4212,27 +4228,11 @@
       "logo": "https://media.api-sports.io/football/teams/164.png"
      },
      "points": 10,
-     "gd": 3,
-     "played": 7,
+     "gd": 0,
+     "played": 8,
      "win": 3,
      "draw": 1,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 8,
-     "team": {
-      "id": 1660,
-      "name": "SV Elversberg",
-      "ar": "إلفرسبرغ",
-      "logo": "https://media.api-sports.io/football/teams/1660.png"
-     },
-     "points": 10,
-     "gd": -3,
-     "played": 7,
-     "win": 3,
-     "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
@@ -4419,6 +4419,22 @@
     {
      "rank": 2,
      "team": {
+      "id": 79,
+      "name": "Lille",
+      "ar": "ليل",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+     },
+     "points": 18,
+     "gd": 6,
+     "played": 9,
+     "win": 5,
+     "draw": 3,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 3,
+     "team": {
       "id": 94,
       "name": "Rennes",
       "ar": "رين",
@@ -4430,22 +4446,6 @@
      "win": 5,
      "draw": 1,
      "lose": 3,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 79,
-      "name": "Lille",
-      "ar": "ليل",
-      "logo": "https://media.api-sports.io/football/teams/79.png"
-     },
-     "points": 15,
-     "gd": 5,
-     "played": 8,
-     "win": 4,
-     "draw": 3,
-     "lose": 1,
      "description": "Champions League league stage"
     },
     {
@@ -4521,11 +4521,11 @@
       "logo": "https://media.api-sports.io/football/teams/116.png"
      },
      "points": 13,
-     "gd": 4,
-     "played": 8,
+     "gd": 3,
+     "played": 9,
      "win": 4,
      "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
