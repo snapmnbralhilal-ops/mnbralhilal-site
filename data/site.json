@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T15:45:08.640Z",
+ "updated": "2026-10-30T16:31:21.403Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1603072,
       "date": "2026-10-30T17:50:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 79,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -834,7 +834,7 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
@@ -1038,8 +1038,8 @@
      {
       "id": 1597950,
       "date": "2026-10-30T17:15:00+03:00",
-      "status": "2H",
-      "elapsed": 68,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1061,15 +1061,15 @@
        "logo": "https://media.api-sports.io/football/teams/2896.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      },
      {
       "id": 1597953,
       "date": "2026-10-30T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1090,13 +1090,16 @@
        "ar": "الشمال",
        "logo": "https://media.api-sports.io/football/teams/2916.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1597955,
       "date": "2026-10-30T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1117,7 +1120,10 @@
        "ar": "قطر",
        "logo": "https://media.api-sports.io/football/teams/2907.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1221,8 +1227,8 @@
      {
       "id": 1612273,
       "date": "2026-10-30T18:00:00+03:00",
-      "status": "1H",
-      "elapsed": 43,
+      "status": "2H",
+      "elapsed": 67,
       "venue": "Asyut",
       "league": {
        "id": 233,
