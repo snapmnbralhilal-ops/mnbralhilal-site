@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-30T17:21:18.477Z",
+ "updated": "2026-10-30T18:04:20.543Z",
  "players": [
   {
    "api": 156,
@@ -903,18 +903,18 @@
    "rating": 6.98,
    "comps": [
     {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 10,
-     "goals": 0,
-     "assists": 2
-    },
-    {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 2,
      "goals": 0,
      "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 10,
+     "goals": 0,
+     "assists": 2
     }
    ]
   },
@@ -1016,16 +1016,16 @@
    "rating": 7.24,
    "comps": [
     {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 2,
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 3,
      "goals": 0,
      "assists": 0
     },
     {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 3,
+     "id": 307,
+     "league": "Pro League",
+     "apps": 2,
      "goals": 0,
      "assists": 0
     }
@@ -1061,16 +1061,16 @@
    "rating": 5.3,
    "comps": [
     {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 1,
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 2,
      "goals": 0,
      "assists": 0
     },
     {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 2,
+     "id": 307,
+     "league": "Pro League",
+     "apps": 1,
      "goals": 0,
      "assists": 0
     }
@@ -1106,16 +1106,16 @@
    "rating": 6.19,
    "comps": [
     {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 5,
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 2,
      "goals": 0,
      "assists": 0
     },
     {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 2,
+     "id": 307,
+     "league": "Pro League",
+     "apps": 5,
      "goals": 0,
      "assists": 0
     }
@@ -1151,17 +1151,17 @@
    "rating": 6.65,
    "comps": [
     {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 5,
-     "goals": 1,
-     "assists": 0
-    },
-    {
      "id": 17,
      "league": "AFC Champions League Elite",
      "apps": 3,
      "goals": 0,
+     "assists": 0
+    },
+    {
+     "id": 307,
+     "league": "Pro League",
+     "apps": 5,
+     "goals": 1,
      "assists": 0
     }
    ]
@@ -1302,16 +1302,16 @@
    "rating": 5.69,
    "comps": [
     {
-     "id": 307,
-     "league": "Pro League",
-     "apps": 4,
+     "id": 17,
+     "league": "AFC Champions League Elite",
+     "apps": 2,
      "goals": 0,
      "assists": 0
     },
     {
-     "id": 17,
-     "league": "AFC Champions League Elite",
-     "apps": 2,
+     "id": 307,
+     "league": "Pro League",
+     "apps": 4,
      "goals": 0,
      "assists": 0
     }

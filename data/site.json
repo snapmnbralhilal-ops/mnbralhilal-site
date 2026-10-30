@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T17:21:17.992Z",
+ "updated": "2026-10-30T18:04:19.996Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -840,8 +840,8 @@
      {
       "id": 1603078,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -862,7 +862,10 @@
        "ar": "الأهلي",
        "logo": "https://media.api-sports.io/football/teams/2929.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -948,8 +951,8 @@
      {
       "id": 1552801,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Le Havre",
       "league": {
        "id": 61,
@@ -970,13 +973,16 @@
        "ar": "باريس سان جيرمان",
        "logo": "https://media.api-sports.io/football/teams/85.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552806,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Nice",
       "league": {
        "id": 61,
@@ -997,7 +1003,10 @@
        "ar": "رين",
        "logo": "https://media.api-sports.io/football/teams/94.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552802,
@@ -1068,8 +1077,8 @@
      {
       "id": 1597953,
       "date": "2026-10-30T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 69,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1091,15 +1100,15 @@
        "logo": "https://media.api-sports.io/football/teams/2916.png"
       },
       "goals": [
-       1,
-       0
+       3,
+       1
       ]
      },
      {
       "id": 1597955,
       "date": "2026-10-30T19:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1257,8 +1266,8 @@
      {
       "id": 1612274,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Alexandria",
       "league": {
        "id": 233,
@@ -1279,13 +1288,16 @@
        "ar": "El Geish",
        "logo": "https://media.api-sports.io/football/teams/1039.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1612275,
       "date": "2026-10-30T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 3,
       "venue": "Ismailia",
       "league": {
        "id": 233,
@@ -1306,7 +1318,10 @@
        "ar": "Enppi",
        "logo": "https://media.api-sports.io/football/teams/1037.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1392,8 +1407,8 @@
      {
       "id": 1584455,
       "date": "2026-10-30T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 21,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Konya",
       "league": {
        "id": 203,
@@ -1416,7 +1431,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
