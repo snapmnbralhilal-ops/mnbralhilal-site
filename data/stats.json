@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-30T07:31:52.342Z",
+ "updated": "2026-10-30T08:26:15.693Z",
  "players": [
   {
    "api": 156,
@@ -1371,6 +1371,32 @@
    "apps": 9
   },
   {
+   "name": "T. Reijnders",
+   "photo": "https://media.api-sports.io/football/players/36902.png",
+   "team": {
+    "id": 2933,
+    "name": "Al-Qadisiyah FC",
+    "ar": "القادسية",
+    "logo": "https://media.api-sports.io/football/teams/2933.png"
+   },
+   "goals": 8,
+   "assists": 3,
+   "apps": 10
+  },
+  {
+   "name": "Cristiano Ronaldo",
+   "photo": "https://media.api-sports.io/football/players/874.png",
+   "team": {
+    "id": 2939,
+    "name": "Al-Nassr",
+    "ar": "النصر",
+    "logo": "https://media.api-sports.io/football/teams/2939.png"
+   },
+   "goals": 8,
+   "assists": 0,
+   "apps": 10
+  },
+  {
    "name": "Y. En-Nesyri",
    "photo": "https://media.api-sports.io/football/players/47422.png",
    "team": {
@@ -1436,55 +1462,29 @@
    "apps": 6
   },
   {
-   "name": "A. Lacazette",
-   "photo": "https://media.api-sports.io/football/players/1467.png",
-   "team": {
-    "id": 10513,
-    "name": "NEOM",
-    "ar": "نيوم",
-    "logo": "https://media.api-sports.io/football/teams/10513.png"
-   },
-   "goals": 6,
-   "assists": 2,
-   "apps": 11
-  },
-  {
-   "name": "T. Reijnders",
-   "photo": "https://media.api-sports.io/football/players/36902.png",
+   "name": "J. Quiñones",
+   "photo": "https://media.api-sports.io/football/players/35532.png",
    "team": {
     "id": 2933,
     "name": "Al-Qadisiyah FC",
     "ar": "القادسية",
     "logo": "https://media.api-sports.io/football/teams/2933.png"
    },
-   "goals": 5,
-   "assists": 2,
-   "apps": 9
+   "goals": 6,
+   "assists": 5,
+   "apps": 11
   },
   {
-   "name": "سيرجي ميلينكوفيتش سافيتش",
-   "photo": "https://media.api-sports.io/football/players/1856.png",
+   "name": "J. Domingues",
+   "photo": "https://media.api-sports.io/football/players/127688.png",
    "team": {
-    "id": 2932,
-    "name": "Al-Hilal Saudi FC",
-    "ar": "الهلال",
-    "logo": "https://media.api-sports.io/football/teams/2932.png"
+    "id": 10509,
+    "name": "Al Kholood",
+    "ar": "الخلود",
+    "logo": "https://media.api-sports.io/football/teams/10509.png"
    },
-   "goals": 5,
-   "assists": 2,
-   "apps": 9
-  },
-  {
-   "name": "Alexandre Mendy",
-   "photo": "https://media.api-sports.io/football/players/21506.png",
-   "team": {
-    "id": 2930,
-    "name": "Al-Faisaly FC",
-    "ar": "الفيصلي",
-    "logo": "https://media.api-sports.io/football/teams/2930.png"
-   },
-   "goals": 5,
-   "assists": 1,
+   "goals": 6,
+   "assists": 3,
    "apps": 11
   }
  ]
