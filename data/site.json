@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T14:58:31.423Z",
+ "updated": "2026-10-30T15:45:08.640Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1603072,
       "date": "2026-10-30T17:50:00+03:00",
-      "status": "1H",
-      "elapsed": 9,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -833,8 +833,8 @@
        "logo": "https://media.api-sports.io/football/teams/10513.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1038,8 +1038,8 @@
      {
       "id": 1597950,
       "date": "2026-10-30T17:15:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 68,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1062,7 +1062,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1221,8 +1221,8 @@
      {
       "id": 1612273,
       "date": "2026-10-30T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 43,
       "venue": "Asyut",
       "league": {
        "id": 233,
@@ -1243,7 +1243,10 @@
        "ar": "El Gouna FC",
        "logo": "https://media.api-sports.io/football/teams/1574.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1612274,
@@ -3078,11 +3081,11 @@
       "ar": "الاتحاد",
       "logo": "https://media.api-sports.io/football/teams/2938.png"
      },
-     "points": 23,
+     "points": 24,
      "gd": 10,
-     "played": 10,
+     "played": 11,
      "win": 7,
-     "draw": 2,
+     "draw": 3,
      "lose": 1,
      "description": "Promotion - AFC Champions League (League phase)"
     },
@@ -3302,11 +3305,11 @@
       "ar": "أبها",
       "logo": "https://media.api-sports.io/football/teams/2951.png"
      },
-     "points": 2,
+     "points": 3,
      "gd": -12,
-     "played": 10,
+     "played": 11,
      "win": 0,
-     "draw": 2,
+     "draw": 3,
      "lose": 8,
      "description": "Relegation - Division 1"
     }
