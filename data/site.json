@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T14:02:08.333Z",
+ "updated": "2026-10-30T14:58:31.423Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603071,
       "date": "2026-10-30T15:30:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Khamis Mushait",
       "league": {
        "id": 307,
@@ -803,15 +803,15 @@
        "logo": "https://media.api-sports.io/football/teams/2938.png"
       },
       "goals": [
-       0,
+       1,
        1
       ]
      },
      {
       "id": 1603072,
       "date": "2026-10-30T17:50:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 9,
       "venue": "Riyadh",
       "league": {
        "id": 307,
@@ -832,7 +832,10 @@
        "ar": "نيوم",
        "logo": "https://media.api-sports.io/football/teams/10513.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603078,
@@ -1035,8 +1038,8 @@
      {
       "id": 1597950,
       "date": "2026-10-30T17:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 42,
       "venue": "Lai Yang",
       "league": {
        "id": 305,
@@ -1057,7 +1060,10 @@
        "ar": "الأهلي القطري",
        "logo": "https://media.api-sports.io/football/teams/2896.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1597953,
