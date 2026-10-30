@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:28:46.080Z",
+ "updated": "2026-10-30T22:08:12.421Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2343,6 +2343,45 @@
    },
    {
     "league": {
+     "id": 140,
+     "name": "La Liga",
+     "logo": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    "matches": [
+     {
+      "id": 1570442,
+      "date": "2026-10-30T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Villarreal",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 533,
+       "name": "Villarreal",
+       "ar": "فياريال",
+       "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "away": {
+       "id": 540,
+       "name": "Espanyol",
+       "ar": "إسبانيول",
+       "logo": "https://media.api-sports.io/football/teams/540.png"
+      },
+      "goals": [
+       0,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
      "id": 78,
      "name": "Bundesliga",
      "logo": "https://media.api-sports.io/football/leagues/78.png"
@@ -2445,6 +2484,36 @@
       "goals": [
        5,
        2
+      ]
+     },
+     {
+      "id": 1552802,
+      "date": "2026-10-30T23:05:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Lille",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 79,
+       "name": "Lille",
+       "ar": "ليل",
+       "logo": "https://media.api-sports.io/football/teams/79.png"
+      },
+      "away": {
+       "id": 116,
+       "name": "Lens",
+       "ar": "لانس",
+       "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "goals": [
+       1,
+       0
       ]
      }
     ]
