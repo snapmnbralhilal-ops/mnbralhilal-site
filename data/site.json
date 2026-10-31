@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T10:25:51.923Z",
+ "updated": "2026-10-31T11:01:32.032Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1986,8 +1986,8 @@
      {
       "id": 1584450,
       "date": "2026-10-31T13:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Erzurum",
       "league": {
        "id": 203,
@@ -2008,7 +2008,10 @@
        "ar": "Çorum FK",
        "logo": "https://media.api-sports.io/football/teams/6343.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1584454,
