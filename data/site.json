@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:13:04.626Z",
+ "updated": "2026-10-31T13:07:20.326Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -870,8 +870,8 @@
      {
       "id": 1557450,
       "date": "2026-10-31T15:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "London",
       "league": {
        "id": 39,
@@ -892,7 +892,10 @@
        "ar": "مانشستر يونايتد",
        "logo": "https://media.api-sports.io/football/teams/33.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1557448,
@@ -1095,8 +1098,8 @@
      {
       "id": 1570439,
       "date": "2026-10-31T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 6,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1117,7 +1120,10 @@
        "ar": "أتلتيكو مدريد",
        "logo": "https://media.api-sports.io/football/teams/530.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570441,
@@ -1986,8 +1992,8 @@
      {
       "id": 1584450,
       "date": "2026-10-31T13:30:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Erzurum",
       "league": {
        "id": 203,
@@ -2016,8 +2022,8 @@
      {
       "id": 1584454,
       "date": "2026-10-31T16:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Izmit",
       "league": {
        "id": 203,
@@ -2038,7 +2044,10 @@
        "ar": "Rizespor",
        "logo": "https://media.api-sports.io/football/teams/1007.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1584451,
@@ -4695,6 +4704,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 17,
  "plan": "Pro"
 }
