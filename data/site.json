@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T16:52:35.384Z",
+ "updated": "2026-10-31T17:22:46.649Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -906,7 +906,7 @@
      {
       "id": 1557448,
       "date": "2026-10-31T18:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Bournemouth",
       "league": {
@@ -929,7 +929,7 @@
        "logo": "https://media.api-sports.io/football/teams/63.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -966,7 +966,7 @@
      {
       "id": 1557451,
       "date": "2026-10-31T18:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Coventry",
       "league": {
@@ -996,7 +996,7 @@
      {
       "id": 1557452,
       "date": "2026-10-31T18:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Hull",
       "league": {
@@ -1026,7 +1026,7 @@
      {
       "id": 1557454,
       "date": "2026-10-31T18:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Manchester",
       "league": {
@@ -1149,8 +1149,8 @@
      {
       "id": 1570441,
       "date": "2026-10-31T18:15:00+03:00",
-      "status": "2H",
-      "elapsed": 74,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1272,8 +1272,8 @@
      {
       "id": 1550186,
       "date": "2026-10-31T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Udine",
       "league": {
        "id": 135,
@@ -1294,7 +1294,10 @@
        "ar": "روما",
        "logo": "https://media.api-sports.io/football/teams/497.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1550177,
@@ -1587,8 +1590,8 @@
      {
       "id": 1597951,
       "date": "2026-10-31T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1617,8 +1620,8 @@
      {
       "id": 1597952,
       "date": "2026-10-31T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 22,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1641,7 +1644,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      }
     ]
@@ -1656,8 +1659,8 @@
      {
       "id": 1612276,
       "date": "2026-10-31T18:00:00+03:00",
-      "status": "2H",
-      "elapsed": 88,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 233,
@@ -1749,8 +1752,8 @@
      {
       "id": 1646861,
       "date": "2026-10-31T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "",
       "league": {
        "id": 200,
@@ -1843,7 +1846,7 @@
       "id": 1575535,
       "date": "2026-10-31T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 59,
+      "elapsed": 89,
       "venue": "Guimarães",
       "league": {
        "id": 94,
@@ -1909,7 +1912,7 @@
       "id": 1552207,
       "date": "2026-10-31T18:30:00+03:00",
       "status": "2H",
-      "elapsed": 60,
+      "elapsed": 90,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1932,7 +1935,7 @@
       },
       "goals": [
        1,
-       0
+       1
       ]
      },
      {
@@ -2115,8 +2118,8 @@
      {
       "id": 1584451,
       "date": "2026-10-31T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -2154,8 +2157,8 @@
      {
       "id": 1490587,
       "date": "2026-10-31T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 13,
       "venue": "Charlotte",
       "league": {
        "id": 253,
@@ -2176,7 +2179,10 @@
        "ar": "Orlando City SC",
        "logo": "https://media.api-sports.io/football/teams/1598.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490585,
@@ -4770,6 +4776,6 @@
   }
  },
  "errors": [],
- "requests": 33,
+ "requests": 34,
  "plan": "Pro"
 }
