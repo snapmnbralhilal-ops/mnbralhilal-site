@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T16:10:29.719Z",
+ "updated": "2026-10-31T16:52:35.384Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1603073,
       "date": "2026-10-31T17:55:00+03:00",
-      "status": "2H",
-      "elapsed": 55,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Madimaa",
       "league": {
        "id": 307,
@@ -833,7 +833,7 @@
        "logo": "https://media.api-sports.io/football/teams/2930.png"
       },
       "goals": [
-       1,
+       4,
        1
       ]
      },
@@ -907,7 +907,7 @@
       "id": 1557448,
       "date": "2026-10-31T18:00:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 90,
       "venue": "Bournemouth",
       "league": {
        "id": 39,
@@ -936,8 +936,8 @@
      {
       "id": 1557449,
       "date": "2026-10-31T18:00:00+03:00",
-      "status": "2H",
-      "elapsed": 54,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -959,7 +959,7 @@
        "logo": "https://media.api-sports.io/football/teams/65.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -967,7 +967,7 @@
       "id": 1557451,
       "date": "2026-10-31T18:00:00+03:00",
       "status": "2H",
-      "elapsed": 53,
+      "elapsed": 90,
       "venue": "Coventry",
       "league": {
        "id": 39,
@@ -989,15 +989,15 @@
        "logo": "https://media.api-sports.io/football/teams/746.png"
       },
       "goals": [
-       2,
-       0
+       3,
+       1
       ]
      },
      {
       "id": 1557452,
       "date": "2026-10-31T18:00:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 90,
       "venue": "Hull",
       "league": {
        "id": 39,
@@ -1019,15 +1019,15 @@
        "logo": "https://media.api-sports.io/football/teams/57.png"
       },
       "goals": [
-       0,
-       1
+       2,
+       2
       ]
      },
      {
       "id": 1557454,
       "date": "2026-10-31T18:00:00+03:00",
       "status": "2H",
-      "elapsed": 52,
+      "elapsed": 90,
       "venue": "Manchester",
       "league": {
        "id": 39,
@@ -1149,8 +1149,8 @@
      {
       "id": 1570441,
       "date": "2026-10-31T18:15:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 74,
       "venue": "Madrid",
       "league": {
        "id": 140,
@@ -1172,7 +1172,7 @@
        "logo": "https://media.api-sports.io/football/teams/538.png"
       },
       "goals": [
-       1,
+       3,
        0
       ]
      },
@@ -1335,8 +1335,8 @@
      {
       "id": 1575204,
       "date": "2026-10-31T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bayer Leverkusen",
       "league": {
        "id": 78,
@@ -1365,8 +1365,8 @@
      {
       "id": 1575206,
       "date": "2026-10-31T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Augsburg",
       "league": {
        "id": 78,
@@ -1389,14 +1389,14 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
       "id": 1575208,
       "date": "2026-10-31T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Monchengladbach",
       "league": {
        "id": 78,
@@ -1425,8 +1425,8 @@
      {
       "id": 1575209,
       "date": "2026-10-31T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bremen",
       "league": {
        "id": 78,
@@ -1448,15 +1448,15 @@
        "logo": "https://media.api-sports.io/football/teams/167.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1575210,
       "date": "2026-10-31T17:30:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Gelsenkirchen",
       "league": {
        "id": 78,
@@ -1557,7 +1557,7 @@
      {
       "id": 1597954,
       "date": "2026-10-31T17:15:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Doha",
       "league": {
@@ -1581,14 +1581,14 @@
       },
       "goals": [
        1,
-       1
+       2
       ]
      },
      {
       "id": 1597951,
       "date": "2026-10-31T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1609,13 +1609,16 @@
        "ar": "الريان",
        "logo": "https://media.api-sports.io/football/teams/2897.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1597952,
       "date": "2026-10-31T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 22,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1636,7 +1639,10 @@
        "ar": "الوكرة",
        "logo": "https://media.api-sports.io/football/teams/2900.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1651,7 +1657,7 @@
       "id": 1612276,
       "date": "2026-10-31T18:00:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 88,
       "venue": "",
       "league": {
        "id": 233,
@@ -1743,8 +1749,8 @@
      {
       "id": 1646861,
       "date": "2026-10-31T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 9,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "",
       "league": {
        "id": 200,
@@ -1767,7 +1773,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1836,8 +1842,8 @@
      {
       "id": 1575535,
       "date": "2026-10-31T18:30:00+03:00",
-      "status": "1H",
-      "elapsed": 38,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "Guimarães",
       "league": {
        "id": 94,
@@ -1859,8 +1865,8 @@
        "logo": "https://media.api-sports.io/football/teams/15130.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1902,8 +1908,8 @@
      {
       "id": 1552207,
       "date": "2026-10-31T18:30:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1925,7 +1931,7 @@
        "logo": "https://media.api-sports.io/football/teams/205.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -2109,8 +2115,8 @@
      {
       "id": 1584451,
       "date": "2026-10-31T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -2132,7 +2138,7 @@
        "logo": "https://media.api-sports.io/football/teams/994.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      }
@@ -3015,11 +3021,11 @@
       "ar": "الاتفاق",
       "logo": "https://media.api-sports.io/football/teams/2934.png"
      },
-     "points": 18,
+     "points": 19,
      "gd": 1,
-     "played": 11,
+     "played": 12,
      "win": 5,
-     "draw": 3,
+     "draw": 4,
      "lose": 3,
      "description": "Promotion - Gulf Club Champions League"
     },
@@ -3175,11 +3181,11 @@
       "ar": "التعاون",
       "logo": "https://media.api-sports.io/football/teams/2936.png"
      },
-     "points": 4,
+     "points": 5,
      "gd": -14,
-     "played": 11,
+     "played": 12,
      "win": 0,
-     "draw": 4,
+     "draw": 5,
      "lose": 7,
      "description": "Relegation - Division 1"
     },
@@ -3969,6 +3975,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 500,
+      "name": "Bologna",
+      "ar": "بولونيا",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+     },
+     "points": 14,
+     "gd": 1,
+     "played": 10,
+     "win": 4,
+     "draw": 2,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 496,
       "name": "Juventus",
       "ar": "يوفنتوس",
@@ -3983,7 +4005,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 503,
       "name": "Torino",
@@ -3999,7 +4021,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 490,
       "name": "Cagliari",
@@ -4011,22 +4033,6 @@
      "played": 9,
      "win": 4,
      "draw": 1,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 11,
-     "team": {
-      "id": 500,
-      "name": "Bologna",
-      "ar": "بولونيا",
-      "logo": "https://media.api-sports.io/football/teams/500.png"
-     },
-     "points": 11,
-     "gd": 0,
-     "played": 9,
-     "win": 3,
-     "draw": 2,
      "lose": 4,
      "description": ""
     },
@@ -4103,11 +4109,11 @@
       "logo": "https://media.api-sports.io/football/teams/1579.png"
      },
      "points": 7,
-     "gd": -6,
-     "played": 9,
+     "gd": -7,
+     "played": 10,
      "win": 2,
      "draw": 1,
-     "lose": 6,
+     "lose": 7,
      "description": ""
     },
     {
@@ -4764,6 +4770,6 @@
   }
  },
  "errors": [],
- "requests": 30,
+ "requests": 33,
  "plan": "Pro"
 }
