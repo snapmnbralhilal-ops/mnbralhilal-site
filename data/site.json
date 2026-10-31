@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T23:25:00.990Z",
+ "updated": "2026-10-31T23:57:03.632Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -4070,6 +4070,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "ar": "أستون فيلا",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+     },
+     "points": 12,
+     "gd": -3,
+     "played": 9,
+     "win": 3,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 64,
       "name": "Hull City",
       "ar": "هال سيتي",
@@ -4084,7 +4100,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 63,
       "name": "Leeds",
@@ -4100,7 +4116,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 34,
       "name": "Newcastle",
@@ -4109,22 +4125,6 @@
      },
      "points": 11,
      "gd": -2,
-     "played": 8,
-     "win": 3,
-     "draw": 2,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 12,
-     "team": {
-      "id": 66,
-      "name": "Aston Villa",
-      "ar": "أستون فيلا",
-      "logo": "https://media.api-sports.io/football/teams/66.png"
-     },
-     "points": 11,
-     "gd": -3,
      "played": 8,
      "win": 3,
      "draw": 2,
@@ -4166,6 +4166,22 @@
     {
      "rank": 15,
      "team": {
+      "id": 36,
+      "name": "Fulham",
+      "ar": "فولهام",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+     },
+     "points": 9,
+     "gd": -2,
+     "played": 9,
+     "win": 2,
+     "draw": 3,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 16,
+     "team": {
       "id": 1346,
       "name": "Coventry",
       "ar": "كوفنتري",
@@ -4177,22 +4193,6 @@
      "win": 3,
      "draw": 0,
      "lose": 6,
-     "description": ""
-    },
-    {
-     "rank": 16,
-     "team": {
-      "id": 36,
-      "name": "Fulham",
-      "ar": "فولهام",
-      "logo": "https://media.api-sports.io/football/teams/36.png"
-     },
-     "points": 8,
-     "gd": -2,
-     "played": 8,
-     "win": 2,
-     "draw": 2,
-     "lose": 4,
      "description": ""
     },
     {
@@ -4267,6 +4267,22 @@
     {
      "rank": 1,
      "team": {
+      "id": 529,
+      "name": "Barcelona",
+      "ar": "برشلونة",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+     },
+     "points": 30,
+     "gd": 34,
+     "played": 11,
+     "win": 10,
+     "draw": 0,
+     "lose": 1,
+     "description": "Promotion - Champions League (League phase)"
+    },
+    {
+     "rank": 2,
+     "team": {
       "id": 530,
       "name": "Atletico Madrid",
       "ar": "أتلتيكو مدريد",
@@ -4277,22 +4293,6 @@
      "played": 11,
      "win": 9,
      "draw": 1,
-     "lose": 1,
-     "description": "Promotion - Champions League (League phase)"
-    },
-    {
-     "rank": 2,
-     "team": {
-      "id": 529,
-      "name": "Barcelona",
-      "ar": "برشلونة",
-      "logo": "https://media.api-sports.io/football/teams/529.png"
-     },
-     "points": 27,
-     "gd": 29,
-     "played": 10,
-     "win": 9,
-     "draw": 0,
      "lose": 1,
      "description": "Promotion - Champions League (League phase)"
     },
@@ -4363,22 +4363,6 @@
     {
      "rank": 7,
      "team": {
-      "id": 542,
-      "name": "Alaves",
-      "ar": "ألافيس",
-      "logo": "https://media.api-sports.io/football/teams/542.png"
-     },
-     "points": 12,
-     "gd": 3,
-     "played": 10,
-     "win": 3,
-     "draw": 3,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 8,
-     "team": {
       "id": 531,
       "name": "Athletic Club",
       "ar": "أتلتيك بلباو",
@@ -4393,7 +4377,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 8,
      "team": {
       "id": 533,
       "name": "Villarreal",
@@ -4409,7 +4393,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 9,
      "team": {
       "id": 538,
       "name": "Celta Vigo",
@@ -4422,6 +4406,22 @@
      "win": 2,
      "draw": 6,
      "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
+      "id": 542,
+      "name": "Alaves",
+      "ar": "ألافيس",
+      "logo": "https://media.api-sports.io/football/teams/542.png"
+     },
+     "points": 12,
+     "gd": -2,
+     "played": 11,
+     "win": 3,
+     "draw": 3,
+     "lose": 5,
      "description": ""
     },
     {
@@ -5499,6 +5499,6 @@
   }
  },
  "errors": [],
- "requests": 21,
+ "requests": 18,
  "plan": "Pro"
 }
