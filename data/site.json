@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T20:23:58.854Z",
+ "updated": "2026-10-31T21:00:06.894Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -754,20 +754,1267 @@
   },
   {
    "tag": "عالمي",
-   "title": "الشباب يكتسح الأهلي 6-1",
-   "body": "في دوري روشن السعودي.",
+   "title": "PSV Eindhoven يكتسح Willem II 7-0",
+   "body": "في الدوري الهولندي.",
    "link": "#today"
   },
   {
    "tag": "عالمي",
-   "title": "50 مباراة اليوم في أبرز الدوريات",
-   "body": "أبرزها في دوري روشن السعودي.",
+   "title": "42 مباراة اليوم في أبرز الدوريات",
+   "body": "أبرزها في دوري يلو.",
    "link": "#today"
   }
  ],
  "teamName": "الهلال",
  "season": 2026,
  "today": {
+  "date": "2026-11-01",
+  "groups": [
+   {
+    "league": {
+     "id": 308,
+     "name": "Division 1",
+     "logo": "https://media.api-sports.io/football/leagues/308.png"
+    },
+    "matches": [
+     {
+      "id": 1604046,
+      "date": "2026-11-01T17:40:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Al-Hofuf",
+      "league": {
+       "id": 308,
+       "name": "Division 1",
+       "country": "Saudi-Arabia",
+       "logo": "https://media.api-sports.io/football/leagues/308.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 2948,
+       "name": "Hajer",
+       "ar": "هجر",
+       "logo": "https://media.api-sports.io/football/teams/2948.png"
+      },
+      "away": {
+       "id": 26357,
+       "name": "Al Ula",
+       "ar": "العُلا",
+       "logo": "https://media.api-sports.io/football/teams/26357.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1604047,
+      "date": "2026-11-01T18:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Buraidah",
+      "league": {
+       "id": 308,
+       "name": "Division 1",
+       "country": "Saudi-Arabia",
+       "logo": "https://media.api-sports.io/football/leagues/308.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 27480,
+       "name": "Al Saqer",
+       "ar": "Al Saqer",
+       "logo": "https://media.api-sports.io/football/teams/27480.png"
+      },
+      "away": {
+       "id": 2942,
+       "name": "Al Taee",
+       "ar": "Al Taee",
+       "logo": "https://media.api-sports.io/football/teams/2942.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1604048,
+      "date": "2026-11-01T19:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Jeddah",
+      "league": {
+       "id": 308,
+       "name": "Division 1",
+       "country": "Saudi-Arabia",
+       "logo": "https://media.api-sports.io/football/leagues/308.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 2947,
+       "name": "Jeddah Club",
+       "ar": "جدة",
+       "logo": "https://media.api-sports.io/football/teams/2947.png"
+      },
+      "away": {
+       "id": 2950,
+       "name": "Al-Adalah",
+       "ar": "العدالة",
+       "logo": "https://media.api-sports.io/football/teams/2950.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 39,
+     "name": "Premier League",
+     "logo": "https://media.api-sports.io/football/leagues/39.png"
+    },
+    "matches": [
+     {
+      "id": 1557453,
+      "date": "2026-11-01T19:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Liverpool",
+      "league": {
+       "id": 39,
+       "name": "Premier League",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/39.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 40,
+       "name": "Liverpool",
+       "ar": "ليفربول",
+       "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "away": {
+       "id": 42,
+       "name": "Arsenal",
+       "ar": "آرسنال",
+       "logo": "https://media.api-sports.io/football/teams/42.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 140,
+     "name": "La Liga",
+     "logo": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    "matches": [
+     {
+      "id": 1570438,
+      "date": "2026-11-01T16:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Getafe",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 546,
+       "name": "Getafe",
+       "ar": "خيتافي",
+       "logo": "https://media.api-sports.io/football/teams/546.png"
+      },
+      "away": {
+       "id": 536,
+       "name": "Sevilla",
+       "ar": "إشبيلية",
+       "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1570440,
+      "date": "2026-11-01T18:15:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Santander",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 4665,
+       "name": "Racing Santander",
+       "ar": "راسينغ سانتاندير",
+       "logo": "https://media.api-sports.io/football/teams/4665.png"
+      },
+      "away": {
+       "id": 541,
+       "name": "Real Madrid",
+       "ar": "ريال مدريد",
+       "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1570437,
+      "date": "2026-11-01T20:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Elche",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 797,
+       "name": "Elche",
+       "ar": "إلتشي",
+       "logo": "https://media.api-sports.io/football/teams/797.png"
+      },
+      "away": {
+       "id": 532,
+       "name": "Valencia",
+       "ar": "فالنسيا",
+       "logo": "https://media.api-sports.io/football/teams/532.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1570433,
+      "date": "2026-11-01T23:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Bilbao",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 531,
+       "name": "Athletic Club",
+       "ar": "أتلتيك بلباو",
+       "logo": "https://media.api-sports.io/football/teams/531.png"
+      },
+      "away": {
+       "id": 548,
+       "name": "Real Sociedad",
+       "ar": "ريال سوسيداد",
+       "logo": "https://media.api-sports.io/football/teams/548.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 135,
+     "name": "Serie A",
+     "logo": "https://media.api-sports.io/football/leagues/135.png"
+    },
+    "matches": [
+     {
+      "id": 1550180,
+      "date": "2026-11-01T14:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Como",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 895,
+       "name": "Como",
+       "ar": "كومو",
+       "logo": "https://media.api-sports.io/football/teams/895.png"
+      },
+      "away": {
+       "id": 517,
+       "name": "Venezia",
+       "ar": "فينيسيا",
+       "logo": "https://media.api-sports.io/football/teams/517.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1550181,
+      "date": "2026-11-01T17:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Frosinone",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 512,
+       "name": "Frosinone",
+       "ar": "فروزينوني",
+       "logo": "https://media.api-sports.io/football/teams/512.png"
+      },
+      "away": {
+       "id": 503,
+       "name": "Torino",
+       "ar": "تورينو",
+       "logo": "https://media.api-sports.io/football/teams/503.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1550183,
+      "date": "2026-11-01T17:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Rome",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 487,
+       "name": "Lazio",
+       "ar": "لاتسيو",
+       "logo": "https://media.api-sports.io/football/teams/487.png"
+      },
+      "away": {
+       "id": 490,
+       "name": "Cagliari",
+       "ar": "كالياري",
+       "logo": "https://media.api-sports.io/football/teams/490.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1550184,
+      "date": "2026-11-01T20:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Lecce",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 867,
+       "name": "Lecce",
+       "ar": "ليتشي",
+       "logo": "https://media.api-sports.io/football/teams/867.png"
+      },
+      "away": {
+       "id": 495,
+       "name": "Genoa",
+       "ar": "جنوى",
+       "logo": "https://media.api-sports.io/football/teams/495.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1550182,
+      "date": "2026-11-01T22:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Turin",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 496,
+       "name": "Juventus",
+       "ar": "يوفنتوس",
+       "logo": "https://media.api-sports.io/football/teams/496.png"
+      },
+      "away": {
+       "id": 492,
+       "name": "Napoli",
+       "ar": "نابولي",
+       "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 78,
+     "name": "Bundesliga",
+     "logo": "https://media.api-sports.io/football/leagues/78.png"
+    },
+    "matches": [
+     {
+      "id": 1575207,
+      "date": "2026-11-01T17:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Berlin",
+      "league": {
+       "id": 78,
+       "name": "Bundesliga",
+       "country": "Germany",
+       "logo": "https://media.api-sports.io/football/leagues/78.png",
+       "round": "Regular Season - 8"
+      },
+      "home": {
+       "id": 182,
+       "name": "Union Berlin",
+       "ar": "يونيون برلين",
+       "logo": "https://media.api-sports.io/football/teams/182.png"
+      },
+      "away": {
+       "id": 192,
+       "name": "1. FC Köln",
+       "ar": "كولن",
+       "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1575205,
+      "date": "2026-11-01T19:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Frankfurt",
+      "league": {
+       "id": 78,
+       "name": "Bundesliga",
+       "country": "Germany",
+       "logo": "https://media.api-sports.io/football/leagues/78.png",
+       "round": "Regular Season - 8"
+      },
+      "home": {
+       "id": 169,
+       "name": "Eintracht Frankfurt",
+       "ar": "آينتراخت فرانكفورت",
+       "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "away": {
+       "id": 175,
+       "name": "Hamburger SV",
+       "ar": "هامبورغ",
+       "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 61,
+     "name": "Ligue 1",
+     "logo": "https://media.api-sports.io/football/leagues/61.png"
+    },
+    "matches": [
+     {
+      "id": 1552808,
+      "date": "2026-11-01T17:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Strasbourg",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 95,
+       "name": "Strasbourg",
+       "ar": "ستراسبورغ",
+       "logo": "https://media.api-sports.io/football/teams/95.png"
+      },
+      "away": {
+       "id": 108,
+       "name": "Auxerre",
+       "ar": "أوكسير",
+       "logo": "https://media.api-sports.io/football/teams/108.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1552804,
+      "date": "2026-11-01T19:15:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Lyon",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 80,
+       "name": "Lyon",
+       "ar": "ليون",
+       "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "away": {
+       "id": 77,
+       "name": "Angers",
+       "ar": "أنجيه",
+       "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1552807,
+      "date": "2026-11-01T19:15:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Isilemulino",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 114,
+       "name": "Paris FC",
+       "ar": "باريس إف سي",
+       "logo": "https://media.api-sports.io/football/teams/114.png"
+      },
+      "away": {
+       "id": 91,
+       "name": "Monaco",
+       "ar": "موناكو",
+       "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1552805,
+      "date": "2026-11-01T22:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Marseille",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 81,
+       "name": "Marseille",
+       "ar": "مارسيليا",
+       "logo": "https://media.api-sports.io/football/teams/81.png"
+      },
+      "away": {
+       "id": 96,
+       "name": "Toulouse",
+       "ar": "تولوز",
+       "logo": "https://media.api-sports.io/football/teams/96.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 301,
+     "name": "Pro League",
+     "logo": "https://media.api-sports.io/football/leagues/301.png"
+    },
+    "matches": [
+     {
+      "id": 1643052,
+      "date": "2026-11-01T15:55:00+03:00",
+      "status": "PST",
+      "elapsed": null,
+      "venue": "Abu Dhabi",
+      "league": {
+       "id": 301,
+       "name": "Pro League",
+       "country": "United-Arab-Emirates",
+       "logo": "https://media.api-sports.io/football/leagues/301.png",
+       "round": "Regular Season - 7"
+      },
+      "home": {
+       "id": 2875,
+       "name": "Al Wahda FC",
+       "ar": "الوحدة",
+       "logo": "https://media.api-sports.io/football/teams/2875.png"
+      },
+      "away": {
+       "id": 2869,
+       "name": "Hatta SC",
+       "ar": "Hatta SC",
+       "logo": "https://media.api-sports.io/football/teams/2869.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1643053,
+      "date": "2026-11-01T18:35:00+03:00",
+      "status": "PST",
+      "elapsed": null,
+      "venue": "Abu Dhabi",
+      "league": {
+       "id": 301,
+       "name": "Pro League",
+       "country": "United-Arab-Emirates",
+       "logo": "https://media.api-sports.io/football/leagues/301.png",
+       "round": "Regular Season - 7"
+      },
+      "home": {
+       "id": 2871,
+       "name": "Al-Jazira",
+       "ar": "الجزيرة",
+       "logo": "https://media.api-sports.io/football/teams/2871.png"
+      },
+      "away": {
+       "id": 2877,
+       "name": "Baniyas SC",
+       "ar": "بني ياس",
+       "logo": "https://media.api-sports.io/football/teams/2877.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1643054,
+      "date": "2026-11-01T18:35:00+03:00",
+      "status": "PST",
+      "elapsed": null,
+      "venue": "Sharjah",
+      "league": {
+       "id": 301,
+       "name": "Pro League",
+       "country": "United-Arab-Emirates",
+       "logo": "https://media.api-sports.io/football/leagues/301.png",
+       "round": "Regular Season - 7"
+      },
+      "home": {
+       "id": 2874,
+       "name": "Sharjah FC",
+       "ar": "الشارقة",
+       "logo": "https://media.api-sports.io/football/teams/2874.png"
+      },
+      "away": {
+       "id": 10155,
+       "name": "Al Nasr",
+       "ar": "النصر الإماراتي",
+       "logo": "https://media.api-sports.io/football/teams/10155.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 200,
+     "name": "Botola Pro",
+     "logo": "https://media.api-sports.io/football/leagues/200.png"
+    },
+    "matches": [
+     {
+      "id": 1646864,
+      "date": "2026-11-01T19:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Temara",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 6"
+      },
+      "home": {
+       "id": 3458,
+       "name": "Widad Témara",
+       "ar": "Widad Témara",
+       "logo": "https://media.api-sports.io/football/teams/3458.png"
+      },
+      "away": {
+       "id": 3453,
+       "name": "Maghreb Fès",
+       "ar": "Maghreb Fès",
+       "logo": "https://media.api-sports.io/football/teams/3453.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1646865,
+      "date": "2026-11-01T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Meknes",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 6"
+      },
+      "home": {
+       "id": 22218,
+       "name": "CODM Meknès",
+       "ar": "CODM Meknès",
+       "logo": "https://media.api-sports.io/football/teams/22218.png"
+      },
+      "away": {
+       "id": 969,
+       "name": "FAR Rabat",
+       "ar": "FAR Rabat",
+       "logo": "https://media.api-sports.io/football/teams/969.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1646866,
+      "date": "2026-11-01T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Tangier",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 6"
+      },
+      "home": {
+       "id": 974,
+       "name": "Ittihad Tanger",
+       "ar": "Ittihad Tanger",
+       "logo": "https://media.api-sports.io/football/teams/974.png"
+      },
+      "away": {
+       "id": 3449,
+       "name": "CR Khemis Zemamra",
+       "ar": "CR Khemis Zemamra",
+       "logo": "https://media.api-sports.io/football/teams/3449.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1646867,
+      "date": "2026-11-01T23:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Belkan",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 6"
+      },
+      "home": {
+       "id": 962,
+       "name": "Renaissance Berkane",
+       "ar": "Renaissance Berkane",
+       "logo": "https://media.api-sports.io/football/teams/962.png"
+      },
+      "away": {
+       "id": 976,
+       "name": "Raja Casablanca",
+       "ar": "الرجاء",
+       "logo": "https://media.api-sports.io/football/teams/976.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 94,
+     "name": "Primeira Liga",
+     "logo": "https://media.api-sports.io/football/leagues/94.png"
+    },
+    "matches": [
+     {
+      "id": 1575528,
+      "date": "2026-11-01T18:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Aruca",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 240,
+       "name": "Arouca",
+       "ar": "Arouca",
+       "logo": "https://media.api-sports.io/football/teams/240.png"
+      },
+      "away": {
+       "id": 225,
+       "name": "Nacional",
+       "ar": "Nacional",
+       "logo": "https://media.api-sports.io/football/teams/225.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1575527,
+      "date": "2026-11-01T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Viseu",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 238,
+       "name": "Academico Viseu",
+       "ar": "Academico Viseu",
+       "logo": "https://media.api-sports.io/football/teams/238.png"
+      },
+      "away": {
+       "id": 226,
+       "name": "Rio Ave",
+       "ar": "Rio Ave",
+       "logo": "https://media.api-sports.io/football/teams/226.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1575534,
+      "date": "2026-11-01T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Funchal",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 214,
+       "name": "Maritimo",
+       "ar": "Maritimo",
+       "logo": "https://media.api-sports.io/football/teams/214.png"
+      },
+      "away": {
+       "id": 227,
+       "name": "Santa Clara",
+       "ar": "Santa Clara",
+       "logo": "https://media.api-sports.io/football/teams/227.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1575530,
+      "date": "2026-11-01T23:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Braga",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 217,
+       "name": "SC Braga",
+       "ar": "SC Braga",
+       "logo": "https://media.api-sports.io/football/teams/217.png"
+      },
+      "away": {
+       "id": 242,
+       "name": "Famalicao",
+       "ar": "Famalicao",
+       "logo": "https://media.api-sports.io/football/teams/242.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 88,
+     "name": "Eredivisie",
+     "logo": "https://media.api-sports.io/football/leagues/88.png"
+    },
+    "matches": [
+     {
+      "id": 1552212,
+      "date": "2026-11-01T14:15:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Zwolle",
+      "league": {
+       "id": 88,
+       "name": "Eredivisie",
+       "country": "Netherlands",
+       "logo": "https://media.api-sports.io/football/leagues/88.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 193,
+       "name": "PEC Zwolle",
+       "ar": "PEC Zwolle",
+       "logo": "https://media.api-sports.io/football/teams/193.png"
+      },
+      "away": {
+       "id": 198,
+       "name": "ADO Den Haag",
+       "ar": "ADO Den Haag",
+       "logo": "https://media.api-sports.io/football/teams/198.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1552213,
+      "date": "2026-11-01T16:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Rotterdam",
+      "league": {
+       "id": 88,
+       "name": "Eredivisie",
+       "country": "Netherlands",
+       "logo": "https://media.api-sports.io/football/leagues/88.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 196,
+       "name": "Excelsior",
+       "ar": "Excelsior",
+       "logo": "https://media.api-sports.io/football/teams/196.png"
+      },
+      "away": {
+       "id": 415,
+       "name": "Twente",
+       "ar": "Twente",
+       "logo": "https://media.api-sports.io/football/teams/415.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1552214,
+      "date": "2026-11-01T16:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Felsen",
+      "league": {
+       "id": 88,
+       "name": "Eredivisie",
+       "country": "Netherlands",
+       "logo": "https://media.api-sports.io/football/leagues/88.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 427,
+       "name": "Telstar",
+       "ar": "Telstar",
+       "logo": "https://media.api-sports.io/football/teams/427.png"
+      },
+      "away": {
+       "id": 207,
+       "name": "Utrecht",
+       "ar": "Utrecht",
+       "logo": "https://media.api-sports.io/football/teams/207.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1552215,
+      "date": "2026-11-01T18:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Groningen",
+      "league": {
+       "id": 88,
+       "name": "Eredivisie",
+       "country": "Netherlands",
+       "logo": "https://media.api-sports.io/football/leagues/88.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 202,
+       "name": "Groningen",
+       "ar": "Groningen",
+       "logo": "https://media.api-sports.io/football/teams/202.png"
+      },
+      "away": {
+       "id": 426,
+       "name": "Sparta Rotterdam",
+       "ar": "Sparta Rotterdam",
+       "logo": "https://media.api-sports.io/football/teams/426.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 203,
+     "name": "Süper Lig",
+     "logo": "https://media.api-sports.io/football/leagues/203.png"
+    },
+    "matches": [
+     {
+      "id": 1584448,
+      "date": "2026-11-01T13:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Diyarbakir Stadium",
+      "league": {
+       "id": 203,
+       "name": "Süper Lig",
+       "country": "Turkey",
+       "logo": "https://media.api-sports.io/football/leagues/203.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 3579,
+       "name": "Amed",
+       "ar": "Amed",
+       "logo": "https://media.api-sports.io/football/teams/3579.png"
+      },
+      "away": {
+       "id": 3588,
+       "name": "Eyüpspor",
+       "ar": "Eyüpspor",
+       "logo": "https://media.api-sports.io/football/teams/3588.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1584449,
+      "date": "2026-11-01T16:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Istanbul",
+      "league": {
+       "id": 203,
+       "name": "Süper Lig",
+       "country": "Turkey",
+       "logo": "https://media.api-sports.io/football/leagues/203.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 564,
+       "name": "Başakşehir",
+       "ar": "Başakşehir",
+       "logo": "https://media.api-sports.io/football/teams/564.png"
+      },
+      "away": {
+       "id": 3603,
+       "name": "Samsunspor",
+       "ar": "Samsunspor",
+       "logo": "https://media.api-sports.io/football/teams/3603.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1584456,
+      "date": "2026-11-01T16:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Trabzon",
+      "league": {
+       "id": 203,
+       "name": "Süper Lig",
+       "country": "Turkey",
+       "logo": "https://media.api-sports.io/football/leagues/203.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 998,
+       "name": "Trabzonspor",
+       "ar": "Trabzonspor",
+       "logo": "https://media.api-sports.io/football/teams/998.png"
+      },
+      "away": {
+       "id": 3573,
+       "name": "Gaziantep FK",
+       "ar": "Gaziantep FK",
+       "logo": "https://media.api-sports.io/football/teams/3573.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1584453,
+      "date": "2026-11-01T19:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Istanbul",
+      "league": {
+       "id": 203,
+       "name": "Süper Lig",
+       "country": "Turkey",
+       "logo": "https://media.api-sports.io/football/leagues/203.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 1004,
+       "name": "Kasımpaşa",
+       "ar": "Kasımpaşa",
+       "logo": "https://media.api-sports.io/football/teams/1004.png"
+      },
+      "away": {
+       "id": 549,
+       "name": "Beşiktaş",
+       "ar": "بشكتاش",
+       "logo": "https://media.api-sports.io/football/teams/549.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 253,
+     "name": "Major League Soccer",
+     "logo": "https://media.api-sports.io/football/leagues/253.png"
+    },
+    "matches": [
+     {
+      "id": 1490592,
+      "date": "2026-11-01T00:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Los Angeles",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 33"
+      },
+      "home": {
+       "id": 1605,
+       "name": "Los Angeles Galaxy",
+       "ar": "Los Angeles Galaxy",
+       "logo": "https://media.api-sports.io/football/teams/1605.png"
+      },
+      "away": {
+       "id": 16489,
+       "name": "Austin",
+       "ar": "Austin",
+       "logo": "https://media.api-sports.io/football/teams/16489.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1490596,
+      "date": "2026-11-01T00:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "San Jose",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 33"
+      },
+      "home": {
+       "id": 1596,
+       "name": "San Jose Earthquakes",
+       "ar": "San Jose Earthquakes",
+       "logo": "https://media.api-sports.io/football/teams/1596.png"
+      },
+      "away": {
+       "id": 1606,
+       "name": "Real Salt Lake",
+       "ar": "Real Salt Lake",
+       "logo": "https://media.api-sports.io/football/teams/1606.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1490593,
+      "date": "2026-11-01T04:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Trade City",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 33"
+      },
+      "home": {
+       "id": 1610,
+       "name": "Colorado Rapids",
+       "ar": "Colorado Rapids",
+       "logo": "https://media.api-sports.io/football/teams/1610.png"
+      },
+      "away": {
+       "id": 1607,
+       "name": "Chicago Fire",
+       "ar": "Chicago Fire",
+       "logo": "https://media.api-sports.io/football/teams/1607.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1490591,
+      "date": "2026-11-01T23:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Vancouver",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 33"
+      },
+      "home": {
+       "id": 1603,
+       "name": "Vancouver Whitecaps",
+       "ar": "Vancouver Whitecaps",
+       "logo": "https://media.api-sports.io/football/teams/1603.png"
+      },
+      "away": {
+       "id": 1595,
+       "name": "Seattle Sounders",
+       "ar": "Seattle Sounders",
+       "logo": "https://media.api-sports.io/football/teams/1595.png"
+      },
+      "goals": null
+     }
+    ]
+   }
+  ]
+ },
+ "yesterday": {
   "date": "2026-10-31",
   "groups": [
    {
@@ -1085,36 +2332,6 @@
        2,
        0
       ]
-     },
-     {
-      "id": 1557447,
-      "date": "2026-10-31T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
-      "venue": "Birmingham",
-      "league": {
-       "id": 39,
-       "name": "Premier League",
-       "country": "England",
-       "logo": "https://media.api-sports.io/football/leagues/39.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 66,
-       "name": "Aston Villa",
-       "ar": "أستون فيلا",
-       "logo": "https://media.api-sports.io/football/teams/66.png"
-      },
-      "away": {
-       "id": 36,
-       "name": "Fulham",
-       "ar": "فولهام",
-       "logo": "https://media.api-sports.io/football/teams/36.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
      }
     ]
    },
@@ -1214,36 +2431,6 @@
        2,
        1
       ]
-     },
-     {
-      "id": 1570434,
-      "date": "2026-10-31T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 21,
-      "venue": "Barcelona",
-      "league": {
-       "id": 140,
-       "name": "La Liga",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/140.png",
-       "round": "Regular Season - 11"
-      },
-      "home": {
-       "id": 529,
-       "name": "Barcelona",
-       "ar": "برشلونة",
-       "logo": "https://media.api-sports.io/football/teams/529.png"
-      },
-      "away": {
-       "id": 542,
-       "name": "Alaves",
-       "ar": "ألافيس",
-       "logo": "https://media.api-sports.io/football/teams/542.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
      }
     ]
    },
@@ -1312,36 +2499,6 @@
       "goals": [
        2,
        5
-      ]
-     },
-     {
-      "id": 1550177,
-      "date": "2026-10-31T22:45:00+03:00",
-      "status": "1H",
-      "elapsed": 35,
-      "venue": "Milan",
-      "league": {
-       "id": 135,
-       "name": "Serie A",
-       "country": "Italy",
-       "logo": "https://media.api-sports.io/football/leagues/135.png",
-       "round": "Regular Season - 10"
-      },
-      "home": {
-       "id": 489,
-       "name": "AC Milan",
-       "ar": "ميلان",
-       "logo": "https://media.api-sports.io/football/teams/489.png"
-      },
-      "away": {
-       "id": 505,
-       "name": "Inter",
-       "ar": "إنتر ميلان",
-       "logo": "https://media.api-sports.io/football/teams/505.png"
-      },
-      "goals": [
-       2,
-       1
       ]
      }
     ]
@@ -1531,45 +2688,6 @@
       "goals": [
        2,
        2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 61,
-     "name": "Ligue 1",
-     "logo": "https://media.api-sports.io/football/leagues/61.png"
-    },
-    "matches": [
-     {
-      "id": 1552809,
-      "date": "2026-10-31T22:45:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
-      "venue": "Troyes",
-      "league": {
-       "id": 61,
-       "name": "Ligue 1",
-       "country": "France",
-       "logo": "https://media.api-sports.io/football/leagues/61.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 110,
-       "name": "Estac Troyes",
-       "ar": "تروا",
-       "logo": "https://media.api-sports.io/football/teams/110.png"
-      },
-      "away": {
-       "id": 1298,
-       "name": "Le Mans",
-       "ar": "لومان",
-       "logo": "https://media.api-sports.io/football/teams/1298.png"
-      },
-      "goals": [
-       1,
-       0
       ]
      }
     ]
@@ -1838,36 +2956,6 @@
        1,
        0
       ]
-     },
-     {
-      "id": 1646863,
-      "date": "2026-10-31T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 24,
-      "venue": "Rabat",
-      "league": {
-       "id": 200,
-       "name": "Botola Pro",
-       "country": "Morocco",
-       "logo": "https://media.api-sports.io/football/leagues/200.png",
-       "round": "Regular Season - 6"
-      },
-      "home": {
-       "id": 977,
-       "name": "FUS Rabat",
-       "ar": "FUS Rabat",
-       "logo": "https://media.api-sports.io/football/teams/977.png"
-      },
-      "away": {
-       "id": 973,
-       "name": "Hassania Agadir",
-       "ar": "Hassania Agadir",
-       "logo": "https://media.api-sports.io/football/teams/973.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
      }
     ]
    },
@@ -1907,33 +2995,6 @@
        2,
        1
       ]
-     },
-     {
-      "id": 1575532,
-      "date": "2026-10-31T23:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
-      "venue": "Porto",
-      "league": {
-       "id": 94,
-       "name": "Primeira Liga",
-       "country": "Portugal",
-       "logo": "https://media.api-sports.io/football/leagues/94.png",
-       "round": "Regular Season - 10"
-      },
-      "home": {
-       "id": 212,
-       "name": "FC Porto",
-       "ar": "بورتو",
-       "logo": "https://media.api-sports.io/football/teams/212.png"
-      },
-      "away": {
-       "id": 230,
-       "name": "Estoril",
-       "ar": "Estoril",
-       "logo": "https://media.api-sports.io/football/teams/230.png"
-      },
-      "goals": null
      }
     ]
    },
@@ -2031,66 +3092,6 @@
       },
       "goals": [
        7,
-       0
-      ]
-     },
-     {
-      "id": 1552210,
-      "date": "2026-10-31T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
-      "venue": "Amsterdam",
-      "league": {
-       "id": 88,
-       "name": "Eredivisie",
-       "country": "Netherlands",
-       "logo": "https://media.api-sports.io/football/leagues/88.png",
-       "round": "Regular Season - 11"
-      },
-      "home": {
-       "id": 194,
-       "name": "Ajax",
-       "ar": "أياكس",
-       "logo": "https://media.api-sports.io/football/teams/194.png"
-      },
-      "away": {
-       "id": 201,
-       "name": "AZ Alkmaar",
-       "ar": "AZ Alkmaar",
-       "logo": "https://media.api-sports.io/football/teams/201.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
-     },
-     {
-      "id": 1552211,
-      "date": "2026-10-31T23:00:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
-      "venue": "Leeuwarden",
-      "league": {
-       "id": 88,
-       "name": "Eredivisie",
-       "country": "Netherlands",
-       "logo": "https://media.api-sports.io/football/leagues/88.png",
-       "round": "Regular Season - 11"
-      },
-      "home": {
-       "id": 420,
-       "name": "Cambuur",
-       "ar": "Cambuur",
-       "logo": "https://media.api-sports.io/football/teams/420.png"
-      },
-      "away": {
-       "id": 410,
-       "name": "GO Ahead Eagles",
-       "ar": "GO Ahead Eagles",
-       "logo": "https://media.api-sports.io/football/teams/410.png"
-      },
-      "goals": [
-       2,
        0
       ]
      }
@@ -2320,662 +3321,6 @@
       "goals": [
        1,
        1
-      ]
-     },
-     {
-      "id": 1490594,
-      "date": "2026-10-31T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 55,
-      "venue": "Kansas City",
-      "league": {
-       "id": 253,
-       "name": "Major League Soccer",
-       "country": "USA",
-       "logo": "https://media.api-sports.io/football/leagues/253.png",
-       "round": "Regular Season - 33"
-      },
-      "home": {
-       "id": 1611,
-       "name": "Sporting Kansas City",
-       "ar": "Sporting Kansas City",
-       "logo": "https://media.api-sports.io/football/teams/1611.png"
-      },
-      "away": {
-       "id": 1597,
-       "name": "FC Dallas",
-       "ar": "FC Dallas",
-       "logo": "https://media.api-sports.io/football/teams/1597.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     },
-     {
-      "id": 1490595,
-      "date": "2026-10-31T22:00:00+03:00",
-      "status": "2H",
-      "elapsed": 55,
-      "venue": "Saint Louis",
-      "league": {
-       "id": 253,
-       "name": "Major League Soccer",
-       "country": "USA",
-       "logo": "https://media.api-sports.io/football/leagues/253.png",
-       "round": "Regular Season - 33"
-      },
-      "home": {
-       "id": 20787,
-       "name": "St. Louis City",
-       "ar": "St. Louis City",
-       "logo": "https://media.api-sports.io/football/teams/20787.png"
-      },
-      "away": {
-       "id": 25484,
-       "name": "San Diego",
-       "ar": "San Diego",
-       "logo": "https://media.api-sports.io/football/teams/25484.png"
-      },
-      "goals": [
-       0,
-       1
-      ]
-     }
-    ]
-   }
-  ]
- },
- "yesterday": {
-  "date": "2026-10-30",
-  "groups": [
-   {
-    "league": {
-     "id": 307,
-     "name": "Pro League",
-     "logo": "https://media.api-sports.io/football/leagues/307.png"
-    },
-    "matches": [
-     {
-      "id": 1603071,
-      "date": "2026-10-30T15:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Khamis Mushait",
-      "league": {
-       "id": 307,
-       "name": "Pro League",
-       "country": "Saudi-Arabia",
-       "logo": "https://media.api-sports.io/football/leagues/307.png",
-       "round": "Regular Season - 12"
-      },
-      "home": {
-       "id": 2951,
-       "name": "Abha",
-       "ar": "أبها",
-       "logo": "https://media.api-sports.io/football/teams/2951.png"
-      },
-      "away": {
-       "id": 2938,
-       "name": "Al-Ittihad FC",
-       "ar": "الاتحاد",
-       "logo": "https://media.api-sports.io/football/teams/2938.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     },
-     {
-      "id": 1603072,
-      "date": "2026-10-30T17:50:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Riyadh",
-      "league": {
-       "id": 307,
-       "name": "Pro League",
-       "country": "Saudi-Arabia",
-       "logo": "https://media.api-sports.io/football/leagues/307.png",
-       "round": "Regular Season - 12"
-      },
-      "home": {
-       "id": 26738,
-       "name": "Al Diriyah",
-       "ar": "الدرعية",
-       "logo": "https://media.api-sports.io/football/teams/26738.png"
-      },
-      "away": {
-       "id": 10513,
-       "name": "NEOM",
-       "ar": "نيوم",
-       "logo": "https://media.api-sports.io/football/teams/10513.png"
-      },
-      "goals": [
-       1,
-       2
-      ]
-     },
-     {
-      "id": 1603078,
-      "date": "2026-10-30T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Riyadh",
-      "league": {
-       "id": 307,
-       "name": "Pro League",
-       "country": "Saudi-Arabia",
-       "logo": "https://media.api-sports.io/football/leagues/307.png",
-       "round": "Regular Season - 12"
-      },
-      "home": {
-       "id": 2940,
-       "name": "Al Shabab",
-       "ar": "الشباب",
-       "logo": "https://media.api-sports.io/football/teams/2940.png"
-      },
-      "away": {
-       "id": 2929,
-       "name": "Al-Ahli Jeddah",
-       "ar": "الأهلي",
-       "logo": "https://media.api-sports.io/football/teams/2929.png"
-      },
-      "goals": [
-       6,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 140,
-     "name": "La Liga",
-     "logo": "https://media.api-sports.io/football/leagues/140.png"
-    },
-    "matches": [
-     {
-      "id": 1570442,
-      "date": "2026-10-30T23:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Villarreal",
-      "league": {
-       "id": 140,
-       "name": "La Liga",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/140.png",
-       "round": "Regular Season - 11"
-      },
-      "home": {
-       "id": 533,
-       "name": "Villarreal",
-       "ar": "فياريال",
-       "logo": "https://media.api-sports.io/football/teams/533.png"
-      },
-      "away": {
-       "id": 540,
-       "name": "Espanyol",
-       "ar": "إسبانيول",
-       "logo": "https://media.api-sports.io/football/teams/540.png"
-      },
-      "goals": [
-       0,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 78,
-     "name": "Bundesliga",
-     "logo": "https://media.api-sports.io/football/leagues/78.png"
-    },
-    "matches": [
-     {
-      "id": 1575211,
-      "date": "2026-10-30T22:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Spiesen-Elversberg",
-      "league": {
-       "id": 78,
-       "name": "Bundesliga",
-       "country": "Germany",
-       "logo": "https://media.api-sports.io/football/leagues/78.png",
-       "round": "Regular Season - 8"
-      },
-      "home": {
-       "id": 1660,
-       "name": "SV Elversberg",
-       "ar": "إلفرسبرغ",
-       "logo": "https://media.api-sports.io/football/teams/1660.png"
-      },
-      "away": {
-       "id": 164,
-       "name": "FSV Mainz 05",
-       "ar": "ماينز",
-       "logo": "https://media.api-sports.io/football/teams/164.png"
-      },
-      "goals": [
-       4,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 61,
-     "name": "Ligue 1",
-     "logo": "https://media.api-sports.io/football/leagues/61.png"
-    },
-    "matches": [
-     {
-      "id": 1552801,
-      "date": "2026-10-30T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Le Havre",
-      "league": {
-       "id": 61,
-       "name": "Ligue 1",
-       "country": "France",
-       "logo": "https://media.api-sports.io/football/leagues/61.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 111,
-       "name": "Le Havre",
-       "ar": "لوهافر",
-       "logo": "https://media.api-sports.io/football/teams/111.png"
-      },
-      "away": {
-       "id": 85,
-       "name": "Paris Saint Germain",
-       "ar": "باريس سان جيرمان",
-       "logo": "https://media.api-sports.io/football/teams/85.png"
-      },
-      "goals": [
-       1,
-       5
-      ]
-     },
-     {
-      "id": 1552806,
-      "date": "2026-10-30T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Nice",
-      "league": {
-       "id": 61,
-       "name": "Ligue 1",
-       "country": "France",
-       "logo": "https://media.api-sports.io/football/leagues/61.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 84,
-       "name": "Nice",
-       "ar": "نيس",
-       "logo": "https://media.api-sports.io/football/teams/84.png"
-      },
-      "away": {
-       "id": 94,
-       "name": "Rennes",
-       "ar": "رين",
-       "logo": "https://media.api-sports.io/football/teams/94.png"
-      },
-      "goals": [
-       5,
-       2
-      ]
-     },
-     {
-      "id": 1552802,
-      "date": "2026-10-30T23:05:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Lille",
-      "league": {
-       "id": 61,
-       "name": "Ligue 1",
-       "country": "France",
-       "logo": "https://media.api-sports.io/football/leagues/61.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 79,
-       "name": "Lille",
-       "ar": "ليل",
-       "logo": "https://media.api-sports.io/football/teams/79.png"
-      },
-      "away": {
-       "id": 116,
-       "name": "Lens",
-       "ar": "لانس",
-       "logo": "https://media.api-sports.io/football/teams/116.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 305,
-     "name": "Stars League",
-     "logo": "https://media.api-sports.io/football/leagues/305.png"
-    },
-    "matches": [
-     {
-      "id": 1597950,
-      "date": "2026-10-30T17:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Lai Yang",
-      "league": {
-       "id": 305,
-       "name": "Stars League",
-       "country": "Qatar",
-       "logo": "https://media.api-sports.io/football/leagues/305.png",
-       "round": "Regular Season - 8"
-      },
-      "home": {
-       "id": 2893,
-       "name": "Al Shahaniya",
-       "ar": "Al Shahaniya",
-       "logo": "https://media.api-sports.io/football/teams/2893.png"
-      },
-      "away": {
-       "id": 2896,
-       "name": "Al Ahli Doha",
-       "ar": "الأهلي القطري",
-       "logo": "https://media.api-sports.io/football/teams/2896.png"
-      },
-      "goals": [
-       1,
-       2
-      ]
-     },
-     {
-      "id": 1597953,
-      "date": "2026-10-30T19:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Doha",
-      "league": {
-       "id": 305,
-       "name": "Stars League",
-       "country": "Qatar",
-       "logo": "https://media.api-sports.io/football/leagues/305.png",
-       "round": "Regular Season - 8"
-      },
-      "home": {
-       "id": 2895,
-       "name": "Al Sadd",
-       "ar": "السد",
-       "logo": "https://media.api-sports.io/football/teams/2895.png"
-      },
-      "away": {
-       "id": 2916,
-       "name": "Al Shamal",
-       "ar": "الشمال",
-       "logo": "https://media.api-sports.io/football/teams/2916.png"
-      },
-      "goals": [
-       4,
-       1
-      ]
-     },
-     {
-      "id": 1597955,
-      "date": "2026-10-30T19:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Doha",
-      "league": {
-       "id": 305,
-       "name": "Stars League",
-       "country": "Qatar",
-       "logo": "https://media.api-sports.io/football/leagues/305.png",
-       "round": "Regular Season - 8"
-      },
-      "home": {
-       "id": 2903,
-       "name": "Al-Gharafa",
-       "ar": "الغرافة",
-       "logo": "https://media.api-sports.io/football/teams/2903.png"
-      },
-      "away": {
-       "id": 2907,
-       "name": "Qatar SC",
-       "ar": "قطر",
-       "logo": "https://media.api-sports.io/football/teams/2907.png"
-      },
-      "goals": [
-       2,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 233,
-     "name": "Premier League",
-     "logo": "https://media.api-sports.io/football/leagues/233.png"
-    },
-    "matches": [
-     {
-      "id": 1612273,
-      "date": "2026-10-30T18:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Asyut",
-      "league": {
-       "id": 233,
-       "name": "Premier League",
-       "country": "Egypt",
-       "logo": "https://media.api-sports.io/football/leagues/233.png",
-       "round": "Regular Season - 8"
-      },
-      "home": {
-       "id": 18021,
-       "name": "Asyut Petrol",
-       "ar": "Asyut Petrol",
-       "logo": "https://media.api-sports.io/football/teams/18021.png"
-      },
-      "away": {
-       "id": 1574,
-       "name": "El Gouna FC",
-       "ar": "El Gouna FC",
-       "logo": "https://media.api-sports.io/football/teams/1574.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     },
-     {
-      "id": 1612274,
-      "date": "2026-10-30T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Alexandria",
-      "league": {
-       "id": 233,
-       "name": "Premier League",
-       "country": "Egypt",
-       "logo": "https://media.api-sports.io/football/leagues/233.png",
-       "round": "Regular Season - 8"
-      },
-      "home": {
-       "id": 1572,
-       "name": "Al Ittihad",
-       "ar": "الاتحاد",
-       "logo": "https://media.api-sports.io/football/teams/1572.png"
-      },
-      "away": {
-       "id": 1039,
-       "name": "El Geish",
-       "ar": "El Geish",
-       "logo": "https://media.api-sports.io/football/teams/1039.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
-     },
-     {
-      "id": 1612275,
-      "date": "2026-10-30T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Ismailia",
-      "league": {
-       "id": 233,
-       "name": "Premier League",
-       "country": "Egypt",
-       "logo": "https://media.api-sports.io/football/leagues/233.png",
-       "round": "Regular Season - 8"
-      },
-      "home": {
-       "id": 13822,
-       "name": "Olympic El Qanah",
-       "ar": "Olympic El Qanah",
-       "logo": "https://media.api-sports.io/football/teams/13822.png"
-      },
-      "away": {
-       "id": 1037,
-       "name": "Enppi",
-       "ar": "Enppi",
-       "logo": "https://media.api-sports.io/football/teams/1037.png"
-      },
-      "goals": [
-       1,
-       3
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 200,
-     "name": "Botola Pro",
-     "logo": "https://media.api-sports.io/football/leagues/200.png"
-    },
-    "matches": [
-     {
-      "id": 1646860,
-      "date": "2026-10-30T23:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "El Jadida",
-      "league": {
-       "id": 200,
-       "name": "Botola Pro",
-       "country": "Morocco",
-       "logo": "https://media.api-sports.io/football/leagues/200.png",
-       "round": "Regular Season - 6"
-      },
-      "home": {
-       "id": 964,
-       "name": "Difaa EL Jadida",
-       "ar": "Difaa EL Jadida",
-       "logo": "https://media.api-sports.io/football/teams/964.png"
-      },
-      "away": {
-       "id": 14806,
-       "name": "UTS Rabat",
-       "ar": "UTS Rabat",
-       "logo": "https://media.api-sports.io/football/teams/14806.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 94,
-     "name": "Primeira Liga",
-     "logo": "https://media.api-sports.io/football/leagues/94.png"
-    },
-    "matches": [
-     {
-      "id": 1575531,
-      "date": "2026-10-30T23:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Rio Mayor",
-      "league": {
-       "id": 94,
-       "name": "Primeira Liga",
-       "country": "Portugal",
-       "logo": "https://media.api-sports.io/football/leagues/94.png",
-       "round": "Regular Season - 10"
-      },
-      "home": {
-       "id": 4716,
-       "name": "Casa Pia",
-       "ar": "Casa Pia",
-       "logo": "https://media.api-sports.io/football/teams/4716.png"
-      },
-      "away": {
-       "id": 228,
-       "name": "Sporting CP",
-       "ar": "سبورتينغ لشبونة",
-       "logo": "https://media.api-sports.io/football/teams/228.png"
-      },
-      "goals": [
-       0,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 203,
-     "name": "Süper Lig",
-     "logo": "https://media.api-sports.io/football/leagues/203.png"
-    },
-    "matches": [
-     {
-      "id": 1584455,
-      "date": "2026-10-30T20:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Konya",
-      "league": {
-       "id": 203,
-       "name": "Süper Lig",
-       "country": "Turkey",
-       "logo": "https://media.api-sports.io/football/leagues/203.png",
-       "round": "Regular Season - 10"
-      },
-      "home": {
-       "id": 607,
-       "name": "Konyaspor",
-       "ar": "Konyaspor",
-       "logo": "https://media.api-sports.io/football/teams/607.png"
-      },
-      "away": {
-       "id": 645,
-       "name": "Galatasaray",
-       "ar": "غلطة سراي",
-       "logo": "https://media.api-sports.io/football/teams/645.png"
-      },
-      "goals": [
-       0,
-       4
       ]
      }
     ]
@@ -3394,6 +3739,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 47,
+      "name": "Tottenham",
+      "ar": "توتنهام",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+     },
+     "points": 12,
+     "gd": 0,
+     "played": 9,
+     "win": 3,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 64,
       "name": "Hull City",
       "ar": "هال سيتي",
@@ -3408,7 +3769,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 63,
       "name": "Leeds",
@@ -3424,7 +3785,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 34,
       "name": "Newcastle",
@@ -3440,7 +3801,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 66,
       "name": "Aston Villa",
@@ -3456,7 +3817,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 57,
       "name": "Ipswich",
@@ -3472,7 +3833,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 45,
       "name": "Everton",
@@ -3485,22 +3846,6 @@
      "win": 2,
      "draw": 4,
      "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 47,
-      "name": "Tottenham",
-      "ar": "توتنهام",
-      "logo": "https://media.api-sports.io/football/teams/47.png"
-     },
-     "points": 9,
-     "gd": -2,
-     "played": 8,
-     "win": 2,
-     "draw": 3,
-     "lose": 3,
      "description": ""
     },
     {
@@ -3560,11 +3905,11 @@
       "logo": "https://media.api-sports.io/football/teams/52.png"
      },
      "points": 7,
-     "gd": -10,
-     "played": 8,
+     "gd": -12,
+     "played": 9,
      "win": 2,
      "draw": 1,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation - Championship"
     },
     {
@@ -3660,10 +4005,10 @@
       "ar": "ريال بيتيس",
       "logo": "https://media.api-sports.io/football/teams/543.png"
      },
-     "points": 20,
-     "gd": 2,
-     "played": 10,
-     "win": 6,
+     "points": 23,
+     "gd": 3,
+     "played": 11,
+     "win": 7,
      "draw": 2,
      "lose": 2,
      "description": "Promotion - Champions League (League phase)"
@@ -3917,11 +4262,11 @@
       "logo": "https://media.api-sports.io/football/teams/535.png"
      },
      "points": 5,
-     "gd": -12,
-     "played": 10,
+     "gd": -13,
+     "played": 11,
      "win": 0,
      "draw": 5,
-     "lose": 5,
+     "lose": 6,
      "description": "Relegation - LaLiga2"
     }
    ]
@@ -4262,11 +4607,11 @@
       "ar": "بايرن ميونخ",
       "logo": "https://media.api-sports.io/football/teams/157.png"
      },
-     "points": 17,
+     "points": 18,
      "gd": 19,
-     "played": 7,
+     "played": 8,
      "win": 5,
-     "draw": 2,
+     "draw": 3,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -4278,11 +4623,11 @@
       "ar": "بوروسيا دورتموند",
       "logo": "https://media.api-sports.io/football/teams/165.png"
      },
-     "points": 17,
+     "points": 18,
      "gd": 8,
-     "played": 7,
+     "played": 8,
      "win": 5,
-     "draw": 2,
+     "draw": 3,
      "lose": 0,
      "description": "Champions League league stage"
     },
@@ -4839,6 +5184,6 @@
   }
  },
  "errors": [],
- "requests": 34,
+ "requests": 23,
  "plan": "Pro"
 }
