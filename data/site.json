@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T13:07:20.326Z",
+ "updated": "2026-10-31T13:48:20.058Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1603079,
       "date": "2026-10-31T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Buraidah",
       "league": {
        "id": 307,
@@ -802,7 +802,10 @@
        "ar": "الاتفاق",
        "logo": "https://media.api-sports.io/football/teams/2934.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1603073,
@@ -870,8 +873,8 @@
      {
       "id": 1557450,
       "date": "2026-10-31T15:30:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 59,
       "venue": "London",
       "league": {
        "id": 39,
@@ -893,7 +896,7 @@
        "logo": "https://media.api-sports.io/football/teams/33.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1099,7 +1102,7 @@
       "id": 1570439,
       "date": "2026-10-31T16:00:00+03:00",
       "status": "1H",
-      "elapsed": 6,
+      "elapsed": 45,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1122,7 +1125,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -2022,8 +2025,8 @@
      {
       "id": 1584454,
       "date": "2026-10-31T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 7,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Izmit",
       "league": {
        "id": 203,
@@ -4704,6 +4707,6 @@
   }
  },
  "errors": [],
- "requests": 17,
+ "requests": 22,
  "plan": "Pro"
 }
