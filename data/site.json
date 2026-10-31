@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T22:50:32.681Z",
+ "updated": "2026-10-31T23:25:00.990Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1905,8 +1905,8 @@
      {
       "id": 1490592,
       "date": "2026-11-01T00:00:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -1935,8 +1935,8 @@
      {
       "id": 1490596,
       "date": "2026-11-01T00:00:00+03:00",
-      "status": "2H",
-      "elapsed": 81,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "San Jose",
       "league": {
        "id": 253,
@@ -3317,6 +3317,36 @@
       },
       "goals": [
        1,
+       0
+      ]
+     },
+     {
+      "id": 1552211,
+      "date": "2026-10-31T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Leeuwarden",
+      "league": {
+       "id": 88,
+       "name": "Eredivisie",
+       "country": "Netherlands",
+       "logo": "https://media.api-sports.io/football/leagues/88.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 420,
+       "name": "Cambuur",
+       "ar": "Cambuur",
+       "logo": "https://media.api-sports.io/football/teams/420.png"
+      },
+      "away": {
+       "id": 410,
+       "name": "GO Ahead Eagles",
+       "ar": "GO Ahead Eagles",
+       "logo": "https://media.api-sports.io/football/teams/410.png"
+      },
+      "goals": [
+       4,
        0
       ]
      }
@@ -5469,6 +5499,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 21,
  "plan": "Pro"
 }
