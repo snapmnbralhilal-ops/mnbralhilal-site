@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T11:38:52.969Z",
+ "updated": "2026-10-31T12:13:04.626Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1987,7 +1987,7 @@
       "id": 1584450,
       "date": "2026-10-31T13:30:00+03:00",
       "status": "2H",
-      "elapsed": 50,
+      "elapsed": 84,
       "venue": "Erzurum",
       "league": {
        "id": 203,
@@ -2009,8 +2009,8 @@
        "logo": "https://media.api-sports.io/football/teams/6343.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       3
       ]
      },
      {
@@ -4695,6 +4695,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
