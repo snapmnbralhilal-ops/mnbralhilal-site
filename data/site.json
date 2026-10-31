@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T13:48:20.058Z",
+ "updated": "2026-10-31T14:22:15.222Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -781,7 +781,7 @@
       "id": 1603079,
       "date": "2026-10-31T16:30:00+03:00",
       "status": "1H",
-      "elapsed": 18,
+      "elapsed": 45,
       "venue": "Buraidah",
       "league": {
        "id": 307,
@@ -803,7 +803,7 @@
        "logo": "https://media.api-sports.io/football/teams/2934.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -874,7 +874,7 @@
       "id": 1557450,
       "date": "2026-10-31T15:30:00+03:00",
       "status": "2H",
-      "elapsed": 59,
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -896,7 +896,7 @@
        "logo": "https://media.api-sports.io/football/teams/33.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1101,8 +1101,8 @@
      {
       "id": 1570439,
       "date": "2026-10-31T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Valencia",
       "league": {
        "id": 140,
@@ -1125,7 +1125,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      },
      {
@@ -1221,8 +1221,8 @@
      {
       "id": 1550179,
       "date": "2026-10-31T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 21,
       "venue": "Bologna",
       "league": {
        "id": 135,
@@ -1243,7 +1243,10 @@
        "ar": "مونزا",
        "logo": "https://media.api-sports.io/football/teams/1579.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1550186,
@@ -1518,8 +1521,8 @@
      {
       "id": 1597954,
       "date": "2026-10-31T17:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1540,7 +1543,10 @@
        "ar": "Lusail City",
        "logo": "https://media.api-sports.io/football/teams/7527.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1597951,
@@ -2025,8 +2031,8 @@
      {
       "id": 1584454,
       "date": "2026-10-31T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 63,
       "venue": "Izmit",
       "league": {
        "id": 203,
@@ -4707,6 +4713,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 29,
  "plan": "Pro"
 }
