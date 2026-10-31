@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T11:01:32.032Z",
+ "updated": "2026-10-31T11:38:52.969Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1986,8 +1986,8 @@
      {
       "id": 1584450,
       "date": "2026-10-31T13:30:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Erzurum",
       "league": {
        "id": 203,
@@ -4695,6 +4695,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 14,
  "plan": "Pro"
 }
