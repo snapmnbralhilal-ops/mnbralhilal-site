@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-31T07:43:24.281Z",
+ "updated": "2026-10-31T08:28:04.464Z",
  "players": [
   {
    "api": 156,
@@ -1397,6 +1397,19 @@
    "apps": 10
   },
   {
+   "name": "A. Lacazette",
+   "photo": "https://media.api-sports.io/football/players/1467.png",
+   "team": {
+    "id": 10513,
+    "name": "NEOM",
+    "ar": "نيوم",
+    "logo": "https://media.api-sports.io/football/teams/10513.png"
+   },
+   "goals": 7,
+   "assists": 2,
+   "apps": 12
+  },
+  {
    "name": "Y. En-Nesyri",
    "photo": "https://media.api-sports.io/football/players/47422.png",
    "team": {
@@ -1407,7 +1420,7 @@
    },
    "goals": 7,
    "assists": 0,
-   "apps": 10
+   "apps": 11
   },
   {
    "name": "M. Retegui",
@@ -1433,7 +1446,7 @@
    },
    "goals": 6,
    "assists": 3,
-   "apps": 10
+   "apps": 11
   },
   {
    "name": "G. Ilenikhena",
@@ -1446,7 +1459,7 @@
    },
    "goals": 6,
    "assists": 3,
-   "apps": 8
+   "apps": 9
   },
   {
    "name": "غابرييل مارتينيلي",
@@ -1472,19 +1485,6 @@
    },
    "goals": 6,
    "assists": 5,
-   "apps": 11
-  },
-  {
-   "name": "J. Domingues",
-   "photo": "https://media.api-sports.io/football/players/127688.png",
-   "team": {
-    "id": 10509,
-    "name": "Al Kholood",
-    "ar": "الخلود",
-    "logo": "https://media.api-sports.io/football/teams/10509.png"
-   },
-   "goals": 6,
-   "assists": 3,
    "apps": 11
   }
  ]
