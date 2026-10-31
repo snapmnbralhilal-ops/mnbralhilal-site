@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:00:06.894Z",
+ "updated": "2026-10-31T21:33:52.344Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -742,8 +742,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال في المركز 3 بدوري روشن برصيد 27 نقطة",
-   "body": "متأخراً بـنقطة واحدة عن المتصدر القادسية.",
+   "title": "الهلال يتصدر دوري روشن برصيد 30 نقطة",
+   "body": "بفارق نقطتين عن القادسية صاحب المركز الثاني.",
    "link": "#table"
   },
   {
@@ -1905,8 +1905,8 @@
      {
       "id": 1490592,
       "date": "2026-11-01T00:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -1927,13 +1927,16 @@
        "ar": "Austin",
        "logo": "https://media.api-sports.io/football/teams/16489.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1490596,
       "date": "2026-11-01T00:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 24,
       "venue": "San Jose",
       "league": {
        "id": 253,
@@ -1954,7 +1957,10 @@
        "ar": "Real Salt Lake",
        "logo": "https://media.api-sports.io/football/teams/1606.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      },
      {
       "id": 1490593,
@@ -3322,6 +3328,66 @@
        1,
        1
       ]
+     },
+     {
+      "id": 1490594,
+      "date": "2026-10-31T22:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Kansas City",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 33"
+      },
+      "home": {
+       "id": 1611,
+       "name": "Sporting Kansas City",
+       "ar": "Sporting Kansas City",
+       "logo": "https://media.api-sports.io/football/teams/1611.png"
+      },
+      "away": {
+       "id": 1597,
+       "name": "FC Dallas",
+       "ar": "FC Dallas",
+       "logo": "https://media.api-sports.io/football/teams/1597.png"
+      },
+      "goals": [
+       1,
+       1
+      ]
+     },
+     {
+      "id": 1490595,
+      "date": "2026-10-31T22:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Saint Louis",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 33"
+      },
+      "home": {
+       "id": 20787,
+       "name": "St. Louis City",
+       "ar": "St. Louis City",
+       "logo": "https://media.api-sports.io/football/teams/20787.png"
+      },
+      "away": {
+       "id": 25484,
+       "name": "San Diego",
+       "ar": "San Diego",
+       "logo": "https://media.api-sports.io/football/teams/25484.png"
+      },
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    }
@@ -3333,6 +3399,22 @@
    "rows": [
     {
      "rank": 1,
+     "team": {
+      "id": 2932,
+      "name": "Al-Hilal Saudi FC",
+      "ar": "الهلال",
+      "logo": "https://media.api-sports.io/football/teams/2932.png"
+     },
+     "points": 30,
+     "gd": 23,
+     "played": 11,
+     "win": 10,
+     "draw": 0,
+     "lose": 1,
+     "description": "Promotion - AFC Champions League (League phase)"
+    },
+    {
+     "rank": 2,
      "team": {
       "id": 2933,
       "name": "Al-Qadisiyah FC",
@@ -3348,7 +3430,7 @@
      "description": "Promotion - AFC Champions League (League phase)"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 2939,
       "name": "Al-Nassr",
@@ -3360,22 +3442,6 @@
      "played": 11,
      "win": 9,
      "draw": 1,
-     "lose": 1,
-     "description": "Promotion - AFC Champions League (League phase)"
-    },
-    {
-     "rank": 3,
-     "team": {
-      "id": 2932,
-      "name": "Al-Hilal Saudi FC",
-      "ar": "الهلال",
-      "logo": "https://media.api-sports.io/football/teams/2932.png"
-     },
-     "points": 27,
-     "gd": 21,
-     "played": 10,
-     "win": 9,
-     "draw": 0,
      "lose": 1,
      "description": "Promotion - AFC Champions League (League phase)"
     },
@@ -3580,11 +3646,11 @@
       "logo": "https://media.api-sports.io/football/teams/2931.png"
      },
      "points": 6,
-     "gd": -13,
-     "played": 11,
+     "gd": -15,
+     "played": 12,
      "win": 1,
      "draw": 3,
-     "lose": 7,
+     "lose": 8,
      "description": "Relegation - Division 1"
     },
     {
@@ -5184,6 +5250,6 @@
   }
  },
  "errors": [],
- "requests": 23,
+ "requests": 22,
  "plan": "Pro"
 }
