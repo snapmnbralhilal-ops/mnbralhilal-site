@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:50:55.588Z",
+ "updated": "2026-11-01T22:25:40.106Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1339,7 +1339,7 @@
       "id": 1490586,
       "date": "2026-11-02T00:30:00+03:00",
       "status": "1H",
-      "elapsed": 11,
+      "elapsed": 45,
       "venue": "Nashville",
       "league": {
        "id": 253,
@@ -1361,15 +1361,15 @@
        "logo": "https://media.api-sports.io/football/teams/1602.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       2
       ]
      },
      {
       "id": 1490597,
       "date": "2026-11-02T00:30:00+03:00",
       "status": "1H",
-      "elapsed": 11,
+      "elapsed": 45,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1391,7 +1391,7 @@
        "logo": "https://media.api-sports.io/football/teams/1601.png"
       },
       "goals": [
-       0,
+       2,
        0
       ]
      },
@@ -1715,6 +1715,36 @@
       },
       "goals": [
        0,
+       1
+      ]
+     },
+     {
+      "id": 1570433,
+      "date": "2026-11-01T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Bilbao",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 531,
+       "name": "Athletic Club",
+       "ar": "أتلتيك بلباو",
+       "logo": "https://media.api-sports.io/football/teams/531.png"
+      },
+      "away": {
+       "id": 548,
+       "name": "Real Sociedad",
+       "ar": "ريال سوسيداد",
+       "logo": "https://media.api-sports.io/football/teams/548.png"
+      },
+      "goals": [
+       2,
        1
       ]
      }
@@ -2173,6 +2203,36 @@
        1,
        0
       ]
+     },
+     {
+      "id": 1646867,
+      "date": "2026-11-01T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Belkan",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 6"
+      },
+      "home": {
+       "id": 962,
+       "name": "Renaissance Berkane",
+       "ar": "Renaissance Berkane",
+       "logo": "https://media.api-sports.io/football/teams/962.png"
+      },
+      "away": {
+       "id": 976,
+       "name": "Raja Casablanca",
+       "ar": "الرجاء",
+       "logo": "https://media.api-sports.io/football/teams/976.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
      }
     ]
    },
@@ -2271,6 +2331,36 @@
       "goals": [
        0,
        2
+      ]
+     },
+     {
+      "id": 1575530,
+      "date": "2026-11-01T23:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Braga",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 217,
+       "name": "SC Braga",
+       "ar": "SC Braga",
+       "logo": "https://media.api-sports.io/football/teams/217.png"
+      },
+      "away": {
+       "id": 242,
+       "name": "Famalicao",
+       "ar": "Famalicao",
+       "logo": "https://media.api-sports.io/football/teams/242.png"
+      },
+      "goals": [
+       3,
+       0
       ]
      }
     ]
@@ -4491,6 +4581,6 @@
   }
  },
  "errors": [],
- "requests": 22,
+ "requests": 20,
  "plan": "Pro"
 }
