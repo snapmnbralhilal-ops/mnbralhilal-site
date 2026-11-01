@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T00:45:22.660Z",
+ "updated": "2026-11-01T01:47:43.135Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1965,8 +1965,8 @@
      {
       "id": 1490593,
       "date": "2026-11-01T04:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 8,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -1987,7 +1987,10 @@
        "ar": "Chicago Fire",
        "logo": "https://media.api-sports.io/football/teams/1607.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490591,
@@ -3394,7 +3397,7 @@
       "date": "2026-10-31T16:00:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Kocaeli",
+      "venue": "Izmit",
       "league": {
        "id": 203,
        "name": "Süper Lig",
@@ -5499,6 +5502,6 @@
   }
  },
  "errors": [],
- "requests": 17,
+ "requests": 15,
  "plan": "Pro"
 }
