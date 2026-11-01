@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-01T05:51:04.024Z",
+ "updated": "2026-11-01T06:40:45.876Z",
  "players": [
   {
    "api": 156,
@@ -883,24 +883,24 @@
    "photo": "https://media.api-sports.io/football/players/326984.png",
    "age": 23,
    "nat": "Saudi Arabia",
-   "apps": 12,
-   "starts": 12,
-   "mins": 1050,
+   "apps": 13,
+   "starts": 13,
+   "mins": 1140,
    "goals": 0,
    "assists": 2,
    "saves": 0,
    "conceded": 0,
-   "shots": 0,
-   "shotsOn": 0,
+   "shots": 3,
+   "shotsOn": 1,
    "keyPasses": 15,
-   "passes": 511,
-   "tackles": 27,
-   "interceptions": 8,
+   "passes": 571,
+   "tackles": 28,
+   "interceptions": 10,
    "dribbles": 8,
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.98,
+   "rating": 6.99,
    "comps": [
     {
      "id": 17,
@@ -912,7 +912,7 @@
     {
      "id": 307,
      "league": "Pro League",
-     "apps": 10,
+     "apps": 11,
      "goals": 0,
      "assists": 2
     }
@@ -1086,9 +1086,9 @@
    "photo": "https://media.api-sports.io/football/players/442343.png",
    "age": 24,
    "nat": "Saudi Arabia",
-   "apps": 7,
+   "apps": 8,
    "starts": 1,
-   "mins": 140,
+   "mins": 141,
    "goals": 0,
    "assists": 0,
    "saves": 0,
@@ -1096,14 +1096,14 @@
    "shots": 3,
    "shotsOn": 1,
    "keyPasses": 0,
-   "passes": 86,
+   "passes": 91,
    "tackles": 5,
    "interceptions": 2,
    "dribbles": 1,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.19,
+   "rating": 6.21,
    "comps": [
     {
      "id": 17,
@@ -1115,7 +1115,7 @@
     {
      "id": 307,
      "league": "Pro League",
-     "apps": 5,
+     "apps": 6,
      "goals": 0,
      "assists": 0
     }
@@ -1131,9 +1131,9 @@
    "photo": "https://media.api-sports.io/football/players/449662.png",
    "age": 18,
    "nat": "France",
-   "apps": 8,
+   "apps": 9,
    "starts": 4,
-   "mins": 315,
+   "mins": 316,
    "goals": 1,
    "assists": 0,
    "saves": 0,
@@ -1141,14 +1141,14 @@
    "shots": 9,
    "shotsOn": 3,
    "keyPasses": 3,
-   "passes": 46,
+   "passes": 47,
    "tackles": 0,
    "interceptions": 0,
    "dribbles": 4,
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.65,
+   "rating": 6.62,
    "comps": [
     {
      "id": 17,
@@ -1160,7 +1160,7 @@
     {
      "id": 307,
      "league": "Pro League",
-     "apps": 5,
+     "apps": 6,
      "goals": 1,
      "assists": 0
     }
@@ -1282,9 +1282,9 @@
    "photo": "https://media.api-sports.io/football/players/606188.png",
    "age": 17,
    "nat": null,
-   "apps": 6,
+   "apps": 7,
    "starts": 1,
-   "mins": 114,
+   "mins": 115,
    "goals": 0,
    "assists": 0,
    "saves": 0,
@@ -1292,14 +1292,14 @@
    "shots": 0,
    "shotsOn": 0,
    "keyPasses": 1,
-   "passes": 40,
+   "passes": 44,
    "tackles": 4,
    "interceptions": 2,
    "dribbles": 2,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 5.69,
+   "rating": 5.77,
    "comps": [
     {
      "id": 17,
@@ -1311,7 +1311,7 @@
     {
      "id": 307,
      "league": "Pro League",
-     "apps": 4,
+     "apps": 5,
      "goals": 0,
      "assists": 0
     }
