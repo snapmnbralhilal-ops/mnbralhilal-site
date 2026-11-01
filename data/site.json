@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T10:37:29.008Z",
+ "updated": "2026-11-01T11:13:11.716Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1788,9 +1788,9 @@
      {
       "id": 1584448,
       "date": "2026-11-01T13:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
-      "venue": "Diyarbakir Stadium",
+      "status": "1H",
+      "elapsed": 43,
+      "venue": "Diyarbakır",
       "league": {
        "id": 203,
        "name": "Süper Lig",
@@ -1810,7 +1810,10 @@
        "ar": "Eyüpspor",
        "logo": "https://media.api-sports.io/football/teams/3588.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1584449,
@@ -5501,18 +5504,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-11-01",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
- "requests": 13,
+ "errors": [],
+ "requests": 14,
  "plan": "Pro"
 }
