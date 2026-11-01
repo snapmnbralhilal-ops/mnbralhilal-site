@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T13:20:18.606Z",
+ "updated": "2026-11-01T14:06:59.893Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -906,8 +906,8 @@
      {
       "id": 1570438,
       "date": "2026-11-01T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 16,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Getafe",
       "league": {
        "id": 140,
@@ -930,7 +930,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -1026,7 +1026,7 @@
      {
       "id": 1550180,
       "date": "2026-11-01T14:30:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Como",
       "league": {
@@ -1056,8 +1056,8 @@
      {
       "id": 1550181,
       "date": "2026-11-01T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Frosinone",
       "league": {
        "id": 135,
@@ -1078,13 +1078,16 @@
        "ar": "تورينو",
        "logo": "https://media.api-sports.io/football/teams/503.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550183,
       "date": "2026-11-01T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 5,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1105,7 +1108,10 @@
        "ar": "كالياري",
        "logo": "https://media.api-sports.io/football/teams/490.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550184,
@@ -1236,8 +1242,8 @@
      {
       "id": 1552808,
       "date": "2026-11-01T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Strasbourg",
       "league": {
        "id": 61,
@@ -1258,7 +1264,10 @@
        "ar": "أوكسير",
        "logo": "https://media.api-sports.io/football/teams/108.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552804,
@@ -1707,8 +1716,8 @@
      {
       "id": 1552213,
       "date": "2026-11-01T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1729,13 +1738,16 @@
        "ar": "Twente",
        "logo": "https://media.api-sports.io/football/teams/415.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       3
+      ]
      },
      {
       "id": 1552214,
       "date": "2026-11-01T16:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1756,7 +1768,10 @@
        "ar": "Utrecht",
        "logo": "https://media.api-sports.io/football/teams/207.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1552215,
@@ -1827,8 +1842,8 @@
      {
       "id": 1584449,
       "date": "2026-11-01T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 21,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1850,15 +1865,15 @@
        "logo": "https://media.api-sports.io/football/teams/3603.png"
       },
       "goals": [
-       1,
-       0
+       3,
+       1
       ]
      },
      {
       "id": 1584456,
       "date": "2026-11-01T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "2H",
+      "elapsed": 49,
       "venue": "Trabzon",
       "league": {
        "id": 203,
@@ -1880,7 +1895,7 @@
        "logo": "https://media.api-sports.io/football/teams/3573.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -5520,6 +5535,6 @@
   }
  },
  "errors": [],
- "requests": 18,
+ "requests": 19,
  "plan": "Pro"
 }
