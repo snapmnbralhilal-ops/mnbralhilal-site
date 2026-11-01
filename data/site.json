@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:12:58.800Z",
+ "updated": "2026-11-01T21:50:55.588Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1338,8 +1338,8 @@
      {
       "id": 1490586,
       "date": "2026-11-02T00:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Nashville",
       "league": {
        "id": 253,
@@ -1360,13 +1360,16 @@
        "ar": "New York Red Bulls",
        "logo": "https://media.api-sports.io/football/teams/1602.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490597,
       "date": "2026-11-02T00:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 11,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1387,7 +1390,10 @@
        "ar": "Toronto FC",
        "logo": "https://media.api-sports.io/football/teams/1601.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490598,
@@ -1840,6 +1846,36 @@
        1,
        2
       ]
+     },
+     {
+      "id": 1550182,
+      "date": "2026-11-01T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Turin",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 496,
+       "name": "Juventus",
+       "ar": "يوفنتوس",
+       "logo": "https://media.api-sports.io/football/teams/496.png"
+      },
+      "away": {
+       "id": 492,
+       "name": "Napoli",
+       "ar": "نابولي",
+       "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
      }
     ]
    },
@@ -2007,6 +2043,36 @@
       "goals": [
        3,
        1
+      ]
+     },
+     {
+      "id": 1552805,
+      "date": "2026-11-01T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Marseille",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 81,
+       "name": "Marseille",
+       "ar": "مارسيليا",
+       "logo": "https://media.api-sports.io/football/teams/81.png"
+      },
+      "away": {
+       "id": 96,
+       "name": "Toulouse",
+       "ar": "تولوز",
+       "logo": "https://media.api-sports.io/football/teams/96.png"
+      },
+      "goals": [
+       2,
+       0
       ]
      }
     ]
@@ -4425,6 +4491,6 @@
   }
  },
  "errors": [],
- "requests": 23,
+ "requests": 22,
  "plan": "Pro"
 }
