@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T22:59:31.293Z",
+ "updated": "2026-11-01T23:33:10.005Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1339,7 +1339,7 @@
       "id": 1490586,
       "date": "2026-11-02T00:30:00+03:00",
       "status": "2H",
-      "elapsed": 54,
+      "elapsed": 87,
       "venue": "Nashville",
       "league": {
        "id": 253,
@@ -1361,7 +1361,7 @@
        "logo": "https://media.api-sports.io/football/teams/1602.png"
       },
       "goals": [
-       1,
+       2,
        2
       ]
      },
@@ -1369,7 +1369,7 @@
       "id": 1490597,
       "date": "2026-11-02T00:30:00+03:00",
       "status": "2H",
-      "elapsed": 61,
+      "elapsed": 90,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1392,7 +1392,7 @@
       },
       "goals": [
        3,
-       0
+       1
       ]
      },
      {
@@ -4611,6 +4611,6 @@
   }
  },
  "errors": [],
- "requests": 18,
+ "requests": 16,
  "plan": "Pro"
 }
