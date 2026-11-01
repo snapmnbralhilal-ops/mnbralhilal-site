@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T22:25:40.106Z",
+ "updated": "2026-11-01T22:59:31.293Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1338,8 +1338,8 @@
      {
       "id": 1490586,
       "date": "2026-11-02T00:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "Nashville",
       "league": {
        "id": 253,
@@ -1368,8 +1368,8 @@
      {
       "id": 1490597,
       "date": "2026-11-02T00:30:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Atlanta",
       "league": {
        "id": 253,
@@ -1391,7 +1391,7 @@
        "logo": "https://media.api-sports.io/football/teams/1601.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      },
@@ -2719,6 +2719,36 @@
        2,
        4
       ]
+     },
+     {
+      "id": 1490591,
+      "date": "2026-11-01T23:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Vancouver",
+      "league": {
+       "id": 253,
+       "name": "Major League Soccer",
+       "country": "USA",
+       "logo": "https://media.api-sports.io/football/leagues/253.png",
+       "round": "Regular Season - 33"
+      },
+      "home": {
+       "id": 1603,
+       "name": "Vancouver Whitecaps",
+       "ar": "Vancouver Whitecaps",
+       "logo": "https://media.api-sports.io/football/teams/1603.png"
+      },
+      "away": {
+       "id": 1595,
+       "name": "Seattle Sounders",
+       "ar": "Seattle Sounders",
+       "logo": "https://media.api-sports.io/football/teams/1595.png"
+      },
+      "goals": [
+       5,
+       1
+      ]
      }
     ]
    }
@@ -3770,21 +3800,37 @@
     {
      "rank": 7,
      "team": {
-      "id": 492,
-      "name": "Napoli",
-      "ar": "نابولي",
-      "logo": "https://media.api-sports.io/football/teams/492.png"
+      "id": 496,
+      "name": "Juventus",
+      "ar": "يوفنتوس",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
      },
-     "points": 14,
-     "gd": 6,
-     "played": 9,
-     "win": 4,
+     "points": 17,
+     "gd": 3,
+     "played": 10,
+     "win": 5,
      "draw": 2,
      "lose": 3,
      "description": ""
     },
     {
      "rank": 8,
+     "team": {
+      "id": 492,
+      "name": "Napoli",
+      "ar": "نابولي",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+     },
+     "points": 14,
+     "gd": 4,
+     "played": 10,
+     "win": 4,
+     "draw": 2,
+     "lose": 4,
+     "description": ""
+    },
+    {
+     "rank": 9,
      "team": {
       "id": 500,
       "name": "Bologna",
@@ -3797,22 +3843,6 @@
      "win": 4,
      "draw": 2,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 9,
-     "team": {
-      "id": 496,
-      "name": "Juventus",
-      "ar": "يوفنتوس",
-      "logo": "https://media.api-sports.io/football/teams/496.png"
-     },
-     "points": 14,
-     "gd": 1,
-     "played": 9,
-     "win": 4,
-     "draw": 2,
-     "lose": 3,
      "description": ""
     },
     {
@@ -4372,6 +4402,22 @@
     {
      "rank": 6,
      "team": {
+      "id": 81,
+      "name": "Marseille",
+      "ar": "مارسيليا",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+     },
+     "points": 15,
+     "gd": 7,
+     "played": 9,
+     "win": 5,
+     "draw": 0,
+     "lose": 4,
+     "description": "Play-offs"
+    },
+    {
+     "rank": 7,
+     "team": {
       "id": 91,
       "name": "Monaco",
       "ar": "موناكو",
@@ -4383,10 +4429,10 @@
      "win": 4,
      "draw": 3,
      "lose": 2,
-     "description": "Play-offs"
+     "description": ""
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 84,
       "name": "Nice",
@@ -4402,7 +4448,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 116,
       "name": "Lens",
@@ -4414,22 +4460,6 @@
      "played": 9,
      "win": 4,
      "draw": 1,
-     "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 9,
-     "team": {
-      "id": 81,
-      "name": "Marseille",
-      "ar": "مارسيليا",
-      "logo": "https://media.api-sports.io/football/teams/81.png"
-     },
-     "points": 12,
-     "gd": 5,
-     "played": 8,
-     "win": 4,
-     "draw": 0,
      "lose": 4,
      "description": ""
     },
@@ -4458,11 +4488,11 @@
       "logo": "https://media.api-sports.io/football/teams/96.png"
      },
      "points": 10,
-     "gd": 1,
-     "played": 8,
+     "gd": -1,
+     "played": 9,
      "win": 2,
      "draw": 4,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
@@ -4581,6 +4611,6 @@
   }
  },
  "errors": [],
- "requests": 20,
+ "requests": 18,
  "plan": "Pro"
 }
