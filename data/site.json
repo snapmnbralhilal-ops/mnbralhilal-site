@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T14:42:34.671Z",
+ "updated": "2026-11-01T15:19:09.862Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -781,7 +781,7 @@
       "id": 1604046,
       "date": "2026-11-01T17:40:00+03:00",
       "status": "1H",
-      "elapsed": 1,
+      "elapsed": 38,
       "venue": "Al-Hofuf",
       "league": {
        "id": 308,
@@ -804,14 +804,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1604047,
       "date": "2026-11-01T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -832,7 +832,10 @@
        "ar": "Al Taee",
        "logo": "https://media.api-sports.io/football/teams/2942.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604048,
@@ -909,8 +912,8 @@
      {
       "id": 1570438,
       "date": "2026-11-01T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Getafe",
       "league": {
        "id": 140,
@@ -932,15 +935,15 @@
        "logo": "https://media.api-sports.io/football/teams/536.png"
       },
       "goals": [
-       2,
+       3,
        1
       ]
      },
      {
       "id": 1570440,
       "date": "2026-11-01T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Santander",
       "league": {
        "id": 140,
@@ -961,7 +964,10 @@
        "ar": "ريال مدريد",
        "logo": "https://media.api-sports.io/football/teams/541.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570437,
@@ -1059,8 +1065,8 @@
      {
       "id": 1550181,
       "date": "2026-11-01T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 40,
+      "status": "2H",
+      "elapsed": 58,
       "venue": "Frosinone",
       "league": {
        "id": 135,
@@ -1082,15 +1088,15 @@
        "logo": "https://media.api-sports.io/football/teams/503.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1550183,
       "date": "2026-11-01T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1182,8 +1188,8 @@
      {
       "id": 1575207,
       "date": "2026-11-01T17:30:00+03:00",
-      "status": "1H",
-      "elapsed": 12,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Berlin",
       "league": {
        "id": 78,
@@ -1248,8 +1254,8 @@
      {
       "id": 1552808,
       "date": "2026-11-01T17:00:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Strasbourg",
       "league": {
        "id": 61,
@@ -1271,7 +1277,7 @@
        "logo": "https://media.api-sports.io/football/teams/108.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -1723,7 +1729,7 @@
       "id": 1552213,
       "date": "2026-11-01T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 51,
+      "elapsed": 88,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1746,14 +1752,14 @@
       },
       "goals": [
        0,
-       6
+       9
       ]
      },
      {
       "id": 1552214,
       "date": "2026-11-01T16:30:00+03:00",
       "status": "2H",
-      "elapsed": 56,
+      "elapsed": 90,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1775,7 +1781,7 @@
        "logo": "https://media.api-sports.io/football/teams/207.png"
       },
       "goals": [
-       3,
+       4,
        2
       ]
      },
@@ -1848,8 +1854,8 @@
      {
       "id": 1584449,
       "date": "2026-11-01T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1871,15 +1877,15 @@
        "logo": "https://media.api-sports.io/football/teams/3603.png"
       },
       "goals": [
-       4,
+       5,
        2
       ]
      },
      {
       "id": 1584456,
       "date": "2026-11-01T16:00:00+03:00",
-      "status": "2H",
-      "elapsed": 84,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Trabzon",
       "league": {
        "id": 203,
@@ -4682,6 +4688,22 @@
     {
      "rank": 4,
      "team": {
+      "id": 895,
+      "name": "Como",
+      "ar": "كومو",
+      "logo": "https://media.api-sports.io/football/teams/895.png"
+     },
+     "points": 23,
+     "gd": 10,
+     "played": 10,
+     "win": 7,
+     "draw": 2,
+     "lose": 1,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 5,
+     "team": {
       "id": 489,
       "name": "AC Milan",
       "ar": "ميلان",
@@ -4692,22 +4714,6 @@
      "played": 10,
      "win": 6,
      "draw": 3,
-     "lose": 1,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 5,
-     "team": {
-      "id": 895,
-      "name": "Como",
-      "ar": "كومو",
-      "logo": "https://media.api-sports.io/football/teams/895.png"
-     },
-     "points": 20,
-     "gd": 9,
-     "played": 9,
-     "win": 6,
-     "draw": 2,
      "lose": 1,
      "description": "Europa League league stage"
     },
@@ -4944,11 +4950,11 @@
       "logo": "https://media.api-sports.io/football/teams/517.png"
      },
      "points": 3,
-     "gd": -13,
-     "played": 9,
+     "gd": -14,
+     "played": 10,
      "win": 1,
      "draw": 0,
-     "lose": 8,
+     "lose": 9,
      "description": "Relegation"
     }
    ]
@@ -5541,6 +5547,6 @@
   }
  },
  "errors": [],
- "requests": 20,
+ "requests": 22,
  "plan": "Pro"
 }
