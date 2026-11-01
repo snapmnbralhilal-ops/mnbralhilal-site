@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T19:59:26.028Z",
+ "updated": "2026-11-01T20:32:00.806Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1008,8 +1008,8 @@
      {
       "id": 1570433,
       "date": "2026-11-01T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 27,
       "venue": "Bilbao",
       "league": {
        "id": 140,
@@ -1030,7 +1030,10 @@
        "ar": "ريال سوسيداد",
        "logo": "https://media.api-sports.io/football/teams/548.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1165,7 +1168,7 @@
       "id": 1550182,
       "date": "2026-11-01T22:45:00+03:00",
       "status": "1H",
-      "elapsed": 14,
+      "elapsed": 45,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1363,7 +1366,7 @@
       "id": 1552805,
       "date": "2026-11-01T22:45:00+03:00",
       "status": "1H",
-      "elapsed": 14,
+      "elapsed": 45,
       "venue": "Marseille",
       "league": {
        "id": 61,
@@ -1385,7 +1388,7 @@
        "logo": "https://media.api-sports.io/football/teams/96.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -1551,7 +1554,7 @@
      {
       "id": 1646866,
       "date": "2026-11-01T21:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Tangier",
       "league": {
@@ -1581,8 +1584,8 @@
      {
       "id": 1646867,
       "date": "2026-11-01T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 30,
       "venue": "Belkan",
       "league": {
        "id": 200,
@@ -1603,7 +1606,10 @@
        "ar": "الرجاء",
        "logo": "https://media.api-sports.io/football/teams/976.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1707,8 +1713,8 @@
      {
       "id": 1575530,
       "date": "2026-11-01T23:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 2,
       "venue": "Braga",
       "league": {
        "id": 94,
@@ -1729,7 +1735,10 @@
        "ar": "Famalicao",
        "logo": "https://media.api-sports.io/football/teams/242.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -5597,7 +5606,28 @@
    ]
   }
  },
- "errors": [],
- "requests": 27,
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 140,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  },
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "date": "2026-10-31",
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
+ "requests": 23,
  "plan": "Pro"
 }
