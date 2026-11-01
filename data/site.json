@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T03:24:47.267Z",
+ "updated": "2026-11-01T04:18:56.088Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1965,8 +1965,8 @@
      {
       "id": 1490593,
       "date": "2026-11-01T04:30:00+03:00",
-      "status": "2H",
-      "elapsed": 85,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -1989,7 +1989,7 @@
       },
       "goals": [
        2,
-       3
+       4
       ]
      },
      {
@@ -3397,7 +3397,7 @@
       "date": "2026-10-31T16:00:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "Izmit",
+      "venue": "Kocaeli",
       "league": {
        "id": 203,
        "name": "Süper Lig",
