@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T14:06:59.893Z",
+ "updated": "2026-11-01T14:42:34.671Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1604046,
       "date": "2026-11-01T17:40:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 1,
       "venue": "Al-Hofuf",
       "league": {
        "id": 308,
@@ -802,7 +802,10 @@
        "ar": "العُلا",
        "logo": "https://media.api-sports.io/football/teams/26357.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604047,
@@ -906,8 +909,8 @@
      {
       "id": 1570438,
       "date": "2026-11-01T16:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 79,
       "venue": "Getafe",
       "league": {
        "id": 140,
@@ -929,7 +932,7 @@
        "logo": "https://media.api-sports.io/football/teams/536.png"
       },
       "goals": [
-       0,
+       2,
        1
       ]
      },
@@ -1057,7 +1060,7 @@
       "id": 1550181,
       "date": "2026-11-01T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 40,
       "venue": "Frosinone",
       "league": {
        "id": 135,
@@ -1087,7 +1090,7 @@
       "id": 1550183,
       "date": "2026-11-01T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 5,
+      "elapsed": 41,
       "venue": "Rome",
       "league": {
        "id": 135,
@@ -1109,8 +1112,8 @@
        "logo": "https://media.api-sports.io/football/teams/490.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1179,8 +1182,8 @@
      {
       "id": 1575207,
       "date": "2026-11-01T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 12,
       "venue": "Berlin",
       "league": {
        "id": 78,
@@ -1201,7 +1204,10 @@
        "ar": "كولن",
        "logo": "https://media.api-sports.io/football/teams/192.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1575205,
@@ -1243,7 +1249,7 @@
       "id": 1552808,
       "date": "2026-11-01T17:00:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 42,
       "venue": "Strasbourg",
       "league": {
        "id": 61,
@@ -1265,7 +1271,7 @@
        "logo": "https://media.api-sports.io/football/teams/108.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
@@ -1716,8 +1722,8 @@
      {
       "id": 1552213,
       "date": "2026-11-01T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 51,
       "venue": "Rotterdam",
       "league": {
        "id": 88,
@@ -1740,14 +1746,14 @@
       },
       "goals": [
        0,
-       3
+       6
       ]
      },
      {
       "id": 1552214,
       "date": "2026-11-01T16:30:00+03:00",
-      "status": "1H",
-      "elapsed": 37,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Felsen",
       "league": {
        "id": 88,
@@ -1769,8 +1775,8 @@
        "logo": "https://media.api-sports.io/football/teams/207.png"
       },
       "goals": [
-       2,
-       0
+       3,
+       2
       ]
      },
      {
@@ -1843,7 +1849,7 @@
       "id": 1584449,
       "date": "2026-11-01T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 84,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -1865,15 +1871,15 @@
        "logo": "https://media.api-sports.io/football/teams/3603.png"
       },
       "goals": [
-       3,
-       1
+       4,
+       2
       ]
      },
      {
       "id": 1584456,
       "date": "2026-11-01T16:00:00+03:00",
       "status": "2H",
-      "elapsed": 49,
+      "elapsed": 84,
       "venue": "Trabzon",
       "league": {
        "id": 203,
@@ -1895,7 +1901,7 @@
        "logo": "https://media.api-sports.io/football/teams/3573.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
@@ -5535,6 +5541,6 @@
   }
  },
  "errors": [],
- "requests": 19,
+ "requests": 20,
  "plan": "Pro"
 }
