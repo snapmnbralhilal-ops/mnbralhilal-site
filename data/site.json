@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T18:09:12.816Z",
+ "updated": "2026-11-01T18:49:19.021Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -840,8 +840,8 @@
      {
       "id": 1604048,
       "date": "2026-11-01T19:45:00+03:00",
-      "status": "2H",
-      "elapsed": 66,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Jeddah",
       "league": {
        "id": 308,
@@ -863,8 +863,8 @@
        "logo": "https://media.api-sports.io/football/teams/2950.png"
       },
       "goals": [
-       0,
-       1
+       2,
+       2
       ]
      }
     ]
@@ -879,8 +879,8 @@
      {
       "id": 1557453,
       "date": "2026-11-01T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 80,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -978,8 +978,8 @@
      {
       "id": 1570437,
       "date": "2026-11-01T20:30:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Elche",
       "league": {
        "id": 140,
@@ -1135,7 +1135,7 @@
       "id": 1550184,
       "date": "2026-11-01T20:00:00+03:00",
       "status": "2H",
-      "elapsed": 46,
+      "elapsed": 87,
       "venue": "Lecce",
       "league": {
        "id": 135,
@@ -1230,8 +1230,8 @@
      {
       "id": 1575205,
       "date": "2026-11-01T19:30:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Frankfurt",
       "league": {
        "id": 78,
@@ -1329,7 +1329,7 @@
      {
       "id": 1552807,
       "date": "2026-11-01T19:15:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Paris",
       "league": {
@@ -1515,8 +1515,8 @@
      {
       "id": 1646865,
       "date": "2026-11-01T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Meknes",
       "league": {
        "id": 200,
@@ -1546,7 +1546,7 @@
       "id": 1646866,
       "date": "2026-11-01T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 4,
+      "elapsed": 45,
       "venue": "Tangier",
       "league": {
        "id": 200,
@@ -1642,7 +1642,7 @@
       "id": 1575527,
       "date": "2026-11-01T21:00:00+03:00",
       "status": "1H",
-      "elapsed": 7,
+      "elapsed": 45,
       "venue": "Viseu",
       "league": {
        "id": 94,
@@ -1665,14 +1665,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1575534,
       "date": "2026-11-01T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 9,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Funchal",
       "league": {
        "id": 94,
@@ -1695,7 +1695,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
@@ -4397,10 +4397,10 @@
       "ar": "ريال مدريد",
       "logo": "https://media.api-sports.io/football/teams/541.png"
      },
-     "points": 24,
-     "gd": 15,
-     "played": 10,
-     "win": 8,
+     "points": 27,
+     "gd": 18,
+     "played": 11,
+     "win": 9,
      "draw": 0,
      "lose": 2,
      "description": "Promotion - Champions League (League phase)"
@@ -4606,11 +4606,11 @@
       "logo": "https://media.api-sports.io/football/teams/4665.png"
      },
      "points": 11,
-     "gd": -11,
-     "played": 10,
+     "gd": -14,
+     "played": 11,
      "win": 3,
      "draw": 2,
-     "lose": 5,
+     "lose": 6,
      "description": ""
     },
     {
@@ -5592,6 +5592,6 @@
   }
  },
  "errors": [],
- "requests": 25,
+ "requests": 27,
  "plan": "Pro"
 }
