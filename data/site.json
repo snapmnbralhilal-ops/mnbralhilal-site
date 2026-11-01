@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T01:47:43.135Z",
+ "updated": "2026-11-01T02:31:09.405Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1965,8 +1965,8 @@
      {
       "id": 1490593,
       "date": "2026-11-01T04:30:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Trade City",
       "league": {
        "id": 253,
@@ -1988,8 +1988,8 @@
        "logo": "https://media.api-sports.io/football/teams/1607.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -5502,6 +5502,6 @@
   }
  },
  "errors": [],
- "requests": 15,
+ "requests": 13,
  "plan": "Pro"
 }
