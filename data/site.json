@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T16:53:12.797Z",
+ "updated": "2026-11-02T17:49:12.851Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1629960,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 86,
       "venue": "Doha",
       "league": {
        "id": 17,
@@ -840,8 +840,8 @@
      {
       "id": 1629961,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Dubai",
       "league": {
        "id": 17,
@@ -863,15 +863,15 @@
        "logo": "https://media.api-sports.io/football/teams/8009.png"
       },
       "goals": [
-       3,
-       1
+       4,
+       3
       ]
      },
      {
       "id": 1629962,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 89,
       "venue": "Muscat",
       "league": {
        "id": 17,
@@ -893,8 +893,8 @@
        "logo": "https://media.api-sports.io/football/teams/4217.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1053,7 +1053,7 @@
      {
       "id": 1604051,
       "date": "2026-11-02T17:55:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Al Zulfi Club Stadium",
       "league": {
@@ -1164,8 +1164,8 @@
      {
       "id": 1550185,
       "date": "2026-11-02T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 18,
       "venue": "Reggio Emilia",
       "league": {
        "id": 135,
@@ -1186,7 +1186,10 @@
        "ar": "فيورنتينا",
        "logo": "https://media.api-sports.io/football/teams/502.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1550178,
@@ -1365,8 +1368,8 @@
      {
       "id": 1584452,
       "date": "2026-11-02T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Ankara",
       "league": {
        "id": 203,
@@ -1387,7 +1390,10 @@
        "ar": "Alanyaspor",
        "logo": "https://media.api-sports.io/football/teams/996.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
