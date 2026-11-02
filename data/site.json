@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T03:43:55.549Z",
+ "updated": "2026-11-02T04:42:19.278Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1458,8 +1458,8 @@
      {
       "id": 1490599,
       "date": "2026-11-02T05:45:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 86,
       "venue": "Portland",
       "league": {
        "id": 253,
@@ -1481,8 +1481,8 @@
        "logo": "https://media.api-sports.io/football/teams/1600.png"
       },
       "goals": [
-       1,
-       0
+       3,
+       1
       ]
      }
     ]
