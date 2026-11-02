@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:25:59.905Z",
+ "updated": "2026-11-02T23:07:16.204Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3401,11 +3401,11 @@
       "logo": "https://media.api-sports.io/football/teams/499.png"
      },
      "points": 11,
-     "gd": -1,
-     "played": 9,
+     "gd": -4,
+     "played": 10,
      "win": 3,
      "draw": 2,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
@@ -3427,6 +3427,22 @@
     {
      "rank": 15,
      "team": {
+      "id": 523,
+      "name": "Parma",
+      "ar": "بارما",
+      "logo": "https://media.api-sports.io/football/teams/523.png"
+     },
+     "points": 8,
+     "gd": -7,
+     "played": 10,
+     "win": 2,
+     "draw": 2,
+     "lose": 6,
+     "description": ""
+    },
+    {
+     "rank": 16,
+     "team": {
       "id": 502,
       "name": "Fiorentina",
       "ar": "فيورنتينا",
@@ -3441,7 +3457,7 @@
      "description": ""
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 488,
       "name": "Sassuolo",
@@ -3457,7 +3473,7 @@
      "description": ""
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 1579,
       "name": "Monza",
@@ -3470,22 +3486,6 @@
      "win": 2,
      "draw": 1,
      "lose": 7,
-     "description": ""
-    },
-    {
-     "rank": 18,
-     "team": {
-      "id": 523,
-      "name": "Parma",
-      "ar": "بارما",
-      "logo": "https://media.api-sports.io/football/teams/523.png"
-     },
-     "points": 5,
-     "gd": -10,
-     "played": 9,
-     "win": 1,
-     "draw": 2,
-     "lose": 6,
      "description": "Relegation"
     },
     {
@@ -3965,21 +3965,37 @@
     {
      "rank": 10,
      "team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "ar": "بريست",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+     },
+     "points": 12,
+     "gd": 4,
+     "played": 9,
+     "win": 3,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
       "id": 97,
       "name": "Lorient",
       "ar": "لوريان",
       "logo": "https://media.api-sports.io/football/teams/97.png"
      },
      "points": 12,
-     "gd": 1,
-     "played": 8,
+     "gd": -1,
+     "played": 9,
      "win": 3,
      "draw": 3,
-     "lose": 2,
+     "lose": 3,
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 96,
       "name": "Toulouse",
@@ -3995,7 +4011,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 95,
       "name": "Strasbourg",
@@ -4011,7 +4027,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 108,
       "name": "Auxerre",
@@ -4024,22 +4040,6 @@
      "win": 3,
      "draw": 1,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 106,
-      "name": "Stade Brestois 29",
-      "ar": "بريست",
-      "logo": "https://media.api-sports.io/football/teams/106.png"
-     },
-     "points": 9,
-     "gd": 2,
-     "played": 8,
-     "win": 2,
-     "draw": 3,
-     "lose": 3,
      "description": ""
     },
     {
