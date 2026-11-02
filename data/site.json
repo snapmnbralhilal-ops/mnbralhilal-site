@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T15:55:31.561Z",
+ "updated": "2026-11-02T16:53:12.797Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1629960,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Doha",
       "league": {
        "id": 17,
@@ -832,13 +832,16 @@
        "ar": "الأهلي",
        "logo": "https://media.api-sports.io/football/teams/2929.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629961,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Dubai",
       "league": {
        "id": 17,
@@ -859,13 +862,16 @@
        "ar": "Al Quwa Al Jawiya",
        "logo": "https://media.api-sports.io/football/teams/8009.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       1
+      ]
      },
      {
       "id": 1629962,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Muscat",
       "league": {
        "id": 17,
@@ -886,7 +892,10 @@
        "ar": "Neftchi",
        "logo": "https://media.api-sports.io/football/teams/4217.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629963,
@@ -1014,8 +1023,8 @@
      {
       "id": 1604050,
       "date": "2026-11-02T17:40:00+03:00",
-      "status": "2H",
-      "elapsed": 54,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 308,
@@ -1038,14 +1047,14 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
       "id": 1604051,
       "date": "2026-11-02T17:55:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 90,
       "venue": "Al Zulfi Club Stadium",
       "league": {
        "id": 308,
@@ -1067,7 +1076,7 @@
        "logo": "https://media.api-sports.io/football/teams/10507.png"
       },
       "goals": [
-       0,
+       3,
        0
       ]
      }
@@ -4674,6 +4683,6 @@
   }
  },
  "errors": [],
- "requests": 13,
+ "requests": 14,
  "plan": "Pro"
 }
