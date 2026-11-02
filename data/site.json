@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T11:56:13.051Z",
+ "updated": "2026-11-02T12:50:28.355Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -951,8 +951,8 @@
      {
       "id": 1604045,
       "date": "2026-11-02T15:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -973,13 +973,16 @@
        "ar": "الأنوار",
        "logo": "https://media.api-sports.io/football/teams/10503.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1604049,
       "date": "2026-11-02T15:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 20,
       "venue": "Ha'il",
       "league": {
        "id": 308,
@@ -1000,7 +1003,10 @@
        "ar": "البكيرية",
        "logo": "https://media.api-sports.io/football/teams/2966.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1604050,
