@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T14:59:15.617Z",
+ "updated": "2026-11-02T15:55:31.561Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1629959,
       "date": "2026-11-02T16:45:00+03:00",
-      "status": "2H",
-      "elapsed": 51,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Tashkent",
       "league": {
        "id": 17,
@@ -803,8 +803,8 @@
        "logo": "https://media.api-sports.io/football/teams/2939.png"
       },
       "goals": [
-       1,
-       3
+       2,
+       6
       ]
      },
      {
@@ -1014,8 +1014,8 @@
      {
       "id": 1604050,
       "date": "2026-11-02T17:40:00+03:00",
-      "status": "1H",
-      "elapsed": 18,
+      "status": "2H",
+      "elapsed": 54,
       "venue": "",
       "league": {
        "id": 308,
@@ -1044,8 +1044,8 @@
      {
       "id": 1604051,
       "date": "2026-11-02T17:55:00+03:00",
-      "status": "1H",
-      "elapsed": 4,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Al Zulfi Club Stadium",
       "league": {
        "id": 308,
