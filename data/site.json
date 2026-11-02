@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T17:49:12.851Z",
+ "updated": "2026-11-02T18:38:05.322Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1629960,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 17,
@@ -840,7 +840,7 @@
      {
       "id": 1629961,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Dubai",
       "league": {
@@ -870,8 +870,8 @@
      {
       "id": 1629962,
       "date": "2026-11-02T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 89,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Muscat",
       "league": {
        "id": 17,
@@ -893,15 +893,15 @@
        "logo": "https://media.api-sports.io/football/teams/4217.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
       "id": 1629963,
       "date": "2026-11-02T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Al Rayyan",
       "league": {
        "id": 17,
@@ -922,13 +922,16 @@
        "ar": "القادسية",
        "logo": "https://media.api-sports.io/football/teams/2933.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1629964,
       "date": "2026-11-02T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -949,7 +952,10 @@
        "ar": "العين",
        "logo": "https://media.api-sports.io/football/teams/2865.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -1164,8 +1170,8 @@
      {
       "id": 1550185,
       "date": "2026-11-02T20:30:00+03:00",
-      "status": "1H",
-      "elapsed": 18,
+      "status": "2H",
+      "elapsed": 50,
       "venue": "Reggio Emilia",
       "league": {
        "id": 135,
@@ -1187,8 +1193,8 @@
        "logo": "https://media.api-sports.io/football/teams/502.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1368,8 +1374,8 @@
      {
       "id": 1584452,
       "date": "2026-11-02T20:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 82,
       "venue": "Ankara",
       "league": {
        "id": 203,
@@ -1391,7 +1397,7 @@
        "logo": "https://media.api-sports.io/football/teams/996.png"
       },
       "goals": [
-       1,
+       5,
        0
       ]
      }
