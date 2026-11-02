@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T01:06:41.296Z",
+ "updated": "2026-11-02T02:07:20.643Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1398,8 +1398,8 @@
      {
       "id": 1490598,
       "date": "2026-11-02T03:00:00+03:00",
-      "status": "1H",
-      "elapsed": 41,
+      "status": "2H",
+      "elapsed": 83,
       "venue": "Boston",
       "league": {
        "id": 253,
@@ -1421,15 +1421,15 @@
        "logo": "https://media.api-sports.io/football/teams/9568.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       2
       ]
      },
      {
       "id": 1490590,
       "date": "2026-11-02T04:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 27,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -1450,7 +1450,10 @@
        "ar": "Minnesota United FC",
        "logo": "https://media.api-sports.io/football/teams/1612.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1490599,
@@ -4614,6 +4617,6 @@
   }
  },
  "errors": [],
- "requests": 16,
+ "requests": 13,
  "plan": "Pro"
 }
