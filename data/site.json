@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T02:07:20.643Z",
+ "updated": "2026-11-02T02:54:31.488Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1398,8 +1398,8 @@
      {
       "id": 1490598,
       "date": "2026-11-02T03:00:00+03:00",
-      "status": "2H",
-      "elapsed": 83,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Boston",
       "league": {
        "id": 253,
@@ -1428,8 +1428,8 @@
      {
       "id": 1490590,
       "date": "2026-11-02T04:30:00+03:00",
-      "status": "1H",
-      "elapsed": 27,
+      "status": "2H",
+      "elapsed": 48,
       "venue": "Los Angeles",
       "league": {
        "id": 253,
@@ -1452,7 +1452,7 @@
       },
       "goals": [
        0,
-       0
+       2
       ]
      },
      {
@@ -4616,7 +4616,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "players/topscorers",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 13,
  "plan": "Pro"
 }
