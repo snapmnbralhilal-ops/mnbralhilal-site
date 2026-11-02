@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:33:36.819Z",
+ "updated": "2026-11-02T20:21:36.932Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -900,8 +900,8 @@
      {
       "id": 1629963,
       "date": "2026-11-02T21:15:00+03:00",
-      "status": "2H",
-      "elapsed": 57,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Al Rayyan",
       "league": {
        "id": 17,
@@ -924,14 +924,14 @@
       },
       "goals": [
        0,
-       4
+       5
       ]
      },
      {
       "id": 1629964,
       "date": "2026-11-02T21:15:00+03:00",
-      "status": "2H",
-      "elapsed": 57,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -954,7 +954,7 @@
       },
       "goals": [
        1,
-       2
+       4
       ]
      }
     ]
@@ -1098,8 +1098,8 @@
      {
       "id": 1557455,
       "date": "2026-11-02T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 21,
       "venue": "Newcastle upon Tyne",
       "league": {
        "id": 39,
@@ -1120,7 +1120,10 @@
        "ar": "إيفرتون",
        "logo": "https://media.api-sports.io/football/teams/45.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1134,8 +1137,8 @@
      {
       "id": 1570436,
       "date": "2026-11-02T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 19,
       "venue": "La Coruna",
       "league": {
        "id": 140,
@@ -1156,7 +1159,10 @@
        "ar": "أوساسونا",
        "logo": "https://media.api-sports.io/football/teams/727.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1200,8 +1206,8 @@
      {
       "id": 1550178,
       "date": "2026-11-02T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Bergamo",
       "league": {
        "id": 135,
@@ -1222,7 +1228,10 @@
        "ar": "بارما",
        "logo": "https://media.api-sports.io/football/teams/523.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1236,8 +1245,8 @@
      {
       "id": 1552803,
       "date": "2026-11-02T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "Lorient",
       "league": {
        "id": 61,
@@ -1258,7 +1267,10 @@
        "ar": "بريست",
        "logo": "https://media.api-sports.io/football/teams/106.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1311,8 +1323,8 @@
      {
       "id": 1575529,
       "date": "2026-11-02T23:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Lisbon",
       "league": {
        "id": 94,
@@ -1333,13 +1345,16 @@
        "ar": "Alverca",
        "logo": "https://media.api-sports.io/football/teams/4724.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575533,
       "date": "2026-11-02T23:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 4,
       "venue": "Barcelos",
       "league": {
        "id": 94,
@@ -1360,7 +1375,10 @@
        "ar": "Vitória SC",
        "logo": "https://media.api-sports.io/football/teams/224.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
