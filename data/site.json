@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:38:05.322Z",
+ "updated": "2026-11-02T19:33:36.819Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -900,8 +900,8 @@
      {
       "id": 1629963,
       "date": "2026-11-02T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Al Rayyan",
       "league": {
        "id": 17,
@@ -924,14 +924,14 @@
       },
       "goals": [
        0,
-       1
+       4
       ]
      },
      {
       "id": 1629964,
       "date": "2026-11-02T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 23,
+      "status": "2H",
+      "elapsed": 57,
       "venue": "Jeddah",
       "league": {
        "id": 17,
@@ -953,8 +953,8 @@
        "logo": "https://media.api-sports.io/football/teams/2865.png"
       },
       "goals": [
-       0,
-       1
+       1,
+       2
       ]
      }
     ]
@@ -1170,8 +1170,8 @@
      {
       "id": 1550185,
       "date": "2026-11-02T20:30:00+03:00",
-      "status": "2H",
-      "elapsed": 50,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Reggio Emilia",
       "league": {
        "id": 135,
@@ -1193,8 +1193,8 @@
        "logo": "https://media.api-sports.io/football/teams/502.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       4
       ]
      },
      {
@@ -1374,8 +1374,8 @@
      {
       "id": 1584452,
       "date": "2026-11-02T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ankara",
       "league": {
        "id": 203,
@@ -4695,6 +4695,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 18,
  "plan": "Pro"
 }
