@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:45:59.126Z",
+ "updated": "2026-11-02T22:25:59.905Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1761,6 +1761,84 @@
    },
    {
     "league": {
+     "id": 39,
+     "name": "Premier League",
+     "logo": "https://media.api-sports.io/football/leagues/39.png"
+    },
+    "matches": [
+     {
+      "id": 1557455,
+      "date": "2026-11-02T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Newcastle upon Tyne",
+      "league": {
+       "id": 39,
+       "name": "Premier League",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/39.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 34,
+       "name": "Newcastle",
+       "ar": "نيوكاسل",
+       "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "away": {
+       "id": 45,
+       "name": "Everton",
+       "ar": "إيفرتون",
+       "logo": "https://media.api-sports.io/football/teams/45.png"
+      },
+      "goals": [
+       0,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 140,
+     "name": "La Liga",
+     "logo": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    "matches": [
+     {
+      "id": 1570436,
+      "date": "2026-11-02T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "La Coruna",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 544,
+       "name": "Deportivo La Coruna",
+       "ar": "ديبورتيفو لاكورونيا",
+       "logo": "https://media.api-sports.io/football/teams/544.png"
+      },
+      "away": {
+       "id": 727,
+       "name": "Osasuna",
+       "ar": "أوساسونا",
+       "logo": "https://media.api-sports.io/football/teams/727.png"
+      },
+      "goals": [
+       2,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
      "id": 135,
      "name": "Serie A",
      "logo": "https://media.api-sports.io/football/leagues/135.png"
@@ -1902,6 +1980,75 @@
       "goals": [
        0,
        4
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 94,
+     "name": "Primeira Liga",
+     "logo": "https://media.api-sports.io/football/leagues/94.png"
+    },
+    "matches": [
+     {
+      "id": 1575529,
+      "date": "2026-11-02T23:15:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Lisbon",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 211,
+       "name": "Benfica",
+       "ar": "بنفيكا",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "away": {
+       "id": 4724,
+       "name": "Alverca",
+       "ar": "Alverca",
+       "logo": "https://media.api-sports.io/football/teams/4724.png"
+      },
+      "goals": [
+       1,
+       0
+      ]
+     },
+     {
+      "id": 1575533,
+      "date": "2026-11-02T23:15:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Barcelos",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 762,
+       "name": "GIL Vicente",
+       "ar": "GIL Vicente",
+       "logo": "https://media.api-sports.io/football/teams/762.png"
+      },
+      "away": {
+       "id": 224,
+       "name": "Vitória SC",
+       "ar": "Vitória SC",
+       "logo": "https://media.api-sports.io/football/teams/224.png"
+      },
+      "goals": [
+       0,
+       0
       ]
      }
     ]
