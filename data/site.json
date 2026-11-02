@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:42:19.278Z",
+ "updated": "2026-11-02T05:43:19.278Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1458,8 +1458,8 @@
      {
       "id": 1490599,
       "date": "2026-11-02T05:45:00+03:00",
-      "status": "2H",
-      "elapsed": 86,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Portland",
       "league": {
        "id": 253,
