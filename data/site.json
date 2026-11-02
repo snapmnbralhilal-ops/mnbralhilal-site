@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:08:31.608Z",
+ "updated": "2026-11-02T21:45:59.126Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1794,6 +1794,75 @@
       "goals": [
        2,
        4
+      ]
+     },
+     {
+      "id": 1550178,
+      "date": "2026-11-02T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Bergamo",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 499,
+       "name": "Atalanta",
+       "ar": "أتالانتا",
+       "logo": "https://media.api-sports.io/football/teams/499.png"
+      },
+      "away": {
+       "id": 523,
+       "name": "Parma",
+       "ar": "بارما",
+       "logo": "https://media.api-sports.io/football/teams/523.png"
+      },
+      "goals": [
+       0,
+       3
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 61,
+     "name": "Ligue 1",
+     "logo": "https://media.api-sports.io/football/leagues/61.png"
+    },
+    "matches": [
+     {
+      "id": 1552803,
+      "date": "2026-11-02T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Lorient",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 97,
+       "name": "Lorient",
+       "ar": "لوريان",
+       "logo": "https://media.api-sports.io/football/teams/97.png"
+      },
+      "away": {
+       "id": 106,
+       "name": "Stade Brestois 29",
+       "ar": "بريست",
+       "logo": "https://media.api-sports.io/football/teams/106.png"
+      },
+      "goals": [
+       0,
+       2
       ]
      }
     ]
