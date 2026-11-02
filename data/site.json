@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T12:50:28.355Z",
+ "updated": "2026-11-02T14:00:52.787Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1629959,
       "date": "2026-11-02T16:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Tashkent",
       "league": {
        "id": 17,
@@ -802,7 +802,10 @@
        "ar": "النصر",
        "logo": "https://media.api-sports.io/football/teams/2939.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1629960,
@@ -951,8 +954,8 @@
      {
       "id": 1604045,
       "date": "2026-11-02T15:30:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -981,8 +984,8 @@
      {
       "id": 1604049,
       "date": "2026-11-02T15:30:00+03:00",
-      "status": "1H",
-      "elapsed": 20,
+      "status": "2H",
+      "elapsed": 70,
       "venue": "Ha'il",
       "league": {
        "id": 308,
@@ -1004,7 +1007,7 @@
        "logo": "https://media.api-sports.io/football/teams/2966.png"
       },
       "goals": [
-       1,
+       3,
        0
       ]
      },
