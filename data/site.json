@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T09:07:24.383Z",
+ "updated": "2026-11-02T10:09:02.432Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -760,7 +760,7 @@
   },
   {
    "tag": "عالمي",
-   "title": "23 مباراة اليوم في أبرز الدوريات",
+   "title": "24 مباراة اليوم في أبرز الدوريات",
    "body": "أبرزها في دوري أبطال آسيا للنخبة.",
    "link": "#today"
   }
@@ -1224,6 +1224,42 @@
        "name": "Stade Brestois 29",
        "ar": "بريست",
        "logo": "https://media.api-sports.io/football/teams/106.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 10,
+     "name": "Friendlies",
+     "logo": "https://media.api-sports.io/football/leagues/10.png"
+    },
+    "matches": [
+     {
+      "id": 1648284,
+      "date": "2026-11-02T16:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 17951,
+       "name": "Faroe Islands U17",
+       "ar": "Faroe Islands U17",
+       "logo": "https://media.api-sports.io/football/teams/17951.png"
+      },
+      "away": {
+       "id": 12511,
+       "name": "Japan U17",
+       "ar": "Japan U17",
+       "logo": "https://media.api-sports.io/football/teams/12511.png"
       },
       "goals": null
      }
