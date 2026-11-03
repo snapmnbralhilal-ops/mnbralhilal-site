@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:41:37.194Z",
+ "updated": "2026-11-03T00:19:31.511Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2649,6 +2649,22 @@
     {
      "rank": 7,
      "team": {
+      "id": 45,
+      "name": "Everton",
+      "ar": "إيفرتون",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+     },
+     "points": 13,
+     "gd": 0,
+     "played": 9,
+     "win": 3,
+     "draw": 4,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 8,
+     "team": {
       "id": 35,
       "name": "Bournemouth",
       "ar": "بورنموث",
@@ -2663,7 +2679,7 @@
      "description": ""
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 47,
       "name": "Tottenham",
@@ -2679,7 +2695,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 66,
       "name": "Aston Villa",
@@ -2695,7 +2711,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 64,
       "name": "Hull City",
@@ -2711,7 +2727,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 63,
       "name": "Leeds",
@@ -2727,7 +2743,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 34,
       "name": "Newcastle",
@@ -2735,15 +2751,15 @@
       "logo": "https://media.api-sports.io/football/teams/34.png"
      },
      "points": 11,
-     "gd": -2,
-     "played": 8,
+     "gd": -3,
+     "played": 9,
      "win": 3,
      "draw": 2,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 57,
       "name": "Ipswich",
@@ -2756,22 +2772,6 @@
      "win": 3,
      "draw": 2,
      "lose": 4,
-     "description": ""
-    },
-    {
-     "rank": 14,
-     "team": {
-      "id": 45,
-      "name": "Everton",
-      "ar": "إيفرتون",
-      "logo": "https://media.api-sports.io/football/teams/45.png"
-     },
-     "points": 10,
-     "gd": -1,
-     "played": 8,
-     "win": 2,
-     "draw": 4,
-     "lose": 2,
      "description": ""
     },
     {
@@ -2990,6 +2990,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 544,
+      "name": "Deportivo La Coruna",
+      "ar": "ديبورتيفو لاكورونيا",
+      "logo": "https://media.api-sports.io/football/teams/544.png"
+     },
+     "points": 14,
+     "gd": 1,
+     "played": 11,
+     "win": 3,
+     "draw": 5,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 533,
       "name": "Villarreal",
       "ar": "فياريال",
@@ -3004,7 +3020,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 538,
       "name": "Celta Vigo",
@@ -3020,7 +3036,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 542,
       "name": "Alaves",
@@ -3036,7 +3052,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 728,
       "name": "Rayo Vallecano",
@@ -3052,7 +3068,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 546,
       "name": "Getafe",
@@ -3065,22 +3081,6 @@
      "win": 3,
      "draw": 3,
      "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 13,
-     "team": {
-      "id": 544,
-      "name": "Deportivo La Coruna",
-      "ar": "ديبورتيفو لاكورونيا",
-      "logo": "https://media.api-sports.io/football/teams/544.png"
-     },
-     "points": 11,
-     "gd": 0,
-     "played": 10,
-     "win": 2,
-     "draw": 5,
-     "lose": 3,
      "description": ""
     },
     {
@@ -3108,11 +3108,11 @@
       "logo": "https://media.api-sports.io/football/teams/727.png"
      },
      "points": 11,
-     "gd": -10,
-     "played": 10,
+     "gd": -11,
+     "played": 11,
      "win": 3,
      "draw": 2,
-     "lose": 5,
+     "lose": 6,
      "description": ""
     },
     {
