@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T07:14:51.017Z",
+ "updated": "2026-11-03T08:27:19.813Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1629965,
       "date": "2026-11-03T10:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 42,
       "venue": "Newcastle",
       "league": {
        "id": 17,
@@ -802,7 +802,10 @@
        "ar": "SHANGHAI SIPG",
        "logo": "https://media.api-sports.io/football/teams/836.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1629966,
@@ -4109,28 +4112,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "standings",
-   "params": {
-    "league": 61,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  },
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-11-02",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
+ "errors": [],
  "requests": 13,
  "plan": "Pro"
 }
