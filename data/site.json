@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:44:09.291Z",
+ "updated": "2026-11-03T17:36:12.061Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -960,8 +960,8 @@
      {
       "id": 1629971,
       "date": "2026-11-03T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 79,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -1056,8 +1056,8 @@
      {
       "id": 1604053,
       "date": "2026-11-03T18:00:00+03:00",
-      "status": "2H",
-      "elapsed": 85,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1122,8 +1122,8 @@
      {
       "id": 1630391,
       "date": "2026-11-03T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 79,
       "venue": "Amman",
       "league": {
        "id": 18,
@@ -1146,7 +1146,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
