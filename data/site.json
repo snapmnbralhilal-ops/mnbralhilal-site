@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T15:55:19.475Z",
+ "updated": "2026-11-03T16:44:09.291Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -960,8 +960,8 @@
      {
       "id": 1629971,
       "date": "2026-11-03T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 44,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -982,7 +982,10 @@
        "ar": "الشمال",
        "logo": "https://media.api-sports.io/football/teams/2916.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629972,
@@ -1053,8 +1056,8 @@
      {
       "id": 1604053,
       "date": "2026-11-03T18:00:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 85,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1119,8 +1122,8 @@
      {
       "id": 1630391,
       "date": "2026-11-03T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 44,
       "venue": "Amman",
       "league": {
        "id": 18,
@@ -1141,7 +1144,10 @@
        "ar": "Al Shorta",
        "logo": "https://media.api-sports.io/football/teams/28571.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
