@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T15:06:18.115Z",
+ "updated": "2026-11-03T15:55:19.475Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1053,8 +1053,8 @@
      {
       "id": 1604053,
       "date": "2026-11-03T18:00:00+03:00",
-      "status": "1H",
-      "elapsed": 6,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1077,7 +1077,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
