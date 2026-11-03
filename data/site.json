@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:00:36.544Z",
+ "updated": "2026-11-03T13:00:29.645Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -900,8 +900,8 @@
      {
       "id": 1629969,
       "date": "2026-11-03T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 45,
       "venue": "Hanoi",
       "league": {
        "id": 17,
@@ -922,13 +922,16 @@
        "ar": "Kyoto Sanga",
        "logo": "https://media.api-sports.io/football/teams/302.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1629970,
       "date": "2026-11-03T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 45,
       "venue": "Patum Thani",
       "league": {
        "id": 17,
@@ -949,7 +952,10 @@
        "ar": "Beijing Guoan",
        "logo": "https://media.api-sports.io/football/teams/830.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       4
+      ]
      },
      {
       "id": 1629971,
@@ -1017,8 +1023,8 @@
      {
       "id": 1604052,
       "date": "2026-11-03T15:35:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Abha",
       "league": {
        "id": 308,
@@ -1039,7 +1045,10 @@
        "ar": "الأخدود",
        "logo": "https://media.api-sports.io/football/teams/2977.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1604053,
