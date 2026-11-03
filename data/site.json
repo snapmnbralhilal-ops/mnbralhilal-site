@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-03T18:22:22.759Z",
+ "updated": "2026-11-03T19:22:59.475Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1629972,
     "date": "2026-11-03T21:15:00+03:00",
-    "status": "1H",
-    "elapsed": 7,
+    "status": "2H",
+    "elapsed": 47,
     "venue": "Riyadh",
     "league": {
      "id": 17,
@@ -29,7 +29,7 @@
      "logo": "https://media.api-sports.io/football/teams/2870.png"
     },
     "goals": [
-     1,
+     2,
      0
     ]
    },
@@ -734,7 +734,7 @@
   {
    "tag": "الهلال",
    "title": "مباشر: الهلال يستضيف شباب الأهلي الآن",
-   "body": "النتيجة 1-0 في دوري أبطال آسيا للنخبة.",
+   "body": "النتيجة 2-0 في دوري أبطال آسيا للنخبة.",
    "link": "#hilal",
    "breaking": true
   },
@@ -1000,8 +1000,8 @@
      {
       "id": 1629972,
       "date": "2026-11-03T21:15:00+03:00",
-      "status": "1H",
-      "elapsed": 7,
+      "status": "2H",
+      "elapsed": 47,
       "venue": "Riyadh",
       "league": {
        "id": 17,
@@ -1023,7 +1023,7 @@
        "logo": "https://media.api-sports.io/football/teams/2870.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -1174,8 +1174,8 @@
      {
       "id": 1635669,
       "date": "2026-11-03T20:45:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 77,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1204,8 +1204,8 @@
      {
       "id": 1635723,
       "date": "2026-11-03T20:45:00+03:00",
-      "status": "1H",
-      "elapsed": 37,
+      "status": "2H",
+      "elapsed": 80,
       "venue": "London",
       "league": {
        "id": 2,
@@ -1228,7 +1228,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      },
      {
