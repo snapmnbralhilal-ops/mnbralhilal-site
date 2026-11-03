@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T08:27:19.813Z",
+ "updated": "2026-11-03T09:18:58.040Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1629965,
       "date": "2026-11-03T10:45:00+03:00",
-      "status": "1H",
-      "elapsed": 42,
+      "status": "2H",
+      "elapsed": 76,
       "venue": "Newcastle",
       "league": {
        "id": 17,
@@ -803,8 +803,8 @@
        "logo": "https://media.api-sports.io/football/teams/836.png"
       },
       "goals": [
-       0,
-       2
+       1,
+       3
       ]
      },
      {
