@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T13:00:29.645Z",
+ "updated": "2026-11-03T14:15:41.855Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -33,7 +33,7 @@
    {
     "id": 1603082,
     "date": "2026-11-05T20:00:00+03:00",
-    "status": "NS",
+    "status": "PST",
     "elapsed": null,
     "venue": "Abdullah Al Dabil Stadium",
     "league": {
@@ -900,8 +900,8 @@
      {
       "id": 1629969,
       "date": "2026-11-03T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Hanoi",
       "league": {
        "id": 17,
@@ -930,8 +930,8 @@
      {
       "id": 1629970,
       "date": "2026-11-03T15:15:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Patum Thani",
       "league": {
        "id": 17,
@@ -953,7 +953,7 @@
        "logo": "https://media.api-sports.io/football/teams/830.png"
       },
       "goals": [
-       3,
+       7,
        4
       ]
      },
@@ -1023,8 +1023,8 @@
      {
       "id": 1604052,
       "date": "2026-11-03T15:35:00+03:00",
-      "status": "1H",
-      "elapsed": 25,
+      "status": "2H",
+      "elapsed": 77,
       "venue": "Abha",
       "league": {
        "id": 308,
@@ -1046,8 +1046,8 @@
        "logo": "https://media.api-sports.io/football/teams/2977.png"
       },
       "goals": [
-       1,
-       1
+       2,
+       2
       ]
      },
      {
