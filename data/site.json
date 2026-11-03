@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T01:29:15.074Z",
+ "updated": "2026-11-03T02:22:14.667Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1702,7 +1702,7 @@
       "date": "2026-11-02T17:40:00+03:00",
       "status": "FT",
       "elapsed": 90,
-      "venue": "",
+      "venue": "Al-Hofuf",
       "league": {
        "id": 308,
        "name": "Division 1",
@@ -4110,6 +4110,6 @@
   }
  },
  "errors": [],
- "requests": 17,
+ "requests": 13,
  "plan": "Pro"
 }
