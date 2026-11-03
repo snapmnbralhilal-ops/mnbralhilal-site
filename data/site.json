@@ -1,38 +1,8 @@
 {
- "updated": "2026-11-03T19:22:59.475Z",
+ "updated": "2026-11-03T20:16:23.000Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
-   {
-    "id": 1629972,
-    "date": "2026-11-03T21:15:00+03:00",
-    "status": "2H",
-    "elapsed": 47,
-    "venue": "Riyadh",
-    "league": {
-     "id": 17,
-     "name": "AFC Champions League Elite",
-     "country": "World",
-     "logo": "https://media.api-sports.io/football/leagues/17.png",
-     "round": "League Phase - 4"
-    },
-    "home": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "away": {
-     "id": 2870,
-     "name": "Shabab Al Ahli Dubai",
-     "ar": "شباب الأهلي",
-     "logo": "https://media.api-sports.io/football/teams/2870.png"
-    },
-    "goals": [
-     2,
-     0
-    ]
-   },
    {
     "id": 1603082,
     "date": "2026-11-05T20:00:00+03:00",
@@ -275,9 +245,66 @@
      "logo": "https://media.api-sports.io/football/teams/2932.png"
     },
     "goals": null
+   },
+   {
+    "id": 1630020,
+    "date": "2027-02-09T19:00:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "Dubai",
+    "league": {
+     "id": 17,
+     "name": "AFC Champions League Elite",
+     "country": "World",
+     "logo": "https://media.api-sports.io/football/leagues/17.png",
+     "round": "League Phase - 7"
+    },
+    "home": {
+     "id": 2872,
+     "name": "Al-Wasl FC",
+     "ar": "الوصل",
+     "logo": "https://media.api-sports.io/football/teams/2872.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null
    }
   ],
   "results": [
+   {
+    "id": 1629972,
+    "date": "2026-11-03T21:15:00+03:00",
+    "status": "FT",
+    "elapsed": 90,
+    "venue": "Riyadh",
+    "league": {
+     "id": 17,
+     "name": "AFC Champions League Elite",
+     "country": "World",
+     "logo": "https://media.api-sports.io/football/leagues/17.png",
+     "round": "League Phase - 4"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2870,
+     "name": "Shabab Al Ahli Dubai",
+     "ar": "شباب الأهلي",
+     "logo": "https://media.api-sports.io/football/teams/2870.png"
+    },
+    "goals": [
+     2,
+     0
+    ]
+   },
    {
     "id": 1603074,
     "date": "2026-10-31T21:00:00+03:00",
@@ -697,51 +724,14 @@
      4,
      2
     ]
-   },
-   {
-    "id": 1604758,
-    "date": "2026-08-03T18:00:00+03:00",
-    "status": "FT",
-    "elapsed": 90,
-    "venue": "",
-    "league": {
-     "id": 667,
-     "name": "Friendlies Clubs",
-     "country": "World",
-     "logo": "https://media.api-sports.io/football/leagues/667.png",
-     "round": "Club Friendlies"
-    },
-    "home": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "away": {
-     "id": 2896,
-     "name": "Al Ahli Doha",
-     "ar": "الأهلي القطري",
-     "logo": "https://media.api-sports.io/football/teams/2896.png"
-    },
-    "goals": [
-     3,
-     3
-    ]
    }
   ]
  },
  "news": [
   {
    "tag": "الهلال",
-   "title": "مباشر: الهلال يستضيف شباب الأهلي الآن",
-   "body": "النتيجة 2-0 في دوري أبطال آسيا للنخبة.",
-   "link": "#hilal",
-   "breaking": true
-  },
-  {
-   "tag": "الهلال",
-   "title": "الهلال يتغلب على الفتح بنتيجة 2-0",
-   "body": "على أرضه في دوري روشن السعودي — الجولة 12.",
+   "title": "الهلال يتغلب على شباب الأهلي بنتيجة 2-0",
+   "body": "على أرضه في دوري أبطال آسيا للنخبة — League Phase - 4.",
    "link": "#hilal"
   },
   {
@@ -1000,8 +990,8 @@
      {
       "id": 1629972,
       "date": "2026-11-03T21:15:00+03:00",
-      "status": "2H",
-      "elapsed": 47,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riyadh",
       "league": {
        "id": 17,
@@ -1174,8 +1164,8 @@
      {
       "id": 1635669,
       "date": "2026-11-03T20:45:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1204,8 +1194,8 @@
      {
       "id": 1635723,
       "date": "2026-11-03T20:45:00+03:00",
-      "status": "2H",
-      "elapsed": 80,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 2,
@@ -1234,8 +1224,8 @@
      {
       "id": 1635622,
       "date": "2026-11-03T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Madrid",
       "league": {
        "id": 2,
@@ -1256,13 +1246,16 @@
        "ar": "بايرن ميونخ",
        "logo": "https://media.api-sports.io/football/teams/157.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635627,
       "date": "2026-11-03T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Barcelona",
       "league": {
        "id": 2,
@@ -1283,13 +1276,16 @@
        "ar": "أستون فيلا",
        "logo": "https://media.api-sports.io/football/teams/66.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1635640,
       "date": "2026-11-03T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Hakata",
       "league": {
        "id": 2,
@@ -1310,13 +1306,16 @@
        "ar": "ليل",
        "logo": "https://media.api-sports.io/football/teams/79.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635662,
       "date": "2026-11-03T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Rotterdam",
       "league": {
        "id": 2,
@@ -1337,13 +1336,16 @@
        "ar": "إنتر ميلان",
        "logo": "https://media.api-sports.io/football/teams/505.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1635677,
       "date": "2026-11-03T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Linz",
       "league": {
        "id": 2,
@@ -1364,13 +1366,16 @@
        "ar": "Slovan Bratislava",
        "logo": "https://media.api-sports.io/football/teams/656.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635695,
       "date": "2026-11-03T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Manchester",
       "league": {
        "id": 2,
@@ -1391,13 +1396,16 @@
        "ar": "روما",
        "logo": "https://media.api-sports.io/football/teams/497.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1635746,
       "date": "2026-11-03T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 15,
       "venue": "Villarreal",
       "league": {
        "id": 2,
@@ -1418,7 +1426,10 @@
        "ar": "باريس سان جيرمان",
        "logo": "https://media.api-sports.io/football/teams/85.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       3
+      ]
      }
     ]
    },
