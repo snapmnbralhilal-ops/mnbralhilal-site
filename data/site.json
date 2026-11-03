@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T14:15:41.855Z",
+ "updated": "2026-11-03T15:06:18.115Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1023,8 +1023,8 @@
      {
       "id": 1604052,
       "date": "2026-11-03T15:35:00+03:00",
-      "status": "2H",
-      "elapsed": 77,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Abha",
       "league": {
        "id": 308,
@@ -1046,15 +1046,15 @@
        "logo": "https://media.api-sports.io/football/teams/2977.png"
       },
       "goals": [
-       2,
-       2
+       4,
+       3
       ]
      },
      {
       "id": 1604053,
       "date": "2026-11-03T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 6,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -1075,7 +1075,10 @@
        "ar": "الوحدة",
        "logo": "https://media.api-sports.io/football/teams/2937.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
