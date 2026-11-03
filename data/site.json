@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:11:14.947Z",
+ "updated": "2026-11-03T12:00:36.544Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1629966,
       "date": "2026-11-03T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 52,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Jeonju",
       "league": {
        "id": 17,
@@ -840,8 +840,8 @@
      {
       "id": 1629967,
       "date": "2026-11-03T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 54,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kashiwa City",
       "league": {
        "id": 17,
@@ -863,15 +863,15 @@
        "logo": "https://media.api-sports.io/football/teams/2750.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      },
      {
       "id": 1629968,
       "date": "2026-11-03T13:00:00+03:00",
-      "status": "2H",
-      "elapsed": 52,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kobe",
       "league": {
        "id": 17,
@@ -893,8 +893,8 @@
        "logo": "https://media.api-sports.io/football/teams/2776.png"
       },
       "goals": [
-       1,
-       0
+       3,
+       2
       ]
      },
      {
