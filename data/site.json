@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:47:48.343Z",
+ "updated": "2026-11-03T22:25:02.843Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -754,8 +754,8 @@
   },
   {
    "tag": "عالمي",
-   "title": "Port FC يكتسح Beijing Guoan 7-4",
-   "body": "في دوري أبطال آسيا للنخبة.",
+   "title": "باريس سان جيرمان يكتسح فياريال 6-0",
+   "body": "في دوري أبطال أوروبا.",
    "link": "#today"
   },
   {
@@ -2043,6 +2043,216 @@
       "goals": [
        0,
        1
+      ]
+     },
+     {
+      "id": 1635622,
+      "date": "2026-11-03T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Madrid",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 530,
+       "name": "Atletico Madrid",
+       "ar": "أتلتيكو مدريد",
+       "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "away": {
+       "id": 157,
+       "name": "Bayern München",
+       "ar": "بايرن ميونخ",
+       "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "goals": [
+       0,
+       2
+      ]
+     },
+     {
+      "id": 1635627,
+      "date": "2026-11-03T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Barcelona",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 529,
+       "name": "Barcelona",
+       "ar": "برشلونة",
+       "logo": "https://media.api-sports.io/football/teams/529.png"
+      },
+      "away": {
+       "id": 66,
+       "name": "Aston Villa",
+       "ar": "أستون فيلا",
+       "logo": "https://media.api-sports.io/football/teams/66.png"
+      },
+      "goals": [
+       3,
+       0
+      ]
+     },
+     {
+      "id": 1635640,
+      "date": "2026-11-03T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Hakata",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 327,
+       "name": "Bodo/Glimt",
+       "ar": "Bodo/Glimt",
+       "logo": "https://media.api-sports.io/football/teams/327.png"
+      },
+      "away": {
+       "id": 79,
+       "name": "Lille",
+       "ar": "ليل",
+       "logo": "https://media.api-sports.io/football/teams/79.png"
+      },
+      "goals": [
+       0,
+       0
+      ]
+     },
+     {
+      "id": 1635662,
+      "date": "2026-11-03T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Rotterdam",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 209,
+       "name": "Feyenoord",
+       "ar": "فينورد",
+       "logo": "https://media.api-sports.io/football/teams/209.png"
+      },
+      "away": {
+       "id": 505,
+       "name": "Inter",
+       "ar": "إنتر ميلان",
+       "logo": "https://media.api-sports.io/football/teams/505.png"
+      },
+      "goals": [
+       0,
+       3
+      ]
+     },
+     {
+      "id": 1635677,
+      "date": "2026-11-03T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Linz",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 1026,
+       "name": "Lask Linz",
+       "ar": "Lask Linz",
+       "logo": "https://media.api-sports.io/football/teams/1026.png"
+      },
+      "away": {
+       "id": 656,
+       "name": "Slovan Bratislava",
+       "ar": "Slovan Bratislava",
+       "logo": "https://media.api-sports.io/football/teams/656.png"
+      },
+      "goals": [
+       4,
+       0
+      ]
+     },
+     {
+      "id": 1635695,
+      "date": "2026-11-03T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Manchester",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 33,
+       "name": "Manchester United",
+       "ar": "مانشستر يونايتد",
+       "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "away": {
+       "id": 497,
+       "name": "AS Roma",
+       "ar": "روما",
+       "logo": "https://media.api-sports.io/football/teams/497.png"
+      },
+      "goals": [
+       3,
+       2
+      ]
+     },
+     {
+      "id": 1635746,
+      "date": "2026-11-03T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Villarreal",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 533,
+       "name": "Villarreal",
+       "ar": "فياريال",
+       "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "away": {
+       "id": 85,
+       "name": "Paris Saint Germain",
+       "ar": "باريس سان جيرمان",
+       "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "goals": [
+       0,
+       6
       ]
      }
     ]
