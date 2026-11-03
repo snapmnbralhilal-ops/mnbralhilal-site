@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-03T17:36:12.061Z",
+ "updated": "2026-11-03T18:22:22.759Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
    {
     "id": 1629972,
     "date": "2026-11-03T21:15:00+03:00",
-    "status": "NS",
-    "elapsed": null,
+    "status": "1H",
+    "elapsed": 7,
     "venue": "Riyadh",
     "league": {
      "id": 17,
@@ -28,7 +28,10 @@
      "ar": "شباب الأهلي",
      "logo": "https://media.api-sports.io/football/teams/2870.png"
     },
-    "goals": null
+    "goals": [
+     1,
+     0
+    ]
    },
    {
     "id": 1603082,
@@ -730,14 +733,21 @@
  "news": [
   {
    "tag": "الهلال",
+   "title": "مباشر: الهلال يستضيف شباب الأهلي الآن",
+   "body": "النتيجة 1-0 في دوري أبطال آسيا للنخبة.",
+   "link": "#hilal",
+   "breaking": true
+  },
+  {
+   "tag": "الهلال",
    "title": "الهلال يتغلب على الفتح بنتيجة 2-0",
    "body": "على أرضه في دوري روشن السعودي — الجولة 12.",
    "link": "#hilal"
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يستضيف شباب الأهلي في دوري أبطال آسيا للنخبة",
-   "body": "الثلاثاء، 3 نوفمبر الساعة 21:15 بتوقيت مكة.",
+   "title": "الهلال يحل ضيفاً على الاتفاق في دوري روشن السعودي",
+   "body": "الخميس، 5 نوفمبر الساعة 20:00 بتوقيت مكة.",
    "link": "#hilal"
   },
   {
@@ -960,8 +970,8 @@
      {
       "id": 1629971,
       "date": "2026-11-03T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Basra",
       "league": {
        "id": 17,
@@ -983,15 +993,15 @@
        "logo": "https://media.api-sports.io/football/teams/2916.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1629972,
       "date": "2026-11-03T21:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Riyadh",
       "league": {
        "id": 17,
@@ -1012,7 +1022,10 @@
        "ar": "شباب الأهلي",
        "logo": "https://media.api-sports.io/football/teams/2870.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1122,8 +1135,8 @@
      {
       "id": 1630391,
       "date": "2026-11-03T19:00:00+03:00",
-      "status": "2H",
-      "elapsed": 79,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Amman",
       "league": {
        "id": 18,
@@ -1146,7 +1159,7 @@
       },
       "goals": [
        0,
-       2
+       3
       ]
      }
     ]
@@ -1161,8 +1174,8 @@
      {
       "id": 1635669,
       "date": "2026-11-03T20:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1183,13 +1196,16 @@
        "ar": "شتوتغارت",
        "logo": "https://media.api-sports.io/football/teams/172.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1635723,
       "date": "2026-11-03T20:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 37,
       "venue": "London",
       "league": {
        "id": 2,
@@ -1210,7 +1226,10 @@
        "ar": "سبورتينغ لشبونة",
        "logo": "https://media.api-sports.io/football/teams/228.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635622,
