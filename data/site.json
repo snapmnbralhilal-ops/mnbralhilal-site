@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:31:30.443Z",
+ "updated": "2026-11-04T17:29:36.452Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -939,8 +939,8 @@
      {
       "id": 1630394,
       "date": "2026-11-04T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "2H",
+      "elapsed": 72,
       "venue": "Kuwait",
       "league": {
        "id": 18,
@@ -962,16 +962,16 @@
        "logo": "https://media.api-sports.io/football/teams/4215.png"
       },
       "goals": [
-       0,
-       0
+       2,
+       2
       ]
      },
      {
       "id": 1630395,
       "date": "2026-11-04T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
-      "venue": "Doha",
+      "status": "2H",
+      "elapsed": 70,
+      "venue": "Al Rayyan",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -999,8 +999,8 @@
      {
       "id": 1630396,
       "date": "2026-11-04T19:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "2H",
+      "elapsed": 69,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1022,8 +1022,8 @@
        "logo": "https://media.api-sports.io/football/teams/17666.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1344,8 +1344,8 @@
      {
       "id": 1636324,
       "date": "2026-11-04T18:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Rennes",
       "league": {
        "id": 3,
