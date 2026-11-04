@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T13:46:59.852Z",
+ "updated": "2026-11-04T14:42:54.964Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -810,8 +810,8 @@
      {
       "id": 1629974,
       "date": "2026-11-04T15:15:00+03:00",
-      "status": "2H",
-      "elapsed": 75,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buriram",
       "league": {
        "id": 17,
@@ -909,8 +909,8 @@
      {
       "id": 1630393,
       "date": "2026-11-04T16:45:00+03:00",
-      "status": "1H",
-      "elapsed": 2,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Arkadag",
       "league": {
        "id": 18,
