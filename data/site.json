@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T09:41:36.379Z",
+ "updated": "2026-11-04T10:51:26.282Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,8 +780,8 @@
      {
       "id": 1629973,
       "date": "2026-11-04T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Pohang",
       "league": {
        "id": 17,
@@ -802,7 +802,10 @@
        "ar": "Gamba Osaka",
        "logo": "https://media.api-sports.io/football/teams/293.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1629974,
@@ -873,8 +876,8 @@
      {
       "id": 1630392,
       "date": "2026-11-04T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Seoul",
       "league": {
        "id": 18,
@@ -895,7 +898,10 @@
        "ar": "Viettel",
        "logo": "https://media.api-sports.io/football/teams/3681.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630393,
