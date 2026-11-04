@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T08:40:39.417Z",
+ "updated": "2026-11-04T09:41:36.379Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -843,8 +843,8 @@
      {
       "id": 1637494,
       "date": "2026-11-04T10:45:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Melbourne",
       "league": {
        "id": 18,
@@ -866,8 +866,8 @@
        "logo": "https://media.api-sports.io/football/teams/2445.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       2
       ]
      },
      {
@@ -929,7 +929,7 @@
       "date": "2026-11-04T19:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Kuwait City",
+      "venue": "Kuwait",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -956,7 +956,7 @@
       "date": "2026-11-04T19:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Lai Yang",
+      "venue": "Doha",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -1037,7 +1037,7 @@
       "date": "2026-11-04T21:15:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Buraydah",
+      "venue": "Buraidah",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -1949,6 +1949,36 @@
      "logo": "https://media.api-sports.io/football/leagues/18.png"
     },
     "matches": [
+     {
+      "id": 1630390,
+      "date": "2026-11-03T16:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Kolkata",
+      "league": {
+       "id": 18,
+       "name": "AFC Champions League Two",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/18.png",
+       "round": "Group Stage - 4"
+      },
+      "home": {
+       "id": 21137,
+       "name": "East Bengal II",
+       "ar": "East Bengal II",
+       "logo": "https://media.api-sports.io/football/teams/21137.png"
+      },
+      "away": {
+       "id": 7504,
+       "name": "Al Seeb",
+       "ar": "Al Seeb",
+       "logo": "https://media.api-sports.io/football/teams/7504.png"
+      },
+      "goals": [
+       0,
+       2
+      ]
+     },
      {
       "id": 1630391,
       "date": "2026-11-03T19:00:00+03:00",
