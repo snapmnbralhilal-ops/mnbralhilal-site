@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T19:26:44.666Z",
+ "updated": "2026-11-04T20:17:36.450Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1029,8 +1029,8 @@
      {
       "id": 1630397,
       "date": "2026-11-04T21:15:00+03:00",
-      "status": "2H",
-      "elapsed": 53,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Riffa",
       "league": {
        "id": 18,
@@ -1053,14 +1053,14 @@
       },
       "goals": [
        0,
-       0
+       3
       ]
      },
      {
       "id": 1630398,
       "date": "2026-11-04T21:15:00+03:00",
-      "status": "2H",
-      "elapsed": 54,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buraidah",
       "league": {
        "id": 18,
@@ -1082,8 +1082,8 @@
        "logo": "https://media.api-sports.io/football/teams/4531.png"
       },
       "goals": [
-       2,
-       0
+       3,
+       1
       ]
      }
     ]
@@ -1098,8 +1098,8 @@
      {
       "id": 1635606,
       "date": "2026-11-04T20:45:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Nea Filadelfeia",
       "league": {
        "id": 2,
@@ -1122,14 +1122,14 @@
       },
       "goals": [
        2,
-       2
+       3
       ]
      },
      {
       "id": 1635658,
       "date": "2026-11-04T20:45:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Istanbul",
       "league": {
        "id": 2,
@@ -1158,8 +1158,8 @@
      {
       "id": 1635651,
       "date": "2026-11-04T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Dortmund",
       "league": {
        "id": 2,
@@ -1180,13 +1180,16 @@
        "ar": "ريال بيتيس",
        "logo": "https://media.api-sports.io/football/teams/543.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1635656,
       "date": "2026-11-04T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Porto",
       "league": {
        "id": 2,
@@ -1207,13 +1210,16 @@
        "ar": "نابولي",
        "logo": "https://media.api-sports.io/football/teams/492.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1635681,
       "date": "2026-11-04T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Lens",
       "league": {
        "id": 2,
@@ -1234,13 +1240,16 @@
        "ar": "كومو",
        "logo": "https://media.api-sports.io/football/teams/895.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1635707,
       "date": "2026-11-04T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Eindhoven",
       "league": {
        "id": 2,
@@ -1261,13 +1270,16 @@
        "ar": "Club Brugge KV",
        "logo": "https://media.api-sports.io/football/teams/569.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635710,
       "date": "2026-11-04T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Leipzig",
       "league": {
        "id": 2,
@@ -1288,13 +1300,16 @@
        "ar": "مانشستر سيتي",
        "logo": "https://media.api-sports.io/football/teams/50.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1635726,
       "date": "2026-11-04T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Prague",
       "league": {
        "id": 2,
@@ -1315,13 +1330,16 @@
        "ar": "آرسنال",
        "logo": "https://media.api-sports.io/football/teams/42.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1635745,
       "date": "2026-11-04T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 16,
       "venue": "Stavanger",
       "league": {
        "id": 2,
@@ -1342,7 +1360,10 @@
        "ar": "Sabah FA",
        "logo": "https://media.api-sports.io/football/teams/13976.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
@@ -1434,8 +1455,8 @@
      {
       "id": 1636664,
       "date": "2026-11-04T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -1456,7 +1477,10 @@
        "ar": "الرجاء",
        "logo": "https://media.api-sports.io/football/teams/976.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      }
     ]
    },
