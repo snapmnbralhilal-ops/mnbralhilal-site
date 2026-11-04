@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-04T05:25:33.927Z",
+ "updated": "2026-11-04T06:24:41.157Z",
  "players": [
   {
    "api": 156,
@@ -883,9 +883,9 @@
    "photo": "https://media.api-sports.io/football/players/326984.png",
    "age": 23,
    "nat": "Saudi Arabia",
-   "apps": 13,
+   "apps": 14,
    "starts": 13,
-   "mins": 1140,
+   "mins": 1202,
    "goals": 0,
    "assists": 2,
    "saves": 0,
@@ -893,14 +893,14 @@
    "shots": 3,
    "shotsOn": 1,
    "keyPasses": 15,
-   "passes": 571,
-   "tackles": 28,
-   "interceptions": 10,
-   "dribbles": 8,
+   "passes": 602,
+   "tackles": 30,
+   "interceptions": 11,
+   "dribbles": 9,
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.99,
+   "rating": 6.98,
    "comps": [
     {
      "id": 307,
@@ -912,7 +912,7 @@
     {
      "id": 17,
      "league": "AFC Champions League Elite",
-     "apps": 2,
+     "apps": 3,
      "goals": 0,
      "assists": 0
     }
@@ -996,24 +996,24 @@
    "photo": "https://media.api-sports.io/football/players/412703.png",
    "age": 20,
    "nat": "Türkiye",
-   "apps": 5,
-   "starts": 3,
-   "mins": 299,
+   "apps": 6,
+   "starts": 4,
+   "mins": 389,
    "goals": 0,
-   "assists": 0,
+   "assists": 1,
    "saves": 0,
    "conceded": 0,
    "shots": 3,
    "shotsOn": 2,
-   "keyPasses": 2,
-   "passes": 227,
-   "tackles": 9,
-   "interceptions": 4,
+   "keyPasses": 3,
+   "passes": 304,
+   "tackles": 10,
+   "interceptions": 5,
    "dribbles": 3,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 7.24,
+   "rating": 7.32,
    "comps": [
     {
      "id": 307,
@@ -1025,9 +1025,9 @@
     {
      "id": 17,
      "league": "AFC Champions League Elite",
-     "apps": 3,
+     "apps": 4,
      "goals": 0,
-     "assists": 0
+     "assists": 1
     }
    ]
   },
@@ -1041,9 +1041,9 @@
    "photo": "https://media.api-sports.io/football/players/412711.png",
    "age": 19,
    "nat": "France",
-   "apps": 3,
-   "starts": 3,
-   "mins": 223,
+   "apps": 4,
+   "starts": 4,
+   "mins": 258,
    "goals": 0,
    "assists": 0,
    "saves": 0,
@@ -1051,14 +1051,14 @@
    "shots": 4,
    "shotsOn": 3,
    "keyPasses": 2,
-   "passes": 99,
-   "tackles": 1,
+   "passes": 121,
+   "tackles": 2,
    "interceptions": 0,
    "dribbles": 6,
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 5.3,
+   "rating": 5.52,
    "comps": [
     {
      "id": 307,
@@ -1070,7 +1070,7 @@
     {
      "id": 17,
      "league": "AFC Champions League Elite",
-     "apps": 2,
+     "apps": 3,
      "goals": 0,
      "assists": 0
     }
@@ -1103,7 +1103,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.21,
+   "rating": 4.99,
    "comps": [
     {
      "id": 307,
@@ -1131,9 +1131,9 @@
    "photo": "https://media.api-sports.io/football/players/449662.png",
    "age": 18,
    "nat": "France",
-   "apps": 9,
-   "starts": 4,
-   "mins": 316,
+   "apps": 10,
+   "starts": 5,
+   "mins": 361,
    "goals": 1,
    "assists": 0,
    "saves": 0,
@@ -1141,14 +1141,14 @@
    "shots": 9,
    "shotsOn": 3,
    "keyPasses": 3,
-   "passes": 47,
-   "tackles": 0,
+   "passes": 57,
+   "tackles": 1,
    "interceptions": 0,
    "dribbles": 4,
    "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 6.62,
+   "rating": 6.57,
    "comps": [
     {
      "id": 307,
@@ -1160,7 +1160,7 @@
     {
      "id": 17,
      "league": "AFC Champions League Elite",
-     "apps": 3,
+     "apps": 4,
      "goals": 0,
      "assists": 0
     }
@@ -1282,24 +1282,24 @@
    "photo": "https://media.api-sports.io/football/players/606188.png",
    "age": 17,
    "nat": null,
-   "apps": 7,
-   "starts": 1,
-   "mins": 115,
+   "apps": 8,
+   "starts": 2,
+   "mins": 143,
    "goals": 0,
    "assists": 0,
    "saves": 0,
    "conceded": 0,
-   "shots": 0,
+   "shots": 1,
    "shotsOn": 0,
    "keyPasses": 1,
-   "passes": 44,
-   "tackles": 4,
+   "passes": 50,
+   "tackles": 8,
    "interceptions": 2,
    "dribbles": 2,
-   "yellow": 0,
+   "yellow": 1,
    "red": 0,
    "penScored": 0,
-   "rating": 5.77,
+   "rating": 5.97,
    "comps": [
     {
      "id": 307,
@@ -1311,7 +1311,7 @@
     {
      "id": 17,
      "league": "AFC Champions League Elite",
-     "apps": 2,
+     "apps": 3,
      "goals": 0,
      "assists": 0
     }
