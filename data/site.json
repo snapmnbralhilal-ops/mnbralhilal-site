@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:47:45.477Z",
+ "updated": "2026-11-04T12:36:06.335Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -780,7 +780,7 @@
      {
       "id": 1629973,
       "date": "2026-11-04T13:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Pohang",
       "league": {
@@ -810,8 +810,8 @@
      {
       "id": 1629974,
       "date": "2026-11-04T15:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 21,
       "venue": "Buriram",
       "league": {
        "id": 17,
@@ -832,7 +832,10 @@
        "ar": "Kashima",
        "logo": "https://media.api-sports.io/football/teams/290.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -876,7 +879,7 @@
      {
       "id": 1630392,
       "date": "2026-11-04T13:00:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Seoul",
       "league": {
@@ -899,7 +902,7 @@
        "logo": "https://media.api-sports.io/football/teams/3681.png"
       },
       "goals": [
-       2,
+       3,
        0
       ]
      },
