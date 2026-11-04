@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T15:37:39.728Z",
+ "updated": "2026-11-04T16:31:30.443Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -909,7 +909,7 @@
      {
       "id": 1630393,
       "date": "2026-11-04T16:45:00+03:00",
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90,
       "venue": "Arkadag",
       "league": {
@@ -939,8 +939,8 @@
      {
       "id": 1630394,
       "date": "2026-11-04T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Kuwait",
       "league": {
        "id": 18,
@@ -961,13 +961,16 @@
        "ar": "Nasaf",
        "logo": "https://media.api-sports.io/football/teams/4215.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630395,
       "date": "2026-11-04T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Doha",
       "league": {
        "id": 18,
@@ -988,13 +991,16 @@
        "ar": "Al-Nahda",
        "logo": "https://media.api-sports.io/football/teams/5327.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630396,
       "date": "2026-11-04T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 31,
       "venue": "Abu Dhabi",
       "league": {
        "id": 18,
@@ -1015,7 +1021,10 @@
        "ar": "Khalidiya",
        "logo": "https://media.api-sports.io/football/teams/17666.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630397,
@@ -1335,8 +1344,8 @@
      {
       "id": 1636324,
       "date": "2026-11-04T18:30:00+03:00",
-      "status": "1H",
-      "elapsed": 6,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Rennes",
       "league": {
        "id": 3,
