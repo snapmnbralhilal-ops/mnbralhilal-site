@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T07:44:44.861Z",
+ "updated": "2026-11-04T08:40:39.417Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -843,8 +843,8 @@
      {
       "id": 1637494,
       "date": "2026-11-04T10:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Melbourne",
       "league": {
        "id": 18,
@@ -865,7 +865,10 @@
        "ar": "Persib Bandung",
        "logo": "https://media.api-sports.io/football/teams/2445.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1630392,
