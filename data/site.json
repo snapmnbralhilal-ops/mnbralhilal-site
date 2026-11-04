@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T21:10:56.413Z",
+ "updated": "2026-11-04T22:01:56.678Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -754,8 +754,8 @@
   },
   {
    "tag": "عالمي",
-   "title": "FC Seoul يكتسح Viettel 3-0",
-   "body": "في دوري أبطال آسيا ٢.",
+   "title": "كومو يكتسح لانس 9-1",
+   "body": "في دوري أبطال أوروبا.",
    "link": "#today"
   },
   {
@@ -2446,6 +2446,216 @@
        3,
        2
       ]
+     },
+     {
+      "id": 1635651,
+      "date": "2026-11-04T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Dortmund",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 165,
+       "name": "Borussia Dortmund",
+       "ar": "بوروسيا دورتموند",
+       "logo": "https://media.api-sports.io/football/teams/165.png"
+      },
+      "away": {
+       "id": 543,
+       "name": "Real Betis",
+       "ar": "ريال بيتيس",
+       "logo": "https://media.api-sports.io/football/teams/543.png"
+      },
+      "goals": [
+       2,
+       1
+      ]
+     },
+     {
+      "id": 1635656,
+      "date": "2026-11-04T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Porto",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 212,
+       "name": "FC Porto",
+       "ar": "بورتو",
+       "logo": "https://media.api-sports.io/football/teams/212.png"
+      },
+      "away": {
+       "id": 492,
+       "name": "Napoli",
+       "ar": "نابولي",
+       "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "goals": [
+       4,
+       1
+      ]
+     },
+     {
+      "id": 1635681,
+      "date": "2026-11-04T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Lens",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 116,
+       "name": "Lens",
+       "ar": "لانس",
+       "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "away": {
+       "id": 895,
+       "name": "Como",
+       "ar": "كومو",
+       "logo": "https://media.api-sports.io/football/teams/895.png"
+      },
+      "goals": [
+       1,
+       9
+      ]
+     },
+     {
+      "id": 1635707,
+      "date": "2026-11-04T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Eindhoven",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 197,
+       "name": "PSV Eindhoven",
+       "ar": "PSV Eindhoven",
+       "logo": "https://media.api-sports.io/football/teams/197.png"
+      },
+      "away": {
+       "id": 569,
+       "name": "Club Brugge KV",
+       "ar": "Club Brugge KV",
+       "logo": "https://media.api-sports.io/football/teams/569.png"
+      },
+      "goals": [
+       1,
+       2
+      ]
+     },
+     {
+      "id": 1635710,
+      "date": "2026-11-04T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Leipzig",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 173,
+       "name": "RB Leipzig",
+       "ar": "لايبزيغ",
+       "logo": "https://media.api-sports.io/football/teams/173.png"
+      },
+      "away": {
+       "id": 50,
+       "name": "Manchester City",
+       "ar": "مانشستر سيتي",
+       "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "goals": [
+       2,
+       3
+      ]
+     },
+     {
+      "id": 1635726,
+      "date": "2026-11-04T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Prague",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 560,
+       "name": "Slavia Praha",
+       "ar": "Slavia Praha",
+       "logo": "https://media.api-sports.io/football/teams/560.png"
+      },
+      "away": {
+       "id": 42,
+       "name": "Arsenal",
+       "ar": "آرسنال",
+       "logo": "https://media.api-sports.io/football/teams/42.png"
+      },
+      "goals": [
+       1,
+       2
+      ]
+     },
+     {
+      "id": 1635745,
+      "date": "2026-11-04T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Stavanger",
+      "league": {
+       "id": 2,
+       "name": "UEFA Champions League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/2.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 759,
+       "name": "Viking",
+       "ar": "Viking",
+       "logo": "https://media.api-sports.io/football/teams/759.png"
+      },
+      "away": {
+       "id": 13976,
+       "name": "Sabah FA",
+       "ar": "Sabah FA",
+       "logo": "https://media.api-sports.io/football/teams/13976.png"
+      },
+      "goals": [
+       4,
+       1
+      ]
      }
     ]
    },
@@ -2522,6 +2732,45 @@
       },
       "goals": [
        2,
+       2
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 200,
+     "name": "Botola Pro",
+     "logo": "https://media.api-sports.io/football/leagues/200.png"
+    },
+    "matches": [
+     {
+      "id": 1636664,
+      "date": "2026-11-04T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Rabat",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 1"
+      },
+      "home": {
+       "id": 969,
+       "name": "FAR Rabat",
+       "ar": "FAR Rabat",
+       "logo": "https://media.api-sports.io/football/teams/969.png"
+      },
+      "away": {
+       "id": 976,
+       "name": "Raja Casablanca",
+       "ar": "الرجاء",
+       "logo": "https://media.api-sports.io/football/teams/976.png"
+      },
+      "goals": [
+       1,
        2
       ]
      }
@@ -4385,7 +4634,18 @@
    ]
   }
  },
- "errors": [],
+ "errors": [
+  {
+   "endpoint": "standings",
+   "params": {
+    "league": 307,
+    "season": 2026
+   },
+   "error": [
+    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
+   ]
+  }
+ ],
  "requests": 13,
  "plan": "Pro"
 }
