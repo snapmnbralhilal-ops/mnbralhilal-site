@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:44:59.610Z",
+ "updated": "2026-11-05T11:38:42.668Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -870,8 +870,8 @@
      {
       "id": 1630399,
       "date": "2026-11-05T13:00:00+03:00",
-      "status": "1H",
-      "elapsed": 45,
+      "status": "2H",
+      "elapsed": 78,
       "venue": "Hong Kong",
       "league": {
        "id": 18,
@@ -900,9 +900,9 @@
      {
       "id": 1630400,
       "date": "2026-11-05T13:00:00+03:00",
-      "status": "PST",
-      "elapsed": null,
-      "venue": "Kallang",
+      "status": "1H",
+      "elapsed": 8,
+      "venue": "Singapore",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -922,13 +922,16 @@
        "ar": "Adelaide United",
        "logo": "https://media.api-sports.io/football/teams/948.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1630401,
       "date": "2026-11-05T13:00:00+03:00",
-      "status": "1H",
-      "elapsed": 44,
+      "status": "2H",
+      "elapsed": 82,
       "venue": "Tokyo",
       "league": {
        "id": 18,
@@ -950,8 +953,8 @@
        "logo": "https://media.api-sports.io/football/teams/833.png"
       },
       "goals": [
-       1,
-       0
+       2,
+       1
       ]
      },
      {

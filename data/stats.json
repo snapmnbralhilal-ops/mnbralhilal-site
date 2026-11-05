@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-05T10:44:59.937Z",
+ "updated": "2026-11-05T11:38:43.049Z",
  "players": [
   {
    "api": 156,
@@ -278,7 +278,7 @@
    "shots": 0,
    "shotsOn": 0,
    "keyPasses": 0,
-   "passes": 291,
+   "passes": 290,
    "tackles": 0,
    "interceptions": 0,
    "dribbles": 0,
@@ -510,7 +510,7 @@
    "yellow": 2,
    "red": 0,
    "penScored": 0,
-   "rating": 6.63,
+   "rating": 6.66,
    "comps": [
     {
      "id": 307,
@@ -690,7 +690,7 @@
    "yellow": 0,
    "red": 0,
    "penScored": 0,
-   "rating": 6.84,
+   "rating": 6.85,
    "comps": [
     {
      "id": 307,
@@ -848,7 +848,7 @@
    "shots": 8,
    "shotsOn": 1,
    "keyPasses": 3,
-   "passes": 401,
+   "passes": 402,
    "tackles": 12,
    "interceptions": 7,
    "dribbles": 7,
