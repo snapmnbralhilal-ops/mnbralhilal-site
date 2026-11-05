@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T09:42:30.392Z",
+ "updated": "2026-11-05T10:44:59.610Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -870,8 +870,8 @@
      {
       "id": 1630399,
       "date": "2026-11-05T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 45,
       "venue": "Hong Kong",
       "league": {
        "id": 18,
@@ -892,12 +892,15 @@
        "ar": "Phnom Penh Crown",
        "logo": "https://media.api-sports.io/football/teams/5394.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1630400,
       "date": "2026-11-05T13:00:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Kallang",
       "league": {
@@ -924,8 +927,8 @@
      {
       "id": 1630401,
       "date": "2026-11-05T13:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 44,
       "venue": "Tokyo",
       "league": {
        "id": 18,
@@ -946,7 +949,10 @@
        "ar": "Shanghai Shenhua",
        "logo": "https://media.api-sports.io/football/teams/833.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1630402,
