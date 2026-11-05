@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:41:30.165Z",
+ "updated": "2026-11-05T08:41:49.814Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -872,7 +872,7 @@
       "date": "2026-11-05T13:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Hongkong",
+      "venue": "Hong Kong",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -899,7 +899,7 @@
       "date": "2026-11-05T13:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Singapore",
+      "venue": "Kallang",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -926,7 +926,7 @@
       "date": "2026-11-05T13:00:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Machida",
+      "venue": "Tokyo",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -980,7 +980,7 @@
       "date": "2026-11-05T15:15:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Pathum Thani",
+      "venue": "Patum Thani",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
@@ -1007,7 +1007,7 @@
       "date": "2026-11-05T15:15:00+03:00",
       "status": "NS",
       "elapsed": null,
-      "venue": "Svay Rieng",
+      "venue": "Phnom Penh",
       "league": {
        "id": 18,
        "name": "AFC Champions League Two",
