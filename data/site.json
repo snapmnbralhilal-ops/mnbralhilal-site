@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T21:14:02.894Z",
+ "updated": "2026-11-05T22:00:33.693Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1840,6 +1840,276 @@
        1,
        3
       ]
+     },
+     {
+      "id": 1636219,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Alkmaar",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 201,
+       "name": "AZ Alkmaar",
+       "ar": "AZ Alkmaar",
+       "logo": "https://media.api-sports.io/football/teams/201.png"
+      },
+      "away": {
+       "id": 496,
+       "name": "Juventus",
+       "ar": "يوفنتوس",
+       "logo": "https://media.api-sports.io/football/teams/496.png"
+      },
+      "goals": [
+       1,
+       2
+      ]
+     },
+     {
+      "id": 1636223,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Bayer Leverkusen",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 168,
+       "name": "Bayer Leverkusen",
+       "ar": "باير ليفركوزن",
+       "logo": "https://media.api-sports.io/football/teams/168.png"
+      },
+      "away": {
+       "id": 81,
+       "name": "Marseille",
+       "ar": "مارسيليا",
+       "logo": "https://media.api-sports.io/football/teams/81.png"
+      },
+      "goals": [
+       0,
+       1
+      ]
+     },
+     {
+      "id": 1636229,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Lisbon",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 211,
+       "name": "Benfica",
+       "ar": "بنفيكا",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "away": {
+       "id": 347,
+       "name": "Lech Poznan",
+       "ar": "Lech Poznan",
+       "logo": "https://media.api-sports.io/football/teams/347.png"
+      },
+      "goals": [
+       3,
+       1
+      ]
+     },
+     {
+      "id": 1636245,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Vigo",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 538,
+       "name": "Celta Vigo",
+       "ar": "سيلتا فيغو",
+       "logo": "https://media.api-sports.io/football/teams/538.png"
+      },
+      "away": {
+       "id": 1393,
+       "name": "Union St. Gilloise",
+       "ar": "Union St. Gilloise",
+       "logo": "https://media.api-sports.io/football/teams/1393.png"
+      },
+      "goals": [
+       1,
+       2
+      ]
+     },
+     {
+      "id": 1636250,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Glasgow",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 247,
+       "name": "Celtic",
+       "ar": "سيلتك",
+       "logo": "https://media.api-sports.io/football/teams/247.png"
+      },
+      "away": {
+       "id": 549,
+       "name": "Beşiktaş",
+       "ar": "بشكتاش",
+       "logo": "https://media.api-sports.io/football/teams/549.png"
+      },
+      "goals": [
+       3,
+       2
+      ]
+     },
+     {
+      "id": 1636264,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Bucharest",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 563,
+       "name": "Hapoel Beer Sheva",
+       "ar": "Hapoel Beer Sheva",
+       "logo": "https://media.api-sports.io/football/teams/563.png"
+      },
+      "away": {
+       "id": 1124,
+       "name": "OFI",
+       "ar": "OFI",
+       "logo": "https://media.api-sports.io/football/teams/1124.png"
+      },
+      "goals": [
+       0,
+       2
+      ]
+     },
+     {
+      "id": 1636339,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Graz",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 637,
+       "name": "Sturm Graz",
+       "ar": "Sturm Graz",
+       "logo": "https://media.api-sports.io/football/teams/637.png"
+      },
+      "away": {
+       "id": 4360,
+       "name": "Celje",
+       "ar": "Celje",
+       "logo": "https://media.api-sports.io/football/teams/4360.png"
+      },
+      "goals": [
+       2,
+       3
+      ]
+     },
+     {
+      "id": 1636345,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Sunderland",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 746,
+       "name": "Sunderland",
+       "ar": "سندرلاند",
+       "logo": "https://media.api-sports.io/football/teams/746.png"
+      },
+      "away": {
+       "id": 620,
+       "name": "Dinamo Zagreb",
+       "ar": "Dinamo Zagreb",
+       "logo": "https://media.api-sports.io/football/teams/620.png"
+      },
+      "goals": [
+       0,
+       2
+      ]
+     },
+     {
+      "id": 1636347,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Leiria",
+      "league": {
+       "id": 3,
+       "name": "UEFA Europa League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/3.png",
+       "round": "League Stage - 4"
+      },
+      "home": {
+       "id": 4799,
+       "name": "Torreense",
+       "ar": "Torreense",
+       "logo": "https://media.api-sports.io/football/teams/4799.png"
+      },
+      "away": {
+       "id": 3683,
+       "name": "Ararat-Armenia",
+       "ar": "Ararat-Armenia",
+       "logo": "https://media.api-sports.io/football/teams/3683.png"
+      },
+      "goals": [
+       3,
+       2
+      ]
      }
     ]
    },
@@ -2118,6 +2388,276 @@
       "goals": [
        0,
        1
+      ]
+     },
+     {
+      "id": 1636408,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Copenhagen",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 400,
+       "name": "FC Copenhagen",
+       "ar": "FC Copenhagen",
+       "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "away": {
+       "id": 3502,
+       "name": "FC Iberia 1999",
+       "ar": "FC Iberia 1999",
+       "logo": "https://media.api-sports.io/football/teams/3502.png"
+      },
+      "goals": [
+       2,
+       1
+      ]
+     },
+     {
+      "id": 1636416,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Getafe",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 546,
+       "name": "Getafe",
+       "ar": "خيتافي",
+       "logo": "https://media.api-sports.io/football/teams/546.png"
+      },
+      "away": {
+       "id": 51,
+       "name": "Brighton",
+       "ar": "برايتون",
+       "logo": "https://media.api-sports.io/football/teams/51.png"
+      },
+      "goals": [
+       0,
+       1
+      ]
+     },
+     {
+      "id": 1636447,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Lugano",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 606,
+       "name": "FC Lugano",
+       "ar": "FC Lugano",
+       "logo": "https://media.api-sports.io/football/teams/606.png"
+      },
+      "away": {
+       "id": 3872,
+       "name": "Kauno Žalgiris",
+       "ar": "Kauno Žalgiris",
+       "logo": "https://media.api-sports.io/football/teams/3872.png"
+      },
+      "goals": [
+       3,
+       0
+      ]
+     },
+     {
+      "id": 1636456,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Fontvieille",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 91,
+       "name": "Monaco",
+       "ar": "موناكو",
+       "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "away": {
+       "id": 398,
+       "name": "FC Nordsjaelland",
+       "ar": "FC Nordsjaelland",
+       "logo": "https://media.api-sports.io/football/teams/398.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
+     },
+     {
+      "id": 1636465,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Athens",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 617,
+       "name": "Panathinaikos",
+       "ar": "Panathinaikos",
+       "logo": "https://media.api-sports.io/football/teams/617.png"
+      },
+      "away": {
+       "id": 853,
+       "name": "CSKA Sofia",
+       "ar": "CSKA Sofia",
+       "logo": "https://media.api-sports.io/football/teams/853.png"
+      },
+      "goals": [
+       2,
+       1
+      ]
+     },
+     {
+      "id": 1636466,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Rīga",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 10124,
+       "name": "Riga",
+       "ar": "Riga",
+       "logo": "https://media.api-sports.io/football/teams/10124.png"
+      },
+      "away": {
+       "id": 1122,
+       "name": "FK Jablonec",
+       "ar": "FK Jablonec",
+       "logo": "https://media.api-sports.io/football/teams/1122.png"
+      },
+      "goals": [
+       1,
+       1
+      ]
+     },
+     {
+      "id": 1636469,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Sint- Truiden",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 735,
+       "name": "St. Truiden",
+       "ar": "St. Truiden",
+       "logo": "https://media.api-sports.io/football/teams/735.png"
+      },
+      "away": {
+       "id": 319,
+       "name": "Brann",
+       "ar": "Brann",
+       "logo": "https://media.api-sports.io/football/teams/319.png"
+      },
+      "goals": [
+       1,
+       1
+      ]
+     },
+     {
+      "id": 1636478,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Enschede",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 415,
+       "name": "Twente",
+       "ar": "Twente",
+       "logo": "https://media.api-sports.io/football/teams/415.png"
+      },
+      "away": {
+       "id": 3403,
+       "name": "Pafos",
+       "ar": "Pafos",
+       "logo": "https://media.api-sports.io/football/teams/3403.png"
+      },
+      "goals": [
+       3,
+       1
+      ]
+     },
+     {
+      "id": 1636483,
+      "date": "2026-11-05T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Craiova",
+      "league": {
+       "id": 848,
+       "name": "UEFA Europa Conference League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/848.png",
+       "round": "League Stage - 3"
+      },
+      "home": {
+       "id": 632,
+       "name": "Universitatea Craiova",
+       "ar": "Universitatea Craiova",
+       "logo": "https://media.api-sports.io/football/teams/632.png"
+      },
+      "away": {
+       "id": 3327,
+       "name": "Egnatia Rrogozhinë",
+       "ar": "Egnatia Rrogozhinë",
+       "logo": "https://media.api-sports.io/football/teams/3327.png"
+      },
+      "goals": [
+       2,
+       0
       ]
      }
     ]
