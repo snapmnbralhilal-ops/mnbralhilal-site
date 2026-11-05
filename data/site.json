@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:51:39.840Z",
+ "updated": "2026-11-05T14:50:07.921Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -960,8 +960,8 @@
      {
       "id": 1630402,
       "date": "2026-11-05T15:15:00+03:00",
-      "status": "2H",
-      "elapsed": 76,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kuching",
       "league": {
        "id": 18,
@@ -990,8 +990,8 @@
      {
       "id": 1630403,
       "date": "2026-11-05T15:15:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Patum Thani",
       "league": {
        "id": 18,
@@ -1020,8 +1020,8 @@
      {
       "id": 1630404,
       "date": "2026-11-05T15:15:00+03:00",
-      "status": "2H",
-      "elapsed": 78,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Phnom Penh",
       "league": {
        "id": 18,
@@ -1043,7 +1043,7 @@
        "logo": "https://media.api-sports.io/football/teams/4206.png"
       },
       "goals": [
-       1,
+       2,
        0
       ]
      }
@@ -4653,6 +4653,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
