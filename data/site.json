@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:08:54.126Z",
+ "updated": "2026-11-06T17:52:56.325Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1146,8 +1146,8 @@
      {
       "id": 1597959,
       "date": "2026-11-06T19:30:00+03:00",
-      "status": "1H",
-      "elapsed": 39,
+      "status": "2H",
+      "elapsed": 61,
       "venue": "Wakla",
       "league": {
        "id": 305,
@@ -1170,7 +1170,7 @@
       },
       "goals": [
        0,
-       0
+       1
       ]
      }
     ]
@@ -1185,8 +1185,8 @@
      {
       "id": 1646868,
       "date": "2026-11-06T21:00:00+03:00",
-      "status": "1H",
-      "elapsed": 9,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Agadir",
       "league": {
        "id": 200,
@@ -1208,8 +1208,8 @@
        "logo": "https://media.api-sports.io/football/teams/962.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      },
      {
@@ -1323,8 +1323,8 @@
      {
       "id": 1584462,
       "date": "2026-11-06T20:00:00+03:00",
-      "status": "1H",
-      "elapsed": 9,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Gaziantep",
       "league": {
        "id": 203,
@@ -1347,7 +1347,7 @@
       },
       "goals": [
        0,
-       1
+       2
       ]
      }
     ]
