@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:42:50.636Z",
+ "updated": "2026-11-06T14:38:21.952Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1113,8 +1113,8 @@
      {
       "id": 1597956,
       "date": "2026-11-06T17:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 23,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1135,7 +1135,10 @@
        "ar": "الأهلي القطري",
        "logo": "https://media.api-sports.io/football/teams/2896.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1597959,
@@ -4521,6 +4524,6 @@
   }
  },
  "errors": [],
- "requests": 14,
+ "requests": 15,
  "plan": "Pro"
 }
