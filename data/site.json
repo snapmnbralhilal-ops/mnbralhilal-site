@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T18:41:10.082Z",
+ "updated": "2026-11-06T19:38:14.740Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -1044,8 +1044,8 @@
      {
       "id": 1575218,
       "date": "2026-11-06T22:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 8,
       "venue": "Hamburger",
       "league": {
        "id": 78,
@@ -1066,7 +1066,10 @@
        "ar": "مونشنغلادباخ",
        "logo": "https://media.api-sports.io/football/teams/163.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1185,8 +1188,8 @@
      {
       "id": 1646868,
       "date": "2026-11-06T21:00:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Agadir",
       "league": {
        "id": 200,
@@ -1209,7 +1212,7 @@
       },
       "goals": [
        2,
-       1
+       2
       ]
      },
      {
@@ -1287,8 +1290,8 @@
      {
       "id": 1552216,
       "date": "2026-11-06T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 36,
       "venue": "Tilburg",
       "league": {
        "id": 88,
@@ -1309,7 +1312,10 @@
        "ar": "PEC Zwolle",
        "logo": "https://media.api-sports.io/football/teams/193.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      }
     ]
    },
@@ -1323,8 +1329,8 @@
      {
       "id": 1584462,
       "date": "2026-11-06T20:00:00+03:00",
-      "status": "2H",
-      "elapsed": 82,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Gaziantep",
       "league": {
        "id": 203,
@@ -1362,8 +1368,8 @@
      {
       "id": 1646794,
       "date": "2026-11-06T22:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 7,
       "venue": "Bristol",
       "league": {
        "id": 45,
@@ -1384,7 +1390,10 @@
        "ar": "Cambridge United",
        "logo": "https://media.api-sports.io/football/teams/1370.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1646811,
@@ -4535,18 +4544,7 @@
    ]
   }
  },
- "errors": [
-  {
-   "endpoint": "players/topscorers",
-   "params": {
-    "league": 307,
-    "season": 2026
-   },
-   "error": [
-    "Too many requests. You have exceeded the limit of requests per minute of your subscription."
-   ]
-  }
- ],
- "requests": 17,
+ "errors": [],
+ "requests": 21,
  "plan": "Pro"
 }
