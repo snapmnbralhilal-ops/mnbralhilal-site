@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:24:49.238Z",
+ "updated": "2026-11-06T16:15:14.026Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -897,8 +897,8 @@
      {
       "id": 1604055,
       "date": "2026-11-06T17:55:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "2H",
+      "elapsed": 60,
       "venue": "Al Zulfi Club Stadium",
       "league": {
        "id": 308,
@@ -1116,8 +1116,8 @@
      {
       "id": 1597956,
       "date": "2026-11-06T17:15:00+03:00",
-      "status": "2H",
-      "elapsed": 49,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1140,7 +1140,7 @@
       },
       "goals": [
        2,
-       0
+       2
       ]
      },
      {
