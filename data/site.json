@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:29:45.248Z",
+ "updated": "2026-11-06T23:13:43.098Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2895,6 +2895,45 @@
    },
    {
     "league": {
+     "id": 94,
+     "name": "Primeira Liga",
+     "logo": "https://media.api-sports.io/football/leagues/94.png"
+    },
+    "matches": [
+     {
+      "id": 1575539,
+      "date": "2026-11-06T23:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Vila Nova de Famalicao",
+      "league": {
+       "id": 94,
+       "name": "Primeira Liga",
+       "country": "Portugal",
+       "logo": "https://media.api-sports.io/football/leagues/94.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 242,
+       "name": "Famalicao",
+       "ar": "Famalicao",
+       "logo": "https://media.api-sports.io/football/teams/242.png"
+      },
+      "away": {
+       "id": 240,
+       "name": "Arouca",
+       "ar": "Arouca",
+       "logo": "https://media.api-sports.io/football/teams/240.png"
+      },
+      "goals": [
+       1,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
      "id": 88,
      "name": "Eredivisie",
      "logo": "https://media.api-sports.io/football/leagues/88.png"
@@ -3406,6 +3445,22 @@
     {
      "rank": 5,
      "team": {
+      "id": 45,
+      "name": "Everton",
+      "ar": "إيفرتون",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+     },
+     "points": 16,
+     "gd": 2,
+     "played": 10,
+     "win": 4,
+     "draw": 4,
+     "lose": 2,
+     "description": "Promotion - Europa League (League phase)"
+    },
+    {
+     "rank": 6,
+     "team": {
       "id": 40,
       "name": "Liverpool",
       "ar": "ليفربول",
@@ -3417,10 +3472,10 @@
      "win": 4,
      "draw": 3,
      "lose": 2,
-     "description": "Promotion - Europa League (League phase)"
+     "description": ""
     },
     {
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 55,
       "name": "Brentford",
@@ -3433,22 +3488,6 @@
      "win": 3,
      "draw": 5,
      "lose": 1,
-     "description": ""
-    },
-    {
-     "rank": 7,
-     "team": {
-      "id": 45,
-      "name": "Everton",
-      "ar": "إيفرتون",
-      "logo": "https://media.api-sports.io/football/teams/45.png"
-     },
-     "points": 13,
-     "gd": 0,
-     "played": 9,
-     "win": 3,
-     "draw": 4,
-     "lose": 2,
      "description": ""
     },
     {
@@ -3588,11 +3627,11 @@
       "logo": "https://media.api-sports.io/football/teams/1346.png"
      },
      "points": 9,
-     "gd": -7,
-     "played": 9,
+     "gd": -9,
+     "played": 10,
      "win": 3,
      "draw": 0,
-     "lose": 6,
+     "lose": 7,
      "description": ""
     },
     {
@@ -3752,11 +3791,11 @@
       "ar": "إشبيلية",
       "logo": "https://media.api-sports.io/football/teams/536.png"
      },
-     "points": 17,
+     "points": 18,
      "gd": -2,
-     "played": 11,
+     "played": 12,
      "win": 5,
-     "draw": 2,
+     "draw": 3,
      "lose": 4,
      "description": "Promotion - Conference League (Qualification)"
     },
@@ -3795,6 +3834,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 542,
+      "name": "Alaves",
+      "ar": "ألافيس",
+      "logo": "https://media.api-sports.io/football/teams/542.png"
+     },
+     "points": 13,
+     "gd": -2,
+     "played": 12,
+     "win": 3,
+     "draw": 4,
+     "lose": 5,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 533,
       "name": "Villarreal",
       "ar": "فياريال",
@@ -3809,7 +3864,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 538,
       "name": "Celta Vigo",
@@ -3822,22 +3877,6 @@
      "win": 2,
      "draw": 6,
      "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 11,
-     "team": {
-      "id": 542,
-      "name": "Alaves",
-      "ar": "ألافيس",
-      "logo": "https://media.api-sports.io/football/teams/542.png"
-     },
-     "points": 12,
-     "gd": -2,
-     "played": 11,
-     "win": 3,
-     "draw": 3,
-     "lose": 5,
      "description": ""
     },
     {
@@ -4280,33 +4319,33 @@
     {
      "rank": 19,
      "team": {
+      "id": 517,
+      "name": "Venezia",
+      "ar": "فينيسيا",
+      "logo": "https://media.api-sports.io/football/teams/517.png"
+     },
+     "points": 6,
+     "gd": -13,
+     "played": 11,
+     "win": 2,
+     "draw": 0,
+     "lose": 9,
+     "description": "Relegation"
+    },
+    {
+     "rank": 20,
+     "team": {
       "id": 494,
       "name": "Udinese",
       "ar": "أودينيزي",
       "logo": "https://media.api-sports.io/football/teams/494.png"
      },
      "points": 5,
-     "gd": -12,
-     "played": 10,
+     "gd": -13,
+     "played": 11,
      "win": 1,
      "draw": 2,
-     "lose": 7,
-     "description": "Relegation"
-    },
-    {
-     "rank": 20,
-     "team": {
-      "id": 517,
-      "name": "Venezia",
-      "ar": "فينيسيا",
-      "logo": "https://media.api-sports.io/football/teams/517.png"
-     },
-     "points": 3,
-     "gd": -14,
-     "played": 10,
-     "win": 1,
-     "draw": 0,
-     "lose": 9,
+     "lose": 8,
      "description": "Relegation"
     }
    ]
@@ -4429,6 +4468,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 175,
+      "name": "Hamburger SV",
+      "ar": "هامبورغ",
+      "logo": "https://media.api-sports.io/football/teams/175.png"
+     },
+     "points": 12,
+     "gd": -10,
+     "played": 9,
+     "win": 4,
+     "draw": 0,
+     "lose": 5,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 169,
       "name": "Eintracht Frankfurt",
       "ar": "آينتراخت فرانكفورت",
@@ -4443,7 +4498,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 164,
       "name": "FSV Mainz 05",
@@ -4459,7 +4514,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 170,
       "name": "FC Augsburg",
@@ -4475,7 +4530,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 172,
       "name": "VfB Stuttgart",
@@ -4491,7 +4546,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 167,
       "name": "1899 Hoffenheim",
@@ -4507,7 +4562,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 192,
       "name": "1. FC Köln",
@@ -4523,7 +4578,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 185,
       "name": "SC Paderborn 07",
@@ -4536,22 +4591,6 @@
      "win": 2,
      "draw": 3,
      "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 175,
-      "name": "Hamburger SV",
-      "ar": "هامبورغ",
-      "logo": "https://media.api-sports.io/football/teams/175.png"
-     },
-     "points": 9,
-     "gd": -12,
-     "played": 8,
-     "win": 3,
-     "draw": 0,
-     "lose": 5,
      "description": ""
     },
     {
@@ -4595,11 +4634,11 @@
       "logo": "https://media.api-sports.io/football/teams/163.png"
      },
      "points": 4,
-     "gd": -11,
-     "played": 8,
+     "gd": -13,
+     "played": 9,
      "win": 1,
      "draw": 1,
-     "lose": 6,
+     "lose": 7,
      "description": "Relegation"
     }
    ]
@@ -4754,6 +4793,22 @@
     {
      "rank": 10,
      "team": {
+      "id": 96,
+      "name": "Toulouse",
+      "ar": "تولوز",
+      "logo": "https://media.api-sports.io/football/teams/96.png"
+     },
+     "points": 13,
+     "gd": 1,
+     "played": 10,
+     "win": 3,
+     "draw": 4,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
       "id": 106,
       "name": "Stade Brestois 29",
       "ar": "بريست",
@@ -4768,7 +4823,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 97,
       "name": "Lorient",
@@ -4784,22 +4839,6 @@
      "description": ""
     },
     {
-     "rank": 12,
-     "team": {
-      "id": 96,
-      "name": "Toulouse",
-      "ar": "تولوز",
-      "logo": "https://media.api-sports.io/football/teams/96.png"
-     },
-     "points": 10,
-     "gd": -1,
-     "played": 9,
-     "win": 2,
-     "draw": 4,
-     "lose": 3,
-     "description": ""
-    },
-    {
      "rank": 13,
      "team": {
       "id": 95,
@@ -4808,11 +4847,11 @@
       "logo": "https://media.api-sports.io/football/teams/95.png"
      },
      "points": 10,
-     "gd": -2,
-     "played": 9,
+     "gd": -4,
+     "played": 10,
      "win": 3,
      "draw": 1,
-     "lose": 5,
+     "lose": 6,
      "description": ""
     },
     {
