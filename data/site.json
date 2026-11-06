@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:38:14.740Z",
+ "updated": "2026-11-06T20:26:12.855Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -936,8 +936,8 @@
      {
       "id": 1557460,
       "date": "2026-11-06T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Liverpool",
       "league": {
        "id": 39,
@@ -958,7 +958,10 @@
        "ar": "كوفنتري",
        "logo": "https://media.api-sports.io/football/teams/1346.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -972,8 +975,8 @@
      {
       "id": 1570450,
       "date": "2026-11-06T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Seville",
       "league": {
        "id": 140,
@@ -994,7 +997,10 @@
        "ar": "ألافيس",
        "logo": "https://media.api-sports.io/football/teams/542.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1008,8 +1014,8 @@
      {
       "id": 1550196,
       "date": "2026-11-06T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 39,
       "venue": "Venice",
       "league": {
        "id": 135,
@@ -1030,7 +1036,10 @@
        "ar": "أودينيزي",
        "logo": "https://media.api-sports.io/football/teams/494.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1044,8 +1053,8 @@
      {
       "id": 1575218,
       "date": "2026-11-06T22:30:00+03:00",
-      "status": "1H",
-      "elapsed": 8,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Hamburger",
       "league": {
        "id": 78,
@@ -1067,8 +1076,8 @@
        "logo": "https://media.api-sports.io/football/teams/163.png"
       },
       "goals": [
-       0,
-       0
+       1,
+       1
       ]
      }
     ]
@@ -1083,8 +1092,8 @@
      {
       "id": 1552817,
       "date": "2026-11-06T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 41,
       "venue": "Toulouse",
       "league": {
        "id": 61,
@@ -1105,7 +1114,10 @@
        "ar": "ستراسبورغ",
        "logo": "https://media.api-sports.io/football/teams/95.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1218,8 +1230,8 @@
      {
       "id": 1646869,
       "date": "2026-11-06T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 25,
       "venue": "Rabat",
       "league": {
        "id": 200,
@@ -1240,7 +1252,10 @@
        "ar": "Amal Tiznit",
        "logo": "https://media.api-sports.io/football/teams/18753.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      }
     ]
    },
@@ -1290,8 +1305,8 @@
      {
       "id": 1552216,
       "date": "2026-11-06T22:00:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "2H",
+      "elapsed": 66,
       "venue": "Tilburg",
       "league": {
        "id": 88,
@@ -1368,8 +1383,8 @@
      {
       "id": 1646794,
       "date": "2026-11-06T22:30:00+03:00",
-      "status": "1H",
-      "elapsed": 7,
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Bristol",
       "league": {
        "id": 45,
@@ -1398,8 +1413,8 @@
      {
       "id": 1646811,
       "date": "2026-11-06T22:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 41,
       "venue": "Oxford",
       "league": {
        "id": 45,
@@ -1420,7 +1435,10 @@
        "ar": "ليستر سيتي",
        "logo": "https://media.api-sports.io/football/teams/46.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      }
     ]
    }
