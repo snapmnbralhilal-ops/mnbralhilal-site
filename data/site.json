@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T21:55:18.329Z",
+ "updated": "2026-11-06T22:29:45.248Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2562,6 +2562,84 @@
    },
    {
     "league": {
+     "id": 39,
+     "name": "Premier League",
+     "logo": "https://media.api-sports.io/football/leagues/39.png"
+    },
+    "matches": [
+     {
+      "id": 1557460,
+      "date": "2026-11-06T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Liverpool",
+      "league": {
+       "id": 39,
+       "name": "Premier League",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/39.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 45,
+       "name": "Everton",
+       "ar": "إيفرتون",
+       "logo": "https://media.api-sports.io/football/teams/45.png"
+      },
+      "away": {
+       "id": 1346,
+       "name": "Coventry",
+       "ar": "كوفنتري",
+       "logo": "https://media.api-sports.io/football/teams/1346.png"
+      },
+      "goals": [
+       3,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 140,
+     "name": "La Liga",
+     "logo": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    "matches": [
+     {
+      "id": 1570450,
+      "date": "2026-11-06T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Seville",
+      "league": {
+       "id": 140,
+       "name": "La Liga",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/140.png",
+       "round": "Regular Season - 12"
+      },
+      "home": {
+       "id": 536,
+       "name": "Sevilla",
+       "ar": "إشبيلية",
+       "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "away": {
+       "id": 542,
+       "name": "Alaves",
+       "ar": "ألافيس",
+       "logo": "https://media.api-sports.io/football/teams/542.png"
+      },
+      "goals": [
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
      "id": 135,
      "name": "Serie A",
      "logo": "https://media.api-sports.io/football/leagues/135.png"
@@ -2780,6 +2858,36 @@
       },
       "goals": [
        2,
+       2
+      ]
+     },
+     {
+      "id": 1646869,
+      "date": "2026-11-06T23:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Rabat",
+      "league": {
+       "id": 200,
+       "name": "Botola Pro",
+       "country": "Morocco",
+       "logo": "https://media.api-sports.io/football/leagues/200.png",
+       "round": "Regular Season - 7"
+      },
+      "home": {
+       "id": 14806,
+       "name": "UTS Rabat",
+       "ar": "UTS Rabat",
+       "logo": "https://media.api-sports.io/football/teams/14806.png"
+      },
+      "away": {
+       "id": 18753,
+       "name": "Amal Tiznit",
+       "ar": "Amal Tiznit",
+       "logo": "https://media.api-sports.io/football/teams/18753.png"
+      },
+      "goals": [
+       0,
        2
       ]
      }
