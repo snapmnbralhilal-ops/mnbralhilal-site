@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T21:11:12.626Z",
+ "updated": "2026-11-06T21:55:18.329Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -2562,6 +2562,123 @@
    },
    {
     "league": {
+     "id": 135,
+     "name": "Serie A",
+     "logo": "https://media.api-sports.io/football/leagues/135.png"
+    },
+    "matches": [
+     {
+      "id": 1550196,
+      "date": "2026-11-06T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Venice",
+      "league": {
+       "id": 135,
+       "name": "Serie A",
+       "country": "Italy",
+       "logo": "https://media.api-sports.io/football/leagues/135.png",
+       "round": "Regular Season - 11"
+      },
+      "home": {
+       "id": 517,
+       "name": "Venezia",
+       "ar": "فينيسيا",
+       "logo": "https://media.api-sports.io/football/teams/517.png"
+      },
+      "away": {
+       "id": 494,
+       "name": "Udinese",
+       "ar": "أودينيزي",
+       "logo": "https://media.api-sports.io/football/teams/494.png"
+      },
+      "goals": [
+       2,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 78,
+     "name": "Bundesliga",
+     "logo": "https://media.api-sports.io/football/leagues/78.png"
+    },
+    "matches": [
+     {
+      "id": 1575218,
+      "date": "2026-11-06T22:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Hamburger",
+      "league": {
+       "id": 78,
+       "name": "Bundesliga",
+       "country": "Germany",
+       "logo": "https://media.api-sports.io/football/leagues/78.png",
+       "round": "Regular Season - 9"
+      },
+      "home": {
+       "id": 175,
+       "name": "Hamburger SV",
+       "ar": "هامبورغ",
+       "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "away": {
+       "id": 163,
+       "name": "Borussia Mönchengladbach",
+       "ar": "مونشنغلادباخ",
+       "logo": "https://media.api-sports.io/football/teams/163.png"
+      },
+      "goals": [
+       3,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 61,
+     "name": "Ligue 1",
+     "logo": "https://media.api-sports.io/football/leagues/61.png"
+    },
+    "matches": [
+     {
+      "id": 1552817,
+      "date": "2026-11-06T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Toulouse",
+      "league": {
+       "id": 61,
+       "name": "Ligue 1",
+       "country": "France",
+       "logo": "https://media.api-sports.io/football/leagues/61.png",
+       "round": "Regular Season - 10"
+      },
+      "home": {
+       "id": 96,
+       "name": "Toulouse",
+       "ar": "تولوز",
+       "logo": "https://media.api-sports.io/football/teams/96.png"
+      },
+      "away": {
+       "id": 95,
+       "name": "Strasbourg",
+       "ar": "ستراسبورغ",
+       "logo": "https://media.api-sports.io/football/teams/95.png"
+      },
+      "goals": [
+       3,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
      "id": 305,
      "name": "Stars League",
      "logo": "https://media.api-sports.io/football/leagues/305.png"
@@ -2742,6 +2859,75 @@
       "goals": [
        0,
        2
+      ]
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 45,
+     "name": "FA Cup",
+     "logo": "https://media.api-sports.io/football/leagues/45.png"
+    },
+    "matches": [
+     {
+      "id": 1646794,
+      "date": "2026-11-06T22:30:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Bristol",
+      "league": {
+       "id": 45,
+       "name": "FA Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/45.png",
+       "round": "1/128-finals"
+      },
+      "home": {
+       "id": 1334,
+       "name": "Bristol Rovers",
+       "ar": "Bristol Rovers",
+       "logo": "https://media.api-sports.io/football/teams/1334.png"
+      },
+      "away": {
+       "id": 1370,
+       "name": "Cambridge United",
+       "ar": "Cambridge United",
+       "logo": "https://media.api-sports.io/football/teams/1370.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
+     },
+     {
+      "id": 1646811,
+      "date": "2026-11-06T22:45:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Oxford",
+      "league": {
+       "id": 45,
+       "name": "FA Cup",
+       "country": "England",
+       "logo": "https://media.api-sports.io/football/leagues/45.png",
+       "round": "1/128-finals"
+      },
+      "home": {
+       "id": 4684,
+       "name": "Oxford City",
+       "ar": "Oxford City",
+       "logo": "https://media.api-sports.io/football/teams/4684.png"
+      },
+      "away": {
+       "id": 46,
+       "name": "Leicester",
+       "ar": "ليستر سيتي",
+       "logo": "https://media.api-sports.io/football/teams/46.png"
+      },
+      "goals": [
+       2,
+       4
       ]
      }
     ]
