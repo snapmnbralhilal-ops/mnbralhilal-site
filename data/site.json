@@ -1,35 +1,8 @@
 {
- "updated": "2026-11-07T13:31:15.597Z",
+ "updated": "2026-11-07T18:17:10.338Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
-   {
-    "id": 1603082,
-    "date": "2026-11-07T17:30:00+03:00",
-    "status": "PST",
-    "elapsed": null,
-    "venue": "Daman",
-    "league": {
-     "id": 307,
-     "name": "Pro League",
-     "country": "Saudi-Arabia",
-     "logo": "https://media.api-sports.io/football/leagues/307.png",
-     "round": "Regular Season - 13"
-    },
-    "home": {
-     "id": 2934,
-     "name": "Al-Ettifaq",
-     "ar": "الاتفاق",
-     "logo": "https://media.api-sports.io/football/teams/2934.png"
-    },
-    "away": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "goals": null
-   },
    {
     "id": 1603091,
     "date": "2026-11-20T20:00:00+03:00",
@@ -270,6 +243,33 @@
      "name": "Al-Hilal Saudi FC",
      "ar": "الهلال",
      "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null
+   },
+   {
+    "id": 1603137,
+    "date": "2027-02-11T22:00:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "Riyadh",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 19"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2944,
+     "name": "Al-Fayha",
+     "ar": "الفيحاء",
+     "logo": "https://media.api-sports.io/football/teams/2944.png"
     },
     "goals": null
    }
@@ -736,8 +736,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يحل ضيفاً على الاتفاق في دوري روشن السعودي",
-   "body": "السبت، 7 نوفمبر الساعة 17:30 بتوقيت مكة.",
+   "title": "الهلال يستضيف الدرعية في دوري روشن السعودي",
+   "body": "الجمعة، 20 نوفمبر الساعة 20:00 بتوقيت مكة.",
    "link": "#hilal"
   },
   {
@@ -870,8 +870,8 @@
      {
       "id": 1604056,
       "date": "2026-11-07T15:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sakakah",
       "league": {
        "id": 308,
@@ -900,8 +900,8 @@
      {
       "id": 1604057,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -922,13 +922,16 @@
        "ar": "العُلا",
        "logo": "https://media.api-sports.io/football/teams/26357.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       3
+      ]
      },
      {
       "id": 1604058,
       "date": "2026-11-07T19:35:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "2H",
+      "elapsed": 84,
       "venue": "Buraidah",
       "league": {
        "id": 308,
@@ -949,7 +952,10 @@
        "ar": "البكيرية",
        "logo": "https://media.api-sports.io/football/teams/2966.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      }
     ]
    },
@@ -963,8 +969,8 @@
      {
       "id": 1557463,
       "date": "2026-11-07T15:30:00+03:00",
-      "status": "HT",
-      "elapsed": 45,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Leeds",
       "league": {
        "id": 39,
@@ -986,15 +992,15 @@
        "logo": "https://media.api-sports.io/football/teams/47.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1557457,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -1015,13 +1021,16 @@
        "ar": "هال سيتي",
        "logo": "https://media.api-sports.io/football/teams/64.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1557461,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 39,
@@ -1042,13 +1051,16 @@
        "ar": "نيوكاسل",
        "logo": "https://media.api-sports.io/football/teams/34.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1557465,
       "date": "2026-11-07T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 45,
       "venue": "Nottingham",
       "league": {
        "id": 39,
@@ -1069,7 +1081,10 @@
        "ar": "مانشستر سيتي",
        "logo": "https://media.api-sports.io/football/teams/50.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      }
     ]
    },
@@ -1083,8 +1098,8 @@
      {
       "id": 1570447,
       "date": "2026-11-07T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 31,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Malaga",
       "league": {
        "id": 140,
@@ -1107,14 +1122,14 @@
       },
       "goals": [
        1,
-       0
+       2
       ]
      },
      {
       "id": 1570446,
       "date": "2026-11-07T18:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cornella",
       "league": {
        "id": 140,
@@ -1135,13 +1150,16 @@
        "ar": "ديبورتيفو لاكورونيا",
        "logo": "https://media.api-sports.io/football/teams/544.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570448,
       "date": "2026-11-07T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 45,
       "venue": "Pamplona",
       "league": {
        "id": 140,
@@ -1162,7 +1180,10 @@
        "ar": "أتلتيك بلباو",
        "logo": "https://media.api-sports.io/football/teams/531.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1570451,
@@ -1203,8 +1224,8 @@
      {
       "id": 1550188,
       "date": "2026-11-07T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cagliari",
       "league": {
        "id": 135,
@@ -1225,13 +1246,16 @@
        "ar": "فروزينوني",
        "logo": "https://media.api-sports.io/football/teams/512.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1550195,
       "date": "2026-11-07T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Turin",
       "league": {
        "id": 135,
@@ -1252,13 +1276,16 @@
        "ar": "ليتشي",
        "logo": "https://media.api-sports.io/football/teams/867.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       1
+      ]
      },
      {
       "id": 1550194,
       "date": "2026-11-07T20:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "2H",
+      "elapsed": 56,
       "venue": "Parma",
       "league": {
        "id": 135,
@@ -1279,7 +1306,10 @@
        "ar": "بولونيا",
        "logo": "https://media.api-sports.io/football/teams/500.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1550187,
@@ -1320,8 +1350,8 @@
      {
       "id": 1575212,
       "date": "2026-11-07T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Dortmund",
       "league": {
        "id": 78,
@@ -1342,13 +1372,16 @@
        "ar": "إلفرسبرغ",
        "logo": "https://media.api-sports.io/football/teams/1660.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      },
      {
       "id": 1575213,
       "date": "2026-11-07T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Leipzig",
       "league": {
        "id": 78,
@@ -1369,13 +1402,16 @@
        "ar": "أوغسبورغ",
        "logo": "https://media.api-sports.io/football/teams/170.png"
       },
-      "goals": null
+      "goals": [
+       5,
+       2
+      ]
      },
      {
       "id": 1575217,
       "date": "2026-11-07T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Mainz",
       "league": {
        "id": 78,
@@ -1396,13 +1432,16 @@
        "ar": "بايرن ميونخ",
        "logo": "https://media.api-sports.io/football/teams/157.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      },
      {
       "id": 1575220,
       "date": "2026-11-07T17:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Paderborn",
       "league": {
        "id": 78,
@@ -1423,13 +1462,16 @@
        "ar": "آينتراخت فرانكفورت",
        "logo": "https://media.api-sports.io/football/teams/169.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       2
+      ]
      },
      {
       "id": 1575214,
       "date": "2026-11-07T20:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 45,
       "venue": "Stuttgart",
       "league": {
        "id": 78,
@@ -1450,7 +1492,10 @@
        "ar": "فيردر بريمن",
        "logo": "https://media.api-sports.io/football/teams/162.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      }
     ]
    },
@@ -1464,8 +1509,8 @@
      {
       "id": 1552811,
       "date": "2026-11-07T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Auxerre",
       "league": {
        "id": 61,
@@ -1486,7 +1531,10 @@
        "ar": "باريس إف سي",
        "logo": "https://media.api-sports.io/football/teams/114.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1552815,
@@ -1527,8 +1575,8 @@
      {
       "id": 1597961,
       "date": "2026-11-07T17:15:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Gray Shamal",
       "league": {
        "id": 305,
@@ -1549,13 +1597,16 @@
        "ar": "السيلية",
        "logo": "https://media.api-sports.io/football/teams/2898.png"
       },
-      "goals": null
+      "goals": [
+       5,
+       0
+      ]
      },
      {
       "id": 1597957,
       "date": "2026-11-07T19:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "2H",
+      "elapsed": 88,
       "venue": "Doha",
       "league": {
        "id": 305,
@@ -1576,7 +1627,10 @@
        "ar": "الدحيل",
        "logo": "https://media.api-sports.io/football/teams/2904.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      }
     ]
    },
@@ -1590,8 +1644,8 @@
      {
       "id": 1643055,
       "date": "2026-11-07T15:55:00+03:00",
-      "status": "1H",
-      "elapsed": 36,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Ancient Zayed City",
       "league": {
        "id": 301,
@@ -1614,14 +1668,14 @@
       },
       "goals": [
        1,
-       0
+       3
       ]
      },
      {
       "id": 1643056,
       "date": "2026-11-07T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sharjah",
       "league": {
        "id": 301,
@@ -1642,13 +1696,16 @@
        "ar": "شباب الأهلي",
        "logo": "https://media.api-sports.io/football/teams/2870.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1643057,
       "date": "2026-11-07T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Dubai",
       "league": {
        "id": 301,
@@ -1669,7 +1726,10 @@
        "ar": "Khorfakkan",
        "logo": "https://media.api-sports.io/football/teams/4912.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      }
     ]
    },
@@ -1683,8 +1743,8 @@
      {
       "id": 1646870,
       "date": "2026-11-07T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Marrakech",
       "league": {
        "id": 200,
@@ -1705,13 +1765,16 @@
        "ar": "Wydad AC",
        "logo": "https://media.api-sports.io/football/teams/968.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      },
      {
       "id": 1646871,
       "date": "2026-11-07T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 17,
       "venue": "Fez",
       "league": {
        "id": 200,
@@ -1732,7 +1795,10 @@
        "ar": "FUS Rabat",
        "logo": "https://media.api-sports.io/football/teams/977.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1646872,
@@ -1773,7 +1839,7 @@
      {
       "id": 1575540,
       "date": "2026-11-07T18:30:00+03:00",
-      "status": "NS",
+      "status": "PST",
       "elapsed": null,
       "venue": "Funchal",
       "league": {
@@ -1800,8 +1866,8 @@
      {
       "id": 1575536,
       "date": "2026-11-07T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 14,
       "venue": "Alverca do Ribatejo",
       "league": {
        "id": 94,
@@ -1822,7 +1888,10 @@
        "ar": "Casa Pia",
        "logo": "https://media.api-sports.io/football/teams/4716.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1575543,
@@ -1863,8 +1932,8 @@
      {
       "id": 1552217,
       "date": "2026-11-07T18:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Sitard",
       "league": {
        "id": 88,
@@ -1885,13 +1954,16 @@
        "ar": "Telstar",
        "logo": "https://media.api-sports.io/football/teams/427.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       2
+      ]
      },
      {
       "id": 1552220,
       "date": "2026-11-07T20:45:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "1H",
+      "elapsed": 32,
       "venue": "The Hague",
       "league": {
        "id": 88,
@@ -1912,7 +1984,10 @@
        "ar": "Sparta Rotterdam",
        "logo": "https://media.api-sports.io/football/teams/426.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1552218,
@@ -1983,8 +2058,8 @@
      {
       "id": 1584465,
       "date": "2026-11-07T16:00:00+03:00",
-      "status": "1H",
-      "elapsed": 30,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Samsun",
       "league": {
        "id": 203,
@@ -2006,15 +2081,15 @@
        "logo": "https://media.api-sports.io/football/teams/607.png"
       },
       "goals": [
-       0,
+       1,
        0
       ]
      },
      {
       "id": 1584461,
       "date": "2026-11-07T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Istanbul",
       "league": {
        "id": 203,
@@ -2035,13 +2110,16 @@
        "ar": "Amed",
        "logo": "https://media.api-sports.io/football/teams/3579.png"
       },
-      "goals": null
+      "goals": [
+       4,
+       3
+      ]
      },
      {
       "id": 1584463,
       "date": "2026-11-07T19:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Izmir",
       "league": {
        "id": 203,
@@ -2062,7 +2140,10 @@
        "ar": "Başakşehir",
        "logo": "https://media.api-sports.io/football/teams/564.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      }
     ]
    },
@@ -2076,8 +2157,8 @@
      {
       "id": 1646790,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Accrington",
       "league": {
        "id": 45,
@@ -2098,13 +2179,16 @@
        "ar": "Wycombe",
        "logo": "https://media.api-sports.io/football/teams/1358.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1646791,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 45,
@@ -2125,13 +2209,16 @@
        "ar": "Tranmere",
        "logo": "https://media.api-sports.io/football/teams/1381.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1646792,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Borehamwood",
       "league": {
        "id": 45,
@@ -2152,13 +2239,16 @@
        "ar": "Wigan",
        "logo": "https://media.api-sports.io/football/teams/61.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       3
+      ]
      },
      {
       "id": 1646793,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bradford",
       "league": {
        "id": 45,
@@ -2179,13 +2269,16 @@
        "ar": "Marine",
        "logo": "https://media.api-sports.io/football/teams/7656.png"
       },
-      "goals": null
+      "goals": [
+       7,
+       0
+      ]
      },
      {
       "id": 1646795,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Bromley",
       "league": {
        "id": 45,
@@ -2206,13 +2299,16 @@
        "ar": "Rotherham",
        "logo": "https://media.api-sports.io/football/teams/73.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       2
+      ]
      },
      {
       "id": 1646796,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Burton upon Trent",
       "league": {
        "id": 45,
@@ -2233,13 +2329,16 @@
        "ar": "AFC Rushden & Diamonds",
        "logo": "https://media.api-sports.io/football/teams/7691.png"
       },
-      "goals": null
+      "goals": [
+       4,
+       0
+      ]
      },
      {
       "id": 1646797,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Carlisle",
       "league": {
        "id": 45,
@@ -2260,13 +2359,16 @@
        "ar": "Salford City",
        "logo": "https://media.api-sports.io/football/teams/1844.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1646798,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Cheltenham",
       "league": {
        "id": 45,
@@ -2287,13 +2389,16 @@
        "ar": "FC Halifax Town",
        "logo": "https://media.api-sports.io/football/teams/1841.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1646799,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Crewe",
       "league": {
        "id": 45,
@@ -2314,13 +2419,16 @@
        "ar": "AFC Wimbledon",
        "logo": "https://media.api-sports.io/football/teams/1333.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       1
+      ]
      },
      {
       "id": 1646800,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "River",
       "league": {
        "id": 45,
@@ -2341,13 +2449,16 @@
        "ar": "Wealdstone",
        "logo": "https://media.api-sports.io/football/teams/8663.png"
       },
-      "goals": null
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1646801,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Eastleigh",
       "league": {
        "id": 45,
@@ -2368,13 +2479,16 @@
        "ar": "Shrewsbury",
        "logo": "https://media.api-sports.io/football/teams/1352.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      },
      {
       "id": 1646802,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "AET",
+      "elapsed": 120,
       "venue": "Fleetwood",
       "league": {
        "id": 45,
@@ -2395,13 +2509,16 @@
        "ar": "Rochdale",
        "logo": "https://media.api-sports.io/football/teams/1339.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      },
      {
       "id": 1646803,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Guiseley",
       "league": {
        "id": 45,
@@ -2422,13 +2539,16 @@
        "ar": "Sutton Utd",
        "logo": "https://media.api-sports.io/football/teams/1835.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1646804,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "AET",
+      "elapsed": 120,
       "venue": "Hornchurch",
       "league": {
        "id": 45,
@@ -2449,13 +2569,16 @@
        "ar": "Blackpool",
        "logo": "https://media.api-sports.io/football/teams/1356.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      },
      {
       "id": 1646805,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Huddersfield",
       "league": {
        "id": 45,
@@ -2476,13 +2599,16 @@
        "ar": "Exeter City",
        "logo": "https://media.api-sports.io/football/teams/1364.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      },
      {
       "id": 1646806,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Kidderminster",
       "league": {
        "id": 45,
@@ -2503,13 +2629,16 @@
        "ar": "Doncaster",
        "logo": "https://media.api-sports.io/football/teams/1354.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1646807,
       "date": "2026-11-07T18:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "London",
       "league": {
        "id": 45,
@@ -2530,7 +2659,10 @@
        "ar": "Harborough Town",
        "logo": "https://media.api-sports.io/football/teams/8812.png"
       },
-      "goals": null
+      "goals": [
+       5,
+       1
+      ]
      }
     ]
    }
@@ -3511,6 +3643,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 63,
+      "name": "Leeds",
+      "ar": "ليدز",
+      "logo": "https://media.api-sports.io/football/teams/63.png"
+     },
+     "points": 14,
+     "gd": 2,
+     "played": 10,
+     "win": 3,
+     "draw": 5,
+     "lose": 2,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 35,
       "name": "Bournemouth",
       "ar": "بورنموث",
@@ -3525,7 +3673,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 47,
       "name": "Tottenham",
@@ -3533,15 +3681,15 @@
       "logo": "https://media.api-sports.io/football/teams/47.png"
      },
      "points": 12,
-     "gd": 0,
-     "played": 9,
+     "gd": -1,
+     "played": 10,
      "win": 3,
      "draw": 3,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 66,
       "name": "Aston Villa",
@@ -3557,28 +3705,12 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 64,
       "name": "Hull City",
       "ar": "هال سيتي",
       "logo": "https://media.api-sports.io/football/teams/64.png"
-     },
-     "points": 11,
-     "gd": 1,
-     "played": 9,
-     "win": 2,
-     "draw": 5,
-     "lose": 2,
-     "description": ""
-    },
-    {
-     "rank": 12,
-     "team": {
-      "id": 63,
-      "name": "Leeds",
-      "ar": "ليدز",
-      "logo": "https://media.api-sports.io/football/teams/63.png"
      },
      "points": 11,
      "gd": 1,
@@ -3852,6 +3984,22 @@
     {
      "rank": 9,
      "team": {
+      "id": 4665,
+      "name": "Racing Santander",
+      "ar": "راسينغ سانتاندير",
+      "logo": "https://media.api-sports.io/football/teams/4665.png"
+     },
+     "points": 14,
+     "gd": -13,
+     "played": 12,
+     "win": 4,
+     "draw": 2,
+     "lose": 6,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
       "id": 542,
       "name": "Alaves",
       "ar": "ألافيس",
@@ -3866,7 +4014,7 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 533,
       "name": "Villarreal",
@@ -3882,7 +4030,7 @@
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 538,
       "name": "Celta Vigo",
@@ -3898,7 +4046,7 @@
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 728,
       "name": "Rayo Vallecano",
@@ -3914,7 +4062,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 546,
       "name": "Getafe",
@@ -3930,7 +4078,7 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 540,
       "name": "Espanyol",
@@ -3946,7 +4094,7 @@
      "description": ""
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 727,
       "name": "Osasuna",
@@ -3955,22 +4103,6 @@
      },
      "points": 11,
      "gd": -11,
-     "played": 11,
-     "win": 3,
-     "draw": 2,
-     "lose": 6,
-     "description": ""
-    },
-    {
-     "rank": 16,
-     "team": {
-      "id": 4665,
-      "name": "Racing Santander",
-      "ar": "راسينغ سانتاندير",
-      "logo": "https://media.api-sports.io/football/teams/4665.png"
-     },
-     "points": 11,
-     "gd": -14,
      "played": 11,
      "win": 3,
      "draw": 2,
@@ -4034,11 +4166,11 @@
       "logo": "https://media.api-sports.io/football/teams/535.png"
      },
      "points": 5,
-     "gd": -13,
-     "played": 11,
+     "gd": -14,
+     "played": 12,
      "win": 0,
      "draw": 5,
-     "lose": 6,
+     "lose": 7,
      "description": "Relegation - LaLiga2"
     }
    ]
@@ -4135,11 +4267,11 @@
       "logo": "https://media.api-sports.io/football/teams/512.png"
      },
      "points": 20,
-     "gd": 10,
-     "played": 10,
+     "gd": 9,
+     "played": 11,
      "win": 6,
      "draw": 2,
-     "lose": 2,
+     "lose": 3,
      "description": "Play-offs"
     },
     {
@@ -4161,6 +4293,22 @@
     {
      "rank": 8,
      "team": {
+      "id": 490,
+      "name": "Cagliari",
+      "ar": "كالياري",
+      "logo": "https://media.api-sports.io/football/teams/490.png"
+     },
+     "points": 16,
+     "gd": -5,
+     "played": 11,
+     "win": 5,
+     "draw": 1,
+     "lose": 5,
+     "description": ""
+    },
+    {
+     "rank": 9,
+     "team": {
       "id": 492,
       "name": "Napoli",
       "ar": "نابولي",
@@ -4175,7 +4323,7 @@
      "description": ""
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 500,
       "name": "Bologna",
@@ -4191,23 +4339,23 @@
      "description": ""
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 503,
       "name": "Torino",
       "ar": "تورينو",
       "logo": "https://media.api-sports.io/football/teams/503.png"
      },
-     "points": 13,
+     "points": 14,
      "gd": -2,
-     "played": 10,
+     "played": 11,
      "win": 4,
-     "draw": 1,
+     "draw": 2,
      "lose": 5,
      "description": ""
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 495,
       "name": "Genoa",
@@ -4216,22 +4364,6 @@
      },
      "points": 13,
      "gd": -4,
-     "played": 10,
-     "win": 4,
-     "draw": 1,
-     "lose": 5,
-     "description": ""
-    },
-    {
-     "rank": 12,
-     "team": {
-      "id": 490,
-      "name": "Cagliari",
-      "ar": "كالياري",
-      "logo": "https://media.api-sports.io/football/teams/490.png"
-     },
-     "points": 13,
-     "gd": -6,
      "played": 10,
      "win": 4,
      "draw": 1,
@@ -4262,11 +4394,11 @@
       "ar": "ليتشي",
       "logo": "https://media.api-sports.io/football/teams/867.png"
      },
-     "points": 9,
+     "points": 10,
      "gd": -10,
-     "played": 10,
+     "played": 11,
      "win": 3,
-     "draw": 0,
+     "draw": 1,
      "lose": 7,
      "description": ""
     },
@@ -4379,10 +4511,10 @@
       "ar": "بايرن ميونخ",
       "logo": "https://media.api-sports.io/football/teams/157.png"
      },
-     "points": 18,
-     "gd": 19,
-     "played": 8,
-     "win": 5,
+     "points": 21,
+     "gd": 20,
+     "played": 9,
+     "win": 6,
      "draw": 3,
      "lose": 0,
      "description": "Champions League league stage"
@@ -4395,16 +4527,32 @@
       "ar": "بوروسيا دورتموند",
       "logo": "https://media.api-sports.io/football/teams/165.png"
      },
-     "points": 18,
-     "gd": 8,
-     "played": 8,
-     "win": 5,
+     "points": 21,
+     "gd": 9,
+     "played": 9,
+     "win": 6,
      "draw": 3,
      "lose": 0,
      "description": "Champions League league stage"
     },
     {
      "rank": 3,
+     "team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "ar": "لايبزيغ",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+     },
+     "points": 18,
+     "gd": 14,
+     "played": 9,
+     "win": 6,
+     "draw": 0,
+     "lose": 3,
+     "description": "Champions League league stage"
+    },
+    {
+     "rank": 4,
      "team": {
       "id": 160,
       "name": "SC Freiburg",
@@ -4417,22 +4565,6 @@
      "win": 5,
      "draw": 1,
      "lose": 2,
-     "description": "Champions League league stage"
-    },
-    {
-     "rank": 4,
-     "team": {
-      "id": 173,
-      "name": "RB Leipzig",
-      "ar": "لايبزيغ",
-      "logo": "https://media.api-sports.io/football/teams/173.png"
-     },
-     "points": 15,
-     "gd": 11,
-     "played": 8,
-     "win": 5,
-     "draw": 0,
-     "lose": 3,
      "description": "Champions League league stage"
     },
     {
@@ -4476,15 +4608,31 @@
       "logo": "https://media.api-sports.io/football/teams/1660.png"
      },
      "points": 13,
-     "gd": 0,
-     "played": 8,
+     "gd": -1,
+     "played": 9,
      "win": 4,
      "draw": 1,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
      "rank": 8,
+     "team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "ar": "آينتراخت فرانكفورت",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+     },
+     "points": 12,
+     "gd": -5,
+     "played": 9,
+     "win": 3,
+     "draw": 3,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 9,
      "team": {
       "id": 175,
       "name": "Hamburger SV",
@@ -4500,22 +4648,6 @@
      "description": ""
     },
     {
-     "rank": 9,
-     "team": {
-      "id": 169,
-      "name": "Eintracht Frankfurt",
-      "ar": "آينتراخت فرانكفورت",
-      "logo": "https://media.api-sports.io/football/teams/169.png"
-     },
-     "points": 11,
-     "gd": -5,
-     "played": 8,
-     "win": 3,
-     "draw": 2,
-     "lose": 3,
-     "description": ""
-    },
-    {
      "rank": 10,
      "team": {
       "id": 164,
@@ -4524,15 +4656,31 @@
       "logo": "https://media.api-sports.io/football/teams/164.png"
      },
      "points": 10,
-     "gd": 0,
-     "played": 8,
+     "gd": -1,
+     "played": 9,
      "win": 3,
      "draw": 1,
-     "lose": 4,
+     "lose": 5,
      "description": ""
     },
     {
      "rank": 11,
+     "team": {
+      "id": 185,
+      "name": "SC Paderborn 07",
+      "ar": "بادربورن",
+      "logo": "https://media.api-sports.io/football/teams/185.png"
+     },
+     "points": 10,
+     "gd": -3,
+     "played": 9,
+     "win": 2,
+     "draw": 4,
+     "lose": 3,
+     "description": ""
+    },
+    {
+     "rank": 12,
      "team": {
       "id": 170,
       "name": "FC Augsburg",
@@ -4540,15 +4688,15 @@
       "logo": "https://media.api-sports.io/football/teams/170.png"
      },
      "points": 9,
-     "gd": 3,
-     "played": 8,
+     "gd": 0,
+     "played": 9,
      "win": 2,
      "draw": 3,
-     "lose": 3,
+     "lose": 4,
      "description": ""
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 172,
       "name": "VfB Stuttgart",
@@ -4564,7 +4712,7 @@
      "description": ""
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 167,
       "name": "1899 Hoffenheim",
@@ -4580,28 +4728,12 @@
      "description": ""
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 192,
       "name": "1. FC Köln",
       "ar": "كولن",
       "logo": "https://media.api-sports.io/football/teams/192.png"
-     },
-     "points": 9,
-     "gd": -3,
-     "played": 8,
-     "win": 2,
-     "draw": 3,
-     "lose": 3,
-     "description": ""
-    },
-    {
-     "rank": 15,
-     "team": {
-      "id": 185,
-      "name": "SC Paderborn 07",
-      "ar": "بادربورن",
-      "logo": "https://media.api-sports.io/football/teams/185.png"
      },
      "points": 9,
      "gd": -3,
@@ -4956,6 +5088,6 @@
   }
  },
  "errors": [],
- "requests": 23,
+ "requests": 32,
  "plan": "Pro"
 }
