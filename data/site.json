@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T23:15:46.776Z",
+ "updated": "2026-11-11T02:51:27.100Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [],
@@ -182,13 +182,13 @@
   },
   {
    "tag": "عالمي",
-   "title": "Plymouth Parkway يفوز على Berkhamsted 2-1",
-   "body": "في كأس الاتحاد الإنجليزي.",
+   "title": "فالنسيا يكتسح Tavernes 6-0",
+   "body": "في كأس ملك إسبانيا.",
    "link": "#today"
   },
   {
    "tag": "عالمي",
-   "title": "8 مباريات اليوم في أبرز الدوريات",
+   "title": "5 مباريات اليوم في أبرز الدوريات",
    "body": "أبرزها في مباريات ودية دولية.",
    "link": "#today"
   }
@@ -196,6 +196,155 @@
  "teamName": "الهلال",
  "season": 2026,
  "today": {
+  "date": "2026-11-11",
+  "groups": [
+   {
+    "league": {
+     "id": 10,
+     "name": "Friendlies",
+     "logo": "https://media.api-sports.io/football/leagues/10.png"
+    },
+    "matches": [
+     {
+      "id": 1649540,
+      "date": "2026-11-11T03:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 10985,
+       "name": "Sint Maarten",
+       "ar": "Sint Maarten",
+       "logo": "https://media.api-sports.io/football/teams/10985.png"
+      },
+      "away": {
+       "id": 8150,
+       "name": "Anguilla",
+       "ar": "Anguilla",
+       "logo": "https://media.api-sports.io/football/teams/8150.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1647357,
+      "date": "2026-11-11T15:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 1542,
+       "name": "Vietnam",
+       "ar": "Vietnam",
+       "logo": "https://media.api-sports.io/football/teams/1542.png"
+      },
+      "away": {
+       "id": 1557,
+       "name": "Chinese Taipei",
+       "ar": "Chinese Taipei",
+       "logo": "https://media.api-sports.io/football/teams/1557.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1647634,
+      "date": "2026-11-11T15:35:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Chengdu",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 25359,
+       "name": "China U19",
+       "ar": "China U19",
+       "logo": "https://media.api-sports.io/football/teams/25359.png"
+      },
+      "away": {
+       "id": 19157,
+       "name": "Vietnam U19",
+       "ar": "Vietnam U19",
+       "logo": "https://media.api-sports.io/football/teams/19157.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1647635,
+      "date": "2026-11-11T17:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 21466,
+       "name": "England U18",
+       "ar": "England U18",
+       "logo": "https://media.api-sports.io/football/teams/21466.png"
+      },
+      "away": {
+       "id": 22435,
+       "name": "Netherlands U18",
+       "ar": "Netherlands U18",
+       "logo": "https://media.api-sports.io/football/teams/22435.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1649007,
+      "date": "2026-11-11T17:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 22341,
+       "name": "Switzerland U18",
+       "ar": "Switzerland U18",
+       "logo": "https://media.api-sports.io/football/teams/22341.png"
+      },
+      "away": {
+       "id": 10342,
+       "name": "Norway U19",
+       "ar": "Norway U19",
+       "logo": "https://media.api-sports.io/football/teams/10342.png"
+      },
+      "goals": null
+     }
+    ]
+   }
+  ]
+ },
+ "yesterday": {
   "date": "2026-11-10",
   "groups": [
    {
@@ -208,8 +357,8 @@
      {
       "id": 1649005,
       "date": "2026-11-10T11:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Pleiku",
       "league": {
        "id": 10,
@@ -230,13 +379,16 @@
        "ar": "Singapore U23",
        "logo": "https://media.api-sports.io/football/teams/10956.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       0
+      ]
      },
      {
       "id": 1649006,
       "date": "2026-11-10T15:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Pleiku",
       "league": {
        "id": 10,
@@ -257,7 +409,10 @@
        "ar": "Thailand U23",
        "logo": "https://media.api-sports.io/football/teams/10960.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      }
     ]
    },
@@ -271,8 +426,8 @@
      {
       "id": 1644336,
       "date": "2026-11-10T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Azcoitia",
       "league": {
        "id": 143,
@@ -293,14 +448,17 @@
        "ar": "ألافيس",
        "logo": "https://media.api-sports.io/football/teams/542.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       6
+      ]
      },
      {
       "id": 1644365,
       "date": "2026-11-10T21:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
-      "venue": "Campo de Futbol Beitikuntzea",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Navarre",
       "league": {
        "id": 143,
        "name": "Copa del Rey",
@@ -320,13 +478,16 @@
        "ar": "Eibar",
        "logo": "https://media.api-sports.io/football/teams/545.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       3
+      ]
      },
      {
       "id": 1644335,
       "date": "2026-11-10T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Amorebieta-Etxano",
       "league": {
        "id": 143,
@@ -347,13 +508,16 @@
        "ar": "UD Logroñés",
        "logo": "https://media.api-sports.io/football/teams/5280.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       0
+      ]
      },
      {
       "id": 1644362,
       "date": "2026-11-10T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Estepona",
       "league": {
        "id": 143,
@@ -374,13 +538,16 @@
        "ar": "Real Jaén",
        "logo": "https://media.api-sports.io/football/teams/5274.png"
       },
-      "goals": null
+      "goals": [
+       1,
+       2
+      ]
      },
      {
       "id": 1644382,
       "date": "2026-11-10T22:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Leganes",
       "league": {
        "id": 143,
@@ -401,13 +568,16 @@
        "ar": "Leganes",
        "logo": "https://media.api-sports.io/football/teams/537.png"
       },
-      "goals": null
+      "goals": [
+       0,
+       1
+      ]
      },
      {
       "id": 1644380,
       "date": "2026-11-10T23:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Valencia",
       "league": {
        "id": 143,
@@ -428,2126 +598,9 @@
        "ar": "فالنسيا",
        "logo": "https://media.api-sports.io/football/teams/532.png"
       },
-      "goals": null
-     }
-    ]
-   }
-  ]
- },
- "yesterday": {
-  "date": "2026-11-09",
-  "groups": [
-   {
-    "league": {
-     "id": 45,
-     "name": "FA Cup",
-     "logo": "https://media.api-sports.io/football/leagues/45.png"
-    },
-    "matches": [
-     {
-      "id": 1646814,
-      "date": "2026-11-09T22:30:00+03:00",
-      "status": "AET",
-      "elapsed": 120,
-      "venue": "Plymouth",
-      "league": {
-       "id": 45,
-       "name": "FA Cup",
-       "country": "England",
-       "logo": "https://media.api-sports.io/football/leagues/45.png",
-       "round": "1/128-finals"
-      },
-      "home": {
-       "id": 8899,
-       "name": "Plymouth Parkway",
-       "ar": "Plymouth Parkway",
-       "logo": "https://media.api-sports.io/football/teams/8899.png"
-      },
-      "away": {
-       "id": 7214,
-       "name": "Berkhamsted",
-       "ar": "Berkhamsted",
-       "logo": "https://media.api-sports.io/football/teams/7214.png"
-      },
-      "goals": [
-       2,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 51,
-     "name": "National League - South",
-     "logo": "https://media.api-sports.io/football/leagues/51.png"
-    },
-    "matches": [
-     {
-      "id": 1588281,
-      "date": "2026-11-09T22:45:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Melbourne Stadium",
-      "league": {
-       "id": 51,
-       "name": "National League - South",
-       "country": "England",
-       "logo": "https://media.api-sports.io/football/leagues/51.png",
-       "round": "National League South - 3"
-      },
-      "home": {
-       "id": 4689,
-       "name": "Chelmsford City",
-       "ar": "Chelmsford City",
-       "logo": "https://media.api-sports.io/football/teams/4689.png"
-      },
-      "away": {
-       "id": 1840,
-       "name": "Ebbsfleet United",
-       "ar": "Ebbsfleet United",
-       "logo": "https://media.api-sports.io/football/teams/1840.png"
-      },
-      "goals": [
-       2,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 72,
-     "name": "Serie B",
-     "logo": "https://media.api-sports.io/football/leagues/72.png"
-    },
-    "matches": [
-     {
-      "id": 1520963,
-      "date": "2026-11-09T01:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Fortaleza",
-      "league": {
-       "id": 72,
-       "name": "Serie B",
-       "country": "Brazil",
-       "logo": "https://media.api-sports.io/football/leagues/72.png",
-       "round": "Regular Season - 37"
-      },
-      "home": {
-       "id": 129,
-       "name": "Ceara",
-       "ar": "Ceara",
-       "logo": "https://media.api-sports.io/football/teams/129.png"
-      },
-      "away": {
-       "id": 125,
-       "name": "America Mineiro",
-       "ar": "America Mineiro",
-       "logo": "https://media.api-sports.io/football/teams/125.png"
-      },
       "goals": [
        0,
-       1
-      ]
-     },
-     {
-      "id": 1520965,
-      "date": "2026-11-09T01:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Goiania",
-      "league": {
-       "id": 72,
-       "name": "Serie B",
-       "country": "Brazil",
-       "logo": "https://media.api-sports.io/football/leagues/72.png",
-       "round": "Regular Season - 37"
-      },
-      "home": {
-       "id": 151,
-       "name": "Goias",
-       "ar": "Goias",
-       "logo": "https://media.api-sports.io/football/teams/151.png"
-      },
-      "away": {
-       "id": 139,
-       "name": "Ponte Preta",
-       "ar": "Ponte Preta",
-       "logo": "https://media.api-sports.io/football/teams/139.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 82,
-     "name": "Frauen Bundesliga",
-     "logo": "https://media.api-sports.io/football/leagues/82.png"
-    },
-    "matches": [
-     {
-      "id": 1593167,
-      "date": "2026-11-09T20:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Cologne",
-      "league": {
-       "id": 82,
-       "name": "Frauen Bundesliga",
-       "country": "Germany",
-       "logo": "https://media.api-sports.io/football/leagues/82.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 1871,
-       "name": "FC Koln W",
-       "ar": "FC Koln W",
-       "logo": "https://media.api-sports.io/football/teams/1871.png"
-      },
-      "away": {
-       "id": 20501,
-       "name": "RB Leipzig W",
-       "ar": "RB Leipzig W",
-       "logo": "https://media.api-sports.io/football/teams/20501.png"
-      },
-      "goals": [
-       3,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 95,
-     "name": "Segunda Liga",
-     "logo": "https://media.api-sports.io/football/leagues/95.png"
-    },
-    "matches": [
-     {
-      "id": 1576529,
-      "date": "2026-11-09T23:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Torres Vedras",
-      "league": {
-       "id": 95,
-       "name": "Segunda Liga",
-       "country": "Portugal",
-       "logo": "https://media.api-sports.io/football/leagues/95.png",
-       "round": "Regular Season - 10"
-      },
-      "home": {
-       "id": 4799,
-       "name": "Torreense",
-       "ar": "Torreense",
-       "logo": "https://media.api-sports.io/football/teams/4799.png"
-      },
-      "away": {
-       "id": 4662,
-       "name": "União de Leiria",
-       "ar": "União de Leiria",
-       "logo": "https://media.api-sports.io/football/teams/4662.png"
-      },
-      "goals": [
-       2,
-       3
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 103,
-     "name": "Eliteserien",
-     "logo": "https://media.api-sports.io/football/leagues/103.png"
-    },
-    "matches": [
-     {
-      "id": 1494798,
-      "date": "2026-11-09T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Kristiansand",
-      "league": {
-       "id": 103,
-       "name": "Eliteserien",
-       "country": "Norway",
-       "logo": "https://media.api-sports.io/football/leagues/103.png",
-       "round": "Regular Season - 26"
-      },
-      "home": {
-       "id": 320,
-       "name": "Kristiansund BK",
-       "ar": "Kristiansund BK",
-       "logo": "https://media.api-sports.io/football/teams/320.png"
-      },
-      "away": {
-       "id": 326,
-       "name": "Valerenga",
-       "ar": "Valerenga",
-       "logo": "https://media.api-sports.io/football/teams/326.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 120,
-     "name": "1. Division",
-     "logo": "https://media.api-sports.io/football/leagues/120.png"
-    },
-    "matches": [
-     {
-      "id": 1551374,
-      "date": "2026-11-09T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Hvidovre",
-      "league": {
-       "id": 120,
-       "name": "1. Division",
-       "country": "Denmark",
-       "logo": "https://media.api-sports.io/football/leagues/120.png",
-       "round": "Regular Season - 14"
-      },
-      "home": {
-       "id": 2072,
-       "name": "Hvidovre",
-       "ar": "Hvidovre",
-       "logo": "https://media.api-sports.io/football/teams/2072.png"
-      },
-      "away": {
-       "id": 6004,
-       "name": "Aarhus Fremad",
-       "ar": "Aarhus Fremad",
-       "logo": "https://media.api-sports.io/football/teams/6004.png"
-      },
-      "goals": [
-       3,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 128,
-     "name": "Liga Profesional Argentina",
-     "logo": "https://media.api-sports.io/football/leagues/128.png"
-    },
-    "matches": [
-     {
-      "id": 1493232,
-      "date": "2026-11-09T01:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Santiago del Estero",
-      "league": {
-       "id": 128,
-       "name": "Liga Profesional Argentina",
-       "country": "Argentina",
-       "logo": "https://media.api-sports.io/football/leagues/128.png",
-       "round": "Clausura - 16"
-      },
-      "home": {
-       "id": 1065,
-       "name": "Central Cordoba de Santiago",
-       "ar": "Central Cordoba de Santiago",
-       "logo": "https://media.api-sports.io/football/teams/1065.png"
-      },
-      "away": {
-       "id": 446,
-       "name": "Lanus",
-       "ar": "Lanus",
-       "logo": "https://media.api-sports.io/football/teams/446.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 134,
-     "name": "Torneo Federal A",
-     "logo": "https://media.api-sports.io/football/leagues/134.png"
-    },
-    "matches": [
-     {
-      "id": 1648326,
-      "date": "2026-11-09T00:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 134,
-       "name": "Torneo Federal A",
-       "country": "Argentina",
-       "logo": "https://media.api-sports.io/football/leagues/134.png",
-       "round": "Quarter-finals"
-      },
-      "home": {
-       "id": 23255,
-       "name": "Sarmiento de La Banda",
-       "ar": "Sarmiento de La Banda",
-       "logo": "https://media.api-sports.io/football/teams/23255.png"
-      },
-      "away": {
-       "id": 1962,
-       "name": "Alvarado",
-       "ar": "Alvarado",
-       "logo": "https://media.api-sports.io/football/teams/1962.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 141,
-     "name": "Segunda División",
-     "logo": "https://media.api-sports.io/football/leagues/141.png"
-    },
-    "matches": [
-     {
-      "id": 1570011,
-      "date": "2026-11-09T22:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Las Palmas de Gran Canaria",
-      "league": {
-       "id": 141,
-       "name": "Segunda División",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/141.png",
-       "round": "Regular Season - 13"
-      },
-      "home": {
-       "id": 534,
-       "name": "Las Palmas",
-       "ar": "Las Palmas",
-       "logo": "https://media.api-sports.io/football/teams/534.png"
-      },
-      "away": {
-       "id": 9692,
-       "name": "Eldense",
-       "ar": "Eldense",
-       "logo": "https://media.api-sports.io/football/teams/9692.png"
-      },
-      "goals": [
-       2,
-       0
-      ]
-     },
-     {
-      "id": 1570013,
-      "date": "2026-11-09T22:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Sabadell",
-      "league": {
-       "id": 141,
-       "name": "Segunda División",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/141.png",
-       "round": "Regular Season - 13"
-      },
-      "home": {
-       "id": 9593,
-       "name": "Sabadell",
-       "ar": "Sabadell",
-       "logo": "https://media.api-sports.io/football/teams/9593.png"
-      },
-      "away": {
-       "id": 9585,
-       "name": "Real Sociedad II",
-       "ar": "Real Sociedad II",
-       "logo": "https://media.api-sports.io/football/teams/9585.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 142,
-     "name": "Primera División Femenina",
-     "logo": "https://media.api-sports.io/football/leagues/142.png"
-    },
-    "matches": [
-     {
-      "id": 1573633,
-      "date": "2026-11-09T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Madrid",
-      "league": {
-       "id": 142,
-       "name": "Primera División Femenina",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/142.png",
-       "round": "Regular Season - 10"
-      },
-      "home": {
-       "id": 1910,
-       "name": "Atletico Madrid W",
-       "ar": "Atletico Madrid W",
-       "logo": "https://media.api-sports.io/football/teams/1910.png"
-      },
-      "away": {
-       "id": 19896,
-       "name": "FC Levante Badalona W",
-       "ar": "FC Levante Badalona W",
-       "logo": "https://media.api-sports.io/football/teams/19896.png"
-      },
-      "goals": [
-       3,
-       0
-      ]
-     },
-     {
-      "id": 1573636,
-      "date": "2026-11-09T23:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Estadio Municipal de Riazor",
-      "league": {
-       "id": 142,
-       "name": "Primera División Femenina",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/142.png",
-       "round": "Regular Season - 10"
-      },
-      "home": {
-       "id": 6376,
-       "name": "Deportivo de La Coruña W",
-       "ar": "Deportivo de La Coruña W",
-       "logo": "https://media.api-sports.io/football/teams/6376.png"
-      },
-      "away": {
-       "id": 1909,
-       "name": "Valencia W",
-       "ar": "Valencia W",
-       "logo": "https://media.api-sports.io/football/teams/1909.png"
-      },
-      "goals": [
-       0,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 162,
-     "name": "Primera División",
-     "logo": "https://media.api-sports.io/football/leagues/162.png"
-    },
-    "matches": [
-     {
-      "id": 1551726,
-      "date": "2026-11-09T01:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 162,
-       "name": "Primera División",
-       "country": "Costa-Rica",
-       "logo": "https://media.api-sports.io/football/leagues/162.png",
-       "round": "Apertura - 16"
-      },
-      "home": {
-       "id": 816,
-       "name": "Deportivo Saprissa",
-       "ar": "Deportivo Saprissa",
-       "logo": "https://media.api-sports.io/football/teams/816.png"
-      },
-      "away": {
-       "id": 2045,
-       "name": "Puntarenas FC",
-       "ar": "Puntarenas FC",
-       "logo": "https://media.api-sports.io/football/teams/2045.png"
-      },
-      "goals": [
-       2,
-       1
-      ]
-     },
-     {
-      "id": 1551724,
-      "date": "2026-11-09T03:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Heredia",
-      "league": {
-       "id": 162,
-       "name": "Primera División",
-       "country": "Costa-Rica",
-       "logo": "https://media.api-sports.io/football/leagues/162.png",
-       "round": "Apertura - 16"
-      },
-      "home": {
-       "id": 815,
-       "name": "CS Herediano",
-       "ar": "CS Herediano",
-       "logo": "https://media.api-sports.io/football/teams/815.png"
-      },
-      "away": {
-       "id": 24391,
-       "name": "Inter San Carlos",
-       "ar": "Inter San Carlos",
-       "logo": "https://media.api-sports.io/football/teams/24391.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 173,
-     "name": "Second League",
-     "logo": "https://media.api-sports.io/football/leagues/173.png"
-    },
-    "matches": [
-     {
-      "id": 1571611,
-      "date": "2026-11-09T15:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Burgas",
-      "league": {
-       "id": 173,
-       "name": "Second League",
-       "country": "Bulgaria",
-       "logo": "https://media.api-sports.io/football/leagues/173.png",
-       "round": "Regular Season - 15"
-      },
-      "home": {
-       "id": 8530,
-       "name": "Chernomorets 1919 Burgas",
-       "ar": "Chernomorets 1919 Burgas",
-       "logo": "https://media.api-sports.io/football/teams/8530.png"
-      },
-      "away": {
-       "id": 8528,
-       "name": "Yantra 2019",
-       "ar": "Yantra 2019",
-       "logo": "https://media.api-sports.io/football/teams/8528.png"
-      },
-      "goals": [
-       3,
-       3
-      ]
-     },
-     {
-      "id": 1571612,
-      "date": "2026-11-09T15:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Sofia",
-      "league": {
-       "id": 173,
-       "name": "Second League",
-       "country": "Bulgaria",
-       "logo": "https://media.api-sports.io/football/leagues/173.png",
-       "round": "Regular Season - 15"
-      },
-      "home": {
-       "id": 1415,
-       "name": "CSKA Sofia II",
-       "ar": "CSKA Sofia II",
-       "logo": "https://media.api-sports.io/football/teams/1415.png"
-      },
-      "away": {
-       "id": 8547,
-       "name": "Rilski Sportist",
-       "ar": "Rilski Sportist",
-       "logo": "https://media.api-sports.io/football/teams/8547.png"
-      },
-      "goals": [
-       3,
-       1
-      ]
-     },
-     {
-      "id": 1571613,
-      "date": "2026-11-09T18:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Veliko Tarnovo",
-      "league": {
-       "id": 173,
-       "name": "Second League",
-       "country": "Bulgaria",
-       "logo": "https://media.api-sports.io/football/leagues/173.png",
-       "round": "Regular Season - 15"
-      },
-      "home": {
-       "id": 855,
-       "name": "Etar Veliko Tarnovo",
-       "ar": "Etar Veliko Tarnovo",
-       "logo": "https://media.api-sports.io/football/teams/855.png"
-      },
-      "away": {
-       "id": 1424,
-       "name": "Montana",
-       "ar": "Montana",
-       "logo": "https://media.api-sports.io/football/teams/1424.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     },
-     {
-      "id": 1571614,
-      "date": "2026-11-09T18:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Albena Stadium",
-      "league": {
-       "id": 173,
-       "name": "Second League",
-       "country": "Bulgaria",
-       "logo": "https://media.api-sports.io/football/leagues/173.png",
-       "round": "Regular Season - 15"
-      },
-      "home": {
-       "id": 21836,
-       "name": "Fratria",
-       "ar": "Fratria",
-       "logo": "https://media.api-sports.io/football/teams/21836.png"
-      },
-      "away": {
-       "id": 8550,
-       "name": "Sportist Svoge",
-       "ar": "Sportist Svoge",
-       "logo": "https://media.api-sports.io/football/teams/8550.png"
-      },
-      "goals": [
-       6,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 234,
-     "name": "Liga Nacional",
-     "logo": "https://media.api-sports.io/football/leagues/234.png"
-    },
-    "matches": [
-     {
-      "id": 1642313,
-      "date": "2026-11-09T00:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Puerto Cortes",
-      "league": {
-       "id": 234,
-       "name": "Liga Nacional",
-       "country": "Honduras",
-       "logo": "https://media.api-sports.io/football/leagues/234.png",
-       "round": "Apertura - 14"
-      },
-      "home": {
-       "id": 1057,
-       "name": "Platense FC",
-       "ar": "Platense FC",
-       "logo": "https://media.api-sports.io/football/teams/1057.png"
-      },
-      "away": {
-       "id": 21858,
-       "name": "Génesis",
-       "ar": "Génesis",
-       "logo": "https://media.api-sports.io/football/teams/21858.png"
-      },
-      "goals": [
-       2,
-       4
-      ]
-     },
-     {
-      "id": 1642314,
-      "date": "2026-11-09T02:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 234,
-       "name": "Liga Nacional",
-       "country": "Honduras",
-       "logo": "https://media.api-sports.io/football/leagues/234.png",
-       "round": "Apertura - 14"
-      },
-      "home": {
-       "id": 28005,
-       "name": "Atletico Independiente",
-       "ar": "Atletico Independiente",
-       "logo": "https://media.api-sports.io/football/teams/28005.png"
-      },
-      "away": {
-       "id": 1058,
-       "name": "Real Espana",
-       "ar": "Real Espana",
-       "logo": "https://media.api-sports.io/football/teams/1058.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     },
-     {
-      "id": 1642315,
-      "date": "2026-11-09T04:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "San Pedro Sula",
-      "league": {
-       "id": 234,
-       "name": "Liga Nacional",
-       "country": "Honduras",
-       "logo": "https://media.api-sports.io/football/leagues/234.png",
-       "round": "Apertura - 14"
-      },
-      "home": {
-       "id": 1050,
-       "name": "CD Marathon",
-       "ar": "CD Marathon",
-       "logo": "https://media.api-sports.io/football/teams/1050.png"
-      },
-      "away": {
-       "id": 11685,
-       "name": "Atlético Choloma",
-       "ar": "Atlético Choloma",
-       "logo": "https://media.api-sports.io/football/teams/11685.png"
-      },
-      "goals": [
-       2,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 236,
-     "name": "First League",
-     "logo": "https://media.api-sports.io/football/leagues/236.png"
-    },
-    "matches": [
-     {
-      "id": 1577583,
-      "date": "2026-11-09T19:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Domodedovo",
-      "league": {
-       "id": 236,
-       "name": "First League",
-       "country": "Russia",
-       "logo": "https://media.api-sports.io/football/leagues/236.png",
-       "round": "Regular Season - 17"
-      },
-      "home": {
-       "id": 6833,
-       "name": "Veles",
-       "ar": "Veles",
-       "logo": "https://media.api-sports.io/football/teams/6833.png"
-      },
-      "away": {
-       "id": 6801,
-       "name": "KAMAZ",
-       "ar": "KAMAZ",
-       "logo": "https://media.api-sports.io/football/teams/6801.png"
-      },
-      "goals": [
-       2,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 239,
-     "name": "Primera A",
-     "logo": "https://media.api-sports.io/football/leagues/239.png"
-    },
-    "matches": [
-     {
-      "id": 1549859,
-      "date": "2026-11-09T00:05:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Monteria",
-      "league": {
-       "id": 239,
-       "name": "Primera A",
-       "country": "Colombia",
-       "logo": "https://media.api-sports.io/football/leagues/239.png",
-       "round": "Clausura - 18"
-      },
-      "home": {
-       "id": 1133,
-       "name": "Jaguares",
-       "ar": "Jaguares",
-       "logo": "https://media.api-sports.io/football/teams/1133.png"
-      },
-      "away": {
-       "id": 1131,
-       "name": "Bucaramanga",
-       "ar": "Bucaramanga",
-       "logo": "https://media.api-sports.io/football/teams/1131.png"
-      },
-      "goals": [
-       0,
-       4
-      ]
-     },
-     {
-      "id": 1549857,
-      "date": "2026-11-09T02:10:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Ibague",
-      "league": {
-       "id": 239,
-       "name": "Primera A",
-       "country": "Colombia",
-       "logo": "https://media.api-sports.io/football/leagues/239.png",
-       "round": "Clausura - 18"
-      },
-      "home": {
-       "id": 1142,
-       "name": "Deportes Tolima",
-       "ar": "Deportes Tolima",
-       "logo": "https://media.api-sports.io/football/teams/1142.png"
-      },
-      "away": {
-       "id": 1125,
-       "name": "Millonarios",
-       "ar": "Millonarios",
-       "logo": "https://media.api-sports.io/football/teams/1125.png"
-      },
-      "goals": [
-       2,
-       1
-      ]
-     },
-     {
-      "id": 1549853,
-      "date": "2026-11-09T04:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Valledupar",
-      "league": {
-       "id": 239,
-       "name": "Primera A",
-       "country": "Colombia",
-       "logo": "https://media.api-sports.io/football/leagues/239.png",
-       "round": "Clausura - 18"
-      },
-      "home": {
-       "id": 1141,
-       "name": "Alianza Valledupar",
-       "ar": "Alianza Valledupar",
-       "logo": "https://media.api-sports.io/football/teams/1141.png"
-      },
-      "away": {
-       "id": 1464,
-       "name": "Llaneros",
-       "ar": "Llaneros",
-       "logo": "https://media.api-sports.io/football/teams/1464.png"
-      },
-      "goals": [
-       1,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 240,
-     "name": "Primera B",
-     "logo": "https://media.api-sports.io/football/leagues/240.png"
-    },
-    "matches": [
-     {
-      "id": 1649137,
-      "date": "2026-11-09T23:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Estadio Municipal Raul Miranda",
-      "league": {
-       "id": 240,
-       "name": "Primera B",
-       "country": "Colombia",
-       "logo": "https://media.api-sports.io/football/leagues/240.png",
-       "round": "Clausura - Quadrangular - 4"
-      },
-      "home": {
-       "id": 27411,
-       "name": "Ind. Yumbo",
-       "ar": "Ind. Yumbo",
-       "logo": "https://media.api-sports.io/football/teams/27411.png"
-      },
-      "away": {
-       "id": 1465,
-       "name": "Union Magdalena",
-       "ar": "Union Magdalena",
-       "logo": "https://media.api-sports.io/football/teams/1465.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 242,
-     "name": "Liga Pro",
-     "logo": "https://media.api-sports.io/football/leagues/242.png"
-    },
-    "matches": [
-     {
-      "id": 1639804,
-      "date": "2026-11-09T00:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Guayaquil",
-      "league": {
-       "id": 242,
-       "name": "Liga Pro",
-       "country": "Ecuador",
-       "logo": "https://media.api-sports.io/football/leagues/242.png",
-       "round": "Championship Group - 6"
-      },
-      "home": {
-       "id": 1152,
-       "name": "Barcelona SC",
-       "ar": "برشلونة",
-       "logo": "https://media.api-sports.io/football/teams/1152.png"
-      },
-      "away": {
-       "id": 1158,
-       "name": "LDU de Quito",
-       "ar": "LDU de Quito",
-       "logo": "https://media.api-sports.io/football/teams/1158.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     },
-     {
-      "id": 1639834,
-      "date": "2026-11-09T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Ambato",
-      "league": {
-       "id": 242,
-       "name": "Liga Pro",
-       "country": "Ecuador",
-       "logo": "https://media.api-sports.io/football/leagues/242.png",
-       "round": "Relegation Group - 6"
-      },
-      "home": {
-       "id": 1162,
-       "name": "Mushuc Runa SC",
-       "ar": "Mushuc Runa SC",
-       "logo": "https://media.api-sports.io/football/teams/1162.png"
-      },
-      "away": {
-       "id": 1149,
-       "name": "Delfin SC",
-       "ar": "Delfin SC",
-       "logo": "https://media.api-sports.io/football/teams/1149.png"
-      },
-      "goals": [
-       2,
-       1
-      ]
-     },
-     {
-      "id": 1639835,
-      "date": "2026-11-09T23:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Ambato",
-      "league": {
-       "id": 242,
-       "name": "Liga Pro",
-       "country": "Ecuador",
-       "logo": "https://media.api-sports.io/football/leagues/242.png",
-       "round": "Relegation Group - 6"
-      },
-      "home": {
-       "id": 1151,
-       "name": "Tecnico Universitario",
-       "ar": "Tecnico Universitario",
-       "logo": "https://media.api-sports.io/football/teams/1151.png"
-      },
-      "away": {
-       "id": 1980,
-       "name": "Manta FC",
-       "ar": "Manta FC",
-       "logo": "https://media.api-sports.io/football/teams/1980.png"
-      },
-      "goals": [
-       1,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 252,
-     "name": "Division Profesional - Clausura",
-     "logo": "https://media.api-sports.io/football/leagues/252.png"
-    },
-    "matches": [
-     {
-      "id": 1632061,
-      "date": "2026-11-09T01:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Asuncion",
-      "league": {
-       "id": 252,
-       "name": "Division Profesional - Clausura",
-       "country": "Paraguay",
-       "logo": "https://media.api-sports.io/football/leagues/252.png",
-       "round": "Clausura - 19"
-      },
-      "home": {
-       "id": 1187,
-       "name": "Sportivo Trinidense",
-       "ar": "Sportivo Trinidense",
-       "logo": "https://media.api-sports.io/football/teams/1187.png"
-      },
-      "away": {
-       "id": 10487,
-       "name": "Sportivo Ameliano",
-       "ar": "Sportivo Ameliano",
-       "logo": "https://media.api-sports.io/football/teams/10487.png"
-      },
-      "goals": [
-       3,
-       0
-      ]
-     },
-     {
-      "id": 1632059,
-      "date": "2026-11-09T23:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "San Lorenzo",
-      "league": {
-       "id": 252,
-       "name": "Division Profesional - Clausura",
-       "country": "Paraguay",
-       "logo": "https://media.api-sports.io/football/leagues/252.png",
-       "round": "Clausura - 19"
-      },
-      "home": {
-       "id": 2125,
-       "name": "Club Sp. San Lorenzo",
-       "ar": "Club Sp. San Lorenzo",
-       "logo": "https://media.api-sports.io/football/teams/2125.png"
-      },
-      "away": {
-       "id": 1185,
-       "name": "Rubio NU",
-       "ar": "Rubio NU",
-       "logo": "https://media.api-sports.io/football/teams/1185.png"
-      },
-      "goals": [
-       2,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 262,
-     "name": "Liga MX",
-     "logo": "https://media.api-sports.io/football/leagues/262.png"
-    },
-    "matches": [
-     {
-      "id": 1551036,
-      "date": "2026-11-09T03:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Santiago Querétaro",
-      "league": {
-       "id": 262,
-       "name": "Liga MX",
-       "country": "Mexico",
-       "logo": "https://media.api-sports.io/football/leagues/262.png",
-       "round": "Apertura - 16"
-      },
-      "home": {
-       "id": 2290,
-       "name": "Club Queretaro",
-       "ar": "Club Queretaro",
-       "logo": "https://media.api-sports.io/football/teams/2290.png"
-      },
-      "away": {
-       "id": 2291,
-       "name": "Puebla",
-       "ar": "Puebla",
-       "logo": "https://media.api-sports.io/football/teams/2291.png"
-      },
-      "goals": [
-       0,
-       2
-      ]
-     },
-     {
-      "id": 1551037,
-      "date": "2026-11-09T05:10:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Leon",
-      "league": {
-       "id": 262,
-       "name": "Liga MX",
-       "country": "Mexico",
-       "logo": "https://media.api-sports.io/football/leagues/262.png",
-       "round": "Apertura - 16"
-      },
-      "home": {
-       "id": 2289,
-       "name": "Leon",
-       "ar": "Leon",
-       "logo": "https://media.api-sports.io/football/teams/2289.png"
-      },
-      "away": {
-       "id": 2278,
-       "name": "Guadalajara Chivas",
-       "ar": "Guadalajara Chivas",
-       "logo": "https://media.api-sports.io/football/teams/2278.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 263,
-     "name": "Liga de Expansión MX",
-     "logo": "https://media.api-sports.io/football/leagues/263.png"
-    },
-    "matches": [
-     {
-      "id": 1648270,
-      "date": "2026-11-09T04:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Veracruz",
-      "league": {
-       "id": 263,
-       "name": "Liga de Expansión MX",
-       "country": "Mexico",
-       "logo": "https://media.api-sports.io/football/leagues/263.png",
-       "round": "Quarter-finals"
-      },
-      "home": {
-       "id": 27935,
-       "name": "Piratas",
-       "ar": "Piratas",
-       "logo": "https://media.api-sports.io/football/teams/27935.png"
-      },
-      "away": {
-       "id": 14276,
-       "name": "Cancún",
-       "ar": "Cancún",
-       "logo": "https://media.api-sports.io/football/teams/14276.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 265,
-     "name": "Primera División",
-     "logo": "https://media.api-sports.io/football/leagues/265.png"
-    },
-    "matches": [
-     {
-      "id": 1505561,
-      "date": "2026-11-09T02:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Concepcion",
-      "league": {
-       "id": 265,
-       "name": "Primera División",
-       "country": "Chile",
-       "logo": "https://media.api-sports.io/football/leagues/265.png",
-       "round": "Regular Season - 27"
-      },
-      "home": {
-       "id": 2324,
-       "name": "Universidad de Concepcion",
-       "ar": "Universidad de Concepcion",
-       "logo": "https://media.api-sports.io/football/teams/2324.png"
-      },
-      "away": {
-       "id": 2320,
-       "name": "O'Higgins",
-       "ar": "O'Higgins",
-       "logo": "https://media.api-sports.io/football/teams/2320.png"
-      },
-      "goals": [
-       3,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 281,
-     "name": "Primera División",
-     "logo": "https://media.api-sports.io/football/leagues/281.png"
-    },
-    "matches": [
-     {
-      "id": 1549547,
-      "date": "2026-11-09T02:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Cusco",
-      "league": {
-       "id": 281,
-       "name": "Primera División",
-       "country": "Peru",
-       "logo": "https://media.api-sports.io/football/leagues/281.png",
-       "round": "Clausura - 16"
-      },
-      "home": {
-       "id": 20960,
-       "name": "Deportivo Garcilaso",
-       "ar": "Deportivo Garcilaso",
-       "logo": "https://media.api-sports.io/football/teams/20960.png"
-      },
-      "away": {
-       "id": 2558,
-       "name": "Comerciantes Unidos",
-       "ar": "Comerciantes Unidos",
-       "logo": "https://media.api-sports.io/football/teams/2558.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
-     },
-     {
-      "id": 1549553,
-      "date": "2026-11-09T04:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Lima",
-      "league": {
-       "id": 281,
-       "name": "Primera División",
-       "country": "Peru",
-       "logo": "https://media.api-sports.io/football/leagues/281.png",
-       "round": "Clausura - 16"
-      },
-      "home": {
-       "id": 2540,
-       "name": "Universitario",
-       "ar": "Universitario",
-       "logo": "https://media.api-sports.io/football/teams/2540.png"
-      },
-      "away": {
-       "id": 22489,
-       "name": "UCV Moquegua",
-       "ar": "UCV Moquegua",
-       "logo": "https://media.api-sports.io/football/teams/22489.png"
-      },
-      "goals": [
-       2,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 283,
-     "name": "Liga I",
-     "logo": "https://media.api-sports.io/football/leagues/283.png"
-    },
-    "matches": [
-     {
-      "id": 1565299,
-      "date": "2026-11-09T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Botosani",
-      "league": {
-       "id": 283,
-       "name": "Liga I",
-       "country": "Romania",
-       "logo": "https://media.api-sports.io/football/leagues/283.png",
-       "round": "Regular Season - 15"
-      },
-      "home": {
-       "id": 2581,
-       "name": "FC Botosani",
-       "ar": "FC Botosani",
-       "logo": "https://media.api-sports.io/football/teams/2581.png"
-      },
-      "away": {
-       "id": 6886,
-       "name": "Oţelul",
-       "ar": "Oţelul",
-       "logo": "https://media.api-sports.io/football/teams/6886.png"
-      },
-      "goals": [
-       1,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 284,
-     "name": "Liga II",
-     "logo": "https://media.api-sports.io/football/leagues/284.png"
-    },
-    "matches": [
-     {
-      "id": 1602549,
-      "date": "2026-11-09T15:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Timisoara",
-      "league": {
-       "id": 284,
-       "name": "Liga II",
-       "country": "Romania",
-       "logo": "https://media.api-sports.io/football/leagues/284.png",
-       "round": "Regular Season - 13"
-      },
-      "home": {
-       "id": 2606,
-       "name": "FC Politehnica Timisoara",
-       "ar": "FC Politehnica Timisoara",
-       "logo": "https://media.api-sports.io/football/teams/2606.png"
-      },
-      "away": {
-       "id": 6229,
-       "name": "CSM Reşiţa",
-       "ar": "CSM Reşiţa",
-       "logo": "https://media.api-sports.io/football/teams/6229.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
-     },
-     {
-      "id": 1602544,
-      "date": "2026-11-09T18:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "CNF Buftea",
-      "league": {
-       "id": 284,
-       "name": "Liga II",
-       "country": "Romania",
-       "logo": "https://media.api-sports.io/football/leagues/284.png",
-       "round": "Regular Season - 13"
-      },
-      "home": {
-       "id": 19170,
-       "name": "CS Dinamo București",
-       "ar": "CS Dinamo București",
-       "logo": "https://media.api-sports.io/football/teams/19170.png"
-      },
-      "away": {
-       "id": 2616,
-       "name": "CSM Ramnicu Valcea",
-       "ar": "CSM Ramnicu Valcea",
-       "logo": "https://media.api-sports.io/football/teams/2616.png"
-      },
-      "goals": [
-       2,
-       3
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 287,
-     "name": "Prva Liga",
-     "logo": "https://media.api-sports.io/football/leagues/287.png"
-    },
-    "matches": [
-     {
-      "id": 1554325,
-      "date": "2026-11-09T18:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 287,
-       "name": "Prva Liga",
-       "country": "Serbia",
-       "logo": "https://media.api-sports.io/football/leagues/287.png",
-       "round": "Regular Season - 17"
-      },
-      "home": {
-       "id": 2655,
-       "name": "Napredak",
-       "ar": "Napredak",
-       "logo": "https://media.api-sports.io/football/teams/2655.png"
-      },
-      "away": {
-       "id": 26409,
-       "name": "OFK Bor 1919",
-       "ar": "OFK Bor 1919",
-       "logo": "https://media.api-sports.io/football/teams/26409.png"
-      },
-      "goals": [
-       2,
-       0
-      ]
-     },
-     {
-      "id": 1554211,
-      "date": "2026-11-09T20:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Ivanjica",
-      "league": {
-       "id": 287,
-       "name": "Prva Liga",
-       "country": "Serbia",
-       "logo": "https://media.api-sports.io/football/leagues/287.png",
-       "round": "Regular Season - 17"
-      },
-      "home": {
-       "id": 2653,
-       "name": "Javor",
-       "ar": "Javor",
-       "logo": "https://media.api-sports.io/football/teams/2653.png"
-      },
-      "away": {
-       "id": 2646,
-       "name": "TSC Backa Topola",
-       "ar": "TSC Backa Topola",
-       "logo": "https://media.api-sports.io/football/teams/2646.png"
-      },
-      "goals": [
-       2,
-       2
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 291,
-     "name": "Azadegan League",
-     "logo": "https://media.api-sports.io/football/leagues/291.png"
-    },
-    "matches": [
-     {
-      "id": 1640742,
-      "date": "2026-11-09T14:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 291,
-       "name": "Azadegan League",
-       "country": "Iran",
-       "logo": "https://media.api-sports.io/football/leagues/291.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 22236,
-       "name": "Mes Soongoun",
-       "ar": "Mes Soongoun",
-       "logo": "https://media.api-sports.io/football/teams/22236.png"
-      },
-      "away": {
-       "id": 10399,
-       "name": "Naft Gachsaran",
-       "ar": "Naft Gachsaran",
-       "logo": "https://media.api-sports.io/football/teams/10399.png"
-      },
-      "goals": [
-       2,
-       1
-      ]
-     },
-     {
-      "id": 1640743,
-      "date": "2026-11-09T15:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 291,
-       "name": "Azadegan League",
-       "country": "Iran",
-       "logo": "https://media.api-sports.io/football/leagues/291.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 2736,
-       "name": "Saipa",
-       "ar": "Saipa",
-       "logo": "https://media.api-sports.io/football/teams/2736.png"
-      },
-      "away": {
-       "id": 15541,
-       "name": "Havadar",
-       "ar": "Havadar",
-       "logo": "https://media.api-sports.io/football/teams/15541.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
-     },
-     {
-      "id": 1640744,
-      "date": "2026-11-09T16:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 291,
-       "name": "Azadegan League",
-       "country": "Iran",
-       "logo": "https://media.api-sports.io/football/leagues/291.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 28321,
-       "name": "Novin Ahvaz",
-       "ar": "Novin Ahvaz",
-       "logo": "https://media.api-sports.io/football/teams/28321.png"
-      },
-      "away": {
-       "id": 20801,
-       "name": "Ario Eslamshahr",
-       "ar": "Ario Eslamshahr",
-       "logo": "https://media.api-sports.io/football/teams/20801.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
-     },
-     {
-      "id": 1640745,
-      "date": "2026-11-09T16:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 291,
-       "name": "Azadegan League",
-       "country": "Iran",
-       "logo": "https://media.api-sports.io/football/leagues/291.png",
-       "round": "Regular Season - 9"
-      },
-      "home": {
-       "id": 2702,
-       "name": "Pars Jonoubi JAM",
-       "ar": "Pars Jonoubi JAM",
-       "logo": "https://media.api-sports.io/football/teams/2702.png"
-      },
-      "away": {
-       "id": 24800,
-       "name": "Naft Bandar Abbas",
-       "ar": "Naft Bandar Abbas",
-       "logo": "https://media.api-sports.io/football/teams/24800.png"
-      },
-      "goals": [
-       4,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 299,
-     "name": "Primera División",
-     "logo": "https://media.api-sports.io/football/leagues/299.png"
-    },
-    "matches": [
-     {
-      "id": 1646934,
-      "date": "2026-11-09T00:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Acarigua",
-      "league": {
-       "id": 299,
-       "name": "Primera División",
-       "country": "Venezuela",
-       "logo": "https://media.api-sports.io/football/leagues/299.png",
-       "round": "Clausura - Quadrangular - 5"
-      },
-      "home": {
-       "id": 2814,
-       "name": "Portuguesa FC",
-       "ar": "Portuguesa FC",
-       "logo": "https://media.api-sports.io/football/teams/2814.png"
-      },
-      "away": {
-       "id": 2825,
-       "name": "Metropolitanos FC",
-       "ar": "Metropolitanos FC",
-       "logo": "https://media.api-sports.io/football/teams/2825.png"
-      },
-      "goals": [
-       2,
-       2
-      ]
-     },
-     {
-      "id": 1646935,
-      "date": "2026-11-09T02:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Caracas",
-      "league": {
-       "id": 299,
-       "name": "Primera División",
-       "country": "Venezuela",
-       "logo": "https://media.api-sports.io/football/leagues/299.png",
-       "round": "Clausura - Quadrangular - 5"
-      },
-      "home": {
-       "id": 2813,
-       "name": "Deportivo La Guaira",
-       "ar": "Deportivo La Guaira",
-       "logo": "https://media.api-sports.io/football/teams/2813.png"
-      },
-      "away": {
-       "id": 2810,
-       "name": "Carabobo FC",
-       "ar": "Carabobo FC",
-       "logo": "https://media.api-sports.io/football/teams/2810.png"
-      },
-      "goals": [
-       0,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 309,
-     "name": "Division 2",
-     "logo": "https://media.api-sports.io/football/leagues/309.png"
-    },
-    "matches": [
-     {
-      "id": 1634399,
-      "date": "2026-11-09T15:25:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 309,
-       "name": "Division 2",
-       "country": "Saudi-Arabia",
-       "logo": "https://media.api-sports.io/football/leagues/309.png",
-       "round": "Regular Season - 6"
-      },
-      "home": {
-       "id": 2927,
-       "name": "Najran",
-       "ar": "Najran",
-       "logo": "https://media.api-sports.io/football/teams/2927.png"
-      },
-      "away": {
-       "id": 2946,
-       "name": "Al Najoom",
-       "ar": "Al Najoom",
-       "logo": "https://media.api-sports.io/football/teams/2946.png"
-      },
-      "goals": [
-       0,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 327,
-     "name": "Erovnuli Liga",
-     "logo": "https://media.api-sports.io/football/leagues/327.png"
-    },
-    "matches": [
-     {
-      "id": 1509214,
-      "date": "2026-11-09T19:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Tbilisi",
-      "league": {
-       "id": 327,
-       "name": "Erovnuli Liga",
-       "country": "Georgia",
-       "logo": "https://media.api-sports.io/football/leagues/327.png",
-       "round": "Regular Season - 32"
-      },
-      "home": {
-       "id": 3502,
-       "name": "FC Iberia 1999",
-       "ar": "FC Iberia 1999",
-       "logo": "https://media.api-sports.io/football/teams/3502.png"
-      },
-      "away": {
-       "id": 3505,
-       "name": "Gagra",
-       "ar": "Gagra",
-       "logo": "https://media.api-sports.io/football/teams/3505.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 334,
-     "name": "Persha Liga",
-     "logo": "https://media.api-sports.io/football/leagues/334.png"
-    },
-    "matches": [
-     {
-      "id": 1581968,
-      "date": "2026-11-09T12:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Sumy",
-      "league": {
-       "id": 334,
-       "name": "Persha Liga",
-       "country": "Ukraine",
-       "logo": "https://media.api-sports.io/football/leagues/334.png",
-       "round": "Regular Season - 15"
-      },
-      "home": {
-       "id": 13223,
-       "name": "Viktoriya Mykolaivka",
-       "ar": "Viktoriya Mykolaivka",
-       "logo": "https://media.api-sports.io/football/teams/13223.png"
-      },
-      "away": {
-       "id": 3620,
-       "name": "Ahrobiznes Volochysk",
-       "ar": "Ahrobiznes Volochysk",
-       "logo": "https://media.api-sports.io/football/teams/3620.png"
-      },
-      "goals": [
-       2,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 339,
-     "name": "Liga Nacional",
-     "logo": "https://media.api-sports.io/football/leagues/339.png"
-    },
-    "matches": [
-     {
-      "id": 1559698,
-      "date": "2026-11-09T00:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Estadio Verapaz",
-      "league": {
-       "id": 339,
-       "name": "Liga Nacional",
-       "country": "Guatemala",
-       "logo": "https://media.api-sports.io/football/leagues/339.png",
-       "round": "Regular Season - 19"
-      },
-      "home": {
-       "id": 3657,
-       "name": "Cobán Imperial",
-       "ar": "Cobán Imperial",
-       "logo": "https://media.api-sports.io/football/teams/3657.png"
-      },
-      "away": {
-       "id": 3667,
-       "name": "Xelajú",
-       "ar": "Xelajú",
-       "logo": "https://media.api-sports.io/football/teams/3667.png"
-      },
-      "goals": [
-       0,
-       1
-      ]
-     },
-     {
-      "id": 1559697,
-      "date": "2026-11-09T03:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Antigua Guatemala",
-      "league": {
-       "id": 339,
-       "name": "Liga Nacional",
-       "country": "Guatemala",
-       "logo": "https://media.api-sports.io/football/leagues/339.png",
-       "round": "Regular Season - 19"
-      },
-      "home": {
-       "id": 3656,
-       "name": "Antigua GFC",
-       "ar": "Antigua GFC",
-       "logo": "https://media.api-sports.io/football/teams/3656.png"
-      },
-      "away": {
-       "id": 3664,
-       "name": "Malacateco",
-       "ar": "Malacateco",
-       "logo": "https://media.api-sports.io/football/teams/3664.png"
-      },
-      "goals": [
-       2,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 343,
-     "name": "First League",
-     "logo": "https://media.api-sports.io/football/leagues/343.png"
-    },
-    "matches": [
-     {
-      "id": 1605115,
-      "date": "2026-11-09T13:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 343,
-       "name": "First League",
-       "country": "Armenia",
-       "logo": "https://media.api-sports.io/football/leagues/343.png",
-       "round": "Regular Season - 13"
-      },
-      "home": {
-       "id": 24965,
-       "name": "Bentonit Ijevan",
-       "ar": "Bentonit Ijevan",
-       "logo": "https://media.api-sports.io/football/teams/24965.png"
-      },
-      "away": {
-       "id": 25114,
-       "name": "Araks Ararat",
-       "ar": "Araks Ararat",
-       "logo": "https://media.api-sports.io/football/teams/25114.png"
-      },
-      "goals": [
-       2,
-       2
-      ]
-     },
-     {
-      "id": 1605118,
-      "date": "2026-11-09T13:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Yerevan",
-      "league": {
-       "id": 343,
-       "name": "First League",
-       "country": "Armenia",
-       "logo": "https://media.api-sports.io/football/leagues/343.png",
-       "round": "Regular Season - 13"
-      },
-      "home": {
-       "id": 11174,
-       "name": "Mika",
-       "ar": "Mika",
-       "logo": "https://media.api-sports.io/football/teams/11174.png"
-      },
-      "away": {
-       "id": 3697,
-       "name": "Shirak II",
-       "ar": "Shirak II",
-       "logo": "https://media.api-sports.io/football/teams/3697.png"
-      },
-      "goals": [
-       3,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 344,
-     "name": "Primera División",
-     "logo": "https://media.api-sports.io/football/leagues/344.png"
-    },
-    "matches": [
-     {
-      "id": 1645539,
-      "date": "2026-11-09T00:15:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "La Paz",
-      "league": {
-       "id": 344,
-       "name": "Primera División",
-       "country": "Bolivia",
-       "logo": "https://media.api-sports.io/football/leagues/344.png",
-       "round": "Apertura - 25"
-      },
-      "home": {
-       "id": 3702,
-       "name": "Bolívar",
-       "ar": "Bolívar",
-       "logo": "https://media.api-sports.io/football/teams/3702.png"
-      },
-      "away": {
-       "id": 3711,
-       "name": "The Strongest",
-       "ar": "The Strongest",
-       "logo": "https://media.api-sports.io/football/teams/3711.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
-     },
-     {
-      "id": 1645540,
-      "date": "2026-11-09T02:30:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Santa Cruz de la Sierra",
-      "league": {
-       "id": 344,
-       "name": "Primera División",
-       "country": "Bolivia",
-       "logo": "https://media.api-sports.io/football/leagues/344.png",
-       "round": "Apertura - 25"
-      },
-      "home": {
-       "id": 3701,
-       "name": "Blooming",
-       "ar": "Blooming",
-       "logo": "https://media.api-sports.io/football/teams/3701.png"
-      },
-      "away": {
-       "id": 3707,
-       "name": "Oriente Petrolero",
-       "ar": "Oriente Petrolero",
-       "logo": "https://media.api-sports.io/football/teams/3707.png"
-      },
-      "goals": [
-       0,
-       1
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 370,
-     "name": "Primera Division",
-     "logo": "https://media.api-sports.io/football/leagues/370.png"
-    },
-    "matches": [
-     {
-      "id": 1600652,
-      "date": "2026-11-09T02:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "",
-      "league": {
-       "id": 370,
-       "name": "Primera Division",
-       "country": "El-Salvador",
-       "logo": "https://media.api-sports.io/football/leagues/370.png",
-       "round": "Apertura - 19"
-      },
-      "home": {
-       "id": 4306,
-       "name": "Municipal Limeño",
-       "ar": "Municipal Limeño",
-       "logo": "https://media.api-sports.io/football/teams/4306.png"
-      },
-      "away": {
-       "id": 28018,
-       "name": "Atletico Balboa",
-       "ar": "Atletico Balboa",
-       "logo": "https://media.api-sports.io/football/teams/28018.png"
-      },
-      "goals": [
-       3,
-       4
+       6
       ]
      }
     ]
@@ -4484,54 +2537,27 @@
  },
  "errors": [
   {
-   "endpoint": "status",
-   "params": {},
-   "error": [
-    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
-   ]
-  },
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-11-11",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
-   ]
-  },
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-11-10",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
-   ]
-  },
-  {
    "endpoint": "fixtures",
    "params": {
     "date": "2026-10-01",
     "timezone": "Asia/Riyadh"
    },
    "error": [
-    "Free plans do not have access to this date, try from 2026-11-09 to 2026-11-11."
+    "Free plans do not have access to this date, try from 2026-11-10 to 2026-11-12."
    ]
   },
   {
    "endpoint": "fixtures",
    "params": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "timezone": "Asia/Riyadh"
    },
    "error": [
-    "Free plans do not have access to this date, try from 2026-11-09 to 2026-11-11."
+    "Free plans do not have access to this date, try from 2026-11-10 to 2026-11-12."
    ]
   }
  ],
- "requests": 5,
+ "requests": 6,
  "plan": "Pro",
  "archiveComplete": false
 }
