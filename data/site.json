@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T17:57:34.675Z",
+ "updated": "2026-11-12T00:07:04.663Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [],
@@ -182,13 +182,13 @@
   },
   {
    "tag": "عالمي",
-   "title": "فالنسيا يكتسح Tavernes 6-0",
-   "body": "في كأس ملك إسبانيا.",
+   "title": "Sint Maarten يكتسح Anguilla 5-1",
+   "body": "في مباريات ودية دولية.",
    "link": "#today"
   },
   {
    "tag": "عالمي",
-   "title": "5 مباريات اليوم في أبرز الدوريات",
+   "title": "19 مباراة اليوم في أبرز الدوريات",
    "body": "أبرزها في مباريات ودية دولية.",
    "link": "#today"
   }
@@ -196,6 +196,551 @@
  "teamName": "الهلال",
  "season": 2026,
  "today": {
+  "date": "2026-11-12",
+  "groups": [
+   {
+    "league": {
+     "id": 10,
+     "name": "Friendlies",
+     "logo": "https://media.api-sports.io/football/leagues/10.png"
+    },
+    "matches": [
+     {
+      "id": 1586134,
+      "date": "2026-11-12T09:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Auckland",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 4673,
+       "name": "New Zealand",
+       "ar": "New Zealand",
+       "logo": "https://media.api-sports.io/football/teams/4673.png"
+      },
+      "away": {
+       "id": 1537,
+       "name": "India",
+       "ar": "India",
+       "logo": "https://media.api-sports.io/football/teams/1537.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1649008,
+      "date": "2026-11-12T11:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Pleiku",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 10960,
+       "name": "Thailand U23",
+       "ar": "Thailand U23",
+       "logo": "https://media.api-sports.io/football/teams/10960.png"
+      },
+      "away": {
+       "id": 10954,
+       "name": "Qatar U23",
+       "ar": "Qatar U23",
+       "logo": "https://media.api-sports.io/football/teams/10954.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1649009,
+      "date": "2026-11-12T15:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Pleiku",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 10956,
+       "name": "Singapore U23",
+       "ar": "Singapore U23",
+       "logo": "https://media.api-sports.io/football/teams/10956.png"
+      },
+      "away": {
+       "id": 10964,
+       "name": "Vietnam U23",
+       "ar": "Vietnam U23",
+       "logo": "https://media.api-sports.io/football/teams/10964.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1649010,
+      "date": "2026-11-12T16:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Murcia",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 8221,
+       "name": "Scotland U21",
+       "ar": "Scotland U21",
+       "logo": "https://media.api-sports.io/football/teams/8221.png"
+      },
+      "away": {
+       "id": 8228,
+       "name": "Ukraine U21",
+       "ar": "Ukraine U21",
+       "logo": "https://media.api-sports.io/football/teams/8228.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1647358,
+      "date": "2026-11-12T18:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Tashkent",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 1568,
+       "name": "Uzbekistan",
+       "ar": "Uzbekistan",
+       "logo": "https://media.api-sports.io/football/teams/1568.png"
+      },
+      "away": {
+       "id": 4,
+       "name": "Russia",
+       "ar": "Russia",
+       "logo": "https://media.api-sports.io/football/teams/4.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1649541,
+      "date": "2026-11-12T19:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 10287,
+       "name": "France U20",
+       "ar": "France U20",
+       "logo": "https://media.api-sports.io/football/teams/10287.png"
+      },
+      "away": {
+       "id": 22429,
+       "name": "Denmark U20",
+       "ar": "Denmark U20",
+       "logo": "https://media.api-sports.io/football/teams/22429.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1649011,
+      "date": "2026-11-12T20:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Kaunas",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 1097,
+       "name": "Lithuania",
+       "ar": "Lithuania",
+       "logo": "https://media.api-sports.io/football/teams/1097.png"
+      },
+      "away": {
+       "id": 8171,
+       "name": "Suriname",
+       "ar": "Suriname",
+       "logo": "https://media.api-sports.io/football/teams/8171.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1647359,
+      "date": "2026-11-12T20:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 1112,
+       "name": "Malta",
+       "ar": "Malta",
+       "logo": "https://media.api-sports.io/football/teams/1112.png"
+      },
+      "away": {
+       "id": 2995,
+       "name": "Eswatini",
+       "ar": "Eswatini",
+       "logo": "https://media.api-sports.io/football/teams/2995.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 5,
+     "name": "UEFA Nations League",
+     "logo": "https://media.api-sports.io/football/leagues/5.png"
+    },
+    "matches": [
+     {
+      "id": 1528958,
+      "date": "2026-11-12T20:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Izmir",
+      "league": {
+       "id": 5,
+       "name": "UEFA Nations League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/5.png",
+       "round": "League A - 5"
+      },
+      "home": {
+       "id": 777,
+       "name": "Türkiye",
+       "ar": "Türkiye",
+       "logo": "https://media.api-sports.io/football/teams/777.png"
+      },
+      "away": {
+       "id": 1,
+       "name": "Belgium",
+       "ar": "بلجيكا",
+       "logo": "https://media.api-sports.io/football/teams/1.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1528959,
+      "date": "2026-11-12T20:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Yerevan",
+      "league": {
+       "id": 5,
+       "name": "UEFA Nations League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/5.png",
+       "round": "League C - 5"
+      },
+      "home": {
+       "id": 1094,
+       "name": "Armenia",
+       "ar": "Armenia",
+       "logo": "https://media.api-sports.io/football/teams/1094.png"
+      },
+      "away": {
+       "id": 1106,
+       "name": "Cyprus",
+       "ar": "Cyprus",
+       "logo": "https://media.api-sports.io/football/teams/1106.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1528960,
+      "date": "2026-11-12T22:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Milan",
+      "league": {
+       "id": 5,
+       "name": "UEFA Nations League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/5.png",
+       "round": "League A - 5"
+      },
+      "home": {
+       "id": 768,
+       "name": "Italy",
+       "ar": "إيطاليا",
+       "logo": "https://media.api-sports.io/football/teams/768.png"
+      },
+      "away": {
+       "id": 2,
+       "name": "France",
+       "ar": "فرنسا",
+       "logo": "https://media.api-sports.io/football/teams/2.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1528961,
+      "date": "2026-11-12T22:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Prague",
+      "league": {
+       "id": 5,
+       "name": "UEFA Nations League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/5.png",
+       "round": "League A - 5"
+      },
+      "home": {
+       "id": 770,
+       "name": "Czechia",
+       "ar": "Czechia",
+       "logo": "https://media.api-sports.io/football/teams/770.png"
+      },
+      "away": {
+       "id": 9,
+       "name": "Spain",
+       "ar": "إسبانيا",
+       "logo": "https://media.api-sports.io/football/teams/9.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1528962,
+      "date": "2026-11-12T22:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "London",
+      "league": {
+       "id": 5,
+       "name": "UEFA Nations League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/5.png",
+       "round": "League A - 5"
+      },
+      "home": {
+       "id": 10,
+       "name": "England",
+       "ar": "إنجلترا",
+       "logo": "https://media.api-sports.io/football/teams/10.png"
+      },
+      "away": {
+       "id": 3,
+       "name": "Croatia",
+       "ar": "كرواتيا",
+       "logo": "https://media.api-sports.io/football/teams/3.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1528963,
+      "date": "2026-11-12T22:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Tirana",
+      "league": {
+       "id": 5,
+       "name": "UEFA Nations League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/5.png",
+       "round": "League C - 5"
+      },
+      "home": {
+       "id": 778,
+       "name": "Albania",
+       "ar": "Albania",
+       "logo": "https://media.api-sports.io/football/teams/778.png"
+      },
+      "away": {
+       "id": 1099,
+       "name": "Finland",
+       "ar": "Finland",
+       "logo": "https://media.api-sports.io/football/teams/1099.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1528964,
+      "date": "2026-11-12T22:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Serravalle",
+      "league": {
+       "id": 5,
+       "name": "UEFA Nations League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/5.png",
+       "round": "League C - 5"
+      },
+      "home": {
+       "id": 1115,
+       "name": "San Marino",
+       "ar": "San Marino",
+       "logo": "https://media.api-sports.io/football/teams/1115.png"
+      },
+      "away": {
+       "id": 1100,
+       "name": "Belarus",
+       "ar": "Belarus",
+       "logo": "https://media.api-sports.io/football/teams/1100.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1545613,
+      "date": "2026-11-12T22:45:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Podgorica",
+      "league": {
+       "id": 5,
+       "name": "UEFA Nations League",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/5.png",
+       "round": "League C - 5"
+      },
+      "home": {
+       "id": 1109,
+       "name": "Montenegro",
+       "ar": "Montenegro",
+       "logo": "https://media.api-sports.io/football/teams/1109.png"
+      },
+      "away": {
+       "id": 1092,
+       "name": "Latvia",
+       "ar": "Latvia",
+       "logo": "https://media.api-sports.io/football/teams/1092.png"
+      },
+      "goals": null
+     }
+    ]
+   },
+   {
+    "league": {
+     "id": 143,
+     "name": "Copa del Rey",
+     "logo": "https://media.api-sports.io/football/leagues/143.png"
+    },
+    "matches": [
+     {
+      "id": 1644370,
+      "date": "2026-11-12T20:30:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Puertollano",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9899,
+       "name": "Calvo Sotelo",
+       "ar": "Calvo Sotelo",
+       "logo": "https://media.api-sports.io/football/teams/9899.png"
+      },
+      "away": {
+       "id": 722,
+       "name": "Albacete",
+       "ar": "Albacete",
+       "logo": "https://media.api-sports.io/football/teams/722.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1644363,
+      "date": "2026-11-12T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Estadio Municipal de Santo Domingo",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 5271,
+       "name": "Navalcarnero",
+       "ar": "Navalcarnero",
+       "logo": "https://media.api-sports.io/football/teams/5271.png"
+      },
+      "away": {
+       "id": 543,
+       "name": "Real Betis",
+       "ar": "ريال بيتيس",
+       "logo": "https://media.api-sports.io/football/teams/543.png"
+      },
+      "goals": null
+     },
+     {
+      "id": 1644379,
+      "date": "2026-11-12T21:00:00+03:00",
+      "status": "NS",
+      "elapsed": null,
+      "venue": "Tarancon",
+      "league": {
+       "id": 143,
+       "name": "Copa del Rey",
+       "country": "Spain",
+       "logo": "https://media.api-sports.io/football/leagues/143.png",
+       "round": "Round of 128"
+      },
+      "home": {
+       "id": 9907,
+       "name": "Tarancón",
+       "ar": "Tarancón",
+       "logo": "https://media.api-sports.io/football/teams/9907.png"
+      },
+      "away": {
+       "id": 539,
+       "name": "Levante",
+       "ar": "ليفانتي",
+       "logo": "https://media.api-sports.io/football/teams/539.png"
+      },
+      "goals": null
+     }
+    ]
+   }
+  ]
+ },
+ "yesterday": {
   "date": "2026-11-11",
   "groups": [
    {
@@ -208,8 +753,8 @@
      {
       "id": 1649540,
       "date": "2026-11-11T03:30:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 10,
@@ -230,40 +775,16 @@
        "ar": "Anguilla",
        "logo": "https://media.api-sports.io/football/teams/8150.png"
       },
-      "goals": null
-     },
-     {
-      "id": 1647357,
-      "date": "2026-11-11T15:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
-      "venue": "",
-      "league": {
-       "id": 10,
-       "name": "Friendlies",
-       "country": "World",
-       "logo": "https://media.api-sports.io/football/leagues/10.png",
-       "round": "Friendly International"
-      },
-      "home": {
-       "id": 1542,
-       "name": "Vietnam",
-       "ar": "Vietnam",
-       "logo": "https://media.api-sports.io/football/teams/1542.png"
-      },
-      "away": {
-       "id": 1557,
-       "name": "Chinese Taipei",
-       "ar": "Chinese Taipei",
-       "logo": "https://media.api-sports.io/football/teams/1557.png"
-      },
-      "goals": null
+      "goals": [
+       5,
+       1
+      ]
      },
      {
       "id": 1647634,
-      "date": "2026-11-11T15:35:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "date": "2026-11-11T14:35:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Chengdu",
       "league": {
        "id": 10,
@@ -284,13 +805,46 @@
        "ar": "Vietnam U19",
        "logo": "https://media.api-sports.io/football/teams/19157.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       1
+      ]
+     },
+     {
+      "id": 1647357,
+      "date": "2026-11-11T15:00:00+03:00",
+      "status": "FT",
+      "elapsed": 90,
+      "venue": "Nam Dinh",
+      "league": {
+       "id": 10,
+       "name": "Friendlies",
+       "country": "World",
+       "logo": "https://media.api-sports.io/football/leagues/10.png",
+       "round": "Friendly International"
+      },
+      "home": {
+       "id": 1542,
+       "name": "Vietnam",
+       "ar": "Vietnam",
+       "logo": "https://media.api-sports.io/football/teams/1542.png"
+      },
+      "away": {
+       "id": 1557,
+       "name": "Chinese Taipei",
+       "ar": "Chinese Taipei",
+       "logo": "https://media.api-sports.io/football/teams/1557.png"
+      },
+      "goals": [
+       2,
+       0
+      ]
      },
      {
       "id": 1647635,
       "date": "2026-11-11T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 10,
@@ -311,13 +865,16 @@
        "ar": "Netherlands U18",
        "logo": "https://media.api-sports.io/football/teams/22435.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       2
+      ]
      },
      {
       "id": 1649007,
       "date": "2026-11-11T17:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "",
       "league": {
        "id": 10,
@@ -338,269 +895,9 @@
        "ar": "Norway U19",
        "logo": "https://media.api-sports.io/football/teams/10342.png"
       },
-      "goals": null
-     }
-    ]
-   }
-  ]
- },
- "yesterday": {
-  "date": "2026-11-10",
-  "groups": [
-   {
-    "league": {
-     "id": 10,
-     "name": "Friendlies",
-     "logo": "https://media.api-sports.io/football/leagues/10.png"
-    },
-    "matches": [
-     {
-      "id": 1649005,
-      "date": "2026-11-10T11:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Pleiku",
-      "league": {
-       "id": 10,
-       "name": "Friendlies",
-       "country": "World",
-       "logo": "https://media.api-sports.io/football/leagues/10.png",
-       "round": "Friendly International"
-      },
-      "home": {
-       "id": 10954,
-       "name": "Qatar U23",
-       "ar": "Qatar U23",
-       "logo": "https://media.api-sports.io/football/teams/10954.png"
-      },
-      "away": {
-       "id": 10956,
-       "name": "Singapore U23",
-       "ar": "Singapore U23",
-       "logo": "https://media.api-sports.io/football/teams/10956.png"
-      },
       "goals": [
-       0,
-       0
-      ]
-     },
-     {
-      "id": 1649006,
-      "date": "2026-11-10T15:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Pleiku",
-      "league": {
-       "id": 10,
-       "name": "Friendlies",
-       "country": "World",
-       "logo": "https://media.api-sports.io/football/leagues/10.png",
-       "round": "Friendly International"
-      },
-      "home": {
-       "id": 10964,
-       "name": "Vietnam U23",
-       "ar": "Vietnam U23",
-       "logo": "https://media.api-sports.io/football/teams/10964.png"
-      },
-      "away": {
-       "id": 10960,
-       "name": "Thailand U23",
-       "ar": "Thailand U23",
-       "logo": "https://media.api-sports.io/football/teams/10960.png"
-      },
-      "goals": [
-       3,
-       0
-      ]
-     }
-    ]
-   },
-   {
-    "league": {
-     "id": 143,
-     "name": "Copa del Rey",
-     "logo": "https://media.api-sports.io/football/leagues/143.png"
-    },
-    "matches": [
-     {
-      "id": 1644336,
-      "date": "2026-11-10T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Azcoitia",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 15340,
-       "name": "Anaitasuna",
-       "ar": "Anaitasuna",
-       "logo": "https://media.api-sports.io/football/teams/15340.png"
-      },
-      "away": {
-       "id": 542,
-       "name": "Alaves",
-       "ar": "ألافيس",
-       "logo": "https://media.api-sports.io/football/teams/542.png"
-      },
-      "goals": [
-       1,
-       6
-      ]
-     },
-     {
-      "id": 1644365,
-      "date": "2026-11-10T21:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Navarre",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9854,
-       "name": "Pamplona",
-       "ar": "Pamplona",
-       "logo": "https://media.api-sports.io/football/teams/9854.png"
-      },
-      "away": {
-       "id": 545,
-       "name": "Eibar",
-       "ar": "Eibar",
-       "logo": "https://media.api-sports.io/football/teams/545.png"
-      },
-      "goals": [
-       0,
-       3
-      ]
-     },
-     {
-      "id": 1644335,
-      "date": "2026-11-10T22:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Amorebieta-Etxano",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9380,
-       "name": "Amorebieta",
-       "ar": "Amorebieta",
-       "logo": "https://media.api-sports.io/football/teams/9380.png"
-      },
-      "away": {
-       "id": 5280,
-       "name": "UD Logroñés",
-       "ar": "UD Logroñés",
-       "logo": "https://media.api-sports.io/football/teams/5280.png"
-      },
-      "goals": [
-       1,
-       0
-      ]
-     },
-     {
-      "id": 1644362,
-      "date": "2026-11-10T22:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Estepona",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 22569,
-       "name": "Mijas Las Lagunas",
-       "ar": "Mijas Las Lagunas",
-       "logo": "https://media.api-sports.io/football/teams/22569.png"
-      },
-      "away": {
-       "id": 5274,
-       "name": "Real Jaén",
-       "ar": "Real Jaén",
-       "logo": "https://media.api-sports.io/football/teams/5274.png"
-      },
-      "goals": [
-       1,
-       2
-      ]
-     },
-     {
-      "id": 1644382,
-      "date": "2026-11-10T22:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Leganes",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 9718,
-       "name": "Trival Valderas",
-       "ar": "Trival Valderas",
-       "logo": "https://media.api-sports.io/football/teams/9718.png"
-      },
-      "away": {
-       "id": 537,
-       "name": "Leganes",
-       "ar": "Leganes",
-       "logo": "https://media.api-sports.io/football/teams/537.png"
-      },
-      "goals": [
-       0,
+       2,
        1
-      ]
-     },
-     {
-      "id": 1644380,
-      "date": "2026-11-10T23:00:00+03:00",
-      "status": "FT",
-      "elapsed": 90,
-      "venue": "Valencia",
-      "league": {
-       "id": 143,
-       "name": "Copa del Rey",
-       "country": "Spain",
-       "logo": "https://media.api-sports.io/football/leagues/143.png",
-       "round": "Round of 128"
-      },
-      "home": {
-       "id": 28415,
-       "name": "Tavernes",
-       "ar": "Tavernes",
-       "logo": "https://media.api-sports.io/football/teams/28415.png"
-      },
-      "away": {
-       "id": 532,
-       "name": "Valencia",
-       "ar": "فالنسيا",
-       "logo": "https://media.api-sports.io/football/teams/532.png"
-      },
-      "goals": [
-       0,
-       6
       ]
      }
     ]
@@ -2537,54 +2834,27 @@
  },
  "errors": [
   {
-   "endpoint": "status",
-   "params": {},
-   "error": [
-    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
-   ]
-  },
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-11-11",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
-   ]
-  },
-  {
-   "endpoint": "fixtures",
-   "params": {
-    "date": "2026-11-10",
-    "timezone": "Asia/Riyadh"
-   },
-   "error": [
-    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
-   ]
-  },
-  {
    "endpoint": "fixtures",
    "params": {
     "date": "2026-10-01",
     "timezone": "Asia/Riyadh"
    },
    "error": [
-    "Free plans do not have access to this date, try from 2026-11-10 to 2026-11-12."
+    "Free plans do not have access to this date, try from 2026-11-11 to 2026-11-13."
    ]
   },
   {
    "endpoint": "fixtures",
    "params": {
-    "date": "2026-11-12",
+    "date": "2026-11-14",
     "timezone": "Asia/Riyadh"
    },
    "error": [
-    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
+    "Free plans do not have access to this date, try from 2026-11-11 to 2026-11-13."
    ]
   }
  ],
- "requests": 5,
+ "requests": 6,
  "plan": "Pro",
  "archiveComplete": false
 }
