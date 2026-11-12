@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T00:07:04.663Z",
+ "updated": "2026-11-12T07:04:12.568Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [],
@@ -207,9 +207,9 @@
     "matches": [
      {
       "id": 1586134,
-      "date": "2026-11-12T09:00:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "date": "2026-11-12T09:10:00+03:00",
+      "status": "HT",
+      "elapsed": 45,
       "venue": "Auckland",
       "league": {
        "id": 10,
@@ -230,7 +230,10 @@
        "ar": "India",
        "logo": "https://media.api-sports.io/football/teams/1537.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1649008,
