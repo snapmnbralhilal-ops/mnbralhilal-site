@@ -691,6 +691,12 @@
         let changed = false;
         for (const [k, v] of Object.entries(allLeagues)) {
           if (!v?.rows?.length) continue;
+          // لا تسمح لرد حيّ جزئي بإرجاع ترتيب روشن إلى نقاط وأرقام قديمة.
+          if (k === "spl" && st.spl?.manualSnapshot) {
+            const baseline = st.spl.rows?.find(r => r.team?.id === HILAL_ID);
+            const incoming = v.rows.find(r => r.team?.id === HILAL_ID);
+            if (!incoming || (baseline && incoming.played < baseline.played)) continue;
+          }
           if (JSON.stringify(st[k]?.rows) !== JSON.stringify(v.rows)) { st[k] = v; changed = true; }
         }
         if (changed) { DATA.standings = st; renderTables(st); }
