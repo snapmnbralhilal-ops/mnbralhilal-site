@@ -1,9 +1,431 @@
 {
- "updated": "2026-11-13T09:56:56.858Z",
+ "updated": "2026-11-13T09:58:33.182Z",
  "hilal": {
   "teamId": 2932,
-  "upcoming": [],
+  "upcoming": [
+   {
+    "id": -2026111301,
+    "date": "2026-11-23T16:45:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "ملعب الاستقلال - فرغانة",
+    "league": {
+     "id": 17,
+     "name": "AFC Champions League Elite",
+     "country": "World",
+     "logo": "https://media.api-sports.io/football/leagues/17.png",
+     "round": "League Phase - 5"
+    },
+    "home": {
+     "id": -5001,
+     "name": "نيفتشي فرغانة",
+     "ar": "نيفتشي فرغانة",
+     "logo": ""
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111302,
+    "date": "2026-11-28T17:20:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "ملعب نادي الاتفاق - الدمام",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 13"
+    },
+    "home": {
+     "id": 2934,
+     "name": "Al-Ettifaq",
+     "ar": "الاتفاق",
+     "logo": "https://media.api-sports.io/football/teams/2934.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111303,
+    "date": "2026-12-03T20:30:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "المملكة أرينا - الرياض",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 14"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 26738,
+     "name": "Al Diriyah",
+     "logo": "https://media.api-sports.io/football/teams/26738.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111304,
+    "date": "2026-12-07T21:15:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "المملكة أرينا - الرياض",
+    "league": {
+     "id": 17,
+     "name": "AFC Champions League Elite",
+     "country": "World",
+     "logo": "https://media.api-sports.io/football/leagues/17.png",
+     "round": "League Phase - 6"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": -5002,
+     "name": "العين",
+     "ar": "العين",
+     "logo": ""
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111305,
+    "date": "2026-12-11T17:50:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "ملعب نادي الحزم - الرس",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 15"
+    },
+    "home": {
+     "id": 10509,
+     "name": "Al Kholood",
+     "logo": "https://media.api-sports.io/football/teams/10509.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111306,
+    "date": "2026-12-17T20:30:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "المملكة أرينا - الرياض",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 16"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2951,
+     "name": "Abha",
+     "ar": "أبها",
+     "logo": "https://media.api-sports.io/football/teams/2951.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111307,
+    "date": "2026-12-21T17:45:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "مدينة الأمير فيصل بن فهد - الرياض",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 9 (postponed)"
+    },
+    "home": {
+     "id": 10511,
+     "name": "Al Riyadh",
+     "ar": "الرياض",
+     "logo": "https://media.api-sports.io/football/teams/10511.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111308,
+    "date": "2027-01-01T20:30:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "الأول بارك - الرياض",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 17"
+    },
+    "home": {
+     "id": 2939,
+     "name": "Al-Nassr",
+     "logo": "https://media.api-sports.io/football/teams/2939.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111309,
+    "date": "2027-01-08T16:35:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "مدينة المجمعة الرياضية",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 18"
+    },
+    "home": {
+     "id": 2930,
+     "name": "Al-Faisaly FC",
+     "ar": "الفيصلي",
+     "logo": "https://media.api-sports.io/football/teams/2930.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111310,
+    "date": "2027-01-11T20:00:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "المملكة أرينا - الرياض",
+    "league": {
+     "id": 504,
+     "name": "King's Cup",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/504.png",
+     "round": "Round of 16"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2945,
+     "name": "Al-Hazm",
+     "ar": "الحزم",
+     "logo": "https://media.api-sports.io/football/teams/2945.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111311,
+    "date": "2027-01-16T20:30:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "المملكة أرينا - الرياض",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 19"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2944,
+     "name": "Al-Fayha",
+     "ar": "الفيحاء",
+     "logo": "https://media.api-sports.io/football/teams/2944.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111312,
+    "date": "2027-01-22T20:30:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "ملعب الإنماء - جدة",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 20"
+    },
+    "home": {
+     "id": 2929,
+     "name": "Al-Ahli Jeddah",
+     "logo": "https://media.api-sports.io/football/teams/2929.png"
+    },
+    "away": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "goals": null,
+    "verified": true
+   },
+   {
+    "id": -2026111313,
+    "date": "2027-01-28T18:15:00+03:00",
+    "status": "NS",
+    "elapsed": null,
+    "venue": "المملكة أرينا - الرياض",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 21"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2928,
+     "name": "Al Khaleej Saihat",
+     "ar": "الخليج",
+     "logo": "https://media.api-sports.io/football/teams/2928.png"
+    },
+    "goals": null,
+    "verified": true
+   }
+  ],
   "results": [
+   {
+    "id": -2026111331,
+    "date": "2026-11-03T21:15:00+03:00",
+    "status": "FT",
+    "elapsed": 90,
+    "venue": "المملكة أرينا - الرياض",
+    "league": {
+     "id": 17,
+     "name": "AFC Champions League Elite",
+     "country": "World",
+     "logo": "https://media.api-sports.io/football/leagues/17.png",
+     "round": "League Phase - 4"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": -5003,
+     "name": "شباب الأهلي",
+     "ar": "شباب الأهلي",
+     "logo": ""
+    },
+    "goals": [
+     2,
+     0
+    ],
+    "verified": true
+   },
+   {
+    "id": -2026111332,
+    "date": "2026-10-31T21:00:00+03:00",
+    "status": "FT",
+    "elapsed": 90,
+    "venue": "المملكة أرينا - الرياض",
+    "league": {
+     "id": 307,
+     "name": "Pro League",
+     "country": "Saudi-Arabia",
+     "logo": "https://media.api-sports.io/football/leagues/307.png",
+     "round": "Regular Season - 12"
+    },
+    "home": {
+     "id": 2932,
+     "name": "Al-Hilal Saudi FC",
+     "ar": "الهلال",
+     "logo": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    "away": {
+     "id": 2931,
+     "name": "Al-Fateh",
+     "logo": "https://media.api-sports.io/football/teams/2931.png"
+    },
+    "goals": [
+     2,
+     0
+    ],
+    "verified": true
+   },
    {
     "id": 1629956,
     "date": "2026-10-27T21:15:00+03:00",
@@ -164,33 +586,21 @@
  "news": [
   {
    "tag": "الهلال",
-   "title": "الهلال يخسر أمام الشمال بنتيجة 3-1",
-   "body": "خارج أرضه في دوري أبطال آسيا للنخبة — League Phase - 3.",
+   "title": "الهلال يتغلب على شباب الأهلي بنتيجة 2-0",
+   "body": "على أرضه في دوري أبطال آسيا للنخبة — الجولة 4.",
    "link": "#hilal"
   },
   {
    "tag": "الهلال",
-   "title": "الهلال في المركز 5 بدوري روشن برصيد 9 نقطة",
-   "body": "متأخراً بـنقطة واحدة عن المتصدر الشباب.",
+   "title": "الهلال يحل ضيفاً على نيفتشي فرغانة في دوري أبطال آسيا للنخبة",
+   "body": "الاثنين 23 نوفمبر الساعة 16:45 بتوقيت مكة.",
+   "link": "#hilal"
+  },
+  {
+   "tag": "الهلال",
+   "title": "الهلال يتصدر دوري روشن برصيد 30 نقطة",
+   "body": "بفارق نقطتين عن القادسية صاحب المركز الثاني.",
    "link": "#table"
-  },
-  {
-   "tag": "عالمي",
-   "title": "برايتون يتصدر الدوري الإنجليزي برصيد 9 نقطة",
-   "body": "يليه تشيلسي بـ9 نقطة.",
-   "link": "#table"
-  },
-  {
-   "tag": "عالمي",
-   "title": "New Zealand يكتسح India 5-0",
-   "body": "في مباريات ودية دولية.",
-   "link": "#today"
-  },
-  {
-   "tag": "عالمي",
-   "title": "26 مباراة اليوم في أبرز الدوريات",
-   "body": "أبرزها في مباريات ودية دولية.",
-   "link": "#today"
   }
  ],
  "teamName": "الهلال",
@@ -1536,691 +1946,330 @@
    "season": 2026,
    "rows": [
     {
-     "team": {
-      "id": 2940,
-      "name": "Al Shabab",
-      "ar": "الشباب",
-      "logo": "https://media.api-sports.io/football/teams/2940.png"
-     },
-     "played": 4,
-     "win": 3,
-     "draw": 1,
-     "lose": 0,
-     "gf": 14,
-     "ga": 4,
-     "points": 10,
-     "gd": 10,
      "rank": 1,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 2928,
-      "name": "Al Khaleej Saihat",
-      "ar": "الخليج",
-      "logo": "https://media.api-sports.io/football/teams/2928.png"
-     },
-     "played": 5,
-     "win": 3,
-     "draw": 1,
-     "lose": 1,
-     "gf": 11,
-     "ga": 9,
-     "points": 10,
-     "gd": 2,
-     "rank": 2,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 2933,
-      "name": "Al-Qadisiyah FC",
-      "logo": "https://media.api-sports.io/football/teams/2933.png"
-     },
-     "played": 4,
-     "win": 3,
-     "draw": 0,
-     "lose": 1,
-     "gf": 11,
-     "ga": 4,
-     "points": 9,
-     "gd": 7,
-     "rank": 3,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 2939,
-      "name": "Al-Nassr",
-      "logo": "https://media.api-sports.io/football/teams/2939.png"
-     },
-     "played": 3,
-     "win": 3,
-     "draw": 0,
-     "lose": 0,
-     "gf": 9,
-     "ga": 4,
-     "points": 9,
-     "gd": 5,
-     "rank": 4,
-     "description": ""
-    },
-    {
      "team": {
       "id": 2932,
       "name": "Al-Hilal Saudi FC",
       "ar": "الهلال",
       "logo": "https://media.api-sports.io/football/teams/2932.png"
      },
-     "played": 3,
-     "win": 3,
+     "played": 11,
+     "win": 10,
      "draw": 0,
-     "lose": 0,
-     "gf": 7,
-     "ga": 4,
-     "points": 9,
-     "gd": 3,
-     "rank": 5,
+     "lose": 1,
+     "gf": 32,
+     "ga": 9,
+     "gd": 23,
+     "points": 30,
      "description": ""
     },
     {
+     "rank": 2,
+     "team": {
+      "id": 2933,
+      "name": "Al-Qadisiyah FC",
+      "logo": "https://media.api-sports.io/football/teams/2933.png"
+     },
+     "played": 12,
+     "win": 9,
+     "draw": 1,
+     "lose": 2,
+     "gf": 32,
+     "ga": 12,
+     "gd": 20,
+     "points": 28,
+     "description": ""
+    },
+    {
+     "rank": 3,
+     "team": {
+      "id": 2939,
+      "name": "Al-Nassr",
+      "logo": "https://media.api-sports.io/football/teams/2939.png"
+     },
+     "played": 11,
+     "win": 9,
+     "draw": 1,
+     "lose": 1,
+     "gf": 28,
+     "ga": 11,
+     "gd": 17,
+     "points": 28,
+     "description": ""
+    },
+    {
+     "rank": 4,
      "team": {
       "id": 2938,
       "name": "Al-Ittihad FC",
       "ar": "الاتحاد",
       "logo": "https://media.api-sports.io/football/teams/2938.png"
      },
-     "played": 4,
-     "win": 2,
-     "draw": 1,
+     "played": 11,
+     "win": 7,
+     "draw": 3,
      "lose": 1,
-     "gf": 9,
-     "ga": 5,
-     "points": 7,
-     "gd": 4,
-     "rank": 6,
+     "gf": 21,
+     "ga": 11,
+     "gd": 10,
+     "points": 24,
      "description": ""
     },
     {
-     "team": {
-      "id": 2934,
-      "name": "Al-Ettifaq",
-      "ar": "الاتفاق",
-      "logo": "https://media.api-sports.io/football/teams/2934.png"
-     },
-     "played": 4,
-     "win": 2,
-     "draw": 1,
-     "lose": 1,
-     "gf": 6,
-     "ga": 5,
-     "points": 7,
-     "gd": 1,
-     "rank": 7,
-     "description": ""
-    },
-    {
+     "rank": 5,
      "team": {
       "id": 10513,
       "name": "NEOM",
       "ar": "نيوم",
       "logo": "https://media.api-sports.io/football/teams/10513.png"
      },
-     "played": 5,
-     "win": 2,
+     "played": 12,
+     "win": 7,
      "draw": 1,
-     "lose": 2,
-     "gf": 5,
-     "ga": 4,
-     "points": 7,
-     "gd": 1,
-     "rank": 8,
+     "lose": 4,
+     "gf": 18,
+     "ga": 10,
+     "gd": 8,
+     "points": 22,
      "description": ""
     },
     {
-     "team": {
-      "id": 2930,
-      "name": "Al-Faisaly FC",
-      "ar": "الفيصلي",
-      "logo": "https://media.api-sports.io/football/teams/2930.png"
-     },
-     "played": 4,
-     "win": 2,
-     "draw": 1,
-     "lose": 1,
-     "gf": 7,
-     "ga": 7,
-     "points": 7,
-     "gd": 0,
-     "rank": 9,
-     "description": ""
-    },
-    {
+     "rank": 6,
      "team": {
       "id": 2929,
       "name": "Al-Ahli Jeddah",
       "logo": "https://media.api-sports.io/football/teams/2929.png"
      },
-     "played": 3,
-     "win": 2,
+     "played": 11,
+     "win": 7,
      "draw": 0,
-     "lose": 1,
-     "gf": 8,
-     "ga": 9,
-     "points": 6,
-     "gd": -1,
-     "rank": 10,
+     "lose": 4,
+     "gf": 28,
+     "ga": 19,
+     "gd": 9,
+     "points": 21,
      "description": ""
     },
     {
+     "rank": 7,
+     "team": {
+      "id": 2934,
+      "name": "Al-Ettifaq",
+      "ar": "الاتفاق",
+      "logo": "https://media.api-sports.io/football/teams/2934.png"
+     },
+     "played": 12,
+     "win": 5,
+     "draw": 4,
+     "lose": 3,
+     "gf": 18,
+     "ga": 17,
+     "gd": 1,
+     "points": 19,
+     "description": ""
+    },
+    {
+     "rank": 8,
      "team": {
       "id": 26738,
       "name": "Al Diriyah",
       "logo": "https://media.api-sports.io/football/teams/26738.png"
      },
-     "played": 4,
-     "win": 1,
-     "draw": 1,
-     "lose": 2,
-     "gf": 3,
-     "ga": 5,
-     "points": 4,
-     "gd": -2,
-     "rank": 11,
+     "played": 12,
+     "win": 4,
+     "draw": 3,
+     "lose": 5,
+     "gf": 10,
+     "ga": 13,
+     "gd": -3,
+     "points": 15,
      "description": ""
     },
     {
+     "rank": 9,
+     "team": {
+      "id": 2928,
+      "name": "Al Khaleej Saihat",
+      "ar": "الخليج",
+      "logo": "https://media.api-sports.io/football/teams/2928.png"
+     },
+     "played": 12,
+     "win": 3,
+     "draw": 6,
+     "lose": 3,
+     "gf": 14,
+     "ga": 19,
+     "gd": -5,
+     "points": 15,
+     "description": ""
+    },
+    {
+     "rank": 10,
+     "team": {
+      "id": 2940,
+      "name": "Al Shabab",
+      "ar": "الشباب",
+      "logo": "https://media.api-sports.io/football/teams/2940.png"
+     },
+     "played": 11,
+     "win": 3,
+     "draw": 5,
+     "lose": 3,
+     "gf": 20,
+     "ga": 15,
+     "gd": 5,
+     "points": 14,
+     "description": ""
+    },
+    {
+     "rank": 11,
+     "team": {
+      "id": 10509,
+      "name": "Al Kholood",
+      "logo": "https://media.api-sports.io/football/teams/10509.png"
+     },
+     "played": 11,
+     "win": 3,
+     "draw": 3,
+     "lose": 5,
+     "gf": 17,
+     "ga": 26,
+     "gd": -9,
+     "points": 12,
+     "description": ""
+    },
+    {
+     "rank": 12,
      "team": {
       "id": 10511,
       "name": "Al Riyadh",
       "ar": "الرياض",
       "logo": "https://media.api-sports.io/football/teams/10511.png"
      },
-     "played": 4,
-     "win": 1,
-     "draw": 1,
-     "lose": 2,
-     "gf": 3,
-     "ga": 9,
-     "points": 4,
-     "gd": -6,
-     "rank": 12,
+     "played": 11,
+     "win": 3,
+     "draw": 3,
+     "lose": 5,
+     "gf": 11,
+     "ga": 25,
+     "gd": -14,
+     "points": 12,
      "description": ""
     },
     {
-     "team": {
-      "id": 2931,
-      "name": "Al-Fateh",
-      "logo": "https://media.api-sports.io/football/teams/2931.png"
-     },
-     "played": 3,
-     "win": 1,
-     "draw": 0,
-     "lose": 2,
-     "gf": 6,
-     "ga": 8,
-     "points": 3,
-     "gd": -2,
      "rank": 13,
-     "description": ""
-    },
-    {
      "team": {
       "id": 2944,
       "name": "Al-Fayha",
       "ar": "الفيحاء",
       "logo": "https://media.api-sports.io/football/teams/2944.png"
      },
-     "played": 4,
-     "win": 0,
-     "draw": 2,
-     "lose": 2,
-     "gf": 5,
-     "ga": 8,
-     "points": 2,
-     "gd": -3,
-     "rank": 14,
+     "played": 12,
+     "win": 2,
+     "draw": 5,
+     "lose": 5,
+     "gf": 16,
+     "ga": 20,
+     "gd": -4,
+     "points": 11,
      "description": ""
     },
     {
+     "rank": 14,
      "team": {
       "id": 2945,
       "name": "Al-Hazm",
       "ar": "الحزم",
       "logo": "https://media.api-sports.io/football/teams/2945.png"
      },
-     "played": 5,
-     "win": 0,
-     "draw": 2,
-     "lose": 3,
-     "gf": 7,
-     "ga": 11,
-     "points": 2,
-     "gd": -4,
+     "played": 12,
+     "win": 2,
+     "draw": 4,
+     "lose": 6,
+     "gf": 14,
+     "ga": 20,
+     "gd": -6,
+     "points": 10,
+     "description": ""
+    },
+    {
      "rank": 15,
-     "description": ""
-    },
-    {
      "team": {
-      "id": 2951,
-      "name": "Abha",
-      "ar": "أبها",
-      "logo": "https://media.api-sports.io/football/teams/2951.png"
+      "id": 2930,
+      "name": "Al-Faisaly FC",
+      "ar": "الفيصلي",
+      "logo": "https://media.api-sports.io/football/teams/2930.png"
      },
-     "played": 4,
-     "win": 0,
-     "draw": 1,
-     "lose": 3,
-     "gf": 2,
-     "ga": 6,
-     "points": 1,
-     "gd": -4,
-     "rank": 16,
+     "played": 12,
+     "win": 2,
+     "draw": 4,
+     "lose": 6,
+     "gf": 13,
+     "ga": 24,
+     "gd": -11,
+     "points": 10,
      "description": ""
     },
     {
+     "rank": 16,
+     "team": {
+      "id": 2931,
+      "name": "Al-Fateh",
+      "logo": "https://media.api-sports.io/football/teams/2931.png"
+     },
+     "played": 12,
+     "win": 1,
+     "draw": 3,
+     "lose": 8,
+     "gf": 10,
+     "ga": 25,
+     "gd": -15,
+     "points": 6,
+     "description": ""
+    },
+    {
+     "rank": 17,
      "team": {
       "id": 2936,
       "name": "Al Taawon",
       "ar": "التعاون",
       "logo": "https://media.api-sports.io/football/teams/2936.png"
      },
-     "played": 4,
+     "played": 12,
      "win": 0,
-     "draw": 1,
-     "lose": 3,
-     "gf": 2,
-     "ga": 7,
-     "points": 1,
-     "gd": -5,
-     "rank": 17,
+     "draw": 5,
+     "lose": 7,
+     "gf": 6,
+     "ga": 20,
+     "gd": -14,
+     "points": 5,
      "description": ""
     },
     {
-     "team": {
-      "id": 10509,
-      "name": "Al Kholood",
-      "logo": "https://media.api-sports.io/football/teams/10509.png"
-     },
-     "played": 3,
-     "win": 0,
-     "draw": 0,
-     "lose": 3,
-     "gf": 5,
-     "ga": 11,
-     "points": 0,
-     "gd": -6,
      "rank": 18,
+     "team": {
+      "id": 2951,
+      "name": "Abha",
+      "ar": "أبها",
+      "logo": "https://media.api-sports.io/football/teams/2951.png"
+     },
+     "played": 11,
+     "win": 0,
+     "draw": 3,
+     "lose": 8,
+     "gf": 7,
+     "ga": 19,
+     "gd": -12,
+     "points": 3,
      "description": ""
     }
    ],
-   "computed": true
+   "manualSnapshot": true,
+   "verifiedAt": "2026-11-13"
   },
   "epl": {
    "season": 2026,
-   "rows": [
-    {
-     "team": {
-      "id": 51,
-      "name": "Brighton",
-      "ar": "برايتون",
-      "logo": "https://media.api-sports.io/football/teams/51.png"
-     },
-     "played": 4,
-     "win": 3,
-     "draw": 0,
-     "lose": 1,
-     "gf": 9,
-     "ga": 2,
-     "points": 9,
-     "gd": 7,
-     "rank": 1,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 49,
-      "name": "Chelsea",
-      "ar": "تشيلسي",
-      "logo": "https://media.api-sports.io/football/teams/49.png"
-     },
-     "played": 5,
-     "win": 3,
-     "draw": 0,
-     "lose": 2,
-     "gf": 9,
-     "ga": 4,
-     "points": 9,
-     "gd": 5,
-     "rank": 2,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 42,
-      "name": "Arsenal",
-      "ar": "آرسنال",
-      "logo": "https://media.api-sports.io/football/teams/42.png"
-     },
-     "played": 3,
-     "win": 3,
-     "draw": 0,
-     "lose": 0,
-     "gf": 5,
-     "ga": 1,
-     "points": 9,
-     "gd": 4,
-     "rank": 3,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 35,
-      "name": "Bournemouth",
-      "ar": "بورنموث",
-      "logo": "https://media.api-sports.io/football/teams/35.png"
-     },
-     "played": 4,
-     "win": 3,
-     "draw": 0,
-     "lose": 1,
-     "gf": 8,
-     "ga": 6,
-     "points": 9,
-     "gd": 2,
-     "rank": 4,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 40,
-      "name": "Liverpool",
-      "ar": "ليفربول",
-      "logo": "https://media.api-sports.io/football/teams/40.png"
-     },
-     "played": 4,
-     "win": 3,
-     "draw": 0,
-     "lose": 1,
-     "gf": 7,
-     "ga": 5,
-     "points": 9,
-     "gd": 2,
-     "rank": 5,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 66,
-      "name": "Aston Villa",
-      "ar": "أستون فيلا",
-      "logo": "https://media.api-sports.io/football/teams/66.png"
-     },
-     "played": 4,
-     "win": 2,
-     "draw": 2,
-     "lose": 0,
-     "gf": 9,
-     "ga": 7,
-     "points": 8,
-     "gd": 2,
-     "rank": 6,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 47,
-      "name": "Tottenham",
-      "ar": "توتنهام",
-      "logo": "https://media.api-sports.io/football/teams/47.png"
-     },
-     "played": 3,
-     "win": 2,
-     "draw": 1,
-     "lose": 0,
-     "gf": 6,
-     "ga": 2,
-     "points": 7,
-     "gd": 4,
-     "rank": 7,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 50,
-      "name": "Manchester City",
-      "ar": "مانشستر سيتي",
-      "logo": "https://media.api-sports.io/football/teams/50.png"
-     },
-     "played": 3,
-     "win": 2,
-     "draw": 0,
-     "lose": 1,
-     "gf": 7,
-     "ga": 4,
-     "points": 6,
-     "gd": 3,
-     "rank": 8,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 36,
-      "name": "Fulham",
-      "ar": "فولهام",
-      "logo": "https://media.api-sports.io/football/teams/36.png"
-     },
-     "played": 3,
-     "win": 2,
-     "draw": 0,
-     "lose": 1,
-     "gf": 3,
-     "ga": 2,
-     "points": 6,
-     "gd": 1,
-     "rank": 9,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 57,
-      "name": "Ipswich",
-      "ar": "إبسويتش",
-      "logo": "https://media.api-sports.io/football/teams/57.png"
-     },
-     "played": 4,
-     "win": 1,
-     "draw": 1,
-     "lose": 2,
-     "gf": 6,
-     "ga": 7,
-     "points": 4,
-     "gd": -1,
-     "rank": 10,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 746,
-      "name": "Sunderland",
-      "ar": "سندرلاند",
-      "logo": "https://media.api-sports.io/football/teams/746.png"
-     },
-     "played": 4,
-     "win": 1,
-     "draw": 1,
-     "lose": 2,
-     "gf": 1,
-     "ga": 4,
-     "points": 4,
-     "gd": -3,
-     "rank": 11,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 1346,
-      "name": "Coventry",
-      "ar": "كوفنتري",
-      "logo": "https://media.api-sports.io/football/teams/1346.png"
-     },
-     "played": 3,
-     "win": 1,
-     "draw": 0,
-     "lose": 2,
-     "gf": 5,
-     "ga": 5,
-     "points": 3,
-     "gd": 0,
-     "rank": 12,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 34,
-      "name": "Newcastle",
-      "ar": "نيوكاسل",
-      "logo": "https://media.api-sports.io/football/teams/34.png"
-     },
-     "played": 3,
-     "win": 1,
-     "draw": 0,
-     "lose": 2,
-     "gf": 3,
-     "ga": 5,
-     "points": 3,
-     "gd": -2,
-     "rank": 13,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 33,
-      "name": "Manchester United",
-      "ar": "مانشستر يونايتد",
-      "logo": "https://media.api-sports.io/football/teams/33.png"
-     },
-     "played": 5,
-     "win": 0,
-     "draw": 3,
-     "lose": 2,
-     "gf": 6,
-     "ga": 11,
-     "points": 3,
-     "gd": -5,
-     "rank": 14,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 52,
-      "name": "Crystal Palace",
-      "ar": "كريستال بالاس",
-      "logo": "https://media.api-sports.io/football/teams/52.png"
-     },
-     "played": 4,
-     "win": 1,
-     "draw": 0,
-     "lose": 3,
-     "gf": 4,
-     "ga": 11,
-     "points": 3,
-     "gd": -7,
-     "rank": 15,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 64,
-      "name": "Hull City",
-      "ar": "هال سيتي",
-      "logo": "https://media.api-sports.io/football/teams/64.png"
-     },
-     "played": 3,
-     "win": 0,
-     "draw": 2,
-     "lose": 1,
-     "gf": 3,
-     "ga": 4,
-     "points": 2,
-     "gd": -1,
-     "rank": 16,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 63,
-      "name": "Leeds",
-      "ar": "ليدز",
-      "logo": "https://media.api-sports.io/football/teams/63.png"
-     },
-     "played": 3,
-     "win": 0,
-     "draw": 2,
-     "lose": 1,
-     "gf": 2,
-     "ga": 3,
-     "points": 2,
-     "gd": -1,
-     "rank": 17,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 55,
-      "name": "Brentford",
-      "ar": "برينتفورد",
-      "logo": "https://media.api-sports.io/football/teams/55.png"
-     },
-     "played": 4,
-     "win": 0,
-     "draw": 2,
-     "lose": 2,
-     "gf": 4,
-     "ga": 7,
-     "points": 2,
-     "gd": -3,
-     "rank": 18,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 65,
-      "name": "Nottingham Forest",
-      "ar": "نوتنغهام فورست",
-      "logo": "https://media.api-sports.io/football/teams/65.png"
-     },
-     "played": 3,
-     "win": 0,
-     "draw": 1,
-     "lose": 2,
-     "gf": 2,
-     "ga": 5,
-     "points": 1,
-     "gd": -3,
-     "rank": 19,
-     "description": ""
-    },
-    {
-     "team": {
-      "id": 45,
-      "name": "Everton",
-      "ar": "إيفرتون",
-      "logo": "https://media.api-sports.io/football/teams/45.png"
-     },
-     "played": 3,
-     "win": 0,
-     "draw": 1,
-     "lose": 2,
-     "gf": 2,
-     "ga": 6,
-     "points": 1,
-     "gd": -4,
-     "rank": 20,
-     "description": ""
-    }
-   ],
-   "computed": true
+   "rows": []
   },
   "laliga": {
    "season": 2026,

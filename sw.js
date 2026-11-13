@@ -1,5 +1,5 @@
 /* منبر الهلال — يخلي الموقع يشتغل كتطبيق ويفتح بسرعة حتى مع نت ضعيف */
-const CACHE = "mnbr-202610110010";
+const CACHE = "mnbr-20261113-fixtures-news";
 const CORE = ["./", "./index.html", "./videos.html", "./founding.html", "./play.html", "./matchday.html", "./stats.html", "./occasions.html", "./settings.html", "./manifest.webmanifest",
   "./assets/logo.png", "./assets/icon-192.png",
   "./assets/fonts/ExpoArabic-Book.woff", "./assets/fonts/ExpoArabic-Bold.woff"];

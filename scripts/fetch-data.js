@@ -15,6 +15,56 @@ const SPL_ID = 307;    // دوري روشن
 const EPL_ID = 39;     // الدوري الإنجليزي
 const OUT = path.join(__dirname, "..", "data", "site.json");
 
+/* ---------- التواريخ الرسمية المؤكدة عند تعطل باقة API ----------
+   تُقرأ من ملف منفصل حتى لا تمحوها مهمة GitHub Actions كل 10 دقائق.
+   لا تثبت نتيجة مستقبلية، ولا تعرض ترتيباً يدوياً بعد انتهاء صلاحيته. */
+const VERIFIED = path.join(__dirname, "..", "data", "official-data.json");
+function applyVerified(data) {
+  let manual;
+  try { manual = JSON.parse(fs.readFileSync(VERIFIED, "utf8")); } catch { return; }
+  const now = Date.now();
+  const h = data.hilal || { teamId: HILAL_ID, upcoming: [], results: [] };
+  const pair = (m) => [Number(m.league?.id), Number(m.home?.id), Number(m.away?.id)].join(":");
+  const manualResults = (manual.results || []).filter(m => new Date(m.date).getTime() <= now);
+  const completed = [...(h.results || []), ...manualResults];
+  const byResult = new Map();
+  for (const m of completed) {
+    const key = pair(m);
+    const old = byResult.get(key);
+    if (!old || (old.verified && !m.verified) || new Date(m.date) > new Date(old.date)) byResult.set(key, m);
+  }
+  const results = [...byResult.values()].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 24);
+  const finished = new Set(results.map(pair));
+  const upcomingManual = (manual.upcoming || []).filter(m =>
+    new Date(m.date).getTime() > now - 3 * 3600000 && !finished.has(pair(m)));
+  const manualKeys = new Set(upcomingManual.map(pair));
+  // المصادر الحية لها الأسبقية إذا كانت المباراة انطلقت بالفعل.
+  const feed = (h.upcoming || []).filter(m => {
+    const k = pair(m);
+    return !manualKeys.has(k) || LIVE.includes(m.status);
+  });
+  const future = [...feed, ...upcomingManual].filter(m => {
+    return LIVE.includes(m.status) || (new Date(m.date).getTime() > now - 3 * 3600000
+      && !DONE.includes(m.status) && !["CANC", "ABD"].includes(m.status));
+  }).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 24);
+  data.hilal = { ...h, teamId: HILAL_ID, upcoming: future, results };
+  if (!data.standings) data.standings = {};
+  if (manual.spl && now < new Date(manual.spl.validUntil).getTime()) {
+    // التخزين الاحتياطي للترتيب، لا يستبدل استجابة Pro حديثة مكتملة.
+    const provider = data.standings.spl;
+    if (!provider || provider.computed || !provider.rows?.length || provider.rows.find(r => r.team?.id === HILAL_ID)?.played < 11) {
+      data.standings.spl = { season: manual.spl.season, rows: manual.spl.rows, verifiedAt: manual.asOf, manualSnapshot: true };
+    }
+  } else if (data.standings.spl?.computed && data.archiveComplete === false) {
+    data.standings.spl = { season: data.season, rows: [] };
+  }
+  // جدول الإنجليزي المحسوب من أرشيف ناقص لا يُعرض وكأنه محدث.
+  if (data.archiveComplete === false && data.standings.epl?.computed) {
+    data.standings.epl = { season: data.season, rows: [] };
+  }
+}
+
+
 // الدوريات اللي تظهر في "مباريات اليوم" مرتبة حسب الأهمية
 const PRIORITY = [307, 17, 504, 826, 308, 18, 2, 39, 140, 135, 78, 61, 3, 848, 1, 15, 7, 4, 9, 6, 30, 32, 34, 29, 10, 5,
   305, 301, 233, 200, 94, 88, 203, 45, 48, 143, 137, 253];
@@ -292,7 +342,7 @@ async function main() {
     .filter((m) => new Date(m.date) > Date.now() - 3 * 3600e3)
     .sort((a, b) => a.date.localeCompare(b.date));
   const res = hil.filter((m) => DONE.includes(m.status) && m.goals).sort((a, b) => b.date.localeCompare(a.date));
-  data.hilal = { teamId: HILAL_ID, upcoming: [...live, ...up].slice(0, 6), results: res.slice(0, 8) };
+  data.hilal = { teamId: HILAL_ID, upcoming: [...live, ...up].slice(0, 24), results: res.slice(0, 8) };
 
   if (today) data.today = { date: todayYmd, groups: groupByLeague(today) };
   if (yday) data.yesterday = { date: ydayYmd, groups: groupByLeague(yday.filter((f) => DONE.includes(f.fixture.status.short))) };
@@ -305,6 +355,7 @@ async function main() {
   const stillMissing = missing.length - Math.min(missing.length, BACKFILL_PER_RUN);
   data.archiveComplete = stillMissing <= 0;
 
+  applyVerified(data);
   data.news = writeNews(data);
   data.errors = errors;
   data.requests = requests;
@@ -421,7 +472,7 @@ async function mainPro(prev, season, todayYmd, ydayYmd, plan) {
     const up = all.filter((m) => !LIVE.includes(m.status) && !DONE.includes(m.status) && !["CANC", "ABD", "AWD", "WO"].includes(m.status))
       .filter((m) => new Date(m.date) > Date.now() - 3 * 3600e3).sort((a, b) => a.date.localeCompare(b.date));
     const res = all.filter((m) => DONE.includes(m.status) && m.goals).sort((a, b) => b.date.localeCompare(a.date));
-    data.hilal = { teamId: HILAL_ID, upcoming: [...live, ...up].slice(0, 10), results: res.slice(0, 15) };
+    data.hilal = { teamId: HILAL_ID, upcoming: [...live, ...up].slice(0, 24), results: res.slice(0, 15) };
   }
   if (today) data.today = { date: todayYmd, groups: groupByLeague(today) };
   if (yday) data.yesterday = { date: ydayYmd, groups: groupByLeague(yday.filter((f) => DONE.includes(f.fixture.status.short))) };
@@ -439,6 +490,7 @@ async function mainPro(prev, season, todayYmd, ydayYmd, plan) {
     cleanOldFixtureFiles();
   } catch (e) { errors.push({ endpoint: "fixtures-details", error: String(e) }); }
 
+  applyVerified(data);
   data.news = writeNews(data);
   data.errors = errors;
   data.requests = requests;
