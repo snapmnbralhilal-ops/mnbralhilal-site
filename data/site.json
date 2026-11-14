@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T02:54:36.427Z",
+ "updated": "2026-11-14T09:47:41.788Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3624,6 +3624,33 @@
  },
  "errors": [
   {
+   "endpoint": "status",
+   "params": {},
+   "error": [
+    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
+   ]
+  },
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "date": "2026-11-14",
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
+   ]
+  },
+  {
+   "endpoint": "fixtures",
+   "params": {
+    "date": "2026-11-13",
+    "timezone": "Asia/Riyadh"
+   },
+   "error": [
+    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
+   ]
+  },
+  {
    "endpoint": "fixtures",
    "params": {
     "date": "2026-10-01",
@@ -3636,15 +3663,15 @@
   {
    "endpoint": "fixtures",
    "params": {
-    "date": "2026-11-16",
+    "date": "2026-11-15",
     "timezone": "Asia/Riyadh"
    },
    "error": [
-    "Free plans do not have access to this date, try from 2026-11-13 to 2026-11-15."
+    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
    ]
   }
  ],
- "requests": 6,
+ "requests": 5,
  "plan": "Pro",
  "archiveComplete": false
 }
