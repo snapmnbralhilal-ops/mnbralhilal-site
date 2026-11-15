@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:23:42.783Z",
+ "updated": "2026-11-15T06:57:01.074Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -630,8 +630,8 @@
      {
       "id": 1586133,
       "date": "2026-11-15T06:10:00+03:00",
-      "status": "NS",
-      "elapsed": null,
+      "status": "FT",
+      "elapsed": 90,
       "venue": "Christchurch",
       "league": {
        "id": 10,
@@ -652,7 +652,10 @@
        "ar": "India",
        "logo": "https://media.api-sports.io/football/teams/1537.png"
       },
-      "goals": null
+      "goals": [
+       3,
+       0
+      ]
      },
      {
       "id": 1647366,
