@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:36:43.904Z",
+ "updated": "2026-11-16T21:14:07.238Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
@@ -3000,7 +3000,7 @@
   {
    "endpoint": "fixtures",
    "params": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "timezone": "Asia/Riyadh"
    },
    "error": [
@@ -3010,7 +3010,7 @@
   {
    "endpoint": "fixtures",
    "params": {
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "timezone": "Asia/Riyadh"
    },
    "error": [
@@ -3030,11 +3030,11 @@
   {
    "endpoint": "fixtures",
    "params": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "timezone": "Asia/Riyadh"
    },
    "error": [
-    "You have reached the request limit for the day, Go to https://dashboard.api-football.com to upgrade your plan."
+    "Free plans do not have access to this date, try from 2026-11-15 to 2026-11-17."
    ]
   }
  ],
