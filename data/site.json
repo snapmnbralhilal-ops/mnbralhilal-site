@@ -1,36 +1,8 @@
 {
- "updated": "2026-11-28T10:22:24.925Z",
+ "updated": "2026-11-28T18:21:13.054Z",
  "hilal": {
   "teamId": 2932,
   "upcoming": [
-   {
-    "id": -2026111302,
-    "date": "2026-11-28T17:20:00+03:00",
-    "status": "NS",
-    "elapsed": null,
-    "venue": "ملعب نادي الاتفاق - الدمام",
-    "league": {
-     "id": 307,
-     "name": "Pro League",
-     "country": "Saudi-Arabia",
-     "logo": "https://media.api-sports.io/football/leagues/307.png",
-     "round": "Regular Season - 13"
-    },
-    "home": {
-     "id": 2934,
-     "name": "Al-Ettifaq",
-     "ar": "الاتفاق",
-     "logo": "https://media.api-sports.io/football/teams/2934.png"
-    },
-    "away": {
-     "id": 2932,
-     "name": "Al-Hilal Saudi FC",
-     "ar": "الهلال",
-     "logo": "https://media.api-sports.io/football/teams/2932.png"
-    },
-    "goals": null,
-    "verified": true
-   },
    {
     "id": -2026111303,
     "date": "2026-12-03T20:30:00+03:00",
@@ -595,8 +567,8 @@
   },
   {
    "tag": "الهلال",
-   "title": "الهلال يحل ضيفاً على الاتفاق في دوري روشن السعودي",
-   "body": "السبت، 28 نوفمبر الساعة 17:20 بتوقيت مكة.",
+   "title": "الهلال يستضيف الدرعية في دوري روشن السعودي",
+   "body": "الخميس، 3 ديسمبر الساعة 20:30 بتوقيت مكة.",
    "link": "#hilal"
   },
   {
